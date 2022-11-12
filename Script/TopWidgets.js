@@ -9,7 +9,7 @@
 [rewrite_local]
 
 #  TopWidgets  VIP
-^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body 
+^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/TopWidgets.js
 
 [mitm]
 

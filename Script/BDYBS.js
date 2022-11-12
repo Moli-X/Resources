@@ -1,11 +1,11 @@
-
+/*************
 [rewrite_remote]
 # > 百度云倍速
-^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body 
+^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/BDYBS.js
 
 [mitm]
 hostname = pan.baidu.com
-
+***********/
 
 
 

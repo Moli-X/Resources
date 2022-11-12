@@ -4,7 +4,7 @@
 [rewrite_local]
 
 
-^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body 
+^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Bilibili/ZMBlibili.js
 
 [mitm]
 

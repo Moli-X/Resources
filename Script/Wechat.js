@@ -2,7 +2,7 @@
             
 [rewrite_local]
 # ✅微信链接跳转
-^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/Wechat.js
+^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Wechat.js
 
 
 [mitm]

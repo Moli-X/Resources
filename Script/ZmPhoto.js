@@ -1,17 +1,11 @@
-/***********************************
 
+/***********************************
             
 [rewrite_local]
-
-# ✅百度文库
-^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/Baiduwk.js
-
-
-
+# IDPhoto - 最美证件照
+^https:\/\/fufei\.fengyunsoft\.cn\/api\/client\/info url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/ZmPhoto.js
 [mitm]
-
-hostname= appwk.baidu.com
-
+hostname= photos.adobe.io
 ***********************************/
 
 

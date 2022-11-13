@@ -5,7 +5,7 @@
 # IDPhoto - 最美证件照
 ^https:\/\/fufei\.fengyunsoft\.cn\/api\/client\/info url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/ZmPhoto.js
 [mitm]
-hostname= photos.adobe.io
+hostname= fufei.fengyunsoft.cn, photos.adobe.io
 ***********************************/
 
 

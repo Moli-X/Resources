@@ -1,28 +1,13 @@
 /***********************************
-            
 [rewrite_local]
+
 # ✅百度文库
 ^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/Baiduwk.js
 
-
 [mitm]
 hostname= appwk.baidu.com
+
 ***********************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

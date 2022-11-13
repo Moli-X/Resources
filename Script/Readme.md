@@ -1,3 +1,5 @@
+#### 以下资源链接都可以直接开资源解析器重写引用
+
 |资源|链接|
 |----|-----|
 |百度文库|[Baiduwk.js](https://github.com/Moli-X/Resources/raw/main/Script/Baiduwk.js)|

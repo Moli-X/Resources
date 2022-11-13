@@ -2,14 +2,15 @@
 
             
 [rewrite_local]
-# IDPhoto - 最美证件照
 
-^https:\/\/fufei\.fengyunsoft\.cn\/api\/client\/info url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/ZmPhoto.js
+# ✅百度文库
+^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/Baiduwk.js
+
 
 
 [mitm]
 
-hostname= photos.adobe.io
+hostname= appwk.baidu.com
 
 ***********************************/
 

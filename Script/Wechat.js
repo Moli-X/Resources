@@ -1,3 +1,34 @@
+/***********************************
+            
+[rewrite_local]
+# ✅微信链接跳转
+^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/Wechat.js
+
+
+[mitm]
+hostname= weixin110.qq.com, security.wechat.com
+***********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let persisVal = read("UnblockURLinWeChat");
 let useCache = persisVal.useCache === "true"; //是否在微信中用快照显示被封禁的链接
 let forceRedirect = persisVal.forceRedirect === "true"; //是否在微信中进行强制重定向，允许的情况下可能出现循环重定向

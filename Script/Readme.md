@@ -9,6 +9,6 @@
 |TopWidgets|[TopWidgets.js](https://github.com/Moli-X/Resources/raw/main/Script/TopWidgets.js)|
 |微信跳转|[Wechat.js](https://github.com/Moli-X/Resources/raw/main/Script/Wechat.js)|
 |小红书|[Xiaohongshu.js](https://github.com/Moli-X/Resources/raw/main/Script/Xiaohongshu.js)|
-|最美证件照|ZmPhoto.js](https://github.com/Moli-X/Resources/raw/main/Script/ZmPhoto.js)|
+|最美证件照|[ZmPhoto.js](https://github.com/Moli-X/Resources/raw/main/Script/ZmPhoto.js)|
 |有道词典|[YDictionary.js](https://github.com/Moli-X/Resources/raw/main/Script/YDictionary.js)|
 

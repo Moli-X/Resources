@@ -1,3 +1,42 @@
+/***********************************
+            
+[rewrite_local]
+# ✅扫描全能王
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://github.com/Moli-X/Resources/raw/main/Script/Saomiao.js
+
+
+[mitm]
+hostname= ap*.intsig.net
+***********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let body = JSON.parse($response.body)
     body.data.psnl_vip_property = {"renew_method": "appstore",
       "initial_tm": "1614867690",

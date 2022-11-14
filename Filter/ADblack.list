@@ -6,3 +6,46 @@ HOST-SUFFIX, meituan.yoga, reject
 HOST-SUFFIX, meituangov.cn, reject
 HOST-SUFFIX, report.meituan.com, reject
 HOST-SUFFIX, wmlog.meituan.com, reject
+# > 交管12123
+host, static.122.gov.cn, reject
+HOST-SUFFIX, v3.fstats.xyz, reject
+HOST-SUFFIX, wss.haoyundmn.com, reject 
+HOST-SUFFIX, new.xiongzhangad.com, reject  
+HOST-SUFFIX, alexametrics.com, reject 
+HOST-KEYWORD, in-page-push, reject
+# > 百度
+HOST-SUFFIX,duapps.com, reject
+HOST-SUFFIX,cpro.baidu.com, reject
+HOST-SUFFIX,pos.baidu.com, reject
+HOST,afd.baidu.com, reject
+HOST,als.baidu.com, reject
+HOST,duclick.baidu.com, reject
+HOST,mobads.baidu.com, reject
+HOST,mobads-logs.baidu.com, reject
+HOST,nadvideo2.baidu.com, reject
+HOST,nsclick.baidu.com, reject
+HOST-SUFFIX,bce.baidu.com, reject
+HOST-SUFFIX,bar.baidu.com, reject
+HOST-SUFFIX,baiduyubaidu.com, reject
+HOST-SUFFIX,baidutv.baidu.com, reject
+HOST-SUFFIX,baichuan.baidu.com, reject
+HOST-SUFFIX,appc.baidu.com, reject
+HOST-SUFFIX,anquan.baidu.com, reject
+HOST-SUFFIX,adscdn.baidu.com, reject
+HOST-SUFFIX,adm.baidu.com, reject
+HOST-SUFFIX,ad.player.baidu.com, reject
+HOST-SUFFIX,a.baidu.com, reject
+HOST-SUFFIX,antivirus.baidu.com, reject
+HOST-SUFFIX,baifen.music.baidu.com, reject
+HOST-SUFFIX,banlv.baidu.com, reject
+HOST-SUFFIX,cm.baidu.com, reject
+HOST-SUFFIX,cpro.zhidao.baidu.com, reject
+HOST-SUFFIX,cleaner.baidu.com, reject
+HOST-SUFFIX,cjhq.baidu.com, reject
+HOST-SUFFIX,cb.baidu.com, reject
+HOST-SUFFIX,c.baidu.com, reject
+HOST-SUFFIX,btlaunch.baidu.com, reject
+HOST-SUFFIX,bdplus.baidu.com, reject
+HOST-SUFFIX,cbjs.baidu.com, reject
+HOST-SUFFIX,cpro2.baidu.com, reject
+HOST-SUFFIX,cpu-admin.baidu.com, reject

@@ -189,16 +189,7 @@ USER-AGENT,*Spotify*,海外服务
 USER-AGENT,Spotify*,海外服务
 IP-CIDR,35.186.224.47/32,海外服务
 
-# > YouTube 
-USER-AGENT,*youtube*,海外服务
-USER-AGENT,YouTube*,海外服务
-HOST-KEYWORD,youtube,海外服务
-HOST,yt3.ggpht.com,海外服务
-HOST-SUFFIX,googlevideo.com,海外服务
-HOST-SUFFIX,gvt2.com,海外服务
-HOST-SUFFIX,youtu.be,海外服务
-HOST,youtubei.googleapis.com,海外服务
-HOST-SUFFIX,ytimg.com,海外服务
+
 
 #Twitter
 HOST-SUFFIX,ads-twitter.com,海外服务

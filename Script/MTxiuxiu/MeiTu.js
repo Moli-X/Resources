@@ -1,4 +1,5 @@
-/*************
+# 美图秀秀vip
+/**************************************
 [rewrite_remote]
 # ✅美图秀秀vip
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js
@@ -6,7 +7,7 @@
 ^https:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js
 [mitm]
 hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com
-***********/
+****************************************/
 
 
 

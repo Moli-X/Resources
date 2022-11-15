@@ -4,7 +4,7 @@
 # 哔哩哔哩自动换区教程
 
 ## ❶ 添加重写：
-[自动换区](https://github.com/Moli-X/Resources/raw/main/Rewrite/Bilibili/AutoBilibili.conf)
+https://github.com/Moli-X/Resources/raw/main/Rewrite/Bilibili/AutoBilibili.conf
 
 ## ❷ 添加规则集：
 
@@ -26,7 +26,7 @@ ip-cidr, 203.107.1.1/24, reject
 
 BoxJs订阅地址: https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 <p align="left">
-<img src="https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Bilibili/bo.png" width="250" height="500" />
+<img src="https://github.com/Moli-X/Resources/raw/main/Icon/Other/bo.png" width="250" height="500" />
 </p>
 
 

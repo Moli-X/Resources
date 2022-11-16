@@ -9,7 +9,7 @@
 
 首先获取CA证书并信任ios系统比较特殊，需要先下载并信任CA证书才可以。
 
-首先用ios手机浏览器打开本页面，直接点击链接：https://github.com/WSL33099/QuantumultX/raw/main/NetEaseMusic/CA.crt
+首先用ios手机浏览器打开本页面，直接点击链接：https://github.com/Moli-X/Resources/raw/main/Filter/NetEaseMusic/CA.crt
 
 在弹出的对话框中点击允许下载CA证书，然后进入设置>通用>描述文件，安装CA证书，并在设置>通用>关于本机>证书信任设置 开启对CA证书的信任。
 

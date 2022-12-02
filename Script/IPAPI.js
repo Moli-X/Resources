@@ -1,5 +1,11 @@
 /*
-原链接：https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/IP.js
+原链接：https://raw.githubusercontent.com/Orz-3/Orz-3/master/QuantumultX/IP.js
+其他：#======================================
+# geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/limbopro/QuantumultX/master/Scripts/IP_API.js
+# geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/IP.js
+# geo_location_checker=http://ip-api.com/json/?lang=zh-CN,https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/GeoLocationChecker/QuantumultX/IP-API.js
+# geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Orz-3/Orz-3/master/QuantumultX/IP.js
+#======================================
 */
 
 

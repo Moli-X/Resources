@@ -429,7 +429,7 @@ HOST-SUFFIX,tajs.qq.com, reject
 HOST-SUFFIX,wxsnsdy.wxs.qq.com, reject
 HOST-SUFFIX,wxsnsdythumb.wxs.qq.com, reject
 HOST-SUFFIX,fusion.qq.com, reject
-HOST-SUFFIX,ios.bugly.qq.com, reject
+# HOST-SUFFIX,ios.bugly.qq.com, reject(哔哩哔哩误杀)
 HOST,safebrowsing.urlsec.qq.com, reject
 HOST-SUFFIX,oth.str.mdt.qq.com, reject
 HOST-SUFFIX,l.qq.com, reject

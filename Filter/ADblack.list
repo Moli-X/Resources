@@ -577,9 +577,9 @@ HOST-SUFFIX,cm.adcommon.bilibili.com, reject
 HOST-SUFFIX,cm.game.bilibili.com, reject
 HOST-SUFFIX,cm.track.biligame.bilibili.com, reject
 # > 快手
-HOST-SUFFIX,yximgs.com, reject
+# HOST-SUFFIX,yximgs.com, reject
 HOST-SUFFIX,e.kuaishou.com, reject
-HOST,js-ad.a.yximgs.com, reject
+# HOST,js-ad.a.yximgs.com, reject
 HOST-SUFFIX,cm.downloader.commercial.kuaishou.com, reject
 HOST-SUFFIX,cm.ad.gifshow.com, reject
 HOST-SUFFIX,cm.kwad.com, reject

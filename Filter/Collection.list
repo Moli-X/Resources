@@ -4,17 +4,17 @@
 # ===================================
 # 🟢大陆服务
 # 其他
-host-suffix, deltaww.com, direct
-host-suffix, deltaww.com.cn, direct
-host-suffix, ens-apj.getboxer.com, direct
-host-suffix, eventproxy.na1.data.vmwservices.com, direct
-host-suffix, scapi.vmware.com, direct
+# host-suffix, deltaww.com, direct
+# host-suffix, deltaww.com.cn, direct
+# host-suffix, ens-apj.getboxer.com, direct
+# host-suffix, eventproxy.na1.data.vmwservices.com, direct
+# host-suffix, scapi.vmware.com, direct
 ip-asn,132203,direct
 host-keyword, apple.com, direct
 host-keyword, tantanapp, direct
-host, academy, direct
-host-keyword, deltaww, direct
-host-keyword,westdata,direct
+# host, academy, direct
+# host-keyword, deltaww, direct
+# host-keyword,westdata,direct
 
 # 微信
 HOST-KEYWORD, wechat, direct

@@ -3,18 +3,7 @@
 
 # ===================================
 # 🟢大陆服务
-# 其他
-# host-suffix, deltaww.com, direct
-# host-suffix, deltaww.com.cn, direct
-# host-suffix, ens-apj.getboxer.com, direct
-# host-suffix, eventproxy.na1.data.vmwservices.com, direct
-# host-suffix, scapi.vmware.com, direct
-ip-asn,132203,direct
-host-keyword, apple.com, direct
-host-keyword, tantanapp, direct
-# host, academy, direct
-# host-keyword, deltaww, direct
-# host-keyword,westdata,direct
+
 
 # 微信
 HOST-KEYWORD, wechat, direct
@@ -181,10 +170,32 @@ HOST, ocsp.apple.com, direct
 HOST, api.smoot.apple.com,direct
 HOST, apps.apple.com,direct
 HOST, itunes.apple.com,direct
-
+# Boxer
+host, signing.awmdm.com,direct
+host, ocsp.digicert.com,direct
+host, discovery.awmdm.com,direct
+host, discovery.awmdm.com,direct
+host-suffix, deltaww.com,direct
+host-suffix, deltaww.com.cn,direct
+host-suffix, ens-apj.getboxer.com,direct
+host-suffix, eventproxy.na1.data.vmwservices.com,direct
+host-suffix, scapi.vmware.com,direct
+host-suffix,gravatar.com,direct
+host-suffix,appcenter.ms,direct
+host-suffix,boxeravatars.getboxer.com,direct
+host-keyword,getboxer,direct
+host-keyword,gravatar,direct
+host-keyword,vmwservices,direct
+host-keyword,academy,direct
+host-keyword,deltaww,direct
+host-keyword,vmware,direct
+host-keyword,awmdm,direct
 # 比价脚本出现问题
 HOST-SUFFIX, cc.m.jd.com, direct
-
+# 其他
+host-keyword, apple.com, direct
+host-keyword, tantanapp, direct
+ip-asn,132203,direct
 GEOIP,CN, DIRECT
 
 

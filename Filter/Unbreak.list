@@ -5,8 +5,13 @@ host-suffix, deltaww.com.cn
 host-suffix, ens-apj.getboxer.com
 host-suffix, eventproxy.na1.data.vmwservices.com
 host-suffix, scapi.vmware.com
-host, academy, direct
-host-keyword, deltaww
+host-suffix,gravatar.com
 host-suffix,appcenter.ms
 host-suffix,boxeravatars.getboxer.com
+
 host-keyword,getboxer
+host-keyword,gravatar
+host-keyword,vmwservices
+host-keyword,academy
+host-keyword,deltaww
+host-keyword,vmware

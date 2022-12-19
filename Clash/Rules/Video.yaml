@@ -1,5 +1,15 @@
 payload:
 # 包括爱奇艺，腾讯视频，哔哩哔哩
+  # 腾讯视频
+  - DOMAIN-SUFFIX,mfm.video.qq.com
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,vv.video.qq.com
+  - DOMAIN-SUFFIX,iwan-s.video.qq.com
+  - DOMAIN-SUFFIX,vfiles.gtimg.cn
+  - DOMAIN-SUFFIX,vm.gtimg.cn
+  - DOMAIN-SUFFIX,cdn-go.cn
+  - DOMAIN-SUFFIX,v.qq.com
+  - DOMAIN-SUFFIX,beacons.gcp.gvt2.com
   # 哔哩哔哩
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
@@ -126,10 +136,7 @@ payload:
   - PROCESS-NAME,com.bilibili.comic.intl
   - PROCESS-NAME,tv.danmaku.bili
   - PROCESS-NAME,tv.danmaku.bilibilihd
-  # 腾讯视频
-  - DOMAIN-SUFFIX,mfm.video.qq.com
-  - DOMAIN-SUFFIX,v.smtcdns.com
-  - DOMAIN-SUFFIX,vv.video.qq.com
+
   # 爱奇艺
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,71.am.com

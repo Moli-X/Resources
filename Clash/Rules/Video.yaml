@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,bkpay.video.qq.com
   - DOMAIN-SUFFIX,rcgi.video.qq.com
   - DOMAIN-SUFFIX,video.qq.com
+  - DOMAIN-SUFFIX,pingjs.qq.com
   # 哔哩哔哩
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com

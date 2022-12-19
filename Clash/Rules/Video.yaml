@@ -10,6 +10,21 @@ payload:
   - DOMAIN-SUFFIX,cdn-go.cn
   - DOMAIN-SUFFIX,v.qq.com
   - DOMAIN-SUFFIX,beacons.gcp.gvt2.com
+  - DOMAIN-SUFFIX,trace.qq.com
+  - DOMAIN-SUFFIX,webrtcpunch.video.qq.com
+  - DOMAIN-SUFFIX,puui.qpic.cn
+  - DOMAIN-SUFFIX,aegis.qq.com
+  - DOMAIN-SUFFIX,pbaccess.video.qq.com
+  - DOMAIN-SUFFIX,h.trace.qq.com
+  - DOMAIN-SUFFIX,access.video.qq.com
+  - DOMAIN-SUFFIX,vip.video.qq.com
+  - DOMAIN-SUFFIX,otheve.beacon.qq.com
+  - DOMAIN-SUFFIX,pbaccess.video.qq.com
+  - DOMAIN-SUFFIX,vd6.l.qq.com
+  - DOMAIN-SUFFIX,appcfg.v.qq.com
+  - DOMAIN-SUFFIX,bkpay.video.qq.com
+  - DOMAIN-SUFFIX,rcgi.video.qq.com
+  - DOMAIN-SUFFIX,video.qq.com
   # 哔哩哔哩
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com

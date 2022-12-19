@@ -26,6 +26,13 @@ payload:
   - DOMAIN-SUFFIX,rcgi.video.qq.com
   - DOMAIN-SUFFIX,video.qq.com
   - DOMAIN-SUFFIX,pingjs.qq.com
+  - DOMAIN-SUFFIX,beacons.gvt2.com
+  - DOMAIN-SUFFIX,tvpic.gtimg.cn
+  - DOMAIN-SUFFIX,video.coral.qq.com
+  - DOMAIN-SUFFIX,btrace.qq.com
+  - DOMAIN-SUFFIX,e2cs04.gcp.gvt2.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,ssl.gstatic.com
   # 哔哩哔哩
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com

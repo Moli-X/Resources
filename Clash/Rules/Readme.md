@@ -1,9 +1,9 @@
 ## CDN加速：
 OpenAI:
-https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/OpenAI.yml
+https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/OpenAI.yaml
 
 Boxer:
-https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Other.yml
+https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Other.yaml
 
 Telegram:
-https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Telegram.yml
+https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Telegram.yaml

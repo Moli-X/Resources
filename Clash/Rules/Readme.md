@@ -7,9 +7,10 @@ https://raw.githubusercontent.com/Moli-X/Resources/main/Clash/Rules/OpenAI.yaml
 https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/OpenAI.yaml
 
 ### Boxer
- **原链接**
+**原链接**
 https://raw.githubusercontent.com/Moli-X/Resources/main/Clash/Rules/Other.yaml
- **CDN加速**
+
+**CDN加速**
 https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Other.yaml
 
 ### Telegram

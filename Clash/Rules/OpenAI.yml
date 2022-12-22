@@ -1,0 +1,9 @@
+payload:
+
+
+# > OpenAI
+  - DOMAIN-SUFFIX, recaptcha.net
+  - DOMAIN-SUFFIX, openai.com
+  - DOMAIN-SUFFIX, cloudflare.hcaptcha.com
+  - DOMAIN-SUFFIX, auth0.openai.com
+  - DOMAIN-SUFFIX, chat.openai.com

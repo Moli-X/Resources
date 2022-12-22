@@ -1,5 +1,5 @@
 ## CDN加速：
-###OpenAI:
+### OpenAI
 **原链接**
 https://raw.githubusercontent.com/Moli-X/Resources/main/Clash/Rules/OpenAI.yaml
 

@@ -1,5 +1,5 @@
 /*
-//原链接：https://github.com/ddgksf2013/Scripts/raw/master/douban.js
+
 [rewrite_local]
 // 茶杯狐、流媒体
 ^https://m.douban.com/movie/subject/.+ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Cupbox/Douban.js

@@ -8,3 +8,5 @@ payload:
   - DOMAIN-SUFFIX, auth0.openai.com
   - DOMAIN-SUFFIX, chat.openai.com
   - DOMAIN-SUFFIX, hcaptcha.com
+  - DOMAIN-SUFFIX, o33249.ingest.sentry.io
+  - DOMAIN-SUFFIX, ingest.sentry.io

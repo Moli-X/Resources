@@ -1,17 +1,17 @@
 payload:
  # 其他
- - DOMAIN-SUFFIX,deltaww.com
- - DOMAIN-SUFFIX,academy.deltaww.com.cn
- - DOMAIN-SUFFIX,cnsfbpool01.deltaww.com
- - DOMAIN-SUFFIX,images.edge.messenger.live.com
- - DOMAIN-SUFFIX,diaidentityservice.azurewebsites.net
- - DOMAIN-KEYWORD,academy
- - DOMAIN-KEYWORD,deltaww
- - DOMAIN-KEYWORD,dms
- - DOMAIN-KEYWORD,mydelta
- - DOMAIN-SUFFIX,ipapi.co
- - DOMAIN-SUFFIX,trendmicro.com
- - DOMAIN-SUFFIX,osce140-en.fbs25.trendmicro.com
- - DOMAIN-SUFFIX,diaidentityservice.azurewebsites.net
- - DOMAIN-SUFFIX,login.microsoftonline.com
- - IP-CIDR,104.26.8.44/443
+  - DOMAIN-SUFFIX,deltaww.com
+  - DOMAIN-SUFFIX,academy.deltaww.com.cn
+  - DOMAIN-SUFFIX,cnsfbpool01.deltaww.com
+  - DOMAIN-SUFFIX,images.edge.messenger.live.com
+  - DOMAIN-SUFFIX,diaidentityservice.azurewebsites.net
+  - DOMAIN-KEYWORD,academy
+  - DOMAIN-KEYWORD,deltaww
+  - DOMAIN-KEYWORD,dms
+  - DOMAIN-KEYWORD,mydelta
+  - DOMAIN-SUFFIX,ipapi.co
+  - DOMAIN-SUFFIX,trendmicro.com
+  - DOMAIN-SUFFIX,osce140-en.fbs25.trendmicro.com
+  - DOMAIN-SUFFIX,diaidentityservice.azurewebsites.net
+  - DOMAIN-SUFFIX,login.microsoftonline.com
+  - IP-CIDR,104.26.8.44/443

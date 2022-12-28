@@ -14,3 +14,20 @@ payload:
   - DOMAIN-SUFFIX,osce140-en.fbs25.trendmicro.com
   - DOMAIN-SUFFIX,diaidentityservice.azurewebsites.net
   - DOMAIN-SUFFIX,login.microsoftonline.com
+  - DOMAIN-SUFFIX,odc.officeapps.live.com
+  - DOMAIN-SUFFIX,nexus.officeapps.live.com
+  - DOMAIN-SUFFIX,api.teams.skype.com
+  - DOMAIN-SUFFIX,api.teams.skype.com
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,img.teams.skype.com
+  - DOMAIN-SUFFIX,as-api.asm.skype.com
+  - DOMAIN-SUFFIX,substrate.office.com
+  - DOMAIN-SUFFIX,s-ring.msedge.net
+  - DOMAIN-SUFFIX,fpc.msedge.net
+  - DOMAIN-SUFFIX,loki.delve.office.com
+  - DOMAIN-SUFFIX,skype.com
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-KEYWORD,office
+  - DOMAIN-KEYWORD,skype
+  - DOMAIN-SUFFIX,r3.o.lencr.org

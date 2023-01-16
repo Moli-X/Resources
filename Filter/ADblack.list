@@ -570,8 +570,8 @@ HOST-SUFFIX,m-adash.m.taobao.com, reject
 HOST-SUFFIX,adashbc.m.taobao.com, reject
 
 # > 哔哩哔哩
-HOST-SUFFIX,cm.bilibili.com, reject
-host-keyword, api.sobot.com, reject
+# HOST-SUFFIX,cm.bilibili.com, reject
+# host-keyword, api.sobot.com, reject
 HOST-SUFFIX,cm.ad.bilibili.com, reject
 HOST-SUFFIX,cm.adcommon.bilibili.com, reject
 HOST-SUFFIX,cm.game.bilibili.com, reject

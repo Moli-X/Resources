@@ -10,3 +10,5 @@ payload:
   - DOMAIN-SUFFIX, hcaptcha.com
   - DOMAIN-SUFFIX, o33249.ingest.sentry.io
   - DOMAIN-SUFFIX, ingest.sentry.io
+  - DOMAIN-SUFFIX, openaicom-api-fd-cefkg5c4cydtafam.z01.azurefd.net
+  - DOMAIN-SUFFIX, production-openaicom-storage.azureedge.net

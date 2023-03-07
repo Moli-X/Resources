@@ -3,38 +3,38 @@ payload:
 
 # > OpenAI
 
-  - DOMAIN-SUFFIX, openai.com
-  - DOMAIN-SUFFIX, dashboard.openai.com
-  - DOMAIN-SUFFIX, googleapis.com
-  - DOMAIN-SUFFIX, gstatic.com
-  - DOMAIN-SUFFIX, gravatar.com
-  - DOMAIN-SUFFIX, cloudflare.com
-  - DOMAIN-SUFFIX, stripe.com
-  - DOMAIN-SUFFIX, segment.io
-  - DOMAIN-SUFFIX, sentry-cdn.com
-  - DOMAIN-SUFFIX, twilio.com
-  - DOMAIN-SUFFIX, cloudfront.net
-  - DOMAIN-SUFFIX, jquery.com
-  - DOMAIN-SUFFIX, google-analytics.com
-  - DOMAIN-SUFFIX, cloudflareinsights.com
-  - DOMAIN-SUFFIX, ravenjs.com
-  - DOMAIN-SUFFIX, unpkg.com
-  - DOMAIN-SUFFIX, amazonaws.com
-  - DOMAIN-SUFFIX, jsdelivr.net
-  - DOMAIN-SUFFIX, analytics.google.com
-  - DOMAIN-SUFFIX, px-cloud.net
-  - DOMAIN-SUFFIX, chat.openai.com
-  - DOMAIN, openaicom-api.*
-  - DOMAIN-SUFFIX, openai-files-prod-public.s3-us-west-2.amazonaws.com
-  - DOMAIN-SUFFIX, openai-production.s3.amazonaws.com
-  - DOMAIN-SUFFIX, openaicom-production-westus.azureedge.net
-  - DOMAIN-SUFFIX, openaicom-api-fd-cefkg5c4cydtafam.z01.azurefd.net
-  - DOMAIN-SUFFIX, openai.egnyte.com
-  - DOMAIN-SUFFIX, production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX, openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-SUFFIX, openai-natural-language-generation-2.azureedge.net
-  - DOMAIN-SUFFIX, openai-nlg-datasets.s3-us-west-2.amazonaws.com
-  - DOMAIN-SUFFIX, openai-gpt-3-sandbox.s3-us-west-2.amazonaws.com
-  - DOMAIN-SUFFIX, openai-api-files-public.s3-us-west-2.amazonaws.com
-  - DOMAIN-SUFFIX, openai-api-files-prod-public.s3-us-west-2.amazonaws.com
-  - DOMAIN-SUFFIX, openai-models-public.s3.us-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,dashboard.openai.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,sentry-cdn.com
+  - DOMAIN-SUFFIX,twilio.com
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,jquery.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,cloudflareinsights.com
+  - DOMAIN-SUFFIX,ravenjs.com
+  - DOMAIN-SUFFIX,unpkg.com
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,analytics.google.com
+  - DOMAIN-SUFFIX,px-cloud.net
+  - DOMAIN-SUFFIX,chat.openai.com
+  - DOMAIN,openaicom-api.*
+  - DOMAIN-SUFFIX,openai-files-prod-public.s3-us-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,openai-production.s3.amazonaws.com
+  - DOMAIN-SUFFIX,openaicom-production-westus.azureedge.net
+  - DOMAIN-SUFFIX,openaicom-api-fd-cefkg5c4cydtafam.z01.azurefd.net
+  - DOMAIN-SUFFIX,openai.egnyte.com
+  - DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,openai-natural-language-generation-2.azureedge.net
+  - DOMAIN-SUFFIX,openai-nlg-datasets.s3-us-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,openai-gpt-3-sandbox.s3-us-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,openai-api-files-public.s3-us-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,openai-api-files-prod-public.s3-us-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,openai-models-public.s3.us-west-2.amazonaws.com

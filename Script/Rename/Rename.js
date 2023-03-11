@@ -1,5 +1,5 @@
 // 感谢 @bluman ( @qwerzl ) 大佬爆肝代码！
-// 我要跪着感谢！
+// 原链接：https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js
 
 // Rename v 0.5 的使用方法
 // 在以下十二个连接中选择你原节点的格式及你需要的格式复制并修改[&airport=]部分即可。

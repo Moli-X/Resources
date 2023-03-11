@@ -11,33 +11,33 @@
 
 // 原节点名以中文命名地区。
 // > 中文改为中文（例：香港=>香港）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=zh&output=zh&airport=[你需要的机场名]
 // > 中文改为两位英文简写（例：香港=>HK）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=enShort&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=zh&output=enShort&airport=[你需要的机场名]
 // > 中文改为三位英文简写（例：香港=>HKG）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=enShort3&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=zh&output=enShort3&airport=[你需要的机场名]
 // > 中文改为英文全称（例：香港=>Hong Kong）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=enFull&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=zh&output=enFull&airport=[你需要的机场名]
 
 // 原节点名以英文简写命名地区。
 // > 两位英文简写改为中文（例：HK=>香港）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=enShort&output=zh&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=enShort&output=zh&airport=[你需要的机场名]
 // > 两位英文简写改为英文简写（例：HK=>HK）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=enShort&output=enShort&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=enShort&output=enShort&airport=[你需要的机场名]
 // > 两位英文简写改为三位英文简写（例：香港=>HKG）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=enShort&output=enShort3&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=enShort&output=enShort3&airport=[你需要的机场名]
 // > 两位英文简写改为英文全称（例：HK=>Hong Kong）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=enShort&output=enFull&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=enShort&output=enFull&airport=[你需要的机场名]
 
 // 原节点名以英文全称命名地区。
 // > 英文全称改为中文（例：Hong Kong=>香港）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=enFull&output=zh&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=enFull&output=zh&airport=[你需要的机场名]
 // > 英文全称改为两位英文简写（例：Hong Kong=>HK）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=enFull&output=enShort&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=enFull&output=enShort&airport=[你需要的机场名]
 // > 英文全称改为三位英文简写（例：香港=>HKG）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=enFull&output=enShort3&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=enFull&output=enShort3&airport=[你需要的机场名]
 // > 英文全称改为英文全称（例：Hong Kong=>Hong Kong）
-// > https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=enFull&output=enFull&airport=[你需要的机场名]
+// > https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Rename/Rename.js#input=enFull&output=enFull&airport=[你需要的机场名]
 //
 
 

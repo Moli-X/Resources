@@ -50,6 +50,19 @@ HOST, api.smoot.apple.com,direct
 HOST, apps.apple.com,direct
 HOST, itunes.apple.com,direct
 # Boxer
+host, login.windows.net, direct
+host, dl-hk5.steamdownload.top, direct
+host-keyword, microsoft, direct
+host, api.userstore.skype.com, direct
+host, api-apac.flightproxy.teams.microsoft.com, direct
+host-keyword, teams, direct
+host, api-apac.flightproxy.teams.microsoft.com, direct
+host, go.trouter.teams.microsoft.com, direct
+host, presence.teams.microsoft.com, direct
+host, login.microsoftonline.com, direct
+host, apac.ng.msg.teams.microsoft.com, direct
+host, teams.microsoft.com, direct
+host, teams.events.data.microsoft.com, direct
 host, signing.awmdm.com,direct
 host, ocsp.digicert.com,direct
 host, discovery.awmdm.com,direct
@@ -70,6 +83,9 @@ host-keyword, academy,direct
 host-keyword, deltaww,direct
 host-keyword, vmware,direct
 host-keyword, awmdm,direct
+host-keyword, teams,direct
+
+
 # 比价脚本出现问题
 HOST-SUFFIX, cc.m.jd.com, direct
 # 其他

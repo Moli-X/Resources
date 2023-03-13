@@ -1,6 +1,6 @@
 # > OpenAI
 
-host-keyword, google, 人工智能
+
 host-keyword, openai, 人工智能
 host-suffix, recaptcha.net, 人工智能
 host-suffix, openai.com, 人工智能
@@ -10,3 +10,16 @@ host-suffix, chat.openai.com, 人工智能
 host-suffix, hcaptcha.com, 人工智能
 host-suffix, o33249.ingest.sentry.io, 人工智能
 host-suffix, ingest.sentry.io, 人工智能
+host-suffix, ai.com, 人工智能
+host-suffix, vimeo.com, 人工智能
+host-suffix, vimeocdn.com, 人工智能
+host-suffix, hcaptcha.com, 人工智能
+host-suffix, akamaized.com, 人工智能
+host, cdn.auth0.com, 人工智能
+host, openaiapi-site.azureedge.net, 人工智能
+# host-suffix, googleapis.com, 人工智能
+# host-suffix, gstatic.com, 人工智能
+# host-suffix, googletagmanager.com, 人工智能
+# host-suffix, f7tk.com, 人工智能
+# host-suffix, doubleclick.com, 人工智能
+# host-suffix, google-analytics.com, 人工智能

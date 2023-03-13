@@ -1,7 +1,7 @@
 [rewrite_local]
 
 # 直连模式
-^https?:\/\/app\.bilibili\.com\/x\/resource\/domain url script-response-body https://github.com/Moli-X/Resources/Scripts/Bilibili/raw/main/ZlBilibili.js
+^https?:\/\/app\.bilibili\.com\/x\/resource\/domain url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Bilibili/ZlBilibili.js 
 
 [mitm] 
 

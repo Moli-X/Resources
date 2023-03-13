@@ -101,6 +101,13 @@ host-keyword, apple.com, direct
 host-keyword, tantanapp, direct
 ip-asn,132203,direct
 host, duckduckgo.com, direct
+host, amdc.m.taobao.com, reject
+host-keyword, apple, direct
+host, search.itunes.apple.com, direct
+host-keyword, apps, direct
+host, bag.itunes.apple.com, direct
+host,amdc.m.taobao.com,reject
+host, token.safebrowsing.apple, direct
 GEOIP,CN, DIRECT
 
 

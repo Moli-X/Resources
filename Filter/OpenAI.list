@@ -17,9 +17,40 @@ host-suffix, hcaptcha.com, 人工智能
 host-suffix, akamaized.com, 人工智能
 host, cdn.auth0.com, 人工智能
 host, openaiapi-site.azureedge.net, 人工智能
-# host-suffix, googleapis.com, 人工智能
-# host-suffix, gstatic.com, 人工智能
-# host-suffix, googletagmanager.com, 人工智能
-# host-suffix, f7tk.com, 人工智能
-# host-suffix, doubleclick.com, 人工智能
-# host-suffix, google-analytics.com, 人工智能
+host-suffix, gstatic.com, 人工智能
+host-suffix, googletagmanager.com, 人工智能
+host-suffix, f7tk.com, 人工智能
+host-suffix, doubleclick.com, 人工智能
+host-suffix, google-analytics.com, 人工智能
+host-suffix,dashboard.openai.com, 人工智能
+host-suffix,gravatar.com, 人工智能
+host-suffix,cloudflare.com, 人工智能
+host-suffix,stripe.com, 人工智能
+host-suffix,segment.io, 人工智能
+host-suffix,sentry-cdn.com, 人工智能
+host-suffix,twilio.com, 人工智能
+host-suffix,cloudfront.net, 人工智能
+host-suffix,jquery.com, 人工智能
+host-suffix,google-analytics.com, 人工智能
+host-suffix,cloudflareinsights.com, 人工智能
+host-suffix,ravenjs.com, 人工智能
+host-suffix,unpkg.com, 人工智能
+host-suffix,amazonaws.com, 人工智能
+host-suffix,jsdelivr.net, 人工智能
+host-suffix,analytics.google.com, 人工智能
+host-suffix,px-cloud.net, 人工智能
+host-suffix,chat.openai.com, 人工智能
+host,openaicom-api.*, 人工智能
+host-suffix,openai-files-prod-public.s3-us-west-2.amazonaws.com, 人工智能
+host-suffix,openai-production.s3.amazonaws.com, 人工智能
+host-suffix,openaicom-production-westus.azureedge.net, 人工智能
+host-suffix,openaicom-api-fd-cefkg5c4cydtafam.z01.azurefd.net, 人工智能
+host-suffix,openai.egnyte.com, 人工智能
+host-suffix,production-openaicom-storage.azureedge.net, 人工智能
+host-suffix,openaicomproductionae4b.blob.core.windows.net, 人工智能
+host-suffix,openai-natural-language-generation-2.azureedge.net, 人工智能
+host-suffix,openai-nlg-datasets.s3-us-west-2.amazonaws.com, 人工智能
+host-suffix,openai-gpt-3-sandbox.s3-us-west-2.amazonaws.com, 人工智能
+host-suffix,openai-api-files-public.s3-us-west-2.amazonaws.com, 人工智能
+host-suffix,openai-api-files-prod-public.s3-us-west-2.amazonaws.com, 人工智能
+host-suffix,openai-models-public.s3.us-west-2.amazonaws.com, 人工智能

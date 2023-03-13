@@ -5,6 +5,7 @@ payload:
 
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,dashboard.openai.com
+  - DOMAIN-SUFFIX,accounts.google.com
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gravatar.com

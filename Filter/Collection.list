@@ -85,6 +85,14 @@ host-keyword, vmware,direct
 host-keyword, awmdm,direct
 host-keyword, teams,direct
 
+# local
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+ip-cidr, 182.254.116.0/24, direct
+
 
 # 比价脚本出现问题
 HOST-SUFFIX, cc.m.jd.com, direct

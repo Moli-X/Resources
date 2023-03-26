@@ -5,10 +5,7 @@ payload:
   - DOMAIN-SUFFIX,cnsfbpool01.deltaww.com
   - DOMAIN-SUFFIX,images.edge.messenger.live.com
   - DOMAIN-SUFFIX,diaidentityservice.azurewebsites.net
-  - DOMAIN-KEYWORD,academy
-  - DOMAIN-KEYWORD,deltaww
-  - DOMAIN-KEYWORD,dms
-  - DOMAIN-KEYWORD,mydelta
+  - DOMAIN-SUFFIX,cnwjnwsus.delta.corp
   - DOMAIN-SUFFIX,ipapi.co
   - DOMAIN-SUFFIX,trendmicro.com
   - DOMAIN-SUFFIX,osce140-en.fbs25.trendmicro.com
@@ -64,3 +61,6 @@ payload:
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,office
   - DOMAIN-KEYWORD,skype
+  - DOMAIN-KEYWORD,delta
+  - DOMAIN-KEYWORD,dms
+  - DOMAIN-KEYWORD,mydelta

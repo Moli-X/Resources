@@ -5,8 +5,8 @@ payload:
 
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,dashboard.openai.com
-  - DOMAIN-SUFFIX,accounts.google.com
-  - DOMAIN-SUFFIX,googleapis.com
+#  - DOMAIN-SUFFIX,accounts.google.com
+#  - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,cloudflare.com
@@ -16,13 +16,13 @@ payload:
   - DOMAIN-SUFFIX,twilio.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,jquery.com
-  - DOMAIN-SUFFIX,google-analytics.com
+#  - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,cloudflareinsights.com
   - DOMAIN-SUFFIX,ravenjs.com
   - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,jsdelivr.net
-  - DOMAIN-SUFFIX,analytics.google.com
+#  - DOMAIN-SUFFIX,analytics.google.com
   - DOMAIN-SUFFIX,px-cloud.net
   - DOMAIN-SUFFIX,chat.openai.com
   - DOMAIN,openaicom-api.*

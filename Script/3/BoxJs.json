@@ -1,11 +1,10 @@
 {
   "id": "pengym.app.sub",
   "name": "BoxJs订阅合集",
-  "author": "@Moli-X",
+  "author": "@莫离",
   "icon": "https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Moli.png",
   "repo": "https://github.com/Peng-YM/QuanX",
   "apps": [
-
     {
       "id": "Github Monitor",
       "name": "GitHub 监控",
@@ -862,27 +861,7 @@
         "https://raw.githubusercontent.com/xream/scripts/main/surge/modules/gist/asset/icon.png"
       ]
     }
-
-
-
-
-
-
   ]
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-}

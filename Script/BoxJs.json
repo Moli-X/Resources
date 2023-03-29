@@ -1,10 +1,11 @@
 {
   "id": "pengym.app.sub",
-  "name": "Peng-YM 应用订阅",
-  "author": "@Peng-YM",
-  "icon": "https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
+  "name": "BoxJs订阅合集",
+  "author": "@莫离",
+  "icon": "https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Moli.png",
   "repo": "https://github.com/Peng-YM/QuanX",
   "apps": [
+
     {
       "id": "Github Monitor",
       "name": "GitHub 监控",
@@ -474,18 +475,8 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/COVID-19.png"
       ],
       "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js"
-    }
-  ]
-
-
+    },
 {
-  "id": "xream.app.sub",
-  "name": "@xream 的应用订阅",
-  "author": "@xream",
-  "icon": "https://raw.githubusercontent.com/xream/scripts/main/surge/modules/gist/asset/avatar.png",
-  "repo": "https://github.com/xream/scripts/tree/main",
-  "apps": [
-    {
       "id": "xream.enhanced_github",
       "name": "GitHub 增强",
       "descs_html": [
@@ -871,14 +862,14 @@
         "https://raw.githubusercontent.com/xream/scripts/main/surge/modules/gist/asset/icon.png"
       ]
     }
+
+
+
+
+
+
   ]
 }
-
-
-
-
-
-
 
 
 

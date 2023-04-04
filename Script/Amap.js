@@ -1,11 +1,12 @@
 
 /***********************************************
-# 高德地图去广告脚本
+# 高德地图
+# 原链接:https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 ***********************************************/	
 
 
 
-// 2023-03-31 15:52
+// 2023-4-04 15:52
 
 const url = $request.url;
 if (!$response.body) $done({});

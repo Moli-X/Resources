@@ -73,9 +73,9 @@ if (url.includes("/faas/amap-navigation/main-page")) {
       delete list.bottom.bottombar_button.hotel;
     }
     // 底栏 打车
-    if (list?.bottom?.bottombar_button?.takeCar) {
-      delete list.bottom.bottombar_button.takeCar;
-    }
+    //if (list?.bottom?.bottombar_button?.takeCar) {
+      //delete list.bottom.bottombar_button.takeCar;
+    //}
     // 预览信息中的优惠推广
     if (list?.promotion_wrap_card) {
       delete list.promotion_wrap_card;

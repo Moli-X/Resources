@@ -311,7 +311,7 @@ host-keyword, keplerapi.jd.com, reject
 host-keyword, m.suning.com, reject
 host-keyword, adshare.toutiao.com, reject
 host-keyword, tunion-api.m.taobao.com, reject
-host-keyword, mapi.m.jd.com, reject
+# host-keyword, mapi.m.jd.com, reject
 host-keyword, s1.pstatp.com, reject
 host-keyword, s2.pstatp.com, reject
 host-keyword, s3.pstatp.com, reject

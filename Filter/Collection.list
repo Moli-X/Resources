@@ -29,6 +29,7 @@ HOST-KEYWORD, wechat, direct
 HOST-KEYWORD,43.156.222.,direct
 USER-AGENT,MicroMessenger*,direct
 USER-AGENT,wechat*,direct
+
 IP-CIDR,101.32.104.4/32,direct
 IP-CIDR,101.32.104.41/32,direct
 IP-CIDR,101.32.104.56/32,direct
@@ -38,7 +39,8 @@ IP-CIDR,101.32.133.209/32,direct
 IP-CIDR,101.32.133.53/32,direct
 IP-CIDR,129.226.107.244/32,direct
 IP-CIDR,129.226.3.47/32,direct
-
+# 抖音账单
+HOST-SUFFIX,snssdk.com,direct
 
 # 关于 App Store 下载卡转圈
 HOST, identity.ess.apple.com, direct
@@ -209,7 +211,7 @@ HOST-SUFFIX,ipstatp.com,海外服务
 HOST-SUFFIX,muscdn.com,海外服务
 HOST-SUFFIX,musical.ly,海外服务
 HOST-SUFFIX,sgpstatp.com,海外服务
-HOST-SUFFIX,snssdk.com,海外服务
+# HOST-SUFFIX,snssdk.com,海外服务
 HOST-SUFFIX,tik-tokapi.com,海外服务
 HOST-SUFFIX,tiktok.com,海外服务
 HOST-SUFFIX,tiktokcdn.com,海外服务

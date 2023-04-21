@@ -2,7 +2,7 @@ payload:
 # 合集 
 
 
-  - DOMAIN,osce140-en.fbs25.trendmicro.com,REJECT
-  - DOMAIN-SUFFIX,trendmicro.com,REJECT
-  - DOMAIN-KEYWORD,trendmicro,REJECT
-  - DOMAIN-SUFFIX,trendmicro.com.cn,REJECT
+  - DOMAIN,osce140-en.fbs25.trendmicro.com
+  - DOMAIN-SUFFIX,trendmicro.com
+  - DOMAIN-KEYWORD,trendmicro
+  - DOMAIN-SUFFIX,trendmicro.com.cn

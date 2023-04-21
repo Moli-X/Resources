@@ -1,0 +1,24 @@
+payload:
+# 合集
+
+
+
+  - DOMAIN-SUFFIX,esm.run,香港服务
+  - DOMAIN-SUFFIX,jsdelivr.com,香港服务
+  - DOMAIN-SUFFIX,jsdelivr.net,香港服务
+  - DOMAIN,osce140-en.fbs25.trendmicro.com,REJECT
+  - DOMAIN-SUFFIX,trendmicro.com,REJECT
+  - DOMAIN-KEYWORD,trendmicro,REJECT
+  - DOMAIN-SUFFIX,trendmicro.com.cn,REJECT
+
+
+
+
+
+
+
+
+
+
+
+

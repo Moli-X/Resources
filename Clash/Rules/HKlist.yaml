@@ -1,0 +1,10 @@
+payload:
+# 香港分流
+
+
+
+  - DOMAIN-SUFFIX,esm.run
+  - DOMAIN-SUFFIX,jsdelivr.com
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,cdn.jsdelivr.net
+  - DOMAIN-KEYWORD,jsdelivr

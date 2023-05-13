@@ -1,0 +1,23 @@
+#使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
+
+[Script]
+Collections = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+Collections = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Baiduyun.js
+Collections = type=http-response,pattern=^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Baiduwk.js
+Collections = type=http-response,pattern=^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+Collections = type=http-response,pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js
+Collections = type=http-response,pattern=^https:\/\/api\.xiuxiu\.meitu\.com\/v1,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js
+Collections = type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Saomiao.js
+Collections = type=http-response,pattern=^https?:\/\/app\.bili(bili|api)\.(com|net)\/x\/resource\/show\/tab\/v2(\?.+)?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/js/BiliBili.Enhanced.response.js
+Collections = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|messageflow|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline)|profile/(me|container_timeline)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item|search/(finder|container_timeline|container_discover)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+Collections = type=http-response,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js
+Collections = type=http-response,pattern=^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$),requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/pornhub.js
+Collections = type=http-response,pattern=^https://m.douban.com/movie/subject/.+,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js
+Collections = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+Collections = type=http-response,pattern=^https:\/\/www.youtube.com\/api\/timedtext.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js
+Collections = type=http-request,pattern=^https://m.douban.com/movie/subject/.+\?seen=\d,requires-body=0,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js
+Collections = type=http-request,pattern=# ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
+
+[MITM]
+hostname= %APPEND% boxjs.com,boxes.net,sub.store  ,spclient.wg.spotify.com,appwk.baidu.com, pan.baidu.com,restore-access.indream.app, *wps*, *.xiuxiu.meitu.com,api.xiuxiu.meitu.com,ap*.intsig.net,testflight.apple.com,*.pornhub.com,cupfox.app,*.youtube.com,app.bilibili.com, app.biliapi.net, app.biliintl.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,*.pornhub.com,%APPEND% youtubei.googleapis.com,cn-acs.m.cainiao.com, guide-acs.m.taobao.com, weixin110.qq.com, security.wechat.com,
+

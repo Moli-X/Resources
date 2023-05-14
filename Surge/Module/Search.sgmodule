@@ -2,8 +2,253 @@
 #!desc=Safari Search Add-ons by Moli-X
 
 #############################################
+#!name=Q-Search
+#!desc=Safari Search Add-ons by Moli-X
+
+#############################################
 # 仓库地址: https://github.com/Moli-X
 # TG反馈群：https://t.me/Skill_XX
+# TG频道群：https://t.me/QuantX
+# 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
+#############################################
+
+# 快捷搜索
+# Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
+#  注：先进入设置更改 Safari 默认搜索为 DuckDuckGO
+
+# yd  xxx (有道词典)
+# trc xxx (Google 译至中)   
+# tre xxx (Google 译至英)
+# trj xxx (Google 译至日)
+
+# tt    xxx (头条)
+# db    xxx (豆瓣)
+# zh    xxx (知乎)
+# wx    xxx (微信)
+# up xxx (Unsplash)
+# sspai xxx (少数派站内搜索)
+# ssp   xxx (Google 搜索少数派)
+
+# tw    xxx (Twitter)
+# gh    xxx (GitHub)
+# so    xxx (Stack Overflow)
+# se    xxx (StackExchange)
+# wa    xxx (WolframAlpha)
+# rd    xxx (Reddit)
+
+# zdm xxx (什么值得买)
+# jd  xxx (京东)
+# tb  xxx (淘宝)
+# yt  xxx (YouTube)
+# bli xxx (哔哩哔哩)
+# gd  xxx (Google 搜索 Google Drive 资源)
+# tgd xxx (搜索 Google Drive 资源)
+# ph  xxx (PornHub)
+# af  xxx (Acfun)
+# ys  xxx (茶杯狐cupfox)
+
+# cn  (切换至中国区)
+# hk  (切换至香港区)
+# tw  (切换至台湾区)
+# us  (切换至美国区)
+# jp  (切换至日本区)
+# kr  (切换至韩国区)
+# tr  (切换至土耳其区)
+# sg  (切换至新加坡区)
+
+# tf xxx (google搜索Testflight)
+# mo xxx（莫离频道搜索）
+# tgm xxx（TG喵频道搜索）
+# bd  xxx (百度搜索)
+# wk  xxx (维基搜索)
+# wz  xxx (无追搜索)
+# yh  xxx (油猴搜索)
+# gi  xxx (Google 图片)
+# bi  xxx (必应)
+# ios  xxx (苹果应用搜索)
+#     xxx （无指令默认为 Google）
+
+
+
+
+
+
+
+
+
+[URL Rewrite]
+# ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+# ^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
+# ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+# ^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
+# ^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
+# ^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
+# ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>翻译
+# yd  xxx (有道词典)
+^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+yd.+ http://dict.youdao.com/search?q=$1 302
+# trc xxx (Google 译至中)
+^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+trc.+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1 302
+# tre xxx (Google 译至英)
+^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tre.+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1 302
+# trj xxx (Google 译至日)
+^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+trj.+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
+
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>社区
+# tt    xxx (头条)
+^https:\/\/duckduckgo.com\/\?q=tt\+([^&]+).+ https://so.toutiao.com/search?keyword=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tt.+ https://so.toutiao.com/search?keyword=$1 302
+# db    xxx (豆瓣)
+^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search?query=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+db.+ https://m.douban.com/search?query=$1 302
+# zh    xxx (知乎)
+^https:\/\/duckduckgo.com\/\?q=zh\+([^&]+).+ http://www.zhihu.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+zh.+ http://www.zhihu.com/search?q=$1 302
+# wb    xxx (微博)
+^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+ https://s.weibo.com/weibo/$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wb.+ https://s.weibo.com/weibo/$1 302
+# wx    xxx (微信)
+^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wx.+ https://weixin.sogou.com/weixinwap?query=$1 302
+# up xxx (Unsplash)
+^https:\/\/duckduckgo.com\/\?q=up\+([^&]+).+ https://unsplash.com/s/photos/$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+up.+ https://unsplash.com/s/photos/$1 302
+# sspai xxx (少数派站内搜索)
+^https:\/\/duckduckgo.com\/\?q=sspai\+([^&]+).+ https://sspai.com/search/post/$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+sspai.+ https://sspai.com/search/post/$1 302
+# ssp   xxx (Google 搜索少数派)
+^https:\/\/duckduckgo.com\/\?q=ssp\+([^&]+).+ https://www.google.com/search?as_q=$1 302&as_sitesearch=sspai.com
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ssp.+ https://www.google.com/search?as_q=$1 302&as_sitesearch=sspai.com
+# tw    xxx (Twitter)
+^https:\/\/duckduckgo.com\/\?q=tw\+([^&]+).+ https://twitter.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tw.+ https://twitter.com/search?q=$1 302
+# gh    xxx (GitHub)
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gh.+ https://github.com/search?q=$1 302
+# so    xxx (Stack Overflow)
+^https:\/\/duckduckgo.com\/\?q=so\+([^&]+).+ https://stackoverflow.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+so.+ https://stackoverflow.com/search?q=$1 302
+# se    xxx (StackExchange)
+^https:\/\/duckduckgo.com\/\?q=se\+([^&]+).+ https://stackexchange.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+se.+ https://stackexchange.com/search?q=$1 302
+# wa    xxx (WolframAlpha)
+^https:\/\/duckduckgo.com\/\?q=wa\+([^&]+).+ https://www.wolframalpha.com/input/?i=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wa.+ https://www.wolframalpha.com/input/?i=$1 302
+# rd    xxx (Reddit)
+^https:\/\/duckduckgo.com\/\?q=rd\+([^&]+).+ https://www.reddit.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+rd.+ https://www.reddit.com/search?q=$1 302
+
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>购物
+# zdm xxx (什么值得买)
+^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://search.m.smzdm.com/?v=b&s=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+zdm.+ https://search.m.smzdm.com/?v=b&s=$1 302
+# jd  xxx (京东)
+^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+jd.+ https://so.m.jd.com/ware/search.action?keyword=$1 302
+# tb  xxx (淘宝)
+^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.m.taobao.com/h5?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tb.+ https://s.m.taobao.com/h5?q=$1 302
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>视频
+# yt  xxx (YouTube)
+^https:\/\/duckduckgo.com\/\?q=yt\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+yt.+ https://www.youtube.com/results?search_query=$1 302
+# bli xxx (哔哩哔哩)
+^https:\/\/duckduckgo.com\/\?q=bli\+([^&]+).+ https://m.bilibili.com/search?keyword=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+bli.+ https://m.bilibili.com/search?keyword=$1 302
+# gd  xxx (Google 搜索 Google Drive 资源)
+^https:\/\/duckduckgo.com\/\?q=gd\+([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gd.+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
+# tgd xxx (t.me/gdurl 搜索 Google Drive 资源)
+^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+ https://t.me/s/gdurl?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tgd.+ https://t.me/s/gdurl?q=$1 302
+# ph  xxx (PornHub)
+^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ph.+ https://cn.pornhub.com/video/search?search=$1 302
+# af  xxx (Acfun)
+^https:\/\/duckduckgo.com\/\?q=af\+([^&]+).+ https://www.acfun.cn/search?keyword=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+af.+ https://www.acfun.cn/search?keyword=$1 302
+# ys  xxx (茶杯狐cupfox)
+^https:\/\/duckduckgo.com\/\?q=ys\+([^&]+).+ https://cupfox.app/search?key=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ys.+ https://cupfox.app/search?key=$1 302
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>苹果商店切换
+#源链接爬虫于>>https://www.liangjianghu.com/searchads-appstore-switch
+# cn  (切换至中国区)
+^https:\/\/duckduckgo.com\/\?q=cn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc=
+# hk  (切换至香港区)
+^https:\/\/duckduckgo.com\/\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc=
+# tw  (切换至台湾区)
+^https:\/\/duckduckgo.com\/\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc=
+# us  (切换至美国区)
+^https:\/\/duckduckgo.com\/\?q=us&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc=
+# jp  (切换至日本区)
+^https:\/\/duckduckgo.com\/\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc=
+# kr  (切换至韩国区)
+^https:\/\/duckduckgo.com\/\?q=kr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc=
+# tr  (切换至土耳其区)
+^https:\/\/duckduckgo.com\/\?q=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
+# sg  (切换至新加坡区)
+^https:\/\/duckduckgo.com\/\?q=sg&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=sg&urlDesc=
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>搜索
+# tf xxx (google搜索Testflight)
+^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com
+# mo xxx（莫离频道搜索）
+^https:\/\/duckduckgo.com\/\?q=mo\+([^&]+).+ https://meow.tg/private/QuantX/search/$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+mo.+ https://meow.tg/private/QuantX/search/$1 302
+
+# tgm xxx（TG喵频道搜索）
+^https:\/\/duckduckgo.com\/\?q=tgm\+([^&]+).+ https://meow.tg/search/$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tgm.+ https://meow.tg/search/$1 302
+
+# dt xxx（下载中心）
+^https:\/\/duckduckgo.com\/\?q=dt\+([^&]+).+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1 302&sort_expr=cdate&sort_dir=DESC
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+dt.+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1 302&sort_expr=cdate&sort_dir=DESC
+# bd  xxx (百度搜索)
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/duckduckgo.com\/\?q=((.(?!bd))+)\+bd.+ https://www.baidu.com/s?wd=$1 302
+# wk  xxx (维基搜索)
+^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wk.+ https://zh.wikipedia.org/wiki/$1 302
+# wz  xxx (无追搜索)
+^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+ https://www.wuzhuiso.com/s?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wz.+ https://www.wuzhuiso.com/s?q=$1 302
+# yh  xxx (油猴搜索)
+^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+yh.+ https://greasyfork.org/zh-CN/scripts?q=$1 302 
+# gi  xxx (Google 图片)
+^https:\/\/duckduckgo.com\/\?q=gi\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gi.+ https://www.google.com/search?&tbm=isch&q=$1 302
+# bi  xxx (必应)
+^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+bi.+ https://cn.bing.com/search?q=$1 302
+# ios  xxx (苹果应用搜索)
+^https:\/\/duckduckgo.com\/\?q=ios\+([^&]+).+ https://www.qimai.cn/search/index/search/$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ios.+ https://www.qimai.cn/search/index/search/$1 302
+#     xxx （无指令默认为 Google）
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
+
+
+
+
+[MITM]
+hostname = %APPEND% duckduckgo.com
 # TG频道群：https://t.me/QuantX
 # 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
 #############################################

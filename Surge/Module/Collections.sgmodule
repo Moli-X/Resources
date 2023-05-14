@@ -1,6 +1,9 @@
 #使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
+#!name=莫离脚本集合
+#!desc=各种VIP和脚本
 
 [Script]
+
 Collections = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 Collections = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Baiduyun.js
 Collections = type=http-response,pattern=^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Baiduwk.js

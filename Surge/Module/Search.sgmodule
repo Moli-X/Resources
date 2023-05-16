@@ -117,9 +117,7 @@
 ^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com
 ^https:\/\/duckduckgo.com\/\?q=ml\+([^&]+).+ https://meow.tg/private/QuantX/search/$1 302
 ^https:\/\/duckduckgo.com\/\?q=tgm\+([^&]+).+ https://meow.tg/search/$1 302
-^https:\/\/duckduckgo.com\/\?q=dt\+([^&]+).+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1&sort_expr=cdate&sort_dir=DESC
 ^https:\/\/duckduckgo.com\/\?q=td\+([^&]+).+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1 302
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
 ^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+ https://www.wuzhuiso.com/s?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302

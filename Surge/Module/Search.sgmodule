@@ -115,9 +115,10 @@
 ^https:\/\/duckduckgo.com\/\?q=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
 ^https:\/\/duckduckgo.com\/\?q=sg&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=sg&urlDesc=
 ^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com
-^https:\/\/duckduckgo.com\/\?q=mo\+([^&]+).+ https://meow.tg/private/QuantX/search/$1 302
+^https:\/\/duckduckgo.com\/\?q=ml\+([^&]+).+ https://meow.tg/private/QuantX/search/$1 302
 ^https:\/\/duckduckgo.com\/\?q=tgm\+([^&]+).+ https://meow.tg/search/$1 302
-^https:\/\/duckduckgo.com\/\?q=dt\+([^&]+).+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1 302&sort_expr=cdate&sort_dir=DESC
+^https:\/\/duckduckgo.com\/\?q=dt\+([^&]+).+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1&sort_expr=cdate&sort_dir=DESC
+^https:\/\/duckduckgo.com\/\?q=td\+([^&]+).+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
 ^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+ https://www.wuzhuiso.com/s?q=$1 302
@@ -131,4 +132,3 @@
 
 [MITM]
 hostname = %APPEND% duckduckgo.com
-

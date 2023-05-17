@@ -34,7 +34,6 @@ Wps = type=http-response, pattern=^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|
 
 # ✅美图秀秀vip
 MeiTu = type=http-response, pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js, timeout=60, script-update-interval=0
-
 # ✅美图秀秀粉钻
 MTxiuxiu = type=http-response, pattern=^https:\/\/api\.xiuxiu\.meitu\.com\/v1, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js, timeout=60, script-update-interval=0
 
@@ -72,6 +71,14 @@ youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtu
 # ✅Nicegram会员
 Nicegram会员 = type=http-request,pattern=^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js,script-update-interval=0
  
+ 
+[URL Rewrite]
+
+(?<=_region=)CN(?=&) US 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
+
 [Map Local]
 
 # ✅🔞PornHub # ✅YouTube去广告
@@ -80,6 +87,6 @@ Nicegram会员 = type=http-request,pattern=^https?:\/\/restore-access\.indream\.
 
 [MITM]
 
-hostname = %APPEND% boxjs.com,boxes.net,sub.store,spclient.wg.spotify.com,appwk.baidu.com,pan.baidu.com,restore-access.indream.app,*wps*,*.xiuxiu.meitu.com,api.xiuxiu.meitu.com,ap*.intsig.net,testflight.apple.com,*.pornhub.com,cupfox.app,*.youtube.com,app.bilibili.com,app.biliapi.net,app.biliintl.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,*.pornhub.com, %APPEND% *.googlevideo.com, youtubei.googleapis.com,cn-acs.m.cainiao.com,guide-acs.m.taobao.com,weixin110.qq.com,security.wechat.com,restore-access.indream.app,m.douban.com,%INSERT% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
+hostname = %APPEND% boxjs.com,boxes.net,sub.store,spclient.wg.spotify.com,appwk.baidu.com,pan.baidu.com,restore-access.indream.app,*wps*,*.xiuxiu.meitu.com,api.xiuxiu.meitu.com,ap*.intsig.net,testflight.apple.com,*.pornhub.com,cupfox.app,*.youtube.com,app.bilibili.com,app.biliapi.net,app.biliintl.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,*.pornhub.com, %APPEND% *.googlevideo.com, youtubei.googleapis.com,cn-acs.m.cainiao.com,guide-acs.m.taobao.com,weixin110.qq.com,security.wechat.com,restore-access.indream.app,m.douban.com,%INSERT% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 
 

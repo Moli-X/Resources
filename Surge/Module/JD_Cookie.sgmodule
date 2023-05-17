@@ -1,0 +1,20 @@
+#!name=京东获取Cookie
+#!desc=最后更新时间 2023-05-18 00:08
+#!system=ios
+
+#############################################
+# 仓库地址: https://github.com/Moli-X
+# TG反馈群：https://t.me/Skill_XX
+# TG频道群：https://t.me/QuantX
+# 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
+# 此远程订阅用于解决QX任务脚本的cookie获取，仅适用于QX 1.0.10及更高版本，您可在使用后手动将其禁用，以避免无意义的MITM。
+# 京东获取Cookie链接：https://bean.m.jd.com/bean/signIndex.action
+#############################################
+
+
+[Script]
+
+获取京东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+[MITM]
+hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com

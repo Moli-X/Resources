@@ -1,11 +1,11 @@
 #!name=莫离脚本合集
-#!desc=最后更新时间 2023-05-17 14:57
+#!desc=最后更新时间 2023-05-17 15:01
 #!system=ios
 
 [General]
 
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
-# skip-proxy = %APPEND% iosapps.itunes.apple.com
+skip-proxy = %APPEND% iosapps.itunes.apple.com
 
 [Script]
 
@@ -41,8 +41,7 @@ MTxiuxiu = type=http-response, pattern=^https:\/\/api\.xiuxiu\.meitu\.com\/v1, r
 Saomiao = type=http-response, pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Saomiao.js, timeout=60, script-update-interval=0
 
 # ✅Testflight区域限制+共享
-TestFlightAccount = type=http-request, pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js, timeout=60, script-update-interval=0
-test = type=http-response,pattern=https://service.ilovepdf.com/v1/user,requires-body=1,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js, argument=false->true
+TestFlight账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
 
 # ✅哔哩哔哩界面自定义  hostname = app.bilibili.com, app.biliapi.net, app.biliintl.com  
 BiliBili.Enhanced.x.resource.show.tab.v2 = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/resource\/show\/tab\/v2(\?.+)?$, requires-body=1, script-path=https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/js/BiliBili.Enhanced.response.js, argument=

@@ -1,11 +1,11 @@
 #!name=莫离脚本合集
-#!desc=最后更新时间 2023-05-17
+#!desc=最后更新时间 2023-05-17 14:57
 #!system=ios
 
 [General]
 
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
-skip-proxy = %APPEND% iosapps.itunes.apple.com
+# skip-proxy = %APPEND% iosapps.itunes.apple.com
 
 [Script]
 

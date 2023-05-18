@@ -1,5 +1,5 @@
 #!name=莫离脚本合集
-#!desc=最后更新时间 2023-05-17 23:08
+#!desc=最后更新时间 2023-05-18 12:08
 #!system=ios
 
 [General]
@@ -17,8 +17,6 @@ Sub-Store Sync=type=cron,cronexp=0 0 * * *,wake-system=1,timeout=120,script-path
 # ✅BoxJS
 Rewrite: BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 
-# ✅TestFlight账户管理
-TestFlight账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
 
 # ✅Spotify  ,spclient.wg.spotify.com
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
@@ -29,16 +27,11 @@ Baiduyun = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\
 # ✅百度文库
 Baiduwk = type=http-response, pattern=^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Baiduwk.js, timeout=60, script-update-interval=0
 
-# ✅WPS
-Wps = type=http-response, pattern=^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, timeout=60, script-update-interval=0
-
 # ✅美图秀秀vip
 MeiTu = type=http-response, pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js, timeout=60, script-update-interval=0
 # ✅美图秀秀粉钻
 MTxiuxiu = type=http-response, pattern=^https:\/\/api\.xiuxiu\.meitu\.com\/v1, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js, timeout=60, script-update-interval=0
 
-# ✅扫描全能王
-Saomiao = type=http-response, pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Saomiao.js, timeout=60, script-update-interval=0
 
 # ✅Testflight区域限制+共享
 TestFlight账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
@@ -61,7 +54,6 @@ Pornhub = type=http-response, pattern=^https?:/\/(cn|www)\.pornhub\.com\/($|(vie
 
 # ✅微信跳过中间界面  weixin110.qq.com, security.wechat.com,
 解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
-// 解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js,argument=useCache=true&forceRedirect=false
 
 
 # ✅Nicegram会员
@@ -79,7 +71,6 @@ Nicegram会员 = type=http-request,pattern=^https?:\/\/restore-access\.indream\.
 
 # ✅🔞PornHub # ✅YouTube去广告
 ^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/blank.txt" header="Content-Type: application/vnd.yt-ump"
 
 [MITM]
 

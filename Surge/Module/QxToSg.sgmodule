@@ -1,0 +1,16 @@
+#!name=规则集转化
+#!desc=最后更新时间 2023-05-18 13:08
+#!author=重写后加qx，规则集r_parser.list,脚本_script-converter-surge.js
+#!使用手册https://github.com/chengkongyiban/stash/tree/main/Rewrite_Parser_Wiki
+
+[Script]
+
+QX转换 = type=http-request,pattern=\/[^/]+\.[^/]+qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)=,requires-body=1,max-size=0,script-path=https://github.com/chengkongyiban/stash/raw/main/js/QX_Rewrite_Parser.js ,timeout=60
+
+规则集转换 = type=http-request,pattern=r_parser.list$|r_parser.list\?.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengkongyiban/stash/main/js/rule_parser.js ,timeout=60
+
+#在QX脚本结尾加上 _script-converter-(stash|surge|loon|shadowrocket).js 根据你自己的app填写
+脚本转换 = type=http-request,pattern=_script-converter-(stash|surge|loon|shadowrocket)\.js$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/script-converter/script-converter.js, time=60
+
+[MITM]
+hostname = %APPEND% github.com:443, raw.githubusercontent.com:443,gist.githubusercontent.com,gitlab.com

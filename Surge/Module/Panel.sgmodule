@@ -13,8 +13,9 @@ Surge_Panel = type=generic,script-path=https://raw.githubusercontent.com/Moli-X/
 配置重载 = type=generic,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Profile-Reload.js
 # 网络面板
 net-info-panel.js=script-path=https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/Network-Info/net-info-panel.js,type=generic,timeout=30
-
+Timecard = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js
 Sub_info = type=http-request,pattern=http://sub\.info,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info.js
+
 
 [Panel]
 # Ping Gif Mini面板 
@@ -26,6 +27,7 @@ Surge_Panel = script-name=Surge_Panel,update-interval=1
 配置重载 = script-name=配置重载,title=配置重载,content=配置重载,style=info,update-interval=-1
 # 网络面板
 NetInfoPanel=title="",content="",style=info,script-name=net-info-panel.js,update-interval=1
+Timecard = script-name=Timecard,update-interval=3600
 
 [Host]
 ip-api.com = 208.95.112.1

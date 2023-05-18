@@ -1,5 +1,5 @@
 #!name=莫离脚本合集
-#!desc=最后更新时间 2023-05-18 12:08
+#!desc=最后更新时间 2023-05-18 13:08
 #!system=ios
 
 [General]
@@ -8,6 +8,8 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.ne
 skip-proxy = %APPEND% iosapps.itunes.apple.com
 
 [Script]
+# ✅Youtube
+youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?,requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
 
 # ✅SUB-STORE
 Sub-Store Core=type=http-request,pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))),script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js,requires-body=true,timeout=120,ability=http-client-policy
@@ -69,11 +71,13 @@ Nicegram会员 = type=http-request,pattern=^https?:\/\/restore-access\.indream\.
 
 [Map Local]
 
-# ✅🔞PornHub # ✅YouTube去广告
+# ✅YouTube去广告
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/blank.txt" header="Content-Type: application/vnd.yt-ump"
+# ✅🔞PornHub
 ^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
 
-hostname = %APPEND% boxjs.com,boxes.net,sub.store,spclient.wg.spotify.com,appwk.baidu.com,pan.baidu.com,restore-access.indream.app,*wps*,*.xiuxiu.meitu.com,api.xiuxiu.meitu.com,ap*.intsig.net,testflight.apple.com,*.pornhub.com,cupfox.app,*.youtube.com,app.bilibili.com,app.biliapi.net,app.biliintl.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,*.pornhub.com, %APPEND% *.googlevideo.com, youtubei.googleapis.com,cn-acs.m.cainiao.com,guide-acs.m.taobao.com,weixin110.qq.com,security.wechat.com,restore-access.indream.app,m.douban.com,%INSERT% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com,sub.store,spclient.wg.spotify.com,appwk.baidu.com,pan.baidu.com,restore-access.indream.app,*wps*,*.xiuxiu.meitu.com,api.xiuxiu.meitu.com,ap*.intsig.net,testflight.apple.com,*.pornhub.com,cupfox.app,*.youtube.com,app.bilibili.com,app.biliapi.net,app.biliintl.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,*.pornhub.com,cn-acs.m.cainiao.com,guide-acs.m.taobao.com,weixin110.qq.com,security.wechat.com,restore-access.indream.app,m.douban.com,%INSERT% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 
 

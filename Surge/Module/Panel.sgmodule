@@ -1,0 +1,25 @@
+#!name=面板合集 
+#!desc=最后更新时间 2023-05-18 13:08
+#!system=ios
+
+
+[Script]
+# Ping Gif Mini面板 
+CNPing = type=generic,timeout=5,script-path=https://github.com/Keywos/rule/raw/main/JS/CNPingMini.js
+USPing = type=generic,timeout=5,script-path=https://github.com/Keywos/rule/raw/main/JS/USPingMini.js
+# 信息面板
+Surge_Panel = type=generic,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Surge_Panel.js,argument=icon=crown.fill&color=#f6c970,script-update-interval=0
+# 配置重载
+配置重载 = type=generic,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Profile-Reload.js
+
+
+
+
+[Panel]
+# Ping Gif Mini面板 
+CNPing = script-name=CNPing,update-interval=1
+USPing = script-name=USPing,update-interval=1
+# 信息面板
+Surge_Panel = script-name=Surge_Panel,update-interval=1
+# 配置重载
+配置重载 = script-name=配置重载,title=配置重载,content=配置重载,style=info,update-interval=-1

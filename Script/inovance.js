@@ -33,3 +33,6 @@ $task.fetch(myRequest).then(response => {
     console.log(reason.error);
     $done();
 });
+let $ = new nobyda();
+$.notify('水滴社区签到成功');
+$.done();

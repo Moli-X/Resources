@@ -1,7 +1,8 @@
 #!name = 远程资源转换器
-#!desc = 将Quantumult X重写、Surge模块、Quantumult X规则、Stash规则和Clash的规则转换为Loon能识别的格式，仅支持来自GitHub和GitLab的远程资源，点击下方链接以查看使用方法。#!author=重写后加qx，规则集r_parser.list,脚本_script-converter-surge.js
+#!desc = Quantumult X规则、Stash规则和Clash的规则转换为Loon能识别的格式，仅支持来自GitHub和GitLab的远程资源，点击下方链接以查看使用方法。
+#!author= 莫离
 #!openUrl = https://github.com/Moli-X/Resources/blob/main/Loon/Convert/Redme.md
-#!homepage = https://github.com/Moli-X/Resources/blob/main/Loon/Convert/Redme.md
+#!homepage = https://github.com/Moli-X/Resources/edit/main/Loon/Convert/QxToLoon.plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/RemoteResourceConverter.png
 
 [Script]

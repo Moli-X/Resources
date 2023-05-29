@@ -10,19 +10,6 @@
 skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com,iosapps.itunes.apple.com
 
 
-[Rule]
-DOMAIN-SUFFIX,jsdelivr.net,海外服务
-DOMAIN-SUFFIX,byteoversea.com,日本服务
-DOMAIN-SUFFIX,ibytedtos.com,日本服务
-DOMAIN-SUFFIX,ipstatp.com,日本服务
-DOMAIN-SUFFIX,muscdn.com,日本服务
-DOMAIN-SUFFIX,musical.ly,日本服务
-DOMAIN-SUFFIX,tik-tokapi.com,日本服务
-DOMAIN-SUFFIX,tiktok.com,日本服务
-DOMAIN-SUFFIX,tiktokcdn.com,日本服务
-DOMAIN-SUFFIX,tiktokv.com,日本服务
-DOMAIN-KEYWORD,-tiktokcdn-com,日本服务
-USER-AGENT,tiktok*,日本服务
 
 
 [Script]

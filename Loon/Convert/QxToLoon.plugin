@@ -1,8 +1,7 @@
 #!name = 远程资源转换器
-#!desc = 远程资源转换器
+#!desc = 适用于Loon的远程资源转换器
 #!author= 莫离
-#!openUrl = https://github.com/Moli-X/Resources/blob/main/Loon/Convert/Redme.md
-#!homepage = https://github.com/Moli-X/Resources/edit/main/Loon/Convert/QxToLoon.plugin
+#!homepage= https://github.com/Moli-X/Resources/blob/main/Loon/Convert/Redme.md
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/RemoteResourceConverter.png
 
 [Script]

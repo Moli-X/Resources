@@ -12,10 +12,18 @@ skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abch
 
 [Rule]
 DOMAIN-SUFFIX,jsdelivr.net,海外服务
+DOMAIN-SUFFIX,byteoversea.com,日本服务
+DOMAIN-SUFFIX,ibytedtos.com,日本服务
+DOMAIN-SUFFIX,ipstatp.com,日本服务
+DOMAIN-SUFFIX,muscdn.com,日本服务
+DOMAIN-SUFFIX,musical.ly,日本服务
+DOMAIN-SUFFIX,tik-tokapi.com,日本服务
+DOMAIN-SUFFIX,tiktok.com,日本服务
+DOMAIN-SUFFIX,tiktokcdn.com,日本服务
+DOMAIN-SUFFIX,tiktokv.com,日本服务
+DOMAIN-KEYWORD,-tiktokcdn-com,日本服务
+USER-AGENT,tiktok*,日本服务
 
-
-[MITM]
-hostname=sub.store,boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.googlevideo.com, youtubei.googleapis.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com
 
 [Script]
 
@@ -40,4 +48,15 @@ http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ re
 
 
 [URL Rewrite]
+# YouTube去广告
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad REJECT-IMG
+# TIKTOK解锁
+(?<=_region=)CN(?=&) JP 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$4 302
+(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
+
+[MITM]
+hostname=sub.store,boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.googlevideo.com, youtubei.googleapis.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com,*.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
+
+

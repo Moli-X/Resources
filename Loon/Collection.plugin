@@ -7,7 +7,7 @@
 
 [General]
 
-skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com
+skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com,iosapps.itunes.apple.com
 
 
 [Rule]
@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,jsdelivr.net,海外服务
 
 
 [MITM]
-hostname=sub.store,boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.googlevideo.com, youtubei.googleapis.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com
+hostname=sub.store,boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.googlevideo.com, youtubei.googleapis.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com
 
 [Script]
 
@@ -34,6 +34,10 @@ http-request https?:\/\/xn--ck8h\.com script-path=https://raw.githubusercontent.
 http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js, timeout=10, tag=Nicegram会员
 # Spotify会员
 http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify会员
+# TF区域限制解除
+http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js, tag=TF区域限制解除
+
+
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad REJECT-IMG

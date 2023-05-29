@@ -7,7 +7,7 @@
 
 [General]
 
-skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com,*.googlevideo.com, youtubei.googleapis.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com
+skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com
 
 
 [Rule]
@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,jsdelivr.net,海外服务
 
 
 [MITM]
-hostname=sub.store,boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
+hostname=sub.store,boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.googlevideo.com, youtubei.googleapis.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com
 
 [Script]
 

@@ -41,46 +41,6 @@ http-response ^http[s]?:\/\/api\.zhihu\.com\/(people\/self|unlimited\/go\/my_car
 
 http-request http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|remix-web\/paid_columns.*manuscript|market\/paid_column|appview\/p|api\/v3\/books|books|market\/paid_magazine).*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/ZHTK.js, timeout=60 ,tag=ZHTK_6
 
-# 知乎处理用户信息
-http-response ^https?:\/\/api\.zhihu\.com\/people\/ script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_8
-
-# 知乎信息流去广告
-http-response ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_10
-
-# 知乎回答列表去广告
-http-response ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_12
-
-# 知乎获取黑名单
-http-response ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_14
-
-# 知乎官方消息去广告
-http-response ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_16
-
-# 知乎预置关键词去广告
-http-response ^https?:\/\/api\.zhihu\.com\/search\/preset_words\? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_18
-
-# 优化软件配置
-http-response ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_20
-
-# 知乎热搜去广告
-http-response ^https?:\/\/api\.zhihu\.
-com\/search\/top_search\/tabs\/hot\/items script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_22
-
-# 知乎热榜去广告
-http-response ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_24
-
-# 知乎评论去广告
-http-response ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_26
-
-# 知乎回答列表去广告
-http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_28
-
-# 知乎屏蔽关键词解锁
-http-request ^https?:\/\/api\.zhihu\.com\/feed-root\/block script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_30
-
-# 知乎8.3.0移除推荐页顶部项
-http-response ^https?:\/\/api\.zhihu\.com\/feed-root\/sections\/query\/v2 script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js, requires-body=true, timeout=60 ,tag=zhihu_32
-
 [MITM]
 
 hostname = 61.243.13.*,58.144.248.*,120.92.107.*,www.zhihu.com,api.zhihu.com,datahub.zhihu.com,sugar.zhihu.com,appcloud.zhihu.com,duga.zhihu.com,web-er.zhihu.com,lens.zhihu.com,103.41.167.237,58.144.248.94,14.204.51.105,103.41.167.236,103.41.167.234,103.41.167.226,103.41.167.235,113.62.116.232,103.41.167.*,113.62.116.232,103*,113.62.116.232,103.41.167.237,103.41.167.226,web-er.zhihu.com,103.41.167.234,www.zhihu.com,zhuanlan.zhihu.com,api.zhihu.com,api.zhihu.com,183.204.14.111,125.77.176*,27.148*,183.204*,122.224*,60.188.72*,120.220*,120.222*,103.41.167.236,150.109.91*,*.zhihu.*,103.41.167.*,www.zhihu.com,api.zhihu.com,datahub.zhihu.com,sugar.zhihu.com,appcloud.zhihu.com,duga.zhihu.com,web-er.zhihu.com,lens.zhihu.com,103.41.167.237,58.144.248.94,14.204.51.105,103.41.167.236,103.41.167.234,103.41.167.226,103.41.167.235,113.62.116.232,103.41.167.*,113.62.116.232

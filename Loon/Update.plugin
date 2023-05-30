@@ -1,0 +1,12 @@
+#!name = 阻止 iOS 软件更新
+#!desc= 屏蔽 iOS 系统更新且需匹配REJECT策略组
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/edit/main/Loon/Collection.plugin
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Update.png
+
+
+[Rule]
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT

@@ -3,14 +3,7 @@
 
 TG Channel：https://t.me/QuantX
 
-## 1️⃣莫离各平台配置：
-* 配置更新时间：2023-05-30
-* 莫离QuantumultX配置 [***QuantumultX.conf***](https://raw.githubusercontent.com/Moli-X/Resources/main/Rewrite/QuantumultX.conf) 
-* 莫离Loon配置 [***Loon.conf***](https://raw.githubusercontent.com/Moli-X/Resources/main/Loon/Loon.conf) 
-* 莫离Surge配置 [***SurgePRO.conf***](https://github.com/Moli-X/Resources/raw/main/Surge/SurgePRO.conf) 
-* 莫离Clash配置 [***Clash.yml***](https://raw.githubusercontent.com/Moli-X/Resources/main/Clash/Clash.yml) 
-
-## 2️⃣Quantumult脚本收集: [欢迎投稿](https://t.me/Skill_XX )
+## Quantumult脚本收集: [欢迎投稿](https://t.me/Skill_XX )
 <table>
     <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
 	<tr>
@@ -223,5 +216,10 @@ TG Channel：https://t.me/QuantX
     </tr>
 </table>
 
+## 莫离各平台配置：
+* 莫离QuantumultX配置 [***QuantumultX.conf***](https://raw.githubusercontent.com/Moli-X/Resources/main/Rewrite/QuantumultX.conf) 
+* 莫离Loon配置 [***Loon.conf***](https://raw.githubusercontent.com/Moli-X/Resources/main/Loon/Loon.conf) 
+* 莫离Surge配置 [***SurgePRO.conf***](https://github.com/Moli-X/Resources/raw/main/Surge/SurgePRO.conf) 
+* 莫离Clash配置 [***Clash.yml***](https://raw.githubusercontent.com/Moli-X/Resources/main/Clash/Clash.yml) 
 
 ## ------------------------------------------------------[⬆️回到顶部⬆️](#readme)	

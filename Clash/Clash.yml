@@ -186,13 +186,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
     interval: 86400
 
-  Taida:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Taida.yaml
-    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Taida.yaml
-    interval: 86400
-
 
   Lan:
     type: http
@@ -314,13 +307,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/HKlist.yaml
     interval: 86400
 
-  Reject:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Reject.yaml
-    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Reject.yaml
-    interval: 86400
-
 
 rules:
   # > 应用分流
@@ -332,7 +318,7 @@ rules:
   - PROCESS-NAME,Microsoft Teams,DIRECT
   
   # > 小分流 Lan    - RULE-SET,Collection
-  - RULE-SET,Taida,DIRECT
+
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Unbreak,DIRECT
@@ -354,7 +340,7 @@ rules:
   # > 去广告REJECT
   - RULE-SET,Advertising,REJECT
   - RULE-SET,Privacy,REJECT
-  - RULE-SET,Reject,拦截服务
+
 
   # > 单分流  - DOMAIN-SUFFIX, - DOMAIN-KEYWORD, ,no-resolve
   - GEOIP,CN,DIRECT

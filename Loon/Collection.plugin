@@ -18,8 +18,8 @@ http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node
 http-request https?:\/\/sub\.store script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true, timeout=120, tag=Sub-Store Simple
 # ✅BoxJs
 http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs
-# ✅YouTube
-http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? requires-body=true,binary-body-mode=true,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js ,tag=油管广告
+# ✅YouTube  *.googlevideo.com, youtubei.googleapis.com, https://github.com/Moli-X/Resources/edit/main/Loon/YouTube.plugin
+# http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? requires-body=true,binary-body-mode=true,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js ,tag=油管广告
 # ✅美图秀秀vip
 http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js, requires-body=true, timeout=60 ,tag=美图秀秀会员
 # ✅美图秀秀粉钻
@@ -36,8 +36,8 @@ http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ re
 
 
 [URL Rewrite]
-# YouTube去广告
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad REJECT-IMG
+# YouTube去广告  
+# ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad REJECT-IMG
 # TIKTOK解锁
 (?<=_region=)CN(?=&) JP 307
 (?<=&mcc_mnc=)4 2 307
@@ -45,6 +45,6 @@ http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ re
 (?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
 
 [MITM]
-hostname=sub.store,boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,*.googlevideo.com, youtubei.googleapis.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com,*.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
+hostname=sub.store,boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com,*.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
 
 

@@ -1,0 +1,19 @@
+#!name = YouTube去广告
+#!desc = YouTube去广告,增加画中画
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/edit/main/Loon/YouTube.plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/YouTube.png
+
+# 原链接 = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+
+[Rewrite]
+# 使用reject-img减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
+
+[Script]
+# 该插件已足够全面，无需其他规则混用，防止复写规则被破坏。
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads.js, requires-body = true, binary-body-mode = true, tag = YouTube去视频贴片广告
+
+[MITM]
+hostname = *.googlevideo.com, youtubei.googleapis.com

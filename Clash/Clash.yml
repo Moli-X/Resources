@@ -1,0 +1,363 @@
+#Clash莫离配置
+#配置地址：https://github.com/Moli-X/Resources/raw/main/Clash/Clash.yml
+#GitHub仓库地址：https://github.com/Moli-X  发现BUG请反馈: @GodMoliibot  
+#相关频道: https://t.me/QuantX  
+#相关群组：https://t.me/Skill_XX
+##图标备用📮✉️📪📬💫💬💥🔨🥼🚫🔰🙈🍎🎬📺🎱🍐🐝🦁💡🌵🐯🎸💻📽🌏🕹📡🦑🌟🐷🦒🐳🚦📵🎧💊🔓🚦🚥🐼⛔️🈲🌐🎯🖲️🐦🔞🎵📱🚀💳♻️🙈🍱🔂📦🔀⏱
+
+
+
+
+
+mixed-port: 7890
+allow-lan: false
+bind-address: '*'
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+hosts:
+  'mtalk.google.com': 108.177.125.188
+  'dl.google.com': 180.163.151.161
+  'dl.l.google.com': 180.163.151.161
+profile:
+  store-selected: false
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  default-nameserver: 
+   - 223.5.5.5
+   - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    - '+.xboxlive.com'
+    - 'msftconnecttest.com'
+    - 'xbox.*.microsoft.com'
+    - '*.battlenet.com.cn'
+    - '*.battlenet.com'
+    - '*.blzstatic.cn'
+    - '*.battle.net'
+    - '*.trendmicro.com'
+    - '*.deltaww.com'
+    - '*.microsoft.com'
+
+  nameserver: 
+    - 'https://doh.pub/dns-query'
+    - 'https://223.5.5.5/dns-query'
+  fallback: 
+    - 'https://doh.dns.sb/dns-query'
+    - 'https://1.1.1.1/dns-query'
+    - 'tls://8.8.4.4:853'
+  fallback-filter: 
+    geoip: true
+    geoip-code: CN
+
+
+proxies: null
+
+
+proxy-providers:
+# 订阅链接替换:[你的订阅链接]
+  Subscribe:
+    type: http
+    url: https://sub.xeton.dev/sub?target=clash&url=[你的订阅链接]&list=true&udp=false 
+    interval: 86400
+    path: ./GLlist.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      url: http://www.gstatic.com/generate_204
+
+
+proxy-groups:
+  - name: "全球服务"
+    type: url-test
+    use:
+      - Subscribe
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name: "香港服务"
+    filter: 港|HK|(?i)Hong
+    type: url-test
+    lazy: true
+    url: http://www.gstatic.com/generate_204
+    interval: 900
+    use:
+    - Subscribe
+
+  - name: "台湾服务"
+    filter: 台|湾|TW|(?i)Taiwan
+    type: url-test
+    lazy: true
+    url: http://www.gstatic.com/generate_204
+    interval: 900
+    use:
+    - Subscribe
+
+  - name: "日本服务"
+    filter: 日|东京|JP|(?i)Japan
+    type: url-test
+    lazy: true
+    url: http://www.gstatic.com/generate_204
+    interval: 900
+    use:
+    - Subscribe
+
+  - name: "美国服务"
+    filter: 美|US|(?i)States|American
+    type: url-test
+    lazy: true
+    url: http://www.gstatic.com/generate_204
+    interval: 900
+    use:
+    - Subscribe
+
+  - name: "全球加速"
+    type: select
+    proxies:
+      - 全球服务
+      - 香港服务
+      - 美国服务
+      - 全国直连
+      - 台湾服务
+      - 日本服务
+
+  - name: "人工智能"
+    type: select
+    proxies:
+      - 日本服务
+      - 美国服务
+      - 台湾服务
+      - 香港服务
+      - 全球服务
+
+  - name: "中国媒体"
+    type: select
+    proxies:
+      - 全国直连
+      - 全球服务
+      - 香港服务
+      - 美国服务
+
+
+  - name: "国际媒体"
+    type: select
+    proxies:
+      - 全球服务
+      - 香港服务
+      - 美国服务
+      - 全国直连
+
+  - name: "微软服务"
+    type: select
+    proxies:
+      - 全国直连
+      - 全球服务
+      - 台湾服务
+      - 香港服务
+
+
+  - name: 全国直连
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 拦截服务
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+rule-providers:
+
+  Direct:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Direct.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
+    interval: 86400
+
+  Taida:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Taida.yaml
+    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Taida.yaml
+    interval: 86400
+
+
+  Lan:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Lan.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
+    interval: 86400
+
+  Unbreak:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Unbreak.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml
+    interval: 86400
+
+  OpenAI:
+    type: http
+    behavior: classical
+    path: ./RuleSet/OpenAI.yaml
+    url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/OpenAI.yaml"
+    interval: 86400
+
+  Bing:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Bing.yaml
+    url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Bing.yaml"
+    interval: 86400
+
+  Google:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Google.yaml
+    url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Google.yaml"
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Microsoft.yaml
+    url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Microsoft.yaml"
+    interval: 86400 
+
+  Github:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Github.yaml
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/GitHub/GitHub.yaml"
+    interval: 86400
+
+  Video:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Video.yaml
+    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Video.yaml
+    interval: 86400
+
+  Telegram:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Extra/Telegram/Telegram.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Telegram/Telegram.yaml
+    interval: 86400
+
+  Streaming:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/Streaming.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    interval: 86400
+
+  Discord:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Discord.yaml
+    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Discord.yaml
+    interval: 86400
+
+  Global:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Global.yaml
+    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Global.yaml
+    interval: 86400
+
+  China:
+    type: http
+    behavior: classical
+    path: ./RuleSet/China.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/China/China.yaml
+    interval: 86400
+
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    path: ./RuleSet/Extra/ChinaIP.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
+    interval: 86400
+
+  Advertising:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Advertising.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml
+    interval: 86400
+
+
+  Privacy:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Privacy.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Hijacking/Hijacking.yaml
+    interval: 86400
+
+  HKlist:
+    type: http
+    behavior: classical
+    path: ./RuleSet/HKlist.yaml
+    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/HKlist.yaml
+    interval: 86400
+
+  Reject:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Reject.yaml
+    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Reject.yaml
+    interval: 86400
+
+
+rules:
+  # > 应用分流
+  - PROCESS-NAME,lync.exe,DIRECT
+  - PROCESS-NAME,EXCEL.EXE,DIRECT
+  - PROCESS-NAME,WINWORD.EXE,DIRECT
+  - PROCESS-NAME,DIAInstaller.EXE,DIRECT
+  - PROCESS-NAME,Update.exe,DIRECT
+  - PROCESS-NAME,Microsoft Teams,DIRECT
+  
+  # > 小分流 Lan    - RULE-SET,Collection
+  - RULE-SET,Taida,DIRECT
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Lan,DIRECT
+  - RULE-SET,Unbreak,DIRECT
+  - RULE-SET,Microsoft,微软服务
+  - RULE-SET,Video,中国媒体
+  - RULE-SET,Telegram,香港服务
+  - RULE-SET,Github,香港服务
+  - RULE-SET,OpenAI,人工智能
+  - RULE-SET,Bing,微软服务
+  - RULE-SET,Discord,全球加速
+  - RULE-SET,HKlist,香港服务
+
+  # > 大分流
+  - RULE-SET,China,DIRECT
+  - RULE-SET,Global,全球加速
+  - RULE-SET,Google,全球加速
+  - RULE-SET,Streaming,国际媒体
+
+  # > 去广告REJECT
+  - RULE-SET,Advertising,REJECT
+  - RULE-SET,Privacy,REJECT
+  - RULE-SET,Reject,拦截服务
+
+  # > 单分流  - DOMAIN-SUFFIX, - DOMAIN-KEYWORD, ,no-resolve
+  - GEOIP,CN,DIRECT
+  - MATCH,全球加速
+
+

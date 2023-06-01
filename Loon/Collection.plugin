@@ -16,7 +16,7 @@ skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abch
 # ✅Sub-Store
 # http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, timeout=120, tag=Sub-Store Core
 # http-request https?:\/\/sub\.store script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true, timeout=120, tag=Sub-Store Simple
-# ✅Sub-Store缓存版
+# ✅Sub-Store缓存版  https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Sub-Store.plugin
 http-request https?:\/\/sub\.store script-path = https://raw.githubusercontent.com/Moli-X/Resources/main/Loon/SubStoreCache.js, requires-body = true, timeout = 120, tag = Sub-Store缓存版
 # ✅BoxJs
 http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs

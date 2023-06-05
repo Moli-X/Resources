@@ -1,4 +1,4 @@
-#!name=WPS破解
+#!name=Soul破解
 #!desc=适用于Loon脚本
 #!author=莫离
 #!homepage=https://github.com/Moli-X/Resources/edit/main/Loon/Soul.plugin
@@ -9,7 +9,7 @@
 [Script]
 
 # > Soul 破解部分超星特权
-http-response ^https?:\/\/.+(\/privilege\/supervip\/status|\/show\/superVIP\/detail|\/meet\/invisible\/saveByUserId|\/special\/concern\/setting|\/chat\/history\/setting|\/privilege\/bubble\/buy|\/soul-coin\/total|\/user\/queryInvisibleSetting|\/chat\/limitInfo) script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/SoulSuperVipCrack.js, requires-body=true, timeout=60 ,tag=SoulSuperVipCrack_2
+http-response ^https?:\/\/.+(\/privilege\/supervip\/status|\/show\/superVIP\/detail|\/meet\/invisible\/saveByUserId|\/special\/concern\/setting|\/chat\/history\/setting|\/privilege\/bubble\/buy|\/soul-coin\/total|\/user\/queryInvisibleSetting|\/chat\/limitInfo) script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Soul.js, requires-body=true, timeout=60 ,tag=SoulSuperVipCrack_2
 
 [MITM]
 

@@ -1,0 +1,22 @@
+#!name=WPS破解
+#!desc=适用于Loon脚本
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/edit/main/Loon/WPS.plugin
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/XX.png
+# 原链接：https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPuserCrack.js
+
+# 脚本功能：解锁部分超级会员 Pro 权限🔓
+# • 点亮超级会员图标
+# • 解锁超级会员皮肤
+# • 解锁部分超会权限
+# • 解锁稻壳模版下载
+# • 更多功能自行探索
+
+[Script]
+# http-response ^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, requires-body=true, timeout=60 ,tag=Wps_8
+http-response ^https?:\/\/(account|drive|vas|userinfo.docer)\.wps\.cn\/(.*api\/(v3\/(mine\/vips|spaces)|users\/\d+\/overview|v1\/list_purchase_info)|user\/v1\/vip_dl_times) script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPuserCrack.js, requires-body=true, timeout=60 ,tag=WPSuperVIPuserCrack_12
+http-request ^https?:\/\/(mobile|client|vas|download)(\.docer)?\.wps.cn\/(android\/mb\/buy_info|api\/v1\/mobile\/mb\/detail|query\/api\/v1\/list_privilege_info|download\/adapter\/v1\/mb) script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPowerCrack.js, timeout=60 ,tag=WPSuperVIPowerCrack_13
+
+[MITM]
+
+hostname = *.wps.cn

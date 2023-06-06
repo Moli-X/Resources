@@ -1,12 +1,9 @@
 #Clash莫离配置
 #配置地址：https://github.com/Moli-X/Resources/raw/main/Clash/Clash.yml
-#GitHub仓库地址：https://github.com/Moli-X  发现BUG请反馈: @GodMoliibot  
-#相关频道: https://t.me/QuantX  
-#相关群组：https://t.me/Skill_XX
-##图标备用📮✉️📪📬💫💬💥🔨🥼🚫🔰🙈🍎🎬📺🎱🍐🐝🦁💡🌵🐯🎸💻📽🌏🕹📡🦑🌟🐷🦒🐳🚦📵🎧💊🔓🚦🚥🐼⛔️🈲🌐🎯🖲️🐦🔞🎵📱🚀💳♻️🙈🍱🔂📦🔀⏱
-
-
-
+# GitHub仓库地址：https://github.com/Moli-X  发现BUG请反馈: @GodMoliibot  
+# 相关频道: https://t.me/QuantX  
+# 相关群组：https://t.me/Skill_XX
+# 图标备用📮✉️📪📬💫💬💥🔨🥼🚫🔰🙈🍎🎬📺🎱🍐🐝🦁💡🌵🐯🎸💻📽🌏🕹📡🦑🌟🐷🦒🐳🚦📵🎧💊🔓🚦🚥🐼⛔️🈲🌐🎯🖲️🐦🔞🎵📱🚀💳♻️🙈🍱🔂📦🔀⏱
 
 
 mixed-port: 7890
@@ -65,17 +62,60 @@ proxies: null
 
 
 proxy-providers:
-# 订阅链接替换:[你的订阅链接]
+# 把█████████████换成你的订阅链接
   Subscribe:
     type: http
-    url: https://sub.xeton.dev/sub?target=clash&url=[你的订阅链接]&list=true&udp=false 
+    url: █████████████
     interval: 86400
     path: ./GLlist.yaml
     health-check:
       enable: true
       interval: 1800
       url: http://www.gstatic.com/generate_204
+  HKSub:
+    filter: 港|HK|(?i)Hong
+    type: file
+    path: ./GLlist.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 
+  TWSub:
+    filter: 台|TW|(?i)Taiwan
+    type: file
+    path: ./GLlist.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  SGSub:
+    filter: 新|狮|獅|SG|(?i)Singapore
+    type: file
+    path: ./GLlist.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  JPSub:
+    filter: 日|JP|(?i)Japan
+    type: file
+    path: ./GLlist.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  USSub:
+    filter: 美|US|(?i)States|American
+    type: file
+    path: ./GLlist.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 
 proxy-groups:
   - name: "全球服务"
@@ -86,40 +126,44 @@ proxy-groups:
     interval: 300
 
   - name: "香港服务"
-    filter: 港|HK|(?i)Hong
     type: url-test
-    lazy: true
+    use:
+    - HKSub
     url: http://www.gstatic.com/generate_204
     interval: 900
-    use:
-    - Subscribe
+
 
   - name: "台湾服务"
-    filter: 台|湾|TW|(?i)Taiwan
     type: url-test
-    lazy: true
+    use:
+    - TWSub
     url: http://www.gstatic.com/generate_204
     interval: 900
-    use:
-    - Subscribe
+
 
   - name: "日本服务"
-    filter: 日|东京|JP|(?i)Japan
     type: url-test
-    lazy: true
+    use:
+    - JPSub
     url: http://www.gstatic.com/generate_204
     interval: 900
-    use:
-    - Subscribe
+
 
   - name: "美国服务"
-    filter: 美|US|(?i)States|American
     type: url-test
-    lazy: true
+    use:
+    - USSub
     url: http://www.gstatic.com/generate_204
     interval: 900
+
+  - name: "新加坡服"
+    type: url-test
     use:
-    - Subscribe
+    - SGSub
+    url: http://www.gstatic.com/generate_204
+    interval: 900
+
+
 
   - name: "全球加速"
     type: select
@@ -307,6 +351,13 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/HKlist.yaml
     interval: 86400
 
+  Reject:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Reject.yaml
+    url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Reject.yaml
+    interval: 86400
+
 
 rules:
   # > 应用分流
@@ -318,7 +369,6 @@ rules:
   - PROCESS-NAME,Microsoft Teams,DIRECT
   
   # > 小分流 Lan    - RULE-SET,Collection
-
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Unbreak,DIRECT
@@ -340,7 +390,7 @@ rules:
   # > 去广告REJECT
   - RULE-SET,Advertising,REJECT
   - RULE-SET,Privacy,REJECT
-
+  - RULE-SET,Reject,拦截服务
 
   # > 单分流  - DOMAIN-SUFFIX, - DOMAIN-KEYWORD, ,no-resolve
   - GEOIP,CN,DIRECT

@@ -1,13 +1,4 @@
 
-#!name=实时油价信息
-#!desc=定制监控每日邮价（通知）地区可以填入省份拼音，如果有同音地区 就去下方url找对应的地区 例如http://m.qiyoujiage.com/shanxi-3/xian.shtml 就填写 shanxi-3/xian 在地区里
-#!author = 莫离
-#!openUrl = 
-#!homepage = https://github.com/Moli-X
-#!icon = https://raw.githubusercontent.com/Keywos/rule/main/tv/app/144px/yj.png
-#!input = 地区
-# 转自https://raw.githubusercontent.com/RS0485/network-rules/main/scripts/gas-price.js
-# 只兼容loon
 
 
 var region = "shanghai";

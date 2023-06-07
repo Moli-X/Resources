@@ -1,5 +1,9 @@
-
-
+// 使用方法：http://m.qiyoujiage.com/shanxi-3/xian.shtml 就填写 shanxi-3/xian 在地区里
+// 链接：https://github.com/Moli-X/Resources/edit/main/Script/OilPrice.js
+// 转自https://raw.githubusercontent.com/RS0485/network-rules/main/scripts/gas-price.js
+// 只兼容loon
+// [Script]
+// cron "0 6 * * *" script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/OilPrice.js, timeout=300, tag=今日油价, img-url=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/OilPrice.png, enabled=true
 
 var region = "shanghai";
 

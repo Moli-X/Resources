@@ -5,7 +5,7 @@
 #!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Update.png
 
 
-[Rule]
+
 DOMAIN,mesu.apple.com,REJECT
 DOMAIN,gdmf.apple.com,REJECT
 DOMAIN,updates-http.cdn-apple.com,REJECT

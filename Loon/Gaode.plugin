@@ -1,0 +1,55 @@
+#!name=高德地图去广告
+#!desc=去除高德地图广告，页面修改
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/edit/main/Loon/Gaode.plugin
+#!icon=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Gaode.png
+
+
+[Rewrite]
+# 其他
+^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$ AMapiPhone reject-dict
+^https:\/\/m5\.amap\.com\/ws\/asa\/ads_attribution\? reject-dict
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? reject-dict
+
+# 导航详情页,路线规划,地点详情页,搜索详情页
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? reject-dict
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? reject-dict
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? reject-dict
+
+# 首页,推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? reject-dict
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? reject-dict
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? reject-dict
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull(_mp)?\? reject-dict
+
+# 打车页,红点角标,弹窗,推广卡片
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/order(_web\/friendly_information|\/car\/king_toolbox_car_bubble)\? reject-dict
+
+
+[Script]
+# 导航详情页,路线规划,地点详情页,搜索详情页
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除高德广告
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(city_feed|search\/sp|tips_operation_location)\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除高德广告
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search(_poi)?\/sug\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除高德广告
+
+# 首页,推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
+http-response ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除首页广告
+http-response ^https:\/\/m5\.amap\.com\/ws\/mapapi\/poi\/infolite\/\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除首页广告
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除首页广告
+
+# 我的页面,个人主页,推广卡片
+http-response ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/usr-profile-fc\/(highlightV2|home)\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 个人主页广告
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 个人主页广告
+
+# 附近页
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除附近广告
+
+# 开屏广告
+http-response ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除开屏广告
+
+# 打车页,红点角标,弹窗,推广卡片
+http-response ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource\?? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除打车广告
+http-response ^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除打车广告
+
+[Mitm]
+hostname = m5.amap.com, m5-zb.amap.com, sns.amap.com

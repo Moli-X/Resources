@@ -1,0 +1,29 @@
+#!name = New Bing
+#!desc = 将Safari浏览器伪装为Edge浏览器
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/edit/main/Loon/BingAI.plugin
+#!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/BingAI.png
+/************************************
+自行本地添加以下分流
+[Rule]
+DOMAIN-SUFFIX, bing.com, PROXY
+DOMAIN-SUFFIX, bing.com.cn, PROXY
+DOMAIN-SUFFIX, bing.net, PROXY
+DOMAIN-SUFFIX, bingads.com, PROXY
+DOMAIN-SUFFIX, bingagencyawards.com, PROXY
+DOMAIN-SUFFIX, bingapistatistics.com, PROXY
+DOMAIN-SUFFIX, bingsandbox.com, PROXY
+DOMAIN-SUFFIX, bingvisualsearch.com, PROXY
+DOMAIN-SUFFIX, bingworld.com, PROXY
+************************************/
+
+
+#[Rewrite]
+#^https:\/\/www\.bing\.com\/(search|new) header-add X-Forwarded-For 1.1.1.1
+
+[Script]
+http-request ^https:\/\/www\.bing\.com\/(search|new) script-path = https://raw.githubusercontent.com/Moli-X/Resources/main/Script/BingAI.js, requires-body = false, tag = Bing AI
+
+[MITM]
+hostname = www.bing.com

@@ -1,0 +1,14 @@
+#!name = 短视频
+#!desc = 哔哩哔哩去除短视频信息流
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/edit/main/Loon/Story.plugin
+#!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Bilibili.png
+
+[Script]
+
+http-request ^https?:\/\/app\.bilibili\.com\/x\/v\d\/feed\/index\? script-path=https://github.com/Moli-X/Resources/raw/main/Script/Bilibili/Story.js, timeout=60 ,tag=Story_1
+
+[MITM]
+
+hostname = app.bilibili.com

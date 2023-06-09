@@ -15,8 +15,6 @@
 
 
 [Rewrite]
-# > version
-^https?:\/\/2023.04.15\/v2.0.295 - reject
 # > 58
 ^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv) - reject
 # > 555

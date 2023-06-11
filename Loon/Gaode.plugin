@@ -56,4 +56,5 @@ http-response ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource\?? script
 http-response ^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body = true, tag = 移除打车广告
 
 [Mitm]
-hostname = m5.amap.com, m5-zb.amap.com, sns.amap.com
+# hostname = m5.amap.com, m5-zb.amap.com, sns.amap.com
+hostname = *.amap.com

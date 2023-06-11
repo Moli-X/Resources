@@ -4,7 +4,10 @@
 #!homepage=https://github.com/Moli-X/Resources/edit/main/Loon/Gaode.plugin
 #!icon=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Gaode.png
 
+
 # 高德地图去广告原链接:https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet
+# 若次链接无法净化:请卸载后使用https://github.com/Moli-X/Resources/edit/main/Loon/Amap.plugin
+
 
 [Rewrite]
 # 其他

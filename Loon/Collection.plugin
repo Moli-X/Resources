@@ -21,7 +21,7 @@ http-request https?:\/\/sub\.store script-path=https://github.com/sub-store-org/
 # http-request https?:\/\/sub\.store script-path = https://raw.githubusercontent.com/Moli-X/Resources/main/Loon/SubStoreCache.js, requires-body = true, timeout = 120, tag = Sub-Store缓存版
 # ✅BoxJs
 http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs
-# ✅YouTube  *.googlevideo.com, youtubei.googleapis.com, https://github.com/Moli-X/Resources/edit/main/Loon/YouTube.plugin
+# ✅YouTube  *.googlevideo.com, youtubei.googleapis.com, https://github.com/Moli-X/Resources/raw/main/Loon/YouTube.plugin
 # http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? requires-body=true,binary-body-mode=true,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js ,tag=油管广告
 # ✅美图秀秀vip
 http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js, requires-body=true, timeout=60 ,tag=美图秀秀会员
@@ -32,7 +32,8 @@ http-request https?:\/\/xn--ck8h\.com script-path=https://raw.githubusercontent.
 # ✅Nicegram会员
 http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js, timeout=10, tag=Nicegram会员
 # ✅Spotify会员
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify会员
+http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=10, tag=spotifyJson
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=spotifyProto
 # ✅TF区域限制解除
 http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/TF_Download.js, tag=TF区域限制解除
 # ✅微信链接限制解除

@@ -1,0 +1,14 @@
+#!name=阿里云解锁VIP 净化
+#!desc=针对部分APP开屏广告，应用内广告进行拦截
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/edit/main/Loon/AliYun.piugin
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/AliYun.piugin
+
+
+[Script]
+
+http-response ^https?:\/\/(api|member)\.aliyundrive\.com script-path=https://raw.githubusercontent.com/gjwj666/qx/main/aliy.js, requires-body=true, timeout=60 ,tag=阿里云解锁VIP
+
+[MITM]
+
+hostname = *.aliyundrive.com

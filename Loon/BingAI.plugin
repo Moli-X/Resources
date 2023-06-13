@@ -2,8 +2,13 @@
 #!desc = 将Safari浏览器伪装为Edge浏览器
 #!openUrl = 
 #!author = 莫离
-#!homepage = https://github.com/Moli-X/Resources/edit/main/Loon/BingAI.plugin
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/BingAI.plugin
 #!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/BingAI.png
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/BingAI.plugin
+
+
+
+
 /************************************
 # 自行本地添加以下分流
 # [Rule]

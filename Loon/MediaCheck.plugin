@@ -1,8 +1,10 @@
 #!name=Node Detection Tool
 #!desc=适用于Loon的节点检测工具，可进行IP查询、多媒体检测等
 #!author=Loon
-#!homepage=https://github.com/Loon0x00/LoonExampleConfig
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/MediaCheck.plugin
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available_1.png
+#!edit=https://github.com/Loon0x00/LoonExampleConfig  https://github.com/Moli-X/Resources/edit/main/Loon/MediaCheck.plugin
+
 
 [script]
 # generic script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Node_detection_tool/Cloudflare_Speedtest.js,timeout=10,tag=节点网速测试,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png

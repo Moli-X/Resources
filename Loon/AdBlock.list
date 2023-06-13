@@ -1490,7 +1490,7 @@ DOMAIN-SUFFIX, d10lumateci472.cloudfront.net, reject
 DOMAIN-SUFFIX, new.xiongzhangad.com, reject
 DOMAIN-SUFFIX, dvzk66.cn, reject
 DOMAIN-SUFFIX, pu0glv.cn, reject
-DOMAIN-SUFFIX, sentry.io, reject
+# DOMAIN-SUFFIX, sentry.io, reject
 DOMAIN-SUFFIX, ads.bullionyield.com, reject
 DOMAIN-KEYWORD, dlads, reject
 DOMAIN, dagonghuzhu.com, reject

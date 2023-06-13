@@ -1,8 +1,10 @@
 #!name=高德地图去广告
 #!desc=去除高德地图广告，页面修改
 #!author=莫离
-#!homepage=https://github.com/Moli-X/Resources/edit/main/Loon/Amap.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Amap.plugin
 #!icon=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Gaode.png
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Amap.plugin
+
 
 # 若此链接无法净化高德请卸载后使用:https://github.com/Moli-X/Resources/edit/main/Loon/Gaode.plugin
 # 高德地图去广告原链接:https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Amap.conf

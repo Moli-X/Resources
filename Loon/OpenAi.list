@@ -1,5 +1,5 @@
 DOMAIN, cdn.auth0.com
-DOMAIN, o33249.ingest.sentry.io
+DOMAIN-SUFFIX, ingest.sentry.io
 DOMAIN-SUFFIX, ai.com
 DOMAIN-SUFFIX, challenges.cloudflare.com
 DOMAIN-SUFFIX, identrust.com

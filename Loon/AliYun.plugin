@@ -1,0 +1,18 @@
+#!name=阿里云盘签到
+#!desc=适用于Loon阿里云签到脚本
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/edit/main/Loon/AliYun.plugin
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/AL.png
+
+
+
+[Script]
+
+# > 阿里云盘签到 链接:https://auth.aliyundrive.com/v2/account/token
+http-response https:\/\/auth.aliyundrive.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, requires-body=true, tag=阿里云盘签到cookie_2
+
+cron "0 10 0 * * ?" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, timeout=60, tag=阿里云盘签到
+
+[MITM]
+
+hostname = auth.aliyundrive.com

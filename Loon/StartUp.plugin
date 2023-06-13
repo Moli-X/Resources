@@ -2,9 +2,9 @@
 #!desc = 过滤部分主流应用的开屏广告
 #!openUrl = 
 #!author = 莫离
-#!homepage = https://github.com/Moli-X/Resources/edit/main/Loon/StartUp.plugin
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/StartUp.plugin
 #!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Image/AdBlocker.png
-
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/StartUp.plugin
 
 # 以下去广告已被挑出,单独配置
 # 微博去广告:https://github.com/Moli-X/Resources/raw/main/Loon/Weibo.plugin

@@ -8,9 +8,11 @@
 
 # > 华住会签到:APP签到一次即可获取cookie
 http-request https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, timeout=10, tag=华住会获取签到Cookie, img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png
+
 # > 京东签到 链接:https://home.m.jd.com/myJd/newhome.action  或旧版:https://bean.m.jd.com/bean/signIndex.action
 http-request ^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东获取cookie, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png
 http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/hy\/h5\/m\/appSign\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东获取cookie,img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png
+
 # > 阿里云盘签到 链接:https://auth.aliyundrive.com/v2/account/token
 http-response https:\/\/auth.aliyundrive.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, requires-body=true, tag=阿里云盘签到cookie_2
 

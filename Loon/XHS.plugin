@@ -2,8 +2,10 @@
 #!desc = 过滤信息流推广，移除图片
 #!openUrl = 
 #!author = 莫离
-#!homepage = https://github.com/Moli-X/Resources/edit/main/Loon/XHS.plugin
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/RedPaper.png
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/XHS.plugin
+
 
 [Rewrite]
 

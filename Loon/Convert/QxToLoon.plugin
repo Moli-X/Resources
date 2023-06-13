@@ -2,7 +2,7 @@
 #!desc = 适用于Loon的远程资源转换器
 #!author= 莫离
 #!homepage= https://github.com/Moli-X/Resources/blob/main/Loon/Convert/Redme.md
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/RemoteResourceConverter.png
+#!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Converter.png
 
 [Script]
 http-request \/[^/]+\.[^/]+qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)= script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/RemoteResourceConverter/RewriteQuantumultX.js, requires-body=true, tag = 转写Quantumult X重写

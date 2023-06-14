@@ -1,5 +1,5 @@
 # Clash for Window
-
+https://github.com/Fndroid/clash_for_windows_pkg/releases
 [![](https://img.shields.io/badge/Telegram-公告板-blue)](https://t.me/QuantX)
 
 [![](https://img.shields.io/badge/Telegram-交流群-purple)](https://t.me/Skill_X)

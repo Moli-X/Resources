@@ -5,7 +5,7 @@ https://github.com/Fndroid/clash_for_windows_pkg/releases
 
 [![](https://img.shields.io/badge/Telegram-交流群-purple)](https://t.me/Skill_X)
 
-配置文件[Clash.yml](https://github.com/Moli-X/Resources/blob/main/Clash/Clash.yml)
+配置文件[Clash.yml](https://github.com/Moli-X/Resources/blob/main/Clash/Clash.yml)链接
 
 原版[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)链接
 

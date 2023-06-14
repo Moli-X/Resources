@@ -30,6 +30,9 @@ https://github.com/BoyceLig/Clash_Chinese_Patch/releases
 https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases
 
 ---
+# Clash_For_Android
+https://github.com/Kr328/ClashForAndroid/releases
+
 软件仅供学习，24小时内删除。
 
 如有侵权，请私信我删除。

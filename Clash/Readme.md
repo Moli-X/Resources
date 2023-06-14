@@ -8,7 +8,7 @@
 
 汉化[Clash for Windows](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)链接
 
-配置文件[(https://github.com/Moli-X/Resources/blob/main/Clash/Clash.yml)]
+配置文件[Clash.yml](https://github.com/Moli-X/Resources/blob/main/Clash/Clash.yml)
 
 # Clash_Chinese_Patch
 

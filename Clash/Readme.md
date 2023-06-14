@@ -4,12 +4,12 @@
 
 # Clash_Chinese_Patch
 
-[![](https://img.shields.io/badge/Telegram-公告板-blue)](https://t.me/ClashR_for_Windows_Channel)
-[![](https://img.shields.io/badge/Telegram-交流群-purple)](https://t.me/+Se4RSc06w8QK1HiS)
+  [![](https://img.shields.io/badge/Telegram-公告板-blue)](https://t.me/QuantX)
+[![](https://img.shields.io/badge/Telegram-交流群-purple)](https://t.me/Skill_X)
 
 ## 解释说明
 
-此版本为[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)原版汉化页面。
+汉化链接[Clash for Windows](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)
 
 ⚠️汉化永久免费，请注意欺诈！！！
 
@@ -25,4 +25,4 @@
 
 如有侵权，请私信我删除。
 
-汉化链接
+

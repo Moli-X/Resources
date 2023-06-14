@@ -11,7 +11,7 @@
 配置文件[Clash.yml](https://github.com/Moli-X/Resources/blob/main/Clash/Clash.yml)
 
 # Clash_Chinese_Patch
-
+https://github.com/BoyceLig/Clash_Chinese_Patch/releases
 ## 解释说明
 
 ⚠️汉化永久免费，请注意欺诈！！！

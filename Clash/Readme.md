@@ -11,7 +11,7 @@ https://github.com/Fndroid/clash_for_windows_pkg/releases
 
 汉化[Clash for Windows](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)链接
 
-
+---
 
 # Clash_Chinese_Patch
 https://github.com/BoyceLig/Clash_Chinese_Patch/releases
@@ -26,7 +26,10 @@ https://github.com/BoyceLig/Clash_Chinese_Patch/releases
 `Clash for Windows\resources\app.asar`
 
 ---
+# Clash_Chinese_Pkg
+https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases
 
+---
 软件仅供学习，24小时内删除。
 
 如有侵权，请私信我删除。

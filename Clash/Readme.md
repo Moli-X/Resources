@@ -9,7 +9,7 @@
 
 ## 解释说明
 
-汉化链接[Clash for Windows](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)
+汉化[Clash for Windows](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)链接
 
 ⚠️汉化永久免费，请注意欺诈！！！
 

@@ -1,15 +1,13 @@
 # Clash for Window
-
+[![](https://img.shields.io/badge/Telegram-公告板-blue)](https://t.me/QuantX)
+[![](https://img.shields.io/badge/Telegram-交流群-purple)](https://t.me/Skill_X)
 原版[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)链接
+汉化[Clash for Windows](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)链接
+配置文件[(https://github.com/Moli-X/Resources/blob/main/Clash/Clash.yml)]
 
 # Clash_Chinese_Patch
 
-  [![](https://img.shields.io/badge/Telegram-公告板-blue)](https://t.me/QuantX)
-[![](https://img.shields.io/badge/Telegram-交流群-purple)](https://t.me/Skill_X)
-
 ## 解释说明
-
-汉化[Clash for Windows](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)链接
 
 ⚠️汉化永久免费，请注意欺诈！！！
 

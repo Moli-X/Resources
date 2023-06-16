@@ -15,7 +15,7 @@ http-request \/[^/]+\.[^/]+qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)= script-path=ht
 
 http-request \/[^/]+\.[^/]+sg$|sg\?(jsc|hnadd|hndel|n|y|x|del|i)= script-path=https://github.com/chengkongyiban/stash/raw/main/js/Surge_Rewrite_Parser.js, requires-body=true, timeout=10, tag=Surge转化Loon
 
-http-request \/[^/]+\.[^/]+loon$|loon\?(hndel|hnadd|n|y|x|del)= script-path=https://github.com/chengkongyiban/stash/raw/main/js/Loon_Rewrite_Parser.js, requires-body=true, tag=Loon插件控制器
+http-request \/[^/]+\.[^/]+loon$|loon\?(hndel|hnadd|n|y|x|del)= script-path=https://github.com/Moli-X/Resources/raw/main/Script/Loon_Rewrite_Parser.js, requires-body=true, tag=Loon插件控制器
 
 http-request r_parser.list$|r_parser.list\?.* script-path=https://raw.githubusercontent.com/chengkongyiban/stash/main/js/rule_parser.js, requires-body=true, tag=规则集转换
 

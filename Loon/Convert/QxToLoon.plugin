@@ -5,7 +5,10 @@
 #!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Converter.png
 #!select=启用插件随机图标,启用,禁用
 #!select=替换原始插件图标,启用,禁用
-#!select=插件随机图标合集,Doraemon,Shin-chan
+#!select=插件随机图标合集,莫离
+# 原链接：https://raw.githubusercontent.com/chengkongyiban/Loon/main/Loon-Gallery/Rewrite_to_Loon.plugin
+
+
 
 [Script]
 http-request \/[^/]+\.[^/]+qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)= script-path=https://github.com/chengkongyiban/stash/raw/main/js/QX_Rewrite_Parser.js, requires-body=true, timeout=10, tag=QX转化Loon

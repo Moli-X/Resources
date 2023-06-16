@@ -12,7 +12,7 @@ const isShadowrocket = 'undefined' !== typeof $rocket;
 const isLooniOS = 'undefined' != typeof $loon;
 const iconStatus = $persistentStore.read("启用插件随机图标");
 const iconReplace = $persistentStore.read("替换原始插件图标");
-const iconLibrary = $persistentStore.read("插件随机图标合集") ?? "猫咪";
+const iconLibrary = $persistentStore.read("插件随机图标合集") ?? "Pokemon";
 
 var name = "";
 var desc = "";

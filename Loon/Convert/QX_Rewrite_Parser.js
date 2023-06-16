@@ -14,7 +14,7 @@ const isLooniOS = 'undefined' != typeof $loon;
 const isLanceX = 'undefined' != typeof $native;
 const isEgern = 'object' == typeof egern;
 const iconStatus = $persistentStore.read("启用插件随机图标");
-const iconLibrary = $persistentStore.read("插件随机图标合集") ?? "莫离";
+const iconLibrary = $persistentStore.read("插件随机图标合集") ?? "猫咪";
 var jsctype
 if (isStashiOS){
     jsctype = "stash";
@@ -75,7 +75,7 @@ if (iconStatus == "禁用"){
 	const stickerStartNum = 1001;
 const stickerSum = 100;
 let randomStickerNum = parseInt(stickerStartNum + Math.random() * stickerSum).toString();
-   icon = "#!icon=" + "https://github.com/Moli-X/Resources/raw/main/icon/Common/" + iconLibrary + "-" + randomStickerNum + ".png";
+   icon = "#!icon=" + "https://github.com/Moli-X/Resources/raw/main/icon/" + iconLibrary + "/" + iconLibrary + "-" + randomStickerNum + ".png";
 };
 console.log(icon);
 

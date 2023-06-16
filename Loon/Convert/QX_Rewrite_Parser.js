@@ -14,7 +14,7 @@ const isLooniOS = 'undefined' != typeof $loon;
 const isLanceX = 'undefined' != typeof $native;
 const isEgern = 'object' == typeof egern;
 const iconStatus = $persistentStore.read("启用插件随机图标");
-const iconLibrary = $persistentStore.read("插件随机图标合集") ?? "猫咪";
+const iconLibrary = $persistentStore.read("插件随机图标合集") ?? "Pokemon";
 var jsctype
 if (isStashiOS){
     jsctype = "stash";

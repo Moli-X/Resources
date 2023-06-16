@@ -66,7 +66,7 @@ if (iconStatus == "禁用"){
 	const stickerStartNum = 1001;
 const stickerSum = 100;
 let randomStickerNum = parseInt(stickerStartNum + Math.random() * stickerSum).toString();
-   icon = "#!icon=" + "https://github.com/Moli-X/Resources/raw/main/icon/" + iconLibrary + "/" + iconLibrary + "-" + randomStickerNum + ".png";
+   icon = "#!icon=" + "https://github.com/Moli-X/Resources/raw/main/Icon/" + iconLibrary + "/" + iconLibrary + "-" + randomStickerNum + ".png";
 };
 console.log(icon);
 

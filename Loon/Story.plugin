@@ -9,7 +9,7 @@
 
 [Script]
 
-http-request ^https?:\/\/app\.bilibili\.com\/x\/v\d\/feed\/index\? script-path=https://github.com/Moli-X/Resources/raw/main/Script/Bilibili/Story.js, timeout=60 ,tag=Story_1
+http-request ^^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\? script-path=https://github.com/Moli-X/Resources/raw/main/Script/Bilibili/Story.js, timeout=60 ,tag=Story_1
 
 [MITM]
 

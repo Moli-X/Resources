@@ -3,7 +3,9 @@
 #!author=莫离
 #!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Bilibili.plugin
 #!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Bili.png
-#!manual=https://manual.biliuniverse.io  https://biliuniverse.io  https://github.com/Moli-X/Resources/edit/main/Loon/Bilibili.plugin
+#!manual=https://manual.biliuniverse.io  https://biliuniverse.io  
+#!boxjs=https://raw.githubusercontent.com/BiliUniverse/BoxJs/main/BiliBili.boxjs.json
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Bilibili.plugin
 
 [Rewrite]
 # 📺 BiliBili: 🛡️ ADBlock

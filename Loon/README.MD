@@ -5,45 +5,45 @@ TG Channel：https://t.me/QuantX
 
 ## Loon脚本收集: [欢迎投稿](https://t.me/Skill_XX )
 <table>
-    <tr>  <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
+    <tr>  <th> 序号 </th> <th> 功能 </th> <th> Loon一键添加 </th> <th> 链接 </th> </tr >
 	<tr>
-		<td > 1 </td> <td > <strong><em>Loon配置文件</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td><td>Moli-X</td>
+		<td > 1 </td> <td > <strong><em>Loon配置文件</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td>
     </tr>
 	<tr>
-		<td > 1 </td> <td > <strong><em>脚本转换</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/blob/main/Loon/Convert/QxToLoon.plugin"><em>QxToLoon.plugin</em></a></td><td>chengkongyiban</td>
+		<td > 1 </td> <td > <strong><em>脚本转换</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Convert/QxToLoon.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/blob/main/Loon/Convert/QxToLoon.plugin"><em>QxToLoon.plugin</em></a></td>
     </tr>
 <tr>
-		<td > 2 </td> <td ><strong> <em>莫离插件合集</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Collection.plugin"><em>Collection.plugin</em></a></td><td>Moli-X</td>
+		<td > 2 </td> <td ><strong> <em>莫离插件合集</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Collection.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Collection.plugin"><em>Collection.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>莫离脚本合集</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Task.plugin"><em>Task.plugin</em></a></td><td>Moli-X</td>
+		<td > 3 </td> <td > <strong><em>莫离脚本合集</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Task.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Task.plugin"><em>Task.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>莫离脚本获取Cookie</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/GetCookie.plugin"><em>GetCookie.plugin</em></a></td><td>Moli-X</td>
+		<td > 3 </td> <td > <strong><em>莫离脚本获取Cookie</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/GetCookie.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/GetCookie.plugin"><em>GetCookie.plugin</em></a></td>
     </tr>
 <tr>
-		<td > 4 </td> <td > <strong><em>自用去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/AdBlock.plugin"><em>AdBlock.plugin</em></a></td><td>Moli-X</td>
+		<td > 4 </td> <td > <strong><em>自用去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/AdBlock.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/AdBlock.plugin"><em>AdBlock.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 5 </td> <td > <strong><em>微博去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Weibo.plugin"><em>Weibo.plugin</em></a></td><td>zmqcherish</td>
+		<td > 5 </td> <td > <strong><em>微博去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Weibo.plugin"><em>点击添加</em></a></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Weibo.plugin"><em>Weibo.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 6 </td> <td > <strong><em>小红书去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>XHS.plugin</em></a></td><td>ddgksf2013</td>
+		<td > 6 </td> <td > <strong><em>小红书去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>点击添加</em></a></td><td > <strong><em>小红书去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>XHS.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 7 </td> <td > <strong><em>知乎去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>Zhuihu.plugin</em></a></td><td>Moli-X</td>
+		<td > 7 </td> <td > <strong><em>知乎去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>Zhuihu.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 8 </td> <td > <strong><em>屏蔽系统更新</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Update.plugin"><em>Update.plugin</em></a></td><td>Moli-X</td>
+		<td > 8 </td> <td > <strong><em>屏蔽系统更新</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Update.list"><em>Update.list</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
-		<td > 9 </td> <td > <strong><em>高德地图广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Amap.plugin"><em>Amap.plugin</em></a></td><td>ddgksf2013</td>
+		<td > 9 </td> <td > <strong><em>高德地图广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Amap.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Amap.plugin"><em>Amap.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 9 </td> <td > <strong><em>哔哩哔哩万象</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Bilibili.plugin"><em>Bilibili.plugin</em></a></td><td>BiliUniverse</td>
+		<td > 9 </td> <td > <strong><em>哔哩哔哩万象</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Bilibili.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Bilibili.plugin"><em>Bilibili.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 9 </td> <td > <strong><em>超级搜索</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Search.plugin"><em>Search.plugin</em></a></td><td>Moli-X</td>
+		<td > 9 </td> <td > <strong><em>超级搜索</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Search.plugin"><em>点击添加</em></a></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Search.plugin"><em>Search.plugin</em></a></td>
     </tr>
 </table>
 

@@ -15,7 +15,6 @@ TG Channel：https://t.me/QuantX
 	<tr>
 		<td > 3 </td> <td > <strong><em>莫离脚本合集</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Task.plugin"><em>Task.plugin</em></a></td><td>Moli-X</td>
     </tr>
-
 </table>
 
 ## 莫离各平台配置：

@@ -1,4 +1,4 @@
-#!name=规则合集
+#!name=海外服务规则合集
 #!desc=Loon规则合集
 #!author=莫离
 #!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Collection.list
@@ -7,5 +7,5 @@
 
 
 
-DOMAIN, sub-store.vercel.app, 海外服务
-DOMAIN, ip-api.com, 海外服务
+DOMAIN, sub-store.vercel.app
+DOMAIN, ip-api.com

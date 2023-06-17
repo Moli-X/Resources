@@ -28,7 +28,7 @@ TG Channel：https://t.me/QuantX
 		<td > 5 </td> <td > <strong><em>微博去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Weibo.plugin"><em>点击添加</em></a></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Weibo.plugin"><em>Weibo.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 6 </td> <td > <strong><em>小红书去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>点击添加</em></a></td> <td > <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>XHS.plugin</em></a></td>
+		<td > 6 </td> <td > <strong><em>小红书去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>点击添加</em></a></td>  <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>XHS.plugin</em></a></td>
     </tr>
 	<tr>
 		<td > 7 </td> <td > <strong><em>知乎去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>Zhuihu.plugin</em></a></td>

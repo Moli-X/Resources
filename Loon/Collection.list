@@ -1,5 +1,11 @@
+#!name=规则合集
+#!desc=Loon规则合集
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Collection.list
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Collection.png
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Collection.list
 
-# 规则合集
+
 
 [Rule]
 DOMAIN, sub-store.vercel.app, 海外服务

@@ -16,12 +16,15 @@ DOMAIN, sub-store.vercel.app, 优选节点
 DOMAIN, ip-api.com, 优选节点
 ***********************************/
 
-[Script]
-http-request https?:\/\/sub\.store script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store_core_cache.js, requires-body = true, timeout = 120, tag = Sub-Store Core
 
-cron "2 0 * * *" script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/cron-sync-artifacts.min.js, tag = Sub-Store同步
+[Script]
+http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-1.min.js, requires-body = true, timeout = 120, tag = Sub-Store Cache Core
+http-request https?:\/\/sub\.store script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-0.min.js, requires-body = true, timeout = 120, tag = Sub-Store Cache Simple
+
+cron "0 0 * * *" script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/cron-sync-artifacts.min.js, tag = Sub-Store Sync
 
 [MITM]
 hostname = sub.store
+
 
 

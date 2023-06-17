@@ -16,22 +16,22 @@ TG Channel：https://t.me/QuantX
 		<td > 3 </td> <td > <strong><em>莫离脚本合集</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Task.plugin"><em>Task.plugin</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>自用去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/AdBlock.plugin"><em>AdBlock.plugin</em></a></td><td>Moli-X</td>
+		<td > 4 </td> <td > <strong><em>自用去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/AdBlock.plugin"><em>AdBlock.plugin</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>微博去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Weibo.plugin"><em>Weibo.plugin</em></a></td><td>Moli-X</td>
+		<td > 5 </td> <td > <strong><em>微博去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Weibo.plugin"><em>Weibo.plugin</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>小红书去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>XHS.plugin</em></a></td><td>Moli-X</td>
+		<td > 6 </td> <td > <strong><em>小红书去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/XHS.plugin"><em>XHS.plugin</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>知乎去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>Zhuihu.plugin</em></a></td><td>Moli-X</td>
+		<td > 7 </td> <td > <strong><em>知乎去广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>Zhuihu.plugin</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>屏蔽系统更新</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Update.plugin"><em>Update.plugin</em></a></td><td>Moli-X</td>
+		<td > 8 </td> <td > <strong><em>屏蔽系统更新</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Update.plugin"><em>Update.plugin</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>高德地图广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Gaode.plugin"><em>Gaode.plugin</em></a></td><td>Moli-X</td>
+		<td > 9 </td> <td > <strong><em>高德地图广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Gaode.plugin"><em>Gaode.plugin</em></a></td><td>Moli-X</td>
     </tr>
 </table>
 

@@ -1,12 +1,10 @@
-# Sub-Store 脚本链接
+# Sub-Store 自用脚本收集
 
-重命名脚本:
-https://github.com/Moli-X/Resources/raw/main/Sub-Store/Script/Rename.js
+重命名脚本[点击链接](https://github.com/Moli-X/Resources/raw/main/Sub-Store/Script/Rename.js)查看使用方法
 
-花里胡哨脚本:
-https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/fancy-characters.js
+花里胡哨脚本[点击链接](https://github.com/Moli-X/Resources/raw/main/Sub-Store/Script/fancy-characters.js)查看使用方法
 
-Loon缓存版重命名脚本:
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/NodeRename.js
+Loon缓存版重命名脚本[点击链接](https://github.com/Moli-X/Resources/blob/main/Sub-Store/Script/NodeRename.js)查看使用方法
+
 
 

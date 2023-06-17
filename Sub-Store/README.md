@@ -15,6 +15,8 @@ Advanced Subscription Manager for QX, Loon, Surge, Stash and ShadowRocket.
 
 ### 1. Loon
 安装使用[插件](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)即可。
+缓存版安装[插件](https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Sub-Store.plugin)即可
+
 ### 2. Surge
 安装使用[模块](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule)即可。
 

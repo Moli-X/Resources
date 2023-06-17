@@ -10,7 +10,7 @@ TG Channel：https://t.me/QuantX
 		<td > 1 </td> <td > <strong><em>Loon配置文件</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
-		<td > 2 </td> <td ><strong> <em>莫离插件合集</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Collections.plugin"><em>Collections.plugin</em></a></td><td>Moli-X</td>
+		<td > 2 </td> <td ><strong> <em>莫离插件合集</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Collection.plugin"><em>Collection.plugin</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
 		<td > 3 </td> <td > <strong><em>莫离脚本合集</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Task.plugin"><em>Task.plugin</em></a></td><td>Moli-X</td>

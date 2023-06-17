@@ -1,5 +1,40 @@
 # Scheme 和统一链接
 ---
+## 统一链接
+统一链接是为了能够在网页中点击链接直接跳转到app中的某个页面，不同链接的作用参考上面的scheme
+---
+https://www.nsloon.com/openloon/on
+
+https://www.nsloon.com/openloon/off
+
+https://www.nsloon.com/openloon/editconfig
+
+https://www.nsloon.com/openloon/flowmodel=direct
+
+https://www.nsloon.com/openloon/flowmodel=filter
+
+https://www.nsloon.com/openloon/flowmodel=proxy
+
+https://www.nsloon.com/openloon/proxymode=tun
+
+https://www.nsloon.com/openloon/proxymode=mix
+
+https://www.nsloon.com/openloon/import?sub=encode(url)
+
+https://www.nsloon.com/openloon/import?nodelist=encode(url)
+
+https://www.nsloon.com/openloon/import?rules=encode(url)
+
+https://www.nsloon.com/openloon/import?plugin=encode(url)
+
+https://www.nsloon.com/openloon/import?iconset=encode(url)
+
+https://www.nsloon.com/openloon/import?geoip=encode(url)
+
+https://www.nsloon.com/openloon/import?parser=encode(url)
+
+https://www.nsloon.com/openloon/update?sub=all
+
 ## Scheme
 开启VPN
 loon://on
@@ -49,22 +84,3 @@ loon://import?parser=encode(url)
 更新所有订阅资源
 loon://update?sub=all
 ---
-## 统一链接
-统一链接是为了能够在网页中点击链接直接跳转到app中的某个页面，不同链接的作用参考上面的scheme
----
-https://www.nsloon.com/openloon/on
-https://www.nsloon.com/openloon/off
-https://www.nsloon.com/openloon/editconfig
-https://www.nsloon.com/openloon/flowmodel=direct
-https://www.nsloon.com/openloon/flowmodel=filter
-https://www.nsloon.com/openloon/flowmodel=proxy
-https://www.nsloon.com/openloon/proxymode=tun
-https://www.nsloon.com/openloon/proxymode=mix
-https://www.nsloon.com/openloon/import?sub=encode(url)
-https://www.nsloon.com/openloon/import?nodelist=encode(url)
-https://www.nsloon.com/openloon/import?rules=encode(url)
-https://www.nsloon.com/openloon/import?plugin=encode(url)
-https://www.nsloon.com/openloon/import?iconset=encode(url)
-https://www.nsloon.com/openloon/import?geoip=encode(url)
-https://www.nsloon.com/openloon/import?parser=encode(url)
-https://www.nsloon.com/openloon/update?sub=all

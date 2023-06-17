@@ -11,9 +11,9 @@
 # 修改自:https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Sub-Store.plugin
 # 若没有本地PROXY 需自信添加以下两条规则
 /************************************
-[Rule]
-DOMAIN, sub-store.vercel.app, 优选节点
-DOMAIN, ip-api.com, 优选节点
+* [Rule]
+* DOMAIN, sub-store.vercel.app, 海外服务
+* DOMAIN, ip-api.com, 海外服务
 ***********************************/
 
 

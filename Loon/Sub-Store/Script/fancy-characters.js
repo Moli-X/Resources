@@ -1,11 +1,12 @@
 /**
  * 节点名改为花里胡哨字体，仅支持英文字符和数字
- *
+ * 原链接:https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/fancy-characters.js
  * 【字体】
  * 可参考：https://www.dute.org/weird-fonts
  * serif-bold, serif-italic, serif-bold-italic, sans-serif-regular, sans-serif-bold-italic, script-regular, script-bold, fraktur-regular, fraktur-bold, monospace-regular, double-struck-bold, circle-regular, square-regular
  *
  * 【示例】
+ * https://github.com/Moli-X/Resources/raw/main/Loon/Sub-Store/Script/fancy-characters.js#type=serif-bold-italic&num=serif-bold
  * 1️⃣ 设置所有格式为 "serif-bold"
  * #type=serif-bold
  *

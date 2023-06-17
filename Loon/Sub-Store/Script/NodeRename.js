@@ -1,4 +1,5 @@
 /*
+原链接:https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/NodeRename.js
 版本：48小时缓存版
 注意：此脚本仅支持Surge和Loon
 符号：🅳电信 🅻联通 🆈移动 🅶广电 🅲公司 🆉直连 🎮游戏
@@ -8,7 +9,7 @@
 作者：@Key @奶茶姐 @小一
 用法：Sub-Store脚本操作里添加
 日期：2023-06-01 00:35:59
-示例：https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/NodeRename.js#timeout=2000&cd=2000&isp&city&game&bl&flag&fgf=→&tz=[方括号内填写你的机场名]&name=[方括号内填写你的机场名]
+示例：https://github.com/Moli-X/Resources/raw/main/Loon/Sub-Store/Script/NodeRename.js#timeout=2000&cd=2000&isp&city&game&bl&flag&fgf=→&tz=[方括号内填写你的机场名]&name=[方括号内填写你的机场名]
 ----------------
 以下是此脚本支持的参数，必须以"#"开头，多个参数使用"&"连接，参考上述地址为例使用参数。
 无参数时的节点命名格式: "北京 美国 01"，如果[入口IP或国家]或[落地IP或国家]一样则为 "直连 德国 01" 

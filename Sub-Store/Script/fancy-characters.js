@@ -6,7 +6,7 @@
  * serif-bold, serif-italic, serif-bold-italic, sans-serif-regular, sans-serif-bold-italic, script-regular, script-bold, fraktur-regular, fraktur-bold, monospace-regular, double-struck-bold, circle-regular, square-regular
  *
  * 【示例】
- * https://github.com/Moli-X/Resources/raw/main/Loon/Sub-Store/Script/fancy-characters.js#type=serif-bold-italic&num=serif-bold
+ * https://github.com/Moli-X/Resources/raw/main/Sub-Store/Script/fancy-characters.js#type=serif-bold-italic&num=serif-bold
  * 1️⃣ 设置所有格式为 "serif-bold"
  * #type=serif-bold
  *

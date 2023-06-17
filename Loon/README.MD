@@ -33,9 +33,12 @@ TG Channel：https://t.me/QuantX
 	<tr>
 		<td > 9 </td> <td > <strong><em>高德地图广告</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Amap.plugin"><em>Amap.plugin</em></a></td><td>Moli-X</td>
     </tr>
+	<tr>
+		<td > 9 </td> <td > <strong><em>哔哩哔哩万象</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Bilibili.plugin"><em>Bilibili.plugin</em></a></td><td>Moli-X</td>
+    </tr>
 </table>
 
-
+https://github.com/Moli-X/Resources/blob/main/Loon/Bilibili.plugin
 
 ## 莫离各平台配置：
 * 莫离QuantumultX配置 [***QuantumultX.conf***](https://raw.githubusercontent.com/Moli-X/Resources/main/Rewrite/QuantumultX.conf) 

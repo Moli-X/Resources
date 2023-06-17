@@ -38,7 +38,7 @@ TG Channel：https://t.me/QuantX
     </tr>
 </table>
 
-https://github.com/Moli-X/Resources/blob/main/Loon/Bilibili.plugin
+
 
 ## 莫离各平台配置：
 * 莫离QuantumultX配置 [***QuantumultX.conf***](https://raw.githubusercontent.com/Moli-X/Resources/main/Rewrite/QuantumultX.conf) 

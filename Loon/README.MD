@@ -7,7 +7,7 @@ TG Channel：https://t.me/QuantX
 <table>
     <tr>  <th> 序号 </th> <th> 功能 </th> <th> Loon一键添加 </th> <th> 链接 </th> </tr >
 	<tr>
-		<td > 1 </td> <td > <strong><em>Loon配置文件</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td>
+		<td > 1 </td> <td > <strong><em>Loon配置文件</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?sub=https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>点击导入</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td>
     </tr>
 	<tr>
 		<td > 1 </td> <td > <strong><em>脚本转换</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Convert/QxToLoon.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/blob/main/Loon/Convert/QxToLoon.plugin"><em>QxToLoon.plugin</em></a></td>
@@ -34,7 +34,7 @@ TG Channel：https://t.me/QuantX
 		<td > 7 </td> <td > <strong><em>知乎去广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Zhuihu.plugin"><em>Zhuihu.plugin</em></a></td>
     </tr>
 	<tr>
-		<td > 8 </td> <td > <strong><em>屏蔽系统更新</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Update.list"><em>Update.list</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Update.list"><em>Update.list</em></a></td>
+		<td > 8 </td> <td > <strong><em>屏蔽系统更新</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?rules=https://github.com/Moli-X/Resources/raw/main/Loon/Update.list"><em>;点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Update.list"><em>Update.list</em></a></td>
     </tr>
 	<tr>
 		<td > 9 </td> <td > <strong><em>高德地图广告</em> </strong></td> <td ><a href="https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Amap.plugin"><em>点击添加</em></a></td><td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Amap.plugin"><em>Amap.plugin</em></a></td>

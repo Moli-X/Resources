@@ -3,6 +3,7 @@
 #!author=莫离
 #!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Collection.plugin
 #!icon=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Collection.png
+#!select = 节点缓存有效期, 1分钟, 5分钟, 10分钟, 30分钟, 1小时, 2小时, 3小时, 6小时, 12小时, 24小时, 48小时, 72小时, 参数传入
 #!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Collection.plugin
 
 [General]

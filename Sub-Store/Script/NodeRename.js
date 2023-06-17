@@ -8,8 +8,9 @@
 异常：如遇问题，Loon可以进入[配置]→[持久化缓存]→[删除指定数据]→输入Key[sub-store-cached-script-resource][sub-store-nodes][sub-store-proxies]并删除缓存。Surge需要进入[脚本编辑器]→左下角[设置]→[$persistentStore]→[sub-store-cached-script-resource][sub-store-nodes][sub-store-proxies]删除缓存数据。
 作者：@Key @奶茶姐 @小一
 用法：Sub-Store脚本操作里添加
-日期：2023-06-01 00:35:59
+日期：2023-06-17 00:35:59
 示例：https://github.com/Moli-X/Resources/raw/main/Sub-Store/Script/NodeRename.js#timeout=2000&cd=2000&isp&city&game&bl&flag&fgf=➤&tz=[方括号内填写你的机场名]&name=[方括号内填写你的机场名]
+箭头: https://symbl.cc/cn/collections/arrow-symbols
 ----------------
 以下是此脚本支持的参数，必须以"#"开头，多个参数使用"&"连接，参考上述地址为例使用参数。
 无参数时的节点命名格式: "北京 美国 01"，如果[入口IP或国家]或[落地IP或国家]一样则为 "直连 德国 01" 

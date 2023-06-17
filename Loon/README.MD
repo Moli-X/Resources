@@ -10,6 +10,9 @@ TG Channel：https://t.me/QuantX
 		<td > 1 </td> <td > <strong><em>Loon配置文件</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
+		<td > 1 </td> <td > <strong><em>脚本转换</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/blob/main/Loon/Convert/QxToLoon.plugin"><em>QxToLoon.plugin</em></a></td><td>chengkongyiban</td>
+    </tr>
+<tr>
 		<td > 2 </td> <td ><strong> <em>莫离插件合集</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Collection.plugin"><em>Collection.plugin</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>

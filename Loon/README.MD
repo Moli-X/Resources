@@ -5,7 +5,7 @@ TG Channel：https://t.me/QuantX
 
 ## Loon脚本收集: [欢迎投稿](https://t.me/Skill_XX )
 <table>
-    <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
+    <tr>  <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
 	<tr>
 		<td > 1 </td> <td > <strong><em>Loon配置文件</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"><em>Loon.conf</em></a></td><td>Moli-X</td>
     </tr>

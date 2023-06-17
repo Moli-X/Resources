@@ -9,6 +9,7 @@
 <p align="center" color="#6a737d">
 Advanced Subscription Manager for QX, Loon, Surge, Stash and ShadowRocket.
 </p>
+
 # Sub-Store 配置指南
 
 ## 脚本配置：

@@ -7,7 +7,7 @@
 #!input = Appid
 #!input = SecurityKey
 #!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Spotify_lyrics_translation.plugin
-
+# 使用方法: https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/README.md
 
 [Script]
 http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://github.com/Moli-X/Resources/raw/main/Script/Spotify_lyrics_translation.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译

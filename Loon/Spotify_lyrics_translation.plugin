@@ -1,0 +1,22 @@
+#!name = Spotify歌词翻译
+#!desc = 将Spotify的外语歌词翻译为简体中文
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Script/Spotify_lyrics_translation.js
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Spotify.png
+#!input = Appid
+#!input = SecurityKey
+#!edit = https://github.com/Moli-X/Resources/edit/main/Script/Spotify_lyrics_translation.js
+
+
+[Script]
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://github.com/Moli-X/Resources/raw/main/Script/Spotify_lyrics_translation.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
+
+[Mitm]
+hostname = spclient.wg.spotify.com
+
+
+
+
+
+

@@ -6,8 +6,8 @@
 
 
 
-let baidu_appid = $persistentStore.read("Appid");
-let baidu_securityKey = $persistentStore.read("SecurityKey");
+let Appid = $persistentStore.read("baidu_appid");
+let SecurityKey = $persistentStore.read("baidu_securityKey");
 const options = {
     appid:  'Appid',
     securityKey:  'SecurityKey'

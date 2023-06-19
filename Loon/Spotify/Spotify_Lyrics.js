@@ -20,7 +20,7 @@ http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ s
       正则填入^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/
 */
 // 注意: QX用户需要手动填入appid和securityKey密钥, Surge和Loon用户无需填入!!!!
-*/
+
 
 
 

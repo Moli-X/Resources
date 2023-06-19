@@ -8,7 +8,7 @@ hostname = %APPEND% spclient.wg.spotify.com
 spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid=111&securityKey=xxx
 
 2.Loon:
-# LOON用户建议点击下面链接直接添加:https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify_Lyrics.plugin
+# LOON用户建议点击下面链接直接添加:https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_Lyrics.plugin
 [Mitm]
 hostname =spclient.wg.spotify.com
 [Script]

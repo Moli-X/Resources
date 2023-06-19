@@ -2,15 +2,15 @@
 #!desc = 将Spotify的外语歌词翻译为简体中文
 #!openUrl = 
 #!author = 莫离
-#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Spotify_lyrics_translation.plugin
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Spotify.png
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_lyrics_translation.plugin
+#!icon = https://github.com/Moli-X/Resources/tree/main/Icon/Image/Spotify.png
 #!input = Appid
 #!input = SecurityKey
 #!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Spotify_lyrics_translation.plugin
 # 使用方法: https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/README.md
 
 [Script]
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://github.com/Moli-X/Resources/raw/main/Script/Spotify_lyrics_translation.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://github.com/Moli-X/Resources/raw/Loon/Spotify/Spotify_lyrics_translation.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
 
 [Mitm]
 hostname = spclient.wg.spotify.com

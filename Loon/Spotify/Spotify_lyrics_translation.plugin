@@ -3,10 +3,10 @@
 #!openUrl = 
 #!author = 莫离
 #!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_lyrics_translation.plugin
-#!icon = https://github.com/Moli-X/Resources/tree/main/Icon/Image/Spotify.png
+#!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Image/Spotify.png
 #!input = Appid
 #!input = SecurityKey
-#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Spotify_lyrics_translation.plugin
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify_lyrics_translation.plugin
 # 使用方法: https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md
 
 [Script]

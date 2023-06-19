@@ -10,7 +10,7 @@
 # 使用方法: https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md
 
 [Script]
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://github.com/Moli-X/Resources/raw/Loon/Spotify/Spotify_lyrics.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://github.com/Moli-X/Resources/raw/Loon/Spotify/Spotify_Lyrics.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
 
 [Mitm]
 hostname = spclient.wg.spotify.com

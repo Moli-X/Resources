@@ -1,8 +1,8 @@
 ### 使用说明
 1. 本插件采用百度翻译接口进行翻译，你需要先申请获得百度翻译API的`appid`和`securityKey`；
 2. 申请到之后需要在插件内部填配置；
-3. 将`appid`填写到插件的`baidu_appid`项；
-4. 将`securityKey`填写到插件的`baidu_securityKey`项。
+3. 将`appid`填写到插件的`Appid`项；
+4. 将`securityKey`填写到插件的`SecurityKey`项。
 
 ### 翻译接口版本说明
 1. 百度翻译接口有标准版和高级版，建议申请高级版；

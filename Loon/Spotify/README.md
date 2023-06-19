@@ -3,7 +3,8 @@
 2. 申请到之后需要在插件内部填配置；
 3. 将`appid`填写到插件的`Appid`项；
 4. 将`securityKey`填写到插件的`SecurityKey`项。
-<img alt="看不见图片请使用科学上网" src="https://github.com/Moli-X/Resources/raw/main/Icon/Other/Spotify-1.png">
+<a href="[https://t.me/GodMoliibot](https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify_Lyrics.plugin)"><img src="https://github.com/Moli-X/Resources/raw/main/Icon/Other/Spotify-1.png" width="50%" height="50%"></a>
+
 ### 翻译接口版本说明
 1. 百度翻译接口有标准版和高级版，建议申请高级版；
 2. 标准版单次最长请求1000字符，免费调用量5万字符/月，QPS=1，很可能不够用；

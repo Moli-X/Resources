@@ -3,7 +3,6 @@
 #!author=莫离
 #!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Collection.plugin
 #!icon=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Collection.png
-#!select = 节点缓存有效期, 1分钟, 5分钟, 10分钟, 30分钟, 1小时, 2小时, 3小时, 6小时, 12小时, 24小时, 48小时, 72小时, 参数传入
 #!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Collection.plugin
 
 [General]
@@ -16,13 +15,7 @@ skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abch
 [Script]
 
 # ✅Sub-Store
-# http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, timeout=120, tag=Sub-Store Core
-# http-request https?:\/\/sub\.store script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true, timeout=120, tag=Sub-Store Simple
-# ✅Sub-Store缓存版  https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Sub-Store.plugin
-# http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-1.min.js, requires-body = true, timeout = 120, tag = Sub-Store Cache Core
-# http-request https?:\/\/sub\.store script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-0.min.js, requires-body = true, timeout = 120, tag = Sub-Store Cache Simple
-# http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path=https://raw.githubusercontent.com/Keywos/rule/main/Sub-Store/sub-store-1.min-nolog.js, requires-body=true, timeout=120, tag=Keywos Core
-# http-request https?:\/\/sub\.store script-path=https://raw.githubusercontent.com/Keywos/rule/main/Sub-Store/sub-store-0.min-nolog.js, requires-body=true, timeout=120, tag=Keywos Simple 
+# 添加插件：https://raw.githubusercontent.com/Moli-X/Resources/main/Sub-Store/Sub-Store.plugin
 
 # ✅BoxJs
 http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs

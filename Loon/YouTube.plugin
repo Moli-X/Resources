@@ -4,20 +4,34 @@
 #!author = 莫离
 #!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/YouTube.plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/YouTube.png
+#!select = 仅输出字幕译文, 是, 否
+#!select = 字幕译文的位置, 译文位于原文之上, 译文位于原文之下
 #!edit = https://github.com/Moli-X/Resources/edit/main/Loon/YouTube.plugin
 
 
 # 原链接 = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/YouTube_remove_ads.plugin
 
+
+
+
 [Rewrite]
-# 使用reject-img减少开销
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-img
+# 使用reject-200方法以减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-200
 
 [Script]
-# 该插件已足够全面，无需其他规则混用，防止复写规则被破坏。
-http-request ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_request.js, requires-body = true, binary-body-mode = true, tag = YouTube Request
-http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_response.js, requires-body = true, binary-body-mode = true, tag = YouTube Response
+# YouTube去广告 - 来自Maasea的作品
+http-request ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_request.js, requires-body = true, binary-body-mode = true, tag = YouTube请求
 
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_response.js, requires-body = true, binary-body-mode = true, tag = YouTube响应
+
+# 字幕翻译 - 来自VirgilClyne的作品
+http-response ^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player(\?.*)$ script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_Player_response.js, requires-body = true, timeout = 30, tag = YouTube播放器响应, argument = 
+
+http-request ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_TimedText_request.js, requires-body = true, tag = YouTube字幕请求, argument = 
+
+http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_TimedText_response.js, requires-body = true, tag = YouTube字幕响应, argument = 
 
 [MITM]
-hostname = *.googlevideo.com, youtubei.googleapis.com
+hostname = *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, m.youtube.com, tv.youtube.com, -redirector*.googlevideo.com
+
+

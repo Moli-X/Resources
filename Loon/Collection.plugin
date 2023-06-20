@@ -38,10 +38,9 @@ http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ re
 http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, timeout=60 ,tag=UnblockURLinWeChat_9
 
 
-[URL Rewrite]
-# YouTube去广告  
-# ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad REJECT-IMG
-# TIKTOK解锁
+[Rewrite]
+
+# ✅TIKTOK解锁
 (?<=_region=)CN(?=&) JP 307
 (?<=&mcc_mnc=)4 2 307
 ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$4 302

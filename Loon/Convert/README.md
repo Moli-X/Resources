@@ -17,7 +17,7 @@
    **Surge**: 在QX重写链接末尾加**qx**  在Loon插件链接末尾加**loon**
 
    **Shadowrock Loon**: 在QX重写链接末尾加**qx**  在Surge模块链接末尾加**sg**  在Loon插件链接末尾加**loon**  (**注意**：Shadowrocket兼容大部分Surge模块，仅在模块中有[Map Local]字段时需要使用转换)  
-  
+**：js脚本**：后添加_script-converter-loon.js
 ### 规则集转换  
    在**规则集**链接末尾加**r_parser.list**  
 ## Loon插件随机图标说明：  

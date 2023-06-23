@@ -1,28 +1,12 @@
-/*
-脚本引用https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
-1.Surge:
-[MITM]
-hostname = %APPEND% spclient.wg.spotify.com
-[Script]
-# 修改下方argument中的appid和securityKey,填入自己的appid和密钥
-spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid=111&securityKey=xxx
-
-2.Loon:
-# LOON用户建议点击下面链接直接添加:https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_Lyrics.plugin
-[Mitm]
-hostname =spclient.wg.spotify.com
-[Script]
-# 修改下方argument中的appid和securityKey,填入自己的appid和密钥
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译, argument=appid=111&securityKey=xxx
-3.qx:
-    - 自行配置MITM域名: spclient.wg.spotify.com
-    - 手动修改填入下方的Bdappid和BdsecurityKey密钥, 并配置重写,类型为script-response-body,
-      正则填入^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/
-*/
+/*******************************************
+* LOON用户建议点击下面链接直接添加:https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_Lyrics.plugin
+* 使用方法:https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md
+* 其他用户请使用原链接:https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
+********************************************/
 
 
 
-// 注意: QX用户需要手动填入Bdappid和BdsecurityKey密钥, Surge和Loon用户无需填入!!!!
+
 
 
 

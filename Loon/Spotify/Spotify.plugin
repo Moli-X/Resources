@@ -18,3 +18,4 @@ http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ s
 
 [Mitm]
 hostname = spclient.wg.spotify.com
+

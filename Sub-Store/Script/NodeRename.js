@@ -10,7 +10,7 @@
 用法：Sub-Store脚本操作里添加
 日期：2023-06-20 00:35:59
 示例：https://github.com/Moli-X/Resources/raw/main/Sub-Store/Script/NodeRename.js#timeout=2000&cd=2000&isp&city&game&bl&flag&fgf=➤&tz=[方括号内填写你的机场名]&name=[方括号内填写你的机场名]
-参数必须以"#"开头，多个参数使用"&"连接 https://github.com/Keywos/rule/raw/main/cname.js#city&isp
+参数必须以"#"开头，多个参数使用"&"连接 https://github.com/Moli-X/Resources/raw/main/Sub-Store/Script/NodeRename.js#city&isp
 箭头符号: https://symbl.cc/cn/collections/arrow-symbols
 ----------------
 功能：根据接口返回的真实结果，重新对节点命名。添加入口城市、落地国家或地区、国内运营商信息，并对这些数据做持久化缓存（48小时有效期），减少API请求次数，提高运行效率。

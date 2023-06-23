@@ -1,7 +1,8 @@
 /*******************************************
 * LOON用户建议点击下面链接直接添加:https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_Lyrics.plugin
 * 使用方法:https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md
-* 其他用户请使用原链接:https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
+* Surge,Qx用户其他用户请使用原链接:https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
+* QX使用教程:https://t.me/QuantX/403
 ********************************************/
 
 

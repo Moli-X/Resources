@@ -1,0 +1,19 @@
+#!name = Spotify解锁+歌词翻译
+#!desc = 将Spotify的外语歌词翻译为简体中文
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify.plugin
+#!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Image/Spotify.png
+#!input = Appid
+#!input = SecurityKey
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify.plugin
+# 使用方法: https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md 原链接:https://github.com/app2smile/rules/blob/master/plugin/spotify.plugin  
+
+[Script]
+http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=10, tag=spotifyJson
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=spotifyProto
+
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_Lyrics.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
+
+[Mitm]
+hostname = spclient.wg.spotify.com

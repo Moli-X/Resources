@@ -1,0 +1,21 @@
+#!name=Sub-Store标准版
+#!desc=高级订阅管理工具
+#!openUrl=
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Sub-Store/SubStore.plugin
+#!icon=https://raw.githubusercontent.com/58xinian/icon/master/Sub-Store1.png
+#!edit=https://github.com/Moli-X/Resources/edit/main/Sub-Store/SubStore.plugin
+
+
+
+
+
+
+
+[MITM]
+hostname=sub.store
+
+[Script]
+http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, timeout=120, tag=Sub-Store Core
+http-request https?:\/\/sub\.store script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true, timeout=120, tag=Sub-Store Simple
+

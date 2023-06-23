@@ -14,10 +14,10 @@
 
 
 
-let AppId = $persistentStore.read("AppId");
+let Appid = $persistentStore.read("Appid");
 let SecretKey = $persistentStore.read("SecretKey");
 const options = {
-    appid: AppId,
+    appid: Appid,
     securityKey: SecretKey
 };
 // text-decoder

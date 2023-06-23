@@ -7,7 +7,8 @@
 #!input = baidu_appid
 #!input = baidu_securityKey
 #!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify.plugin
-# 使用方法: https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md 原链接:https://github.com/app2smile/rules/blob/master/plugin/spotify.plugin  歌词翻译原链接:https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
+# 使用方法: https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md 
+# 原链接: https://github.com/app2smile/rules/raw/master/plugin/spotify.plugin  歌词翻译原链接:https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
 
 [Script]
 http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=10, tag=spotifyJson

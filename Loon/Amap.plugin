@@ -9,6 +9,12 @@
 # 若此链接无法净化高德请卸载后使用:https://github.com/Moli-X/Resources/edit/main/Loon/Gaode.plugin
 # 高德地图去广告原链接:https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Amap.conf
 
+
+[Rule]
+DOMAIN, amap-aos-info-nogw.amap.com, REJECT
+DOMAIN, awaken.amap.com, REJECT
+DOMAIN, free-aos-cdn-image.amap.com, REJECT
+
 [Rewrite]
 
 # > 高德地图_路线规划下方广告 

@@ -4,8 +4,8 @@
 #!author = 莫离
 #!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_Lyrics.plugin
 #!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Image/Spotify.png
-#!input = Appid
-#!input = SecurityKey
+#!input = APP_ID
+#!input = Secret_Key
 #!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify_Lyrics.plugin
 # 使用方法: https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md
 

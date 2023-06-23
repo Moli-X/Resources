@@ -5,7 +5,7 @@
 #!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/AdBlocker.png
 #!edit=https://github.com/Moli-X/Resources/edit/main/Loon/AdBlock.list
 
-# 最后更新时间:2023.06.09
+# 最后更新时间:2023.06.23
 ##############################################################################
 
 
@@ -389,7 +389,9 @@ DOMAIN,optimus-ads.amap.com.w.alikunlun.com, reject
 DOMAIN-SUFFIX, shouji.sougou.com, reject
 DOMAIN, u51.me, reject
 DOMAIN-SUFFIX, u51.me, reject
-
+DOMAIN, amap-aos-info-nogw.amap.com, REJECT
+DOMAIN, awaken.amap.com, REJECT
+DOMAIN, free-aos-cdn-image.amap.com, REJECT
 
 
 # >>>>>>>>>>>>>>> ✅ H ✅ <<<<<<<<<<<<<<

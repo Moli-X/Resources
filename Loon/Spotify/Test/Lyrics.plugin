@@ -1,0 +1,19 @@
+#!name = Spotify歌词翻译
+#!desc = 测试
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify_Lyrics.plugin
+#!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Image/Spotify.png
+#!input = APP_ID
+#!input = Secret_Key
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify_Lyrics.plugin
+# 使用方法: https://github.com/Moli-X/Resources/blob/main/Loon/Spotify/README.md
+
+
+
+[Script]
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译, argument=appid=APP_ID&securityKey=Secret_Key
+
+
+[Mitm]
+hostname =spclient.wg.spotify.com

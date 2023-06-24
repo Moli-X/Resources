@@ -1,10 +1,10 @@
 ### 使用说明
 1. 本插件采用百度翻译接口进行翻译，你需要先申请获得百度翻译API的`APPID`和`密钥`；
 2. 申请到之后需要在插件内部填配置；
-3. 将`APPID`填写到插件的`APP_ID`项；
-4. 将`密钥`填写到插件的`Secret_Key`项。
+3. 将`APPID`填写到插件的`Appid`项；
+4. 将`密钥`填写到插件的`SecretKey`项。
 
-<a href="[https://t.me/GodMoliibot](https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify_Lyrics.plugin)"><img src="https://github.com/Moli-X/Resources/raw/main/Icon/Other/Spotify-1.png" width="50%" height="50%"></a>
+<a href="[https://t.me/GodMoliibot](https://www.nsloon.com/openloon/import?plugin=https://github.com/Moli-X/Resources/edit/main/Loon/Spotify/Spotify_Lyrics.plugin)"><img src="https://github.com/Moli-X/Resources/raw/main/Icon/Other/Spotify-1.png" width="70%" height="70%"></a>
 
 ### 翻译接口版本说明
 1. 百度翻译接口有标准版和高级版，建议申请高级版；

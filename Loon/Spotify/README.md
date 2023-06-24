@@ -15,4 +15,4 @@
 1. [注册](http://api.fanyi.baidu.com/register)百度翻译个人开发者 ；
 2. 注册后如果需要认证可自行选择是否实人认证（高级版需要验证）；
 3. [开通](https://fanyi-api.baidu.com/choose)通用翻译API服务；
-4. 成功后点击[此处](http://api.fanyi.baidu.com/manage/developer)即可看到自己的`appid`和`securityKey`（不要泄露给任何人）。
+4. 成功后点击[此处](http://api.fanyi.baidu.com/manage/developer)即可看到自己的`APP ID`和`密钥`（不要泄露给任何人）。

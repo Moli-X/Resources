@@ -980,7 +980,7 @@ DOMAIN-keyword, cpu.baidu.com, reject
 DOMAIN-keyword, caclick.baidu.com, reject
 DOMAIN-keyword, rescn.u3.ucweb.com, reject
 DOMAIN, safe.ucweb.com, reject
-DOMAIN, px.ucweb.com, reject
+# DOMAIN, px.ucweb.com, reject
 DOMAIN-keyword, editor.sm.cn, reject
 DOMAIN-keyword, fc-video.cdn.bcebos.com, reject
 DOMAIN-keyword, vs10.bj2ct.u3.ucweb.com, reject

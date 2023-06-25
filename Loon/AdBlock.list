@@ -6321,7 +6321,7 @@ DOMAIN-SUFFIX,m.tuopp.com, reject
 DOMAIN-SUFFIX,m.twldmx.com, reject
 DOMAIN-SUFFIX,m.txtxr.com, reject
 DOMAIN-SUFFIX,m.uc123.com, reject
-DOMAIN-SUFFIX,m.uczzd.cn, reject
+# DOMAIN-SUFFIX,m.uczzd.cn, reject
 DOMAIN-SUFFIX,m.ueram.com, reject
 DOMAIN-SUFFIX,m.uissm.com, reject
 DOMAIN-SUFFIX,m.vaxyz.com, reject

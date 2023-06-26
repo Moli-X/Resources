@@ -1046,7 +1046,7 @@ DOMAIN-SUFFIX, alissl.ucdl.pp.uc.cn, reject
 DOMAIN-SUFFIX, api.mp.uc.cn, reject
 DOMAIN-SUFFIX, api.open.uc.cn, reject
 DOMAIN-SUFFIX, applog.uc.cn, reject
-DOMAIN-SUFFIX, applogios.uc.cn, reject
+# DOMAIN-SUFFIX, applogios.uc.cn, reject
 DOMAIN-SUFFIX, bench.uc.cn, reject
 DOMAIN-SUFFIX, client.tv.uc.cn, reject
 DOMAIN-SUFFIX, coral-task.uc.cn, reject

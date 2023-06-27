@@ -4,6 +4,7 @@
 用法：Sub-Store脚本操作添加
 原链接:https://raw.githubusercontent.com/Keywos/rule/main/rename.js
 例如：https://github.com/Moli-X/Resources/raw/main/Sub-Store/Script/Rname.js#name=测试&flag
+箭头符号: https://symbl.cc/cn/collections/arrow-symbols
 -------------------------------- 
 rename.js 以下是此脚本支持的参数，必须以 # 为开头多个参数使用"&"连接，参考上述地址为例使用参数。
 [bl]:     保留: 家宽 ，IPLC 几倍之类的标识

@@ -32,6 +32,8 @@ http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ sc
 # ✅Spotify会员
 http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=10, tag=spotifyJson
 http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=spotifyProto
+# ✅阿里网盘crack测试   api.aliyundrive.com, member.aliyundrive.com
+http-response ^https:\/\/(api|member)\.aliyundrive\.com\/(adrive|v1|v2|business|databox)\/.+\/(me|vip|feature|info|get_personal_info|driveCapacityDetails) script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCrack/aDriveCrack_test.js, requires-body=true, timeout=10, enabled=true, tag=阿里网盘crack测试
 # ✅TF区域限制解除
 http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/TF_Download.js, tag=TF区域限制解除
 # ✅微信链接限制解除
@@ -47,6 +49,6 @@ http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspams
 (?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
 
 [MITM]
-hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com,*.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com
+hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com,*.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, member.aliyundrive.com
 
 

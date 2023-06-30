@@ -216,7 +216,7 @@ https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 - reject
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/scjson\/tripAds - reject-200
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
 # 🟢> 铁路12306开屏广告
-^https://ad.12306.cn/* - reject
+# ^https://ad.12306.cn/* - reject
 # 🟢> 中国移动 client.app.coc.10086.cn  
 ^https?:\/\/client.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
 # 🟢PornHub

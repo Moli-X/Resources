@@ -1,0 +1,15 @@
+#!name=字体册
+#!desc=字体册解锁会员
+#!homepage=
+#!author=莫离
+# https://github.com/Moli-X/Resources/new/main/Loon
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/ztc.png
+
+[Script]
+
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/ztc.png
+http-response ^https:\/\/api\.yonekura\.cn\/3\.7\.0\/uicommon\/getuser script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ztc.js, requires-body=true, timeout=60 ,tag=ztc_5
+
+[MITM]
+
+hostname = api.yonekura.cn

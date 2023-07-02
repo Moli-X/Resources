@@ -13,10 +13,8 @@
 # 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/TikTok.plugin
 # ✅Spotify歌词翻译
 # 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify.plugin
-
-[General]
-
-skip-proxy = www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com,iosapps.itunes.apple.com
+# ✅配置增强跳过代理
+# 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/General.plugin
 
 [Script]
 

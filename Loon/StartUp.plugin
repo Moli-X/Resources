@@ -94,6 +94,9 @@
 ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 - reject
 ^https?:\/\/.+?\/variety.tc.qq.com\/ - reject
 ^https?:\/\/.+?\.tc\.qq\.com\/.+?_p20\d_ - reject
+^http:\/\/pgdt\.gtimg\.cn - reject-dict
+^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+mp4 - reject-dict
+
 # 🟢> 百度网盘
 ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject

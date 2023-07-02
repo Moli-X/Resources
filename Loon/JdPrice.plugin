@@ -1,0 +1,19 @@
+#!name = 京东历史价格
+#!desc = 点击商品标题即可查看历史价格
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/JdPrice.plugin
+#!icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/JdPrice.plugin
+
+
+# 原链接https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js
+
+
+[Script]
+
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://github.com/Moli-X/Resources/raw/main/Script/JD/JdPrice.js, requires-body=true, timeout=10, tag=京东比价, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
+
+[MITM]
+
+hostname = api.m.jd.com

@@ -1,0 +1,39 @@
+#!name = TikTok解锁
+#!desc = 若解锁地区没有可手动输入
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/TikTok.plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/TikTok.png
+#!select = 解锁地区,日本,韩国,英国,美国,台湾,香港,新加坡,法国,马来西亚,菲律宾,泰国,手动输入
+#!input = 其他地区
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/TikTok.plugin
+
+# 原链接:https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin
+
+[Rule]
+DOMAIN, p16-tiktokcdn-com.akamaized.net, PROXY
+DOMAIN-SUFFIX, bytedapm.com, PROXY
+DOMAIN-SUFFIX, bytegecko-i18n.com, PROXY
+DOMAIN-SUFFIX, bytegecko.com, PROXY
+DOMAIN-SUFFIX, byteoversea.com, PROXY
+DOMAIN-SUFFIX, ibytedtos.com, PROXY
+DOMAIN-SUFFIX, ibyteimg.com, PROXY
+DOMAIN-SUFFIX, ipstatp.com, PROXY
+DOMAIN-SUFFIX, isnssdk.com, PROXY
+DOMAIN-SUFFIX, muscdn.com, PROXY
+DOMAIN-SUFFIX, musical.ly, PROXY
+DOMAIN-SUFFIX, sgpstatp.com, PROXY
+DOMAIN-SUFFIX, snssdk.com, PROXY
+DOMAIN-SUFFIX, tik-tokapi.com, PROXY
+DOMAIN-SUFFIX, tiktok.com, PROXY
+DOMAIN-SUFFIX, tiktokcdn-us.com, PROXY
+DOMAIN-SUFFIX, tiktokcdn.com, PROXY
+DOMAIN-SUFFIX, tiktokv.com, PROXY
+DOMAIN-KEYWORD, musical.ly, PROXY
+DOMAIN-KEYWORD, tiktok, PROXY
+
+[Script]
+http-request https?:\/\/.+\.(byteoversea|tiktokv).com\/.+(_region=CN&|&mcc_mnc=4) script-path=https://github.com/Moli-X/Resources/raw/main/Script/TikTok.js, timeout=20, tag=TikTok
+
+[MITM]
+hostname = *.byteoversea.com, *.tik-tokapi.com, *.tiktokv.com

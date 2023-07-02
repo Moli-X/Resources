@@ -51,6 +51,6 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 (?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 18.4 307
 
 [MITM]
-hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com,*.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, member.aliyundrive.com
+hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com,*.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, member.aliyundrive.com, api.m.jd.com
 
 

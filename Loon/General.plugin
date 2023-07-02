@@ -10,7 +10,16 @@
 [General]
 # > 跳过代理
 # 跳过某个域名或者 IP 段，这些目标主机将不会由 Loon Proxy 处理。
-skip-proxy = localhost, *.local, captive.apple.com, e.crashlytics.com, www.baidu.com, passenger.t3go.cn, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com, 10.0.0.0/8, 127.0.0.1/32, 172.16.0.0/12, 192.168.0.0/16, 192.168.122.1/32, 193.168.0.1/32, ::1/128, fe80::/10
+skip-proxy = localhost, *.local, captive.apple.com, e.crashlytics.com, www.baidu.com, passenger.t3go.cn, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com, iosapps.itunes.apple.com, 10.0.0.0/8, 127.0.0.1/32, 172.16.0.0/12, 192.168.0.0/16, 192.168.122.1/32, 193.168.0.1/32, ::1/128, fe80::/10
+
+# www.baidu.com：网上国网、多看阅读、顺丰金融、广东农信、丰云行、中国银行缤纷生活、通信行程卡app、趣智校园、趣听音乐、光大手机银行、掌上12333、沃视频
+# yunbusiness.ccb.com：建行生活
+# wxh.wo.cn：沃小号
+# gate.lagou.com：拉勾招聘
+# www.abchina.com.cn：中国农业银行
+# www.shanbay.com 扇贝单词消息中心
+# www.google.com 成都公积金
+# login-service.mobile-bank.psbc.com,mobile-bank.psbc.com：中国邮政储蓄银行
 
 # > Always Real IP Hosts
 # DNS 数据包将被转发到上游 DNS 服务器。

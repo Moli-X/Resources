@@ -1,0 +1,15 @@
+#!name=TestFlight账户管理
+#!desc=自动存储/合并多个TestFlight账户列表
+#!author= 莫离
+#!homepage= https://github.com/NobyDa/Script/tree/master
+#!icon= https://cdn.jsdelivr.net/gh/NobyDa/mini@master/Color/testflight.png
+#!edit= 
+
+# 原链接：https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Account.plugin
+# 功能：自动存储/合并多个TestFlight账户列表, 并可分享/导出TestFlight APP.
+
+[Script]
+http-request ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,tag=TestFlight账户管理
+
+[MITM]
+hostname = testflight.apple.com

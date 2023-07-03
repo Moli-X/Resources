@@ -1,9 +1,9 @@
 #!name=TestFlight账户管理
-#!desc=自动存储/合并多个TestFlight账户列表
+#!desc=自动存储/合并多个TestFlight账户
 #!author= 莫离
-#!homepage= https://github.com/NobyDa/Script/tree/master
+#!homepage= https://github.com/Moli-X/Resources/raw/main/Loon/Account.plugin
 #!icon= https://cdn.jsdelivr.net/gh/NobyDa/mini@master/Color/testflight.png
-#!edit= 
+#!edit= https://github.com/Moli-X/Resources/edit/main/Loon/Account.plugin
 
 # 原链接：https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Account.plugin
 # 功能：自动存储/合并多个TestFlight账户列表, 并可分享/导出TestFlight APP.

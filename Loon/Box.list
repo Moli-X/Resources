@@ -1,3 +1,12 @@
+#!name=Boxer邮件规则
+#!desc=Boxer邮件规则
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Box.list
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Mainland.png
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Box.list
+
+
+DOMAIN-SUFFIX,imap.gmail.com
 DOMAIN,login.windows.net
 DOMAIN,dl-hk5.steamdownload.top
 DOMAIN-KEYWORD,microsoft

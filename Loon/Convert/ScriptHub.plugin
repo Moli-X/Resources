@@ -2,9 +2,9 @@
 #!desc = ScriptHub资源转换
 #!author= 莫离
 #!homepage= https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Rewrite_to_Loon.plugin
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/120px/RemoteResourceConverter.png
+#!icon =https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/ScriptHub.png
 #!source= https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin
-#!edit= https://github.com/Moli-X/Resources/edit/main/Loon/Convert/Rewrite_to_Loon.plugin
+#!edit= https://github.com/Moli-X/Resources/edit/main/Loon/Convert/ScriptHub.plugin
 #!home= https://script.hub/
 #!select = 启用插件随机图标, 启用, 禁用
 #!select = 替换原始插件图标, 启用, 禁用

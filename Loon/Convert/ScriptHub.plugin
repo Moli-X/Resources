@@ -1,8 +1,8 @@
-#!name = 远程资源转换器
-#!desc = 适用于Loon的远程资源转换器
+#!name = ScriptHub资源转换
+#!desc = ScriptHub资源转换
 #!author= 莫离
 #!homepage= https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Rewrite_to_Loon.plugin
-#!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Converter.png
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/120px/RemoteResourceConverter.png
 #!source= https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin
 #!edit= https://github.com/Moli-X/Resources/edit/main/Loon/Convert/Rewrite_to_Loon.plugin
 #!home= https://script.hub/

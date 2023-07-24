@@ -27,4 +27,4 @@ real-ip = *.lan, *.direct, cable.auth.com, *.msftconnecttest.com, *.msftncsi.com
 
 [MitM]
 # 不可MitM也不应该被打断连接的域名
-hostname = -gateway.icloud.com, -gateway.icloud.com.cn, -weather-data.apple.com, -buy.itunes.apple.com, -pan.baidu.com
+hostname = -gateway.icloud.com, -gateway.icloud.com.cn, -weather-data.apple.com, -pan.baidu.com

@@ -1,4 +1,7 @@
-
+# > 高德地图
+HOST, amap-aos-info-nogw.amap.com, reject
+HOST, awaken.amap.com, reject
+HOST, free-aos-cdn-image.amap.com, reject
 
 
 # > 哈啰
@@ -558,13 +561,7 @@ HOST-SUFFIX,stat.simba.taobao.com, reject
 HOST-SUFFIX,m-adash.m.taobao.com, reject
 HOST-SUFFIX,adashbc.m.taobao.com, reject
 
-# > 哔哩哔哩
-# HOST-SUFFIX,cm.bilibili.com, reject
-# host-keyword, api.sobot.com, reject
-HOST-SUFFIX,cm.ad.bilibili.com, reject
-HOST-SUFFIX,cm.adcommon.bilibili.com, reject
-HOST-SUFFIX,cm.game.bilibili.com, reject
-HOST-SUFFIX,cm.track.biligame.bilibili.com, reject
+
 # > 快手
 # HOST-SUFFIX,yximgs.com, reject
 HOST-SUFFIX,e.kuaishou.com, reject

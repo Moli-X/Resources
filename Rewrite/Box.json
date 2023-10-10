@@ -621,7 +621,7 @@
 			},
 			{
 				"id": "@BiliBili.Enhanced.Settings.Home.Top_left",
-				"name": "哔哩(我的顶栏)",
+				"name": "哔哩(左边)",
 				"val": "mine",
 				"type": "selects",
 				"items": [
@@ -638,7 +638,7 @@
 			},
 			{
 				"id": "@BiliBili.Enhanced.Settings.Home.Top",
-				"name": "哔哩(首页顶栏)",
+				"name": "哔哩(主页)",
 				"val": [
 					"消息Top"
 				],
@@ -661,7 +661,7 @@
 			},
 			{
 				"id": "@BiliBili.Enhanced.Settings.Bottom",
-				"name": "哔哩(底部导航)",
+				"name": "哔哩(底部)",
 				"val": [
 					"home",
 					"dynamic",
@@ -714,9 +714,114 @@
 			  "https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png"
 		      ]
 		},
+{
+			"id": "BiliBili.Global",
+			"name": "哔哩(分区)",
+			"descs_html": [
+				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			 "keys": [
+				"@BiliBili.Global.Settings",
+				"@BiliBili.Global.Caches"
+			],
+			"settings": [
+				{
+					"id": "@BiliBili.Global.Settings.Switch",
+					"name": "总功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此APP修改"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.ForceHost",
+					"name": "强制CDN主机名类型",
+					"val": "1",
+					"type": "selects",
+					"desc": "强制设置各类返回结果的CDN主机名类型",
+					"items": [
+						{
+							"key": "0",
+							"label": "IP: 返回远端DNS解析地址（强烈不推荐！严重影响域名分流规则与CDN重定向）"
+						},
+						{
+							"key": "1",
+							"label": "HTTP: 返回HTTP域名（推荐，免去重定向时MitM操作）"
+						},
+						{
+							"key": "2",
+							"label": "HTTPS: 返回HTTPS域名（重定向时需对指定域名启用MitM）"
+						}
+					]
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Locales",
+					"name": "启用自动识别和分类功能的地区",
+					"val": [
+						"CHN",
+						"HKG",
+						"TWN"
+					],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "CHN",
+							"label": "🇨🇳中国大陆"
+						},
+						{
+							"key": "HKG",
+							"label": "🇭🇰中国香港"
+						},
+						{
+							"key": "MAC",
+							"label": "🇲🇴中国澳门"
+						},
+						{
+							"key": "TWN",
+							"label": "🇹🇼中国台湾"
+						}
+					],
+					"desc": "选择启用此功能的地区"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.CHN",
+					"name": "[🇨🇳中国大陆]代理或策略组选择",
+					"val": "DIRECT",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.HKG",
+					"name": "[🇭🇰中国香港]代理或策略组选择",
+					"val": "🇭🇰香港",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.MAC",
+					"name": "[🇲🇴中国澳门]代理或策略组选择",
+					"val": "🇲🇴澳门",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.TWN",
+					"name": "[🇹🇼中国台湾]代理或策略组选择",
+					"val": "🇹🇼台湾",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				}
+			],
+			 "author": "@BiliUniverse",
+			 "repo": "https://github.com/BiliUniverse/Global",
+			 "icons": [
+				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png",
+				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png"
+			]
+		},
 		{
 			"id": "BiliBili.Enhanced.Region",
-			"name": "哔哩(底部显示)",
+			"name": "哔哩(导航)",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -953,7 +1058,7 @@
 		},
 		{
 			"id": "BiliBili.Enhanced.Mine",
-			"name": "哔哩(我的手机版)",
+			"name": "哔哩(我的)Ios版",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -1124,111 +1229,6 @@
 			"icons": [
 				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png",
 				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png"
-			]
-		},
-		{
-			"id": "BiliBili.Global",
-			"name": "哔哩(分区)",
-			"descs_html": [
-				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
-				"填写完成后记得点击此页面底端右下角的\"保存\"。"
-			],
-			 "keys": [
-				"@BiliBili.Global.Settings",
-				"@BiliBili.Global.Caches"
-			],
-			"settings": [
-				{
-					"id": "@BiliBili.Global.Settings.Switch",
-					"name": "总功能开关",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用此APP修改"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.ForceHost",
-					"name": "强制CDN主机名类型",
-					"val": "1",
-					"type": "selects",
-					"desc": "强制设置各类返回结果的CDN主机名类型",
-					"items": [
-						{
-							"key": "0",
-							"label": "IP: 返回远端DNS解析地址（强烈不推荐！严重影响域名分流规则与CDN重定向）"
-						},
-						{
-							"key": "1",
-							"label": "HTTP: 返回HTTP域名（推荐，免去重定向时MitM操作）"
-						},
-						{
-							"key": "2",
-							"label": "HTTPS: 返回HTTPS域名（重定向时需对指定域名启用MitM）"
-						}
-					]
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Locales",
-					"name": "启用自动识别和分类功能的地区",
-					"val": [
-						"CHN",
-						"HKG",
-						"TWN"
-					],
-					"type": "checkboxes",
-					"items": [
-						{
-							"key": "CHN",
-							"label": "🇨🇳中国大陆"
-						},
-						{
-							"key": "HKG",
-							"label": "🇭🇰中国香港"
-						},
-						{
-							"key": "MAC",
-							"label": "🇲🇴中国澳门"
-						},
-						{
-							"key": "TWN",
-							"label": "🇹🇼中国台湾"
-						}
-					],
-					"desc": "选择启用此功能的地区"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Proxies.CHN",
-					"name": "[🇨🇳中国大陆]代理或策略组选择",
-					"val": "DIRECT",
-					"type": "text",
-					"desc": "选择此地区代理或策略组"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Proxies.HKG",
-					"name": "[🇭🇰中国香港]代理或策略组选择",
-					"val": "🇭🇰香港",
-					"type": "text",
-					"desc": "选择此地区代理或策略组"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Proxies.MAC",
-					"name": "[🇲🇴中国澳门]代理或策略组选择",
-					"val": "🇲🇴澳门",
-					"type": "text",
-					"desc": "选择此地区代理或策略组"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Proxies.TWN",
-					"name": "[🇹🇼中国台湾]代理或策略组选择",
-					"val": "🇹🇼台湾",
-					"type": "text",
-					"desc": "选择此地区代理或策略组"
-				}
-			],
-			 "author": "@BiliUniverse",
-			 "repo": "https://github.com/BiliUniverse/Global",
-			 "icons": [
-				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png",
-				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png"
 			]
 		},
 		

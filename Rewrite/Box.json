@@ -22,6 +22,299 @@
         "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png"  
       ],  
       "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js"  
-    }  
+    },
+{
+      "id": "gistBackup",
+      "name": "Gist备份",
+      "keys": ["@gist.token", "@gist.username"],
+      "author": "@dompling",
+      "icons": [
+        "https://raw.githubusercontent.com/Former-Years/icon/master/github-bf.png",
+        "https://raw.githubusercontent.com/Former-Years/icon/master/github-bf.png"
+      ],
+      "descs_html": [
+        "Token的获取方式:",
+        "头像菜单->\n      Settings ->\n      Developer settings ->\n      Personal access tokens ->\n      Generate new token ->\n      在里面找到 gist 勾选提交"
+      ],
+      "scripts": [
+        {
+          "name": "备份 Gist",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js"
+        },
+        {
+          "name": "从 Gist 恢复",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js"
+        }
+      ],
+      "settings": [
+        {
+          "id": "@gist.username",
+          "name": "用户名",
+          "val": null,
+          "type": "text",
+          "placeholder": "github 用户名",
+          "desc": "必填"
+        },
+        {
+          "id": "@gist.token",
+          "name": "Personal access tokens",
+          "val": null,
+          "type": "text",
+          "placeholder": "github personal access tokens",
+          "desc": "必填"
+        }
+      ]
+    },
+    {
+      "id": "JD_Cookies",
+      "name": "京东账号",
+      "keys": ["CookiesJD", "cks_get_mute"],
+      "descs_html": [
+        "若需要方便浏览：右上角菜单->打开调试模式->调试页面地址",
+        "<a href='https://raw.githubusercontent.com/dompling/chavyleung-boxjs/boxjs/box/chavy.boxjs.html' target='_blank'>调试页面地址</a>"
+      ],
+      "settings": [
+        {
+          "id": "cks_get_mute",
+          "name": "静音获取",
+          "val": false,
+          "type": "boolean",
+          "desc": "更新时，不会执行通知提示"
+        },
+        {
+          "id": "del_condition",
+          "name": "删除条件",
+          "val": "",
+          "type": "text",
+          "desc": "输入的条件,运行一次之后则会清空条件"
+        },
+        {
+          "id": "CookiesJD",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 8,
+          "desc": "CK 列表 (JSON 格式)",
+          "primary":["userName"],
+          "child": []
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      ],
+      "author": "@dompling",
+      "repo": "https://github.com/dompling/Script/blob/master/jd/JD_extra.js",
+      "scripts": [
+        {
+          "name": "京东签到",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra_sign.js"
+        },
+        {
+          "name": "删除相关 ck",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_ck_del.js"
+        }
+      ]
+    },
+ {
+      "id": "Spotify",
+      "name": "Spotify歌词翻译",
+      "keys": ["BaiDu_APP_ID", "BaiDu_SECURITY_KEY"],
+      "author": "@dompling",
+      "descs_html":[
+        "<ol>注册百度翻译个人开发者: <a href=\"http://api.fanyi.baidu.com/register\">开发者注册</a></ol>",
+        "<ol>注册后如果需要认证可自行选择是否实人认证(高级版需要验证)</ol>",
+        "<ol>开通(通用翻译)API服务: <a href=\"https://fanyi-api.baidu.com/choose\">服务开通</a></ol>",
+        "<ol>appid和密钥: <a href=\"http://api.fanyi.baidu.com/manage/developer\">获取 APP_ID、SECURITY_KEY</a></ol>"
+      ],
+      "settings": [
+        {
+          "id": "BaiDu_APP_ID",
+          "name": "百度 APP_ID",
+          "val": null,
+          "type": "text",
+          "desc": "APP_ID"
+        },
+        {
+          "id": "BaiDu_SECURITY_KEY",
+          "name": "百度 SECURITY_KEY",
+          "val": null,
+          "type": "text",
+          "desc": "SECURITY_KEY"
+        }
+      ],
+      "icons": [
+        "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico",
+        "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico"
+      ]
+    },
+	{
+      "id": "gasolinePrice",
+      "name": "今日油价",
+      "keys": [
+        "@gasolinePrice.location",
+        "@gasolinePrice.type",
+        "@gasolinePrice.isNotify",
+        "@gasolinePrice.isShowAll"
+      ],
+      "settings": [
+        {
+          "id": "@gasolinePrice.location",
+          "name": "省份",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 1,
+          "desc": "如 江苏，北京"
+        },
+        {
+          "id": "@gasolinePrice.type",
+          "name": "油号",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 1,
+          "desc": "只能填 92，95，98，0 四种"
+        },
+        {
+          "id": "@gasolinePrice.isNotify",
+          "name": "开启通知",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认开启，目前修改无效"
+        }
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202309221616599.jpeg",
+        "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202309221616599.jpeg"
+      ],
+      "onInstall": {
+        "title": "安装确认",
+        "message": "本订阅包含重写资源, 是否需要自动安装?",
+        "install": {
+          "Surge": "",
+          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+          "Loon": "",
+          "Shadowrocket": "",
+          "Stash": ""
+        }
+      }
+    },
+	{
+      "id": "aDriveCheckIn",
+      "name": "阿里云盘自动签到",
+      "keys": [
+        "@ADriveCheckIn.refresh_token_body",
+        "@ADriveCheckIn.headers",
+        "@ADriveCheckIn.refresh_token",
+        "@ADriveCheckIn.isAutoGetReword"
+      ],
+      "settings": [
+        {
+          "id": "@ADriveCheckIn.refresh_token",
+          "name": "refresh_token",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 1,
+          "desc": "阿里云盘refresh_token"
+        },
+        {
+          "id": "@ADriveCheckIn.isAutoGetReword",
+          "name": "开启自动领取奖励",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认开启"
+        }
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png",
+        "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png"
+      ],
+      "onInstall": {
+        "title": "安装确认",
+        "message": "本订阅包含重写资源, 是否需要自动安装?",
+        "install": {
+          "Surge": "",
+          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+          "Loon": "",
+          "Shadowrocket": "",
+          "Stash": ""
+        }
+      }
+    },
+	 {
+      "id": "DaysMatter",
+      "name": "倒数日",
+      "keys": [
+        "@DaysMatter.userDays",
+        "@DaysMatter.userDaysName",
+        "@DaysMatter.userDays2",
+        "@DaysMatter.userDaysName2"
+      ],
+      "settings": [
+        {
+          "id": "@DaysMatter.userDays",
+          "name": "固定日期",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 10,
+          "desc": "填写如国庆节此类固定日期，示例：10-1,1-1"
+        },
+        {
+          "id": "@DaysMatter.userDaysName",
+          "name": "固定日期名称",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 10,
+          "desc": "填写如国庆节此类固定日期的名称，示例：国庆节,元旦"
+        },
+        {
+          "id": "@DaysMatter.userDays2",
+          "name": "浮动日期",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 10,
+          "desc": "填写如母亲节此类浮动日期，示例：2022-5-8,2023-5-14"
+        },
+        {
+          "id": "@DaysMatter.userDaysName2",
+          "name": "浮动日期名称",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 10,
+          "desc": "填写如母亲节此类浮动日期的名称，示例：2022母亲节,2023母亲节"
+        }
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202302061207406.jpg",
+        "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202302061207406.jpg"
+      ],
+      "onInstall": {
+        "title": "安装确认",
+        "message": "本订阅包含重写资源, 是否需要自动安装?",
+        "install": {
+          "Surge": "",
+          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+          "Loon": "loon://import?plugin=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/DaysMatter.plugin",
+          "Shadowrocket": "",
+          "Stash": ""
+        }
+      }
+    }
+	
+	
+	
   ]  
 }

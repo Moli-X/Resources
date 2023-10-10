@@ -48,11 +48,7 @@
 	{
       "config": "0 0 23 1 * https://raw.githubusercontent.com/zmqcherish/proxy-script/main/bilibili/bilibili_config.js, tag=哔哩移除竖屏, img-url=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/imgs/icon/bilibili.png, enabled=false",
       "addons": ""
-    },	
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/getsomecat/Qx/main/Net_Speed.js, tag=⚡️ Net Speed, img-url=bolt.square.fill.system, enabled=false",
-      "addons": ""
-    },	
+    },		
 	{
       "config": "0 36 6,14,23 * * * https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/testflight/Auto_join_TF.js, tag=TestFlight自动加入, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=false",
       "addons": ""
@@ -68,51 +64,11 @@
 	{
       "config": "30 18,20 * * * https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_unsubscribe.js, tag=京东取关, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=false",
       "addons": ""
-    },	
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_2.js, tag=ChatGPT查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=false",
-      "addons": ""
-    },		
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, tag=代理检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=false",
-      "addons": ""
     },		
 	{
       "config": "30 8,12,16,20 * * * https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_bean_change.js, tag=京豆变动, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_bean_change.png, enabled=false",
       "addons": ""
     },		
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=油管查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=false",
-      "addons": ""
-    },		
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=油管查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=false",
-      "addons": ""
-    },		
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=油管查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=false",
-      "addons": ""
-    },		
-	{
-      "config": "event-interaction https://api.343.re/freedom/rule/quanx/script/ipinfo.js, tag=地址查询, img-url=location.fill.viewfinder.system, enabled=false",
-      "addons": ""
-    },	
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-google.js, tag=节点送中, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png, enabled=false",
-      "addons": ""
-    },	
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=解锁查询, img-url=checkmark.seal.system, enabled=true",
-      "addons": ""
-    },	
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf_ytb_ui-check.js, tag=油管奈飞, img-url=checkmark.seal.system, enabled=true",
-      "addons": ""
-    },	
-	{
-      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/traffic-check.js, tag=流量查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Download.png, enabled=true",
-      "addons": ""
-    },	
 	{
       "config": "5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.httpbackend.js, tag=𝑩𝒐𝒙𝑱𝒔 𝑪𝒍𝒆𝒂𝒓 𝑪𝒂𝒄𝒉𝒆, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png, enabled=false",
       "addons": ""
@@ -140,6 +96,46 @@
     {
       "config": "12 0 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/v2freeCheckIn/v2freeCheckIn.js, tag=v2free签到, enabled=true",
       "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/v2freeCheckIn/v2freeCheckIn_cookie.qxrewrite, tag=v2free_cookie获取, update-interval=86400, opt-parser=false, enabled=true"
-    }
+    },
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=油管查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=false",
+      "addons": ""
+    },		
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=油管查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=false",
+      "addons": ""
+    },			
+	{
+      "config": "event-interaction https://api.343.re/freedom/rule/quanx/script/ipinfo.js, tag=地址查询, img-url=location.fill.viewfinder.system, enabled=false",
+      "addons": ""
+    },	
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-google.js, tag=节点送中, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png, enabled=false",
+      "addons": ""
+    },	
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=解锁查询, img-url=checkmark.seal.system, enabled=true",
+      "addons": ""
+    },	
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf_ytb_ui-check.js, tag=油管奈飞, img-url=checkmark.seal.system, enabled=true",
+      "addons": ""
+    },	
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/traffic-check.js, tag=流量查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Download.png, enabled=true",
+      "addons": ""
+    },
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_2.js, tag=ChatGPT查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=false",
+      "addons": ""
+    },		
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/getsomecat/Qx/main/Net_Speed.js, tag=⚡️ Net Speed, img-url=bolt.square.fill.system, enabled=false",
+      "addons": ""
+    },
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, tag=代理检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=false",
+      "addons": ""
+    }		
   ]
 }

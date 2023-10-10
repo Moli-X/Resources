@@ -324,9 +324,147 @@
            }
          }
         },
+{
+			"id": "BiliBili.ADBlock.Detail",
+			"name": "哔哩(广告)",
+			"descs_html":[
+				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			 "keys":[
+				"@BiliBili.ADBlock.Settings.Detail",
+				"@BiliBili.ADBlock.Caches"
+			],
+			"settings":[
+				{
+					"id": "@BiliBili.ADBlock.Settings.Switch",
+					"name": "总功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此APP修改"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.splash",
+					"name": "[开屏]去广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.feed",
+					"name": "[推荐]去广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.activity",
+					"name": "[推荐]去除“活动大图”",
+					"val": false,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.story",
+					"name": "[首页]去除短视频流广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.cinema",
+					"name": "[番剧电影]去除广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.view",
+					"name": "[用户投稿]去除视频广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.search",
+					"name": "[搜索]去除广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.commandDms",
+					"name": "[弹幕]去除交互式弹幕",
+					"val": false,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.colorfulDms",
+					"name": "[弹幕]替换大会员弹幕",
+					"val": false,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.MainList",
+					"name": "[评论区]去除广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.xlive",
+					"name": "[直播]去除广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.Hot_search",
+					"name": "[搜索]去除“热搜”",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.Hot_topics",
+					"name": "[动态]去除“热门话题”",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.Most_visited",
+					"name": "[动态]去除“最常访问”",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.Dynamic_adcard",
+					"name": "[动态]去除广告动态",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.blockUpLiveList",
+					"name": "[推荐]屏蔽up主直播推广",
+					"type": "text",
+					"desc": "填写up主uid,以英文逗号隔开"
+				}
+			],
+			"author": "@BiliUniverse",
+			"repo": "https://github.com/BiliUniverse/ADBlock",
+			"icons":[
+				"https://github.com/BiliUniverse/ADBlock/raw/main/database/icon_circled_108x.png",
+				"https://github.com/BiliUniverse/ADBlock/raw/main/database/icon_circled_108x.png"
+			]
+		},
 	    {
 		  "id": "BiliBili.Enhanced.Home",
-		  "name": "哔哩(标签)",
+		  "name": "哔哩(首页)",
 		  "descs_html": [
 			 "使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 			 "填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -418,7 +556,7 @@
 			},
 			{
 				 "id": "@BiliBili.Enhanced.Settings.Home.Tab_default",
-				 "name": "哔哩(默认首页)",
+				 "name": "哔哩(顶栏)",
 				 "val": "推荐tab",
 				 "type": "selects",
 				 "items": [
@@ -483,7 +621,7 @@
 			},
 			{
 				"id": "@BiliBili.Enhanced.Settings.Home.Top_left",
-				"name": "首页: 顶栏（左侧）按钮（用户头像）",
+				"name": "哔哩(我的顶栏)",
 				"val": "mine",
 				"type": "selects",
 				"items": [
@@ -500,7 +638,7 @@
 			},
 			{
 				"id": "@BiliBili.Enhanced.Settings.Home.Top",
-				"name": "首页: 顶栏（右侧）按钮",
+				"name": "哔哩(首页顶栏)",
 				"val": [
 					"消息Top"
 				],
@@ -523,7 +661,7 @@
 			},
 			{
 				"id": "@BiliBili.Enhanced.Settings.Bottom",
-				"name": "底部导航栏",
+				"name": "哔哩(底部导航)",
 				"val": [
 					"home",
 					"dynamic",
@@ -578,7 +716,7 @@
 		},
 		{
 			"id": "BiliBili.Enhanced.Region",
-			"name": "哔哩(分区)",
+			"name": "哔哩(底部显示)",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -815,7 +953,7 @@
 		},
 		{
 			"id": "BiliBili.Enhanced.Mine",
-			"name": "哔哩(我的) iOS版",
+			"name": "哔哩(我的手机版)",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -989,6 +1127,112 @@
 			]
 		},
 		{
+			"id": "BiliBili.Global",
+			"name": "哔哩(分区)",
+			"descs_html": [
+				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			 "keys": [
+				"@BiliBili.Global.Settings",
+				"@BiliBili.Global.Caches"
+			],
+			"settings": [
+				{
+					"id": "@BiliBili.Global.Settings.Switch",
+					"name": "总功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此APP修改"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.ForceHost",
+					"name": "强制CDN主机名类型",
+					"val": "1",
+					"type": "selects",
+					"desc": "强制设置各类返回结果的CDN主机名类型",
+					"items": [
+						{
+							"key": "0",
+							"label": "IP: 返回远端DNS解析地址（强烈不推荐！严重影响域名分流规则与CDN重定向）"
+						},
+						{
+							"key": "1",
+							"label": "HTTP: 返回HTTP域名（推荐，免去重定向时MitM操作）"
+						},
+						{
+							"key": "2",
+							"label": "HTTPS: 返回HTTPS域名（重定向时需对指定域名启用MitM）"
+						}
+					]
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Locales",
+					"name": "启用自动识别和分类功能的地区",
+					"val": [
+						"CHN",
+						"HKG",
+						"TWN"
+					],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "CHN",
+							"label": "🇨🇳中国大陆"
+						},
+						{
+							"key": "HKG",
+							"label": "🇭🇰中国香港"
+						},
+						{
+							"key": "MAC",
+							"label": "🇲🇴中国澳门"
+						},
+						{
+							"key": "TWN",
+							"label": "🇹🇼中国台湾"
+						}
+					],
+					"desc": "选择启用此功能的地区"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.CHN",
+					"name": "[🇨🇳中国大陆]代理或策略组选择",
+					"val": "DIRECT",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.HKG",
+					"name": "[🇭🇰中国香港]代理或策略组选择",
+					"val": "🇭🇰香港",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.MAC",
+					"name": "[🇲🇴中国澳门]代理或策略组选择",
+					"val": "🇲🇴澳门",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.TWN",
+					"name": "[🇹🇼中国台湾]代理或策略组选择",
+					"val": "🇹🇼台湾",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				}
+			],
+			 "author": "@BiliUniverse",
+			 "repo": "https://github.com/BiliUniverse/Global",
+			 "icons": [
+				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png",
+				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png"
+			]
+		},
+		
+		{
 			"id": "BiliBili.Enhanced.Mine.iPad",
 			"name": "哔哩(我的) iPad版",
 			"descs_html": [
@@ -1106,249 +1350,6 @@
 			"icons": [
 				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png",
 				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png"
-			]
-		},
-		{
-			"id": "BiliBili.Global",
-			"name": "哔哩(分区)",
-			"descs_html": [
-				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
-				"填写完成后记得点击此页面底端右下角的\"保存\"。"
-			],
-			 "keys": [
-				"@BiliBili.Global.Settings",
-				"@BiliBili.Global.Caches"
-			],
-			"settings": [
-				{
-					"id": "@BiliBili.Global.Settings.Switch",
-					"name": "总功能开关",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用此APP修改"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.ForceHost",
-					"name": "强制CDN主机名类型",
-					"val": "1",
-					"type": "selects",
-					"desc": "强制设置各类返回结果的CDN主机名类型",
-					"items": [
-						{
-							"key": "0",
-							"label": "IP: 返回远端DNS解析地址（强烈不推荐！严重影响域名分流规则与CDN重定向）"
-						},
-						{
-							"key": "1",
-							"label": "HTTP: 返回HTTP域名（推荐，免去重定向时MitM操作）"
-						},
-						{
-							"key": "2",
-							"label": "HTTPS: 返回HTTPS域名（重定向时需对指定域名启用MitM）"
-						}
-					]
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Locales",
-					"name": "启用自动识别和分类功能的地区",
-					"val": [
-						"CHN",
-						"HKG",
-						"TWN"
-					],
-					"type": "checkboxes",
-					"items": [
-						{
-							"key": "CHN",
-							"label": "🇨🇳中国大陆"
-						},
-						{
-							"key": "HKG",
-							"label": "🇭🇰中国香港"
-						},
-						{
-							"key": "MAC",
-							"label": "🇲🇴中国澳门"
-						},
-						{
-							"key": "TWN",
-							"label": "🇹🇼中国台湾"
-						}
-					],
-					"desc": "选择启用此功能的地区"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Proxies.CHN",
-					"name": "[🇨🇳中国大陆]代理或策略组选择",
-					"val": "DIRECT",
-					"type": "text",
-					"desc": "选择此地区代理或策略组"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Proxies.HKG",
-					"name": "[🇭🇰中国香港]代理或策略组选择",
-					"val": "🇭🇰香港",
-					"type": "text",
-					"desc": "选择此地区代理或策略组"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Proxies.MAC",
-					"name": "[🇲🇴中国澳门]代理或策略组选择",
-					"val": "🇲🇴澳门",
-					"type": "text",
-					"desc": "选择此地区代理或策略组"
-				},
-				{
-					"id": "@BiliBili.Global.Settings.Proxies.TWN",
-					"name": "[🇹🇼中国台湾]代理或策略组选择",
-					"val": "🇹🇼台湾",
-					"type": "text",
-					"desc": "选择此地区代理或策略组"
-				}
-			],
-			 "author": "@BiliUniverse",
-			 "repo": "https://github.com/BiliUniverse/Global",
-			 "icons": [
-				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png",
-				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png"
-			]
-		},
-		{
-			"id": "BiliBili.ADBlock.Detail",
-			"name": "哔哩(广告)",
-			"descs_html":[
-				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
-				"填写完成后记得点击此页面底端右下角的\"保存\"。"
-			],
-			 "keys":[
-				"@BiliBili.ADBlock.Settings.Detail",
-				"@BiliBili.ADBlock.Caches"
-			],
-			"settings":[
-				{
-					"id": "@BiliBili.ADBlock.Settings.Switch",
-					"name": "总功能开关",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用此APP修改"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.splash",
-					"name": "[开屏]去广告",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.feed",
-					"name": "[推荐]去广告",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.activity",
-					"name": "[推荐]去除“活动大图”",
-					"val": false,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.story",
-					"name": "[首页]去除短视频流广告",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.cinema",
-					"name": "[番剧电影]去除广告",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.view",
-					"name": "[用户投稿]去除视频广告",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.search",
-					"name": "[搜索]去除广告",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.commandDms",
-					"name": "[弹幕]去除交互式弹幕",
-					"val": false,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.colorfulDms",
-					"name": "[弹幕]替换大会员弹幕",
-					"val": false,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.MainList",
-					"name": "[评论区]去除广告",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.xlive",
-					"name": "[直播]去除广告",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.Hot_search",
-					"name": "[搜索]去除“热搜”",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.Hot_topics",
-					"name": "[动态]去除“热门话题”",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.Most_visited",
-					"name": "[动态]去除“最常访问”",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.Dynamic_adcard",
-					"name": "[动态]去除广告动态",
-					"val": true,
-					"type": "boolean",
-					"desc": "是否启用关闭广告"
-				},
-				{
-					"id": "@BiliBili.ADBlock.Settings.Detail.blockUpLiveList",
-					"name": "[推荐]屏蔽up主直播推广",
-					"type": "text",
-					"desc": "填写up主uid,以英文逗号隔开"
-				}
-			],
-			"author": "@BiliUniverse",
-			"repo": "https://github.com/BiliUniverse/ADBlock",
-			"icons":[
-				"https://github.com/BiliUniverse/ADBlock/raw/main/database/icon_circled_108x.png",
-				"https://github.com/BiliUniverse/ADBlock/raw/main/database/icon_circled_108x.png"
 			]
 		}
 

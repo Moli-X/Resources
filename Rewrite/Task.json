@@ -82,11 +82,11 @@
       "addons": ""
     },	
     {
-      "config": "0 9 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js, img-url=https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/png/synology-calendar.png, tag=今日黄历, enabled=true",
+      "config": "0 9 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Calendar.png, tag=今日黄历, enabled=true",
       "addons": ""
     },
     {
-      "config": "30 8 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/DaysMatter.js, img-url=https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202302061207406.jpg, tag=倒数日, enabled=true",
+      "config": "30 8 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/DaysMatter.js, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Image/DaysMatter.png, tag=倒数日, enabled=true",
       "addons": ""
     },
     {

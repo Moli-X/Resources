@@ -326,15 +326,15 @@
         },
 	    {
 		  "id": "BiliBili.Enhanced.Home",
-		  "name": "📺 BiliBili: ⚙ Enhanced (首页)",
+		  "name": "哔哩(首页)",
 		  "descs_html": [
-			"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
-			"填写完成后记得点击此页面底端右下角的\"保存\"。"
-		 ],
+			 "使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+			 "填写完成后记得点击此页面底端右下角的\"保存\"。"
+		    ],
 		 "keys": [
-			"@BiliBili.Enhanced.Settings.Home",
-			"@BiliBili.Enhanced.Caches"
-		 ],
+			 "@BiliBili.Enhanced.Settings.Home",
+			 "@BiliBili.Enhanced.Caches"
+		    ],
 		 "settings": [
 			{
 				"id": "@BiliBili.Enhanced.Settings.Switch",
@@ -417,11 +417,11 @@
 				"desc": "选择启用的首页标签页，建议不超过7个"
 			},
 			{
-				"id": "@BiliBili.Enhanced.Settings.Home.Tab_default",
-				"name": "首页: 默认标签页",
-				"val": "推荐tab",
-				"type": "selects",
-				"items": [
+				 "id": "@BiliBili.Enhanced.Settings.Home.Tab_default",
+				 "name": "哔哩(默认首页)",
+				 "val": "推荐tab",
+				 "type": "selects",
+				 "items": [
 					{
 						"key": "直播tab",
 						"label": "直播"
@@ -578,7 +578,7 @@
 		},
 		{
 			"id": "BiliBili.Enhanced.Region",
-			"name": "📺 BiliBili: ⚙ Enhanced (分区)",
+			"name": "哔哩(分区)",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -815,7 +815,7 @@
 		},
 		{
 			"id": "BiliBili.Enhanced.Mine",
-			"name": "📺 BiliBili: ⚙ Enhanced (我的) iOS版",
+			"name": "哔哩(我的) iOS版",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -990,7 +990,7 @@
 		},
 		{
 			"id": "BiliBili.Enhanced.Mine.iPad",
-			"name": "📺 BiliBili: ⚙ Enhanced (我的) iPad版",
+			"name": "哔哩(我的) iPad版",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -1110,7 +1110,7 @@
 		},
 		{
 			"id": "BiliBili.Global",
-			"name": "📺 BiliBili: 🌐 Global",
+			"name": "哔哩(全球)",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -1215,7 +1215,7 @@
 		},
 		{
 			"id": "BiliBili.ADBlock.Detail",
-			"name": "📺 BiliBili: 🛡️ ADBlock",
+			"name": "哔哩(广告)",
 			"descs_html":[
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"

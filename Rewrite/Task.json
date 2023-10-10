@@ -1,10 +1,6 @@
 {
-    "name":"莫离定时任务",
-    "description":"电报频道 @QuantX",
-    "UpdateTime" : "2023-10-10",
-    "Author" : "Moli-X",
-    "task":[
-
+  "name": "莫离任务合集",
+  "task": [
     {
       "config": "4 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, tag=华住会签到, img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png, enabled=true",
       "addons": ""
@@ -145,7 +141,5 @@
       "config": "12 0 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/v2freeCheckIn/v2freeCheckIn.js, tag=v2free签到, enabled=true",
       "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/v2freeCheckIn/v2freeCheckIn_cookie.qxrewrite, tag=v2free_cookie获取, update-interval=86400, opt-parser=false, enabled=true"
     }
-  
-  
   ]
 }

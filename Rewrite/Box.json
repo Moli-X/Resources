@@ -4,317 +4,1355 @@
   "author": "@Moli-X",  
   "icon": "https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/XX100.png",  
   "repo": "https://github.com/Moli-X",  
-  "apps": [  
-    {  
-      "id": "hzh",  
-      "name": "华住会",  
-      "descs_html": [  
-        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js\">脚本地址</a>】"  
-      ],  
-      "keys": [  
-        "@hzh.evil_hzhCookie",  
-        "@hzh.evil_hzhUserToken"  
-      ],  
-      "author": "@evilbutcher",  
-      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/hzh",  
-      "icons": [  
-        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh_tran.png",  
-        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png"  
-      ],  
-      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js"  
-    },
-{
-      "id": "gistBackup",
-      "name": "Gist备份",
-      "keys": ["@gist.token", "@gist.username"],
-      "author": "@dompling",
-      "icons": [
-        "https://raw.githubusercontent.com/Former-Years/icon/master/github-bf.png",
-        "https://raw.githubusercontent.com/Former-Years/icon/master/github-bf.png"
-      ],
-      "descs_html": [
-        "Token的获取方式:",
-        "头像菜单->\n      Settings ->\n      Developer settings ->\n      Personal access tokens ->\n      Generate new token ->\n      在里面找到 gist 勾选提交"
-      ],
-      "scripts": [
+  "apps": 
+    [  
+        {  
+            "id": "hzh",  
+            "name": "华住会",  
+            "descs_html": [  
+              "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js\">脚本地址</a>】"  
+            ],  
+            "keys": [  
+              "@hzh.evil_hzhCookie",  
+              "@hzh.evil_hzhUserToken"  
+            ],  
+            "author": "@evilbutcher",  
+            "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/hzh",  
+            "icons": [  
+              "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh_tran.png",  
+              "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png"  
+            ],  
+            "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js"  
+           },
         {
-          "name": "备份 Gist",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js"
+            "id": "gistBackup",
+            "name": "Gist备份",
+            "keys": ["@gist.token", "@gist.username"],
+            "author": "@dompling",
+            "icons": [
+              "https://raw.githubusercontent.com/Former-Years/icon/master/github-bf.png",
+              "https://raw.githubusercontent.com/Former-Years/icon/master/github-bf.png"
+            ],
+            "descs_html": [
+              "Token的获取方式:",
+              "头像菜单->\n      Settings ->\n      Developer settings ->\n      Personal access tokens ->\n      Generate new token ->\n      在里面找到 gist 勾选提交"
+            ],
+            "scripts": [
+              {
+                "name": "备份 Gist",
+                "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js"
+              },
+              {
+                "name": "从 Gist 恢复",
+                "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js"
+              }
+            ],
+            "settings": [
+              {
+                "id": "@gist.username",
+                "name": "用户名",
+                "val": null,
+                "type": "text",
+                "placeholder": "github 用户名",
+                "desc": "必填"
+              },
+              {
+                "id": "@gist.token",
+                "name": "Personal access tokens",
+                "val": null,
+                "type": "text",
+                "placeholder": "github personal access tokens",
+                "desc": "必填"
+              }
+            ]
         },
         {
-          "name": "从 Gist 恢复",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js"
-        }
-      ],
-      "settings": [
-        {
-          "id": "@gist.username",
-          "name": "用户名",
-          "val": null,
-          "type": "text",
-          "placeholder": "github 用户名",
-          "desc": "必填"
+          "id": "JD_Cookies",
+          "name": "京东账号",
+          "keys": ["CookiesJD", "cks_get_mute"],
+          "descs_html": [
+            "若需要方便浏览：右上角菜单->打开调试模式->调试页面地址",
+            "<a href='https://raw.githubusercontent.com/dompling/chavyleung-boxjs/boxjs/box/chavy.boxjs.html' target='_blank'>调试页面地址</a>"
+          ],
+          "settings": [
+            {
+              "id": "cks_get_mute",
+              "name": "静音获取",
+              "val": false,
+              "type": "boolean",
+              "desc": "更新时，不会执行通知提示"
+            },
+            {
+              "id": "del_condition",
+              "name": "删除条件",
+              "val": "",
+              "type": "text",
+              "desc": "输入的条件,运行一次之后则会清空条件"
+            },
+            {
+              "id": "CookiesJD",
+              "name": "CK 列表",
+              "val": "",
+              "type": "textarea",
+              "autoGrow": false,
+              "rows": 8,
+              "desc": "CK 列表 (JSON 格式)",
+              "primary":["userName"],
+              "child": []
+            }
+          ],
+          "icons": [
+            "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+            "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+          ],
+          "author": "@dompling",
+          "repo": "https://github.com/dompling/Script/blob/master/jd/JD_extra.js",
+          "scripts": [
+            {
+              "name": "京东签到",
+              "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra_sign.js"
+            },
+            {
+              "name": "删除相关 ck",
+              "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_ck_del.js"
+            }
+          ]
         },
         {
-          "id": "@gist.token",
-          "name": "Personal access tokens",
-          "val": null,
-          "type": "text",
-          "placeholder": "github personal access tokens",
-          "desc": "必填"
-        }
-      ]
-    },
-    {
-      "id": "JD_Cookies",
-      "name": "京东账号",
-      "keys": ["CookiesJD", "cks_get_mute"],
-      "descs_html": [
-        "若需要方便浏览：右上角菜单->打开调试模式->调试页面地址",
-        "<a href='https://raw.githubusercontent.com/dompling/chavyleung-boxjs/boxjs/box/chavy.boxjs.html' target='_blank'>调试页面地址</a>"
-      ],
-      "settings": [
-        {
-          "id": "cks_get_mute",
-          "name": "静音获取",
-          "val": false,
-          "type": "boolean",
-          "desc": "更新时，不会执行通知提示"
+         "id": "Spotify",
+         "name": "Spotify歌词翻译",
+         "keys": ["BaiDu_APP_ID", "BaiDu_SECURITY_KEY"],
+         "author": "@dompling",
+         "descs_html":[
+           "<ol>注册百度翻译个人开发者: <a href=\"http://api.fanyi.baidu.com/register\">开发者注册</a></ol>",
+           "<ol>注册后如果需要认证可自行选择是否实人认证(高级版需要验证)</ol>",
+           "<ol>开通(通用翻译)API服务: <a href=\"https://fanyi-api.baidu.com/choose\">服务开通</a></ol>",
+           "<ol>appid和密钥: <a href=\"http://api.fanyi.baidu.com/manage/developer\">获取 APP_ID、SECURITY_KEY</a></ol>"
+         ],
+         "settings": [
+           {
+             "id": "BaiDu_APP_ID",
+             "name": "百度 APP_ID",
+             "val": null,
+             "type": "text",
+             "desc": "APP_ID"
+           },
+           {
+             "id": "BaiDu_SECURITY_KEY",
+             "name": "百度 SECURITY_KEY",
+             "val": null,
+             "type": "text",
+             "desc": "SECURITY_KEY"
+           }
+         ],
+         "icons": [
+           "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico",
+           "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico"
+         ]
+        },
+	    {
+          "id": "gasolinePrice",
+          "name": "今日油价",
+          "keys": [
+            "@gasolinePrice.location",
+            "@gasolinePrice.type",
+            "@gasolinePrice.isNotify",
+            "@gasolinePrice.isShowAll"
+          ],
+          "settings": [
+            {
+              "id": "@gasolinePrice.location",
+              "name": "省份",
+              "val": null,
+              "type": "text",
+              "autoGrow": false,
+              "rows": 1,
+              "desc": "如 江苏，北京"
+            },
+            {
+              "id": "@gasolinePrice.type",
+              "name": "油号",
+              "val": null,
+              "type": "text",
+              "autoGrow": false,
+              "rows": 1,
+              "desc": "只能填 92，95，98，0 四种"
+            },
+            {
+              "id": "@gasolinePrice.isNotify",
+              "name": "开启通知",
+              "val": true,
+              "type": "boolean",
+              "desc": "默认开启，目前修改无效"
+            }
+          ],
+          "author": "@zqzess",
+          "repo": "https://github.com/zqzess/rule_for_quantumultX",
+          "icons": [
+            "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202309221616599.jpeg",
+            "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202309221616599.jpeg"
+          ],
+          "onInstall": {
+            "title": "安装确认",
+            "message": "本订阅包含重写资源, 是否需要自动安装?",
+            "install": {
+              "Surge": "",
+              "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+              "Loon": "",
+              "Shadowrocket": "",
+              "Stash": ""
+            }
+          }
+        },
+	    {
+          "id": "aDriveCheckIn",
+          "name": "阿里云盘自动签到",
+          "keys": [
+            "@ADriveCheckIn.refresh_token_body",
+            "@ADriveCheckIn.headers",
+            "@ADriveCheckIn.refresh_token",
+            "@ADriveCheckIn.isAutoGetReword"
+          ],
+          "settings": [
+            {
+              "id": "@ADriveCheckIn.refresh_token",
+              "name": "refresh_token",
+              "val": null,
+              "type": "text",
+              "autoGrow": false,
+              "rows": 1,
+              "desc": "阿里云盘refresh_token"
+            },
+            {
+              "id": "@ADriveCheckIn.isAutoGetReword",
+              "name": "开启自动领取奖励",
+              "val": true,
+              "type": "boolean",
+              "desc": "默认开启"
+            }
+          ],
+          "author": "@zqzess",
+          "repo": "https://github.com/zqzess/rule_for_quantumultX",
+          "icons": [
+            "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png",
+            "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png"
+          ],
+          "onInstall": {
+            "title": "安装确认",
+            "message": "本订阅包含重写资源, 是否需要自动安装?",
+            "install": {
+              "Surge": "",
+              "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+              "Loon": "",
+              "Shadowrocket": "",
+              "Stash": ""
+            }
+          }
         },
         {
-          "id": "del_condition",
-          "name": "删除条件",
-          "val": "",
-          "type": "text",
-          "desc": "输入的条件,运行一次之后则会清空条件"
+          "id": "10010Ck",
+          "name": "中国联通",
+          "keys": ["@YaYa_10010.cookie"],
+          "author": "@dompling",
+          "icons": [
+            "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10010.png",
+            "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png"
+          ]
         },
-        {
-          "id": "CookiesJD",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": false,
-          "rows": 8,
-          "desc": "CK 列表 (JSON 格式)",
-          "primary":["userName"],
-          "child": []
-        }
-      ],
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
-      ],
-      "author": "@dompling",
-      "repo": "https://github.com/dompling/Script/blob/master/jd/JD_extra.js",
-      "scripts": [
-        {
-          "name": "京东签到",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra_sign.js"
+	    {
+         "id": "DaysMatter",
+         "name": "倒数日",
+         "keys": [
+           "@DaysMatter.userDays",
+           "@DaysMatter.userDaysName",
+           "@DaysMatter.userDays2",
+           "@DaysMatter.userDaysName2"
+         ],
+         "settings": [
+           {
+             "id": "@DaysMatter.userDays",
+             "name": "固定日期",
+             "val": null,
+             "type": "text",
+             "autoGrow": false,
+             "rows": 10,
+             "desc": "填写如国庆节此类固定日期，示例：10-1,1-1"
+           },
+           {
+             "id": "@DaysMatter.userDaysName",
+             "name": "固定日期名称",
+             "val": null,
+             "type": "text",
+             "autoGrow": false,
+             "rows": 10,
+             "desc": "填写如国庆节此类固定日期的名称，示例：国庆节,元旦"
+           },
+           {
+             "id": "@DaysMatter.userDays2",
+             "name": "浮动日期",
+             "val": null,
+             "type": "text",
+             "autoGrow": false,
+             "rows": 10,
+             "desc": "填写如母亲节此类浮动日期，示例：2022-5-8,2023-5-14"
+           },
+           {
+             "id": "@DaysMatter.userDaysName2",
+             "name": "浮动日期名称",
+             "val": null,
+             "type": "text",
+             "autoGrow": false,
+             "rows": 10,
+             "desc": "填写如母亲节此类浮动日期的名称，示例：2022母亲节,2023母亲节"
+           }
+         ],
+         "author": "@zqzess",
+         "repo": "https://github.com/zqzess/rule_for_quantumultX",
+         "icons": [
+           "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202302061207406.jpg",
+           "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202302061207406.jpg"
+         ],
+         "onInstall": {
+           "title": "安装确认",
+           "message": "本订阅包含重写资源, 是否需要自动安装?",
+           "install": {
+             "Surge": "",
+             "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+             "Loon": "loon://import?plugin=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/DaysMatter.plugin",
+             "Shadowrocket": "",
+             "Stash": ""
+           }
+         }
         },
-        {
-          "name": "删除相关 ck",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_ck_del.js"
-        }
-      ]
-    },
- {
-      "id": "Spotify",
-      "name": "Spotify歌词翻译",
-      "keys": ["BaiDu_APP_ID", "BaiDu_SECURITY_KEY"],
-      "author": "@dompling",
-      "descs_html":[
-        "<ol>注册百度翻译个人开发者: <a href=\"http://api.fanyi.baidu.com/register\">开发者注册</a></ol>",
-        "<ol>注册后如果需要认证可自行选择是否实人认证(高级版需要验证)</ol>",
-        "<ol>开通(通用翻译)API服务: <a href=\"https://fanyi-api.baidu.com/choose\">服务开通</a></ol>",
-        "<ol>appid和密钥: <a href=\"http://api.fanyi.baidu.com/manage/developer\">获取 APP_ID、SECURITY_KEY</a></ol>"
-      ],
-      "settings": [
-        {
-          "id": "BaiDu_APP_ID",
-          "name": "百度 APP_ID",
-          "val": null,
-          "type": "text",
-          "desc": "APP_ID"
-        },
-        {
-          "id": "BaiDu_SECURITY_KEY",
-          "name": "百度 SECURITY_KEY",
-          "val": null,
-          "type": "text",
-          "desc": "SECURITY_KEY"
-        }
-      ],
-      "icons": [
-        "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico",
-        "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico"
-      ]
-    },
-	{
-      "id": "gasolinePrice",
-      "name": "今日油价",
-      "keys": [
-        "@gasolinePrice.location",
-        "@gasolinePrice.type",
-        "@gasolinePrice.isNotify",
-        "@gasolinePrice.isShowAll"
-      ],
-      "settings": [
-        {
-          "id": "@gasolinePrice.location",
-          "name": "省份",
-          "val": null,
-          "type": "text",
-          "autoGrow": false,
-          "rows": 1,
-          "desc": "如 江苏，北京"
-        },
-        {
-          "id": "@gasolinePrice.type",
-          "name": "油号",
-          "val": null,
-          "type": "text",
-          "autoGrow": false,
-          "rows": 1,
-          "desc": "只能填 92，95，98，0 四种"
-        },
-        {
-          "id": "@gasolinePrice.isNotify",
-          "name": "开启通知",
-          "val": true,
-          "type": "boolean",
-          "desc": "默认开启，目前修改无效"
-        }
-      ],
-      "author": "@zqzess",
-      "repo": "https://github.com/zqzess/rule_for_quantumultX",
-      "icons": [
-        "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202309221616599.jpeg",
-        "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202309221616599.jpeg"
-      ],
-      "onInstall": {
-        "title": "安装确认",
-        "message": "本订阅包含重写资源, 是否需要自动安装?",
-        "install": {
-          "Surge": "",
-          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
-          "Loon": "",
-          "Shadowrocket": "",
-          "Stash": ""
-        }
-      }
-    },
-	{
-      "id": "aDriveCheckIn",
-      "name": "阿里云盘自动签到",
-      "keys": [
-        "@ADriveCheckIn.refresh_token_body",
-        "@ADriveCheckIn.headers",
-        "@ADriveCheckIn.refresh_token",
-        "@ADriveCheckIn.isAutoGetReword"
-      ],
-      "settings": [
-        {
-          "id": "@ADriveCheckIn.refresh_token",
-          "name": "refresh_token",
-          "val": null,
-          "type": "text",
-          "autoGrow": false,
-          "rows": 1,
-          "desc": "阿里云盘refresh_token"
-        },
-        {
-          "id": "@ADriveCheckIn.isAutoGetReword",
-          "name": "开启自动领取奖励",
-          "val": true,
-          "type": "boolean",
-          "desc": "默认开启"
-        }
-      ],
-      "author": "@zqzess",
-      "repo": "https://github.com/zqzess/rule_for_quantumultX",
-      "icons": [
-        "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png",
-        "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png"
-      ],
-      "onInstall": {
-        "title": "安装确认",
-        "message": "本订阅包含重写资源, 是否需要自动安装?",
-        "install": {
-          "Surge": "",
-          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
-          "Loon": "",
-          "Shadowrocket": "",
-          "Stash": ""
-        }
-      }
-    },
-	 {
-      "id": "DaysMatter",
-      "name": "倒数日",
-      "keys": [
-        "@DaysMatter.userDays",
-        "@DaysMatter.userDaysName",
-        "@DaysMatter.userDays2",
-        "@DaysMatter.userDaysName2"
-      ],
-      "settings": [
-        {
-          "id": "@DaysMatter.userDays",
-          "name": "固定日期",
-          "val": null,
-          "type": "text",
-          "autoGrow": false,
-          "rows": 10,
-          "desc": "填写如国庆节此类固定日期，示例：10-1,1-1"
-        },
-        {
-          "id": "@DaysMatter.userDaysName",
-          "name": "固定日期名称",
-          "val": null,
-          "type": "text",
-          "autoGrow": false,
-          "rows": 10,
-          "desc": "填写如国庆节此类固定日期的名称，示例：国庆节,元旦"
-        },
-        {
-          "id": "@DaysMatter.userDays2",
-          "name": "浮动日期",
-          "val": null,
-          "type": "text",
-          "autoGrow": false,
-          "rows": 10,
-          "desc": "填写如母亲节此类浮动日期，示例：2022-5-8,2023-5-14"
-        },
-        {
-          "id": "@DaysMatter.userDaysName2",
-          "name": "浮动日期名称",
-          "val": null,
-          "type": "text",
-          "autoGrow": false,
-          "rows": 10,
-          "desc": "填写如母亲节此类浮动日期的名称，示例：2022母亲节,2023母亲节"
-        }
-      ],
-      "author": "@zqzess",
-      "repo": "https://github.com/zqzess/rule_for_quantumultX",
-      "icons": [
-        "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202302061207406.jpg",
-        "https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202302061207406.jpg"
-      ],
-      "onInstall": {
-        "title": "安装确认",
-        "message": "本订阅包含重写资源, 是否需要自动安装?",
-        "install": {
-          "Surge": "",
-          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
-          "Loon": "loon://import?plugin=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/DaysMatter.plugin",
-          "Shadowrocket": "",
-          "Stash": ""
-        }
-      }
-    }
+	    {
+		  "id": "BiliBili.Enhanced.Home",
+		  "name": "📺 BiliBili: ⚙ Enhanced (首页)",
+		  "descs_html": [
+			"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+			"填写完成后记得点击此页面底端右下角的\"保存\"。"
+		 ],
+		 "keys": [
+			"@BiliBili.Enhanced.Settings.Home",
+			"@BiliBili.Enhanced.Caches"
+		 ],
+		 "settings": [
+			{
+				"id": "@BiliBili.Enhanced.Settings.Switch",
+				"name": "总功能开关",
+				"val": true,
+				"type": "boolean",
+				"desc": "是否启用此APP修改"
+			},
+			{
+				"id": "@BiliBili.Enhanced.Settings.Home.Tab",
+				"name": "首页: 标签页",
+				"val": [
+					"直播tab",
+					"推荐tab",
+					"hottopic",
+					"bangumi",
+					"anime",
+					"film",
+					"koreavtw"
+				],
+				"type": "checkboxes",
+				"items": [
+					{
+						"key": "直播tab",
+						"label": "直播"
+					},
+					{
+						"key": "推荐tab",
+						"label": "推荐"
+					},
+					{
+						"key": "hottopic",
+						"label": "热门"
+					},
+					{
+						"key": "bangumi",
+						"label": "番剧"
+					},
+					{
+						"key": "anime",
+						"label": "动画（港澳台）"
+					},
+					{
+						"key": "film",
+						"label": "影视"
+					},
+					{
+						"key": "koreavtw",
+						"label": "韩综（港澳台）"
+					},
+					{
+						"key": "game",
+						"label": "游戏"
+					},
+					{
+						"key": "mctab",
+						"label": "minecraft"
+					},
+					{
+						"key": "dhtr",
+						"label": "动画同人"
+					},
+					{
+						"key": "gaoxiao",
+						"label": "搞笑"
+					},
+					{
+						"key": "school",
+						"label": "校园"
+					},
+					{
+						"key": "kj",
+						"label": "数码"
+					},
+					{
+						"key": "165",
+						"label": "新征程"
+					}
+				],
+				"desc": "选择启用的首页标签页，建议不超过7个"
+			},
+			{
+				"id": "@BiliBili.Enhanced.Settings.Home.Tab_default",
+				"name": "首页: 默认标签页",
+				"val": "推荐tab",
+				"type": "selects",
+				"items": [
+					{
+						"key": "直播tab",
+						"label": "直播"
+					},
+					{
+						"key": "推荐tab",
+						"label": "推荐"
+					},
+					{
+						"key": "hottopic",
+						"label": "热门"
+					},
+					{
+						"key": "bangumi",
+						"label": "番剧"
+					},
+					{
+						"key": "anime",
+						"label": "动画（港澳台）"
+					},
+					{
+						"key": "film",
+						"label": "影视"
+					},
+					{
+						"key": "koreavtw",
+						"label": "韩综（港澳台）"
+					},
+					{
+						"key": "game",
+						"label": "游戏"
+					},
+					{
+						"key": "mctab",
+						"label": "minecraft"
+					},
+					{
+						"key": "dhtr",
+						"label": "动画同人"
+					},
+					{
+						"key": "gaoxiao",
+						"label": "搞笑"
+					},
+					{
+						"key": "school",
+						"label": "校园"
+					},
+					{
+						"key": "kj",
+						"label": "数码"
+					},
+					{
+						"key": "165",
+						"label": "新征程"
+					}
+				],
+				"desc": "选择启动APP时默认展示的标签页，需选择已启用的标签页"
+			},
+			{
+				"id": "@BiliBili.Enhanced.Settings.Home.Top_left",
+				"name": "首页: 顶栏（左侧）按钮（用户头像）",
+				"val": "mine",
+				"type": "selects",
+				"items": [
+					{
+						"key": "mine",
+						"label": "用户中心-我的"
+					},
+					{
+						"key": "videoshortcut",
+						"label": "短视频"
+					}
+				],
+				"desc": "选择顶栏（左侧）按钮（用户头像）的作用（在biliBili粉色版中无法修改）"
+			},
+			{
+				"id": "@BiliBili.Enhanced.Settings.Home.Top",
+				"name": "首页: 顶栏（右侧）按钮",
+				"val": [
+					"消息Top"
+				],
+				"type": "checkboxes",
+				"items": [
+					{
+						"key": "游戏中心Top",
+						"label": "游戏中心"
+					},
+					{
+						"key": "会员购Top",
+						"label": "会员购"
+					},
+					{
+						"key": "消息Top",
+						"label": "消息"
+					}
+				],
+				"desc": "选择启用的顶栏（右侧）按钮"
+			},
+			{
+				"id": "@BiliBili.Enhanced.Settings.Bottom",
+				"name": "底部导航栏",
+				"val": [
+					"home",
+					"dynamic",
+					"ogv",
+					"会员购Bottom",
+					"我的Bottom"
+				],
+				"type": "checkboxes",
+				"items": [
+					{
+						"key": "home",
+						"label": "首页"
+					},
+					{
+						"key": "频道Bottom",
+						"label": "频道"
+					},
+					{
+						"key": "dynamic",
+						"label": "动态"
+					},
+					{
+						"key": "publish",
+						"label": "发布"
+					},
+					{
+						"key": "ogv",
+						"label": "节目（港澳台）"
+					},
+					{
+						"key": "会员购Bottom",
+						"label": "会员购"
+					},
+					{
+						"key": "消息Bottom",
+						"label": "消息"
+					},
+					{
+						"key": "我的Bottom",
+						"label": "我的"
+					}
+				],
+				"desc": "选择启用的底部导航栏，最多6个"
+			}
+		    ],
+		     "author": "@BiliUniverse",
+		      "repo": "https://github.com/BiliUniverse/Enhanced",
+		     "icons": [
+			  "https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png",
+			  "https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png"
+		      ]
+		},
+		{
+			"id": "BiliBili.Enhanced.Region",
+			"name": "📺 BiliBili: ⚙ Enhanced (分区)",
+			"descs_html": [
+				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			"keys": [
+				"@BiliBili.Enhanced.Settings.Region",
+				"@BiliBili.Enhanced.Caches"
+			],
+			"settings": [
+				{
+					"id": "@BiliBili.Enhanced.Settings.Switch",
+					"name": "总功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此APP修改"
+				},
+				{
+					"id": "@BiliBili.Enhanced.Settings.Region.Index",
+					"name": "分区",
+					"val": [
+						"1",
+						"3",
+						"4",
+						"5",
+						"11",
+						"13",
+						"23",
+						"36",
+						"119",
+						"129",
+						"155",
+						"160",
+						"167",
+						"177",
+						"181",
+						"188",
+						"202",
+						"211",
+						"217",
+						"223",
+						"234",
+						"6544",
+						"65537",
+						"65539",
+						"65541",
+						"65545",
+						"65549",
+						"65550",
+						"65551",
+						"65552",
+						"65553",
+						"65555",
+						"65556",
+						"65557",
+						"65559",
+						"65560",
+						"65561",
+						"65563",
+						"95636",
+						"168312"
+					],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "1",
+							"label": "动画"
+						},
+						{
+							"key": "3",
+							"label": "音乐"
+						},
+						{
+							"key": "4",
+							"label": "游戏"
+						},
+						{
+							"key": "5",
+							"label": "娱乐"
+						},
+						{
+							"key": "11",
+							"label": "电视剧"
+						},
+						{
+							"key": "13",
+							"label": "番剧"
+						},
+						{
+							"key": "23",
+							"label": "电影"
+						},
+						{
+							"key": "36",
+							"label": "知识"
+						},
+						{
+							"key": "119",
+							"label": "鬼畜"
+						},
+						{
+							"key": "129",
+							"label": "舞蹈"
+						},
+						{
+							"key": "155",
+							"label": "时尚"
+						},
+						{
+							"key": "160",
+							"label": "生活"
+						},
+						{
+							"key": "167",
+							"label": "国创"
+						},
+						{
+							"key": "177",
+							"label": "纪录片"
+						},
+						{
+							"key": "181",
+							"label": "影视"
+						},
+						{
+							"key": "188",
+							"label": "科技"
+						},
+						{
+							"key": "202",
+							"label": "资讯"
+						},
+						{
+							"key": "211",
+							"label": "美食"
+						},
+						{
+							"key": "217",
+							"label": "动物圈"
+						},
+						{
+							"key": "223",
+							"label": "汽车"
+						},
+						{
+							"key": "234",
+							"label": "运动"
+						},
+						{
+							"key": "6544",
+							"label": "番劇（港澳台）"
+						},
+						{
+							"key": "65537",
+							"label": "直播"
+						},
+						{
+							"key": "65539",
+							"label": "游戏中心"
+						},
+						{
+							"key": "65541",
+							"label": "专栏"
+						},
+						{
+							"key": "65545",
+							"label": "放映厅"
+						},
+						{
+							"key": "65549",
+							"label": "工坊集市"
+						},
+						{
+							"key": "65550",
+							"label": "游戏赛事"
+						},
+						{
+							"key": "65551",
+							"label": "小黑屋"
+						},
+						{
+							"key": "65552",
+							"label": "全区排行榜"
+						},
+						{
+							"key": "65553",
+							"label": "活动中心"
+						},
+						{
+							"key": "65555",
+							"label": "漫画"
+						},
+						{
+							"key": "65556",
+							"label": "原创排行榜"
+						},
+						{
+							"key": "65557",
+							"label": "公开课"
+						},
+						{
+							"key": "65559",
+							"label": "VLOG"
+						},
+						{
+							"key": "65560",
+							"label": "课堂"
+						},
+						{
+							"key": "65561",
+							"label": "专题中心"
+						},
+						{
+							"key": "65563",
+							"label": "新歌热榜"
+						},
+						{
+							"key": "95636",
+							"label": "韩综（港澳台）"
+						},
+						{
+							"key": "168312",
+							"label": "節目（港澳台）"
+						}
+					],
+					"desc": "选择要显示的分区"
+				}
+			],
+			"author": "@BiliUniverse",
+			"repo": "https://github.com/BiliUniverse/Enhanced",
+			"icons": [
+				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png",
+				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png"
+			]
+		},
+		{
+			"id": "BiliBili.Enhanced.Mine",
+			"name": "📺 BiliBili: ⚙ Enhanced (我的) iOS版",
+			"descs_html": [
+				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			"keys": [
+				"@BiliBili.Enhanced.Settings.Mine",
+				"@BiliBili.Enhanced.Caches"
+			],
+			"settings": [
+				{
+					"id": "@BiliBili.Enhanced.Settings.Switch",
+					"name": "总功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此APP修改"
+				},
+				{
+					"id": "@BiliBili.Enhanced.Settings.Mine.CreatorCenter",
+					"name": "创作中心",
+					"val": [],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "171",
+							"label": "创作首页"
+						},
+						{
+							"key": "172",
+							"label": "稿件管理"
+						},
+						{
+							"key": "174",
+							"label": "有奖活动"
+						},
+						{
+							"key": "533",
+							"label": "任务中心"
+						},
+						{
+							"key": "707",
+							"label": "主播中心"
+						},
+						{
+							"key": "708",
+							"label": "主播活动"
+						},
+						{
+							"key": "709",
+							"label": "开播福利"
+						},
+						{
+							"key": "710",
+							"label": "我的直播"
+						}
+					],
+					"desc": "白色版本APP不存在此选项(未单独注明选项皆为iOS版本)"
+				},
+				{
+					"id": "@BiliBili.Enhanced.Settings.Mine.Recommend",
+					"name": "推荐服务",
+					"val": [
+						"400",
+						"402",
+						"403",
+						"404"
+					],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "400",
+							"label": "我的课程"
+						},
+						{
+							"key": "401",
+							"label": "看视频免流量"
+						},
+						{
+							"key": "402",
+							"label": "个性装扮"
+						},
+						{
+							"key": "403",
+							"label": "游戏中心"
+						},
+						{
+							"key": "404",
+							"label": "我的钱包"
+						},
+						{
+							"key": "406",
+							"label": "直播中心"
+						},
+						{
+							"key": "423",
+							"label": "邀好友赚红包"
+						},
+						{
+							"key": "514",
+							"label": "社区中心"
+						},
+						{
+							"key": "544",
+							"label": "创作中心"
+						},
+						{
+							"key": "622",
+							"label": "会员购中心"
+						},
+						{
+							"key": "924",
+							"label": "哔哩哔哩公益"
+						},
+						{
+							"key": "990",
+							"label": "能量加油站"
+						}
+					],
+					"desc": "白色版本APP不存在此选项"
+				},
+				{
+					"id": "@BiliBili.Enhanced.Settings.Mine.More",
+					"name": "更多服务",
+					"val": [
+						"407",
+						"410",
+						"1028"
+					],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "407",
+							"label": "联系客服"
+						},
+						{
+							"key": "410",
+							"label": "设置"
+						},
+						{
+							"key": "741",
+							"label": "我的钱包（白色版）"
+						},
+						{
+							"key": "742",
+							"label": "稿件管理（白色版）"
+						},
+						{
+							"key": "812",
+							"label": "听视频"
+						},
+						{
+							"key": "950",
+							"label": "青少年模式（概念版）"
+						},
+						{
+							"key": "964",
+							"label": "青少年守护"
+						},
+						{
+							"key": "1028",
+							"label": "我的NFT"
+						}
+					],
+					"desc": ""
+				}
+			],
+			"author": "@BiliUniverse",
+			"repo": "https://github.com/BiliUniverse/Enhanced/tree/beta",
+			"icons": [
+				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png",
+				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png"
+			]
+		},
+		{
+			"id": "BiliBili.Enhanced.Mine.iPad",
+			"name": "📺 BiliBili: ⚙ Enhanced (我的) iPad版",
+			"descs_html": [
+				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			"keys": [
+				"@BiliBili.Enhanced.Settings.Mine.iPad",
+				"@BiliBili.Enhanced.Caches"
+			],
+			"settings": [
+				{
+					"id": "@BiliBili.Enhanced.Settings.Switch",
+					"name": "总功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此APP修改"
+				},
+				{
+					"id": "@BiliBili.Enhanced.Settings.Mine.iPad.Upper",
+					"name": "创作中心",
+					"val": [],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "785",
+							"label": "投稿"
+						},
+						{
+							"key": "786",
+							"label": "创作首页"
+						},
+						{
+							"key": "787",
+							"label": "稿件管理"
+						},
+						{
+							"key": "788",
+							"label": "有奖活动"
+						}
+					],
+					"desc": "白色版本APP不存在此选项"
+				},
+				{
+					"id": "@BiliBili.Enhanced.Settings.Mine.iPad.Recommend",
+					"name": "推荐服务",
+					"val": [
+						"789",
+						"790",
+						"791",
+						"793",
+						"794",
+						"2542"
+					],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "789",
+							"label": "我的关注"
+						},
+						{
+							"key": "790",
+							"label": "我的消息"
+						},
+						{
+							"key": "791",
+							"label": "我的钱包"
+						},
+						{
+							"key": "792",
+							"label": "直播中心"
+						},
+						{
+							"key": "793",
+							"label": "大会员"
+						},
+						{
+							"key": "794",
+							"label": "我的课程"
+						},
+						{
+							"key": "2542",
+							"label": "我的游戏"
+						}
+					],
+					"desc": "白色版本APP不存在此选项"
+				},
+				{
+					"id": "@BiliBili.Enhanced.Settings.Mine.iPad.More",
+					"name": "更多服务",
+					"val": [
+						"797",
+						"798"
+					],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "797",
+							"label": "我的客服"
+						},
+						{
+							"key": "798",
+							"label": "设置"
+						},
+						{
+							"key": "1070",
+							"label": "青少年守护"
+						}
+					],
+					"desc": ""
+				}
+			],
+			"author": "@BiliUniverse",
+			"repo": "https://github.com/BiliUniverse/Enhanced",
+			"icons": [
+				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png",
+				"https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_circled_108x.png"
+			]
+		},
+		{
+			"id": "BiliBili.Global",
+			"name": "📺 BiliBili: 🌐 Global",
+			"descs_html": [
+				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			 "keys": [
+				"@BiliBili.Global.Settings",
+				"@BiliBili.Global.Caches"
+			],
+			"settings": [
+				{
+					"id": "@BiliBili.Global.Settings.Switch",
+					"name": "总功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此APP修改"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.ForceHost",
+					"name": "强制CDN主机名类型",
+					"val": "1",
+					"type": "selects",
+					"desc": "强制设置各类返回结果的CDN主机名类型",
+					"items": [
+						{
+							"key": "0",
+							"label": "IP: 返回远端DNS解析地址（强烈不推荐！严重影响域名分流规则与CDN重定向）"
+						},
+						{
+							"key": "1",
+							"label": "HTTP: 返回HTTP域名（推荐，免去重定向时MitM操作）"
+						},
+						{
+							"key": "2",
+							"label": "HTTPS: 返回HTTPS域名（重定向时需对指定域名启用MitM）"
+						}
+					]
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Locales",
+					"name": "启用自动识别和分类功能的地区",
+					"val": [
+						"CHN",
+						"HKG",
+						"TWN"
+					],
+					"type": "checkboxes",
+					"items": [
+						{
+							"key": "CHN",
+							"label": "🇨🇳中国大陆"
+						},
+						{
+							"key": "HKG",
+							"label": "🇭🇰中国香港"
+						},
+						{
+							"key": "MAC",
+							"label": "🇲🇴中国澳门"
+						},
+						{
+							"key": "TWN",
+							"label": "🇹🇼中国台湾"
+						}
+					],
+					"desc": "选择启用此功能的地区"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.CHN",
+					"name": "[🇨🇳中国大陆]代理或策略组选择",
+					"val": "DIRECT",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.HKG",
+					"name": "[🇭🇰中国香港]代理或策略组选择",
+					"val": "🇭🇰香港",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.MAC",
+					"name": "[🇲🇴中国澳门]代理或策略组选择",
+					"val": "🇲🇴澳门",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				},
+				{
+					"id": "@BiliBili.Global.Settings.Proxies.TWN",
+					"name": "[🇹🇼中国台湾]代理或策略组选择",
+					"val": "🇹🇼台湾",
+					"type": "text",
+					"desc": "选择此地区代理或策略组"
+				}
+			],
+			 "author": "@BiliUniverse",
+			 "repo": "https://github.com/BiliUniverse/Global",
+			 "icons": [
+				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png",
+				"https://github.com/BiliUniverse/Global/raw/main/database/icon_circled_108x.png"
+			]
+		},
+		{
+			"id": "BiliBili.ADBlock.Detail",
+			"name": "📺 BiliBili: 🛡️ ADBlock",
+			"descs_html":[
+				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			 "keys":[
+				"@BiliBili.ADBlock.Settings.Detail",
+				"@BiliBili.ADBlock.Caches"
+			],
+			"settings":[
+				{
+					"id": "@BiliBili.ADBlock.Settings.Switch",
+					"name": "总功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此APP修改"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.splash",
+					"name": "[开屏]去广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.feed",
+					"name": "[推荐]去广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.activity",
+					"name": "[推荐]去除“活动大图”",
+					"val": false,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.story",
+					"name": "[首页]去除短视频流广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.cinema",
+					"name": "[番剧电影]去除广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.view",
+					"name": "[用户投稿]去除视频广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.search",
+					"name": "[搜索]去除广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.commandDms",
+					"name": "[弹幕]去除交互式弹幕",
+					"val": false,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.colorfulDms",
+					"name": "[弹幕]替换大会员弹幕",
+					"val": false,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.MainList",
+					"name": "[评论区]去除广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.xlive",
+					"name": "[直播]去除广告",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.Hot_search",
+					"name": "[搜索]去除“热搜”",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.Hot_topics",
+					"name": "[动态]去除“热门话题”",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.Most_visited",
+					"name": "[动态]去除“最常访问”",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.Dynamic_adcard",
+					"name": "[动态]去除广告动态",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用关闭广告"
+				},
+				{
+					"id": "@BiliBili.ADBlock.Settings.Detail.blockUpLiveList",
+					"name": "[推荐]屏蔽up主直播推广",
+					"type": "text",
+					"desc": "填写up主uid,以英文逗号隔开"
+				}
+			],
+			"author": "@BiliUniverse",
+			"repo": "https://github.com/BiliUniverse/ADBlock",
+			"icons":[
+				"https://github.com/BiliUniverse/ADBlock/raw/main/database/icon_circled_108x.png",
+				"https://github.com/BiliUniverse/ADBlock/raw/main/database/icon_circled_108x.png"
+			]
+		}
+
 	
 	
-	
-  ]  
+    ]  
 }

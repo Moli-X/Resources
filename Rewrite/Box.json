@@ -326,7 +326,7 @@
         },
 	    {
 		  "id": "BiliBili.Enhanced.Home",
-		  "name": "哔哩(首页)",
+		  "name": "哔哩(标签)",
 		  "descs_html": [
 			 "使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 			 "填写完成后记得点击此页面底端右下角的\"保存\"。"
@@ -1110,7 +1110,7 @@
 		},
 		{
 			"id": "BiliBili.Global",
-			"name": "哔哩(全球)",
+			"name": "哔哩(分区)",
 			"descs_html": [
 				"使用说明请见<a href=\"https://github.com/BiliUniverse/Universe/wiki\">wiki</a>进行配置",
 				"填写完成后记得点击此页面底端右下角的\"保存\"。"

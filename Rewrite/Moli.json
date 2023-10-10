@@ -1,0 +1,64 @@
+{
+    "name":"莫离任务脚本合集",
+    "description":"电报频道 @QuantX",
+    "UpdateTime" : "2023-10-10",
+    "Author" : "Moli-X",
+    "task":[
+
+4 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, tag=华住会签到, img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png, enabled=true
+4 0 * * * https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js, tag=订阅同步, img-url=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Other/Sub-Store.png, enabled=true
+0 30 21 * * * https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/ssq/ssq.js, tag=彩票查询, img-url=https://raw.githubusercontent.com/58xinian/icon/master/Two_color_ball.png, enabled=true
+5 8 * * * https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/hjjc/hjjc.js, tag=辐射检测, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Fallout.png, enabled=true
+0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野, img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/idaily.png, enabled=true
+0 0 1 1 * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/douban.js, tag=豆瓣电影推荐, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Douban.png, enabled=true
+0 0 1 1 * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/60s.js, tag=每天60s, enabled=true
+30 7,11,15,19 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=true
+0 0 1 1 * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js, tag=黑料不打烊, enabled=false
+0 0 1 1 * https://raw.githubusercontent.com/Moli-X/Resources/main/Script/JD/jd_cleancart.js, tag=清空购物车, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=false
+
+5 0 * * * https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/picture/nasa.png, enabled=false
+#======================================
+# 🟢>>>>>>>>>>>莫离收集<<<<<<<<<<<<<<<<<
+
+
+
+0 0 23 1 * https://raw.githubusercontent.com/zmqcherish/proxy-script/main/bilibili/bilibili_config.js, tag=哔哩移除竖屏, img-url=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/imgs/icon/bilibili.png, enabled=false
+event-interaction https://raw.githubusercontent.com/getsomecat/Qx/main/Net_Speed.js, tag=⚡️ Net Speed, img-url=bolt.square.fill.system, enabled=false
+0 36 6,14,23 * * * https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/testflight/Auto_join_TF.js, tag=TestFlight自动加入, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=false
+
+# 0 1 * * * https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js, tag=必应积分, img-url=https://raw.githubusercontent.com/zc-nju-med/hellcell/master/QuantumultX/AV/fangangjianaizi.PNG, enabled=false
+
+
+0 36 6,14,23 * * * https://raw.githubusercontent.com/dompling/Script/master/jd/jd_cookie_search.js, tag=京东检测, img-url=https://raw.githubusercontent.com/FoKit/Quantumult-X/main/images/check.png, enabled=false
+# 京东物流
+# 京东取关
+30 18,20 * * * https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_unsubscribe.js, tag=京东取关, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=false
+# 京豆变动
+30 8,12,16,20 * * * https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_bean_change.js, tag=京豆变动, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_bean_change.png, enabled=false
+# 🟢>>>>>>>>>>>功能查询<<<<<<<<<<<<<<<<<
+
+event-interaction https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_2.js, tag=ChatGPT查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=false
+
+
+event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, tag=代理检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=false
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=油管查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=false
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf-ui-check.js, tag=Netflix 查询, img-url=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Other/Netflix.png, enabled=false
+5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=false
+30 7-22 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js, tag=软件监控, img-url=https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Icon/Test/App-Store.PNG, enabled=false
+event-interaction https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/TaskLocal/NeteaseMusicUnlockCheck.js, tag=音乐查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png, enabled=false
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js, tag=地址查询, img-url=location.fill.viewfinder.system, enabled=false
+event-interaction https://api.343.re/freedom/rule/quanx/script/ipinfo.js, tag=地址查询, img-url=location.fill.viewfinder.system, enabled=false
+#===============备用====================
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-google.js, tag=节点送中, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png, enabled=false
+#event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=解锁查询, img-url=checkmark.seal.system, enabled=true
+#event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf_ytb_ui-check.js, tag=油管奈飞, img-url=checkmark.seal.system, enabled=true
+#event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/traffic-check.js, tag=流量查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Download.png, enabled=true
+
+# >>>>>>>>>>>🆑缓存功能<<<<<<<<<<<<<<<<<
+# 清除服务
+5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.httpbackend.js, tag=𝑩𝒐𝒙𝑱𝒔 𝑪𝒍𝒆𝒂𝒓 𝑪𝒂𝒄𝒉𝒆, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png, enabled=false
+5 0 * * * https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/scripts/revert.js, tag=𝑺𝒖𝒃-𝑺𝒕𝒐𝒓𝒆  𝑪𝒍𝒆𝒂𝒓, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png, enabled=false
+5 0 * * * https://raw.githubusercontent.com/unknowntokyo/surge-list/master/X/dns-clear-cache.js, tag=𝑫𝒏𝒔 𝑪𝒍𝒆𝒂𝒓 𝑪𝒂𝒄𝒉𝒆, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png, enabled=false
+    ]
+}
+

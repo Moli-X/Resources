@@ -34,7 +34,7 @@
       "addons": ""
     },	
 	{
-      "config": "0 0 1 1 * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js, tag=黑料不打烊, img-url=https://github.com/Moli-X/Resources/blob/main/Icon/Image/HL144.png,enabled=true",
+      "config": "0 0 1 1 * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js, tag=黑料不打烊, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Image/HL144.png,enabled=true",
       "addons": ""
     },	
 	{

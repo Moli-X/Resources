@@ -98,6 +98,10 @@
       "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/v2freeCheckIn/v2freeCheckIn_cookie.qxrewrite, tag=v2free_cookie获取, update-interval=86400, opt-parser=false, enabled=true"
     },
 	{
+      "config": "30 7-22 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js, tag=软件监控, img-url=https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Icon/Test/App-Store.PNG, enabled=false",
+      "addons": ""
+    },
+	{
       "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=油管查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=false",
       "addons": ""
     },		
@@ -125,9 +129,12 @@
       "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf_ytb_ui-check.js, tag=油管奈飞, img-url=checkmark.seal.system, enabled=true",
       "addons": ""
     },	
-
 	{
       "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/traffic-check.js, tag=流量查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Download.png, enabled=true",
+      "addons": ""
+    },
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/TaskLocal/NeteaseMusicUnlockCheck.js, tag=音乐查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png, enabled=false",
       "addons": ""
     },
 	{

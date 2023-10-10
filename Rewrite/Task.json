@@ -104,7 +104,11 @@
 	{
       "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=油管查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=false",
       "addons": ""
-    },			
+    },
+	{
+      "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf-ui-check.js, tag=Netflix 查询, img-url=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Other/Netflix.png, enabled=false",
+      "addons": ""
+    },	
 	{
       "config": "event-interaction https://api.343.re/freedom/rule/quanx/script/ipinfo.js, tag=地址查询, img-url=location.fill.viewfinder.system, enabled=false",
       "addons": ""
@@ -121,6 +125,7 @@
       "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf_ytb_ui-check.js, tag=油管奈飞, img-url=checkmark.seal.system, enabled=true",
       "addons": ""
     },	
+
 	{
       "config": "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/traffic-check.js, tag=流量查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Download.png, enabled=true",
       "addons": ""

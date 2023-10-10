@@ -6,7 +6,7 @@
       "addons": ""
     },
 	{
-      "4 0 * * * https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js, tag=订阅同步, img-url=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Other/Sub-Store.png, enabled=true",
+      "config":"4 0 * * * https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js, tag=订阅同步, img-url=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Other/Sub-Store.png, enabled=true",
       "addons": ""
     },	
 	{

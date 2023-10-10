@@ -1,0 +1,27 @@
+{  
+  "id": "Moli",  
+  "name": "莫离应用订阅",  
+  "author": "@Moli-X",  
+  "icon": "",  
+  "repo": "https://github.com/Moli-X",  
+  "apps": [  
+    {  
+      "id": "hzh",  
+      "name": "华住会",  
+      "descs_html": [  
+        "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js\">脚本地址</a>】"  
+      ],  
+      "keys": [  
+        "@hzh.evil_hzhCookie",  
+        "@hzh.evil_hzhUserToken"  
+      ],  
+      "author": "@evilbutcher",  
+      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/hzh",  
+      "icons": [  
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh_tran.png",  
+        "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png"  
+      ],  
+      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js"  
+    }  
+  ]  
+}

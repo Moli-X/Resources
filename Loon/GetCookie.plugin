@@ -21,10 +21,7 @@ http-request ^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token script-path=h
 # > v2free 获取Token 链接:https://v2free.org/user
 http-request ^^https:\/\/w1\.v2free\.top\/user script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/v2freeCheckIn/v2freeCheckIn.js, requires-body=true, timeout=10, enabled=true, tag=v2free_cookie获取
 
-# > 茅台Token
-http-request ^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query script-path = https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js, tag = 茅台Token
-
 
 
 [MITM]
-hostname = hweb-mbf.huazhu.com,ms.jr.jd.com, me-api.jd.com, api.m.jd.com, auth.aliyundrive.com,w1.v2free.top,app.moutai519.com.cn
+hostname = hweb-mbf.huazhu.com,ms.jr.jd.com, me-api.jd.com, api.m.jd.com, auth.aliyundrive.com,w1.v2free.top

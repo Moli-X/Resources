@@ -63,3 +63,5 @@ payload:
   - DOMAIN-KEYWORD,delta
   - DOMAIN-KEYWORD,dms
   - DOMAIN-KEYWORD,mydelta
+  - DOMAIN-KEYWORD,mydeltaww
+  - DOMAIN-SUFFIX,mydelta.deltaww.com

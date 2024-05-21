@@ -9,7 +9,7 @@
 #!select = 响应头缓存有效期,1分钟,5分钟,10分钟,30分钟,1小时,2小时,3小时,6小时,12小时,24小时,48小时,72小时,参数传入
 
 # [Rule]
-DOMAIN,sub-store.vercel.app,PROXY
+# DOMAIN,sub-store.vercel.app,PROXY
 
 [MITM]
 hostname=sub.store

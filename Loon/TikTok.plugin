@@ -4,36 +4,30 @@
 #!author = 莫离
 #!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/TikTok.plugin
 #!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Other/Tiktok.png
-#!select = 解锁地区,日本,韩国,英国,美国,台湾,香港,新加坡,法国,马来西亚,菲律宾,泰国,手动输入
-#!input = 其他地区
+#!select = TikTok解锁地区,日本,韩国,英国,美国,台湾,香港,新加坡,法国,马来西亚,菲律宾,泰国,手动输入
+#!input = 手动输入地区代码[可选]
 #!edit=https://github.com/Moli-X/Resources/edit/main/Loon/TikTok.plugin
 
 # 原链接:https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin
 
-[Rule]
-DOMAIN, p16-tiktokcdn-com.akamaized.net, PROXY
-DOMAIN-SUFFIX, bytedapm.com, PROXY
-DOMAIN-SUFFIX, bytegecko-i18n.com, PROXY
-DOMAIN-SUFFIX, bytegecko.com, PROXY
-DOMAIN-SUFFIX, byteoversea.com, PROXY
-DOMAIN-SUFFIX, ibytedtos.com, PROXY
-DOMAIN-SUFFIX, ibyteimg.com, PROXY
-DOMAIN-SUFFIX, ipstatp.com, PROXY
-DOMAIN-SUFFIX, isnssdk.com, PROXY
-DOMAIN-SUFFIX, muscdn.com, PROXY
-DOMAIN-SUFFIX, musical.ly, PROXY
-DOMAIN-SUFFIX, sgpstatp.com, PROXY
-DOMAIN-SUFFIX, snssdk.com, PROXY
-DOMAIN-SUFFIX, tik-tokapi.com, PROXY
-DOMAIN-SUFFIX, tiktok.com, PROXY
-DOMAIN-SUFFIX, tiktokcdn-us.com, PROXY
-DOMAIN-SUFFIX, tiktokcdn.com, PROXY
-DOMAIN-SUFFIX, tiktokv.com, PROXY
-DOMAIN-KEYWORD, musical.ly, PROXY
-DOMAIN-KEYWORD, tiktok, PROXY
+#!date = 2023-08-19 22:00:03
 
-[Script]
-http-request https?:\/\/.+\.(byteoversea|tiktokv).com\/.+(_region=CN&|&mcc_mnc=4) script-path=https://github.com/Moli-X/Resources/raw/main/Script/TikTok.js, timeout=20, tag=TikTok
+[Rule]
+DOMAIN-KEYWORD,tiktokcdn,PROXY
+DOMAIN-SUFFIX,byteoversea.com,PROXY
+DOMAIN-SUFFIX,ibytedtos.com,PROXY
+DOMAIN-SUFFIX,ipstatp.com,PROXY
+DOMAIN-SUFFIX,muscdn.com,PROXY
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tik-tokapi.com,PROXY
+DOMAIN-SUFFIX,tiktok.com,PROXY
+DOMAIN-SUFFIX,tiktokcdn.com,PROXY
+USER-AGENT,TikTok*,PROXY
 
 [MITM]
 hostname = *.byteoversea.com, *.tik-tokapi.com, *.tiktokv.com
+
+[Script]
+http-request ^https?:\/\/((tnc|dm).+\.[^\/]+\.com\/\w+\/v\d\/\?|.+\.(byteoversea|tiktokv).com\/.+(_region=CN&|&mcc_mnc=4)) script-path=https://raw.githubusercontent.com/Keywos/rule/main/loon/tk.js, timeout=20, tag=TikTok
+
+http-response https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/TikTok/TikTok_remove_watermark.js, requires-body=true, timeout=10, tag=TikTok去水印

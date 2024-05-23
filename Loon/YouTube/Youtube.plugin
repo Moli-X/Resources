@@ -9,7 +9,7 @@
 #!select = 字幕翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
 #!select = 歌词翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
 #select = 启用调试模式, true, false
-#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/YouTube.plugin
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/YouTube/Youube.plugin
 
 
 # 原链接 = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/YouTube_remove_ads.plugin
@@ -27,9 +27,9 @@ AND, ((DOMAIN-SUFFIX, googlevideo.com),  (PROTOCOL, QUIC)), REJECT
 
 [Script]
 # YouTube去广告
-http-request ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js, requires-body = true, binary-body-mode = true, tag = YouTube请求
+http-request ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch) script-path = https://github.com/Moli-X/Resources/raw/main/Loon/YouTube/request.preview.js, requires-body = true, binary-body-mode = true, tag = YouTube请求
 
-http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js, requires-body = true, binary-body-mode = true, tag = YouTube响应
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path = https://github.com/Moli-X/Resources/raw/main/Loon/YouTube/remove_ads_response.js, requires-body = true, binary-body-mode = true, tag = YouTube响应
 
 [Mitm]
 hostname = *.googlevideo.com, youtubei.googleapis.com

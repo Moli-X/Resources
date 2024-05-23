@@ -1,0 +1,25 @@
+#!name = 阿里云盘去广告
+#!desc = 移除首页阿里云盘广告
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/Raw/main/Loon/AliYunAd.plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/AliYunDrive.png
+#!date = 2024-01-25 18:03:14
+
+[Rule]
+IP-CIDR, 203.107.1.1/24, REJECT, no-resolve
+
+[Rewrite]
+# 首页活动日历
+# ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info reject-dict
+^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle reject-dict
+# 首页板块入口
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders reject-dict
+
+
+[Script]
+http-response ^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets) script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js, requires-body = true, tag = 移除阿里云盘广告
+http-response ^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js, requires-body = true, tag = 移除阿里云盘广告
+
+[Mitm]
+hostname = api.alipan.com, member.alipan.com

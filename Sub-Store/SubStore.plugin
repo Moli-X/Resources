@@ -1,4 +1,4 @@
-#!name=Sub-Store标准版
+#!name=Sub-Store
 #!desc=标准版高级订阅管理工具
 #!openUrl=
 #!author=莫离
@@ -8,8 +8,8 @@
 #!select = 节点缓存有效期,1分钟,5分钟,10分钟,30分钟,1小时,2小时,3小时,6小时,12小时,24小时,48小时,72小时,参数传入
 #!select = 响应头缓存有效期,1分钟,5分钟,10分钟,30分钟,1小时,2小时,3小时,6小时,12小时,24小时,48小时,72小时,参数传入
 
-# [Rule]
-# DOMAIN,sub-store.vercel.app,PROXY
+[Rule]
+DOMAIN,sub-store.vercel.app,PROXY
 
 [MITM]
 hostname=sub.store
@@ -18,4 +18,4 @@ hostname=sub.store
 http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, timeout=120, tag=Sub-Store Core
 http-request ^https?:\/\/sub\.store script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true, timeout=120, tag=Sub-Store Simple
 
-# cron "55 23 * * *" script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js, timeout=120, tag=Sub-Store Sync
+cron "55 23 * * *" script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js, timeout=120, tag=Sub-Store Sync

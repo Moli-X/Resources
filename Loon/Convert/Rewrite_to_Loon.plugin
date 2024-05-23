@@ -6,12 +6,13 @@
 #!source=https://raw.githubusercontent.com/chengkongyiban/Loon/main/Loon-Gallery/Rewrite_to_Loon.plugin
 #!select = 启用插件随机图标, 启用, 禁用
 #!select = 替换原始插件图标, 启用, 禁用
-#!select = 插件随机图标合集, Doraemon(100P),Shin-chan(100P),Weslie-Wolffy(100P),Tom-Jerry(100P),Genshin(160P),Shin-Miya(100P),OnePiece(100P),Stitch(100P),Pokemon(112P),PokemonGif(56P),Digimon(56P),Transformers(48P),Maruko-chan(100P)
+#!select = 插件随机图标合集, Doraemon(100P),Shin-chan(100P),Weslie-Wolffy(100P),Tom-Jerry(100P),Genshin(160P),Shin-Miya(100P),OnePiece(100P),Stitch(100P),Pokemon(112P),PokemonGif(56P)
+#!input = Parser_cache_exp
 
 [Script]
 http-request ^https?:\/\/.+\/[^/]+\.[^/]+(qx$|qx\?.+=) script-path=https://github.com/chengkongyiban/stash/raw/main/js/QX_Rewrite_Parser.js, requires-body=true, timeout=10, tag=QX转化Loon
 
-http-request ^https?:\/\/.+\/[^/]+\.[^/]+(sg$|sg\?.+=) script-path=https://github.com/chengkongyiban/stash/raw/main/js/Surge_Rewrite_Parser.js, requires-body=true, timeout=10, tag=Surge转化Loon
+http-request ^https?:\/\/.+\/[^/]+\.[^/]+[^Ttm](sg$|sg\?.+=) script-path=https://github.com/chengkongyiban/stash/raw/main/js/Surge_Rewrite_Parser.js, requires-body=true, timeout=10, tag=Surge转化Loon
 
 http-request ^https?:\/\/.+\/[^/]+\.[^/]+(loon$|loon\?.+=) script-path=https://github.com/chengkongyiban/stash/raw/main/js/Loon_Rewrite_Parser.js, requires-body=true, timeout=10, tag=Loon插件控制器
 
@@ -23,3 +24,4 @@ http-request _script-converter-(STASH|SURGE|LOON|SHADOWROCKET)\.js$ script-path=
 
 [MITM]
 hostname = github.com,raw.githubusercontent.com,gist.githubusercontent.com,gitlab.com,yfamily.ml
+

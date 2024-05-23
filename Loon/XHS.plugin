@@ -9,51 +9,42 @@
 
 [Rewrite]
 
-# > 小红书_视频播放页商品推广@ddgksf2013
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/widgets - reject-dict
-# > 小红书_通用广告请求@ddgksf2013
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/(tag\/)?ads - reject-dict
-# > 小红书_隐私屏蔽@ddgksf2013
-^https?:\/\/referee\.xiaohongshu\.com\/v\d\/stateReport - reject-dict
-# > 小红书_Switches@ddgksf2013
-^https?:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches - reject-dict
-# > 小红书_青少年请求@ddgksf2013
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status - reject-dict
-# > 小红书_启动引导@ddgksf2013
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/home_guide - reject-dict
+# 惊喜弹窗
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) - reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? - reject-dict
+# 信息流,详情页感兴趣的人
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? - reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/(v1\/ads\/resource|v2\/hey\/\w+\/hey_gallery) - reject-dict
 
 [Script]
 
-# > 小红书_短视频流去水印+强制开启保存功能@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/redtube\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_19
+# 详情页小部件,关注页感兴趣的人
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(note\/widgets|user\/followings\/followfeed) script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_8
 
-# > 小红书_信息流视频去水印+强制开启保存功能@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/videofeed\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_21
+# 搜索页
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_list script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_10
 
-# > 小红书_信息流图片去水印@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/feed\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_23
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(hint|trending)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_11
 
-# > 小红书_开屏广告@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_25
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_12
 
-# > 小红书_首页瀑布流@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_27
+# 开屏广告
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_14
 
-# > 小红书_启动处理@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_29
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_15
 
-# > 小红书_热搜发现@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_31
+# 图片水印,视频水印
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v2\/note\/feed|v3\/note\/videofeed)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_17
 
-# > 小红书_默认填词@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hint script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_33
+# 图片水印,实况照片水印
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(imagefeed|live_photo\/save) script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_19
 
-# > 小红书_去除购物@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\/categories script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_35
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_22
 
-# > 小红书_猜你想搜@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trending script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, timeout=60 ,tag=redbook_json_37
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_23
+
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, timeout=60 ,tag=xiaohongshu_24
 
 [MITM]
 
-hostname = edith.xiaohongshu.com,www.xiaohongshu.com,pages.xiaohongshu.com,referee.xiaohongshu.com
+hostname = edith.xiaohongshu.com,www.xiaohongshu.com

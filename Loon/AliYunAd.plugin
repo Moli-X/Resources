@@ -22,4 +22,4 @@ http-response ^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list script-pat
 http-response ^https?:\/\/(api|member)\.aliyundrive\.com script-path=https://raw.githubusercontent.com/gjwj666/qx/main/aliy.js, requires-body=true, timeout=60 ,tag=阿里云解锁VIP
 
 [Mitm]
-hostname = api.alipan.com, member.alipan.com
+hostname = api.alipan.com, member.alipan.com, *.aliyundrive.com

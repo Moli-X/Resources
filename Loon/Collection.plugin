@@ -15,34 +15,31 @@
 # 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify.plugin
 # ✅配置增强跳过代理
 # 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/General.plugin
-
-
+# ✅YouTube
+# 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/YouTube/Youtube.plugin
 
 
 [Script]
 
 # ✅BoxJs
-http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs
-# ✅YouTube  *.googlevideo.com, youtubei.googleapis.com, https://github.com/Moli-X/Resources/raw/main/Loon/YouTube.plugin
-# http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? requires-body=true,binary-body-mode=true,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js ,tag=油管广告
+^http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs
 # ✅美图秀秀vip
-http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js, requires-body=true, timeout=60 ,tag=美图秀秀会员
+^http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js, requires-body=true, timeout=60 ,tag=美图秀秀会员
 # ✅美图秀秀粉钻
-http-response ^https:\/\/api\.xiuxiu\.meitu\.com\/v1 script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js, requires-body=true, timeout=60 ,tag=美图秀秀粉钻
+^http-response ^https:\/\/api\.xiuxiu\.meitu\.com\/v1 script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js, requires-body=true, timeout=60 ,tag=美图秀秀粉钻
 # ✅LOON插件仓库
-http-request https?:\/\/xn--ck8h\.com script-path=https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/backend/gallery.js, requires-body=true, timeout=120, tag=Loon-Gallery
+^http-request https?:\/\/xn--ck8h\.com script-path=https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/backend/gallery.js, requires-body=true, timeout=120, tag=Loon-Gallery
 # ✅Nicegram会员
-http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js, timeout=10, tag=Nicegram会员
-
+^http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js, timeout=10, tag=Nicegram会员
 # ✅TF账号管理
-http-request ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,tag=TestFlight账户管理
+^http-request ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,tag=TestFlight账户管理
 # ✅微信链接限制解除
-http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, timeout=60 ,tag=解除微信链接
+^http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, timeout=60 ,tag=解除微信链接
 # ✅京东比价
-http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js, requires-body=true, timeout=10, tag=京东比价, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
+^http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js, requires-body=true, timeout=10, tag=京东比价, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
 
 
 [MITM]
-hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app, testflight.apple.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, member.aliyundrive.com, api.m.jd.com
+hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app, testflight.apple.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, api.m.jd.com
 
 

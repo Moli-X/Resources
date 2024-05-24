@@ -1,24 +1,37 @@
+# NAME: OpenAI
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-29 13:37:08
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 21
+# IP-ASN: 1
+# IP-CIDR: 2
+# TOTAL: 27
 payload:
-
-
-# > OpenAI
-
-  - DOMAIN,cdn.auth0.com
-  - DOMAIN,challenges.cloudflare.com
-  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,static.cloudflareinsights.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,algolia.net
+  - DOMAIN-SUFFIX,api.statsig.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,host.livekit.cloud
   - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX, recaptcha.net
-  - DOMAIN-SUFFIX, openai.com
-  - DOMAIN-SUFFIX, cloudflare.hcaptcha.com
-  - DOMAIN-SUFFIX, auth0.openai.com
-  - DOMAIN-SUFFIX, chat.openai.com
-  - DOMAIN-SUFFIX, hcaptcha.com
-  - DOMAIN-SUFFIX, o33249.ingest.sentry.io
-  - DOMAIN-SUFFIX, ingest.sentry.io
-  - DOMAIN-SUFFIX, openaicom-api-fd-cefkg5c4cydtafam.z01.azurefd.net
-  - DOMAIN-SUFFIX, production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX, openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-KEYWORD, openai
- 
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,observeit.net
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,turn.livekit.cloud
+  - DOMAIN-KEYWORD,openai
+  - IP-CIDR,24.199.123.28/32
+  - IP-CIDR,64.23.132.171/32

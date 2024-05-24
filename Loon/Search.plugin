@@ -17,6 +17,12 @@
 # Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
 #  注：先进入设置更改 Safari 默认搜索为 DuckDuckGO
 
+# st     (跳转到小火箭模块合集)
+# ln     (跳转到loon插件合集)
+# qx     (跳转到圈X重写合集)
+# sg     (跳转到surge模块合集)
+# sh      (跳转到stash覆写合集)
+
 # yd  xxx (有道词典)
 # trc xxx (Google 译至中)   
 # tre xxx (Google 译至英)
@@ -78,6 +84,12 @@
 
 
 [URL Rewrite]
+^https?://www\.google\.com/search\?q=st.*$ 302 https://whatshub.top/shadowrocket
+^https?://www\.google\.com/search\?q=ln.*$ 302 https://whatshub.top/loon
+^https?://www\.google\.com/search\?q=qx.*$ 302 https://whatshub.top/quantumultx
+^https?://www\.google\.com/search\?q=sg.*$ 302 https://whatshub.top/surge
+^https?://www\.google\.com/search\?q=sh.*$ 302 https://whatshub.top/stash
+
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 ^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
@@ -133,5 +145,6 @@
 
 
 
+
 [MITM]
-hostname =  duckduckgo.com
+hostname =  duckduckgo.com,whatshub.top,www.google.com

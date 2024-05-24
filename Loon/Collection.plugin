@@ -11,10 +11,13 @@
 # 添加插件：https://raw.githubusercontent.com/Moli-X/Resources/main/Sub-Store/SubStore.plugin
 # ✅TikTok解锁 
 # 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/TikTok.plugin
-# ✅Spotify歌词翻译
+# ✅Spotify歌词翻译+破解
 # 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Spotify.plugin
 # ✅配置增强跳过代理
 # 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/General.plugin
+
+
+
 
 [Script]
 
@@ -30,11 +33,7 @@ http-response ^https:\/\/api\.xiuxiu\.meitu\.com\/v1 script-path=https://raw.git
 http-request https?:\/\/xn--ck8h\.com script-path=https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/backend/gallery.js, requires-body=true, timeout=120, tag=Loon-Gallery
 # ✅Nicegram会员
 http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js, timeout=10, tag=Nicegram会员
-# ✅Spotify会员
-http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=10, tag=spotifyJson
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=spotifyProto
-# ✅阿里网盘crack测试   api.aliyundrive.com, member.aliyundrive.com
-http-response ^https:\/\/(api|member)\.aliyundrive\.com\/(adrive|v1|v2|business|databox)\/.+\/(me|vip|feature|info|get_personal_info|driveCapacityDetails) script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCrack/aDriveCrack_test.js, requires-body=true, timeout=10, enabled=true, tag=阿里网盘crack测试
+
 # ✅TF账号管理
 http-request ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,tag=TestFlight账户管理
 # ✅微信链接限制解除
@@ -44,6 +43,6 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 
 
 [MITM]
-hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app,spclient.wg.spotify.com, testflight.apple.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, member.aliyundrive.com, api.m.jd.com
+hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, xn--ck8h.com, restore-access.indream.app, testflight.apple.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, member.aliyundrive.com, api.m.jd.com
 
 

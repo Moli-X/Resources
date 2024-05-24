@@ -1,0 +1,23 @@
+#!name=百度云加速
+#!desc=百度网盘解锁在线视频倍率/清晰度
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Baiducloud.plugin
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/baiducloud.png
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Baiducloud.plugin
+
+
+
+
+
+
+
+[Mitm]
+
+hostname =pan.baidu.com
+
+
+
+[Script]
+
+http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, tag=百度云加速
+

@@ -1,5 +1,5 @@
 #!name = 酷我音乐/酷我畅听
-#!desc = 全功能破解酷我音乐&酷我畅听
+#!desc = 全功能破解酷我音乐&酷我畅听&去广告
 #!author = 莫离
 #!openUrl = 
 #!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/KuWo.plgin
@@ -9,13 +9,57 @@
 #!Edit = https://github.com/Moli-X/Resources/edit/main/Loon/KuWo.plgin
 
 # 原链接:https://whatshub.top/plugin/kuwo-unlock.plugin
-
+# 原链接:https://gist.githubusercontent.com/ddgksf2013/0f76e952f0c4a2579932f45a209b40c3/raw/Kuwo.conf
 
 [Rule]
 USER-AGENT,KWPlayer*,PROXY
 DOMAIN-SUFFIX,kuwo.cn,PROXY
 
+[Rewrite]
+
+# 酷我音乐_通用广告请求
+https?:\/\/vip1\.kuwo\.cn\/vip\/activity\/kwMemberDay - reject-200
+#  酷我音乐_屏蔽热词
+https?:\/\/hotword\.kuwo\.cn\/hotword\.s - reject-dict
+#  酷我音乐_通用广告请求
+https?:\/\/vip1\.kuwo\.cn\/vip_adv\/ - reject-dict
+#  酷我音乐_通用广告请求
+https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/app\/pasterAdvert - reject-200
+#  酷我音乐_应用内弹窗及右下角
+^https?:\/\/mobilead\.kuwo\.cn\/ - reject-200
+#  酷我音乐_开屏广告
+https?:\/\/rich\.kuwo\.cn\/AdService - reject-200
+
 [Script]
+# 全功能破解酷我音乐&酷我畅听
 http-response ^(?!.*img).*?kuwo\.cn(/vip|/openapi)?(/enc|/audi.tion|/v[\d]/(user/vip\?(vers|apiVersion|platform|op\=ui|_t)|theme\?op=gd|sysinfo\?op=getRePayAndDoPayBoxNew|api(/pay)?/((user/personal/)?user/info|payInfo/kwplayer/payMiniBar|advert/(myPage|iListen|album))|album/(adBar|myRec/vipMusic))|/kuwopay/vip-tab/setting|/(audioApi/)?a\.p($|\?op\=getvip|.*?ptype\=vip)|/mobi\.s\?f\=kwxs|/music\.pay\?newver\=3$|/(EcomResource|(Mobile)?Ad)Serv(er|ice)) script-path=https://github.com/Moli-X/Resources/raw/main/Script/Kuwo.js, requires-body=true, timeout=60, tag=酷我音乐, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Other/KuWo.png
+
+#  酷我音乐_搜索框处理
+http-response https?:\/\/searchrecterm\.kuwo\.cn\/recterm\.s script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_30
+#  酷我音乐_去除首页轮播广告和tips
+http-response https?:\/\/mgxhtj\.kuwo\.cn\/mgxh\.s script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_32
+# 酷我音乐_去除会员页广告
+http-response https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/page\/cells script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_34
+#  酷我音乐_去除会员页顶部广告tab
+http-response https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/setting script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_36
+#  酷我音乐_数字专辑
+http-response ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_40
+#  酷我音乐_皮肤解锁
+http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_52
+
+
+#  酷我音乐_听书权限接口1
+# http-response ^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_42
+#  酷我音乐_听书权限接口2
+# http-response ^https?:\/\/audiobookpay\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_44
+#  酷我音乐_新版vip接口1
+# http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/vip\?op=ui script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_46
+#  酷我音乐_新版vip接口2
+# http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/userbase\/vip\?op=get script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_48
+# 酷我音乐_旧版vip接口
+# http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/user\/vip($|\?op=ui) script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, requires-body=true, timeout=60 ,tag=kuwomusic_50
+#  酷我音乐_无损下载[限纯净版]
+# http-request ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?ui script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js, timeout=60 ,tag=kuwomusic_54
+
 [Mitm]
 hostname = *.kuwo.cn

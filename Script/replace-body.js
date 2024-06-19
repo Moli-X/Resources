@@ -1,6 +1,6 @@
 /*
 脚本作者：mieqq
-引用地址：https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js
+引用地址：https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/CommonScript/replace-body.js
 
 用Loon的脚本实现Quantumult X的response-body和request-body重写类型
 

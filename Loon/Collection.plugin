@@ -20,8 +20,14 @@
 # ✅美图秀秀
 # 添加插件https://github.com/Moli-X/Resources/raw/main/Loon/Mtxx.plugin
 
-[Script]
 
+
+
+[Rewrite]
+# ✅🔞PornHub  *.pornhub.com
+^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads - reject-dict
+
+[Script]
 # ✅BoxJs
 http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Image/BoxJs.png
 # ✅LOON插件仓库
@@ -34,9 +40,15 @@ http-request ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ req
 http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, timeout=60 ,tag=解除微信链接, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Image/WeChat.png
 # ✅京东比价
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js, requires-body=true, timeout=10, tag=京东比价, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
-
+# ✅🔞PornHub  *.pornhub.com
+http-request ^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) script-path=https://github.com/ddgksf2013/Scripts/raw/master/pornhub.js
+# ✅豆瓣电影 cn-acs.m.cainiao.com, guide-acs.m.taobao.com
+http-response ^https://m.douban.com/movie/subject/.+ script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js, requires-body=true, timeout=60 ,tag=douban_27
+http-request ^https://m.douban.com/movie/subject/.+\?seen=\d script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js, timeout=60 ,tag=douban_28
+# ✅豆瓣电影和电视剧添加便捷播放按钮(2022.01.28)
+http-response ^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/ script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/DouBan.js, requires-body=true, timeout=60 ,tag=DouBan_30
 
 [MITM]
-hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,  xn--ck8h.com, restore-access.indream.app, testflight.apple.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, api.m.jd.com
+hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,  xn--ck8h.com, restore-access.indream.app, testflight.apple.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, api.m.jd.com,*.pornhub.com,cn-acs.m.cainiao.com, guide-acs.m.taobao.com
 
 

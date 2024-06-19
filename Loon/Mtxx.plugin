@@ -1,0 +1,15 @@
+#!name=美图秀秀
+#!desc=解锁SVIP
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Mtxx.plugin
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Mtxx.png
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Mtxx.plugin
+
+
+[Script]
+
+http-response ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js, requires-body=true, timeout=60 ,tag=mtxx_8
+
+[MITM]
+
+hostname = *.xiuxiu.meitu.com,api.posters.meitu.com,api-sub.meitu.com

@@ -1,0 +1,267 @@
+
+# MyBlockAds
+# 更新时间: 2024-06-19 07:00
+# 原链接:https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list
+
+
+
+# ======= A ======= #
+# 阿里巴巴
+DOMAIN, dns.alidns.com
+DOMAIN, ems.youku.com
+DOMAIN, hudong.alicdn.com
+DOMAIN, ossgw.alicdn.com
+DOMAIN-SUFFIX, ut.taobao.com
+# 阿里云盘
+IP-CIDR, 203.107.1.1/24
+# 爱奇艺
+DOMAIN, api.iqiyi.com
+# Apple
+DOMAIN, advertising.apple.com
+DOMAIN, api-adservices.apple.com
+DOMAIN, apple.comscoreresearch.com
+DOMAIN, banners.itunes.apple.com
+DOMAIN, iad.apple.com
+DOMAIN, iadcontent.apple.com
+DOMAIN, iadctest.qwapi.com
+DOMAIN, iadmoo.apple.com
+DOMAIN, iadworkbench.apple.com
+DOMAIN, launch.apple.com
+DOMAIN, qwapi.apple.com
+DOMAIN-SUFFIX, advp.apple.com
+DOMAIN-SUFFIX, iad-apple.com
+DOMAIN-SUFFIX, iadsdk.apple.com
+# 安全浏览限制解除
+DOMAIN, lookup.api.bsb.baidu.com
+DOMAIN-SUFFIX, u3.ucweb.com
+DOMAIN-KEYWORD, safebrowsing.
+
+# ======= B ======= #
+# 百度
+DOMAIN, mobads.baidu.com
+DOMAIN-SUFFIX, pos.baidu.com
+# 百度地图
+DOMAIN, afd.baidu.com
+DOMAIN, afdconf.baidu.com
+DOMAIN, lc.map.baidu.com
+# 百度
+IP-CIDR, 180.76.76.112/32
+IP-CIDR, 180.76.76.200/32
+
+# ======= C ======= #
+# 彩云天气
+DOMAIN, ad.cyapi.cn
+# 昌原云充
+DOMAIN, m.adyounger.com
+# Clue 智库
+DOMAIN, api.helloclue.com
+DOMAIN, brahe.apptimize.com
+DOMAIN, collector.clue.run
+DOMAIN, images.ctfassets.net
+DOMAIN, mapi.apptimize.com
+DOMAIN, md-i-s.apptimize.com
+
+# ======= D ======= #
+# DNS 无响应
+DOMAIN, adttrackingprd.hwwt8.com
+
+# ======= G ======= #
+# 高德地图
+DOMAIN, amap-aos-info-nogw.amap.com
+# 工商银行
+DOMAIN, pageviewp.icbc.com.cn
+DOMAIN-SUFFIX, mall.icbc.com.cn
+# 广告联盟
+DOMAIN, ad.zijieapi.com
+DOMAIN, init.supersonicads.com
+DOMAIN, is.snssdk.com
+DOMAIN, open.e.kuaishou.com
+DOMAIN, open.kuaishou.com
+DOMAIN, pagead2.googlesyndication-cn.com
+DOMAIN, pagead2.googlesyndication.com
+DOMAIN, ws.tapjoyads.com
+DOMAIN, www.googleadservices.com
+DOMAIN-SUFFIX, ads.linkedin.com
+DOMAIN-SUFFIX, ads.vungle.com
+DOMAIN-SUFFIX, adservice.google.com
+DOMAIN-SUFFIX, applovin.com
+DOMAIN-SUFFIX, applvn.com
+DOMAIN-SUFFIX, appsflyer.com
+DOMAIN-SUFFIX, appsflyersdk.com
+DOMAIN-SUFFIX, kuaishouzt.com
+DOMAIN-SUFFIX, miaozhen.com
+DOMAIN-SUFFIX, unityads.unity3d.com
+DOMAIN-KEYWORD, -ad-sign.byteimg.com
+DOMAIN-KEYWORD, ads.g.doubleclick
+DOMAIN-KEYWORD, asiad.byteactivity
+DOMAIN-KEYWORD, pangolin-sdk-toutiao
+DOMAIN-KEYWORD, pangolin.snssdk.com
+DOMAIN-KEYWORD, pglstatp-toutiao
+DOMAIN-KEYWORD, video-cn.snssdk.com
+
+# ======= H ======= #
+# 海尔智家
+DOMAIN-SUFFIX, ehaier.com
+# httpdns
+DOMAIN, hdns.ksyun.com
+DOMAIN-KEYWORD, httpdns.
+DOMAIN-KEYWORD, httpdns-
+
+# ======= J ======= #
+# 建设银行
+DOMAIN-KEYWORD, adv.ccb.com
+# 京东
+DOMAIN, dns.jd.com
+IP-CIDR, 101.124.19.122/32
+IP6-CIDR, 2402:db40:5100:1011::5/128
+# JavDB
+DOMAIN, api.liquidlink.cn
+
+# ======= K ======= #
+# 酷我音乐
+DOMAIN, ad.tencentmusic.com
+DOMAIN, g.koowo.com
+DOMAIN, mobilead.kuwo.cn
+DOMAIN, rich.kuwo.cn
+
+# ======= L ======= #
+# 蓝奏云
+DOMAIN, statics.woozooo.com
+
+# ======= M ======= #
+# 芒果TV
+DOMAIN, credits.bz.mgtv.com
+DOMAIN, credits2.bz.mgtv.com
+DOMAIN, credits3.bz.mgtv.com
+DOMAIN, dflow.bz.mgtv.com
+DOMAIN, encounter.bz.mgtv.com
+DOMAIN, floor.bz.mgtv.com
+DOMAIN, layer.bz.mgtv.com
+DOMAIN, mob.bz.mgtv.com
+DOMAIN, rc-topic-api.bz.mgtv.com
+DOMAIN, rprain.bz.mgtv.com
+DOMAIN, rprain.log.mgtv.com
+DOMAIN, vip.bz.mgtv.com
+DOMAIN-SUFFIX, da.mgtv.com
+# 美团
+DOMAIN, maplocatesdksnapshot.d.meituan.net
+DOMAIN, metrics-picture.d.meituan.net
+IP-CIDR, 103.37.155.60/32
+# 美颜相机
+DOMAIN, aaid.uyunad.com
+DOMAIN, adui.tg.meitu.com
+
+# ======= O ======= #
+# Outlook
+DOMAIN, acdn.adnxs.com
+DOMAIN, mediation.adnxs.com
+DOMAIN, sin3-ib.adnxs.com
+
+# ======= S ======= #
+# 什么值得买
+DOMAIN, api.zuihuimai.com
+# 数字联盟
+DOMAIN-SUFFIX, shuzilm.cn
+# Soul
+DOMAIN, ad-h5-cdn.soulapp.cn
+DOMAIN, ad-h5-station-cdn.soulapp.cn
+DOMAIN, ad-r.soulapp.cn
+DOMAIN, soul-ad.soulapp.cn
+IP-CIDR, 47.56.131.76/32
+IP-CIDR, 47.97.215.55/32
+IP-CIDR, 47.99.42.29/32
+IP-CIDR, 120.27.235.201/32
+IP-CIDR, 121.196.197.147/32
+# Speedtest
+DOMAIN, ads.pubmatic.com
+DOMAIN, id.hadron.ad.gt
+DOMAIN-KEYWORD, -adsystem.com
+
+# ======= T ======= #
+# 太平洋保险
+DOMAIN, a.cpic.com.cn
+# 腾讯
+DOMAIN, adsmind.gdtimg.com
+DOMAIN, info4.video.qq.com
+DOMAIN, info6.video.qq.com
+DOMAIN, ios.video.mpush.qq.com
+DOMAIN, otheve.beacon.qq.com
+DOMAIN, pgdt.gtimg.cn
+DOMAIN, tmead.y.qq.com
+DOMAIN, tmeadbak.y.qq.com
+DOMAIN, tmeadcomm.y.qq.com
+DOMAIN, tpns.qq.com
+DOMAIN-SUFFIX, gdt.qq.com
+DOMAIN-SUFFIX, l.qq.com
+DOMAIN-KEYWORD, trace.qq.com
+DOMAIN-KEYWORD, trace.video.qq.com
+IP-CIDR, 47.110.187.87/32
+
+# ======= W ======= #
+# 网易云音乐
+DOMAIN, iadmat.nosdn.127.net
+DOMAIN, iadmatapk.nosdn.127.net
+DOMAIN, iadmusicmat.music.126.net
+DOMAIN, iadmusicmatvideo.music.126.net
+DOMAIN, ipv4.music.163.com
+DOMAIN, ipv6.music.163.com
+DOMAIN-SUFFIX, 163jiasu.com
+# 微博 开屏广告
+DOMAIN, huodong.weibo.cn
+DOMAIN-SUFFIX, biz.weibo.com
+# 微信
+DOMAIN, wxsnsdy.wxs.qq.com
+DOMAIN, wxsnsdythumb.wxs.qq.com
+
+# ======= X ======= #
+# 小米
+DOMAIN, sdkconfig.ad.xiaomi.com
+# 迅雷 解除版权限制
+;DOMAIN, hub5btmain.v6.shub.sandai.net
+;DOMAIN, hub5emu.v6.shub.sandai.net
+;DOMAIN, hub5idx.v6.shub.sandai.net
+
+# ======= Y ======= #
+# 移花宫
+DOMAIN, tong.8888888888.bid
+DOMAIN-KEYWORD, kc.saigmpl.com
+DOMAIN-KEYWORD, kcc.fwxhvvd.com
+DOMAIN-KEYWORD, kg.oiocklg.com
+# 优酷 & 菜鸟
+;DOMAIN, acs.youku.com
+DOMAIN, acs4baichuan.m.taobao.com
+DOMAIN, adsmind.ugdtimg.com
+DOMAIN, amdc.m.youku.com
+DOMAIN, api.sm.cn
+DOMAIN, apiv4-iyes.youku.com
+DOMAIN, baichuan-sdk.alicdn.com
+DOMAIN, cad.youku.com
+DOMAIN, huichuan-mc.sm.cn
+DOMAIN, huichuan.sm.cn
+DOMAIN, iyes.youku.com
+DOMAIN, m-vali.cp31.ott.cibntv.net
+DOMAIN, mc.atm.youku.com
+DOMAIN, nbsdk-baichuan.alicdn.com
+DOMAIN, pre-acs.youku.com
+DOMAIN, vali-g1.cp31.ott.cibntv.net
+DOMAIN, vali-ugc.cp31.ott.cibntv.net
+DOMAIN, yk-ssp.ad.youku.com
+DOMAIN, ykad-data.youku.com
+DOMAIN, youku-acs.m.taobao.com
+# 云闪付 开屏广告
+DOMAIN, ads.95516.com
+DOMAIN, switch.cup.com.cn
+# Yandex
+DOMAIN, yandexmetrica.com
+
+# ======= Z ======= #
+# 知乎
+DOMAIN, appcloud.zhihu.com
+DOMAIN, appcloud2.in.zhihu.com
+DOMAIN, crash2.zhihu.com
+DOMAIN, mqtt.zhihu.com
+DOMAIN, sugar.zhihu.com
+DOMAIN, zxid-m.mobileservice.cn
+IP-CIDR, 103.41.167.237/32
+IP-CIDR, 118.89.204.198/32
+IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128

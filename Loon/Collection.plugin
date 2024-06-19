@@ -42,13 +42,9 @@ http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspams
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js, requires-body=true, timeout=10, tag=京东比价, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
 # ✅🔞PornHub  *.pornhub.com
 http-request ^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) script-path=https://github.com/ddgksf2013/Scripts/raw/master/pornhub.js
-# ✅豆瓣电影 cn-acs.m.cainiao.com, guide-acs.m.taobao.com
-http-response ^https://m.douban.com/movie/subject/.+ script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js, requires-body=true, timeout=60 ,tag=douban_27
-http-request ^https://m.douban.com/movie/subject/.+\?seen=\d script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js, timeout=60 ,tag=douban_28
-# ✅豆瓣电影和电视剧添加便捷播放按钮(2022.01.28)
-http-response ^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/ script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/DouBan.js, requires-body=true, timeout=60 ,tag=DouBan_30
-
+# ✅豆瓣  m.douban.com
+http-response ^https?:\/\/m\.douban\.com\/(home_guide|movie|tv|book|group|music) script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js, requires-body=true, timeout=60 ,tag=douban_15
 [MITM]
-hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,  xn--ck8h.com, restore-access.indream.app, testflight.apple.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, api.m.jd.com,*.pornhub.com,cn-acs.m.cainiao.com, guide-acs.m.taobao.com
+hostname=boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net,  xn--ck8h.com, restore-access.indream.app, testflight.apple.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com, api.aliyundrive.com, api.m.jd.com,*.pornhub.com,cn-acs.m.cainiao.com, guide-acs.m.taobao.com,m.douban.com
 
 

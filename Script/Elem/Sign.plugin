@@ -1,0 +1,15 @@
+
+
+
+
+[Script]
+
+
+http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-path=https://github.com/Moli-X/Resources/raw/main/Script/Elem/elemGetCookies.js, requires-body=true, timeout=10, tag=饿了么获取cookie, img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/Elem.png
+cron "5 0 * * *" script-path=https://github.com/Moli-X/Resources/raw/main/Script/Elem/elemSign.js, timeout=300, tag=饿了么签到, img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/Elem.png
+
+
+[MITM]
+hostname= h5.ele.me
+
+

@@ -1,0 +1,193 @@
+#========= 基本配置 =========#
+# >>>>>>>>订阅填写-> 99 行
+mixed-port: 7890  
+redir-port: 7891  
+tproxy-port: 1536  
+allow-lan: true  
+mode: rule  
+geodata-mode: true  
+geodata-loader: standard  
+unified-delay: true  
+log-level: info  #silent  
+ipv6: true  
+external-controller: 0.0.0.0:9090  
+#  > 面板和API配置
+external-ui: ./dashboard/Yacd  
+secret: ""  
+tcp-concurrent: true  
+enable-process: true  
+find-process-mode: strict  
+global-client-fingerprint: chrome  
+geo-auto-update: true  
+geo-update-interval: 24  
+geox-url:
+  geoip: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"  
+  geosite: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"  
+  mmdb: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/country.mmdb"  
+#  > 配置文件存储选项
+profile:
+  store-selected: true  
+  store-fake-ip: true  
+#  > 流量嗅探配置
+sniffer:
+  enable: true  
+  force-dns-mapping: true  
+  parse-pure-ip: true  
+  override-destination: true  
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]  
+      override-destination: true  
+    TLS:
+      ports: [443, 8443]  
+    QUIC:
+      ports: [443, 8443]  
+  force-domain:
+    - "+.v2ex.com"  
+  skip-domain:
+    - "MijiaCloud"  
+#  > TUN 配置
+tun:
+  enable: false  
+  device: tun0  
+  stack: system  
+  dns-hijack:
+    - "any:53"  
+    - "tcp://any:53"  
+  auto-route: true  
+  auto-detect-interface: true  
+#  > DNS 配置
+DNS:
+  enable: true  
+  prefer-h3: true  
+  listen: 0.0.0.0:1053  
+  ipv6: true  
+  enhanced-mode: fake-ip  
+  fake-ip-range: 198.18.0.0/15  
+  fake-ip-filter:
+    - "*.lan"  
+    - "localhost.ptlogin2.qq.com"
+    - "+.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "+.xboxlive.com"
+    - "msftconnecttest.com"
+    - "xbox.*.microsoft.com"
+    - "*.battlenet.com.cn"
+    - "*.battlenet.com"
+    - "*.blzstatic.cn"
+    - "*.battle.net"
+  nameserver:
+    - "https://doh.pub/dns-query"  
+    - "https://dns.alidns.com/dns-query"  
+
+#========= 建立锚点 =========#
+SelectProxies :  &P1   {type: select ,   proxies: [全球节点,香港节点,日本节点,美国节点,台湾节点,新加坡节点,全国直连] }
+SelectPr      :  &P2   {type: select ,   proxies: [DIRECT,REJECT,] }
+HttpCheck     :  &C2   {type: http ,     interval: 86400 ,  health-check: {enable: true , url: http://www.gstatic.com/generate_204 , interval: 1800} }
+HttpDomain    :  &D1   {type: http ,     behavior: domain ,    interval: 86400}
+HttpIpcidr    :  &I1   {type: http ,     behavior: ipcidr ,    interval: 86400}
+HttpClassical :  &C1   {type: http ,     behavior: classical , interval: 86400}
+UrlTest       :  &U1   {type: url-test , lazy: true ,  url: http://www.gstatic.com/generate_204 , interval: 900 , use: [Subscribe] }
+Select        :  &S1   {type: select ,   use: [Subscribe] }
+
+
+proxy-providers: 
+  Subscribe:
+    <<: *C2
+    url: https://Subscribe.com  #url:后填写你的订阅地址
+    path: ./Subscribe/Subscribe.yaml
+    # URL后面填写格式1: 直接填写你的机场Clash订阅[单一订阅][推荐此种方式，避免订阅泄露]
+    # URL后面填写格式2：https://sub.xeton.dev/sub?target=clash&url=请手动填入你的订阅[多机场订阅用|分割即可]&list=true&udp=false  
+
+#  > proxies: null
+proxy-groups:
+  - {name: 全球节点   , <<: *U1                                       ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Macao.png         }
+  - {name: 香港节点   , <<: *U1 , filter: "港|HK|(?i)Hong"            ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png     }             # U1更改为S1，即为手动选择
+  - {name: 日本节点   , <<: *U1 , filter: "日|东京|JP|(?i)Japan"      ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png         }             # U1更改为S1，即为手动选择     
+  - {name: 台湾节点   , <<: *U1 , filter: "台|湾|TW|(?i)Taiwan"       ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png        }             # U1更改为S1，即为手动选择
+  - {name: 美国节点   , <<: *U1 , filter: "美|US|(?i)States|American" ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png }             # U1更改为S1，即为手动选择
+  - {name: 新加坡节点 , <<: *U1 , filter: "新|坡|SG|(?i)Singapore"    ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png     }             # U1更改为S1，即为手动选择
+
+  - {name: 海外服务 , <<: *P1 ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png      }
+  - {name: 人工智能 , <<: *P1 ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png     }
+  - {name: 中国媒体 , <<: *P1 ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/StreamingCN.png }
+  - {name: 国际媒体 , <<: *P1 ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Streaming.png   }
+  - {name: 微软服务 , <<: *P1 ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png   }
+
+
+  - {name: 全国直连 , type: select, proxies: [DIRECT]        ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png  }
+  - {name: 拦截服务 , type: select, proxies: [REJECT,DIRECT] ,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png  }
+#  > 分流规则 
+rule-providers:
+  Direct:      {<<: *D1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml ,             path: ./RuleSet/Direct.yaml      }
+  Lan:         {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml ,                   path: ./RuleSet/Lan.yaml         }
+  Download:    {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml ,         path: ./RuleSet/Download.yaml    }
+  Taida:       {<<: *C1 , url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Taida.yaml ,                                  path: ./RuleSet/Taida.yaml       }
+  OpenAI:      {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/OpenAI/OpenAI.yaml ,            path: ./RuleSet/OpenAI.yaml      }
+  GitLab:      {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitLab/GitLab.yaml ,             path: ./RuleSet/GitLab.yaml      }
+  Github:      {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml ,             path: ./RuleSet/Github.yaml      }
+  Microsoft:   {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml ,       path: ./RuleSet/Microsoft.yaml   }
+  Google:      {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml ,             path: ./RuleSet/Google.yaml      }
+  Telegram:    {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml ,         path: ./RuleSet/Telegram.yaml    }
+  Bing:        {<<: *C1 , url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Bing.yaml ,                                   path: ./RuleSet/Bing.yaml        }
+  ChinaIP:     {<<: *I1 , url: https://cdn.jsdelivr.net/gh/soffchen/GeoIP2-CN@release/clash-rule-provider.yml ,                            path: ./RuleSet/ChinaIP.yaml     }
+  ProxyLite:   {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ProxyLite/ProxyLite.yaml ,       path: ./RuleSet/ProxyLite.yaml   }
+  Video:       {<<: *C1 , url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Video.yaml ,                                  path: ./RuleSet/Video.yaml       }
+  Discord:     {<<: *C1 , url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Discord.yaml ,                                path: ./RuleSet/Discord.yaml     }
+  Global:      {<<: *C1 , url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Global.yaml ,                                 path: ./RuleSet/Global.yaml      }
+  China:       {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/China/China.yaml ,              path: ./RuleSet/China.yaml       }
+  Advertising: {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml ,   path: ./RuleSet/Advertising.yaml }
+  Hijacking:   {<<: *C1 , url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Hijacking/Hijacking.yaml ,       path: ./RuleSet/Hijacking.yaml   }
+  HKlist:      {<<: *C1 , url: https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/HKlist.yaml ,                                 path: ./RuleSet/HKlist.yaml      }
+  Anti:        {<<: *D1 , url: https://anti-ad.net/clash.yaml ,                                                                            path: ./RuleSet/Anti.yaml        }
+  Streaming:   {<<: *C1 , url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml ,      path: ./RuleSet/Streaming.yaml   }
+  Unbreak:     {<<: *C1 , url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml ,                       path: ./RuleSet/Unbreak.yaml     }
+
+
+
+rules:
+  # > 应用分流
+  - PROCESS-NAME,lync.exe,DIRECT
+  - PROCESS-NAME,EXCEL.EXE,DIRECT
+  - PROCESS-NAME,WINWORD.EXE,DIRECT
+  - PROCESS-NAME,DIAInstaller.EXE,DIRECT
+  - PROCESS-NAME,Update.exe,DIRECT
+  - PROCESS-NAME,Microsoft Teams,DIRECT
+  - PROCESS-NAME,Microsoft Edge,微软服务
+  - DOMAIN-KEYWORD,microsoft.com,微软服务
+  - DOMAIN-SUFFIX, edge.microsoft.com,微软服务
+
+  # > 小分流 Lan    - RULE-SET,Collection
+  - RULE-SET,Taida,DIRECT
+  - RULE-SET,GitLab,香港节点
+  - RULE-SET,Google,香港节点
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Unbreak,DIRECT
+  - RULE-SET,Lan,DIRECT
+  - RULE-SET,Download,DIRECT
+  - RULE-SET,ChinaIP,DIRECT
+  - RULE-SET,Microsoft,微软服务
+  - RULE-SET,Video,中国媒体
+  - RULE-SET,Telegram,香港节点
+  - RULE-SET,Github,香港节点
+  - RULE-SET,OpenAI,人工智能
+  - RULE-SET,Bing,微软服务
+  - RULE-SET,Discord,海外服务
+  - RULE-SET,ProxyLite,海外服务
+  - RULE-SET,HKlist,香港节点
+
+  # > 大分流
+  - RULE-SET,China,DIRECT
+  - RULE-SET,Global,海外服务
+  - RULE-SET,Streaming,国际媒体
+
+  # > 去广告REJECT
+  - RULE-SET,Anti,拦截服务
+  - RULE-SET,Advertising,拦截服务
+  - RULE-SET,Hijacking,拦截服务
+
+  # > 单分流  - DOMAIN-SUFFIX , - DOMAIN-KEYWORD , ,no-resolve
+  - GEOIP,CN,DIRECT
+  - MATCH,海外服务

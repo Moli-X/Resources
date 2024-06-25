@@ -1,0 +1,27 @@
+#!name = Youtube (Music) Enhance
+#!desc = 适用于 Youtube & Youtube Music
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/YouTube.plugin
+#!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Other/Youtube.png
+#!select = 隐藏上传按钮, true, false
+#!select = 隐藏选段按钮, true, false
+#!select = 字幕翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
+#!select = 歌词翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/YouTube/Youube.plugin
+
+[Script]
+
+# YouTube去广告
+request.preview_22 = type=http-request, pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch), script-path=https://github.com/Moli-X/Resources/raw/main/Loon/YouTube/request.preview.js, requires-body=true, max-size=3145728, binary-body-mode=true, timeout=30
+
+remove_ads_response_23 = type=http-response, pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch), script-path=https://github.com/Moli-X/Resources/raw/main/Loon/YouTube/remove_ads_response.js, requires-body=true, max-size=3145728, binary-body-mode=true, timeout=30
+
+[Map Local]
+
+# 使用reject-dict方法以减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+[MITM]
+
+hostname = %APPEND% *.googlevideo.com,youtubei.googleapis.com

@@ -16,7 +16,7 @@ http-request ^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=si
 http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/hy\/h5\/m\/appSign\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东获取cookie,img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png
 
 # > 阿里云盘签到 打开APP获取Token 链接:https://auth.aliyundrive.com/v2/account/token
-http-request ^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, requires-body=true, timeout=10, enabled=false, tag=阿里网盘token获取
+http-request ^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, requires-body=true, timeout=10, enabled=false, tag=阿里网盘token获取, img-url=https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/AL.png
 
 # > 顺丰速运获取Token
 http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js, requires-body=true, timeout=60, tag=顺丰速运获取token,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png

@@ -19,7 +19,7 @@ http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/hy\/h5\/m\/appSign\? scrip
 http-request ^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, requires-body=true, timeout=10, enabled=false, tag=阿里网盘token获取
 
 # > 顺丰速运获取Token
-http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js, requires-body=true, timeout=60, tag=顺丰速运获取token
+http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js, requires-body=true, timeout=60, tag=顺丰速运获取token,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png
 
 
 

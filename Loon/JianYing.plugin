@@ -8,13 +8,12 @@
 
 
 # 原链接:https://raw.githubusercontent.com/yqc007/QuantumultX/master/VideoFusionVipCrack.js
-# 脚本功能：剪映解锁会员
 # 应用版本：9.8.2
 
 [Script]
 
 # > 剪映解锁会员
-http-request ^https?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/(subscription\/user_info|purchase\/draft_unlock|effect\/check_effects) script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/VideoFusionVipCrack.js, timeout=60 ,tag=VideoFusionVipCrack_11
+http-request ^https?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/(subscription\/user_info|purchase\/draft_unlock|effect\/check_effects) script-path=https://github.com/Moli-X/Resources/raw/main/Script/JianYing.js, timeout=60 ,tag=VideoFusionVipCrack_11
 
 [MITM]
 

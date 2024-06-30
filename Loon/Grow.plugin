@@ -1,0 +1,21 @@
+
+
+
+
+
+#!name=Grow破解
+#!desc=GrowForeverVipCrack
+
+# https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrowForeverVipCrack.js
+# 支持版本: 𝑉1.12.2【最高支持】
+# 使用说明: 一次性解锁, 成功后可更新至商店最新版.
+
+
+[Script]
+
+# > Grow Unlock Permanent VIP
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrowForeverVipCrack.js, requires-body=true, timeout=60 ,tag=GrowForeverVipCrack_12
+
+[MITM]
+
+hostname = api.revenuecat.com

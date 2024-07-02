@@ -19,7 +19,7 @@
 # > 高德地图_通用广告请求 
 ^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution - reject
 # > 高德地图_搜索框scene 
-^https?:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend - reject-dict
+# ^https?:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend - reject-dict
 # > 高德地图_首页左上角gif 
 ^https?:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif - reject-img
 # > 高德地图_左下天气 

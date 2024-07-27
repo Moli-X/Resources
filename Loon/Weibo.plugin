@@ -8,84 +8,75 @@
 
 [Rewrite]
 
-# > 微博_用户推荐弹窗@ddgksf2013
-^https?:\/\/api\.weibo\.cn\/\d\/profile\/recommend_popuser - reject-dict
-# > 微博_每日一次的开屏广告请求@ddgksf2013
-^https?:\/\/boot.*weibo\.com\/v\d\/ad\/realtime - reject-200
-# > 微博_去除底部超话栏表层浮icon及tips@ddgksf2013
-^https?:\/\/api\.weibo\.cn\/\d\/!\/huati\/discovery_home_bottom_getdotinfo - reject-dict
-# > 微博_屏蔽首页左上角每日的弹窗tips@ddgksf2013
+# 私信中绿洲的擦边诱导推广
+^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=treehole&auth= - reject-dict
+# 屏蔽首页左上角每日的弹窗tips
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d/push/daily - reject-dict
-# > 微博_应用内弹窗广告@ddgksf2013
-^https?:\/\/(preload-click|preload-impression)\.uve\.weibo\.com\/(interface\/wbpullad\/wbpullad_click\.php|wbapplua\/get_wbpullad_log\.lua) - reject
-# > 微博_屏蔽sdkconfig请求@ddgksf2013
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkconfig\.php - reject
-# > 微博_Spotlight@ddgksf2013
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/hot\/hours_spotlight - reject-dict
-# > 微博国际版_屏蔽hotsearch@ddgksf2013
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject-dict
-# > 微博国际版_屏蔽热推荐@ddgksf2013
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? - reject-dict
+# 超话按钮的提示
+^https?:\/\/m?api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_getdotinfo - reject
+# 删除微博开屏广告 - cherish
+^https?:\/\/bootrealtime\.uve\.weibo\.com\/v\d\/ad\/realtime - reject-dict
+^https?:\/\/bootpreload\.uve\.weibo\.com\/v\d\/ad\/preload - reject-dict
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info\.php|sdkconfig\.php) - reject-dict
 
 [Script]
 
-# > 微博_开屏广告预加载处理@ddgksf2013
-http-response ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_95
+# 热门视频 | 热推荐
+http-request ^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=reject-dict_20, argument=type=text/json&url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/template/reject-dict.json
 
-# > 微博_未登陆状态下首页信息流处理@ddgksf2013
-http-response ^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeline|timeline) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_97
+http-request ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=reject-dict_21, argument=type=text/json&url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/template/reject-dict.json
 
-# > 微博_视频信息处理@ddgksf2013
-http-response ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_101
+# 趋势页 | 开屏广告 | 用户中心 | 热搜置顶 | 我的页面 尊享专属 | 瀑布流去广告
+http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center)) script-path=https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js, requires-body=true, timeout=60 ,tag=index_23
 
-# > 微博_屏蔽发现页面搜索框热词@ddgksf2013
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/\w{5}\/cardlist script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_107
+http-response ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline script-path=https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js, requires-body=true, timeout=60 ,tag=index_24
 
-# > 微博_自定义tab皮肤@zmqcherish
-http-response ^https://api.weibo.cn/2/!/client/light_skin script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_115
+http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php script-path=https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js, requires-body=true, timeout=60 ,tag=index_25
 
-# > 微博_非会员设置tab皮肤@zmqcherish
-http-response ^https://new.vip.weibo.cn/littleskin/preview script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_117
+# 似乎没用的请求，收集用户信息
+http-request ^https?:\/\/api\.weibo\.cn\/2\/(push\/active|client\/addlog_batch|ad\/preload) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/template/req_replace_body.js, requires-body=true, timeout=60 ,tag=req_replace_body_31
 
-# > 微博_去广告以及去除各部分推广模块@zmqcherish,@ddgksf2013
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_119
+# 微博移除发现页广告
+http-response ^https?:\/\/m?api\.weibo\.cn\/2\/search\/(finder|container_timeline|container_discover) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_ads.js, requires-body=true, timeout=60 ,tag=weibo_ads_37
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_120
+# 微博热搜页面广告
+http-response ^https?:\/\/m?api\.weibo\.cn\/2\/(page|flowpage) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_ads.js, requires-body=true, timeout=60 ,tag=weibo_ads_39
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_121
+# 微博话题页面广告
+http-response ^https?:\/\/m?api\.weibo\.cn\/2\/searchall script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_ads.js, requires-body=true, timeout=60 ,tag=weibo_ads_41
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_122
+# 微博超话页面广告
+http-response ^https?:\/\/m?api\.weibo\.cn\/2\/statuses\/container_timeline_topicpage script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_ads.js, requires-body=true, timeout=60 ,tag=weibo_ads_43
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_123
+# 微博超话tab页净化
+http-response ^https?:\/\/m?api\.weibo\.cn\/2\/statuses\/container_timeline_topic\?flowId script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_ads.js, requires-body=true, timeout=60 ,tag=weibo_ads_45
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_124
+# 微博详情页面广告
+http-response ^https?:\/\/m?api\.weibo\.cn\/2\/statuses\/extend script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_ads.js, requires-body=true, timeout=60 ,tag=weibo_ads_47
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_125
+# 微博最顶部的tab页分组
+http-response ^https?:\/\/m?api\.weibo\.cn\/2\/groups\/allgroups\/v2 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_ads.js, requires-body=true, timeout=60 ,tag=weibo_ads_49
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_126
+# 微博去广告以及去除各部分推广模块 - cherish
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|messageflow|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(container_timeline|container_timeline_hot|unread_hot_timeline|extend|video_mixtimeline|repost_timeline)|profile/(me|container_timeline)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item|search/(finder|container_timeline|container_discover)) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_main.js, requires-body=true, timeout=60 ,tag=weibo_main_51
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_127
+http-response ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js, requires-body=true, timeout=60 ,tag=weibo_launch_56
 
-# > 微博国际版_屏蔽searching_info@shiro
-http-request ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=weibo_search_info_133, argument=type=text/json&url=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json
+# 自定义tab皮肤
+http-response ^https?:\/\/api\.weibo\.cn\/2\/!\/client\/light_skin script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js, requires-body=true, timeout=60 ,tag=weibo_main_58
 
-# > 微博国际版_屏蔽search_topic@shiro
-http-request ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=weibo_search_topic_135, argument=type=text/json&url=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_topic.json
+# 非会员设置tab皮肤 - cherish
+http-response ^https?:\/\/new\.vip\.weibo\.cn\/littleskin\/preview script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js, requires-body=true, timeout=60 ,tag=weibo_main_60
 
-# > 微博国际版_屏蔽开屏广告@ddgksf2013 
-http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_137
+# 解锁微博会员APP图标
+http-response ^https?:\/\/new\.vip\.weibo\.cn/aj/appicon/list script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/weibo/weibo_vip.js, requires-body=true, timeout=60 ,tag=weibo_vip_62
 
-# > 微博国际版_屏蔽sdkad@ddgksf2013
-http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_139
+# 奥运奖牌榜横幅广告
+http-response ^https:\/\/datumogs\.sports\.weibo\.cn\/wb\/api\/medal\/all\? script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, requires-body=true, timeout=60 ,tag=replaceBody_64, argument=""Banner":\[.+\]->"Banner":[]"
 
-# > 微博国际版_趋势顶部Card去广告@ddgksf2013
-http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_141
+[MITM]
 
-# > 微博国际版_屏蔽用户VIP栏@ddgksf2013
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_143
-
-# > 微博国际版_热搜处理@ddgksf2013
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_145
+hostname = *.weibo.cn,*.weibo.com,weibo.com
 
 [MITM]
 

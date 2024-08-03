@@ -7,7 +7,7 @@ TG Channel：https://t.me/QuantX
 <table>
     <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
 	<tr>
-		<td rowspan="23"><strong>会员解锁</strong></td>
+		<td rowspan="29"><strong>会员解锁</strong></td>
 		<td > 1 </td> <td ><strong> <em>莫离合集</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Rewrite/Collections.conf"><em>Collections.conf</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>

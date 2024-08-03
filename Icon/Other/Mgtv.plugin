@@ -1,0 +1,26 @@
+#!name = 芒果TV
+#!desc = 芒果TV,Vip+会员画质+去广告,页面优化
+#!author = 莫离
+#!openUrl = 
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Mgtv.plugin
+#!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Other/Mgtv.png
+#!date = 2024-08-03
+#!Edit = https://github.com/Moli-X/Resources/edit/main/Loon/Mgtv.plugin
+
+# 原链接:https://github.com/WeiGiegie/666/raw/main/mgtv.js
+
+
+[Rewrite]
+
+^https?://mobile.da.mgtv.com\/m\/page - reject
+
+[Script]
+
+# > 芒果TV,Vip+会员画质+去广告,页面优化
+http-response ^https?:\/\/.*mgtv.com.*(GetUserInfo|module\/list\?_support|app\/bdboot|pullReleaseInfo|floor\/detail|video\/source|entry\?_support).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js, requires-body=true, timeout=60 ,tag=芒果TV
+
+http-request ^https?:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\? script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js, timeout=60 ,tag=芒果TV
+
+[MITM]
+
+hostname = *mgtv.com

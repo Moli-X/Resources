@@ -240,8 +240,8 @@ TG Channel：https://t.me/QuantX
 * 莫离Surge配置 [***SurgePRO.conf***](https://github.com/Moli-X/Resources/raw/main/Surge/SurgePRO.conf) 
 * 莫离Clash配置 [***Clash.yml***](https://raw.githubusercontent.com/Moli-X/Resources/main/Clash/Clash.yml) 
 ## 莫离各平台脚本跳转：
-* 莫离QuantumultX重写👉👉👉👉[***✅重写✅***](https://github.com/Moli-X/Resources/tree/main/Rewrite) 
-* 莫离LOON模块👉👉👉👉👉👉👉[***✅模块✅***](https://github.com/Moli-X/Resources/tree/main/Loon) 
-* 莫离分流规则👉👉👉👉👉👉👉[***✅分流✅***](https://github.com/Moli-X/Resources/tree/main/Filter) 
+* 莫离QuantumultX重写👉👉👉👉[***✅重写***](https://github.com/Moli-X/Resources/tree/main/Rewrite) 
+* 莫离LOON模块👉👉👉👉👉[***✅模块***](https://github.com/Moli-X/Resources/tree/main/Loon) 
+* 莫离分流规则👉👉👉👉👉[***✅分流***](https://github.com/Moli-X/Resources/tree/main/Filter) 
 
 ## ------------------------------------------------------[⬆️回到顶部⬆️](#readme)	

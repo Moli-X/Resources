@@ -72,7 +72,7 @@ http-response ^https?:\/\/new\.vip\.weibo\.cn\/littleskin\/preview script-path=h
 http-response ^https?:\/\/new\.vip\.weibo\.cn/aj/appicon/list script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/weibo/weibo_vip.js, requires-body=true, timeout=60 ,tag=weibo_vip_62
 
 # 奥运奖牌榜横幅广告
-http-response ^https:\/\/datumogs\.sports\.weibo\.cn\/wb\/api\/medal\/all\? script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, requires-body=true, timeout=60 ,tag=replaceBody_64, argument=""Banner":\[.+\]->"Banner":[]"
+http-response ^https:\/\/datumogs\.sports\.weibo\.cn\/wb\/api\/medal\/all\? script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/replace-body.js, requires-body=true, timeout=60 ,tag=replaceBody_64, argument=""Banner":\[.+\]->"Banner":[]"
 
 [MITM]
 

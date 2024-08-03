@@ -20,10 +20,10 @@ TG Channel：https://t.me/QuantX
 		<td > 4 </td> <td > 真B站去广告+解锁普通视频<br><strong><em>1080P高码率</em></strong> </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Script/Bilibili/AD_Bilibili.conf"><em>BilibiliVip.conf</em></a></td><td>ddgksf2013</td>
     </tr>	
 	<tr>
-		<td > 5 </td> <td > Spotify会员 </td> <td ><a href="https://github.com/ddgksf2013/Rewrite/raw/master/UnlockVip/Spotify.conf"><em>SpotifyPro.conf</em></a></td><td>app2smile</td>
+		<td > 5 </td> <td > Spotify会员 </td> <td ><a href="https://raw.githubusercontent.com/Moli-X/Resources/main/Loon/Spotify/Spotify.plugin"><em>Spotify.plugin</em></a></td><td>app2smile</td>
     </tr>
 	<tr>
-		<td > 6 </td> <td > 酷我音乐SVIP+净化 </td> <td ><a href="https://gist.githubusercontent.com/ddgksf2013/0f76e952f0c4a2579932f45a209b40c3/raw/Kuwo.conf"><em>Kuwo.conf</em></a></td><td>ddgksf2013</td>
+		<td > 6 </td> <td > 酷我音乐SVIP+净化 </td> <td ><a href="https://raw.githubusercontent.com/Moli-X/Resources/main/Loon/KuWo.plugin"><em>KuWo.plugin</em></a></td><td>WeiRen0</td>
     </tr>
 	<tr>
 		<td > 7 </td> <td > Soul解除送礼私聊限制 </td> <td ><a href="https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Soul.js"><em>Soul.js</em></a></td><td>Crazy-Z7</td>
@@ -76,6 +76,25 @@ TG Channel：https://t.me/QuantX
 	<tr>
 		<td > 23 </td> <td > 知乎VIP </td> <td ><a href="https://raw.githubusercontent.com/WeiRen0/Scripts/main/ZHVIP.js"><em>ZHVIP.js</em></a></td><td>WeiRen0</td>
     </tr>
+	<tr>
+		<td > 24 </td> <td > 芒果TV </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Mgtv.plugin"><em>Mgtv.plugin</em></a></td><td>WeiGiegie</td>
+    </tr>
+	<tr>
+		<td > 25 </td> <td > 美队TV </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Mdtv.plugin"><em>Mdtv.plugin</em></a></td><td>WeiGiegie</td>
+    </tr>
+	<tr>
+		<td > 26 </td> <td > 喜马拉雅 </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Xmly.plugin"><em>Xmly.plugin</em></a></td><td>WeiGiegie</td>
+    </tr>
+	<tr>
+		<td > 27 </td> <td > 帆书 </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Fdds.plugin"><em>Fdds.plugin</em></a></td><td>WeiGiegie</td>
+    </tr>
+	<tr>
+		<td > 28 </td> <td > Grow </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Grow.plugin"><em>Grow.plugin</em></a></td><td>Yqc007</td>
+    </tr>
+	<tr>
+		<td > 29 </td> <td > 剪映 </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/JianYing.plugin"><em>JianYing.plugin</em></a></td><td>Yqc007</td>
+    </tr>
+
 	<tr>
 		<td colspan="5">  </td>
     </tr>

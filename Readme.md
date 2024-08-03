@@ -94,7 +94,6 @@ TG Channel：https://t.me/QuantX
 	<tr>
 		<td > 29 </td> <td > 剪映 </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/JianYing.plugin"><em>JianYing.plugin</em></a></td><td>Yqc007</td>
     </tr>
-
 	<tr>
 		<td colspan="5">  </td>
     </tr>

@@ -1,0 +1,22 @@
+#!name = 帆书
+#!desc = 帆书-原樊登读书 解锁樊登讲书+课程
+#!author = 莫离
+#!openUrl = 
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Fdds.plgin
+#!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Other/Fdds.png
+#!date = 2024-08-03
+#!Edit = https://github.com/Moli-X/Resources/edit/main/Loon/Fdds.plgin
+
+# 原链接:https://github.com/WeiGiegie/666/raw/main/fdtk.js
+
+
+[Script]
+
+# > 帆书-原樊登读书 解锁樊登讲书+课程
+http-response ^https?:\/\/.+dushu365.com\/(sns-orchestration-system\/homePage\/api\/v100\/myPage|smart-orch\/program|smart-orch\/course\/v100\/info|innovation-orchestration\/api\/ebook\/v100\/ebookInfo) script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/fdds.js, requires-body=true, timeout=60 ,tag=樊登读书
+
+http-request ^https?:\/\/.+dushu365.com\/resource-orchestration-system\/book\/v101\/content script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/fdtk.js , requires-body=true, timeout=60 ,tag=樊登读书
+
+[MITM]
+
+hostname = *.dushu365.com,gw2.dushu365.com,gw1.dushu365.com

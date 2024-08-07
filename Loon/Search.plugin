@@ -21,7 +21,7 @@
 # ln     (跳转到loon插件合集)
 # qx     (跳转到圈X重写合集)
 # sg     (跳转到surge模块合集)
-# sh      (跳转到stash覆写合集)
+# sh     (跳转到stash覆写合集)
 
 # yd  xxx (有道词典)
 # trc xxx (Google 译至中)   
@@ -67,6 +67,7 @@
 # mo xxx（莫离频道搜索）
 # tgm xxx（TG喵频道搜索）
 # bd  xxx (百度搜索)
+# es  xxx (Ecosia搜索)
 # wk  xxx (维基搜索)
 # wz  xxx (无追搜索)
 # yh  xxx (油猴搜索)
@@ -135,6 +136,7 @@
 ^https:\/\/duckduckgo.com\/\?q=ml\+([^&]+).+ https://meow.tg/private/QuantX/search/$1 302
 ^https:\/\/duckduckgo.com\/\?q=tgm\+([^&]+).+ https://meow.tg/search/$1 302
 ^https:\/\/duckduckgo.com\/\?q=td\+([^&]+).+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1 302
+^https:\/\/duckduckgo.com\/\?q=es\+([^&]+).+ https://www.ecosia.org/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
 ^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+ https://www.wuzhuiso.com/s?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302

@@ -5,279 +5,279 @@
 
 # ======= A ======= #
 # 阿里巴巴
-HOST, dns.alidns.com, REJECT
-HOST, ems.youku.com, REJECT
-HOST, hudong.alicdn.com, REJECT
-HOST, ossgw.alicdn.com, REJECT
-HOST-SUFFIX, ut.taobao.com, REJECT
+DOMAIN, dns.alidns.com, REJECT
+DOMAIN, ems.youku.com, REJECT
+DOMAIN, hudong.alicdn.com, REJECT
+DOMAIN, ossgw.alicdn.com, REJECT
+DOMAIN-SUFFIX, ut.taobao.com, REJECT
 # 阿里云盘
 IP-CIDR, 203.107.1.1/24, REJECT
 # 爱奇艺
-HOST, api.iqiyi.com, REJECT
+DOMAIN, api.iqiyi.com, REJECT
 # Apple
-HOST, advertising.apple.com, REJECT
-HOST, api-adservices.apple.com, REJECT
-HOST, apple.comscoreresearch.com, REJECT
-HOST, banners.itunes.apple.com, REJECT
-HOST, iad.apple.com, REJECT
-HOST, iadcontent.apple.com, REJECT
-HOST, iadctest.qwapi.com, REJECT
-HOST, iadmoo.apple.com, REJECT
-HOST, iadworkbench.apple.com, REJECT
-HOST, launch.apple.com, REJECT
-HOST, qwapi.apple.com, REJECT
-HOST-SUFFIX, advp.apple.com, REJECT
-HOST-SUFFIX, iad-apple.com, REJECT
-HOST-SUFFIX, iadsdk.apple.com, REJECT
+DOMAIN, advertising.apple.com, REJECT
+DOMAIN, api-adservices.apple.com, REJECT
+DOMAIN, apple.comscoreresearch.com, REJECT
+DOMAIN, banners.itunes.apple.com, REJECT
+DOMAIN, iad.apple.com, REJECT
+DOMAIN, iadcontent.apple.com, REJECT
+DOMAIN, iadctest.qwapi.com, REJECT
+DOMAIN, iadmoo.apple.com, REJECT
+DOMAIN, iadworkbench.apple.com, REJECT
+DOMAIN, launch.apple.com, REJECT
+DOMAIN, qwapi.apple.com, REJECT
+DOMAIN-SUFFIX, advp.apple.com, REJECT
+DOMAIN-SUFFIX, iad-apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
 # 安全浏览限制解除
-HOST, lookup.api.bsb.baidu.com, REJECT
-HOST-SUFFIX, u3.ucweb.com, REJECT
-HOST-KEYWORD, safebrowsing., REJECT
+DOMAIN, lookup.api.bsb.baidu.com, REJECT
+DOMAIN-SUFFIX, u3.ucweb.com, REJECT
+DOMAIN-KEYWORD, safebrowsing., REJECT
 
 # ======= B ======= #
 # 百度
-HOST, mobads.baidu.com, REJECT
-HOST-SUFFIX, pos.baidu.com, REJECT
+DOMAIN, mobads.baidu.com, REJECT
+DOMAIN-SUFFIX, pos.baidu.com, REJECT
 # 百度地图
-HOST, afd.baidu.com, REJECT
-HOST, afdconf.baidu.com, REJECT
-HOST, lc.map.baidu.com, REJECT
+DOMAIN, afd.baidu.com, REJECT
+DOMAIN, afdconf.baidu.com, REJECT
+DOMAIN, lc.map.baidu.com, REJECT
 # 百度
 IP-CIDR, 180.76.76.112/32, REJECT
 IP-CIDR, 180.76.76.200/32, REJECT
 
 # ======= C ======= #
 # 彩云天气
-HOST, abyss.cyapi.cn, REJECT
-HOST, ad.cyapi.cn, REJECT
+DOMAIN, abyss.cyapi.cn, REJECT
+DOMAIN, ad.cyapi.cn, REJECT
 # 昌原云充
-HOST, m.adyounger.com, REJECT
+DOMAIN, m.adyounger.com, REJECT
 # Clue 智库
-HOST, api.helloclue.com, REJECT
-HOST, brahe.apptimize.com, REJECT
-HOST, collector.clue.run, REJECT
-HOST, images.ctfassets.net, REJECT
-HOST, mapi.apptimize.com, REJECT
-HOST, md-i-s.apptimize.com, REJECT
+DOMAIN, api.helloclue.com, REJECT
+DOMAIN, brahe.apptimize.com, REJECT
+DOMAIN, collector.clue.run, REJECT
+DOMAIN, images.ctfassets.net, REJECT
+DOMAIN, mapi.apptimize.com, REJECT
+DOMAIN, md-i-s.apptimize.com, REJECT
 
 # ======= D ======= #
 # DNS 无响应
-HOST, adttrackingprd.hwwt8.com, REJECT
+DOMAIN, adttrackingprd.hwwt8.com, REJECT
 
 # ======= F ======= #
 # 放松双眼
-HOST, adservice.sigmob.cn, REJECT
+DOMAIN, adservice.sigmob.cn, REJECT
 
 # ======= G ======= #
 # 高德地图
-HOST, amap-aos-info-nogw.amap.com, REJECT
+DOMAIN, amap-aos-info-nogw.amap.com, REJECT
 # 工商银行
-HOST, pageviewp.icbc.com.cn, REJECT
-HOST-SUFFIX, mall.icbc.com.cn, REJECT
+DOMAIN, pageviewp.icbc.com.cn, REJECT
+DOMAIN-SUFFIX, mall.icbc.com.cn, REJECT
 # 广告联盟
-HOST, ad.zijieapi.com, REJECT
-HOST, adapi.izuiyou.com, REJECT
-HOST, adtracker.adfunlink.com, REJECT
-HOST, dig.bdurl.net, REJECT
-HOST, dsp-x.jd.com, REJECT
-HOST, et.tanx.com, REJECT
-HOST, gdfp.gifshow.com, REJECT
-HOST, init.supersonicads.com, REJECT
-HOST, is.snssdk.com, REJECT
-HOST, janapi.jd.com, REJECT
-HOST, mercury-gateway.ixiaochuan.cn, REJECT
-HOST, open.e.kuaishou.com, REJECT
-HOST, open.kuaishou.com, REJECT
-HOST, pagead2.googlesyndication-cn.com, REJECT
-HOST, pagead2.googlesyndication.com, REJECT
-HOST, sdk.e.qq.com, REJECT
-HOST, tangram.e.qq.com, REJECT
-HOST, ws.tapjoyads.com, REJECT
-HOST, www.googleadservices.com, REJECT
-HOST-SUFFIX, ads.linkedin.com, REJECT
-HOST-SUFFIX, ads.vungle.com, REJECT
-HOST-SUFFIX, adservice.google.com, REJECT
-HOST-SUFFIX, adukwai.com, REJECT
-HOST-SUFFIX, applovin.com, REJECT
-HOST-SUFFIX, applvn.com, REJECT
-HOST-SUFFIX, appsflyer.com, REJECT
-HOST-SUFFIX, appsflyersdk.com, REJECT
-HOST-SUFFIX, kuaishouzt.com, REJECT
-HOST-SUFFIX, miaozhen.com, REJECT
-HOST-SUFFIX, ubixioe.com, REJECT
-HOST-SUFFIX, unityads.unity3d.com, REJECT
-HOST-SUFFIX, zijieapi.com, REJECT
-HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
-HOST-KEYWORD, ads.g.doubleclick, REJECT
-HOST-KEYWORD, asiad.byteactivity, REJECT
-# HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
-# HOST-KEYWORD, pangolin.snssdk.com, REJECT
-# HOST-KEYWORD, pglstatp-toutiao, REJECT
-HOST-KEYWORD, video-cn.snssdk.com, REJECT
+DOMAIN, ad.zijieapi.com, REJECT
+DOMAIN, adapi.izuiyou.com, REJECT
+DOMAIN, adtracker.adfunlink.com, REJECT
+DOMAIN, dig.bdurl.net, REJECT
+DOMAIN, dsp-x.jd.com, REJECT
+DOMAIN, et.tanx.com, REJECT
+DOMAIN, gdfp.gifshow.com, REJECT
+DOMAIN, init.supersonicads.com, REJECT
+DOMAIN, is.snssdk.com, REJECT
+DOMAIN, janapi.jd.com, REJECT
+DOMAIN, mercury-gateway.ixiaochuan.cn, REJECT
+DOMAIN, open.e.kuaishou.com, REJECT
+DOMAIN, open.kuaishou.com, REJECT
+DOMAIN, pagead2.googlesyndication-cn.com, REJECT
+DOMAIN, pagead2.googlesyndication.com, REJECT
+DOMAIN, sdk.e.qq.com, REJECT
+DOMAIN, tangram.e.qq.com, REJECT
+DOMAIN, ws.tapjoyads.com, REJECT
+DOMAIN, www.googleadservices.com, REJECT
+DOMAIN-SUFFIX, ads.linkedin.com, REJECT
+DOMAIN-SUFFIX, ads.vungle.com, REJECT
+DOMAIN-SUFFIX, adservice.google.com, REJECT
+DOMAIN-SUFFIX, adukwai.com, REJECT
+DOMAIN-SUFFIX, applovin.com, REJECT
+DOMAIN-SUFFIX, applvn.com, REJECT
+DOMAIN-SUFFIX, appsflyer.com, REJECT
+DOMAIN-SUFFIX, appsflyersdk.com, REJECT
+DOMAIN-SUFFIX, kuaishouzt.com, REJECT
+DOMAIN-SUFFIX, miaozhen.com, REJECT
+DOMAIN-SUFFIX, ubixioe.com, REJECT
+DOMAIN-SUFFIX, unityads.unity3d.com, REJECT
+DOMAIN-SUFFIX, zijieapi.com, REJECT
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+DOMAIN-KEYWORD, ads.g.doubleclick, REJECT
+DOMAIN-KEYWORD, asiad.byteactivity, REJECT
+# DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT
+# DOMAIN-KEYWORD, pangolin.snssdk.com, REJECT
+# DOMAIN-KEYWORD, pglstatp-toutiao, REJECT
+DOMAIN-KEYWORD, video-cn.snssdk.com, REJECT
 
 # ======= H ======= #
 # 海尔智家
-HOST-SUFFIX, ehaier.com, REJECT
+DOMAIN-SUFFIX, ehaier.com, REJECT
 # httpdns
-HOST, hdns.ksyun.com, REJECT
-HOST-KEYWORD, httpdns., REJECT
-HOST-KEYWORD, httpdns-, REJECT
+DOMAIN, hdns.ksyun.com, REJECT
+DOMAIN-KEYWORD, httpdns., REJECT
+DOMAIN-KEYWORD, httpdns-, REJECT
 
 # ======= J ======= #
 # 建设银行
-HOST-KEYWORD, adv.ccb.com, REJECT
+DOMAIN-KEYWORD, adv.ccb.com, REJECT
 # 京东
-HOST, dns.jd.com, REJECT
+DOMAIN, dns.jd.com, REJECT
 IP-CIDR, 101.124.19.122/32, REJECT
 IP6-CIDR, 2402:db40:5100:1011::5/128, REJECT
 # JavDB
-HOST, api.liquidlink.cn, REJECT
+DOMAIN, api.liquidlink.cn, REJECT
 
 # ======= K ======= #
 # 酷狗音乐
-HOST, ads.service.kugou.com, REJECT
-HOST, adserviceretry.kugou.com, REJECT
+DOMAIN, ads.service.kugou.com, REJECT
+DOMAIN, adserviceretry.kugou.com, REJECT
 # 酷我音乐
-HOST, ad.tencentmusic.com, REJECT
-HOST, g.koowo.com, REJECT
-HOST, mobilead.kuwo.cn, REJECT
-HOST, rich.kuwo.cn, REJECT
+DOMAIN, ad.tencentmusic.com, REJECT
+DOMAIN, g.koowo.com, REJECT
+DOMAIN, mobilead.kuwo.cn, REJECT
+DOMAIN, rich.kuwo.cn, REJECT
 
 # ======= L ======= #
 # 蓝奏云
-HOST, statics.woozooo.com, REJECT
+DOMAIN, statics.woozooo.com, REJECT
 
 # ======= M ======= #
 # 芒果TV
-HOST, credits.bz.mgtv.com, REJECT
-HOST, credits2.bz.mgtv.com, REJECT
-HOST, credits3.bz.mgtv.com, REJECT
-HOST, dflow.bz.mgtv.com, REJECT
-HOST, encounter.bz.mgtv.com, REJECT
-HOST, floor.bz.mgtv.com, REJECT
-HOST, layer.bz.mgtv.com, REJECT
-HOST, mob.bz.mgtv.com, REJECT
-HOST, rc-topic-api.bz.mgtv.com, REJECT
-HOST, rprain.bz.mgtv.com, REJECT
-HOST, rprain.log.mgtv.com, REJECT
-HOST, vip.bz.mgtv.com, REJECT
-HOST-SUFFIX, da.mgtv.com, REJECT
+DOMAIN, credits.bz.mgtv.com, REJECT
+DOMAIN, credits2.bz.mgtv.com, REJECT
+DOMAIN, credits3.bz.mgtv.com, REJECT
+DOMAIN, dflow.bz.mgtv.com, REJECT
+DOMAIN, encounter.bz.mgtv.com, REJECT
+DOMAIN, floor.bz.mgtv.com, REJECT
+DOMAIN, layer.bz.mgtv.com, REJECT
+DOMAIN, mob.bz.mgtv.com, REJECT
+DOMAIN, rc-topic-api.bz.mgtv.com, REJECT
+DOMAIN, rprain.bz.mgtv.com, REJECT
+DOMAIN, rprain.log.mgtv.com, REJECT
+DOMAIN, vip.bz.mgtv.com, REJECT
+DOMAIN-SUFFIX, da.mgtv.com, REJECT
 # 美团
-HOST, maplocatesdksnapshot.d.meituan.net, REJECT
-HOST, metrics-picture.d.meituan.net, REJECT
+DOMAIN, maplocatesdksnapshot.d.meituan.net, REJECT
+DOMAIN, metrics-picture.d.meituan.net, REJECT
 IP-CIDR, 103.37.155.60/32, REJECT
 # 美颜相机
-HOST, aaid.uyunad.com, REJECT
-HOST, adui.tg.meitu.com, REJECT
+DOMAIN, aaid.uyunad.com, REJECT
+DOMAIN, adui.tg.meitu.com, REJECT
 
 # ======= O ======= #
 # Outlook
-HOST, acdn.adnxs.com, REJECT
-HOST, mediation.adnxs.com, REJECT
-HOST, sin3-ib.adnxs.com, REJECT
+DOMAIN, acdn.adnxs.com, REJECT
+DOMAIN, mediation.adnxs.com, REJECT
+DOMAIN, sin3-ib.adnxs.com, REJECT
 
 # ======= Q ======= #
 # 其他
-HOST, affcpatrk.com, REJECT
+DOMAIN, affcpatrk.com, REJECT
 
 # ======= S ======= #
 # 什么值得买
-HOST, api.zuihuimai.com, REJECT
+DOMAIN, api.zuihuimai.com, REJECT
 # 数字联盟
-HOST-SUFFIX, shuzilm.cn, REJECT
+DOMAIN-SUFFIX, shuzilm.cn, REJECT
 # Soul
-HOST, ad-h5-cdn.soulapp.cn, REJECT
-HOST, ad-h5-station-cdn.soulapp.cn, REJECT
-HOST, ad-r.soulapp.cn, REJECT
-HOST, soul-ad.soulapp.cn, REJECT
+DOMAIN, ad-h5-cdn.soulapp.cn, REJECT
+DOMAIN, ad-h5-station-cdn.soulapp.cn, REJECT
+DOMAIN, ad-r.soulapp.cn, REJECT
+DOMAIN, soul-ad.soulapp.cn, REJECT
 # Speedtest
-HOST, ads.pubmatic.com, REJECT
-HOST, id.hadron.ad.gt, REJECT
-HOST-KEYWORD, -adsystem.com, REJECT
+DOMAIN, ads.pubmatic.com, REJECT
+DOMAIN, id.hadron.ad.gt, REJECT
+DOMAIN-KEYWORD, -adsystem.com, REJECT
 
 # ======= T ======= #
 # 太平洋保险
-HOST, a.cpic.com.cn, REJECT
+DOMAIN, a.cpic.com.cn, REJECT
 # 腾讯
-HOST, adsmind.gdtimg.com, REJECT
-HOST, info4.video.qq.com, REJECT
-HOST, info6.video.qq.com, REJECT
-HOST, ios.video.mpush.qq.com, REJECT
-HOST, otheve.beacon.qq.com, REJECT
-HOST, pgdt.gtimg.cn, REJECT
-HOST, tmead.y.qq.com, REJECT
-HOST, tmeadbak.y.qq.com, REJECT
-HOST, tmeadcomm.y.qq.com, REJECT
-HOST, tpns.qq.com, REJECT
-HOST-SUFFIX, gdt.qq.com, REJECT
-HOST-SUFFIX, l.qq.com, REJECT
-HOST-KEYWORD, trace.qq.com, REJECT
-HOST-KEYWORD, trace.video.qq.com, REJECT
+DOMAIN, adsmind.gdtimg.com, REJECT
+DOMAIN, info4.video.qq.com, REJECT
+DOMAIN, info6.video.qq.com, REJECT
+DOMAIN, ios.video.mpush.qq.com, REJECT
+DOMAIN, otheve.beacon.qq.com, REJECT
+DOMAIN, pgdt.gtimg.cn, REJECT
+DOMAIN, tmead.y.qq.com, REJECT
+DOMAIN, tmeadbak.y.qq.com, REJECT
+DOMAIN, tmeadcomm.y.qq.com, REJECT
+DOMAIN, tpns.qq.com, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, l.qq.com, REJECT
+DOMAIN-KEYWORD, trace.qq.com, REJECT
+DOMAIN-KEYWORD, trace.video.qq.com, REJECT
 IP-CIDR, 47.110.187.87/32, REJECT
 
 # ======= W ======= #
 # 网易云音乐
-HOST, iadmat.nosdn.127.net, REJECT
-HOST, iadmatapk.nosdn.127.net, REJECT
-HOST, iadmusicmat.music.126.net, REJECT
-HOST, iadmusicmatvideo.music.126.net, REJECT
-HOST, ipv4.music.163.com, REJECT
-HOST, ipv6.music.163.com, REJECT
+DOMAIN, iadmat.nosdn.127.net, REJECT
+DOMAIN, iadmatapk.nosdn.127.net, REJECT
+DOMAIN, iadmusicmat.music.126.net, REJECT
+DOMAIN, iadmusicmatvideo.music.126.net, REJECT
+DOMAIN, ipv4.music.163.com, REJECT
+DOMAIN, ipv6.music.163.com, REJECT
 # 微博 开屏广告
-HOST, huodong.weibo.cn, REJECT
-HOST-SUFFIX, biz.weibo.com, REJECT
+DOMAIN, huodong.weibo.cn, REJECT
+DOMAIN-SUFFIX, biz.weibo.com, REJECT
 # 微信
-HOST, badjs.weixinbridge.com, REJECT
-HOST, dns.weixin.qq.com.cn, REJECT
-HOST-SUFFIX, wxs.qq.com, REJECT
+DOMAIN, badjs.weixinbridge.com, REJECT
+DOMAIN, dns.weixin.qq.com.cn, REJECT
+DOMAIN-SUFFIX, wxs.qq.com, REJECT
 
 # ======= X ======= #
 # 小米
-HOST, sdkconfig.ad.xiaomi.com, REJECT
+DOMAIN, sdkconfig.ad.xiaomi.com, REJECT
 # 迅雷 解除版权限制
-;HOST, hub5btmain.v6.shub.sandai.net, REJECT
-;HOST, hub5emu.v6.shub.sandai.net, REJECT
-;HOST, hub5idx.v6.shub.sandai.net, REJECT
+;DOMAIN, hub5btmain.v6.shub.sandai.net, REJECT
+;DOMAIN, hub5emu.v6.shub.sandai.net, REJECT
+;DOMAIN, hub5idx.v6.shub.sandai.net, REJECT
 
 # ======= Y ======= #
 # 移花宫
-HOST, tong.8888888888.bid, REJECT
-HOST-KEYWORD, 4240585f1fb7266, REJECT
+DOMAIN, tong.8888888888.bid, REJECT
+DOMAIN-KEYWORD, 4240585f1fb7266, REJECT
 # 优酷 & 菜鸟
-;HOST, acs.youku.com, REJECT
-HOST, acs4baichuan.m.taobao.com, REJECT
-HOST, adsmind.ugdtimg.com, REJECT
-HOST, amdc.m.youku.com, REJECT
-HOST, api.sm.cn, REJECT
-HOST, apiv4-iyes.youku.com, REJECT
-HOST, baichuan-sdk.alicdn.com, REJECT
-HOST, cad.youku.com, REJECT
-HOST, huichuan-mc.sm.cn, REJECT
-HOST, huichuan.sm.cn, REJECT
-HOST, iyes.youku.com, REJECT
-HOST, m-vali.cp31.ott.cibntv.net, REJECT
-HOST, mc.atm.youku.com, REJECT
-HOST, nbsdk-baichuan.alicdn.com, REJECT
-HOST, pre-acs.youku.com, REJECT
-HOST, vali-g1.cp31.ott.cibntv.net, REJECT
-HOST, vali-ugc.cp31.ott.cibntv.net, REJECT
-HOST, yk-ssp.ad.youku.com, REJECT
-HOST, ykad-data.youku.com, REJECT
-HOST, youku-acs.m.taobao.com, REJECT
+;DOMAIN, acs.youku.com, REJECT
+DOMAIN, acs4baichuan.m.taobao.com, REJECT
+DOMAIN, adsmind.ugdtimg.com, REJECT
+DOMAIN, amdc.m.youku.com, REJECT
+DOMAIN, api.sm.cn, REJECT
+DOMAIN, apiv4-iyes.youku.com, REJECT
+DOMAIN, baichuan-sdk.alicdn.com, REJECT
+DOMAIN, cad.youku.com, REJECT
+DOMAIN, huichuan-mc.sm.cn, REJECT
+DOMAIN, huichuan.sm.cn, REJECT
+DOMAIN, iyes.youku.com, REJECT
+DOMAIN, m-vali.cp31.ott.cibntv.net, REJECT
+DOMAIN, mc.atm.youku.com, REJECT
+DOMAIN, nbsdk-baichuan.alicdn.com, REJECT
+DOMAIN, pre-acs.youku.com, REJECT
+DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT
+DOMAIN, vali-ugc.cp31.ott.cibntv.net, REJECT
+DOMAIN, yk-ssp.ad.youku.com, REJECT
+DOMAIN, ykad-data.youku.com, REJECT
+DOMAIN, youku-acs.m.taobao.com, REJECT
 # 云闪付 开屏广告
-HOST, ads.95516.com, REJECT
-HOST, switch.cup.com.cn, REJECT
+DOMAIN, ads.95516.com, REJECT
+DOMAIN, switch.cup.com.cn, REJECT
 # Yandex
-HOST, yandexmetrica.com, REJECT
+DOMAIN, yandexmetrica.com, REJECT
 
 # ======= Z ======= #
 # 知乎
-HOST, appcloud.zhihu.com, REJECT
-HOST, appcloud2.in.zhihu.com, REJECT
-HOST, crash2.zhihu.com, REJECT
-HOST, mqtt.zhihu.com, REJECT
-HOST, sugar.zhihu.com, REJECT
-HOST, zxid-m.mobileservice.cn, REJECT
+DOMAIN, appcloud.zhihu.com, REJECT
+DOMAIN, appcloud2.in.zhihu.com, REJECT
+DOMAIN, crash2.zhihu.com, REJECT
+DOMAIN, mqtt.zhihu.com, REJECT
+DOMAIN, sugar.zhihu.com, REJECT
+DOMAIN, zxid-m.mobileservice.cn, REJECT
 IP-CIDR, 103.41.167.237/32, REJECT
 IP-CIDR, 118.89.204.198/32, REJECT
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT

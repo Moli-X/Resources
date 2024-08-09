@@ -94,8 +94,8 @@ DOMAIN-SUFFIX, unityads.unity3d.com
 DOMAIN-KEYWORD, -ad-sign.byteimg.com
 DOMAIN-KEYWORD, ads.g.doubleclick
 DOMAIN-KEYWORD, asiad.byteactivity
-DOMAIN-KEYWORD, pangolin-sdk-toutiao
-DOMAIN-KEYWORD, pangolin.snssdk.com
+# DOMAIN-KEYWORD, pangolin-sdk-toutiao
+# DOMAIN-KEYWORD, pangolin.snssdk.com
 DOMAIN-KEYWORD, pglstatp-toutiao
 DOMAIN-KEYWORD, video-cn.snssdk.com
 

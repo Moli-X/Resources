@@ -57,4 +57,4 @@ http-response ^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render scri
 
 [MITM]
 
-hostname = api.pinduoduo.com
+hostname = api.pinduoduo.com, api.yangkeduo.com

@@ -98,7 +98,7 @@ TG Channel：https://t.me/QuantX
 		<td colspan="5">  </td>
     </tr>
     <tr>
-		<td rowspan="25"><strong>广告屏蔽</strong></td>
+		<td rowspan="26"><strong>广告屏蔽</strong></td>
 		<td > 1 </td> <td > <strong><em>莫离去广告</em></strong> </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Rewrite/ADBlock.conf"><em>ADBlock.conf</em></a></td><td>Moli-X</td>
     </tr>
     <tr>
@@ -173,7 +173,10 @@ TG Channel：https://t.me/QuantX
     <tr>
 		<td > 25 </td> <td > 微信小程序 </td> <td ><a href="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Applet.conf"><em>Applet.conf</em></a></td><td>ddgksf2013</td>
     </tr>
-	<tr>
+    <tr>
+		<td > 26 </td> <td > 拼多多去广告 </td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Loon/Pinduoduo.plugin"><em>Pinduoduo.plugin</em></a></td><td>ZenmoFeiShi</td>
+    </tr>
+   <tr>
 		<td colspan="5">  </td>
     </tr>
 	<tr>

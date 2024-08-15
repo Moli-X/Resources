@@ -1,0 +1,22 @@
+#!name=财新周刊
+#!desc=解锁订阅
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Caixin.plugin
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Caixin.png
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Caixin.plugin
+
+
+# 链接参考：https://gist.githubusercontent.com/yqc007/eadf2d5a7465fb759dc7dec436151a79/raw/CaixinWeekly.js
+# 链接参考：https://raw.githubusercontent.com/ddgksf2013/MoYu/master/CaiXinZhouKanProCrack.js
+
+[Script]
+
+# http-response ^https?:\/\/ipadcms\.caixin\.com\/(api\/article\/getMagazineArticleList|tmp\/articles) script-path=https://github.com/ddgksf2013/MoYu/raw/master/CaiXinZhouKanProCrack.js, requires-body=true, timeout=60 ,tag=财新周刊
+http-response ^https?:\/\/ipadcms\.caixin\.com\/(api\/article\/getMagazineArticleList|tmp\/articles)\/\d+ script-path=https://gist.githubusercontent.com/yqc007/eadf2d5a7465fb759dc7dec436151a79/raw/CaixinWeekly.js, requires-body=true, timeout=60 ,tag=财新周刊
+
+
+[MITM]
+
+hostname = ipadcms.caixin.com
+
+

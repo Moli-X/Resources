@@ -1,22 +1,50 @@
 #!name=财新周刊
-#!desc=解锁订阅
+#!desc=解锁订阅，财新去广告
 #!author=莫离
 #!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/CaixinWeekly.plugin
 #!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Other/CaixinWeekly.png
 #!edit=https://github.com/Moli-X/Resources/edit/main/Loon/CaixinWeekly.plugin
 
-
+# 链接参考：https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/caixin.snippet
 # 链接参考：https://gist.githubusercontent.com/yqc007/eadf2d5a7465fb759dc7dec436151a79/raw/CaixinWeekly.js
 # 链接参考：https://raw.githubusercontent.com/ddgksf2013/MoYu/master/CaiXinZhouKanProCrack.js
+
+[Rewrite]
+
+# 财新数据通
+^https:\/\/entities\.caixin\.com\/api\/(dataplus\/promotionHints|public\/push\/appIndex|public\/recommendNews) - reject-dict
+# 广告样式
+^https:\/\/gateway\.caixin\.com\/api\/app-api\/cxAdInfo\/selectIndexAdInfo - reject-dict
+^https:\/\/mappsv5\.caixin\.com\/channelv5\/article_ad_ios_info\.json - reject-dict
+# 文章中间推广,文章底部相关阅读
+^https:\/\/gg\.caixin\.com\/s\?z=caixin&slot=\d+ - reject-dict
+# 首页弹出框
+^https:\/\/msgapi\.caixin\.com\/msg_api\/annmsg\/annlist - reject-dict
 
 [Script]
 
 # http-response ^https?:\/\/ipadcms\.caixin\.com\/(api\/article\/getMagazineArticleList|tmp\/articles) script-path=https://github.com/ddgksf2013/MoYu/raw/master/CaiXinZhouKanProCrack.js, requires-body=true, timeout=60 ,tag=财新周刊
 http-response ^https?:\/\/ipadcms\.caixin\.com\/(api\/article\/getMagazineArticleList|tmp\/articles)\/\d+ script-path=https://gist.githubusercontent.com/yqc007/eadf2d5a7465fb759dc7dec436151a79/raw/CaixinWeekly.js, requires-body=true, timeout=60 ,tag=财新周刊
+http-response ^https:\/\/entities\.caixin\.com\/api\/dataplus\/columns script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js, requires-body=true, timeout=60 ,tag=caixin_6
+
+# 文章底部广告,搜索框填充词
+http-response ^https:\/\/gateway\.caixin\.com\/api\/app-api\/(caixinapp\/appinfo|search\/getkeyword) script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js, requires-body=true, timeout=60 ,tag=caixin_8
+
+# 财新fm
+http-response ^https:\/\/gateway\.caixin\.com\/api\/app-content\/fm\/index\/list\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js, requires-body=true, timeout=60 ,tag=caixin_13
+
+# 开屏广告,文章顶部banner
+http-response ^https:\/\/gg\.caixin\.com\/s\?z=caixin&op=\d script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js, requires-body=true, timeout=60 ,tag=caixin_15
+
+http-response ^https:\/\/mappsv5\.caixin\.com\/articlev5\/\d+\/\d+\.json$ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js, requires-body=true, timeout=60 ,tag=caixin_18
+
+http-response ^https:\/\/mapps?v5\.caixin\.com\/(channelv5\/list|\/?index_page_v5\/)\w+ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js, requires-body=true, timeout=60 ,tag=caixin_19
+
+
 
 
 [MITM]
 
-hostname = ipadcms.caixin.com
+hostname = ipadcms.caixin.com, e*.caixin.com,g*.caixin.com,m*.caixin.com
 
 

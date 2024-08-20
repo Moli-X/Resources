@@ -1,0 +1,17 @@
+#!name = Keep
+#!desc = keep课程预览&直播课&会员付费课跟练会员训练计划
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Keep.plugin
+#!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Keep.png
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Keep.plugin
+
+
+[Script]
+
+# >keep 课程预览 直播课。会员付费课跟练 会员训练计划
+http-response ^https?:\/\/(api|kit).gotokeep\.com\/(nuocha|gerudo|athena|nuocha\/plans|suit\/v5\/smart|kprime\/v4\/suit\/sales)\/ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/keep.js, requires-body=true, timeout=60 ,tag=keep_14
+
+[MITM]
+
+hostname = *keep*,162.14.5.*,42.187.199.*,101.42.124.*

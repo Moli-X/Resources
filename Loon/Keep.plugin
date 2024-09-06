@@ -1,5 +1,5 @@
 #!name = Keep
-#!desc = keep课程预览&直播课&会员
+#!desc = 课程预览&直播课&会员&去广告
 #!openUrl = 
 #!author = 莫离
 #!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/Keep.plugin
@@ -7,11 +7,40 @@
 #!edit = https://github.com/Moli-X/Resources/edit/main/Loon/Keep.plugin
 
 
+# 链接：https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Keep_remove_ads.plugin
+# 链接：https://raw.githubusercontent.com/WeiGiegie/666/main/keep.js
+[Rule]
+# 拦截HTTPDNS
+DOMAIN, httpdns.n.netease.com, REJECT
+DOMAIN, httpdns.calorietech.com, REJECT
+
+# 拦截广告下发
+DOMAIN, hc-ssp.sm.cn, REJECT
+
+[Rewrite]
+# 搜索填充词
+^https:\/\/api\.gotokeep\.com\/search\/v6\/default\/keyword\/list reject-dict
+
+# 关注 - 关注推荐
+^https:\/\/api\.gotokeep\.com\/twins\/v4\/feed\/followPage response-body-json-replace data {}
+
+# 信息流推广
+^https:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v1\/ad reject-dict
+
+# 文章相关推荐
+^https:\/\/api\.gotokeep\.com\/twins\/v4\/feed\/entryDetail response-body-json-replace data {}
+
+# 弹窗
+^https:\/\/api\.gotokeep\.com\/guide-webapp\/v1\/popup\/getPopUp reject-dict
+
 [Script]
 
 # >keep 课程预览 直播课。会员付费课跟练 会员训练计划
 http-response ^https?:\/\/(api|kit).gotokeep\.com\/(nuocha|gerudo|athena|nuocha\/plans|suit\/v5\/smart|kprime\/v4\/suit\/sales)\/ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/keep.js, requires-body=true, timeout=60 ,tag=keep_14
+# >移除首页活动页
+http-response ^https:\/\/api\.gotokeep\.com\/config\/v3\/basic script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Keep/Keep_remove_ads.js, requires-body = true, tag = 移除首页活动标签
+
 
 [MITM]
 
-hostname = *keep*,162.14.5.*,42.187.199.*,101.42.124.*
+hostname = *keep*,162.14.5.*,42.187.199.*,101.42.124.*, api.gotokeep.com, kad.gotokeep.com

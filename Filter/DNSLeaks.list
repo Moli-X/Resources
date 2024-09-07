@@ -1,0 +1,40 @@
+# author: 非正常人类研究中心
+# 专为小白设计的防止DNS泄漏规则
+
+# 你猜为什么会有这个规则集呢?
+# 原链接:https://raw.githubusercontent.com/xishang0128/rules/main/clash%20or%20stash/prevent_dns_leak/prevent_dns_leak_domain.list
+# DNS Leak from Shadowrocket Default
++.dnsleaktest.com
++.dnsleak.com
++.expressvpn.com
++.nordvpn.com
++.surfshark.com
++.ipleak.net
++.perfect-privacy.com
++.browserleaks.com
++.browserleaks.org
++.vpnunlimited.com
++.whoer.net
++.whrq.net
+
+# Astrill
++.astrill.com
++.astrill.org
++.dnsleak.asn247.net
+
+# Surfshark
++.surfshark.com
++.surfsharkdns.com
+
+# Pixelscan
++.pixelscan.net
+
+# PING0
+ipv4.ping0.cc
+ipv6.ping0.cc
+
+# IPAPI.CO
++.ipapi.co
+
+# BrowserScan
+ip-scan.adspower.net

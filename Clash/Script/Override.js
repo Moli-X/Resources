@@ -133,7 +133,7 @@ function main(config) {
       "name": "电报消息",
       "type": "select",
       "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"],
-      "icon": "https://github.com/tugepaopao/Image-Storage/raw/master/hand-painted/36.png"
+      "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram_X.png"
     },
     {
       ...groupBaseOption,
@@ -159,7 +159,7 @@ function main(config) {
       "hidden": false,
       "include-all": true,
       "filter": "(?i)🇭🇰|香港|(\b(HK|Hong)\b)",
-      "icon": "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Hong_Kong.png"
+      "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"
     },
     {
       ...groupBaseOption,
@@ -171,7 +171,7 @@ function main(config) {
       "hidden": false,
       "include-all": true,
       "filter": "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)",
-      "icon": "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_States.png"
+      "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"
     },
     {
       ...groupBaseOption,
@@ -195,7 +195,7 @@ function main(config) {
       "hidden": false,
       "include-all": true,
       "filter": "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)",
-      "icon": "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Japan.png"
+      "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"
     },
     {
       ...groupBaseOption,
@@ -207,7 +207,7 @@ function main(config) {
       "hidden": false,
       "include-all": true,
       "filter": "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)",
-      "icon": "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Taiwan.png"
+      "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"
     },
     {
       ...groupBaseOption,
@@ -221,7 +221,7 @@ function main(config) {
       "name": "广告拦截",
       "type": "select",
       "proxies": ["REJECT", "DIRECT" ,"PASS"],
-      "icon": "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Reject.orig.png"
+      "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png"
     },
     {
       ...groupBaseOption,

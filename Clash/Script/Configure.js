@@ -8,190 +8,58 @@ function main(params) {
 }
 //覆写规则
 function overwriteRules(params) {
-    const rules = [
-        "PROCESS-NAME,lync.exe,DIRECT            ",
-        "PROCESS-NAME,EXCEL.EXE,DIRECT           ",
-        "PROCESS-NAME,WINWORD.EXE,DIRECT         ",
-        "PROCESS-NAME,DIAInstaller.EXE,DIRECT    ",
-        "PROCESS-NAME,Update.exe,DIRECT          ",
-        "RULE-SET,Taida,PASS                     ",
-        "RULE-SET,GitLab,香港节点,no-resolve       ",
-        "RULE-SET,Google,香港节点                 ",
-        "RULE-SET,YouTube,香港节点                ",
-        "RULE-SET,Direct,DIRECT                 ",
-        "RULE-SET,Lan,DIRECT                    ",
-        "RULE-SET,Unbreak,DIRECT                ",
-        "RULE-SET,Microsoft,香港节点              ",
-        "RULE-SET,Video,中国媒体                  ",
-        "RULE-SET,Telegram,电报消息               ",
-        "RULE-SET,Github,香港节点                 ",
-        "RULE-SET,OpenAI,人工智能                 ",
-        "RULE-SET,China,DIRECT                 ",
-        "RULE-SET,Global,海外服务               " ,
-        "RULE-SET,Anti,REJECT                  ",
-        "RULE-SET,Advertising,REJECT           ",
-        "RULE-SET,Privacy,REJECT               ",
-        "RULE-SET,Trendmicro,广告拦截            ",
-        "GEOIP,CN,DIRECT                       ",
-        "MATCH,漏网之鱼                          " ,
-    ];
-    const ruleProviders = {
-        Direct: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml",
-            path: "./RuleSet/Direct.yaml",
-            interval: 86400,
-        },
-        Taida: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Taida.yaml",
-            path: "./RuleSet/Taida.yaml",
-            interval: 86400,
-        },
-        Lan: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml",
-            path: "./RuleSet/Lan.yaml",
-            interval: 86400,
-        },
-        Google: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml",
-            path: "./RuleSet/Google.yaml",
-            interval: 86400,
-        },
-        Unbreak: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml",
-            path: "./RuleSet/Unbreak.yaml",
-            interval: 86400,
-        },
-        OpenAI: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml",
-            path: "./RuleSet/OpenAI.yaml",
-            interval: 86400,
-        },
-        Bing: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Bing.yaml",
-            path: "./RuleSet/Bing.yaml",
-            interval: 86400,
-        },
-        Microsoft: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Microsoft.yaml",
-            path: "./RuleSet/Microsoft.yaml",
-            interval: 86400,
-        },
-        Github: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/GitHub/GitHub.yaml",
-            path: "./RuleSet/Github.yaml",
-            interval: 86400,
-        },
-        GitLab: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitLab/GitLab.yaml",
-            path: "./RuleSet/GitLab.yaml",
-            interval: 86400,
-        },
-        YouTube: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml",
-            path: "./RuleSet/YouTube.yaml",
-            interval: 86400,
-        },
-        Video: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Video.yaml",
-            path: "./RuleSet/Video.yaml",
-            interval: 86400,
-        },
-        Telegram: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Telegram/Telegram.yaml",
-            path: "./RuleSet/Telegram.yaml",
-            interval: 86400,
-        },
-        Discord: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Discord.yaml",
-            path: "./RuleSet/Discord.yaml",
-            interval: 86400,
-        },
-        Global: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Global.yaml",
-            path: "./RuleSet/Global.yaml",
-            interval: 86400,
-        },
-        China: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/China/China.yaml",
-            path: "./RuleSet/China.yaml",
-            interval: 86400,
-        },
-        ChinaIP: {
-            type: "http",
-            behavior: "ipcidr",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml",
-            path: "./RuleSet/ChinaIP.yaml",
-            interval: 86400,
-        },
-        Advertising: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml",
-            path: "./RuleSet/Advertising.yaml",
-            interval: 86400,
-        },
-        Privacy: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Hijacking/Hijacking.yaml",
-            path: "./RuleSet/Privacy.yaml",
-            interval: 86400,
-        },
-        HKlist: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/HKlist.yaml",
-            path: "./RuleSet/HKlist.yaml",
-            interval: 86400,
-        },
-        Trendmicro: {
-            type: "http",
-            behavior: "classical",
-            url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Trendmicro.yaml",
-            path: "./RuleSet/Trendmicro.yaml",
-            interval: 86400,
-        },
-        Anti: {
-            type: "http",
-            behavior: "domain",
-            url: "https://anti-ad.net/clash.yaml",
-            path: "./RuleSet/Anti.yaml",
-            interval: 86400,
-        },
 
-    };
+    const ruleProviders = {
+        Direct:      {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml"          , path: "./RuleSet/Direct.yaml"      , interval: 86400, },
+        Taida:       {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Taida.yaml"                               , path: "./RuleSet/Taida.yaml"       , interval: 86400, },
+        Lan:         {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml"                , path: "./RuleSet/Lan.yaml"         , interval: 86400, },
+        Google:      {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml"          , path: "./RuleSet/Google.yaml"      , interval: 86400, },
+        Unbreak:     {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml"                    , path: "./RuleSet/Unbreak.yaml"     , interval: 86400, },
+        OpenAI:      {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml"          , path: "./RuleSet/OpenAI.yaml"      , interval: 86400, },
+        Bing:        {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Bing.yaml"                                , path: "./RuleSet/Bing.yaml"        , interval: 86400, },
+        Microsoft:   {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Microsoft.yaml"                           , path: "./RuleSet/Microsoft.yaml"   , interval: 86400, },
+        Github:      {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/GitHub/GitHub.yaml"         , path: "./RuleSet/Github.yaml"      , interval: 86400, },
+        GitLab:      {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitLab/GitLab.yaml"          , path: "./RuleSet/GitLab.yaml"      , interval: 86400, },
+        YouTube:     {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml"        , path: "./RuleSet/YouTube.yaml"     , interval: 86400, },
+        Video:       {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Video.yaml"                               , path: "./RuleSet/Video.yaml"       , interval: 86400, },
+        Telegram:    {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Telegram/Telegram.yaml"     , path: "./RuleSet/Telegram.yaml"    , interval: 86400, },
+        Discord:     {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Discord.yaml"                             , path: "./RuleSet/Discord.yaml"     , interval: 86400, },
+        Global:      {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Global.yaml"                              , path: "./RuleSet/Global.yaml"      , interval: 86400, },
+        China:       {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/China/China.yaml"           , path: "./RuleSet/China.yaml"       , interval: 86400, },
+        ChinaIP:     {type: "http",behavior: "ipcidr"   , url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml"  , path: "./RuleSet/ChinaIP.yaml"     , interval: 86400, },
+        Advertising: {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml", path: "./RuleSet/Advertising.yaml" , interval: 86400, },
+        Privacy:     {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Hijacking/Hijacking.yaml"    , path: "./RuleSet/Privacy.yaml"     , interval: 86400, },
+        HKlist:      {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/HKlist.yaml"                              , path: "./RuleSet/HKlist.yaml"      , interval: 86400, },
+        Trendmicro:  {type: "http",behavior: "classical", url: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Trendmicro.yaml"                          , path: "./RuleSet/Trendmicro.yaml"  , interval: 86400, },
+        Anti:        {type: "http",behavior: "domain"   , url: "https://anti-ad.net/clash.yaml"                                                                         , path: "./RuleSet/Anti.yaml"        , interval: 86400, },
+		};
+    const rules = [
+        "PROCESS-NAME,lync.exe,DIRECT ",
+        "PROCESS-NAME,EXCEL.EXE,DIRECT",
+        "PROCESS-NAME,WINWORD.EXE,DIRECT",
+        "PROCESS-NAME,DIAInstaller.EXE,DIRECT",
+        "PROCESS-NAME,Update.exe,DIRECT",
+        "RULE-SET,Taida,PASS",
+        "RULE-SET,GitLab,香港节点",
+        "RULE-SET,Google,香港节点",
+        "RULE-SET,YouTube,香港节点",
+        "RULE-SET,Direct,DIRECT",
+        "RULE-SET,Lan,DIRECT,no-resolve",
+        "RULE-SET,Unbreak,DIRECT",
+        "RULE-SET,Microsoft,香港节点",
+        "RULE-SET,Video,中国媒体",
+        "RULE-SET,Telegram,电报消息 ",
+        "RULE-SET,Github,香港节点 ",
+        "RULE-SET,OpenAI,人工智能 ", 
+        "RULE-SET,China,DIRECT  ",
+        "RULE-SET,Global,海外服务" ,
+        "RULE-SET,Anti,REJECT ",
+        "RULE-SET,Advertising,REJECT",
+        "RULE-SET,Privacy,REJECT",
+        "RULE-SET,Trendmicro,中达监控",
+        "GEOIP,CN,DIRECT,no-resolve",
+        "MATCH,漏网之鱼 ",
+    ];
     params["rule-providers"] = ruleProviders;
     params["rules"] = rules;
 }
@@ -200,14 +68,14 @@ function overwriteRules(params) {
 function overwriteProxyGroups(params) {
     // 所有代理
     const allProxies = params["proxies"].map((e) => e.name);
-    // 海外服务代理组，按地区分组选延迟最低
+
+    // 延迟最低代理组，按地区分组选延迟最低
     const autoProxyGroupRegexs = [
-        { name: "香港节点", regex: /香港|HK|Hong|🇭🇰/ , icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png "},
-        { name: "台湾节点", regex: /台湾|TW|Taiwan|Wan|🇨🇳|🇹🇼/, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png" },
-        { name: "新加坡节点", regex: /新加坡|狮城|SG|Singapore|🇸🇬/, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png " },
-        { name: "日本节点", regex: /日本|JP|Japan|🇯🇵/, icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png " },
-        { name: "美国节点", regex: /美国|US|United States|America|🇺🇸/ , icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"},
-//        { name: "所有节点", regex: /(?!.*(?:剩余|到期|主页|官网|游戏|关注))(.*)/ },
+        { name: "香港节点"  , regex: /香港|HK|Hong|🇭🇰/                 , icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png "     },
+        { name: "台湾节点"  , regex: /台湾|TW|Taiwan|Wan|🇨🇳|🇹🇼/         , icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"        },
+        { name: "日本节点"  , regex: /日本|JP|Japan|🇯🇵/                 , icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png "        },
+        { name: "美国节点"  , regex: /美国|US|United States|America|🇺🇸/ , icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png" },
+        { name: "新加坡节点" , regex: /新加坡|狮城|SG|Singapore|🇸🇬/       , icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png "    },
     ];
 
     const autoProxyGroups = autoProxyGroupRegexs
@@ -221,6 +89,7 @@ function overwriteProxyGroups(params) {
             icon: item.icon,
             hidden: false,
         }))
+		// 过滤掉没有可用代理的组，只保留有代理的组
         .filter((item) => item.proxies.length > 0);
 
 
@@ -230,7 +99,7 @@ function overwriteProxyGroups(params) {
             name: "海外服务",
             type: "select",
             url: "http://www.gstatic.com/generate_204",
-            icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/adjust.svg",
+            icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png",
             proxies: [ "香港节点", "台湾节点", "新加坡节点", "日本节点", "美国节点", "全球节点"],
         },
 
@@ -239,7 +108,7 @@ function overwriteProxyGroups(params) {
             type: "select",
             proxies: ["海外服务", "香港节点", "台湾节点", "新加坡节点", "日本节点", "美国节点", "全球节点"],
             // "include-all": true,
-            icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/telegram.svg"
+            icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color//Telegram_X.png"
         },
         {
             name: "人工智能",
@@ -259,20 +128,26 @@ function overwriteProxyGroups(params) {
             name: "Spotify",
             type: "select",
             proxies: ["海外服务", "香港节点", "台湾节点", "新加坡节点", "日本节点", "美国节点", "全球节点"],
-            // "include-all": true,
-            icon: "https://storage.googleapis.com/spotifynewsroom-jp.appspot.com/1/2020/12/Spotify_Icon_CMYK_Green.png"
+            icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png",
+			hidden: true 
         },
         {
-            name: "漏网之鱼",
+            name: "中达监控",
             type: "select",
-            proxies: ["PASS","DIRECT", "海外服务",],
-            icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/ambulance.svg"
+            proxies: ["PASS","DIRECT", "REJECT"],
+            icon: "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Icon/Image/TrendMicro.png"
         },
         {
             name: "广告拦截",
             type: "select",
-            proxies: ["PASS","REJECT", "DIRECT", "海外服务",],
+            proxies: ["PASS","REJECT", "DIRECT", "海外服务"],
             icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png"
+        },
+        {
+            name: "漏网之鱼",
+            type: "select",
+            proxies: ["PASS","DIRECT", "海外服务"],
+            icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"
         },
         {
             name: "全球节点",
@@ -313,21 +188,24 @@ function overwriteDns(params) {
 
         // 这个用于覆盖上面的 nameserver
         "nameserver-policy": {
-            //[combinedUrls]: notionDns,
+            // 针对中国大陆的域名，使用 cnDnsList 的 DNS 列表
             "geosite:cn": cnDnsList,
+            // 针对非中国大陆的域名，使用 trustDnsList 的 DNS 列表
             "geosite:geolocation-!cn": trustDnsList,
-            // 如果你有一些内网使用的DNS，应该定义在这里，多个域名用英文逗号分割
+            // 针对 gfw 列表中的域名，将其与 fallback 解析结合，或者你可以直接在这里指定规则
+            "gfw": trustDnsList,  // 使用 trustDnsList 处理 gfw 列表中的域名污染// "gfw" 代表防火墙列表中的域名，这些域名被视为污染
+            // 内网的 DNS，可以定义内部域名
             // '+.公司域名.com, www.4399.com, +.baidu.com': '10.0.0.1'
         },
-        fallback: trustDnsList,
+        
+        "fallback": trustDnsList,  // 定义 fallback DNS 列表
+        
         "fallback-filter": {
-            geoip: true,
-            //除了 geoip-code 配置的国家 IP, 其他的 IP 结果会被视为污染 geoip-code 配置的国家的结果会直接采用，否则将采用 fallback结果
-            "geoip-code": "CN",
-            //geosite 列表的内容被视为已污染，匹配到 geosite 的域名，将只使用 fallback解析，不去使用 nameserver
-            geosite: ["gfw"],
-            ipcidr: ["240.0.0.0/4"],
-            domain: ["+.google.com", "+.facebook.com", "+.youtube.com"],
+            geoip: true,  // 启用 GeoIP 过滤，通过地理位置识别 IP
+            "geoip-code": "CN",  // 中国大陆的 IP 将直接通过 nameserver 解析
+            // 不再使用 geosite，而是依赖 nameserver-policy 里的规则
+            ipcidr: ["240.0.0.0/4"],  // 匹配这个 IP 地址范围的请求将视为污染
+            domain: ["+.google.com", "+.facebook.com", "+.youtube.com"],  // 这些域名将被视为污染
         },
     };
 
@@ -336,11 +214,9 @@ function overwriteDns(params) {
 
     // GEO数据GitHub资源原始下载地址
     const rawGeoxURLs = {
-        geoip:
-            "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat",
-        geosite:
-            "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat",
-        mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb",
+        geoip:   "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat",
+        geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat",
+        mmdb:    "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb",
     };
 
     // 生成带有加速前缀的GEO数据资源对象

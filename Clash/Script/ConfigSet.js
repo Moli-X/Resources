@@ -1,4 +1,5 @@
 /************** 参考 Verge Rev 示例 Script 配置***************************
+ * 链接 :https://github.com/Moli-X/Resources/edit/main/Clash/Script/ConfigSet.js
  * 原链接:https://github.com/Repcz/Tool/raw/X/Clash/Meta/Override.js
  * Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 0.5.8)
  * 最后更新时间: 2024-09-08 
@@ -68,10 +69,10 @@ function main(config) {
 
 // 覆盖策略组
   config["proxy-groups"] = [
-    { ...groupBaseArea, "name": "全球节点", "exclude-filter": "群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|访问|加入|(\b(USE|Panel|Channel|Author)\b)", "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Macao.png"},
+    { ...groupBaseArea, "name": "全球节点", "exclude-filter": "群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|访问|加入|(\b(USE|Panel|Channel|Author)\b)", "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png"},
     { ...groupBaseOption, "name": "海外服务", "proxies": ["全球节点", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src-tauri/icons/icon.png"},
-    { ...groupBaseOption, "name": "微软服务", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"], "icon": "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png"},
-    { ...groupBaseOption, "name": "谷歌服务", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://github.com/tugepaopao/Image-Storage/raw/master/cartoon/Cute/google.png"},
+    { ...groupBaseOption, "name": "微软服务", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"], "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png"},
+    { ...groupBaseOption, "name": "谷歌服务", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png"},
     { ...groupBaseOption, "name": "电报消息", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram_X.png"},
     { ...groupBaseOption, "name": "人工智能", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"},
     { ...groupBaseOption, "name": "中达监控", "proxies": ["REJECT", "DIRECT", "PASS"], "icon": "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Icon/Image/TrendMicro.png"},

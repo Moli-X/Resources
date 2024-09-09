@@ -2,7 +2,7 @@
  * 链  接 :https://github.com/Moli-X/Resources/edit/main/Clash/Script/ConfigSet.js  
  * 原链接:https://github.com/Repcz/Tool/raw/X/Clash/Meta/Override.js                 
  * Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 0.5.8)
- * 最后更新时间: 2024-09-08 
+ * 最后更新时间: 2024-09-09 
  **********************************************************************************/
 
 
@@ -69,21 +69,21 @@ function main(config) {
 
 // 覆盖策略组
   config["proxy-groups"] = [
-    { ...groupBaseArea, "name": "全球节点", "exclude-filter": "群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|访问|加入|(\b(USE|Panel|Channel|Author)\b)", "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png"},
-    { ...groupBaseOption, "name": "海外服务", "proxies": ["全球节点", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src-tauri/icons/icon.png"},
-    { ...groupBaseOption, "name": "微软服务", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"], "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png"},
-    { ...groupBaseOption, "name": "谷歌服务", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png"},
-    { ...groupBaseOption, "name": "电报消息", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram_X.png"},
-    { ...groupBaseOption, "name": "人工智能", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"], "icon": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"},
-    { ...groupBaseOption, "name": "中达监控", "proxies": ["REJECT", "DIRECT", "PASS"], "icon": "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Icon/Image/TrendMicro.png"},
-    { ...groupBaseArea, "name": "香港节点", "filter": "(?i)🇭🇰|香港|(\b(HK|Hong)\b)", "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png"},
-    { ...groupBaseArea, "name": "美国节点", "filter": "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)", "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png"},
-    { ...groupBaseArea, "name": "狮城节点", "filter": "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)", "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png"},
-    { ...groupBaseArea, "name": "日本节点", "filter": "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)", "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png"},
-    { ...groupBaseArea, "name": "台湾节点", "filter": "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png"},
-    { ...groupBaseOption, "name": "全国直连", "proxies": ["DIRECT", "PASS"], "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png"},
-    { ...groupBaseOption, "name": "广告拦截", "proxies": ["REJECT", "DIRECT", "PASS"], "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png"},
-    { ...groupBaseOption, "name": "兜底分流", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT", "PASS"], "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"}
+    { ...groupBaseArea  , "name": "全球节点",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png " ,         "exclude-filter": "群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|访问|加入|(\b(USE|Panel|Channel|Author)\b)"  },
+    { ...groupBaseOption, "name": "海外服务",  "icon": "https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src-tauri/icons/icon.png",  "proxies": ["全球节点", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"]                                  },
+    { ...groupBaseOption, "name": "微软服务",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png" ,       "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"]                        },
+    { ...groupBaseOption, "name": "谷歌服务",  "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"]                                  },
+    { ...groupBaseOption, "name": "电报消息",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram_X.png" ,      "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"]                                  },
+    { ...groupBaseOption, "name": "人工智能",  "icon": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png" ,                 "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"]                                  },
+    { ...groupBaseOption, "name": "中达监控",  "icon": "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Icon/Image/TrendMicro.png",           "proxies": ["REJECT", "DIRECT", "PASS"]                                                                     },
+    { ...groupBaseArea  , "name": "香港节点",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png",        "filter": "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"                                                                      },
+    { ...groupBaseArea  , "name": "美国节点",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png",    "filter": "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)"                                                  },
+    { ...groupBaseArea  , "name": "狮城节点",  "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png",     "filter": "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)",                                                            },
+    { ...groupBaseArea  , "name": "日本节点",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png" ,           "filter": "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)",                                                                 },
+    { ...groupBaseArea  , "name": "台湾节点",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png",           "filter": "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"                                                              },
+    { ...groupBaseOption, "name": "全国直连",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png" ,          "proxies": ["DIRECT", "PASS"]                                                                                },
+    { ...groupBaseOption, "name": "广告拦截",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png" ,          "proxies": ["REJECT", "DIRECT", "PASS"]                                                                      },
+    { ...groupBaseOption, "name": "兜底分流",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png" ,           "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT", "PASS"]                 }
   ];
 
 // 覆盖规则集

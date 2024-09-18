@@ -39,7 +39,7 @@ http-request ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ req
 # ✅微信链接限制解除
 http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, timeout=60 ,tag=解除微信链接, img-url=https://github.com/Moli-X/Resources/raw/main/Icon/Image/WeChat.png
 # ✅京东比价
-http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js, requires-body=true, timeout=10, tag=京东比价, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
+# http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js, requires-body=true, timeout=10, tag=京东比价, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
 # ✅🔞PornHub  *.pornhub.com
 http-request ^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) script-path=https://github.com/ddgksf2013/Scripts/raw/master/pornhub.js
 # ✅豆瓣  m.douban.com

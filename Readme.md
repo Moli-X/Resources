@@ -3,7 +3,7 @@
 
 TG Channel：https://t.me/QuantX
 
-## Quantumult脚本收集: [欢迎投稿](https://t.me/Skill_XX )
+## 脚本收集: [欢迎投稿](https://t.me/Skill_XX )
 <table>
     <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
 	<tr>

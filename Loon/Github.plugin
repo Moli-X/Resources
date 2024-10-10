@@ -15,6 +15,4 @@ http-request ^https://nsloon\.app script-path = https://raw.githubusercontent.co
 
 script-path=https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Script/cron.js,tag = cronExample,enable=false
 
-[MITM]
-hostname = nsloon.app
 

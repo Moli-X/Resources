@@ -10,6 +10,11 @@
 #!tag = 模型
 
 
+[Script]
+http-request ^https://nsloon\.app script-path = https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Script/plugin_arg.js,enable = false,tag=plugin_arg_demo_request
+
+script-path=https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Script/cron.js,tag = cronExample,enable=false
 
 [MITM]
 hostname = nsloon.app
+

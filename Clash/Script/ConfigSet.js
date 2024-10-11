@@ -2,7 +2,7 @@
  * 链  接 :https://github.com/Moli-X/Resources/edit/main/Clash/Script/ConfigSet.js  
  * 原链接:https://github.com/Repcz/Tool/raw/X/Clash/Meta/Override.js                 
  * Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 0.5.8)
- * 最后更新时间: 2024-09-09 
+ * 最后更新时间: 2024-10-10 
  **********************************************************************************/
 
 
@@ -90,31 +90,37 @@ function main(config) {
   config["rule-providers"] = {
 	  "Taida":          { ...ruleProviderYaml, "url": "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Taida.yaml" ,       "path": "./Ruleset/Taida.yaml" },
 	  "Trendmicro":     { ...ruleProviderYaml, "url": "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Trendmicro.yaml",   "path": "./Ruleset/Trendmicro.yaml" },
-	  "Sogouinput":     { ...ruleProviderText, "url": "https://ruleset.skk.moe/Clash/non_ip/sogouinput.txt",                             "path": "./Ruleset/sogouinput.txt" },
-	  "Reject_non_ip":  { ...ruleProviderText, "url": "https://ruleset.skk.moe/Clash/non_ip/reject.txt",                                 "path": "./Ruleset/reject.txt" },
-	  "adrules":        { ...ruleProviderText, "url": "https://adrules.top/adrules.list",                                                "path": "./Ruleset/adrules.list" },
-	  "Google":         { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list",                     "path": "./Ruleset/Google.list" },
-	  "YouTube":        { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list",                    "path": "./Ruleset/YouTube.list" },
-	  "Telegram":       { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list",                   "path": "./Ruleset/Telegram.list" },
-	  "Steam":          { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list",                      "path": "./Ruleset/Steam.list" },
-	  "AI":             { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/AI.list",                         "path": "./Ruleset/AI.list" },
-	  "Spotify":        { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/Spotify.list",                    "path": "./Ruleset/Spotify.list" },
-	  "PrimeVideo":     { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/PrimeVideo.list",                 "path": "./Ruleset/PrimeVideo.list" },
-	  "OneDrive":       { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/OneDrive.list",                   "path": "./Ruleset/OneDrive.list" },
-	  "Github":         { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/Github.list",                     "path": "./Ruleset/Github.list" },
-	  "Microsoft":      { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/Microsoft.list",                  "path": "./Ruleset/Microsoft.list" },
-	  "Lan":            { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/Lan.list",                        "path": "./Ruleset/Lan.list" },
-	  "ProxyGFW":       { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list",                   "path": "./Ruleset/ProxyGFW.list" },
-	  "China":          { ...ruleProviderText, "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list",                "path": "./Ruleset/China.list" }
+	  "Google":         { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Google.list",                     "path": "./Ruleset/Google.list" },
+	  "YouTube":        { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/YouTube.list",                    "path": "./Ruleset/YouTube.list" },
+	  "Telegram":       { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Telegram.list",                   "path": "./Ruleset/Telegram.list" },
+	  "Steam":          { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Steam.list",                      "path": "./Ruleset/Steam.list" },
+	  "AI":             { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/AI.list",                         "path": "./Ruleset/AI.list" },
+	  "Spotify":        { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Spotify.list",                    "path": "./Ruleset/Spotify.list" },
+	  "PrimeVideo":     { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/PrimeVideo.list",                 "path": "./Ruleset/PrimeVideo.list" },
+	  "OneDrive":       { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/OneDrive.list",                   "path": "./Ruleset/OneDrive.list" },
+	  "Github":         { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Github.list",                     "path": "./Ruleset/Github.list" },
+	  "Microsoft":      { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Microsoft.list",                  "path": "./Ruleset/Microsoft.list" },
+	  "Lan":            { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Lan.list",                        "path": "./Ruleset/Lan.list" },
+	  "ProxyGFW":       { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/ProxyGFW.list",                   "path": "./Ruleset/ProxyGFW.list" },
+	  "China":          { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/ChinaDomain.list",                "path": "./Ruleset/China.list" }
   };
 
 // 覆盖规则
   config["rules"] = [
+    //公司分流
     "RULE-SET,Taida,全国直连",
-    "RULE-SET,Trendmicro,全国直连",
-    "RULE-SET,Sogouinput,广告拦截",
-    "RULE-SET,Reject_non_ip,广告拦截",
-    "RULE-SET,adrules,广告拦截",
+    "PROCESS-NAME,Security Agent,中达监控",
+    "RULE-SET,Trendmicro,中达监控",
+    "PROCESS-NAME,PccNTMon.exe,中达监控",
+    //软件分流
+    "PROCESS-NAME,alisthelper.exe,海外服务",
+    "PROCESS-NAME,lync.exe,全国直连",
+    "PROCESS-NAME,Excel.exe,全国直连",
+    "PROCESS-NAME,Winword.exe,全国直连",
+    "PROCESS-NAME,DIAInstaller.exe,全国直连",
+    "PROCESS-NAME,Update.exe,全国直连",
+    "PROCESS-NAME,Microsoft Teams,全国直连",
+    //小分流
     "RULE-SET,AI,人工智能",
     "RULE-SET,YouTube,谷歌服务",
     "RULE-SET,Google,谷歌服务",

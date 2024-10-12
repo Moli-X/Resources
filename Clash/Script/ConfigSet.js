@@ -2,7 +2,7 @@
  * 链  接 :https://github.com/Moli-X/Resources/edit/main/Clash/Script/ConfigSet.js  
  * 原链接:https://github.com/Repcz/Tool/raw/X/Clash/Meta/Override.js                 
  * Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 0.5.8)
- * 最后更新时间: 2024-10-10 
+ * 最后更新时间: 2024-09-08 
  **********************************************************************************/
 
 

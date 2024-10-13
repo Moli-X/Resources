@@ -1,8 +1,7 @@
 /************** 参考 Verge Rev 示例 Script 配置***************************************
- * 链  接 :https://github.com/Moli-X/Resources/edit/main/Clash/Script/ConfigSet.js  
- * 原链接:https://github.com/Repcz/Tool/raw/X/Clash/Meta/Override.js                 
+ * 链  接 :https://github.com/Moli-X/Resources/raw/main/Clash/Script/ConfigSet.js            
  * Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 0.5.8)
- * 最后更新时间: 2024-09-08 
+ * 最后更新时间:   2024-10-13 23:21
  **********************************************************************************/
 
 
@@ -20,17 +19,14 @@ function main(config) {
   if (proxyCount === 0 && proxyProviderCount === 0) { throw new Error("配置文件中未找到任何代理"); }
 
 // 覆盖通用配置
-  config["mixed-port"]               = "7890";
-  config["tcp-concurrent"]           = true;
-  config["allow-lan"]                = true;
-  config["ipv6"]                     = false;
-  config["log-level"]                = "info";
-  config["unified-delay"]            = "true";
-  config["find-process-mode"]        = "strict";
+  config["mixed-port"] = "7890";
+  config["tcp-concurrent"] = true;
+  config["allow-lan"] = true;
+  config["ipv6"] = false;
+  config["log-level"] = "info";
+  config["unified-delay"] = "true";
+  config["find-process-mode"] = "strict";
   config["global-client-fingerprint"] = "chrome";
-  config["external-controller"]      = "127.0.0.1:9090";
-  config["external-ui"]              = "ui";
-  config["external-ui-url"]          = "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip";
 
 // 覆盖 dns 配置
   config["dns"] = {
@@ -49,10 +45,10 @@ function main(config) {
 // 覆盖 geodata 配置
   config["geodata-mode"] = true;
   config["geox-url"] = {
-    "geoip": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat",
-    "geosite": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat",
-    "mmdb": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb",
-    "asn": "https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"  };
+    "geoip": "https://mirror.ghproxy.com/https://github.com/Moli-X/Tool/raw/X/GeoIP/geoip-lite.dat",
+    "geosite": "https://mirror.ghproxy.com/https://github.com/Moli-X/Tool/raw/X/GeoIP/geosite.dat",
+    "mmdb": "https://mirror.ghproxy.com/https://github.com/Moli-X/Tool/raw/X/GeoIP/country-lite.mmdb",
+    "asn": "https://mirror.ghproxy.com/https://github.com/Moli-X/Tool/raw/X/GeoIP/GeoLite2-ASN.mmdb"  };
 
 // 覆盖 sniffer 配置
   config["sniffer"] = { 
@@ -127,11 +123,11 @@ function main(config) {
     "RULE-SET,Telegram,电报消息",
     "RULE-SET,Spotify,海外服务",
     "RULE-SET,PrimeVideo,海外服务",
+    "RULE-SET,Lan,全国直连",
     "GEOSITE,onedrive,微软服务",
     "GEOSITE,github,香港节点",
     "GEOSITE,microsoft,微软服务",
     "GEOSITE,gfw,海外服务",
-    "RULE-SET,China,全国直连",
     "GEOIP,lan,全国直连",
     "GEOIP,CN,全国直连",
     "MATCH,兜底分流"

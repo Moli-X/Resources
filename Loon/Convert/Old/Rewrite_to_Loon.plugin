@@ -1,29 +1,30 @@
 #!name = 远程资源转换器
 #!desc = 适用于Loon的远程资源转换器
-#!author= 莫离
-#!homepage= https://github.com/Moli-X/Resources/blob/main/Loon/Convert/README.md
+#!author= 莫离[https://github.com/Moli-X/Resources/blob/main/Loon/Convert/README.md]
+#!homepage= https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Old/Rewrite_to_Loon.plugin
 #!icon = https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Converter.png
-#!source=https://raw.githubusercontent.com/chengkongyiban/Loon/main/Loon-Gallery/Rewrite_to_Loon.plugin 
-#!Edit=https://github.com/Moli-X/Resources/edit/main/Loon/Convert/Rewrite_to_Loon.plugin
 #!select = 启用插件随机图标, 启用, 禁用
 #!select = 替换原始插件图标, 启用, 禁用
 #!select = 插件随机图标合集, Doraemon(100P),Shin-chan(100P),Weslie-Wolffy(100P),Tom-Jerry(100P),Genshin(160P),Shin-Miya(100P),OnePiece(100P),Stitch(100P),Pokemon(112P),PokemonGif(56P)
-
 #!input = Parser_cache_exp
 
+# 原链接 = https://raw.githubusercontent.com/chengkongyiban/Loon/main/Loon-Gallery/Rewrite_to_Loon.plugin 
+# 编辑 = https://github.com/Moli-X/Resources/edit/main/Loon/Convert/Old/Rewrite_to_Loon.plugin
+
 [Script]
-http-request ^https?:\/\/.+\/[^/]+\.[^/]+(qx$|qx\?.+=) script-path=https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Old/QX_Rewrite_Parser.js, requires-body=true, timeout=10, tag=QX转化Loon
+http-request ^https?:\/\/.+\/[^/]+\.[^/]+(qx$|qx\?.+=) script-path=https://github.com/chengkongyiban/stash/raw/main/js/QX_Rewrite_Parser.js, requires-body=true, timeout=10, tag=QX转化Loon
 
-http-request ^https?:\/\/.+\/[^/]+\.[^/]+[^Ttm](sg$|sg\?.+=) script-path=https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Old/Surge_Rewrite_Parser.js, requires-body=true, timeout=10, tag=Surge转化Loon
+http-request ^https?:\/\/.+\/[^/]+\.[^/]+[^Ttm](sg$|sg\?.+=) script-path=https://github.com/chengkongyiban/stash/raw/main/js/Surge_Rewrite_Parser.js, requires-body=true, timeout=10, tag=Surge转化Loon
 
-http-request ^https?:\/\/.+\/[^/]+\.[^/]+(loon$|loon\?.+=) script-path=https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Old/Loon_Rewrite_Parser.js, requires-body=true, timeout=10, tag=Loon插件控制器
+http-request ^https?:\/\/.+\/[^/]+\.[^/]+(loon$|loon\?.+=) script-path=https://github.com/chengkongyiban/stash/raw/main/js/Loon_Rewrite_Parser.js, requires-body=true, timeout=10, tag=Loon插件控制器
 
-http-request r_parser.list$|r_parser.list\?.* script-path=https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Old/rule_parser.js, requires-body=true, timeout=10, tag=规则集转换
+http-request r_parser.list$|r_parser.list\?.* script-path=https://raw.githubusercontent.com/chengkongyiban/stash/main/js/rule_parser.js, requires-body=true, timeout=10, tag=规则集转换
 
-http-request _script-converter-(stash|surge|loon|shadowrocket)\.js$ script-path=https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Old/script-converter.js, requires-body=true, timeout=10, tag=脚本转换
+http-request _script-converter-(stash|surge|loon|shadowrocket)\.js$ script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/script-converter/script-converter.js, requires-body=true, timeout=10, tag=脚本转换
 
-http-request _script-converter-(STASH|SURGE|LOON|SHADOWROCKET)\.js$ script-path=https://github.com/Moli-X/Resources/raw/main/Loon/Convert/Old/script-converter.js, requires-body=true, timeout=10, argument="wrap_response=true", tag=脚本转换2
+http-request _script-converter-(STASH|SURGE|LOON|SHADOWROCKET)\.js$ script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/script-converter/script-converter.js, requires-body=true, timeout=10, argument="wrap_response=true", tag=脚本转换2
 
 [MITM]
 hostname = github.com,raw.githubusercontent.com,gist.githubusercontent.com,gitlab.com,yfamily.ml
+
 

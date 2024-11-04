@@ -149,19 +149,19 @@ DOMAIN, statics.woozooo.com, REJECT
 
 # ======= M ======= #
 # 芒果TV
-DOMAIN, credits.bz.mgtv.com, REJECT
-DOMAIN, credits2.bz.mgtv.com, REJECT
-DOMAIN, credits3.bz.mgtv.com, REJECT
-DOMAIN, dflow.bz.mgtv.com, REJECT
-DOMAIN, encounter.bz.mgtv.com, REJECT
-DOMAIN, floor.bz.mgtv.com, REJECT
-DOMAIN, layer.bz.mgtv.com, REJECT
-DOMAIN, mob.bz.mgtv.com, REJECT
-DOMAIN, rc-topic-api.bz.mgtv.com, REJECT
-DOMAIN, rprain.bz.mgtv.com, REJECT
-DOMAIN, rprain.log.mgtv.com, REJECT
-DOMAIN, vip.bz.mgtv.com, REJECT
-DOMAIN-SUFFIX, da.mgtv.com, REJECT
+# DOMAIN, credits.bz.mgtv.com, REJECT
+# DOMAIN, credits2.bz.mgtv.com, REJECT
+# DOMAIN, credits3.bz.mgtv.com, REJECT
+# DOMAIN, dflow.bz.mgtv.com, REJECT
+# DOMAIN, encounter.bz.mgtv.com, REJECT
+# DOMAIN, floor.bz.mgtv.com, REJECT
+# DOMAIN, layer.bz.mgtv.com, REJECT
+# DOMAIN, mob.bz.mgtv.com, REJECT
+# DOMAIN, rc-topic-api.bz.mgtv.com, REJECT
+# DOMAIN, rprain.bz.mgtv.com, REJECT
+# DOMAIN, rprain.log.mgtv.com, REJECT
+# DOMAIN, vip.bz.mgtv.com, REJECT
+# DOMAIN-SUFFIX, da.mgtv.com, REJECT
 # 美团
 DOMAIN, maplocatesdksnapshot.d.meituan.net, REJECT
 DOMAIN, metrics-picture.d.meituan.net, REJECT

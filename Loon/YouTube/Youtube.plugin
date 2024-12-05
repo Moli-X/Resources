@@ -1,7 +1,7 @@
 #!name = Youtube (Music) Enhance
 #!desc = 适用于 Youtube & Youtube Music
 #!openUrl = 
-#!author = 莫离
+#!author = Maasea
 #!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/YouTube.plugin
 #!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Other/Youtube.png
 #!select = 隐藏上传按钮, true, false
@@ -12,7 +12,6 @@
 #!edit = https://github.com/Moli-X/Resources/edit/main/Loon/YouTube/Youube.plugin
 
 
-# 引用链接 = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/YouTube_remove_ads.plugin
 # 原链接 = https://github.com/Maasea/sgmodule/blob/master/YouTube.Enhance.sgmodule
 
 

@@ -1,0 +1,27 @@
+#!name=哔哩哔哩自动切换地区
+#!desc=哔哩哔哩(白图标外区版), 港澳台番剧自动切换地区 & 显示豆瓣评分
+#App链接=https://apps.apple.com/app/id736536022
+#!author= NobyDa[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=换区
+#!system=iOS,iPadOS
+#!system_version=15
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Bilibili/Bili_Auto_Regions.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Bilibili.png
+#!date=2024-12-016 00:25:37
+
+# 参考链接&教程:https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+# BoxJs订阅地址: https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
+
+
+
+
+
+[Script]
+http-response ^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/(pgc\/view\/v\d\/app\/season|x\/offline\/version)\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js, requires-body=true, tag=bili自动地区
+
+#可选, 适用于搜索指定地区的番剧
+http-request ^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)& script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js, tag=bili自动地区(搜索)
+
+[Mitm]
+hostname = ap?.bili*i.com, ap?.bili*i.net

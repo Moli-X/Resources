@@ -1,0 +1,12 @@
+
+[Rewrite]
+
+https?:\/\/91porn\.com(\/|)$ https://91porn.com/index.php 302
+
+[Script]
+
+http-response https?:\/\/91porn\.com\/(index|view_video|login|search_result)\.php script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/91porn.js, requires-body=true, timeout=60 ,tag=91porn_17
+
+[MITM]
+
+hostname = 91porn.com

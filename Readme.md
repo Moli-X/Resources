@@ -1,13 +1,15 @@
-### Resources
-<a href="https://t.me/GodMoliibot"><img src="https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Hello.gif" width="20%" height="20%"></a>
+# Resources
 
-TG Channel：https://t.me/QuantX
+![Hello](https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Hello3.gif)
+
+> TG Channel：https://t.me/QuantX
 
 ## 脚本收集: [欢迎投稿](https://t.me/Skill_XX )
+
 <table>
     <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
 	<tr>
-		<td rowspan="29"><strong>会员解锁</strong></td>
+  <td rowspan="29"><strong>会员解锁</strong></td>
 		<td > 1 </td> <td ><strong> <em>莫离合集</em> </strong></td> <td ><a href="https://github.com/Moli-X/Resources/raw/main/Rewrite/Collections.conf"><em>Collections.conf</em></a></td><td>Moli-X</td>
     </tr>
 	<tr>
@@ -247,4 +249,4 @@ TG Channel：https://t.me/QuantX
 * 莫离LOON模块👉👉👉👉👉👉[***✅模块***](https://github.com/Moli-X/Resources/tree/main/Loon) 
 * 莫离分流规则👉👉👉👉👉👉[***✅分流***](https://github.com/Moli-X/Resources/tree/main/Filter) 
 
-## ------------------------------------------------------[⬆️回到顶部⬆️](#readme)	
+## ------------------------------------------------------[⬆️回到顶部⬆️](#Resources)	

@@ -1,7 +1,7 @@
 /************** 参考 Verge Rev 示例 Script 配置***************************************
  * 链  接 :https://github.com/Moli-X/Resources/raw/main/Clash/Script/ConfigSet.js            
  * Clash Verge Rev (Version ≥ 17.2) & Mihomo-Party (Version ≥ 0.5.8)
- * 最后更新时间:   2024-10-13 23:21
+ * 最后更新时间:   2024-01-04 23:21
  **********************************************************************************/
 
 
@@ -70,7 +70,6 @@ function main(config) {
     { ...groupBaseOption, "name": "微软服务",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png" ,       "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"]                        },
     { ...groupBaseOption, "name": "谷歌服务",  "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png", "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"]                                  },
     { ...groupBaseOption, "name": "电报消息",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram_X.png" ,      "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"]                                  },
-    { ...groupBaseOption, "name": "人工智能",  "icon": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png" ,                 "proxies": ["海外服务", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点"]                                  },
     { ...groupBaseOption, "name": "中达监控",  "icon": "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Icon/Image/TrendMicro.png",           "proxies": ["REJECT", "DIRECT", "PASS"]                                                                     },
     { ...groupBaseArea  , "name": "香港节点",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png",        "filter": "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"                                                                      },
     { ...groupBaseArea  , "name": "美国节点",  "icon": "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png",    "filter": "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)"                                                  },
@@ -107,7 +106,6 @@ function main(config) {
     "RULE-SET,Taida,全国直连",
     "PROCESS-NAME,Security Agent,中达监控",
     "RULE-SET,Trendmicro,中达监控",
-    "PROCESS-NAME,PccNTMon.exe,中达监控",
     //软件分流
     "PROCESS-NAME,alisthelper.exe,海外服务",
     "PROCESS-NAME,lync.exe,全国直连",

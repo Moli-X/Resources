@@ -83,8 +83,6 @@ function main(config) {
 
 // 覆盖规则集
   config["rule-providers"] = {
-	  "Taida":          { ...ruleProviderYaml, "url": "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Taida.yaml" ,       "path": "./Ruleset/Taida.yaml" },
-	  "Trendmicro":     { ...ruleProviderYaml, "url": "https://cdn.jsdelivr.net/gh/Moli-X/Resources@main/Clash/Rules/Trendmicro.yaml",   "path": "./Ruleset/Trendmicro.yaml" },
 	  "Google":         { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Google.list",                     "path": "./Ruleset/Google.list" },
 	  "YouTube":        { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/YouTube.list",                    "path": "./Ruleset/YouTube.list" },
 	  "Telegram":       { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Telegram.list",                   "path": "./Ruleset/Telegram.list" },
@@ -102,8 +100,6 @@ function main(config) {
 
 // 覆盖规则
   config["rules"] = [
-    //公司分流
-    "RULE-SET,Taida,全国直连",
     //软件分流
     "PROCESS-NAME,alisthelper.exe,海外服务",
     "PROCESS-NAME,lync.exe,全国直连",

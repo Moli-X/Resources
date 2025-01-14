@@ -104,8 +104,6 @@ function main(config) {
   config["rules"] = [
     //公司分流
     "RULE-SET,Taida,全国直连",
-    "PROCESS-NAME,Security Agent,中达监控",
-    "RULE-SET,Trendmicro,中达监控",
     //软件分流
     "PROCESS-NAME,alisthelper.exe,海外服务",
     "PROCESS-NAME,lync.exe,全国直连",

@@ -1,0 +1,72 @@
+#==========================================
+#  https://github.com/Moli-X/Resources/rawmain/Clash/MihomoParty.yaml
+#==========================================
+
+proxy-groups:
+#分流分组
+  - {name: 海外服务, type: select, proxies: [全球节点, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点],           icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Verge.png }
+  - {name: 微软服务, type: select, proxies: [全球节点, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT],   icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Microsoft.png }
+  - {name: 谷歌服务, type: select, proxies: [全球节点, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点],           icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Google_Search.png }
+  - {name: 电报消息, type: select, proxies: [全球节点, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点],           icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Telegram_X.png }
+  - {name: 人工智能, type: select, proxies: [全球节点, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点],           icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/OpenAI.png }
+
+  - {name: 全国直连, type: select, proxies: [DIRECT],                                                       icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Direct.png }
+  - {name: 兜底分流, type: select, proxies: [全球节点, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT],   icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Final.png }
+  - {name: 广告拦截, type: select, proxies: [REJECT],                                                       icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Reject.png }
+
+#节点分组
+  - {name: 全球节点, type: url-test, include-all: true, interval: 600, tolerance: 50,  icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Urltest.png }
+  - {name: 香港节点, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "港|HK|(?i)Hong", icon: https://github.com/Moli-X/Tool/raw/X/Icon/Flag/Pixel144/Hong_Kong.png }             
+  - {name: 日本节点, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "日|东京|JP|(?i)Japan", icon: https://github.com/Moli-X/Tool/raw/X/Icon/Flag/Pixel144/Japan.png }
+  - {name: 台湾节点, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "台|湾|TW|(?i)Taiwan", icon: https://github.com/Moli-X/Tool/raw/X/Icon/Flag/Pixel144/Taiwan.png }
+  - {name: 美国节点, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "美|US|(?i)States|American", icon: https://github.com/Moli-X/Tool/raw/X/Icon/Flag/Pixel144/United_States.png }
+  - {name: 狮城节点, type: url-test, include-all: true, interval: 600, tolerance: 50,  filter: "新|坡|SG|(?i)Singapore", icon: https://github.com/Moli-X/Tool/raw/X/Icon/Flag/Pixel144/Singapore.png }
+
+#全局模式
+  - {name: GLOBAL,  type: select, proxies: [全球节点, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点],            icon: https://github.com/Moli-X/Tool/raw/X/Icon/App/Pixel144/Global.png }
+
+
+# 分流规则 
+rule-providers:
+  Google:       {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Google.list,       path: ./Ruleset/Google.list       }
+  YouTube:      {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/YouTube.list,      path: ./Ruleset/YouTube.list      }
+  Telegram:     {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Telegram.list,     path: ./Ruleset/Telegram.list     } 
+  Steam:        {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Steam.list,        path: ./Ruleset/Steam.list        }
+  AI:           {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/AI.list,           path: ./Ruleset/AI.list           }
+  Spotify:      {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Spotify.list,      path: ./Ruleset/Spotify.list      }
+  PrimeVideo:   {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/PrimeVideo.list,   path: ./Ruleset/PrimeVideo.list   }
+  OneDrive:     {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/OneDrive.list,     path: ./Ruleset/OneDrive.list     }
+  Github:       {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/GitHub.list,       path: ./Ruleset/GitHub.list       }
+  Microsoft:    {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Microsoft.list,    path: ./Ruleset/Microsoft.list    }
+  Lan:          {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/Lan.list,          path: ./Ruleset/Lan.list          }
+  ProxyGFW:     {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/ProxyGFW.list,     path: ./Ruleset/ProxyGFW.list     }
+  China:        {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/ChinaDomain.list,  path: ./Ruleset/ChinaDomain.list  }
+  TeamViewer:   {behavior: classical, interval: 86400, format: text, type: http, url: https://github.com/Moli-X/Tool/raw/X/Clash/Rules/TeamViewer.list,   path: ./Ruleset/TeamViewer.list   }
+
+# 分流Policy 
+rules:
+  - RULE-SET,Taida,全国直连
+# 软件分流
+  - PROCESS-NAME,alisthelper.exe,海外服务
+  - PROCESS-NAME,lync.exe,全国直连
+  - PROCESS-NAME,Excel.exe,全国直连
+  - PROCESS-NAME,Winword.exe,全国直连
+  - PROCESS-NAME,DIAInstaller.exe,全国直连
+  - PROCESS-NAME,Update.exe,全国直连
+  - PROCESS-NAME,Microsoft Teams,全国直连
+# 小分流
+  - RULE-SET,AI,人工智能
+  - RULE-SET,YouTube,谷歌服务
+  - RULE-SET,Google,谷歌服务
+  - RULE-SET,Telegram,电报消息
+  - RULE-SET,Spotify,海外服务
+  - RULE-SET,PrimeVideo,海外服务
+  - RULE-SET,TeamViewer,全国直连
+  - RULE-SET,Lan,全国直连
+  - GEOSITE,onedrive,微软服务
+  - GEOSITE,github,香港节点
+  - GEOSITE,microsoft,微软服务
+  - GEOSITE,gfw,海外服务
+  - GEOIP,lan,全国直连
+  - GEOIP,CN,全国直连
+  - MATCH,兜底分流

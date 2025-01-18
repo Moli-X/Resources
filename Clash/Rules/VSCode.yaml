@@ -1,2 +1,4 @@
-
-DOMAIN,www.vscode-unpkg.net
+payload:
+  - DOMAIN-SUFFIX,vscode-unpkg.net
+  - DOMAIN-SUFFIX,trafficmanager.net
+  - DOMAIN-SUFFIX,vscode-sync.trafficmanager.net

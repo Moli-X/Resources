@@ -4,20 +4,28 @@
  * 
  */
 
-const url = `http://bbs.inovance.com/plugin.php?id=k_misign:sign&operation=qiandao&format=global_usernav_extra&formhash=3d8cd55c&inajax=1&ajaxtarget=k_misign_topb`;
-const method = `GET`;
+const url = `https://zshc.inovance.com/apipc/community/v1/sign/add`;
+const method = `POST`;
 const headers = {
-'Accept-Encoding' : `gzip, deflate`,
-'Cookie' : `Rnuy_2132_lastact=1681142628%09forum.php%09; Rnuy_2132_popadv=a%3A1%3A%7Bi%3A12%3Bi%3A1681142593%3B%7D; Rnuy_2132_seccode=14091.2c885682330cb33a75; Rnuy_2132_sid=l5zqvj; Rnuy_2132_st_p=49654%7C1681142626%7Cd4fbbff651ff08d33d59e9f14edc89df; Rnuy_2132_viewid=tid_18983; Rnuy_2132_visitedfid=88; Rnuy_2132_sendmail=1; Rnuy_2132_nofavfid=1; Rnuy_2132_onlineusernum=515; Rnuy_2132_home_diymode=1; Rnuy_2132_auth=6e7dfIav1JyhybgFW8lepjMGLkZr9NJ3SUUg7jaYnS0E6eOm5BYu9IdNtZwMZKULfMQAoP%2Fi%2BRVd0V2KdhPMmv0A9A; Rnuy_2132_lastcheckfeed=49654%7C1681142557; Rnuy_2132_ulastactivity=4f68jjGEenElxIV24cO4DfOJHG68bhM7RGi7xJH%2BLUuWsi8lNDyj; PHPSESSID=amtrglo4q2c07lffb76t6t2uf4; Rnuy_2132_lastvisit=1681095203; Rnuy_2132_saltkey=Mi4y7DWd`,
+'Sec-Fetch-Dest' : `empty`,
 'Connection' : `keep-alive`,
-'Referer' : `http://bbs.inovance.com/`,
-'Accept' : `*/*`,
-'Host' : `bbs.inovance.com`,
-'User-Agent' : `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15`,
+'Accept-Encoding' : `gzip, deflate, br`,
+'app-key' : `pc-bbs`,
+'xAuthorization' : `Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjFhZjkzNTAxZGUyOTQ0NDBiMzZkNWY1YTJmZjhiOGNlM2IxMDc0YWEtYzIwNy00OTc2LTllODgtODQ3MjllMDBiYTc1In0.jd7ds6Jf17NpCfBnMRbSKMk_g3iqKCE8M1F_vix8dpliJH80Fj_QkWqyb1MSinx_gbsMpgfSz_CDri3iE0E2Uw`,
+'Content-Type' : `application/json;charset=UTF-8`,
+'Sec-Fetch-Site' : `same-origin`,
+'Origin' : `https://zshc.inovance.com`,
+'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1`,
+'platform' : `3`,
+'usermedia' : `adcf429a-c5bb-4d3e-a3ec-d4326207ca82`,
+'Sec-Fetch-Mode' : `cors`,
+'Cookie' : `a248467cf6a53819_gr_cs1=1af93501de294440b36d5f5a2ff8b8ce; a248467cf6a53819_gr_last_sent_cs1=1af93501de294440b36d5f5a2ff8b8ce; a248467cf6a53819_gr_last_sent_sid_with_cs1=95786908-763d-4122-92fe-5c393d01bf50; a248467cf6a53819_gr_session_id=95786908-763d-4122-92fe-5c393d01bf50; a248467cf6a53819_gr_session_id_sent_vst=95786908-763d-4122-92fe-5c393d01bf50; gr_user_id=71fca4c4-983a-4efe-8521-0f2a98a09e72; Hm_lpvt_09d70c99eb0fb2b9da69487ec1099022=1703018503; Hm_lvt_09d70c99eb0fb2b9da69487ec1099022=1702974855,1703018129; SERVERID=e02e1f78c6364a5716d15ef1a4f62c2f|1703018503|1703018128`,
+'Host' : `zshc.inovance.com`,
+'Referer' : `https://zshc.inovance.com/pc/bbs/circle`,
 'Accept-Language' : `zh-CN,zh-Hans;q=0.9`,
-'X-Requested-With' : `XMLHttpRequest`
+'Accept' : `application/json, text/plain`
 };
-const body = ``;
+const body = `{"taskId":"21"}`;
 
 const myRequest = {
     url: url,
@@ -33,4 +41,3 @@ $task.fetch(myRequest).then(response => {
     console.log(reason.error);
     $done();
 });
-

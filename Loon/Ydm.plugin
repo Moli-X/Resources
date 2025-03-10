@@ -1,0 +1,14 @@
+#!name=淫荡猫
+#!desc=3.10最新版
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1079.png
+
+[Rewrite]
+# 广告 开屏广告没处理（会报错）
+^https:\/\/(?:dd38dkt7dfvyr|d2x03a61ogs2x5|d3lijns9322mkl)\.cloudfront\.net\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject
+
+[Script]
+# 会员
+http-response https:\/\/(dd38dkt7dfvyr|d2x03a61ogs2x5|d3lijns9322mkl)\.cloudfront\.net\/api\/(video\/getVideoById|user\/base\/info|community\/dynamic\/dynamicInfo) script-path=https://github.com/Moli-X/Resources/raw/main/Script/ydm.js, requires-body=true, timeout=60, tag=ydm
+
+[MITM]
+hostname = *.cloudfront.net

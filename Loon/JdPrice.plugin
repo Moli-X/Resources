@@ -1,19 +1,18 @@
-#!name = 京东历史价格
-#!desc = 点击商品标题即可查看历史价格
-#!openUrl = 
-#!author = zwf234
-#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/JdPrice.plugin
-#!icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
-#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/JdPrice.plugin
-
-
-# 原链接https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js
-
+# 原链接 : https://kelee.one/Tool/Loon/Plugin/JD_Price.plugin
+#!name=京东比价
+#!desc=需在商品详情页面查看比价内容
+#App链接=https://apps.apple.com/app/id414245413
+#!author=小白脸[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=功能增强
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Kelee/JD_Price.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/JD.png
+#!date=2025-04-12 22:50:31
 
 [Script]
-
-http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://github.com/Moli-X/Resources/raw/main/Script/JD/JdPrice.js, requires-body=true, timeout=10, tag=京东比价, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png
-
-[MITM]
-
-hostname = api.m.jd.com
+http-response ^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path=https://raw.githubusercontent.com/Moli-X/Tool/0ff709e831d9fc1958f44ed6aca3ffb27056daa6/Loon/Plugin/Kelee/Script/JD_Price.js,requires-body=true,timeout=10,tag=京东比价
+  
+[MitM]
+hostname=in.m.jd.com

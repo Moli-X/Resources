@@ -16,13 +16,13 @@
 -----------------
 [Script]
 水滴社区获取Cookie = type=http-request, pattern=https:\/\/zshcapp\.dataserver\.cn\/login, script-path=https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js
-水滴社区签到 = type=cron, cronexp="5 0 * * *", wake-system=1, script-path=https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js
+水滴社区签到 = type=cron, cronexp="8 0 * * *", wake-system=1, script-path=https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js
 
 【Loon】
 -----------------
 [Script]
 http-request https:\/\/zshcapp\.dataserver\.cn\/login script-path=https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js, tag=水滴社区获取Cookie
-cron "5 0 * * *" script-path=https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js, tag=水滴社区签到
+cron "8 0 * * *" script-path=https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js, tag=水滴社区签到
 
 【Quantumult X】
 -----------------
@@ -30,14 +30,11 @@ cron "5 0 * * *" script-path=https://github.com/Moli-X/Resources/raw/main/Script
 https:\/\/zshcapp\.dataserver\.cn\/login url script-request-header https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js
 
 [task_local]
-5 0 * * * https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js, tag=水滴社区签到
+8 0 * * * https://github.com/Moli-X/Resources/raw/main/Script/ZsHc.js, tag=水滴社区签到
 
 【All App MitM】
 hostname = zshcapp.dataserver.cn
-
 */
-
-
 
 const isLoon = typeof $loon !== "undefined";
 const isSurge = typeof $httpClient !== "undefined" && !isLoon;
@@ -78,23 +75,23 @@ function httpPost(url, headers, body) {
 }
 
 if (typeof $request !== "undefined") {
-    // Capture cookie and xAuthorization
+    // 捕获 Cookie 和 xAuthorization
     const cookie = $request.headers.Cookie || $request.headers.cookie;
     const xAuth = $request.headers["xAuthorization"] || $request.headers["xauthorization"];
     if (cookie && xAuth) {
         write("huichuan_cookie", cookie);
         write("huichuan_xauth", xAuth);
-        notify("Huichuan Check-In", "", "Cookie and xAuthorization captured successfully!");
+        notify("汇川签到", "", "Cookie 和 xAuthorization 捕获成功！");
     } else {
-        notify("Huichuan Check-In", "", "Failed to capture cookie or xAuthorization.");
+        notify("汇川签到", "", "捕获 Cookie 或 xAuthorization 失败。");
     }
     $done();
 } else {
-    // Perform sign-in
+    // 执行签到
     const cookie = read("huichuan_cookie");
     const xAuth = read("huichuan_xauth");
     if (!cookie || !xAuth) {
-        notify("Huichuan Check-In", "", "Error: Missing cookie or xAuthorization. Please log in first.");
+        notify("汇川签到", "", "错误：缺少 Cookie 或 xAuthorization。请先登录。");
         $done();
     }
 
@@ -127,16 +124,16 @@ if (typeof $request !== "undefined") {
         if (response.status === 200) {
             const data = JSON.parse(response.body);
             if (data.success) {
-                notify("Huichuan Check-In", "", "Sign-in successful! Points: " + (data.point || "N/A"));
+                notify("汇川签到", "", "签到成功！积分：" + (data.point || "N/A"));
             } else {
-                notify("Huichuan Check-In", "", "Sign-in failed: " + data.message);
+                notify("汇川签到", "", "签到失败：" + data.message);
             }
         } else {
-            notify("Huichuan Check-In", "", "HTTP Error: " + response.status);
+            notify("汇川签到", "", "HTTP 错误：" + response.status);
         }
         $done();
     }).catch(err => {
-        notify("Huichuan Check-In", "", "Error: " + err);
+        notify("汇川签到", "", "错误：" + err);
         $done();
     });
 }

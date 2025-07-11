@@ -487,10 +487,10 @@ jobs:
           if [ "$file" ] ; then
 
             # 修改以 .js 结尾的脚本链接，删除一个文件夹部分
-            sed -i 's|https://kelee\.one/Resource/Script/.*/\([^/]*\.js\)|https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Script/\1|' "$file"
+            sed -i 's|https://kelee\.one/Resource/JavaScript/.*/\([^/]*\.js\)|https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/\1|' "$file"
 
             # 修改 #!homepage 行（处理等号前可能有空格的情况）
-            sed -i 's|#!homepage\s*=\s*.*|#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/'"$file"'|g' "$file"
+            sed -i 's|#!homepage\s*=\s*.*|#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/'"$file"'|g' "$file"
 
             # 直接修改 #!openUrl 或 #!openurl 为 #App链接
             sed -i 's|^#!open[uU]rl\s*=\s*\(.*\)|#App链接=\1|' "$file"

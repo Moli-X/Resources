@@ -1,4 +1,14 @@
+# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/Function/ForceInstallTF.conf
+// ==UserScript==
+// @Name              M系列Mac解除iOS TF軟件下載限制
+// @Author            Skyxim
+// @TgChannel         https://t.me/ddgksf2021
+// @WechatID          公眾號墨魚手記
+// @UpdateTime        2022-03-12
+// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/Function/ForceInstallTF.conf
+// ==/UserScript==
 
 
 hostname = testflight.apple.com
 
+^https:\/\/testflight\.apple\.com((\/v3\/accounts\/.+?\/apps$)|(\/v2\/accounts\/.+?\/apps\/.+?\/builds\/.+)) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ForceInstall.js

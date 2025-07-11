@@ -1,12 +1,31 @@
+# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/Function/EmbyPlugin.conf
+// ==UserScript==
+// @ScriptName        Emby增强[墨鱼整理版]
+// @Author            @renzhipengBot 原创，@AppleArcade 魔改
+// @Function          Emby官方客户端内调用外部播放器，该功能需要自行添加Emby服域名的MITM
+// @WechatID          墨鱼手记
+// @TgChannel         https://t.me/ddgksf2021
+// @Contribute        https://t.me/ddgksf2013_bot
+// @Feedback          📮 ddgksf2013@163.com 📮
+// @UpdateTime        2024-01-24
+// @Suitable          自行观看“# > ”注释内容
+// @Version           V1.0.2
+// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/Function/EmbyPlugin.conf
+// ==/UserScript==
 
 
 
 hostname = mb3admin.com, *.emby.wtf, *.plusmedia.site
   
 # > 播放解锁
+^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/unlock.js
 # > 添加外部播放器连接
+\/[Uu]sers\/\w{32}\/[Ii]tems\/\d+\?? url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/refs/heads/test/surge/emby-plugin.js
 # > 打开外部播放器
+\/plugin\/scheme url script-echo-response https://raw.githubusercontent.com/rartv/EmbyPublic/refs/heads/test/surge/emby-plugin.js
 # > 资源路径伪静态
+(\/[Vv]ideos\/\d+\/stream\/.+\?.+&filename)|(\/[Vv]ideos\/\d+\/\w{32}\/[Ss]ubtitles\/\d+\/.+\?.+&filename) url script-request-header https://raw.githubusercontent.com/rartv/EmbyPublic/refs/heads/test/surge/emby-plugin.js
 # > 下载文件重命名
+(\/[Vv]ideos\/\d+\/stream\?.+&filename)|(\/[Vv]ideos\/\d+\/\w{32}\/[Ss]ubtitles\/.+&filename) url script-response-header https://raw.githubusercontent.com/rartv/EmbyPublic/refs/heads/test/surge/download_file_rename.js
 # > 解决QX抓取某些公益服该请求乱码问题
 \/Users\/\w{32}\/Items\/\d+\? url request-header (\r\n)Accept-Encoding:.+ request-header $Accept-Encoding: gzip, deflate, br

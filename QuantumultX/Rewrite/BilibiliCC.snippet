@@ -1,5 +1,21 @@
+# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/Function/Bilibili_CC.conf
+// ==UserScript==
+// @ScriptName        哔哩哔哩繁体CC字幕转中文简体[墨鱼版]
+// @Author            @ddgksf2013
+// @ForHelp           若有屏蔽广告的需求，可公众号后台回复APP名称
+// @WechatID          墨鱼手记
+// @TgChannel         https://t.me/ddgksf2021
+// @Contribute        https://t.me/ddgksf2013_bot
+// @Feedback          📮 ddgksf2013@163.com 📮
+// @UpdateTime        2023-04-13
+// @Suitable          自行观看“# > ”注释内容
+// @Attention         如需引用请注明出处，谢谢合作！
+// @Version           V1.0.12
+// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/Function/Bilibili_CC.conf
+// ==/UserScript==
 
 
 hostname = aisubtitle.hdslb.com,i0.hdslb.com
 
 # > 哔哩哔哩繁体CC字幕转中文简体（2023-04-11）@ddgksf2013
+^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/bilibili_cc.js

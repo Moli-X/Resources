@@ -1,3 +1,18 @@
+# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Applet.conf
+// ==UserScript==
+// @ScriptName        微信小程序去除广告[墨鱼版]
+// @Download          进入小程序，搜索对应名称即可
+// @Author            ddgksf2013
+// @TgChannel         https://t.me/ddgksf2021
+// @Feedback          https://t.me/ddgksf2013_bot
+// @WechatID          墨鱼手记
+// @UpdateTime        2023-09-13
+// @Function          去除广告、直接查看隐藏内容、净化弹窗
+// @Function          如果有需要的去除广告的APP，可自行在共享表格中添加需求
+// @AddRequest        https://bit.ly/addRequestforAdBlock
+// @Suitable          自行观看"# > "注释内容
+// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/Applet.conf
+// ==/UserScript==
 
 # 此重写仅针对特定小程序去广告，无法去除小程序5s开屏广告（建议微信开启青少年模式，即可去除小程序开屏及小程序内弹窗）
 
@@ -18,4 +33,6 @@ hostname = api.blibee.com, ucmp.sf-express.com, www.bbkj.work, wx.wxqqurl.cn, wp
 # > 公众号_图文去广告@ddgksf2013
 ^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body advertisement response-body ddgksf2013
 # > 小程序_掌上公交@ddgksf2013
+^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/zhangshanggongjiao.js
 # > 小程序_去广告@ddgksf2013
+^(https?://)?([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\.)+[a-zA-Z]{2,}(:\d+)?/wp-json/[a-zA-Z0-9_-]+/(mp\/)?v\d/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/applet.js

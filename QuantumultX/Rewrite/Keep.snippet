@@ -1,3 +1,4 @@
+# 原链接 : https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.snippet
 #!name = Keep净化
 #!author = 怎么肥事[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
 #!update = 2024-07-31 19.04
@@ -10,6 +11,8 @@
 ^https:\/\/api\.gotokeep\.com\/search\/v\d\/hotCourse\/list url reject-dict
 ^https:\/\/api\.gotokeep\.com\/search\/v\d\/hotword\/list url reject-dict
 ^https:\/\/api\.gotokeep\.com\/search\/v\d\/default\/keyword\/list url reject-dict
+^https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.js
+^https:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.js
 
 
 

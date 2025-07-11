@@ -1,0 +1,68 @@
+# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/Html/WebAdBlock.conf
+// ==UserScript==
+// @ScriptName        影视网站去广告
+// @Author            @ddgksf2013
+// @ForHelp           若有屏蔽广告的需求，可公众号后台回复网页链接
+// @WechatID          墨鱼手记
+// @TgChannel         https://t.me/ddgksf2021
+// @Contribute        https://t.me/ddgksf2013_bot
+// @Feedback          📮 ddgksf2013@163.com 📮
+// @Attention         如需引用请注明出处，谢谢合作！
+// @UpdateTime        2024-02-19
+// @Function          自用影视网站去广告配置（不定期更新）
+// @Suitable          自行观看"# > "注释内容
+// @Explain           推荐使用手机版Chrome或Alook浏览器(仅供墨鱼本人及小部分QX用户使用)
+// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/Html/WebAdBlock.conf
+// ==/UserScript==
+
+
+
+hostname=www.zxzjhd.com, m.nivod4.tv, *.freeok.*, *netflix*, *bdys*,*cupfox*,*cokemv*,*pornhub.com,*lezhutv*,*bimi*,18comic.org,*5y*,*gimy*,*tkznp*,*czzy*,*ikandy*,*libvio*
+
+
+
+# > 08 在线之家[网页优化]@ddgksf2013 - 网站地址：https://www.zxzjhd.com/
+^https?:\/\/www\.zxzjhd\.com\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/adguard.js
+
+# > 07 FreeOk[网页优化]@ddgksf2013 - 网站地址：https://www.freeok.vip
+^https?:\/\/www\.freeok\.(vip|pro)(\/$|\/[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/adguard.js
+
+# > 06 哔嘀影视[网页优化]@ddgksf2013 - 网站地址：https://www.bdys01.com 
+^https?:\/\/.*bdys.*com\/($|([a-z]+)\/(play\/)?\d+.*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/bdys.js
+
+# > 05 PornHub[网页优化]@ddgksf2013 - 网站地址：https://cn.pornhub.com
+^https?:\/\/(cn|www)\.pornhub\.com\/_xa\/ads url reject-dict
+^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/pornhub.js
+
+# > 04 Bimi[网页优化]@ddgksf2013 - 网站地址：https://www.bimi.net
+^https?:/\/.*bimi.*net\/($|(vodshow|bangumi|type)\/[0-9a-z-\/]+\/$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/bimi.js
+
+# > 03 禁漫天堂[网页优化]@ddgksf2013 - 网站地址：https://18comic.org
+^https?:\/\/.*18comic\.org\/($|(album|photo).*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/18comic.js
+
+# > 02 剧迷[网页优化]@ddgksf2013 - 网站地址：https://gimys.app
+^https?:\/\/.*gimy.*\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/gimytv.js
+
+# > 01 厂长电影[网页优化]@ddgksf2013 - 网站地址：https://czzy.art/
+^https?:\/\/.*czzy.*\/($|\?btwaf=\w+$|[0-9a-zA-Z=_/-]+\.html) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/qianoo.js
+
+
+# =========== 不维护的或网站已关服 =========== #
+# > 09 茶杯狐[网页优化]@ddgksf2013 - 网站地址：https://cupfox.app
+^https?:/\/.*cupfox\.*\/($|[\u4E00-\u9FFFa-zA-Z0-9%=_/-]+$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/cupbox.js
+# > 08 Cokemv[网页优化]@ddgksf2013 - 网站地址：https://cokemv.me 
+^https?:/\/cokemv\.me\/($|vod.*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/cokemv.js
+# > 07 555影视[网页优化]@ddgksf2013 - 网站地址：https://555yy6.com
+^https?:\/\/.*5y.*\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/555.js
+# > 06 泥巴影视[网页优化]@Adblock4limbo - 网站地址：https://m.nivod4.tv
+^https?:\/\/.*nivod.*\/($|[0-9a-zA-Z=_/-]+\.html) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/nivod.js
+# > 05 奈飞鸭[网页优化]@ddgksf2013 - 网站地址：https://yanetflix.com
+^https?:\/\/.*netflix.*\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/netflix.js
+# > 04 LeZhu[网页优化]@ddgksf2013 - 网站地址：http://www.lezhutv.com
+^https?:/\/.*lezhutv\.com\/($|(type|detail|play|index).*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/lezhu.js
+# > 03 天空影视[网页优化]@ddgksf2013 - 网站地址：https://tkznp.com/
+^https?:\/\/.*tkznp.*com\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/tkys.js
+# > 02 真不卡[网页优化]@ddgksf2013 - 网站地址：https://www.ikandy.fun
+^https?:\/\/.*ikandy.*fun\/($|(vod|top).*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/zhenbuka.js
+# > 01 libvio[网页优化]@ddgksf2013 - 网站地址：https://www.libvio.me
+^https?:\/\/.*libvio.*me\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/libvio.js

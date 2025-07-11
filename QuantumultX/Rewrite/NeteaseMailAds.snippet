@@ -1,0 +1,34 @@
+# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseMailAds.conf
+// ==UserScript==
+// @ScriptName        网易邮箱大师净化[墨鱼版]
+// @Author            @ddgksf2013
+// @Attention         QX(Build ≥ 848, Version > 1.5.2)
+// @WechatID          墨鱼手记
+// @TgChannel         https://t.me/ddgksf2021
+// @Contribute        https://t.me/ddgksf2013_bot
+// @Feedback          📮 ddgksf2013@163.com 📮
+// @UpdateTime        2025-05-25
+// @Attention         如需引用请注明出处，谢谢合作！
+// @Version           V1.0.2
+// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/NeteaseMailAds.conf
+// ==/UserScript==
+
+
+
+hostname = dashi.163.com, appconf.mail.163.com, mail.163.com
+
+
+# > 任务推广@ddgksf2013
+^https?:\/\/dashi\.163\.com\/task-center-api\/fapi\/task url reject-dict
+# > 我的页面简化@ddgksf2013
+^https?:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/page\/.*conf\.do url jsonjq-response-body '.data |= del(.masterLoginGuideList, .masterOperatorList, .functionOperatorInfoList, .memberOperator, .activityTabInfoList, .extList)'
+# > 通用广告请求@ddgksf2013
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/master\/get\.do url reject-200
+# > 状态判断@ddgksf2013
+^https?:\/\/appconf\.mail\.163\.com\/mailoperating\/mailmaster\/api\/operator\/get url reject-dict
+# > 免费邮箱提醒@ddgksf2013
+^https?:\/\/appconf\.mail\.163\.com\/mailmaster\/getRegConfig\.do url reject-dict
+# > 浮ICON推广@ddgksf2013
+^https?:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/config\/function\.do url reject-dict
+# > Userinfo@ddgksf2013
+^https?:\/\/mail\.163\.com\/fgw\/mailsrv-webrobot\/.*user\/info url jsonjq-response-body '.result |= del(.assistantInfo, .quotaData)'

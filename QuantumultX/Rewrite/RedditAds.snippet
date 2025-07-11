@@ -1,0 +1,22 @@
+# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/RedditAds.conf
+// ==UserScript==
+// @ScriptName        Reddit增强[墨鱼版]
+// @Author            @ddgksf2013
+// @Function          去除Reddit信息流广告、帖子页面广告、帖子TreeAds、社区信息流广告，另去除信息流的NSFW图的遮罩，NSFW的帖子点击可直接查看图，伪装Premium，解锁会员图标
+// @AddRequest        https://bit.ly/addRequestforAdBlock
+// @WechatID          墨鱼手记
+// @TgChannel         https://t.me/ddgksf2021
+// @Contribute        https://t.me/ddgksf2013_bot
+// @Feedback          📮 ddgksf2013@163.com 📮
+// @UpdateTime        2025-05-30
+// @Attention         如需引用请注明出处，谢谢合作！
+// @Version           V1.0.4
+// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/RedditAds.conf
+// ==/UserScript==
+
+
+
+
+hostname = gql-fed.reddit.com
+
+^https?:\/\/gql-fed\.reddit\.com\/$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/reddit.js

@@ -31,11 +31,11 @@ jobs:
     
 ###### Fork
 
-    - name: 复刻原始文件
-      run: |
-        mkdir -p Resources/.github/Record
-        curl -L -o Resources-repo/.github/Record/Build.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/Build.yml"
-        curl -L -o Resources-repo/.github/Record/ClearCommits.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/ClearCommits.yml"
+#    - name: 复刻原始文件
+#      run: |
+#        mkdir -p Resources/.github/Record
+#        curl -L -o Resources-repo/.github/Record/Build.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/Build.yml"
+#        curl -L -o Resources-repo/.github/Record/ClearCommits.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/ClearCommits.yml"
 
     - name: 规则下载
       run: |

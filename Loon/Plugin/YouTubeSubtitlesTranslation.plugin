@@ -7,7 +7,7 @@
 #!system=
 #!system_version=15
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/YouTubeSubtitlesTranslation.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/YouTubeSubtitlesTranslation.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/YouTube.png
 #!date=2025-05-13 15:17:08
 
@@ -18,19 +18,19 @@ ShowOnly=switch, "true", "false", tag=仅显示“自动翻译”字幕, desc=�
 Position=select, "Forward", "Reverse", tag=原文字幕位置, desc=原文字幕的显示位置
 
 [Script]
-http-request ^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player\?(.*) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=true, tag=JSON·YouTube播放器请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
-http-response ^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player\?(.*) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_response.js, requires-body=true, tag=JSON·YouTube播放器响应, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
-http-request ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\?(.*) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=true, binary-body-mode=true, tag=Proto·YouTube播放器请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
-http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\?(.*) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_response.js, requires-body=true, binary-body-mode=true, tag=Proto·YouTube播放器响应.proto, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
-http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/get_watch\?(.*) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_response.js, requires-body=true, binary-body-mode=true, tag=Proto·GetWatch响应, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
-http-request ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=false, tag=YouTube定时文本请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
-http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=(Official|External) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Composite_Subtitles_response.js, requires-body=true, tag=YouTube合成定时文本响应, argument=
-http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_Translate_response.js, requires-body=true, tag=YouTube翻译定时文本响应, argument=
+http-request ^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player\?(.*) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=true, tag=JSON·YouTube播放器请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
+http-response ^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player\?(.*) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_response.js, requires-body=true, tag=JSON·YouTube播放器响应, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
+http-request ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\?(.*) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=true, binary-body-mode=true, tag=Proto·YouTube播放器请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
+http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\?(.*) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_response.js, requires-body=true, binary-body-mode=true, tag=Proto·YouTube播放器响应.proto, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
+http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/get_watch\?(.*) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_response.js, requires-body=true, binary-body-mode=true, tag=Proto·GetWatch响应, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
+http-request ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=false, tag=YouTube定时文本请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
+http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=(Official|External) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Composite_Subtitles_response.js, requires-body=true, tag=YouTube合成定时文本响应, argument=
+http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?(.*)subtype=Translate script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_Translate_response.js, requires-body=true, tag=YouTube翻译定时文本响应, argument=
 
-http-request ^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=true, tag=JSON·YouTube Music浏览请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
-http-request ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=true, binary-body-mode=true, tag=Proto·YouTube Music浏览请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
-http-response ^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_Translate_response.js, requires-body=true, tag=JSON·YouTube Music翻译歌词响应, argument=
-http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_Translate_response.js, requires-body=true, binary-body-mode=true, tag=Proto·YouTube Music翻译歌词响应, argument=
+http-request ^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=true, tag=JSON·YouTube Music浏览请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
+http-request ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_request.js, requires-body=true, binary-body-mode=true, tag=Proto·YouTube Music浏览请求, argument=[{Type},{AutoCC},{ShowOnly},{Position}]
+http-response ^https?:\/\/music\.youtube\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_Translate_response.js, requires-body=true, tag=JSON·YouTube Music翻译歌词响应, argument=
+http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?(.*)subtype=Translate script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouTube_Subtitles_Translate_response.js, requires-body=true, binary-body-mode=true, tag=Proto·YouTube Music翻译歌词响应, argument=
 
 [MitM]
 hostname=www.youtube.com, m.youtube.com, tv.youtube.com, music.youtube.com, youtubei.googleapis.com

@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/NeteaseNews_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/NeteaseNews_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/NeteaseNews.png
 #!date=2025-05-13 15:17:08
 
@@ -25,11 +25,11 @@ DOMAIN, gw.m.163.com, DIRECT
 ^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|search/(specialkeyword|defaultkeyword|hot)) reject
 
 [Script]
-http-response ^https:\/\/nex\.163\.com\/q script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
+http-response ^https:\/\/nex\.163\.com\/q script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
 
-http-response ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
+http-response ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
 
-http-response ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/search\/hot-word script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
+http-response ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/search\/hot-word script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
 
 [MitM]
 hostname=nex.163.com, interface.music.163.com, c.m.163.com, client.mail.163.com, g1.163.com, support.you.163.com, interface3?.music.163.com, gw.m.163.com

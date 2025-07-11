@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/CaixinMedia_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/CaixinMedia_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/CaixinMedia.png
 #!date=2025-05-13 15:17:08
 
@@ -22,16 +22,16 @@
 ^https:\/\/msgapi\.caixin\.com\/msg_api\/annmsg\/annlist reject-dict
 
 [Script]
-http-response ^https:\/\/entities\.caixin\.com\/api\/dataplus\/columns script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除财新数据通广告
+http-response ^https:\/\/entities\.caixin\.com\/api\/dataplus\/columns script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除财新数据通广告
 
-http-response ^https:\/\/gateway\.caixin\.com\/api\/app-api\/(caixinapp\/appinfo|search\/getkeyword) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除文末广告
+http-response ^https:\/\/gateway\.caixin\.com\/api\/app-api\/(caixinapp\/appinfo|search\/getkeyword) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除文末广告
 
-http-response ^https:\/\/gateway\.caixin\.com\/api\/app-content\/fm\/index\/list\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除财新FM广告
+http-response ^https:\/\/gateway\.caixin\.com\/api\/app-content\/fm\/index\/list\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除财新FM广告
 
-http-response ^https:\/\/gg\.caixin\.com\/s\?z=caixin&op=\d script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除开屏广告
+http-response ^https:\/\/gg\.caixin\.com\/s\?z=caixin&op=\d script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除开屏广告
 
-http-response ^https:\/\/mappsv5\.caixin\.com\/articlev5\/\d+\/\d+\.json$ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除正文广告
-http-response ^https:\/\/mapps?v5\.caixin\.com\/(channelv5\/list|\/?index_page_v5\/)\w+ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除正文广告
+http-response ^https:\/\/mappsv5\.caixin\.com\/articlev5\/\d+\/\d+\.json$ script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除正文广告
+http-response ^https:\/\/mapps?v5\.caixin\.com\/(channelv5\/list|\/?index_page_v5\/)\w+ script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/CaixinMedia_remove_ads.js, requires-body=true, tag=移除正文广告
 
 [MitM]
 hostname=e*.caixin.com, g*.caixin.com, m*.caixin.com

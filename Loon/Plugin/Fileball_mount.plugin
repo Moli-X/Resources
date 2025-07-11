@@ -7,12 +7,12 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Fileball_mount.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Fileball_mount.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Fileball.png
 #!date=2025-05-13 15:17:08
 
 [Script]
-http-request ^http:\/\/(aliyun|quark|pikpak)\.example\.com script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Fileball_mount.js, requires-body=true, tag=三合一网盘挂载
+http-request ^http:\/\/(aliyun|quark|pikpak)\.example\.com script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Fileball_mount.js, requires-body=true, tag=三合一网盘挂载
 
 [MitM]
 hostname=aliyun.example.com, quark.example.com, pikpak.example.com,

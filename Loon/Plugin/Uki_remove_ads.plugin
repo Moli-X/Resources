@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Uki_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Uki_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Uki.png
 #!date=2025-05-13 15:17:08
 
@@ -20,13 +20,13 @@
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/user\/checkQTSheInsurance$ reject-dict
 
 [Script]
-http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Uki_remove_ads.js, requires-body=true, tag=移除匹配卡横幅
+http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Uki_remove_ads.js, requires-body=true, tag=移除匹配卡横幅
 
-http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Uki_remove_ads.js, requires-body=true, tag=移除密友横幅
+http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Uki_remove_ads.js, requires-body=true, tag=移除密友横幅
 
-http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/party\/config$ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Uki_remove_ads.js, requires-body=true, tag=移除娱乐页面横幅和悬浮窗配置
+http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/party\/config$ script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Uki_remove_ads.js, requires-body=true, tag=移除娱乐页面横幅和悬浮窗配置
 
-http-response ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/fetchSearchRecommend$ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Uki_remove_ads.js, requires-body=true, tag=移除广场搜索填充词
+http-response ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/fetchSearchRecommend$ script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Uki_remove_ads.js, requires-body=true, tag=移除广场搜索填充词
 
 [MitM]
 hostname=api.chenlongtech.cn

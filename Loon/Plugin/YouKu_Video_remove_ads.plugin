@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/YouKu_Video_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/YouKu_Video_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/YouKu_Video.png
 #!date=2025-05-13 15:17:08
 
@@ -40,17 +40,17 @@ DOMAIN, youku-acs.m.taobao.com, REJECT
 ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.(pisp\.scripts\.get|xspace\.play\.position\.preload\.query|xspace\.poplayer\.position\.query) url reject-dict
 
 [Script]
-http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.(gateway\.new\.execute|home\.feed|home\.query|uc\.query|ycp\.query) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除首页广告
+http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.(gateway\.new\.execute|home\.feed|home\.query|uc\.query|ycp\.query) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除首页广告
 
-http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.haidai\.lantern\.appconfig\.get script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除无用底栏
+http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.haidai\.lantern\.appconfig\.get script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除无用底栏
 
-http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.huluwa\.dispatcher\.youthmode\.config2 script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除青少年模式弹窗
+http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.huluwa\.dispatcher\.youthmode\.config2 script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除青少年模式弹窗
 
-http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除搜索列表推广
+http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除搜索列表推广
 
-http-response ^https:\/\/push\.m\.youku\.com\/collect-api\/get_push_interval_config_wx\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除热剧弹窗
+http-response ^https:\/\/push\.m\.youku\.com\/collect-api\/get_push_interval_config_wx\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除热剧弹窗
 
-http-response ^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除开屏广告
+http-response ^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/YouKu_Video_remove_ads.js, requires-body=true, tag=移除开屏广告
 
 [MitM]
 hostname=acs.youku.com, push.m.youku.com, un-acs.youku.com

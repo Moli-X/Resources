@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/iMaiCai_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/iMaiCai_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/iMaiCai.png
 #!date=2025-05-13 15:17:08
 
@@ -21,7 +21,7 @@
 ^https:\/\/businessapi\.ksedt\.com\/signupindex\/jxlist reject-dict
 
 [Script]
-http-response ^https:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/iMaiCai_remove_ads.js, requires-body=true, tag=移除下发广告
+http-response ^https:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/iMaiCai_remove_ads.js, requires-body=true, tag=移除下发广告
 
 [MitM]
 hostname=portal-portm.meituan.com, mall.meituan.com, businessapi.ksedt.com

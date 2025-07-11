@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/WeixinMiniPrograms.png
 #!date=2025-07-06 22:36:18
 
@@ -207,29 +207,29 @@ DOMAIN, e.jparking.cn, REJECT
 ^https:\/\/wx\.10086\.cn\/qwhdhub\/activity\/info reject-dict
 
 [Script]
-http-response ^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/kff.js, requires-body=true, tag=企迈点单系统去广告
+http-response ^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/kff.js, requires-body=true, tag=企迈点单系统去广告
 
-http-response ^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/ems.js, requires-body=true, tag=EMS中国邮政物流速递去广告
+http-response ^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/ems.js, requires-body=true, tag=EMS中国邮政物流速递去广告
 
-http-response ^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/xiaotucc.js, requires-body=true, tag=小兔充充去广告
+http-response ^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/xiaotucc.js, requires-body=true, tag=小兔充充去广告
 
-http-response ^https:\/\/minifm\.maxxipoint\.com\/banner\/list script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/FamilyMart.js, requires-body=true, tag=全家微会员去广告
+http-response ^https:\/\/minifm\.maxxipoint\.com\/banner\/list script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/FamilyMart.js, requires-body=true, tag=全家微会员去广告
 
-http-response ^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/lawson.js, requires-body=true, tag=罗森点点去广告
+http-response ^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/lawson.js, requires-body=true, tag=罗森点点去广告
 
-http-response ^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/chayanyuese_remove_ads.js, requires-body=true, tag=茶颜悦色去广告
+http-response ^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/chayanyuese_remove_ads.js, requires-body=true, tag=茶颜悦色去广告
 
-http-response ^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/coco.js, requires-body=true, tag=COCO点单去广告
+http-response ^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/coco.js, requires-body=true, tag=COCO点单去广告
 
-http-response ^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/qingju.js, requires-body=true, tag=滴滴青桔去广告
+http-response ^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/qingju.js, requires-body=true, tag=滴滴青桔去广告
 
-http-response ^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/alittle-tea.js, requires-body=true, tag=一点点+去广告
+http-response ^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/alittle-tea.js, requires-body=true, tag=一点点+去广告
 
-http-response ^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/M_Stand.js, requires-body=true, tag=M Stand去广告
+http-response ^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/M_Stand.js, requires-body=true, tag=M Stand去广告
 
-http-response ^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/T3.js, requires-body=true, tag=T3出行去广告
+http-response ^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/T3.js, requires-body=true, tag=T3出行去广告
 
-http-response ^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/ming.js, requires-body=true, tag=古茗去广告
+http-response ^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/ming.js, requires-body=true, tag=古茗去广告
 
 [MitM]
 hostname=3pp.starbucks.com.cn, aag.enmonster.com, activity.yonghuivip.com, ad.maoyan.com, ad.xiaotucc.com, ads.ishansong.com, alittle-tea.oss-cn-shanghai.aliyuncs.com, api-fouth-mem.huazhu.com, api-marketing.zhinengxiyifang.cn, api.hellobike.com, api.hengdianfilm.com, api.hongyibo.com.cn, api.kuaidihelp.com, api.maoyan.com, api.mcd.cn, api.pinduoduo.com, api.prod.dj.mstand.cn, api.songguo7.com, api.yonghuivip.com, apiproxy.zuche.com, apis.alenable.com, app.95504.net, app.homeinns.com, applets.jtexpress.com.cn, appuser-static.huolala.cn, as.xiaojukeji.com, capis*.didapinche.com, cappapi.alittle-tea.com, cbd-gateway-service-applets.hualala.com, ccmsupport-sz.tenpay.com, coco-com.e.verystar.net, creditcardapp.bankcomm.com, customer-app.sto.cn, daijia.kuaidadi.com, dock.tenchii.com, dsp.fcbox.com, file.dian.so, flow.dmall.com, fscdn.zto.com, gw-passenger-wap.01zhuanche.com, hdgateway.zto.com, htwkop.xiaojukeji.com, images.qmai.cn, lawsonapi.yorentown.com, m.ctrip.com, mapi.xiaotucc.com, mbmodule-openapi.paas.cmbchina.com, member.lxjchina.com.cn, miniapp.sexytea2013.com, minicap.caocaokeji.cn, minifm.maxxipoint.com, minipro.95504.net, miniprogram.ishansong.com, mkt-gateway.tuhu.cn, mobile-api.imlaidian.com, mxsa.mxbc.net, newton.gumingnc.com, passenger.t3go.cn, passengerapi.saicmobility.com, plt.yorentown.com, qapi.huolala.cn, r2.gzyct.com, res.hongyibo.com.cn, res.pizzahut.com.cn, s.jiediankeji.com, saas-ad.cloudpnr.com, sauron-report.yonghuivip.com, smarket.dian.so, sto-customer-app.oss-cn-shanghai.aliyuncs.com, supplier-api.imdada.cn, suyun-guest.daojia.com, tbgapplet.carlsberg.asia, tm-api.pin-dao.cn, ucmp.sf-express.com, ump.ems.com.cn, vod-movie.maoyan.com, webapi.qmai.cn, webchatapp.fcbox.com, wechat-api.i-xiaoma.com.cn, www.deppon.com, wx.bthhotels.com, wx.maoyan.com, wxapp.bestwehotel.com, wxproj.seeyouyima.com, wxs-weixin.sd.zhumanggroup.com, mcsp.cloudpnr.com, api.szbgcx.cn, rms.meituan.com, chong.qq.com, wx.online-cmcc.cn, wx.10086.cn, ne.gdsz.sinopec.com

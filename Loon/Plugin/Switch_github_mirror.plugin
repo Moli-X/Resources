@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Switch_github_mirror.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Switch_github_mirror.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/GitHub.png
 #!select=镜像源,A镜像,B镜像
 #!date=2025-05-13 15:17:08
@@ -18,7 +18,7 @@ DOMAIN, hub.incept.pw, DIRECT
 DOMAIN, raw.kkgithub.com, DIRECT
 
 [Script]
-http-request ^https:\/\/raw\.githubusercontent\.com\/ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Switch_github_mirror.js, tag=GitHub加速
+http-request ^https:\/\/raw\.githubusercontent\.com\/ script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Switch_github_mirror.js, tag=GitHub加速
 
 [MitM]
 hostname=raw.githubusercontent.com

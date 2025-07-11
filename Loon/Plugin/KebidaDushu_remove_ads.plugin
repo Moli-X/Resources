@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/KebidaDushu_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/KebidaDushu_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/KebidaDushu.png
 #!date=2025-05-13 15:17:08
 
@@ -23,15 +23,15 @@
 ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/order-orchestration\/orderWeb\/exchange\/v100\/showExchangeButton reject
 
 [Script]
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/chief-orch\/home\/bookPortal\/v105\/category script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/abtest-front\/banner-modular\/get script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/fs-member\/user\/profile\/v100\/detail script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/chief-orch\/home\/bookPortal\/v111\/forApp script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/sns-orchestration-system\/homePage\/api\/v100\/myPage script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/task-orchestration\/taskCenter\/api\/v101\/taskList script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/resource-orchestration-system\/book\/v101\/content script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/user-orchestration\/user\/api\/v101\/ceiltip script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/chief-orch\/home\/bookPortal\/v105\/category script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/abtest-front\/banner-modular\/get script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/fs-member\/user\/profile\/v100\/detail script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/chief-orch\/home\/bookPortal\/v111\/forApp script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/sns-orchestration-system\/homePage\/api\/v100\/myPage script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/task-orchestration\/taskCenter\/api\/v101\/taskList script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/resource-orchestration-system\/book\/v101\/content script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/user-orchestration\/user\/api\/v101\/ceiltip script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
 
 [MitM]
 hostname=g*.dushu365.com

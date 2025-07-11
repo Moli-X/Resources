@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Umetrip_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Umetrip_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Umetrip.png
 #!date=2025-05-13 15:17:08
 
@@ -15,7 +15,7 @@
 URL-REGEX, "^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native", REJECT
 
 [Script]
-http-response ^http?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Umetrip_remove_ads.js, tag=移除首页广告
+http-response ^http?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Umetrip_remove_ads.js, tag=移除首页广告
 
 [MitM]
 hostname=114.115.217.129, home.umetrip.com

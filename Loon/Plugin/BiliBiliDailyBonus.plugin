@@ -2,7 +2,7 @@
 #!name=BiliBili每日等级任务
 #!desc=定时任务及Cookie获取
 #!author= MartinsKing（@ClydeTime）[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/BiliBiliDailyBonus.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/BiliBiliDailyBonus.plugin
 #!icon=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/database/icon_Avatar.png
 #!category= MK
 # 现将获取cookie与定时任务合并为一个模块

@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Zhihu_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Zhihu_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Zhihu.png
 #!date=2025-05-13 15:17:08
 
@@ -58,16 +58,16 @@ IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, no-resolve
 ^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation reject-dict
 
 [Script]
-http-response ^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除回答底部卡片推广
-http-response ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除首页悬浮图标
-http-response ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除推荐信息流推广
-http-response ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除推荐信息流推广
-http-response ^https:\/\/api\.zhihu\.com\/root\/tab script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=精简顶部标签
-http-response ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除热榜信息流推广
-http-response ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除下一个回答推广、评论区顶部推广
-http-response ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除回答详情页推广
-http-response ^https:\/\/appcloud2\.zhihu\.com\/v3\/config script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=拦截服务器推送配置 config
-http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=拦截服务器推送配置 config all
+http-response ^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+ script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除回答底部卡片推广
+http-response ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除首页悬浮图标
+http-response ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除推荐信息流推广
+http-response ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除推荐信息流推广
+http-response ^https:\/\/api\.zhihu\.com\/root\/tab script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=精简顶部标签
+http-response ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除热榜信息流推广
+http-response ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除下一个回答推广、评论区顶部推广
+http-response ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=移除回答详情页推广
+http-response ^https:\/\/appcloud2\.zhihu\.com\/v3\/config script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=拦截服务器推送配置 config
+http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Zhihu_remove_ads.js, requires-body=true, tag=拦截服务器推送配置 config all
 
 [MITM]
 hostname=api.zhihu.com, appcloud2.zhihu.com, link.zhihu.com, m-cloud.zhihu.com, page-info.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com

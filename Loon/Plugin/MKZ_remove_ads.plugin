@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/MKZ_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/MKZ_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/MKZ.png
 #!date=2025-05-13 15:17:08
 
@@ -21,7 +21,7 @@
 ^https:\/\/base\.mkzcdn\.com\/advert\/app\/user\/slide\d\/v\d\/ reject-dict
 
 [Script]
-http-response ^https:\/\/base\.mkzcdn\.com\/app\/config\/ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/MKZ_remove_ads.js, requires-body=true, tag=配置修改
+http-response ^https:\/\/base\.mkzcdn\.com\/app\/config\/ script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/MKZ_remove_ads.js, requires-body=true, tag=配置修改
 
 [MitM]
 hostname=base.mkzcdn.com

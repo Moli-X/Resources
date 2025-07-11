@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/DubbingShow_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/DubbingShow_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/DubbingShow.png
 #!date=2025-05-13 15:17:08
 
@@ -22,7 +22,7 @@
 ^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData response-body-json-del obj.data
 
 [Script]
-http-response ^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/DubbingShow_remove_ads.js, requires-body=true, tag=移除首页底部弹窗
+http-response ^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/DubbingShow_remove_ads.js, requires-body=true, tag=移除首页底部弹窗
 
 [MitM]
 hostname=iosapi.peiyinxiu.com

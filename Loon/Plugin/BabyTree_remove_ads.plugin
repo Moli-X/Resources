@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/BabyTree_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/BabyTree_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/BabyTree.png
 #!date=2025-05-13 15:17:08
 
@@ -19,9 +19,9 @@ URL-REGEX, "^http:\/\/pic08\.babytreeimg\.com\/knowledge\/2022\/0923\/\w+", REJE
 URL-REGEX, "^http:\/\/plough\.babytree\.com\/plough\.do", REJECT-DICT
 
 [Script]
-http-response ^http:\/\/api\.babytree\.com\/bafconfigcenter_intf\/config\/get\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/BabyTree_remove_ads.js, requires-body=true, tag=调整整体配置
-http-response ^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index\/get_app_tab|cms_column\/get_column_list|feeds\/get_index_feeds_list|user\/get_user_info)\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/BabyTree_remove_ads.js, requires-body=true, tag=移除各页面推广
-http-response ^http:\/\/go\.babytree\.com\/go_search\/api\/mobile_search_new\/search_index script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/BabyTree_remove_ads.js, requires-body=true, tag=移除搜索列表推广
+http-response ^http:\/\/api\.babytree\.com\/bafconfigcenter_intf\/config\/get\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/BabyTree_remove_ads.js, requires-body=true, tag=调整整体配置
+http-response ^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index\/get_app_tab|cms_column\/get_column_list|feeds\/get_index_feeds_list|user\/get_user_info)\? script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/BabyTree_remove_ads.js, requires-body=true, tag=移除各页面推广
+http-response ^http:\/\/go\.babytree\.com\/go_search\/api\/mobile_search_new\/search_index script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/BabyTree_remove_ads.js, requires-body=true, tag=移除搜索列表推广
 
 [MitM]
 hostname=api.babytree.com, go.babytree.com

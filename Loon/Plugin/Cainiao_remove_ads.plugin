@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Cainiao_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Cainiao_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Cainiao.png
 #!date=2025-05-13 15:17:08
 
@@ -52,17 +52,17 @@ DOMAIN, youku-acs.m.taobao.com, REJECT
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad reject-dict
 
 [Script]
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\.cn script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除新版我的页面推广
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\.cn script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除新版我的页面推广
 
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.mine\.main\.cn script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除我的页面推广
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.mine\.main\.cn script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除我的页面推广
 
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(?:pickup\.empty\.page|protocol\.homepage)\.get\.cn script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除主页图标
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(?:pickup\.empty\.page|protocol\.homepage)\.get\.cn script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除主页图标
 
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除消息中心推广
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除消息中心推广
 
-http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除支付宝菜鸟小程序推广
+http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除支付宝菜鸟小程序推广
 
-http-response ^https:\/\/(?:cn-acs\.m|netflow-mtop)\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除首页推广
+http-response ^https:\/\/(?:cn-acs\.m|netflow-mtop)\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/Cainiao_remove_ads.js, requires-body=true, tag=移除首页推广
 
 [MitM]
 hostname=*-mtop.cainiao.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com

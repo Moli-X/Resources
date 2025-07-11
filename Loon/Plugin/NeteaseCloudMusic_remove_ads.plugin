@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/NeteaseCloudMusic.png
 #!date=2025-05-13 15:17:08
 
@@ -47,12 +47,12 @@ DOMAIN, ipv6.music.163.com, REJECT
 ^https:\/\/interface\d\.music\.163\.com\/eapi\/my\/podcast\/tab\/recommend reject-dict
 
 [Script]
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=评论区、热推、有话想说、分享一下、歌曲下的祝福等小提示
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show)) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=推荐、home、主页, argument=[{PRGG},{PRRK},{PRDRD},{PRSCVPT},{PRST},{PRRR},{HMPR},{PRMST},{PRCN}]
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=底部选项卡, argument=[{MY},{DT},{FX}]
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=发现页
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=我的页面
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=显示未关注你的人
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=评论区、热推、有话想说、分享一下、歌曲下的祝福等小提示
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show)) script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=推荐、home、主页, argument=[{PRGG},{PRRK},{PRDRD},{PRSCVPT},{PRST},{PRRR},{HMPR},{PRMST},{PRCN}]
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=底部选项卡, argument=[{MY},{DT},{FX}]
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=发现页
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=我的页面
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=显示未关注你的人
 
 [MitM]
 hostname=interface*.music.163.com

@@ -7,11 +7,11 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Node_detection_tool.plugin
+#!homepage=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Node_detection_tool.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/Node_detection_tool.png
 #!date=2025-06-10 23:31:23
 
 [Script]
-generic script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NetworkEntryAndExitQueries.js, timeout=10, tag=入口落地查询,img-url=globe.asia.australia.system
-generic script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/LocationDetection.js, timeout=10, tag=地理位置查询,img-url=location.circle.system
-generic script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/NodeUnlockDetection.js, timeout=20, tag=节点解锁查询,img-url=play.circle.system
+generic script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NetworkEntryAndExitQueries.js, timeout=10, tag=入口落地查询,img-url=globe.asia.australia.system
+generic script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/LocationDetection.js, timeout=10, tag=地理位置查询,img-url=location.circle.system
+generic script-path=https://github.com/Moli-X/Resources/raw/Master/Loon/Plugin/Script/NodeUnlockDetection.js, timeout=20, tag=节点解锁查询,img-url=play.circle.system

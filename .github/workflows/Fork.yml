@@ -60,7 +60,7 @@ jobs:
             }
 
             # 合并广告规则
-            download_rules "Tool-repo/QuantumultX/Ruleset/Reject.list" \
+            download_rules "Resources-repo/QuantumultX/Ruleset/Reject.list" \
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list" \
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list" \
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list" \

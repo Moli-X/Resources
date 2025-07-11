@@ -1,17 +1,3 @@
-# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/KeepAds.conf
-// ==UserScript==
-// @ScriptName        Keep应用净化[墨鱼版]
-// @Author            @ddgksf2013
-// @TgChannel         https://t.me/ddgksf2021
-// @Contribute        https://t.me/ddgksf2013_bot
-// @Feedback          📮 ddgksf2013@163.com 📮
-// @UpdateTime        2025-03-26
-// @Function          应用界面简化、去除广告
-// @Suitable          自行观看“# > ”注释内容
-// @Attention         如需引用请注明出处，谢谢合作！
-// @Version           V1.0.10
-// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/KeepAds.conf
-// ==/UserScript==
 
 
 hostname=hc-ssp.sm.cn, api.gotokeep.com, 42.187.199.248, kad.gotokeep.com
@@ -42,8 +28,5 @@ hostname=hc-ssp.sm.cn, api.gotokeep.com, 42.187.199.248, kad.gotokeep.com
 # > 屏蔽更新
 ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check url reject-200
 # > 我的页面去推广
-^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/keepStyle.js
 # > 应用底部栏净化
-^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/keepStyle.js
 # > 首页信息流去广告
-^https?:\/\/api\.gotokeep\.com\/twins\/v4\/feed\/course url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/keepStyle.js

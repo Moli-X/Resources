@@ -1,19 +1,3 @@
-# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/SmzdmAds.conf
-// ==UserScript==
-// @ScriptName        什么值得买净化[墨鱼版]
-// @Author            @blackmatrix7, @ddgksf2013
-// @Function          如果有需要的去除广告的APP，可自行在共享表格中添加需求
-// @AddRequest        https://bit.ly/addRequestforAdBlock
-// @WechatID          墨鱼手记
-// @TgChannel         https://t.me/ddgksf2021
-// @Contribute        https://t.me/ddgksf2013_bot
-// @Feedback          📮 ddgksf2013@163.com 📮
-// @UpdateTime        2024-08-12
-// @Suitable          自行观看“# > ”注释内容
-// @Attention         如需引用请注明出处，谢谢合作！
-// @Version           V1.0.3
-// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/SmzdmAds.conf
-// ==/UserScript==
 
 
 hostname = app-api.smzdm.com, *.zdmimg.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, s-api.smzdm.com, zhiyou.m.smzdm.com
@@ -21,7 +5,6 @@ hostname = app-api.smzdm.com, *.zdmimg.com, homepage-api.smzdm.com, haojia-api.s
 
 
 # > 搜索框填词@ddgksf2013
-^https?:\/\/s-api.smzdm\.com\/sou\/search_default_keyword url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
 # > 好价详情页去广告@blackmatrix7
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul url reject-200
 # > 好价详情页红包小助手@blackmatrix7
@@ -29,19 +12,10 @@ hostname = app-api.smzdm.com, *.zdmimg.com, homepage-api.smzdm.com, haojia-api.s
 # > Wiki@blackmatrix7
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul url reject-200
 # > 开屏去广告@blackmatrix7@ddgksf2013
-^https?:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
-^https?:\/\/.*zdmimg\.com\/cpm\/api\/v\d\/advert_distribution\/get_all_advertise url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
 # > 首页去广告@blackmatrix7@ddgksf2013
-^https?:\/\/homepage-api\.smzdm\.com\/v3\/home url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
 # > 好价去广告@blackmatrix7
-^https?:\/\/haojia-api\.smzdm\.com\/home\/list url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
 # > 好价详情页去广告@blackmatrix7
-^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
 # > 百科去广告@blackmatrix7
-^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
 # > 搜索结果去广告@blackmatrix7
-^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
 # > 搜索标签去广告@blackmatrix7
-^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
 # > 值会员权益中心banner广告@blackmatrix7
-^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js

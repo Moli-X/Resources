@@ -1,9 +1,6 @@
-# 原链接 : https://github.com/VirgilClyne/GetSomeFries/raw/main/snippet/DNS.snippet
 #!name=🍟 Fries: 🌐 DNS enhanced
 #!desc=1.域名按所属DNS进行分流解析 2.路由器地址使用系统DNS进行解析 3.特殊地址使用规范DNS进行解析
 #!author=VirgilClyne[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
-#!homepage=https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/DNS.snippet
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 #!category=🍟 Fries
 
 [dns]
@@ -54,15 +51,6 @@ address = /alt8-mtalk.google.com/3.3.3.3
 # --- CUSTOM DNS ---
 # > Modify Contents
 # Google CDN
-doh-server = /blog.google/https://doh.pub/dns-query
-doh-server = /googletraveladservices.com/https://doh.pub/dns-query
-doh-server = /dl.google.com/https://doh.pub/dns-query
-doh-server = /dl.l.google.com/https://doh.pub/dns-query
-doh-server = /clientservices.googleapis.com/https://doh.pub/dns-query
-doh-server = /update.googleapis.com/https://doh.pub/dns-query
-doh-server = /translate.googleapis.com/https://doh.pub/dns-query
-doh-server = /fonts.googleapis.com/https://doh.pub/dns-query
-doh-server = /fonts.gstatic.com/https://doh.pub/dns-query
 # Google STUN
 server = /stun.l.google.com/system
 server = /stun?.l.google.com/system
@@ -127,209 +115,103 @@ server = /_hotspot_.m2m/system
 server = /hotspot.cslwifi.com/system
 
 # > Apple
-# refer: https://support.apple.com/zh-cn/HT210060
-doh-server = /networking.apple/https://doh.dns.apple.com/dns-query
 # Apple.com
-# doh-server = /*.apple.com/https://doh.dns.apple.com/dns-query
 # iCloud.com
-doh-server = /*.icloud.com/https://doh.dns.apple.com/dns-query
 
 # > Alphabet
-# refer: https://developers.google.com/speed/public-dns/docs/doh?hl=zh-cn
-# doh-server = /*.google/https://dns.google/dns-query
-# doh-server = /*.google.com/https://dns.google/dns-query
-# doh-server = /*.google.com.??/https://dns.google/dns-query
 # Google sites
-# doh-server = /*.goog/https://dns.google/dns-query
 # Google 静态资源
-# doh-server = /*.gstatic.com/https://dns.google/dns-query
 # Google Photos
-# doh-server = /*.ggpht.com/https://dns.google/dns-query
 # Google 用户上传数据
-# doh-server = /*.googleusercontent.com/https://dns.google/dns-query
 # Google APIs
-# doh-server = /*.googleapis.com/https://dns.google/dns-query
 # Google backbone
-# doh-server = /*.1e100.net/https://dns.google/dns-query
 # Youtube sites
-# doh-server = /*.youtube/https://dns.google/dns-query
 # Youtube
-# doh-server = /*.youtube.com/https://dns.google/dns-query
 # Youtube 图片
-# doh-server = /*.ytimg.com/https://dns.google/dns-query
 # Youtube Video
-# doh-server = /*.googlevideo.com/https://dns.google/dns-query
 # Google Video Thumbnails
-# doh-server = /*.gvt?.com/https://dns.google/dns-query
 # reCaptcha
-# doh-server = /*.recaptcha.net/https://dns.google/dns-query
 # Gmail
-# doh-server = /*.gmail.com/https://dns.google/dns-query
 # Google Source
-# doh-server = /*.googlesource.com/https://dns.google/dns-query
 # Google AD Services
-# doh-server = /*.googleadservices.com/https://dns.google/dns-query
 # DoubleClick
-# doh-server = /*.doubleclick.net/https://dns.google/dns-query
 # AdSense
-# doh-server = /*.adsense.com/https://dns.google/dns-query
 # AdSense Custom Search Ads
-# doh-server = /*.adsensecustomsearchads.com/https://dns.google/dns-query
 # AdSense for mobile apps
-# doh-server = /*.adsenseformobileapps.com/https://dns.google/dns-query
 # Google shortened URLs
-# doh-server = /*.gle/https://dns.google/dns-query
 # Google URL Shortener
-# doh-server = /goo.gl/https://dns.google/dns-query
 
 # > Cloudflare
-# refer: https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/make-api-requests/
-# doh-server = /*.cloudflare.com/https://cloudflare-dns.com/dns-query
 # Cloudflare Stream
-# doh-server = /*.cloudflarestream.com/https://cloudflare-dns.com/dns-query
 # Cloudflare Client
-# doh-server = /*.cloudflareclient.com/https://cloudflare-dns.com/dns-query
 # Cloudflare Web Analytics
-# doh-server = /*.cloudflareinsights.com/https://cloudflare-dns.com/dns-query
 # Cloudflare 1.1.1.1
-# doh-server = /*.every1dns.net/https://cloudflare-dns.com/dns-query
 # Cloudflare SSL Certificate
-# doh-server = /*.cloudflaressl.com/https://cloudflare-dns.com/dns-query
 # Cloudflare DNS
-# doh-server = /*.cloudflare-dns.com/https://cloudflare-dns.com/dns-query
 # CloudFlare Workers
-# doh-server = /*.workers.dev/https://cloudflare-dns.com/dns-query
 
 # > 阿里巴巴
-# refer: https://www.alidns.com
-doh-server = /*.alibaba.cn/https://dns.alidns.com/dns-query
-doh-server = /*.alibaba.com.cn/https://dns.alidns.com/dns-query
 # Alibaba 中国
-doh-server = /*.china.alibaba.com/https://dns.alidns.com/dns-query
 # 1688
-doh-server = /*.1688.com/https://dns.alidns.com/dns-query
 # 淘宝
-doh-server = /*.taobao.com/https://dns.alidns.com/dns-query
 # 淘宝 缓存
-doh-server = /*.tbcache.com/https://dns.alidns.com/dns-query
 # 天猫
-doh-server = /*.tmall.com/https://dns.alidns.com/dns-query
 # 阿里 CDN
-doh-server = /*.alicdn.com/https://dns.alidns.com/dns-query
 # 阿里昆仑
-doh-server = /*.alikunlun.com/https://dns.alidns.com/dns-query
 # 云引擎应用平台
-doh-server = /*.aliapp.com/https://dns.alidns.com/dns-query
 # 上云平台
-doh-server = /*.aliapp.org/https://dns.alidns.com/dns-query
 # 阿里用户上传资料
-doh-server = /*.alibabausercontent.com/https://dns.alidns.com/dns-query
 # mmstat 数据统计 广告追踪
-doh-server = /*.mmstat.com/https://dns.alidns.com/dns-query
 # 淘宝短网址
-doh-server = /tb.cn/https://dns.alidns.com/dns-query
 
 # > 阿里云
-# refer: https://www.alidns.com
 # 阿里云
-doh-server = /*.aliyun.*/https://dns.alidns.com/dns-query
 # 阿里云 CDN
-doh-server = /*.aliyuncdn.*/https://dns.alidns.com/dns-query
 # 阿里云 API 服务
-doh-server = /*.aliyuncs.com/https://dns.alidns.com/dns-query
 # 阿里云 DDoS防护
-doh-server = /*.aliyunddos????.com/https://dns.alidns.com/dns-query
 # 阿里云盘
-doh-server = /*.aliyundrive.com/https://dns.alidns.com/dns-query
 # 阿里云盾
-doh-server = /*.aliyundun.com/https://dns.alidns.com/dns-query
 # 阿里云盾 Web 应用防火墙
-doh-server = /*.aliyundunwaf.com/https://dns.alidns.com/dns-query
 # 阿里云 内部
-doh-server = /*.aliyun-inc.com/https://dns.alidns.com/dns-query
 
 # > 蚂蚁集团
-# refer: https://www.alidns.com
-doh-server = /*.antgroup.com/https://dns.alidns.com/dns-query
 # 蚂蚁金服
-doh-server = /*.antfin.com/https://dns.alidns.com/dns-query
 # 蚂蚁金服
-doh-server = /*.antfinancial.com/https://dns.alidns.com/dns-query
 # 支付宝
-doh-server = /*.alipay.com/https://dns.alidns.com/dns-query
-doh-server = /*.alipay.com.cn/https://dns.alidns.com/dns-query
 # 支付宝 HTTP DNS
-doh-server = /*.alipaydns.com/https://dns.alidns.com/dns-query
 # 支付宝 商家资源
-doh-server = /*.alipayeshop.com/https://dns.alidns.com/dns-query
 # 支付宝 Mdap
-doh-server = /*.alipaylog.com/https://dns.alidns.com/dns-query
 # 支付宝 静态资源
-doh-server = /*.alipayobjects.com/https://dns.alidns.com/dns-query
 # 支付宝 开放技术生态体系
-doh-server = /*.alipay-eco.com/https://dns.alidns.com/dns-query
 
 # > 腾讯
-# refer: https://www.dnspod.cn/products/publicdns
-doh-server = /*.tencent.com/https://doh.pub/dns-query
 # 腾讯云
-doh-server = /*.qcloud.com/https://doh.pub/dns-query
 # 腾讯云CDN
-doh-server = /*.qcloudcdn.cn/https://doh.pub/dns-query
-doh-server = /*.qcloudcdn.com/https://doh.pub/dns-query
 # 腾讯云对象储存
-doh-server = /*.qcloudcos.com/https://doh.pub/dns-query
 # 腾讯云静态资源
-doh-server = /*.qcloudimg.com/https://doh.pub/dns-query
 # 腾讯云超级管家
-doh-server = /*.qcloudcjgj.com/https://doh.pub/dns-query
 # 腾讯云网站管家
-doh-server = /*.qcloudwzgj.com/https://doh.pub/dns-query
 # 腾讯云主页管家
-doh-server = /*.qcloudzygj.com/https://doh.pub/dns-query
 # 腾讯开放云
-doh-server = /*.myqcloud.com/https://doh.pub/dns-query
 # 腾讯云
-doh-server = /*.tencent-cloud.net/https://doh.pub/dns-query
 # 腾讯云aiot解决方案
-doh-server = /*.tencentcloud-aiot.com/https://doh.pub/dns-query
 # 腾讯云API
-doh-server = /*.tencentcloudapi.com/https://doh.pub/dns-query
 # 腾讯云容器镜像服务TCR
-doh-server = /*.tencentcloudcr.com/https://doh.pub/dns-query
 # 腾讯云云市场
-doh-server = /*.tencentcloudmarket.com/https://doh.pub/dns-query
 # QQ
-doh-server = /*.qq.com/https://doh.pub/dns-query
 # 腾讯头像
-doh-server = /*.qlogo.cn/https://doh.pub/dns-query
 # 腾讯图片
-doh-server = /*.qpic.cn/https://doh.pub/dns-query
 # 微信
-doh-server = /*.weixin.qq.com/https://doh.pub/dns-query
-doh-server = /*.wx.qq.com/https://doh.pub/dns-query
-doh-server = /*.weixin.com/https://doh.pub/dns-query
 # 微信公众平台
-doh-server = /*.weixinbridge.com/https://doh.pub/dns-query
 # WeChat
-doh-server = /*.wechat.com/https://doh.pub/dns-query
 # 微信小程序
-doh-server = /*.servicewechat.com/https://doh.pub/dns-query
 # 微云
-doh-server = /*.weiyun.com/https://doh.pub/dns-query
 # 腾讯 图片 静态资源
-doh-server = /*.gtimg.cn/https://doh.pub/dns-query
-doh-server = /*.idqqimg.com/https://doh.pub/dns-query
 # 腾讯 静态资源 CDN
-doh-server = /*.cdn-go.cn/https://doh.pub/dns-query
 # 腾讯云 智能云解析DNS
-doh-server = /*.smtcdns.com/https://doh.pub/dns-query
-doh-server = /*.smtcdns.net/https://doh.pub/dns-query
 # 腾讯短网址
-doh-server = /url.cn/https://doh.pub/dns-query
 
 # > 百度
-# refer: https://dudns.baidu.com/support/localdns/Address/index.html
 server = /*.baidu/180.76.76.76
 server = /*.baidu.com/180.76.76.76
 # 百度 静态资源
@@ -365,41 +247,21 @@ server = /*.bcehosts.com/180.76.76.76
 server = /dwz.cn/180.76.76.76
 
 # > 360
-# refer: https://sdns.360.net/dnsPublic.html#course
 # 360安全中心
-doh-server = /*.360.cn/https://doh.360.cn/dns-query
 # 360安全卫士
-doh-server = /*.360safe.com/https://doh.360.cn/dns-query
 # 360快资讯
-doh-server = /*.360kuai.com/https://doh.360.cn/dns-query
 # 360搜索
-doh-server = /*.so.com/https://doh.360.cn/dns-query
 # 360网页快照服务
-doh-server = /*.360webcache.com/https://doh.360.cn/dns-query
 # 奇虎api
-doh-server = /*.qihuapi.com/https://doh.360.cn/dns-query
 # 360图床
-doh-server = /*.qhimg.com/https://doh.360.cn/dns-query
-doh-server = /*.qhimgs.com/https://doh.360.cn/dns-query
-doh-server = /*.qhimgs?.com/https://doh.360.cn/dns-query
 # 360
-doh-server = /*.qhmsg.com/https://doh.360.cn/dns-query
 # 奇虎静态资源
-doh-server = /*.qhres.com/https://doh.360.cn/dns-query
-doh-server = /*.qhres?.com/https://doh.360.cn/dns-query
 # 导航静态文件
-doh-server = /*.dhrest.com/https://doh.360.cn/dns-query
 # 360
-doh-server = /*.qhupdate.com/https://doh.360.cn/dns-query
 # 360安全云盘
-doh-server = /*.yunpan.cn/https://doh.360.cn/dns-query
-doh-server = /*.yunpan.com.cn/https://doh.360.cn/dns-query
-doh-server = /*.yunpan.com/https://doh.360.cn/dns-query
 # 360短网址
-doh-server = /urlqh.cn/https://doh.360.cn/dns-query
 
 # > Bytedance
-# refer: https://www.volcengine.com/docs/6758/179060
 # 艾特迷
 server = /*.amemv.com/180.184.1.1
 # 西瓜 图片服务
@@ -479,19 +341,12 @@ server = /*.zjcdn.com/180.184.1.1
 
 # > BiliBili
 # BiliBili upos视频服务器（阿里云）
-doh-server = /upos-sz-mirrorali.bilivideo.com/https://dns.alidns.com/dns-query
-doh-server = /upos-sz-mirrorali?.bilivideo.com/https://dns.alidns.com/dns-query
-doh-server = /upos-sz-mirrorali??.bilivideo.com/https://dns.alidns.com/dns-query
 # BiliBili upos视频服务器（百度云）
 server = /upos-sz-mirrorbos.bilivideo.com/180.76.76.76
 # BiliBili upos视频服务器（腾讯云）
-doh-server = /upos-sz-mirrorcos.bilivideo.com/https://doh.pub/dns-query
-doh-server = /upos-sz-mirrorcos?.bilivideo.com/https://doh.pub/dns-query
-doh-server = /upos-sz-mirrorcos??.bilivideo.com/https://doh.pub/dns-query
 # BiliBili upos视频服务器（百度云）
 server = /upos-sz-upcdnbd??.bilivideo.com/180.76.76.76
 # BiliBili upos视频服务器（腾讯云）
-doh-server = /upos-sz-upcdntx.bilivideo.com/https://doh.pub/dns-query
 
 # > 🇨🇳 CHN
 # CNNIC SDNS
@@ -531,18 +386,12 @@ doh-server = /upos-sz-upcdntx.bilivideo.com/https://doh.pub/dns-query
 
 # > 🇹🇼 TWN
 # 中华电信
-doh-server = /*.cht.com.tw/https://dns.hinet.net/dns-query
 # 中华电信HiNet
-doh-server = /*.hinet.net/https://dns.hinet.net/dns-query
 # 中华电信emome
-doh-server = /*.emome.net/https://dns.hinet.net/dns-query
 # So-net Entertainment Taiwan
 # server = /*.so-net.net.tw/ns1.so-net.net.tw
 # server = /*.so-net.tw/ns1.so-net.net.tw
 # Taiwan Network Information Center
-doh-server = /*.tw/https://dns.twnic.tw/dns-query
-doh-server = /*.taipei/https://dns.twnic.tw/dns-query
 
 # > 🇺🇸 USA
 # Hurricane Electric
-doh-server = /*.he.net/https://ordns.he.net/dns-query

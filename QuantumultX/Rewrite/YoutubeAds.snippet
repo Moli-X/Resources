@@ -1,4 +1,3 @@
-# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf
 ########################################
 #应用名称：  Youtube Block AD
 #脚本作者：  @DivineEngine, @app2smile, @Maasea, @VirgilClyne
@@ -6,11 +5,6 @@
 #使用说明：  用于视频、瀑布流、搜索、播放页、短视频及贴片广告、视频自动PIP、后台播放、自动翻译，不适用允许 UDP 转发的节点及 Premium
 #使用说明：  如果视频广告仍然存在，请在QuantumultX配置文件的[general]下添加 udp_drop_list=443
 #隐藏技能：  点开Youtube视频的瞬间，退出APP，即可无PIP播放，适合单纯听音频的用户
-#通知频道：  https://t.me/ddgksf2021
-#原始仓库：  https://github.com/DivineEngine
-#原始仓库：  https://github.com/Maasea
-#原始仓库：  https://github.com/app2smile
-#重写地址：  https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/YoutubeAds.conf
 ########################################
 
 hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
@@ -21,7 +15,6 @@ hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.yout
 
 
 # ======= 视频PIP|后台播放|瀑布流|搜索页|播放页|短视频|贴片广告  ======= #
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/refs/heads/master/Script/Youtube/youtube.response.js
 
 
 # ======= 通用广告请求 ======= #

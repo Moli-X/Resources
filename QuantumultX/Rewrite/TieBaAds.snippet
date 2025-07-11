@@ -1,18 +1,3 @@
-# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/TieBaAds.conf
-// ==UserScript==
-// @ScriptName        百度贴吧净化[墨鱼版]
-// @Author            @app2smile, @ddgksf2013
-// @Attention         QX(Build ≥ 848, Version > 1.5.2)
-// @WechatID          墨鱼手记
-// @TgChannel         https://t.me/ddgksf2021
-// @Contribute        https://t.me/ddgksf2013_bot
-// @Feedback          📮 ddgksf2013@163.com 📮
-// @UpdateTime        2025-05-13
-// @Suitable          自行观看“# > ”注释内容
-// @Attention         如需引用请注明出处，谢谢合作！
-// @Version           V1.0.03
-// @RewriteURL        https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/TieBaAds.conf
-// ==/UserScript==
 
 
 
@@ -33,4 +18,3 @@ IP-CIDR,180.76.76.200/32,REJECT
 # > 页面中部广告@ddgksf2013
 ^https?:\/\/tieba(c)?\.baidu\.com\/c\/f\/ad\/getFeedAd url reject-200
 # > 贴吧proto处理@app2smile
-^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js

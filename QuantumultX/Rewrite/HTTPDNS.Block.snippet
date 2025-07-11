@@ -1,9 +1,6 @@
-# 原链接 : https://github.com/VirgilClyne/GetSomeFries/raw/main/snippet/HTTPDNS.Block.snippet
 #!name=🍟 Fries: 🚫 Block HTTPDNS
 #!desc=阻止常见的 HTTPDNS 服务器
 #!author=VirgilClyne[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
-#!homepage=https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/HTTPDNS.Block.snippet
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 #!category=🍟 Fries
 
 #[rewrite_local]
@@ -68,16 +65,12 @@
 ^http:\/\/2402:4e00:1411:201:0:9964:ba21:5a41\/d - reject
 
 # QCloud
-# refer: https://mc.qcloudimg.com/static/qc_doc/d39d48b733835af8a2e223115ac67da7/doc-HttpDNS-Getting+Started.pdf
-# refer: https://main.qcloudimg.com/raw/document/product/pdf/379_3513_cn.pdf
-# refer: https://cloud.tencent.com/document/product/379/61200
 ^https?:\/\/119\.29\.29\.29\/d url reject
 
 # QQmusic
 ^http:\/\/182\.256\.116\.116\/d url reject
 
 # Weibo
-# refer: https://github.com/CNSRE/HTTPDNSLib-for-iOS
 ^http:\/\/api\.weibo\.cn\/2\/httpdns\/config url reject
 ^http:\/\/api\.weibo\.cn\/httpdns\/config url reject
 
@@ -89,12 +82,10 @@
 ^https?:\/\/hkextshort\.weixin\.qq\.com\/cgi-bin\/micromsg-bin\/getcdndns url reject
 
 # Wework
-# refer: https://res.mail.qq.com/zh_CN/wework_ip/latest.html
 ^http:\/\/182\.254\.116\.117\/d url reject
 ^http:\/\/182\.254\.118\.119\/d url reject
 
 # Zhihu
-# refer: https://github.com/lwd-temp/anti-ip-attribution/issues/24
 ^http:\/\/103\.41\.167\.237\/v2\/resolv url reject
 
 #[MITM]

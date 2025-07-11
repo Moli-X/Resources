@@ -1,4 +1,3 @@
-# 原链接 : https://github.com/ddgksf2013/Rewrite/raw/master/UnlockVip/Spotify.conf
 ########################################
 #应用名称：  SpotifyVip
 #脚本作者：  app2smile
@@ -6,14 +5,8 @@
 #使用说明：  解锁部分premium,音质不能设置为超高
 #使用步骤：  ✅登录后再打开脚本,重启app等待脚本生效
 #脚本功能：  1.去除播放广告；2.歌手/专辑列表正常展示；3.去除随机播放
-#通知频道：  https://t.me/ddgksf2021
-#作者库地：  https://github.com/app2smile/rules
-#脚本地址：  https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/UnlockVip/Spotify.conf
 ########################################
 
 
 hostname = *.spotify.com
 
-^https?:\/\/[a-zA-Z0-9._-]+\.spotify\.com(:\d+)?\/user-customization-service\/v\d\/customize$ url script-request-header https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-qx-header.js
-^https?:\/\/[a-zA-Z0-9._-]+\.spotify\.com(:\d+)?\/(bootstrap\/v\d\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-proto.js
-^https?:\/\/[a-zA-Z0-9._-]+\.spotify\.com(:\d+)?\/(artistview\/v\d\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-json.js

@@ -483,8 +483,8 @@ jobs:
           if [ "$file" ] ; then
 
             # 修改以 .js 结尾的脚本链接，删除一个文件夹部分
-            sed -i 's|https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/.*/\([^/]*\.js\)|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Script/\1|' "$file"
-
+            # sed -i 's|https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/.*/\([^/]*\.js\)|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Script/\1|' "$file"
+            sed -i 's|https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/\(.*\)/\([^/]*\.js\)|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Script/\2|' "$file"
             # 修改 #!homepage 行（处理等号前可能有空格的情况）
             sed -i 's|#!homepage\s*=\s*.*|#!homepage=https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/'"$file"'|g' "$file"
 

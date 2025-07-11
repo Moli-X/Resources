@@ -1,6 +1,6 @@
 # 更新日期：2024-12-20
 
-name: ForkMaster & EditMaster
+name: Fork1 & Edit1
 
 on:
   workflow_dispatch:
@@ -54,7 +54,7 @@ jobs:
                 > "$output_file"
                 for url in "${urls[@]}"; do
                     echo "Downloading: $url"
-                    curl -f -L "$url" >> "$output_file" || { echo "Download Failed: $url"; exit 1; }
+                    curl -v -f -L "$url" >> "$output_file" || { echo "Download Failed: $url"; exit 1; }
                     echo "" >> "$output_file"
                 done
             }

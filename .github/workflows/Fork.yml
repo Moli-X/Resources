@@ -159,12 +159,12 @@ jobs:
             # 下载文件
             for filename in "${!files[@]}"; do
                 echo "Downloading: ${files[$filename]}"
-                curl -A "Surge iOS/3367" -f -L -o "Tool-repo/Ruleset/$filename.list" "${files[$filename]}" || { echo "Download Failed: ${files[$filename]}"; exit 1; }
+                curl -A "Surge iOS/3367" -f -L -o "Resources-repo/Ruleset/$filename.list" "${files[$filename]}" || { echo "Download Failed: ${files[$filename]}"; exit 1; }
             done
         
             echo "Files downloaded successfully."
         else
-            echo "Unknown repository. Please run this script in the Tool repository."
+            echo "Unknown repository. Please run this script in the Resources repository."
             exit 1
         fi
 

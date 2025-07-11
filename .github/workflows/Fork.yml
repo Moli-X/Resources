@@ -464,7 +464,7 @@ jobs:
         for file in *.plugin; do
           if [ -f "$file" ]; then
             # 提取链接
-            grep -o 'https://kelee\.one/Resource/Script/[^ ]*\.js' "$file" | while read -r script_url; do
+            grep -o 'https://kelee\.one/Resource/JavaScript/[^ ]*\.js' "$file" | while read -r script_url; do
               script_name=$(basename "$script_url")
     
               # 确保下载目录存在

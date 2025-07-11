@@ -1,6 +1,6 @@
 # 更新日期：2024-12-20
 
-name: Fork1 & Edit1
+name: Fork & Edit
 
 on:
   workflow_dispatch:
@@ -437,11 +437,11 @@ jobs:
         # 下载插件并在文件中添加原链接
         for Rewrite_name in "${!Rewrites[@]}"; do
             url="${Rewrites[$Rewrite_name]}"
-            curl -A "Surge iOS/3367" -L -o "Resources-repo/QuantumultX/Rewrite/${Rewrite_name}.snippet" "$url"
+            curl -A "Surge iOS/3367" -L -o "Resources-repo/QuantumultX/Rewrite/${Rewrite_name}.conf" "$url"
             
             # 将原链接添加到文件开头
-           # echo "# 原链接 : $url" | cat - "Tool-repo/QuantumultX/Rewrite/Kelee/$Rewrite_name.snippet" > temp && mv temp "Tool-repo/QuantumultX/Rewrite/Kelee/$Rewrite_name.snippet"
-            sed -i "1s|^|# 原链接 : $url\n|" "Resources-repo/QuantumultX/Rewrite/$Rewrite_name.snippet"  # 在文件开头添加原链接
+           # echo "# 原链接 : $url" | cat - "Tool-repo/QuantumultX/Rewrite/Kelee/$Rewrite_name.conf" > temp && mv temp "Tool-repo/QuantumultX/Rewrite/Kelee/$Rewrite_name.conf"
+            sed -i "1s|^|# 原链接 : $url\n|" "Resources-repo/QuantumultX/Rewrite/$Rewrite_name.conf"  # 在文件开头添加原链接
         done
 
         # 删除 error.log 文件
@@ -457,7 +457,7 @@ jobs:
         cd Resources-repo/QuantumultX/Rewrite
     
         # 遍历 .Rewrite 文件并提取 .js 链接
-        for file in *.snippet; do
+        for file in *.conf; do
           if [ -f "$file" ]; then
             # 提取链接
             grep -o 'https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/[^ ]*\.js' "$file" | while read -r script_url; do
@@ -479,7 +479,7 @@ jobs:
       run: |
         mkdir -p Resources-repo/QuantumultX/Rewrite
         cd Resources-repo/QuantumultX/Rewrite  # 进入 Rewrite 目录
-        for file in *.snippet; do
+        for file in *.conf; do
           if [ "$file" ] ; then
 
             # 修改以 .js 结尾的脚本链接，删除一个文件夹部分

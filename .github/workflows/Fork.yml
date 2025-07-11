@@ -51,10 +51,11 @@ jobs:
                 local output_file="$1"
                 shift
                 local urls=("$@")
+                mkdir -p "$(dirname "$output_file")"
                 > "$output_file"
                 for url in "${urls[@]}"; do
                     echo "Downloading: $url"
-                    curl -v -f -L "$url" >> "$output_file" || { echo "Download Failed: $url"; exit 1; }
+                    curl -f -L "$url" >> "$output_file" || { echo "Download Failed: $url"; exit 1; }
                     echo "" >> "$output_file"
                 done
             }

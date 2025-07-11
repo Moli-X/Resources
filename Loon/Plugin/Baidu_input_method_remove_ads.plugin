@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Baidu_input_method_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Baidu_input_method_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Baidu_input_method.png
 #!date=2025-05-13 15:17:08
 
@@ -22,7 +22,7 @@
 ^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info) reject-dict
 
 [Script]
-http-response ^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata)) script-path=https://kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js, requires-body=true, tag=百度输入法去广告
+http-response ^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata)) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Baidu_input_method_remove_ads.js, requires-body=true, tag=百度输入法去广告
 
 [MitM]
 hostname=imeres.baidu.com, mbd.baidu.com, mime.baidu.com

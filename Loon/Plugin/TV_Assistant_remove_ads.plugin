@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/TV_Assistant_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/TV_Assistant_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TV_Assistant.png
 #!date=2025-05-13 15:17:08
 
@@ -19,7 +19,7 @@
 ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app-user-banner reject-dict
 
 [Script]
-http-response ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_tab_red_dot\?user-tag=1$ script-path=https://kelee.one/Resource/JavaScript/TV_Assistant/TV_Assistant_remove_ads.js, requires-body=true, tag=移除底栏视频标签
+http-response ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_tab_red_dot\?user-tag=1$ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/TV_Assistant_remove_ads.js, requires-body=true, tag=移除底栏视频标签
 
 [MitM]
 hostname=saas.hpplay.cn

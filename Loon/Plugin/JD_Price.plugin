@@ -7,14 +7,14 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/JD_Price.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/JD_Price.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/JD.png
 #!date=2025-05-15 05:41:50
 
 [Script]
-http-request ^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$ script-path=https://kelee.one/Resource/JavaScript/JD/JD_Price.js, requires-body=true, timeout=10, tag=捕获令牌
+http-request ^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/JD_Price.js, requires-body=true, timeout=10, tag=捕获令牌
 
-http-response ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path=https://kelee.one/Resource/JavaScript/JD/JD_Price.js, requires-body=true, timeout=10, tag=京东比价
+http-response ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/JD_Price.js, requires-body=true, timeout=10, tag=京东比价
 
 [MitM]
 hostname=in.m.jd.com, apapia-sqk-weblogic.manmanbuy.com

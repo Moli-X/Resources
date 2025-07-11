@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Tencent_Video_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Tencent_Video_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Tencent_Video.png
 #!date=2025-05-13 15:17:08
 
@@ -33,7 +33,7 @@ URL-REGEX, "^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\
 ^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind reject-dict
 
 [Script]
-http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo script-path=https://kelee.one/Resource/JavaScript/CommonScript/replace-body.js, requires-body=true, argument="&sppreviewtype=\d(.*)&spsrt=\d->&sppreviewtype=0$1&spsrt=0", tag=移除广告
+http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/replace-body.js, requires-body=true, argument="&sppreviewtype=\d(.*)&spsrt=\d->&sppreviewtype=0$1&spsrt=0", tag=移除广告
 
 [MitM]
 hostname=vv.video.qq.com

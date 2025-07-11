@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/FollowRSS_checkin.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/FollowRSS_checkin.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/FollowRSS.png
 #!date=2025-05-13 15:17:08
 
@@ -17,7 +17,7 @@ cookie=input, "", tag=Cookie, desc=这里需要输入Cookie的值
 cron=input, "0 1 * * *", tag=定时参数, desc=这里需要输入符合CRON表达式的参数
 
 [Script]
-cron {cron} script-path=https://kelee.one/Resource/JavaScript/FollowRSS/FollowRSS_checkin.js, tag=Follow每日签到, timeout=120, argument=[{token},{cookie}]
+cron {cron} script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/FollowRSS_checkin.js, tag=Follow每日签到, timeout=120, argument=[{token},{cookie}]
 
 [MitM]
 hostname=api.follow.is

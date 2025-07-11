@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/IThome_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/IThome_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/IThome.png
 #!date=2025-05-13 15:17:08
 
@@ -20,7 +20,7 @@ removeBannerSwitch=switch, "true", "false", tag=移除轮播图, desc=移除轮�
 ^https?:\/\/dat\.ruanmei\.com\/ithome\/money\/acd\.json$ reject
 
 [Script]
-http-response ^https:\/\/napi\.ithome\.com\/api\/(?:news\/index|topmenu\/getfeeds\?|api\/douyin\/GetLiveInfo) script-path=https://kelee.one/Resource/JavaScript/IThome/IThome_remove_ads.js, requires-body=true, tag=IT之家去广告, argument=[{removeTopSwitch},{removeBannerSwitch}]
+http-response ^https:\/\/napi\.ithome\.com\/api\/(?:news\/index|topmenu\/getfeeds\?|api\/douyin\/GetLiveInfo) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/IThome_remove_ads.js, requires-body=true, tag=IT之家去广告, argument=[{removeTopSwitch},{removeBannerSwitch}]
  
 [MitM]
 hostname=napi.ithome.com, api.zuihuimai.com, dat.ruanmei.com

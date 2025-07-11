@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/KuaiKanComic_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/KuaiKanComic_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/KuaiKanComic.png
 #!date=2025-05-13 15:17:08
 
@@ -49,13 +49,13 @@ DOMAIN, ipv4.kkmh.com, REJECT
 ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/checkin\/task_center\/get_by_task_type reject-dict
 
 [Script]
-http-response ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/comic\/recommend script-path=https://kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js, requires-body=true, tag=修改广告参数
+http-response ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/comic\/recommend script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KuaiKanComic_remove_ads.js, requires-body=true, tag=修改广告参数
 
-http-response ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/discovery_v\d\/tab_list_v\d script-path=https://kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简首页热门标签
+http-response ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/discovery_v\d\/tab_list_v\d script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简首页热门标签
 
-http-response ^https:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/homepage\/comicVideo\/v\d\/configs script-path=https://kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简社区标签
+http-response ^https:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/homepage\/comicVideo\/v\d\/configs script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简社区标签
 
-http-response ^https:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/unified_feed$ script-path=https://kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简社区信息流
+http-response ^https:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/unified_feed$ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简社区信息流
 
 [MitM]
 hostname=api.kkmh.com, cdn-api.kkmh.com, social.kkmh.com, cdn-social.kkmh.com, h5.kuaikanmanhua.com, cdn-h5.kuaikanmanhua.com, pay.kkmh.com, cdn-pay.kkmh.com, shop.kkmh.com, cdn-shop.kkmh.com, topic.kkmh.com, cdn-topic.kkmh.com

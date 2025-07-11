@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Weibo_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Weibo_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Weibo.png
 #!date=2025-07-04 16:37:41
 
@@ -43,43 +43,43 @@ DOMAIN-SUFFIX, biz.weibo.com, REJECT
 ^https:\/\/weibo\.com\/ttarticle\/x\/m\/aj\/(?:reward|uvead) reject-dict
 
 [Script]
-http-response ^https:\/\/api\.weibo\.cn\/2\/(?:checkin\/show|client\/publisher_list|push\/active) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除首页推广
+http-response ^https:\/\/api\.weibo\.cn\/2\/(?:checkin\/show|client\/publisher_list|push\/active) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除首页推广
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\/v2\? script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除首页顶部标签
+http-response ^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\/v2\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除首页顶部标签
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/(?:cardlist|page) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除信息流广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/(?:cardlist|page) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除信息流广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\? script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除评论区广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除评论区广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/(?:container\/asyn|flowlist|flowpage) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除个人微博详情页广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/(?:container\/asyn|flowlist|flowpage) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除个人微博详情页广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/friendships\/(?:create|destroy) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除关注、取消关注弹窗
+http-response ^https:\/\/api\.weibo\.cn\/2\/friendships\/(?:create|destroy) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除关注、取消关注弹窗
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/(?:container_timeline|dealatt|me|statuses\/tab|userinfo) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除个人主页广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/(?:container_timeline|dealatt|me|statuses\/tab|userinfo) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除个人主页广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/shproxy\/chaohua\/discovery\/searchactive\? script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除超话搜索页广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/shproxy\/chaohua\/discovery\/searchactive\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除超话搜索页广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:container_timeline(?:_hot|_topic|_topicpage|_unread)?|repost_timeline|unread_hot_timeline) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除信息流广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:container_timeline(?:_hot|_topic|_topicpage|_unread)?|repost_timeline|unread_hot_timeline) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除信息流广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:extend|show) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除微博详情页广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:extend|show) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除微博详情页广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/video\/(?:full_screen_stream|tiny_stream_mid_detail|tiny_stream_video_list)\? script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除视频流广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/video\/(?:full_screen_stream|tiny_stream_mid_detail|tiny_stream_video_list)\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除视频流广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\? script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除超话顶部标签
+http-response ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除超话顶部标签
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\? script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除消息页列表广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除消息页列表广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\? script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除消息页提醒
+http-response ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除消息页提醒
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/search\/(?:container_timeline|finder) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除热门微博信息流广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/search\/(?:container_timeline|finder) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除热门微博信息流广告
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/searchall\? script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除发现页搜索结果广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/searchall\? script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除发现页搜索结果广告
 
-http-response ^https:\/\/bootpreload\.uve\.weibo\.com\/v[12]\/ad\/preload script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 preload
+http-response ^https:\/\/bootpreload\.uve\.weibo\.com\/v[12]\/ad\/preload script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 preload
 
-http-response ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 sdkad
+http-response ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 sdkad
 
-http-response ^https:\/\/wbapp\.uve\.weibo\.com\/(?:preload\/get_ad|wbapplua\/wbpullad\.lua) script-path=https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 wbapplua
+http-response ^https:\/\/wbapp\.uve\.weibo\.com\/(?:preload\/get_ad|wbapplua\/wbpullad\.lua) script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 wbapplua
 
 [MitM]
 hostname=*.weibo.cn, *.weibo.com, weibo.com

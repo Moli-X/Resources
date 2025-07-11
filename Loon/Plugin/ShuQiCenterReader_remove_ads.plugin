@@ -7,7 +7,7 @@
 #!system=
 #!system_version=
 #!loon_version=3.2.4(787)
-#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/ShuQiCenterReader_remove_ads.plugin
+#!homepage=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/ShuQiCenterReader_remove_ads.plugin
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/ShuQiCenterReader.png
 #!date=2025-05-13 15:17:08
 
@@ -22,7 +22,7 @@ DOMAIN, render-web.11222.cn, REJECT
 ^https:\/\/ocean\.shuqireader\.com\/api\/render\/load\/resource reject
 
 [Script]
-http-response ^https:\/\/ocean\.shuqireader\.com\/sqios\/render\/render\/page\/bookstore$ script-path=https://kelee.one/Resource/JavaScript/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js, requires-body=true, tag=移除书城横幅和阅读广告
+http-response ^https:\/\/ocean\.shuqireader\.com\/sqios\/render\/render\/page\/bookstore$ script-path=https://github.com/Moli-X/Resource/raw/Master/Loon/Plugin/Script/ShuQiCenterReader_remove_ads.js, requires-body=true, tag=移除书城横幅和阅读广告
 
 [MitM]
 hostname=ocean.shuqireader.com, huichuan.sm.cn

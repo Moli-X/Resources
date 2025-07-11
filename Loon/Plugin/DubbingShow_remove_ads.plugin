@@ -1,0 +1,28 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/DubbingShow_remove_ads.lpx
+#!name=配音秀去广告
+#!desc=移除开屏广告、弹窗、横幅、各类关注推荐。
+#App链接=https://apps.apple.com/app/id746925035
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/DubbingShow_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/DubbingShow.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+首页 - 推荐 - 语聊横幅
+^https:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList response-body-json-del data.banners
+
+^https:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList response-body-json-del obj.data
+
+^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers response-body-json-del obj.data
+
+^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData response-body-json-del obj.data
+
+[Script]
+http-response ^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue script-path=https://kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js, requires-body=true, tag=移除首页底部弹窗
+
+[MitM]
+hostname=iosapi.peiyinxiu.com

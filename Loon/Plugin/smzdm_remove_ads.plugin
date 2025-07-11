@@ -1,0 +1,60 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx
+#!name=什么值得买去广告
+#!desc=移除开屏广告、信息流广告、各类横幅广告、搜索页广告，移除活动皮肤，精简我的页面。
+#App链接=https://apps.apple.com/app/id518213356
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/smzdm_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/smzdm.png
+#!date=2025-06-29 18:19:35
+
+[Rule]
+DOMAIN, adx-api.zdmimg.com, REJECT
+
+[Rewrite]
+^https:\/\/app-api\.smzdm\.com\/util\/loading\? reject-dict
+
+^https:\/\/app-api\.smzdm\.com\/util\/update$ response-body-json-replace data.silence_local_push 0 data.baichuan_redirect_switch 0
+
+^https:\/\/app-api\.smzdm\.com\/util\/update$ response-body-json-del data.silence_local_push_msg data.video_cache_num_configs data.haojia_widget data.widget data.operation_float
+
+^https:\/\/app-api\.smzdm\.com\/util\/update$ response-body-json-jq 'def r: if type=="object" then if has("ad_campaign_name") and (.ad_campaign_name|type=="string") and (.ad_campaign_name|test("\\S")) then empty else . end elif type=="array" then map(r) else . end; .data.operation_float |= map(map(r))'
+
+^https:\/\/homepage-api\.smzdm\.com\/v3\/home\? response-body-json-jq jq-path="https://kelee.one/Resource/JQLang/smzdm/home_smzdm_remove_ads.jq"
+
+^https:\/\/app-api\.smzdm\.com\/mychannel\/list$ reject-dict
+
+^https:\/\/h5\.smzdm\.com\/user\/coupon\/coupon_list\? reject
+
+^https:\/\/haojia-api\.smzdm\.com\/home\/list\? response-body-json-del data.header_operation.theme
+
+^https:\/\/haojia-api\.smzdm\.com\/home\/list\? response-body-json-jq '.data.rows |= map(select(.cell_type == "39001")) | .data.banner_v2 |= map(select(.cell_type == "21028"))'
+
+^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul\? response-body-json-del data.super_coupon
+
+^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul\? response-body-json-del data.banner
+
+^https:\/\/user-api\.smzdm\.com\/vip$ response-body-json-del data.activity_entrance_info data.big_banner data.top_banner data.banner_switch
+
+^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\? reject-dict
+
+^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? reject-dict
+
+^https:\/\/s-api\.smzdm\.com\/sou\/search_default_keyword\? reject-dict
+
+^https:\/\/s-api\.smzdm\.com\/sou\/list_v10\? response-body-json-jq '.data.rows |= map(select(.model_type != "ads")) | .data.top_aladdin |= map(select(has("ad") | not))'
+
+^https:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags\? response-body-json-del data.search_faxian data.tonglan data.hongbao
+
+^https:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags\? response-body-json-jq '.data.search_hot.home |= map(select(.article_tag.article_title != "广告"))'
+
+^https:\/\/s-api\.smzdm\.com\/sou\/popup_coupon\? reject-dict
+
+^https:\/\/haojia-api\.smzdm\.com\/detail\/\d+\? response-body-json-del data.quan_log
+^https:\/\/haojia-cdn\.smzdm\.com\/preload\/\d+\/fiphone\/v\d+_\d+_\d+\/wx\d+\/im\d+\/[0-9a-z]+\/[0-9a-z]+\.json$ response-body-json-del data.quan_log
+
+[MitM]
+hostname=app-api.smzdm.com, homepage-api.smzdm.com, h5.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, user-api.smzdm.com, article-api.smzdm.com, s-api.smzdm.com, haojia-cdn.smzdm.com

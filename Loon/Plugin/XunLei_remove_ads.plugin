@@ -1,0 +1,20 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/XunLei_remove_ads.lpx
+#!name=迅雷去广告
+#!desc=移除开屏广告、首页横幅广告、左上角广告入口，精简我的页面。
+#App链接=https://apps.apple.com/app/id1503466530
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/XunLei_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/XunLei.png
+#!date=2025-07-10 21:25:29
+
+[Rewrite]
+^https:\/\/conf-m-ssl\.xunlei\.com\/external\/ response-body-json-del values.me_config.entrance_list_vertical_enable values.me_config.common_service_list values.me_config.banner_service_list
+
+^https:\/\/api-shoulei-ssl\.xunlei\.com\/flowhub\/v1\/slots:batchGet$ response-body-json-jq '.slots |= map(select(.id == "xl_ios_mytab_vipicon" or (.native.assets.title.text.value? and (.native.assets.title.text.value | . == "清理助手" or . == "云盘容量" or . == "远程设备"))))'
+
+[MitM]
+hostname=conf-m-ssl.xunlei.com, api-shoulei-ssl.xunlei.com

@@ -1,0 +1,31 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx
+#!name=瑞幸咖啡去广告
+#!desc=移除开屏广告、弹窗和各类横幅推广。
+#App链接=https://apps.apple.com/app/id1296749505
+#!author=Sliverkiss[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/LuckinCoffee_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/LuckinCoffee.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/growUp\/calendarList reject
+
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/promotion\/giftCard\/topPage reject
+
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/base\/myLittleLuck reject
+
+^https:\/\/capi\.lkcoffee\.com\/resource\/core\/v2\/menu\/ordinaryUserLayeredArea reject
+
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/common\/modules reject
+
+^https:\/\/capi\.lkcoffee\.com\/resource\/core\/v2\/homepage\/homePageCoffeeList reject
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList reject
+
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/app\/adposNew reject
+
+[MitM]
+hostname=capi.lkcoffee.com

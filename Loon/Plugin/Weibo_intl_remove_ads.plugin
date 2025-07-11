@@ -1,0 +1,36 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx
+#!name=微博轻享版去广告
+#!desc=移除开屏广告、时间线广告及评论区广告，移除发现页面横幅推广、最常访问、主页访客及热门视频，移除搜索填充词。
+#App链接=https://apps.apple.com/app/id1215210046
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Weibo_intl_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Weibo_intl.png
+#!date=2025-07-09 14:07:46
+
+[Rewrite]
+^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload$ reject-dict
+
+^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=trends response-body-json-del data.banner data.user_footprint data.profile_accessrecord data.native_content
+^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=trends response-body-json-jq '.data.discover |= map(select(.schema != "尊享会员"))'
+
+^https:\/\/api\.weibo\.cn\/2\/cardlist\?v_f=2 reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/ad\/ reject-dict
+^https:\/\/api\.weibo\.cn\/2\/statuses\/friends\/timeline$ response-body-json-del advertises ad ad_version_2_weibo
+^https:\/\/api\.weibo\.cn\/2\/statuses\/friends\/timeline$ response-body-json-jq '.statuses|=map(select(.ad_marked!=true))'
+
+^https:\/\/api\.weibo\.cn\/2\/statuses\/unread_hot_timeline$ response-body-json-del ad ad_version_2_weibo
+^https:\/\/api\.weibo\.cn\/2\/statuses\/unread_hot_timeline$ response-body-json-jq '.statuses|=map(select(.ad_marked!=true))'
+
+^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\? response-body-json-jq '.datas[].data.ad_from_comment? = true'
+
+^https:\/\/api\.weibo\.cn\/2\/cardlist\?aid= response-body-json-jq '.cards |= map(select((.mblog?|(.ad_marked?|type=="boolean")and.ad_marked==true)or(.card_group?|type=="array"and any(.[]?;.mblog?|(.ad_marked?|type=="boolean")and.ad_marked==true))|not))'
+
+^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_searching_info reject-dict
+
+[MitM]
+hostname=bootpreload.uve.weibo.com, weibointl.api.weibo.cn, api.weibo.cn

@@ -1,0 +1,20 @@
+# 原链接 : https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/General.plugin
+#!name=🍟 Fries: 🌐 General Enhanced
+#!desc=(📱 iOS版) 1.添加跳过代理部分段内容 2.添加返回真实IP段内容 3.添加不可MitM的域名，防止打断连接
+#!author=VirgilClyne[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/General.plugin
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bypass.png
+#!category=🍟 Fries
+
+[General]
+# > 跳过代理
+# 跳过某个域名或者 IP 段，这些目标主机将不会由 Loon Proxy 处理。
+skip-proxy = localhost, *.local, captive.apple.com, e.crashlytics.com, www.baidu.com, passenger.t3go.cn, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com, 10.0.0.0/8, 127.0.0.1/32, 172.16.0.0/12, 192.168.0.0/16, 192.168.122.1/32, 193.168.0.1/32, ::1/128, fe80::/10
+
+# > Always Real IP Hosts
+# DNS 数据包将被转发到上游 DNS 服务器。
+real-ip = *.lan, *.direct, cable.auth.com, *.msftconnecttest.com, *.msftncsi.com, network-test.debian.org, detectportal.firefox.com, resolver1.opendns.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, stun.*, global.turn.twilio.com, global.stun.twilio.com, app.yinxiang.com, injections.adguard.org, local.adguard.org, localhost.*.qq.com, localhost.*.weixin.qq.com, *.logon.battlenet.com.cn, *.logon.battle.net, *.blzstatic.cn, music.163.com, *.music.163.com, *.126.net, musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, *.kuwo.cn, api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, *.y.qq.com, streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, *.xiami.com, *.music.migu.cn, music.migu.cn, proxy.golang.org, *.mcdn.bilivideo.cn, *.cmpassport.com, id6.me, open.e.189.cn, opencloud.wostore.cn, id.mail.wo.cn, mdn.open.wo.cn, hmrz.wo.cn, nishub1.10010.com, enrichgw.10010.com, *.wosms.cn, *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, *.cmbchina.com, *.10099.com.cn, *.microdone.cn, pool.ntp.org, *.pool.ntp.org, ntp.*.com, time.*.com, ntp?.*.com, time?.*.com, time.*.gov, time.*.edu.cn, *.ntp.org.cn, PDC._msDCS.*.*, DC._msDCS.*.*, GC._msDCS.*.*
+
+[MitM]
+# 不可MitM也不应该被打断连接的域名
+hostname = -gateway.icloud.com, -gateway.icloud.com.cn, -weather-data.apple.com, -buy.itunes.apple.com, -ios.chat.openai.com

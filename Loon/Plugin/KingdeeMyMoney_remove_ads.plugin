@@ -1,0 +1,29 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/KingdeeMyMoney_remove_ads.lpx
+#!name=随手记去广告
+#!desc=移除开屏广告、神象云账本内部广告、我的页面广告，移除社区入口。
+#App链接=https://apps.apple.com/app/id372353614
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/KingdeeMyMoney_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/KingdeeMyMoney.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/tg\.feidee\.com\/online_ad\/api\/search\.do$ reject-dict
+
+^https:\/\/yunmk\.feidee\.net\/cab-market-ws\/market\/v2\/contents$ reject-dict
+
+^https:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/v2\/ads\/.+esultNum reject-dict
+
+
+^https:\/\/api\.feidee\.net\/v1\/configs\/client\/configs reject
+
+^https:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/show reject-dict
+
+^https:\/\/yun\.feidee\.net\/cab-periodic-activity-ws\/terminal\/v1\/members\/status reject-dict
+
+[MitM]
+hostname=tg.feidee.com, yunmk.feidee.net, community.feidee.com, api.feidee.net, yun.feidee.net

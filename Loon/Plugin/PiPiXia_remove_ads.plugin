@@ -1,0 +1,26 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/PiPiXia_remove_ads.lpx
+#!name=皮皮虾去广告
+#!desc=移除开屏广告、评论区广告、视频流广告，精简我的页面。
+#App链接=https://apps.apple.com/app/id1393912676
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/PiPiXia_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/PiPiXia.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/api(5-lq)?\.pipix\.com\/api\/ad\/ reject-dict
+
+^https:\/\/api(5-lq)?\.pipix\.com\/bds\/banner\/ reject-dict
+
+^https:\/\/api(5-lq)?\.pipix\.com\/bds\/feed\/follow_feed\/ reject-dict
+
+^https:\/\/api(5-lq)?\.pipix\.com\/bds\/feed\/stream\/v2\/ response-body-json-jq '.data.data |= map(select(has("ad_info") | not))'
+
+^https:\/\/api(5-lq)?\.pipix\.com\/bds\/user\/check_in\/ response-body-json-jq '.data.profile_entrances |= map(select(.title != "放心借" and .title != "洋钱罐借款")) | del(.data.pet_interface_message)'
+
+[MitM]
+hostname=api.pipix.com, api5-lq.pipix.com

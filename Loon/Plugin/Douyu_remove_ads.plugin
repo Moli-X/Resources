@@ -1,0 +1,34 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/Douyu_remove_ads.lpx
+#!name=斗鱼去广告
+#!desc=移除开屏、首页视频流、首页轮播图广告，移除直播间悬浮窗。
+#App链接=https://apps.apple.com/app/id863882795
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Douyu_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Douyu.png
+#!date=2025-05-13 15:17:08
+
+[Rule]
+URL-REGEX, "^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list", REJECT
+
+AND, ((DEST-PORT, 18000), (PROTOCOL, STUN)), REJECT
+DOMAIN, stun1.douyucdn.cn, REJECT
+DOMAIN, stun1.qvb.qcloud.com, REJECT
+
+^(http:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/(hlsh5p1\.douyucdn2\.cn)(.*) 307 $1$5$6
+
+[Rewrite]
+^https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo reject-dict
+
+^https:\/\/apiv2\.douyucdn\.cn\/japi\/entrance\/roomRes\/nc\/m\/list response-body-json-del data.pendant_a data.entrance_d
+
+^https:\/\/venus\.douyucdn\.cn\/venus\/config\/static\/update.+keyCodeSet=flow_config response-body-json-replace greatGodGameSitterSwitch 0 followMoreAnchorEntrance 0 sdklivebanner 0 homeActFloatSwitch 0 bringGoodsSwitch 0 qqGameSwitch 0
+
+[Script]
+http-response ^https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3 script-path=https://kelee.one/Resource/JavaScript/Douyu/Douyu_remove_ads.js, requires-body=true, tag=移除首页轮播图和视频流广告
+
+[MitM]
+hostname=rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn

@@ -1,0 +1,18 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/Reddit_remove_ads.lpx
+#!name=Reddit去广告
+#!desc=过滤应用内推广，阻止NSFW提示。
+#App链接=https://apps.apple.com/app/id1064216828
+#!author=xream[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.9(837)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Reddit_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Reddit.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https?:\/\/gql(-fed)?\.reddit\.com response-body-json-jq jq-path="https://kelee.one/Resource/JQLang/Reddit/Reddit_remove_ads.jq"
+
+[MitM]
+hostname=gql.reddit.com, gql-fed.reddit.com

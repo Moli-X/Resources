@@ -1,0 +1,27 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/MKZ_remove_ads.lpx
+#!name=漫客栈去广告
+#!desc=移除开屏广告、漫画广告、小说章末广告，精简我的页面。
+#App链接=https://apps.apple.com/app/id1189885433
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/MKZ_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/MKZ.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/base\.mkzcdn\.com\/advert\/app\/read\/v\d reject-dict
+^https:\/\/base\.mkzcdn\.com\/advert\/app\/story\/read\/v\d reject-dict
+
+^https:\/\/base\.mkzcdn\.com\/advert\/app\/task\/motivate\/v\d reject-dict
+^https:\/\/base\.mkzcdn\.com\/advert\/app\/task\/motivate\/v\d reject-dict
+
+^https:\/\/base\.mkzcdn\.com\/advert\/app\/user\/slide\d\/v\d\/ reject-dict
+
+[Script]
+http-response ^https:\/\/base\.mkzcdn\.com\/app\/config\/ script-path=https://kelee.one/Resource/JavaScript/MKZ/MKZ_remove_ads.js, requires-body=true, tag=配置修改
+
+[MitM]
+hostname=base.mkzcdn.com

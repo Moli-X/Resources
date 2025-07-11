@@ -1,0 +1,46 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/SodaMusic_remove_ads.lpx
+#!name=汽水音乐去广告
+#!desc=移除开屏广告、弹窗广告、播放器推广、歌曲详情界面视频推广、播放页面的歌曲视频，精简首页和我的页面。
+#App链接=https://apps.apple.com/app/id1605585211
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/SodaMusic_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/SodaMusic.png
+#!date=2025-05-18 01:29:34
+
+[Rewrite]
+^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/upsells_config\? reject-dict
+
+^https:\/\/api\.qishui\.com\/luna\/ads\/ reject-dict
+^https:\/\/beta-luna\.douyin\.com\/luna\/ads\/ reject-dict
+
+^https:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/feed\/\? reject-dict
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/treasure\/entrance\/config\? reject-dict
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/me\? response-body-json-del reward_ad_banner
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/activities\? reject-dict
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/feed\/song-tab\? response-body-json-jq 'del(.items[] | select(.type == "video_track_mix"))'
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/card\? response-body-json-del preview_guide
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/card\? response-body-json-jq 'del(.card_items[] | select(has("priority_display")))'
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/media_ads\? reject-dict
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/more-panel\? response-body-json-jq '.blocks |= map(select(.type != "related_video"))'
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/upsells\? reject-dict
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/v2\/commerce_info\? reject-dict
+
+[Script]
+http-response ^https:\/\/beta-luna\.douyin\.com\/luna\/me\/recently-played-media\? script-path=https://kelee.one/Resource/JavaScript/SodaMusic/SodaMusic_remove_ads.js, requires-body=true, tag=移除播放页面视频流
+
+[MitM]
+hostname=webcast-open.douyin.com, beta-luna.douyin.com, api.qishui.com

@@ -1,0 +1,23 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/JiaXiaoDrive_remove_ads.lpx
+#!name=驾校一点通去广告
+#!desc=移除开屏广告、各页面广告横幅、弹窗广告，移除社区广告。
+#App链接=https://apps.apple.com/app/id620262310
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/JiaXiaoDrive_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/JiaXiaoDrive.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/richmanrules\.ksedt\.com\/serverConfig\/3\/adConfig\.json reject-dict
+^https:\/\/gouche\.ksedt\.com\/config\/popup\/info$ reject-dict
+^https:\/\/richmanrules\.ksedt\.com\/intellectWaterfallBidding\/find$ reject-dict
+^https:\/\/op\.ksedt\.com\/jxedtLive\/liveIntroduceResource reject-dict
+^https:\/\/richmanrules\.ksedt\.com\/intellectWaterfall\/find$ reject-dict
+http-response ^https:\/\/api\.ksedt\.com\/api\/config\/ response-body-json-del result.homead result.h5_promotion_page result.advert_interval result.abtest_h5url result.launchApp result.goucheConfig result.gouche result.mainLiveConfig result.discover result.adSdkSwitch4testPointVideo result.adSdkSwitch4simulationExam result.examPageLoadADSwitch
+
+[MitM]
+hostname=richmanrules.ksedt.com, gouche.ksedt.com, muses.ksedt.com, op.ksedt.com, api.ksedt.com

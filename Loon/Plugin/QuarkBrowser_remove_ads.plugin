@@ -1,0 +1,22 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx
+#!name=夸克去广告
+#!desc=移除阅读广告，精简我的页面。
+#App链接=https://apps.apple.com/app/id1160172628
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/QuarkBrowser_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/QuarkBrowser.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/huichuan\.sm\.cn\/nativead$ reject
+^https:\/\/stars\.shuqireader\.com\/kkios\/render\/load\/resource\/appConfig$ reject-dict
+
+[Script]
+http-response ^https:\/\/open-cms-api\.quark\.cn\/open-cms script-path=https://kelee.one/Resource/JavaScript/QuarkBrowser/QuarkBrowser_remove_ads.js, requires-body=true, tag=精简我的页面
+
+[MitM]
+hostname=huichuan.sm.cn, stars.shuqireader.com, open-cms-api.quark.cn

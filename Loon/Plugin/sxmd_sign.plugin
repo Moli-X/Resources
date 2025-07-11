@@ -1,0 +1,19 @@
+# 原链接 : https://raw.githubusercontent.com/bgvioletsky/ios_rule/main/Loon/plugin/sxmd_sign.plugin
+#!name= 书香门第签到
+#!desc= 请配置账号密码，默认签到时间为晚上0点0分。
+#!author= bgcode🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/sxmd_sign.plugin
+#App链接=http://www.txtnovel.vip/
+#!icon= https://raw.githubusercontent.com/bgvioletsky/ios_rule/refs/heads/main/src/src.png
+#!date = 2024-10-25 15:16:38
+#!tag = 签到
+
+
+[Argument]
+account = input, "", tag = 账号, desc = 这里需要输入有效的账号
+password = input, "", tag = 密码, desc = 这里需要输入有效的密码
+CRONEXP = input, "0 0 * * *", tag = 定时参数, desc = 这里需要输入符合CRON表达式的参数
+
+[Script]
+# 定时签到
+cron {CRONEXP} script-path = https://raw.githubusercontent.com/bgvioletsky/ios_rule/refs/heads/main/Loon/Script/sxmd.js, tag = 书香门第每日签到, timeout = 120, argument=[{account},{password}]

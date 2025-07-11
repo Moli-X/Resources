@@ -1,0 +1,28 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/MeituMYXJ_remove_ads.lpx
+#!name=美颜相机去广告
+#!desc=移除开屏广告、应用内弹窗，精简首页和我的页面。
+#App链接=https://apps.apple.com/app/id592331499
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/MeituMYXJ_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/MeituMYXJ.png
+#!date=2025-05-13 15:17:08
+
+[Rule]
+DOMAIN, adui.tg.meitu.com, REJECT
+
+[Rewrite]
+^https:\/\/api\.meiyan\.com\/operation\/home_banner\.json\? reject-dict
+
+^https:\/\/api\.meiyan\.com\/vip\/permission_update_popup\.json\? reject-dict
+^https:\/\/api\.meiyan\.com\/operation\/get_config\.json\? response-body-json-del response.time_limit response.bubble response.person_center
+^https:\/\/api\.meiyan\.com\/operation\/get_config\.json\? response-body-json-replace response.function_pop.meiyan_style.is_pop false response.onoff.vip_half_window_exit_remain_popup.open 0 response.onoff.vip_home_exit_remain_popup 0
+
+[Script]
+http-response ^https:\/\/api\.meiyan\.com\/operation\/home\.json\? script-path=https://kelee.one/Resource/JavaScript/MeituMYXJ/MeituMYXJ_remove_ads.js, requires-body=true, tag=精简首页功能栏目并移除美颜推荐
+
+[MitM]
+hostname=api.meiyan.com

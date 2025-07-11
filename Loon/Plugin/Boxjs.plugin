@@ -1,0 +1,16 @@
+# 原链接 : https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.plugin
+#!name=BoxJs
+#!desc=Data manager
+#App链接=http://boxjs.com
+#!author=chavyleung[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Boxjs.plugin
+#!icon=https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxJs.png
+
+[Rule]
+DOMAIN-SUFFIX,jsdelivr.net,PROXY
+
+[Script]
+http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs
+
+[MITM]
+hostname = boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net

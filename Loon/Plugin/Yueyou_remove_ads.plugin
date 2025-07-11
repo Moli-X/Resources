@@ -1,0 +1,23 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/Yueyou_remove_ads.lpx
+#!name=阅友去广告
+#!desc=移除开屏广告、弹窗广告和阅读页面广告，移除底栏福利按钮。
+#App链接=https://apps.apple.com/app/id1066723192
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Yueyou_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Yueyou.png
+#!date=2025-05-13 15:17:08
+
+[Rule]
+DOMAIN, ads.reader.yueyouxs.com, REJECT
+
+[Rewrite]
+^https:\/\/goway\.reader\.yueyouxs\.com\/assemble\/app\/basic\/getAppInfo\? response-body-json-del data.isShowDLPopup data.isShowGame data.touTiaoShowDlPopup data.offLineDownload.WatchVideoBtnDesc data.readVipFirstCfg data.readVipNormalCfg data.notifyAd data.hotStartSplashTime data.hotStartReqSwitch data.isShowBFTab data.popReqDelayTime data.benefitCfg data.chestTask data.hotStartAd data.activeTagList data.secondOrderCfg data.secondOrderList data.blockedWordsCfg data.aaReportListCfg data.pddAdSwitch data.isShowShelfAuthPopup data.firstPopUpAmount
+
+^https:\/\/goway\.reader\.yueyouxs\.com\/assemble\/app\/basic\/getAppInfo\? response-body-json-replace data.isAdClosed true 
+
+[MitM]
+hostname=goway.reader.yueyouxs.com

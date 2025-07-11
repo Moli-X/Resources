@@ -1,0 +1,38 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/Aiinquiry_remove_ads.lpx
+#!name=爱企查去广告
+#!desc=移除开屏广告、应用内弹窗、首页轮播图、悬浮部件、信息流和搜索填充词。
+#App链接=https://apps.apple.com/app/id1527039353
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Aiinquiry_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Aiinquiry.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/aiqicha\.baidu\.com\/app\/bannerPicAjax reject-dict
+
+^https:\/\/aiqicha\.baidu\.com\/app\/getPopConfigAjax reject-dict
+
+^https:\/\/aiqicha\.baidu\.com\/app\/getHotTopicAjax reject-dict
+
+^https:\/\/aiqicha\.baidu\.com\/app\/getNewsReportAjax reject-dict
+
+^https:\/\/aiqicha\.baidu\.com\/app\/getExpertVideoAjax reject-dict
+
+^https:\/\/aiqicha\.baidu\.com\/apps\/getHotRecommendV2Ajax reject-dict
+
+^https:\/\/aiqicha\.baidu\.com\/m\/getLoginWordsAjax reject-dict
+
+^https:\/\/aiqicha\.baidu\.com\/app\/getAppPopSettingAjax reject-dict
+^https:\/\/aiqicha\.baidu\.com\/app\/commonstatusAjax reject
+
+^https:\/\/aiqicha\.baidu\.com\/apps\/getHomeMonitorDataAjax reject-dict
+
+^https:\/\/aiqicha\.baidu\.com\/apps\/searchRecommendAjax reject-dict
+
+
+[MitM]
+hostname=aiqicha.baidu.com

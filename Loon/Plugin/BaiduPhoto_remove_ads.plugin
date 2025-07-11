@@ -1,0 +1,22 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/BaiduPhoto_remove_ads.lpx
+#!name=一刻相册去广告
+#!desc=移除开屏广告、横幅广告和弹窗推广。
+#App链接=https://apps.apple.com/app/id1467852587
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/BaiduPhoto_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/BaiduPhoto.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/pan\.baidu\.com\/act\/api\/conf\?.*conf_key=youa_core_config_ios reject-dict
+
+^https:\/\/pan\.baidu\.com\/youai\/material\/v1\/getbynavid\?.*nav_id=1 reject-dict
+
+^https:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\? response-body-json-del data.service.config.advertisement data.service.config.youa.pm_config_ad 
+
+[MitM]
+hostname=pan.baidu.com, mbd.baidu.com

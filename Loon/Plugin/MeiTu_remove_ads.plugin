@@ -1,0 +1,29 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx
+#!name=美图秀秀去广告
+#!desc=移除开屏广告、横幅推广，精简我的页面。
+#App链接=https://apps.apple.com/app/id416048305
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/MeiTu_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/MeiTu.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/api\.xiuxiu\.meitu\.com\/v\d\/common\/config\.json response-body-json-del data.home_top_live data.splashControl
+
+^https:\/\/(api|tool)\.xiuxiu\.meitu\.com\/v\d\/vip\/sub_popup\.json reject-dict
+^https:\/\/(api|tool)\.xiuxiu\.meitu\.com\/\/v\d\/vip\/popup_show\.json reject-dict
+^https:\/\/api\.posters\.meitu\.com\/homepage\/leaflets\.json\? reject-dict
+
+
+^https:\/\/(api|tool)\.xiuxiu\.meitu\.com\/v\d\/tool\/common\/operation_icon\.json response-body-json-del data.home_top_icon
+
+^https:\/\/api\.posters\.meitu\.com\/common\/init\.json response-body-json-del data.vip
+
+^https:\/\/(api|tool)\.xiuxiu\.meitu\.com\/v\d\/tool\/common\/home\.json response-body-json-del data[0].items[10] data[1].scheme data[1].wallet_title data[1].items[1] data[1].items[1] data[2].items[1]
+
+[MitM]
+hostname=api.xiuxiu.meitu.com, tool.xiuxiu.meitu.com, api.posters.meitu.com

@@ -1,0 +1,28 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx
+#!name=百度输入法去广告
+#!desc=过滤百度输入法广告，替换个人主页随机图。
+#App链接=https://apps.apple.com/app/id916139408
+#!author=Keywos[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Baidu_input_method_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Baidu_input_method.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https?:\/\/mime\.baidu\.com\/v5\/start_screen_ads/list reject-dict
+^https?:\/\/mime\.baidu\.com\/sapi\/v1\/lccorpus\/(applist|pannellist) reject-dict
+
+^https?:\/\/mime\.baidu\.com\/sapi\/v1\/(circle\/joinedlist|lccorpus\/usercorpussync|aihelpactivity\/aihelpresource) reject-dict
+^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list reject-dict
+^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input reject-dict
+
+^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info) reject-dict
+
+[Script]
+http-response ^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata)) script-path=https://kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js, requires-body=true, tag=百度输入法去广告
+
+[MitM]
+hostname=imeres.baidu.com, mbd.baidu.com, mime.baidu.com

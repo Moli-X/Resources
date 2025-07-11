@@ -1,0 +1,25 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/MaFengWo_remove_ads.lpx
+#!name=马蜂窝去广告
+#!desc=移除首页信息流广告、商城横幅推广、我的页面弹窗。
+#App链接=https://apps.apple.com/app/id406596432
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/MaFengWo_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/MaFengWo.png
+#!date=2025-05-13 15:17:08
+
+[Rule]
+DOMAIN, advert.mafengwo.cn, REJECT
+
+[Rewrite]
+^https:\/\/mapi\.mafengwo\.cn\/discovery\/get_index\/v7\? response-body-json-jq '.data.list |= map(select(.data.business_type != "gdcpm"))'
+
+^https:\/\/mapi\.mafengwo\.cn\/sales\/home\/get_header\/v3\? response-body-json-jq '.data.list[] |= ( .data |= del(.banners) )'
+
+^https:\/\/mapi\.mafengwo\.cn\/user\/growth\/get_growth_tip\/v1\? reject-dict
+
+[MitM]
+hostname=mapi.mafengwo.cn

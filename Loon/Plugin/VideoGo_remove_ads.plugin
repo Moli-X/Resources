@@ -1,0 +1,25 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/VideoGo_remove_ads.lpx
+#!name=萤石云视频去广告
+#!desc=移除开屏广告、首页推广、我的页面推广。
+#App链接=https://apps.apple.com/app/id571195405
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/VideoGo_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/VideoGo.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/api\.ys7\.com\/api\/ads reject
+^https:\/\/i\.ys7\.com\/api\/user\/tabList reject-dict
+^https:\/\/api\.ys7\.com\/v3\/config\/service\/entrance\/bannerInfo reject-dict
+^https:\/\/api\.ys7\.com\/v3\/intelligent-app\/apps\/linkage reject-dict
+^https:\/\/api\.ys7\.com\/v3\/configurations\/gray\/info\?grayTypes=185 reject-dict
+^https:\/\/api\.ys7\.com\/v3\/videoclips\/square\/video\/query reject-dict
+
+[Script]
+
+[MitM]
+hostname=api.ys7.com, i.ys7.com

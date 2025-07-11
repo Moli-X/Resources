@@ -1,0 +1,33 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/ZuiYou_remove_ads.lpx
+#!name=最右去广告
+#!desc=移除开屏广告、信息流广告和广告轮播图。
+#App链接=https://apps.apple.com/app/id942443472
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/ZuiYou_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/ZuiYou.png
+#!date=2025-05-14 01:51:31
+
+[Rule]
+DOMAIN, adapi.izuiyou.com, REJECT
+URL-REGEX, "^http:\/\/mercury-gateway\.ixiaochuan\.cn\/mercury\/v1\/ad\/", REJECT-DICT
+URL-REGEX, "^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search_home_page_(nv|nv_v2)\/search_home_page_nv", REJECT
+
+[Rewrite]
+^https?:\/\/api\.izuiyou\.com\/config\/get_banner reject-dict
+^https?:\/\/api\.izuiyou\.com\/ad\/ reject
+^https:\/\/zyfile\.izuiyou\.com\/zyfile\/c2\/a0\/[a-z0-9-]+\.json reject-dict
+
+^https?:\/\/203\.107\.1\.1/\d+/ss reject
+^https?:\/\/203\.107\.1\.33/\d+/ss reject
+^https?:\/\/203\.107\.1\.66/\d+/ss reject
+^https?:\/\/203\.107\.1\.67/\d+/ss reject
+^https?:\/\/203\.107\.1\.97/\d+/ss reject
+^https?:\/\/2401:b180:2000:30::1c\/\d+\/d reject
+^https?:\/\/2401:b180:2000:20::10\/\d+\/d reject
+
+[MitM]
+hostname=api.izuiyou.com, zyfile.izuiyou.com, 203.107.1.1, 203.107.1.33, 203.107.1.66, 203.107.1.67, 203.107.1.97

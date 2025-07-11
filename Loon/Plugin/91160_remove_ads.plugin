@@ -1,0 +1,37 @@
+# 原链接 : https://kelee.one/Tool/Loon/Lpx/91160_remove_ads.lpx
+#!name=健康160去广告
+#!desc=移除开屏广告、应用内悬浮窗、弹窗广告、横幅广告，精简我的页面。
+#App链接=https://apps.apple.com/app/id593811445
+#!author=可莉🅥[https://github.com/Moli-X/Tool/blob/X/Loon/Readme.md]
+#!tag=去广告
+#!system=
+#!system_version=
+#!loon_version=3.2.4(787)
+#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/91160_remove_ads.plugin
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/91160.png
+#!date=2025-05-13 15:17:08
+
+[Rewrite]
+^https:\/\/msglb\.91160\.com\/msg\/outer\/broker\/get$ reject-dict
+
+^https:\/\/patientgate\.91160\.com\/advert-api\/ reject-dict
+
+^https:\/\/soapi\.91160\.com\/homepage-recommendation\/recommendation\/medical\/complex\? response-body-json-del data.checkupList
+
+^https:\/\/soapi\.91160\.com\/homepage-recommendation\/homepage\/flow\? response-body-json-jq '.data.rows |= map(select(.type as $type | ["GOOD", "ARTICLE"] | index($type) | not))'
+
+^https:\/\/patientgate\.91160\.com\/cube\/v1\/unit_page\/page_data\? response-body-json-jq '.data.modules |= map(select(.name == "announcement" or .name == "guide" or .name == "expert" or .name == "featuredDepartments" or .name == "featureDevice" or .name == "featureTech" or .name == "familyDoctor" or .name == "introduction" or .name == "bus" or .name == "classicCase" or .name == "askEveryone" or .name == "reviews" or .name == "notes"))'
+
+^https:\/\/snsapi\.91160\.com\/vipmemberapi\/mbCombo\/mbComboWords\? reject-dict
+
+^https:\/\/patientgate\.91160\.com\/rec\/homepage\/open\/getUserGoodsList\? reject-dict
+
+^https:\/\/snsapi\.91160\.com\/hotword\/open\/v1\/getSearchExplore\? reject-dict
+^https:\/\/snsapi\.91160\.com\/hotword\/open\/v1\/getHotWordPlate\? reject-dict
+
+^https:\/\/snsapi\.91160\.com\/engine\/backgroundWord\/queryForFrontend\? reject-dict
+
+^https:\/\/patientappapi\.91160\.com\/cus_index\.php\?c=adver reject
+
+[MitM]
+hostname=patientgate.91160.com, soapi.91160.com, snsapi.91160.com, msglb.91160.com, patientappapi.91160.com

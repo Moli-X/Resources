@@ -28,7 +28,6 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}  
 
 
-    
 ###### Fork
 
    - name: 复刻原始文件
@@ -66,17 +65,17 @@ jobs:
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list" \
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list" \
                 "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
-            
+
             # 合并 SukkaW 广告规则
             download_rules "Resources-repo/QuantumultX/Ruleset/Ads_SukkaW.list" \
                 "https://ruleset.skk.moe/List/domainset/reject.conf" \
                 "https://ruleset.skk.moe/List/non_ip/reject.conf"
-            
+
             # 合并 SukkaW CDN 规则
             download_rules "Resources-repo/QuantumultX/Ruleset/CDN.list" \
                 "https://ruleset.skk.moe/List/domainset/cdn.conf" \
                 "https://ruleset.skk.moe/List/non_ip/cdn.conf"
-            
+
             # 合并 GFW 规则
             download_rules "Resources-repo/QuantumultX/Ruleset/ProxyGFW.list" \
                 "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list" \
@@ -156,7 +155,7 @@ jobs:
                 ["Trendmicro"]="https://github.com/Moli-X/Resources/raw/main/Clash/Rules/Trendmicro.list"
                 ["VSCode"]="https://github.com/Moli-X/Resources/raw/main/Clash/Rules/VSCode.list"
             )
-        
+
             # 下载文件
             for filename in "${!files[@]}"; do
                 echo "Downloading: ${files[$filename]}"
@@ -266,7 +265,7 @@ jobs:
       run: |
         mkdir -p Resources-repo/QuantumultX/Rewrite
 
-        
+
         # 定义插件及其原链接
         declare -A Rewrites=(
             [Keep]="https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.snippet"
@@ -433,12 +432,12 @@ jobs:
             # [KebidaDushu_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KebidaDushu_remove_ads.lpx"
 
         )
-        
+
         # 下载插件并在文件中添加原链接
         for Rewrite_name in "${!Rewrites[@]}"; do
             url="${Rewrites[$Rewrite_name]}"
             curl -A "Surge iOS/3367" -L -o "Resources-repo/QuantumultX/Rewrite/${Rewrite_name}.conf" "$url"
-            
+
             # 将原链接添加到文件开头
            # echo "# 原链接 : $url" | cat - "Tool-repo/QuantumultX/Rewrite/Kelee/$Rewrite_name.conf" > temp && mv temp "Tool-repo/QuantumultX/Rewrite/Kelee/$Rewrite_name.conf"
             sed -i "1s|^|# 原链接 : $url\n|" "Resources-repo/QuantumultX/Rewrite/$Rewrite_name.conf"  # 在文件开头添加原链接
@@ -542,44 +541,44 @@ jobs:
 
 # ###### QuantumultX
 
-    # - name: QuantumultX规则
-      # run: |
-        # for file in Resources-repo/QuantumultX/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # sed -i -e '/^PROCESS-NAME/d' "$file"
-            # sed -i -e '/^AND/d' "$file"
-            # sed -i -e '/^OR/d' "$file"
-            # sed -i -e '/^NOT/d' "$file"
-            # sed -i -e '/^DEST-PORT/d' "$file"
-            # sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
-            # sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
-            # sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"
-            # sed -i -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g' "$file"
-            # sed -i -e 's/^IP-CIDR6,/IP6-CIDR,/g' "$file"
-            # sed -i 's/,no-resolve//g' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
+    - name: QuantumultX规则
+      run: |
+        for file in Resources-repo/QuantumultX/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            sed -i -e '/^DEST-PORT/d' "$file"
+            sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
+            sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
+            sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"
+            sed -i -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g' "$file"
+            sed -i -e 's/^IP-CIDR6,/IP6-CIDR,/g' "$file"
+            sed -i 's/,no-resolve//g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
 
-        # for file in Resources-repo/QuantumultX/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # file_names=$(basename "$file" .list)
-            # line_count=$(wc -l < "$file")
-            # awk -v policy="$file_names" '!/^#|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # sed -i '2a\\' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
+        for file in Resources-repo/QuantumultX/Rules/*.list; do
+          if [ -f "$file" ]; then
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v policy="$file_names" '!/^#|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
 
 
-    # # - name: 单独复刻QX配置
-      # # run: |
-        # # mkdir -p Resources/QuantumultX
-        # # curl -L -o Resources-repo/QuantumultX/QuantumultX.conf "https://github.com/GodMoli/QuanX/raw/main/File/Auto.conf"
+    - name: 单独复刻QX配置
+      run: |
+        mkdir -p Resources/QuantumultX
+        curl -L -o Resources-repo/QuantumultX/QuantumultX.conf "https://github.com/GodMoli/QuanX/raw/main/File/Auto.conf"
 
 # ###### Surge
 

@@ -277,7 +277,7 @@ jobs:
         done
 
         cd Resources-repo/QuantumultX/Rules
-        cp Ads_DiDiChuXing.list DDCX.snippet
+
 
 
 

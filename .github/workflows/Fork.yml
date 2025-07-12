@@ -30,11 +30,11 @@ jobs:
 
 ###### Fork
 
-   - name: 复刻原始文件
-     run: |
-       mkdir -p Resources/.github/Record
-       curl -L -o Resources-repo/.github/Record/Build.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/Build.yml"
-       curl -L -o Resources-repo/.github/Record/ClearCommits.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/ClearCommits.yml"
+    - name: 复刻原始文件
+      run: |
+        mkdir -p Resources/.github/Record
+        curl -L -o Resources-repo/.github/Record/Build.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/Build.yml"
+        curl -L -o Resources-repo/.github/Record/ClearCommits.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/ClearCommits.yml"
 
     - name: 规则下载
       run: |
@@ -245,20 +245,20 @@ jobs:
         echo "Files copied successfully."
 
 ###### Loon
-    - name: Loon
-      run: |
-        for file in Resources-repo/Loon/Rules/*.list; do
-          if [ -f "$file" ]; then
-            sed -i -e '/^PROCESS-NAME/d' "$file"
-            file_names=$(basename "$file" .list)
-            line_count=$(wc -l < "$file")
-            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            sed -i '2a\\' "$file"
-          else
-            echo "$file not found."
-          fi
-        done
+    # - name: Loon
+      # run: |
+        # for file in Resources-repo/Loon/Rules/*.list; do
+          # if [ -f "$file" ]; then
+            # sed -i -e '/^PROCESS-NAME/d' "$file"
+            # file_names=$(basename "$file" .list)
+            # line_count=$(wc -l < "$file")
+            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            # sed -i '2a\\' "$file"
+          # else
+            # echo "$file not found."
+          # fi
+        # done
 
 
     - name: 批量复刻QuantumultX重写
@@ -452,9 +452,9 @@ jobs:
         # 确保目标目录存在
         mkdir -p Script
     
-        # 切换到 Kelee 目录
+        # 切换到 Rewrite 目录
         cd Resources-repo/QuantumultX/Rewrite
-    
+
         # 遍历 .Rewrite 文件并提取 .js 链接
         for file in *.conf; do
           if [ -f "$file" ]; then

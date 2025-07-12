@@ -108,7 +108,7 @@ jobs:
                 ["GitHub"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/GitHub/GitHub.list"
                 ["OneDrive"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
                 ["Microsoft"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
-                ["Bing"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Bing/Bing.list"
+                # ["Bing"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Bing/Bing.list"
                 # 极狐
                 ["GitLab"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/GitLab/GitLab.list"
                 # Notion

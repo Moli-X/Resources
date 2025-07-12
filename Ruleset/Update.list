@@ -1,0 +1,9 @@
+DOMAIN,HOST-SUFFIX,ads.internal.unity3d.com,reject
+DOMAIN,HOST-SUFFIX,ads.prd.ie.internal.unity3d.com,reject
+DOMAIN,HOST-SUFFIX,iadsdk.apple.com,reject
+DOMAIN,HOST-SUFFIX,unityads.unity3d.com,reject
+DOMAIN,host,appldnld.apple.com,reject
+DOMAIN,host,gdmf.apple.com,reject
+DOMAIN,host,mesu.apple.com,reject
+DOMAIN,host,ns.itunes.apple.com,reject
+DOMAIN,host,xp.apple.com,reject

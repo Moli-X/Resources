@@ -1,0 +1,12 @@
+# 规则名称: Update
+# 规则统计: 9
+
+HOST,HOST-SUFFIX,ads.internal.unity3d.com,reject,Update
+HOST,HOST-SUFFIX,ads.prd.ie.internal.unity3d.com,reject,Update
+HOST,HOST-SUFFIX,iadsdk.apple.com,reject,Update
+HOST,HOST-SUFFIX,unityads.unity3d.com,reject,Update
+HOST,host,appldnld.apple.com,reject,Update
+HOST,host,gdmf.apple.com,reject,Update
+HOST,host,mesu.apple.com,reject,Update
+HOST,host,ns.itunes.apple.com,reject,Update
+HOST,host,xp.apple.com,reject,Update

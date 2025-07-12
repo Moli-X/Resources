@@ -1,0 +1,27 @@
+# 规则名称: Google
+# 规则统计: 24
+
+HOST-SUFFIX,1e100.net,Google
+HOST-SUFFIX,2mdn.net,Google
+HOST-SUFFIX,app-measurement.net,Google
+HOST-SUFFIX,g.co,Google
+HOST-SUFFIX,ggpht.com,Google
+HOST-SUFFIX,goo.gl,Google
+HOST-SUFFIX,googleapis.cn,Google
+HOST-SUFFIX,googleapis.com,Google
+HOST-SUFFIX,gstatic.cn,Google
+HOST-SUFFIX,gstatic.com,Google
+HOST-SUFFIX,gvt0.com,Google
+HOST-SUFFIX,gvt1.com,Google
+HOST-SUFFIX,gvt2.com,Google
+HOST-SUFFIX,gvt3.com,Google
+HOST-SUFFIX,xn--ngstr-lra8j.com,Google
+HOST-SUFFIX,youtu.be,Google
+HOST-SUFFIX,youtube-nocookie.com,Google
+HOST-SUFFIX,youtube.com,Google
+HOST-SUFFIX,yt.be,Google
+HOST-SUFFIX,ytimg.com,Google
+HOST-KEYWORD,gmail,Google
+HOST-KEYWORD,google,Google
+IP-CIDR,173.194.0.0/16,Google
+IP-CIDR,74.125.0.0/16,Google

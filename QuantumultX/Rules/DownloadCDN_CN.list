@@ -1,0 +1,20 @@
+# 规则名称: DownloadCDN_CN
+# 规则统计: 17
+
+HOST,alibaba.cdn.steampipe.steamcontent.com,DownloadCDN_CN
+HOST,assets1.xboxlive.cn,DownloadCDN_CN
+HOST,assets2.xboxlive.cn,DownloadCDN_CN
+HOST,cdn-ali.content.steamchina.com,DownloadCDN_CN
+HOST,cdn-qc.content.steamchina.com,DownloadCDN_CN
+HOST,cdn-ws.content.steamchina.com,DownloadCDN_CN
+HOST,dl.delivery.mp.microsoft.com,DownloadCDN_CN
+HOST,dl.steam.clngaa.com,DownloadCDN_CN
+HOST,epicgames-download1-1251447533.file.myqcloud.com,DownloadCDN_CN
+HOST,lv.queniujq.cn,DownloadCDN_CN
+HOST,st.dl.bscstorage.net,DownloadCDN_CN
+HOST,st.dl.eccdnx.com,DownloadCDN_CN
+HOST,steampipe.steamcontent.tnkjmec.com,DownloadCDN_CN
+HOST,tlu.dl.delivery.mp.microsoft.com,DownloadCDN_CN
+HOST,trts.baishancdnx.cn,DownloadCDN_CN
+HOST,uplaypc-s-ubisoft.cdn.ubionline.com.cn,DownloadCDN_CN
+HOST,xz.pphimalayanrt.com,DownloadCDN_CN

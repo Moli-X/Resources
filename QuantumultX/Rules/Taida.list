@@ -1,0 +1,53 @@
+# 规则名称: Taida
+# 规则统计: 50
+
+HOST,apac.ng.msg.teams.microsoft.com,Taida
+HOST,api-apac.flightproxy.teams.microsoft.com,Taida
+HOST,api.userstore.skype.com,Taida
+HOST,go.trouter.teams.microsoft.com,Taida
+HOST,login.windows.net,Taida
+HOST,presence.teams.microsoft.com,Taida
+HOST,teams.events.data.microsoft.com,Taida
+HOST,teams.microsoft.com,Taida
+HOST-SUFFIX,academy.deltaww.com.cn,Taida
+HOST-SUFFIX,api.teams.skype.com,Taida
+HOST-SUFFIX,as-api.asm.skype.com,Taida
+HOST-SUFFIX,boxeravatars.getboxer.com,Taida
+HOST-SUFFIX,cnsfbpool01.deltaww.com,Taida
+HOST-SUFFIX,cnwjnwsus.delta.corp,Taida
+HOST-SUFFIX,deltaww.com,Taida
+HOST-SUFFIX,deltaww.com.cn,Taida
+HOST-SUFFIX,dgoa.deltaww.com,Taida
+HOST-SUFFIX,diaidentityservice.azurewebsites.net,Taida
+HOST-SUFFIX,ens-apj.getboxer.com,Taida
+HOST-SUFFIX,eventproxy.na1.data.vmwservices.com,Taida
+HOST-SUFFIX,fpc.msedge.net,Taida
+HOST-SUFFIX,images.edge.messenger.live.com,Taida
+HOST-SUFFIX,img.teams.skype.com,Taida
+HOST-SUFFIX,login.microsoftonline.com,Taida
+HOST-SUFFIX,loki.delve.office.com,Taida
+HOST-SUFFIX,msedge.net,Taida
+HOST-SUFFIX,mydelta.deltaww.com,Taida
+HOST-SUFFIX,nexus.officeapps.live.com,Taida
+HOST-SUFFIX,odc.officeapps.live.com,Taida
+HOST-SUFFIX,office.com,Taida
+HOST-SUFFIX,r3.o.lencr.org,Taida
+HOST-SUFFIX,s-ring.msedge.net,Taida
+HOST-SUFFIX,scapi.vmware.com,Taida
+HOST-SUFFIX,skype.com,Taida
+HOST-SUFFIX,substrate.office.com,Taida
+HOST-KEYWORD,academy  # Delta 相关服务,Taida
+HOST-KEYWORD,awmdm  # 可能与移动设备管理（MDM）相关,Taida
+HOST-KEYWORD,delta  # Delta 相关服务,Taida
+HOST-KEYWORD,deltaww  # Delta 相关服务,Taida
+HOST-KEYWORD,dms  # 可能与 Delta 相关服务,Taida
+HOST-KEYWORD,getboxer  # Boxer 相关服务,Taida
+HOST-KEYWORD,gravatar  # Gravatar 相关服务,Taida
+HOST-KEYWORD,microsoft  # Microsoft 相关服务,Taida
+HOST-KEYWORD,mydelta  # Delta 相关服务,Taida
+HOST-KEYWORD,mydeltaww  # Delta 相关服务,Taida
+HOST-KEYWORD,office  # Microsoft Office 相关服务,Taida
+HOST-KEYWORD,skype  # Skype 相关服务,Taida
+HOST-KEYWORD,teams  # Microsoft Teams 相关服务,Taida
+HOST-KEYWORD,vmware  # VMware 相关服务,Taida
+HOST-KEYWORD,vmwservices  # VMware 相关服务,Taida

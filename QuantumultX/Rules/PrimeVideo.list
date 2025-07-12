@@ -1,0 +1,19 @@
+# 规则名称: PrimeVideo
+# 规则统计: 16
+
+HOST,atv-ps.amazon.com,PrimeVideo
+HOST,avodmp4s3ww-a.akamaihd.net,PrimeVideo
+HOST,d1v5ir2lpwr8os.cloudfront.net,PrimeVideo
+HOST,d22qjgkvxw22r6.cloudfront.net,PrimeVideo
+HOST,d25xi40x97liuc.cloudfront.net,PrimeVideo
+HOST,d27xxe7juh1us6.cloudfront.net,PrimeVideo
+HOST,dmqdd6hw24ucf.cloudfront.net,PrimeVideo
+HOST,fls-na.amazon.com,PrimeVideo
+HOST,www.amazon.com,PrimeVideo
+HOST-SUFFIX,aiv-cdn.net,PrimeVideo
+HOST-SUFFIX,aiv-delivery.net,PrimeVideo
+HOST-SUFFIX,amazonvideo.com,PrimeVideo
+HOST-SUFFIX,media-amazon.com,PrimeVideo
+HOST-SUFFIX,primevideo.com,PrimeVideo
+HOST-SUFFIX,pv-cdn.net,PrimeVideo
+HOST-KEYWORD,avoddashs,PrimeVideo

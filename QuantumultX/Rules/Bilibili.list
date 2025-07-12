@@ -1,0 +1,26 @@
+# 规则名称: Bilibili
+# 规则统计: 23
+
+HOST,apiintl.biliapi.net,Bilibili
+HOST,upos-hz-mirrorakam.akamaized.net,Bilibili
+HOST-SUFFIX,acg.tv,Bilibili
+HOST-SUFFIX,acgvideo.com,Bilibili
+HOST-SUFFIX,b23.tv,Bilibili
+HOST-SUFFIX,bigfun.cn,Bilibili
+HOST-SUFFIX,bigfunapp.cn,Bilibili
+HOST-SUFFIX,biliapi.com,Bilibili
+HOST-SUFFIX,biliapi.net,Bilibili
+HOST-SUFFIX,bilibili.co,Bilibili
+HOST-SUFFIX,bilibili.com,Bilibili
+HOST-SUFFIX,bilibili.tv,Bilibili
+HOST-SUFFIX,biligame.com,Bilibili
+HOST-SUFFIX,biligame.net,Bilibili
+HOST-SUFFIX,biliintl.co,Bilibili
+HOST-SUFFIX,bilivideo.cn,Bilibili
+HOST-SUFFIX,bilivideo.com,Bilibili
+HOST-SUFFIX,hdslb.com,Bilibili
+HOST-SUFFIX,im9.com,Bilibili
+HOST-SUFFIX,smtcdns.net,Bilibili
+USER-AGENT,Bilibili*,Bilibili
+USER-AGENT,bili*,Bilibili
+USER-AGENT,bili-inter*,Bilibili

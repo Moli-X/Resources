@@ -1,0 +1,50 @@
+DOMAIN,apac.ng.msg.teams.microsoft.com
+DOMAIN,api-apac.flightproxy.teams.microsoft.com
+DOMAIN,api.userstore.skype.com
+DOMAIN,go.trouter.teams.microsoft.com
+DOMAIN,login.windows.net
+DOMAIN,presence.teams.microsoft.com
+DOMAIN,teams.events.data.microsoft.com
+DOMAIN,teams.microsoft.com
+DOMAIN-SUFFIX,academy.deltaww.com.cn
+DOMAIN-SUFFIX,api.teams.skype.com
+DOMAIN-SUFFIX,as-api.asm.skype.com
+DOMAIN-SUFFIX,boxeravatars.getboxer.com
+DOMAIN-SUFFIX,cnsfbpool01.deltaww.com
+DOMAIN-SUFFIX,cnwjnwsus.delta.corp
+DOMAIN-SUFFIX,deltaww.com
+DOMAIN-SUFFIX,deltaww.com.cn
+DOMAIN-SUFFIX,dgoa.deltaww.com
+DOMAIN-SUFFIX,diaidentityservice.azurewebsites.net
+DOMAIN-SUFFIX,ens-apj.getboxer.com
+DOMAIN-SUFFIX,eventproxy.na1.data.vmwservices.com
+DOMAIN-SUFFIX,fpc.msedge.net
+DOMAIN-SUFFIX,images.edge.messenger.live.com
+DOMAIN-SUFFIX,img.teams.skype.com
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,loki.delve.office.com
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,mydelta.deltaww.com
+DOMAIN-SUFFIX,nexus.officeapps.live.com
+DOMAIN-SUFFIX,odc.officeapps.live.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,r3.o.lencr.org
+DOMAIN-SUFFIX,s-ring.msedge.net
+DOMAIN-SUFFIX,scapi.vmware.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,substrate.office.com
+DOMAIN-KEYWORD,academy  # Delta 相关服务
+DOMAIN-KEYWORD,awmdm  # 可能与移动设备管理（MDM）相关
+DOMAIN-KEYWORD,delta  # Delta 相关服务
+DOMAIN-KEYWORD,deltaww  # Delta 相关服务
+DOMAIN-KEYWORD,dms  # 可能与 Delta 相关服务
+DOMAIN-KEYWORD,getboxer  # Boxer 相关服务
+DOMAIN-KEYWORD,gravatar  # Gravatar 相关服务
+DOMAIN-KEYWORD,microsoft  # Microsoft 相关服务
+DOMAIN-KEYWORD,mydelta  # Delta 相关服务
+DOMAIN-KEYWORD,mydeltaww  # Delta 相关服务
+DOMAIN-KEYWORD,office  # Microsoft Office 相关服务
+DOMAIN-KEYWORD,skype  # Skype 相关服务
+DOMAIN-KEYWORD,teams  # Microsoft Teams 相关服务
+DOMAIN-KEYWORD,vmware  # VMware 相关服务
+DOMAIN-KEYWORD,vmwservices  # VMware 相关服务

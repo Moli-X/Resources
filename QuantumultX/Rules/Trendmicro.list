@@ -1,0 +1,7 @@
+# 规则名称: Trendmicro
+# 规则统计: 4
+
+HOST,osce140-en.fbs25.trendmicro.com,Trendmicro
+HOST-SUFFIX,trendmicro.com,Trendmicro
+HOST-SUFFIX,trendmicro.com.cn,Trendmicro
+HOST-KEYWORD,trendmicro,Trendmicro

@@ -1,0 +1,9 @@
+# 规则名称: Notion
+# 规则统计: 6
+
+HOST,http-inputs-notion.splunkcloud.com,Notion
+HOST-SUFFIX,notion-static.com,Notion
+HOST-SUFFIX,notion.com,Notion
+HOST-SUFFIX,notion.new,Notion
+HOST-SUFFIX,notion.site,Notion
+HOST-SUFFIX,notion.so,Notion

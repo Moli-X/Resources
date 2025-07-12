@@ -1,0 +1,32 @@
+# 规则名称: Spotify
+# 规则统计: 29
+
+HOST,audio4-ak-spotify-com.akamaized.net,Spotify
+HOST,cdn-spotify-experiments.conductrics.com,Spotify
+HOST,heads-ak-spotify-com.akamaized.net,Spotify
+HOST,spotify.com.edgesuite.net,Spotify
+HOST,spotify.map.fastly.net,Spotify
+HOST,spotify.map.fastlylb.net,Spotify
+HOST-SUFFIX,audio-ak-spotify-com.akamaized.net,Spotify
+HOST-SUFFIX,byspotify.com,Spotify
+HOST-SUFFIX,heads4-ak-spotify-com.akamaized.net,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,spoti.fi,Spotify
+HOST-SUFFIX,spotify-com.akamaized.net,Spotify
+HOST-SUFFIX,spotify-everywhere.com,Spotify
+HOST-SUFFIX,spotify.app.link,Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,spotify.design,Spotify
+HOST-SUFFIX,spotifycdn.com,Spotify
+HOST-SUFFIX,spotifycdn.net,Spotify
+HOST-SUFFIX,spotifycharts.com,Spotify
+HOST-SUFFIX,spotifycodes.com,Spotify
+HOST-SUFFIX,spotifyforbrands.com,Spotify
+HOST-SUFFIX,spotifyjobs.com,Spotify
+HOST-SUFFIX,spotifynewsroom.jp,Spotify
+HOST-SUFFIX,spotilocal.com,Spotify
+HOST-SUFFIX,tospotify.com,Spotify
+HOST-KEYWORD,spotify,Spotify
+IP-CIDR,104.154.127.126/32,Spotify
+IP-CIDR,35.186.224.47/32,Spotify

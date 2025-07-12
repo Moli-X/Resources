@@ -1,0 +1,16 @@
+# 规则名称: Gemini
+# 规则统计: 13
+
+HOST,ai.google.dev,Gemini
+HOST,alkalimakersuite-pa.clients6.google.com,Gemini
+HOST,makersuite.google.com,Gemini
+HOST-SUFFIX,apis.google.com,Gemini
+HOST-SUFFIX,bard.google.com,Gemini
+HOST-SUFFIX,deepmind.com,Gemini
+HOST-SUFFIX,deepmind.google,Gemini
+HOST-SUFFIX,gemini.google.com,Gemini
+HOST-SUFFIX,generativeai.google,Gemini
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,Gemini
+HOST-KEYWORD,colab,Gemini
+HOST-KEYWORD,developerprofiles,Gemini
+HOST-KEYWORD,generativelanguage,Gemini

@@ -1,0 +1,6 @@
+# 规则名称: Claude
+# 规则统计: 3
+
+HOST,cdn.usefathom.com,Claude
+HOST-SUFFIX,anthropic.com,Claude
+HOST-SUFFIX,claude.ai,Claude

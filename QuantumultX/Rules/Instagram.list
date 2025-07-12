@@ -1,0 +1,7 @@
+# 规则名称: Instagram
+# 规则统计: 4
+
+HOST-SUFFIX,cdninstagram.com,Instagram
+HOST-SUFFIX,instagr.am,Instagram
+HOST-SUFFIX,instagram.com,Instagram
+HOST-KEYWORD,instagram,Instagram

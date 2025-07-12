@@ -89,6 +89,7 @@ jobs:
                 ["AppStore"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list"  
                 ["AppleID"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/AppleID/AppleID.list" 
                 ["TestFlight"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/TestFlight/TestFlight.list" 
+                ["Update"]="https://raw.githubusercontent.com/Moli-X/Resources/main/Filter/Update.list" 
                 # AI               
                 ["OpenAI"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/OpenAI/OpenAI.list"
                 ["Claude"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Claude/Claude.list"

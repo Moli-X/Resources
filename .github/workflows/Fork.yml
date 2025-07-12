@@ -36,213 +36,251 @@ jobs:
         curl -L -o Resources-repo/.github/Record/Build.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/Build.yml"
         curl -L -o Resources-repo/.github/Record/ClearCommits.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/ClearCommits.yml"
 
-    # - name: 规则下载
-      # run: |
+    - name: 规则下载
+      run: |
 
-        # # 检查是否在正确的仓库中
-        # repo_name=$(basename "$GITHUB_REPOSITORY")
-        # if [[ "$repo_name" == "Resources" ]]; then
-            # echo "Running in Resources repository"
-            # # 创建目标文件夹
-            # mkdir -p Resources-repo/QuantumultX/Ruleset
-            # # 定义下载规则的函数
-            # download_rules() {
-                # local output_file="$1"
-                # shift
-                # local urls=("$@")
-                # mkdir -p "$(dirname "$output_file")"
-                # > "$output_file"
-                # for url in "${urls[@]}"; do
-                    # echo "Downloading: $url"
-                    # curl -f -L "$url" >> "$output_file" || { echo "Download Failed: $url"; exit 1; }
-                    # echo "" >> "$output_file"
-                # done
-            # }
+        # 检查是否在正确的仓库中
+        repo_name=$(basename "$GITHUB_REPOSITORY")
+        if [[ "$repo_name" == "Resources" ]]; then
+            echo "Running in Resources repository"
+            # 创建目标文件夹
+            mkdir -p Resources-repo/Ruleset
+            # 定义下载规则的函数
+            download_rules() {
+                local output_file="$1"
+                shift
+                local urls=("$@")
+                > "$output_file"
+                for url in "${urls[@]}"; do
+                    echo "Downloading: $url"
+                    curl -f -L "$url" >> "$output_file" || { echo "Download Failed: $url"; exit 1; }
+                    echo "" >> "$output_file"
+                done
+            }
 
-            # # 合并广告规则
-            # download_rules "Resources-repo/QuantumultX/Ruleset/Reject.list" \
-                # "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list" \
-                # "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list" \
-                # "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list" \
-                # "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
+            # 合并广告规则
+            download_rules "Resources-repo/Ruleset/Reject.list" \
+                "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list" \
+                "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list" \
+                "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list" \
+                "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
+            
+            # 合并 SukkaW 广告规则
+            download_rules "Resources-repo/Ruleset/Ads_SukkaW.list" \
+                "https://ruleset.skk.moe/List/domainset/reject.conf" \
+                "https://ruleset.skk.moe/List/non_ip/reject.conf"
+            
+            # 合并 SukkaW CDN 规则
+            download_rules "Resources-repo/Ruleset/CDN.list" \
+                "https://ruleset.skk.moe/List/domainset/cdn.conf" \
+                "https://ruleset.skk.moe/List/non_ip/cdn.conf"
+            
+            # 合并 GFW 规则
+            download_rules "Resources-repo/Ruleset/ProxyGFW.list" \
+                "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list" \
+                "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
 
-            # # 合并 SukkaW 广告规则
-            # download_rules "Resources-repo/QuantumultX/Ruleset/Ads_SukkaW.list" \
-                # "https://ruleset.skk.moe/List/domainset/reject.conf" \
-                # "https://ruleset.skk.moe/List/non_ip/reject.conf"
-
-            # # 合并 SukkaW CDN 规则
-            # download_rules "Resources-repo/QuantumultX/Ruleset/CDN.list" \
-                # "https://ruleset.skk.moe/List/domainset/cdn.conf" \
-                # "https://ruleset.skk.moe/List/non_ip/cdn.conf"
-
-            # # 合并 GFW 规则
-            # download_rules "Resources-repo/QuantumultX/Ruleset/ProxyGFW.list" \
-                # "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list" \
-                # "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
-
-            # # 定义关联数组（使用简洁的键名）
-            # declare -A files=(
-                # # 苹果
-                # ["APNs"]="https://kelee.one/Tool/Loon/Lsr/ApplePushNotificationService.lsr"
-                # ["Apple"]="https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
-                # ["AppleProxy"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
-                # ["AppStore"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list"  
-                # ["AppleID"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/AppleID/AppleID.list" 
-                # ["TestFlight"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/TestFlight/TestFlight.list" 
-                # # AI               
-                # ["OpenAI"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/OpenAI/OpenAI.list"
-                # ["Claude"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Claude/Claude.list"
-                # ["AI"]="https://ruleset.skk.moe/List/non_ip/ai.conf"
-                # # 社交媒体
-                # ["Twitter"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
-                # ["Instagram"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
-                # ["Spotify"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
-                # ["Telegram"]="https://github.com/Repcz/Tool/raw/X/Surge/Custom/Telegram.list" 
-                # ["Facebook"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Facebook/Facebook.list" 
-                # # 谷歌
-                # ["YouTube"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
-                # ["Google"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
-                # ["Gemini"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Gemini/Gemini.list"
-                # # 微软
-                # ["GitHub"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/GitHub/GitHub.list"
-                # ["OneDrive"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
-                # ["Microsoft"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
-                # ["Bing"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Bing/Bing.list"
-                # # 极狐
-                # ["GitLab"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/GitLab/GitLab.list"
-                # # Notion
-                # ["Notion"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Notion/Notion.list"
-                # # 甲骨文
-                # ["Oracle"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
-                # # 流媒体
-                # ["AutoBilibili"]="https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Bilibili.list"
-                # ["DouYin"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/DouYin/DouYin.list"
-                # ["TikTok"]="https://kelee.one/Tool/Lsr/Rule/TikTok.lsr"
-                # ["Netflix"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
-                # ["HBO"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
-                # ["Disney"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
-                # ["PrimeVideo"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
-                # # PayPal
-                # ["PayPal"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
-                # # Cloudflare
-                # ["Cloudflare"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
-                # # 游戏
-                # ["Steam"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
-                # ["Epic"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
-                # ["Game"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
-                # # 下载CDN
-                # ["DownloadCDN_Global"]="https://kelee.one/Tool/Loon/Lsr/InternationalDownloadCDN.lsr"
-                # ["DownloadCDN_CN"]="https://kelee.one/Tool/Loon/Lsr/ChinaDownloadCDN.lsr"
-                # # 远程软件 
-                # ["TeamViewer"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/TeamViewer.list"
-                # # 国内规则 
-                # ["Bilibili"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
-                # ["WeChat"]="https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list"
-                # ["ChinaASN"]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
-                # ["ChinaDomain"]="https://ruleset.skk.moe/List/non_ip/domestic.conf"
-                # ["Lan"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
-                # # 广告规则
-                # ["HTTPDNS.Block"]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list"
-                # ["Ads_limbopro"]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
-                # ["Ads_EasyListChina"]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
-                # ["Ads_EasyListPrivacy"]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
-                # ["Ads_Dlerio"]="https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AdBlock.list"
-                # ["Ads_AWAvenue"]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list"
-                # ["Anti-Ad"]="https://github.com/privacy-protection-tools/anti-AD/raw/master/anti-ad-surge.txt"
-                # # 自定义规则
-                # ["Taida"]="https://github.com/Moli-X/Resources/raw/main/Clash/Rules/Taida.list"
-                # ["Trendmicro"]="https://github.com/Moli-X/Resources/raw/main/Clash/Rules/Trendmicro.list"
-                # ["VSCode"]="https://github.com/Moli-X/Resources/raw/main/Clash/Rules/VSCode.list"
-            # )
-
-            # # 下载文件
-            # for filename in "${!files[@]}"; do
-                # echo "Downloading: ${files[$filename]}"
-                # curl -A "Surge iOS/3367" -f -L -o "Resources-repo/Ruleset/$filename.list" "${files[$filename]}" || { echo "Download Failed: ${files[$filename]}"; exit 1; }
-            # done
+            # 定义关联数组（使用简洁的键名）
+            declare -A files=(
+                # 苹果
+                ["APNs"]="https://kelee.one/Tool/Loon/Lsr/ApplePushNotificationService.lsr"
+                ["Apple"]="https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+                ["AppleProxy"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+                ["AppStore"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list"  
+                ["AppleID"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/AppleID/AppleID.list" 
+                ["TestFlight"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/TestFlight/TestFlight.list" 
+                # AI               
+                ["OpenAI"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/OpenAI/OpenAI.list"
+                ["Claude"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Claude/Claude.list"
+                ["AI"]="https://ruleset.skk.moe/List/non_ip/ai.conf"
+                # 社交媒体
+                ["Twitter"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+                ["Instagram"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+                ["Spotify"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+                ["Telegram"]="https://github.com/Repcz/Tool/raw/X/Surge/Custom/Telegram.list" 
+                ["Facebook"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Facebook/Facebook.list" 
+                # 谷歌
+                ["YouTube"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+                ["Google"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+                ["Gemini"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Gemini/Gemini.list"
+                # 微软
+                ["GitHub"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/GitHub/GitHub.list"
+                ["OneDrive"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+                ["Microsoft"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+                ["Bing"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Bing/Bing.list"
+                # 极狐
+                ["GitLab"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/GitLab/GitLab.list"
+                # Notion
+                ["Notion"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Notion/Notion.list"
+                # 甲骨文
+                ["Oracle"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
+                # 流媒体
+                ["AutoBilibili"]="https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Bilibili.list"
+                ["DouYin"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/DouYin/DouYin.list"
+                ["TikTok"]="https://kelee.one/Tool/Loon/Lsr/TikTok.lsr"
+                ["Netflix"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+                ["HBO"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+                ["Disney"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+                ["PrimeVideo"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+                # PayPal
+                ["PayPal"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+                # Cloudflare
+                ["Cloudflare"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+                # 游戏
+                ["Steam"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+                ["Epic"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+                ["Game"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
+                # 下载CDN
+                ["DownloadCDN_Global"]="https://kelee.one/Tool/Loon/Lsr/InternationalDownloadCDN.lsr"
+                ["DownloadCDN_CN"]="https://kelee.one/Tool/Loon/Lsr/ChinaDownloadCDN.lsr"
+                # 远程软件 
+                ["TeamViewer"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TeamViewer/TeamViewer.list"
+                # 国内规则 
+                ["Bilibili"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+                ["WeChat"]="https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list"
+                ["ChinaASN"]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+                ["ChinaDomain"]="https://ruleset.skk.moe/List/non_ip/domestic.conf"
+                ["Lan"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+                # 广告规则
+                ["HTTPDNS.Block"]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list"
+                ["Ads_limbopro"]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
+                ["Ads_EasyListChina"]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+                ["Ads_EasyListPrivacy"]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+                ["Ads_Dlerio"]="https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AdBlock.list"
+                ["Ads_AWAvenue"]="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list"
+                ["Anti-Ad"]="https://github.com/privacy-protection-tools/anti-AD/raw/master/anti-ad-surge.txt"
+                # 自定义规则
+                ["Taida"]="https://github.com/Moli-X/Resources/raw/main/Clash/Rules/Taida.list"
+                ["Trendmicro"]="https://github.com/Moli-X/Resources/raw/main/Clash/Rules/Trendmicro.list"
+                ["VSCode"]="https://github.com/Moli-X/Resources/raw/main/Clash/Rules/VSCode.list"
+            )
         
-            # echo "Files downloaded successfully."
-        # else
-            # echo "Unknown repository. Please run this script in the Resources repository."
-            # exit 1
-        # fi
+            # 下载文件
+            for filename in "${!files[@]}"; do
+                echo "Downloading: ${files[$filename]}"
+                curl -A "Surge iOS/3367" -f -L -o "Resources-repo/Ruleset/$filename.list" "${files[$filename]}" || { echo "Download Failed: ${files[$filename]}"; exit 1; }
+            done
+        
+            echo "Files downloaded successfully."
+        else
+            echo "Unknown repository. Please run this script in the Resources repository."
+            exit 1
+        fi
 
 
-    # - name: Source创建
-      # run: |
-        # for file in Resources-repo/QuantumultX/Ruleset/*.list ; do
-          # if [ -f "$file" ]; then
-            # sed -i -E '/^IP-CIDR,/!{/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]+/s/^/IP-CIDR,/}' "$file"
-            # sed -i -E '/^IP-CIDR6,/!{/^[a-fA-F0-9]+:|([a-fA-F0-9]+:+)+[a-fA-F0-9]+\/[0-9]+/s/^/IP-CIDR6,/}' "$file"
-            # awk '
-            # /^DOMAIN,/         { print "0 " $0; next }
-            # /^DOMAIN-SUFFIX,/  { print "1 " $0; next }
-            # /^DOMAIN-KEYWORD,/ { print "2 " $0; next }
-            # /^DOMAIN-WILDCARD,/{ print "3 " $0; next }
-            # /^IP-CIDR,/        { print "4 " $0; next }
-            # /^IP-CIDR6,/       { print "5 " $0; next }
-            # /^IP-ASN,/         { print "6 " $0; next }
-            # /^PROCESS-NAME,/   { print "7 " $0; next }
-            # /^URL-REGEX,/      { print "8 " $0; next }
-            # /^USER-AGENT,/     { print "9 " $0; next }
-            # /^GEOIP,/          { print "10 " $0; next }
-            # /^AND,/            { print "11 " $0; next }
-            # /^OR,/             { print "12 " $0; next }
-            # /^NOT,/            { print "13 " $0; next }
-            # /^DEST-PORT,/      { print "14 " $0; next }
-                               # { print "15 " $0; next }
-            # ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "$file.sorted" && mv "$file.sorted" "$file"
-            # awk '!seen[tolower($0)]++' "$file" > temp && mv temp "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
+    - name: Source创建
+      run: |
+        for file in Resources-repo/Ruleset/*.list ; do
+          if [ -f "$file" ]; then
+            # 将以"."开头的行的第一个"."替换为 "DOMAIN-SUFFIX"
+            sed -i '/^\./s/^\./DOMAIN-SUFFIX,/' "$file"
+            # 将除了以 "#" 开头、"空行" 开头之外的行, 在行首添加 "DOMAIN"
+            sed -i -E '/^\s*$/b; /^\s*[#;]/b; /^DOMAIN,|^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,|^DOMAIN-WILDCARD,|^IP-CIDR,|^IP-CIDR6,|^IP-ASN,|^GEOIP,|^AND,|^OR,|^NOT,|^URL-REGEX,|^USER-AGENT,|^PROCESS-NAME,|^DEST-PORT,/b; s/^([^#])/DOMAIN,\1/' "$file"
+            # 删除文件中所有 [以 # 或 ; 开头的注释行] + [空行] + [每行中 // 及其后面的内容]
+            sed -i -e '/^\s*[#;]/d' -e '/^$/d' -e 's| //.*||'  "$file"
+            # 删除指定域名
+            sed -i -e '/DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe/d' "$file"
+            sed -i -e '/DOMAIN,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe/d' "$file"
+            sed -i -e '/DOMAIN,this_rule_set_is_made_by_sukkaw.skk.moe/d' "$file"
+            sed -i -e 's/,reject$//' "$file"
+            # 修正格式
+            sed -i 's/, */,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Source整理
+      run: |
+        for file in Resources-repo/Ruleset/*.list ; do
+          if [ -f "$file" ]; then
+            sed -i -E '/^IP-CIDR,/!{/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]+/s/^/IP-CIDR,/}' "$file"
+            sed -i -E '/^IP-CIDR6,/!{/^[a-fA-F0-9]+:|([a-fA-F0-9]+:+)+[a-fA-F0-9]+\/[0-9]+/s/^/IP-CIDR6,/}' "$file"
+            awk '
+            /^DOMAIN,/         { print "0 " $0; next }
+            /^DOMAIN-SUFFIX,/  { print "1 " $0; next }
+            /^DOMAIN-KEYWORD,/ { print "2 " $0; next }
+            /^DOMAIN-WILDCARD,/{ print "3 " $0; next }
+            /^IP-CIDR,/        { print "4 " $0; next }
+            /^IP-CIDR6,/       { print "5 " $0; next }
+            /^IP-ASN,/         { print "6 " $0; next }
+            /^PROCESS-NAME,/   { print "7 " $0; next }
+            /^URL-REGEX,/      { print "8 " $0; next }
+            /^USER-AGENT,/     { print "9 " $0; next }
+            /^GEOIP,/          { print "10 " $0; next }
+            /^AND,/            { print "11 " $0; next }
+            /^OR,/             { print "12 " $0; next }
+            /^NOT,/            { print "13 " $0; next }
+            /^DEST-PORT,/      { print "14 " $0; next }
+                               { print "15 " $0; next }
+            ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "$file.sorted" && mv "$file.sorted" "$file"
+            awk '!seen[tolower($0)]++' "$file" > temp && mv temp "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Copy files
+      run: |
+
+        #!/bin/bash
+        
+        # 删除 QuantumultX 的 Rules 文件夹
+        rm -rf Resources-repo/QuantumultX/Rules
+        
+        # 创建 QuantumultX 的 Rules 文件夹
+        mkdir -p Resources-repo/QuantumultX/Rules
+        
+        # 遍历所有 .list 文件并复制到 QuantumultX 的 Rules 目录中
+        for file in Resources-repo/Ruleset/*.list; do
+          filename=$(basename "$file")
+          cp "$file" "Resources-repo/QuantumultX/Rules/$filename"
+        done
+        
+        echo "QuantumultX rules copied successfully."
 
 
-    # - name: Source整理
-      # run: |
-        # for file in Resources-repo/QuantumultX/Ruleset/*.list ; do
-          # if [ -f "$file" ]; then
-            # sed -i -E '/^IP-CIDR,/!{/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]+/s/^/IP-CIDR,/}' "$file"
-            # sed -i -E '/^IP-CIDR6,/!{/^[a-fA-F0-9]+:|([a-fA-F0-9]+:+)+[a-fA-F0-9]+\/[0-9]+/s/^/IP-CIDR6,/}' "$file"
-            # awk '
-            # /^DOMAIN,/         { print "0 " $0; next }
-            # /^DOMAIN-SUFFIX,/  { print "1 " $0; next }
-            # /^DOMAIN-KEYWORD,/ { print "2 " $0; next }
-            # /^DOMAIN-WILDCARD,/{ print "3 " $0; next }
-            # /^IP-CIDR,/        { print "4 " $0; next }
-            # /^IP-CIDR6,/       { print "5 " $0; next }
-            # /^IP-ASN,/         { print "6 " $0; next }
-            # /^PROCESS-NAME,/   { print "7 " $0; next }
-            # /^URL-REGEX,/      { print "8 " $0; next }
-            # /^USER-AGENT,/     { print "9 " $0; next }
-            # /^GEOIP,/          { print "10 " $0; next }
-            # /^AND,/            { print "11 " $0; next }
-            # /^OR,/             { print "12 " $0; next }
-            # /^NOT,/            { print "13 " $0; next }
-            # /^DEST-PORT,/      { print "14 " $0; next }
-                               # { print "15 " $0; next }
-            # ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "$file.sorted" && mv "$file.sorted" "$file"
-            # awk '!seen[tolower($0)]++' "$file" > temp && mv temp "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
 
-    # - name: Copy文件
-      # run: |
-        # rm -rf Resources-repo/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge}/Rules
-        # mkdir -p Resources-repo/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge}/Rules
-        # for file in Resources-repo/Ruleset/*.list; do
-          # filename=$(basename "$file")
-          # for dir in Clash Loon QuantumultX Shadowrocket Stash Surge; do
-            # cp "$file" "Resources-repo/$dir/Rules/$filename"
-          # done
-          # # 复制到Egern文件夹, 并将后缀改为.yaml
-          # cp "$file" "Resources-repo/Egern/Rules/${filename%.*}.yaml"
-        # done
-        # echo "Files copied successfully."
+###### QuantumultX
+
+    - name: QuantumultX
+      run: |
+        for file in Resources-repo/QuantumultX/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            sed -i -e '/^DEST-PORT/d' "$file"
+            sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
+            sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
+            sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"
+            sed -i -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g' "$file"
+            sed -i -e 's/^IP-CIDR6,/IP6-CIDR,/g' "$file"
+            sed -i 's/,no-resolve//g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+        for file in Resources-repo/QuantumultX/Rules/*.list; do
+          if [ -f "$file" ]; then
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v policy="$file_names" '!/^#|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+        cd Resources-repo/QuantumultX/Rules
+        cp Ads_DiDiChuXing.list DDCX.snippet
+
+
+
 
 ###### Loon
     # - name: Loon
@@ -539,40 +577,6 @@ jobs:
         # curl -L -o Resources-repo/Clash/Meta/MihomoParty.js "https://github.com/Moli-X/Resources/raw/main/Clash/Script/MihomoParty.js"
         # curl -L -o Resources-repo/Clash/Meta/MihomoParty.yaml "https://github.com/Moli-X/Resources/raw/main/Clash/MihomoParty.yaml"
 
-# ###### QuantumultX
-
-    # - name: QuantumultX规则
-      # run: |
-        # for file in Resources-repo/QuantumultX/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # sed -i -e '/^PROCESS-NAME/d' "$file"
-            # sed -i -e '/^AND/d' "$file"
-            # sed -i -e '/^OR/d' "$file"
-            # sed -i -e '/^NOT/d' "$file"
-            # sed -i -e '/^DEST-PORT/d' "$file"
-            # sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
-            # sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
-            # sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"
-            # sed -i -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g' "$file"
-            # sed -i -e 's/^IP-CIDR6,/IP6-CIDR,/g' "$file"
-            # sed -i 's/,no-resolve//g' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
-
-        # for file in Resources-repo/QuantumultX/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # file_names=$(basename "$file" .list)
-            # line_count=$(wc -l < "$file")
-            # awk -v policy="$file_names" '!/^#|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # sed -i '2a\\' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
 
 
     - name: 单独复刻QX配置

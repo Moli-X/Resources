@@ -1,0 +1,535 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 0,12 * * *"
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      SING_BOX_VERSION: 1.10.5
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4.2.2
+      with:
+        repository: Repcz/Tool
+        path: Tool-repo
+
+    - name: GeoIP
+      run: |
+        mkdir -p Tool/GeoIP
+        curl -L -o Tool-repo/GeoIP/CN_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb"
+        curl -L -o Tool-repo/GeoIP/Global_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb"
+
+    - name: Run Bash Script
+      run: |
+        #!/bin/bash
+        repo_name=$(basename "$GITHUB_REPOSITORY")
+        if [[ "$repo_name" == "Tool" ]]; then
+            echo "Running in Tool repository"
+            mkdir -p Tool-repo/Ruleset
+            # 合并广告规则
+            urls=(
+                "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+                "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list"
+                "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+                "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
+                "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Reject.list"
+            )
+            > Tool-repo/Ruleset/Reject.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Tool-repo/Ruleset/Reject.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/Reject.list
+            done
+            # 合并 SukkaW 广告规则
+            urls=(
+                "https://ruleset.skk.moe/List/domainset/reject.conf"
+                "https://ruleset.skk.moe/List/non_ip/reject.conf"
+            )
+            > Tool-repo/Ruleset/Ads_SukkaW.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Tool-repo/Ruleset/Ads_SukkaW.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/Ads_SukkaW.list
+            done
+            # 合并 SukkaW CDN 规则
+            urls=(
+                "https://ruleset.skk.moe/List/domainset/cdn.conf"
+                "https://ruleset.skk.moe/List/non_ip/cdn.conf"
+            )
+            > Tool-repo/Ruleset/CDN.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Tool-repo/Ruleset/CDN.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/CDN.list
+            done
+            # 合并 GFW 规则
+            urls=(
+                "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+                "https://ruleset.skk.moe/List/non_ip/global.conf"
+            )
+            > Tool-repo/Ruleset/ProxyGFW.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Tool-repo/Ruleset/ProxyGFW.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/ProxyGFW.list
+            done
+            # 合并 AI 规则
+            urls=(
+                "https://ruleset.skk.moe/List/non_ip/ai.conf"
+                "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/xAI.list"
+                "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/AI.list"
+            )
+            > Tool-repo/Ruleset/AI.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Tool-repo/Ruleset/AI.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/AI.list
+            done
+            # 合并 AppleProxy 规则
+            urls=(
+                "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+            )
+            > Tool-repo/Ruleset/AppleProxy.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Tool-repo/Ruleset/AppleProxy.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/AppleProxy.list
+            done
+            # 合并 AppleCN 规则
+            urls=(
+                "https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
+                "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf"
+            )
+            > Tool-repo/Ruleset/AppleCN.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L -H "Accept-Language: en-us" "$url" >> Tool-repo/Ruleset/AppleCN.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/AppleCN.list
+            done
+            # 下载规则
+            files=(
+                # 苹果
+                "APNs.list https://kelee.one/Tool/Loon/Lsr/ApplePushNotificationService.lsr"
+                "Apple.list https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+                "AppleMusic.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+                "AppStore.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list"
+                "AppleID.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+                "iCloud.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+                "TestFlight.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+                "AppleServers.list https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+                # AI
+                "OpenAI.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
+                "Claude.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+                "xAI.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/xAI.list"
+                # 社交媒体
+                "Twitter.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+                "Instagram.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+                "Facebook.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+                # 谷歌
+                "YouTube.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+                "Google.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+                # 微软
+                "Github.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+                "OneDrive.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+                "Microsoft.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+                # 甲骨文
+                "Oracle.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
+                # 流媒体
+                "TikTok.list https://kelee.one/Tool/Loon/Lsr/TikTok.lsr"
+                "Netflix.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+                "HBO.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+                "Disney.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+                "Spotify.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+                "PrimeVideo.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+                "FitnessPlus.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+                "AppleMedia.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+                "Bahamut.list https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+                "ProxyMedia.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+                # PayPal
+                "PayPal.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+                # Cloudflare
+                "Cloudflare.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+                # 游戏规则
+                "Steam.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+                "Epic.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+                "Game.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
+                # 下载CDN
+                "DownloadCDN_Global.list https://kelee.one/Tool/Loon/Lsr/InternationalDownloadCDN.lsr"
+                "DownloadCDN_CN.list https://kelee.one/Tool/Loon/Lsr/ChinaDownloadCDN.lsr"
+                # 国内规则
+                "Bilibili.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+                "WeChat.list https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list"
+                "ChinaASN.list https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+                "ChinaDomain.list https://ruleset.skk.moe/List/non_ip/domestic.conf"
+                "ChinaIP.list https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt"
+                # 广告规则
+                "Ads_limbopro.list https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
+                "Ads_EasyListChina.list https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+                "Ads_EasyListPrivacy.list https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+                "Ads_Dlerio.list https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AdBlock.list"
+                "Ads_AWAvenue.list https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list"
+                "AdGuardChinese.list https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+                # 自定义规则
+                "Crypto.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Crypto.list"
+                "Direct.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list"
+                "Emby.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Emby.list"
+                "Lan.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Lan.list"
+                "Porn.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Porn.list"
+                "Prevent_DNS_Leaks.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Prevent_DNS_Leaks.list"
+                "Proxy.list https://ruleset.skk.moe/List/non_ip/global.conf"
+                "Talkatone.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Talkatone.list"
+                "Telegram_NoIP.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Telegram_NoIP.list"
+                "Telegram.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Telegram.list"
+                "TronLink.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/TronLink.list"
+                "Trust.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Trust.list"
+                "Ads_DiDiChuXing.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Ads_DiDiChuXing.list"
+                "FILTER_REGION.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/FILTER_REGION.list"
+            )
+            for file in "${files[@]}"; do
+                set -- $file
+                echo "Downloading: $2"
+                curl -A "Surge iOS/3367" -H "Accept-Language: en-us" -f -L -o "Tool-repo/Ruleset/$1" "$2" || { echo "Download Failed: $2"; exit 1; }
+            done
+            echo "Files downloaded successfully."
+        else
+            echo "Unknown repository. Please run this script in either Tool or Tool repository."
+            exit 1
+        fi
+
+    - name: Source build
+      run: |
+        for file in Tool-repo/Ruleset/*.list ; do
+          if [ -f "$file" ]; then
+            # 将以"."开头的行的第一个"."替换为 "DOMAIN-SUFFIX"
+            sed -i '/^\./s/^\./DOMAIN-SUFFIX,/' "$file"
+            # 将除了以 "#" 开头、"空行" 开头之外的行, 在行首添加 "DOMAIN"
+            sed -i -E '/^\s*$/b; /^\s*[#;]/b; /^DOMAIN,|^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,|^DOMAIN-WILDCARD,|^IP-CIDR,|^IP-CIDR6,|^IP-ASN,|^GEOIP,|^AND,|^OR,|^NOT,|^URL-REGEX,|^USER-AGENT,|^PROCESS-NAME,|^DEST-PORT,/b; s/^([^#])/DOMAIN,\1/' "$file"
+            # 删除文件中所有 [以 # 或 ; 开头的注释行] + [空行] + [每行中 // 及其后面的内容]
+            sed -i -e '/^\s*[#;]/d' -e '/^$/d' -e 's| //.*||'  "$file"
+            # 删除指定域名
+            sed -i -e '/DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe/d' "$file"
+            sed -i -e '/DOMAIN,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe/d' "$file"
+            sed -i -e '/DOMAIN,this_rule_set_is_made_by_sukkaw.skk.moe/d' "$file"
+            sed -i -e 's/,reject$//' "$file"
+            # 修正格式
+            sed -i 's/, */,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Source sort
+      run: |
+        for file in Tool-repo/Ruleset/*.list ; do
+          if [ -f "$file" ]; then
+            sed -i -E '/^IP-CIDR,/!{/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]+/s/^/IP-CIDR,/}' "$file"
+            sed -i -E '/^IP-CIDR6,/!{/^[a-fA-F0-9]+:|([a-fA-F0-9]+:+)+[a-fA-F0-9]+\/[0-9]+/s/^/IP-CIDR6,/}' "$file"
+            awk '
+            /^DOMAIN,/         { print "0 " $0; next }
+            /^DOMAIN-SUFFIX,/  { print "1 " $0; next }
+            /^DOMAIN-KEYWORD,/ { print "2 " $0; next }
+            /^DOMAIN-WILDCARD,/{ print "3 " $0; next }
+            /^IP-CIDR,/        { print "4 " $0; next }
+            /^IP-CIDR6,/       { print "5 " $0; next }
+            /^IP-ASN,/         { print "6 " $0; next }
+            /^PROCESS-NAME,/   { print "7 " $0; next }
+            /^URL-REGEX,/      { print "8 " $0; next }
+            /^USER-AGENT,/     { print "9 " $0; next }
+            /^GEOIP,/          { print "10 " $0; next }
+            /^AND,/            { print "11 " $0; next }
+            /^OR,/             { print "12 " $0; next }
+            /^NOT,/            { print "13 " $0; next }
+            /^DEST-PORT,/      { print "14 " $0; next }
+                               { print "15 " $0; next }
+            ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "$file.sorted" && mv "$file.sorted" "$file"
+            awk '!seen[tolower($0)]++' "$file" > temp && mv temp "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Copy files
+      run: |
+        rm -rf Tool-repo/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge,sing-box}/Rules
+        mkdir -p Tool-repo/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge,sing-box,mihomo}/Rules
+        for file in Tool-repo/Ruleset/*.list; do
+          filename=$(basename "$file")
+          for dir in Clash Loon QuantumultX Shadowrocket Stash Surge mihomo; do
+            mkdir -p "Tool-repo/$dir/Rules"
+            cp "$file" "Tool-repo/$dir/Rules/$filename"
+          done
+          # 复制到 Egern 文件夹, 并将后缀改为.yaml
+          mkdir -p "Tool-repo/Egern/Rules"
+          cp "$file" "Tool-repo/Egern/Rules/${filename%.*}.yaml"
+          # 复制到 sing-box 文件夹, 并将后缀改为.json
+          mkdir -p "Tool-repo/sing-box/Rules"
+          cp "$file" "Tool-repo/sing-box/Rules/${filename%.*}.json"
+        done
+        echo "Files copied successfully."
+
+    - name: Clash/mihomo
+      run: |
+        rm -rf Tool-repo/Ruleset
+        for file in Tool-repo/{Clash,mihomo}/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^URL-REGEX/d' "$file"
+            sed -i 's/DOMAIN-WILDCARD/DOMAIN-REGEX/g' "$file"
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Egern
+      run: |
+        for file in Tool-repo/Egern/Rules/*.yaml; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            awk '/^DOMAIN,/ && !added {print "domain_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^DOMAIN-SUFFIX,/ && !added {print "domain_suffix_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^DOMAIN-KEYWORD,/ && !added {print "domain_keyword_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^DOMAIN-WILDCARD,/ && !added {print "domain_wildcard_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^IP-CIDR,/ && !added {print "ip_cidr_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^IP-CIDR6,/ && !added {print "ip_cidr6_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^IP-ASN,/ && !added {print "asn_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^URL-REGEX,/ && !added {print "url_regex_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^DEST-PORT,/ && !added {print "dest_port_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^GEOIP,/ && !added {print "geoip_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+        for file in Tool-repo/Egern/Rules/*.yaml; do
+          if [ -f "$file" ]; then
+            if grep -qE '^IP-(ASN|CIDR|CIDR6).*no-resolve$' "$file"; then
+            sed -i '1i\no_resolve: true' "$file"
+            fi
+            sed -i -E 's/^(URL-REGEX,)([^,]+)$/\1"\2"/' "$file"
+            sed -i -E 's/^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN-WILDCARD|DEST-PORT|IP-CIDR|IP-CIDR6|IP-ASN|URL-REGEX|GEOIP),/  - /g' "$file"
+            sed -i 's/,no-resolve//g' "$file"
+            file_names=$(basename "$file" .yaml)
+            line_count=$(grep -c '^  - ' "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+  
+    - name: Loon
+      run: |
+        for file in Tool-repo/Loon/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: QuantumultX
+      run: |
+        for file in Tool-repo/QuantumultX/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            sed -i -e '/^DEST-PORT/d' "$file"
+            sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
+            sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
+            sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"
+            sed -i -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g' "$file"
+            sed -i -e 's/^IP-CIDR6,/IP6-CIDR,/g' "$file"
+            sed -i 's/,no-resolve//g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+        for file in Tool-repo/QuantumultX/Rules/*.list; do
+          if [ -f "$file" ]; then
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v policy="$file_names" '!/^#|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+        cd Tool-repo/QuantumultX/Rules
+        cp Ads_DiDiChuXing.list DDCX.snippet
+
+    - name: Shadowrocket
+      run: |
+        for file in Tool-repo/Shadowrocket/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Stash
+      run: |
+        for file in Tool-repo/Stash/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^URL-REGEX/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i -E '/^(OR|AND|NOT|USER-AGENT|URL-REGEX),/ s/^/#/' "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Surge
+      run: |
+        for file in Tool-repo/Surge/Rules/*.list; do
+          if [ -f "$file" ]; then
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: sing-box
+      run: |
+        # 安装 sing-box
+        curl -L -o sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz
+        tar -xzf sing-box.tar.gz
+        chmod +x sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box
+        sudo mv sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box /usr/local/bin/sing-box
+        sing-box version
+        # 处理 Rules
+        for file in Tool-repo/sing-box/Rules/*.json; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            sed -i -e '/^DEST-PORT/d' "$file"
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^URL-REGEX/d' "$file"
+            sed -i -e '/^DOMAIN-WILDCARD/d' "$file"
+            sed -i -e '/^GEOIP/d' "$file"
+            sed -i -e '/^#/d' "$file"
+            sed -i -e '/^$/d' "$file"
+
+            temp_file=$(mktemp)
+            echo '{' > "$temp_file"
+            echo '  "version": 2,' >> "$temp_file"
+            echo '  "rules": [' >> "$temp_file"
+            domains=$(grep -E '^DOMAIN,' "$file" | cut -d, -f2)
+            if [ -n "$domains" ]; then
+              domain_array=$(echo "$domains" | jq -R . | jq -s .)
+              echo '    {' >> "$temp_file"
+              echo '      "domain": [' >> "$temp_file"
+              echo "$domain_array" | jq -r '.[]' | sed 's/^/        "/;s/$/",/' >> "$temp_file"
+              sed -i '$ s/,$//' "$temp_file"
+              echo '      ]' >> "$temp_file"
+              echo '    },' >> "$temp_file"
+            fi
+            domain_suffixes=$(grep -E '^DOMAIN-SUFFIX,' "$file" | cut -d, -f2)
+            if [ -n "$domain_suffixes" ]; then
+              domain_suffix_array=$(echo "$domain_suffixes" | jq -R . | jq -s .)
+              echo '    {' >> "$temp_file"
+              echo '      "domain_suffix": [' >> "$temp_file"
+              echo "$domain_suffix_array" | jq -r '.[]' | sed 's/^/        "/;s/$/",/' >> "$temp_file"
+              sed -i '$ s/,$//' "$temp_file"
+              echo '      ]' >> "$temp_file"
+              echo '    },' >> "$temp_file"
+            fi
+            domain_keywords=$(grep -E '^DOMAIN-KEYWORD,' "$file" | cut -d, -f2)
+            if [ -n "$domain_keywords" ]; then
+              domain_keyword_array=$(echo "$domain_keywords" | jq -R . | jq -s .)
+              echo '    {' >> "$temp_file"
+              echo '      "domain_keyword": [' >> "$temp_file"
+              echo "$domain_keyword_array" | jq -r '.[]' | sed 's/^/        "/;s/$/",/' >> "$temp_file"
+              sed -i '$ s/,$//' "$temp_file"
+              echo '      ]' >> "$temp_file"
+              echo '    },' >> "$temp_file"
+            fi
+            ip_cidrs=$(grep -E '^IP-CIDR,|^IP-CIDR6,' "$file" | cut -d, -f2)
+            if [ -n "$ip_cidrs" ]; then
+              ip_cidr_array=$(echo "$ip_cidrs" | jq -R . | jq -s .)
+              echo '    {' >> "$temp_file"
+              echo '      "ip_cidr": [' >> "$temp_file"
+              echo "$ip_cidr_array" | jq -r '.[]' | sed 's/^/        "/;s/$/",/' >> "$temp_file"
+              sed -i '$ s/,$//' "$temp_file"
+              echo '      ]' >> "$temp_file"
+              echo '    }' >> "$temp_file"
+            fi
+            sed -i '$ s/,$//' "$temp_file"
+            echo '  ]' >> "$temp_file"
+            echo '}' >> "$temp_file"
+            mv "$temp_file" "$file"
+            # 编译 JSON 规则并清理不需要的内容
+            sing-box rule-set compile "$file" -o "${file%.json}.srs"
+            rm -rf sing-box sing-box-${SING_BOX_VERSION}-linux-amd64 sing-box.tar.gz
+          else
+            echo "$file not found."
+          fi
+        done
+        rm -rf ${{ github.workspace }}/Tool-repo/sing-box/Rules/ChinaASN.{json,srs}
+        rm -rf ${{ github.workspace }}/Tool-repo/sing-box/Rules/FILTER_REGION.{json,srs}
+      
+
+    - name: Push Update
+      run: |
+        cd Tool-repo
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add -A
+            git commit -m "Update(Rules): $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git push origin X
+          else
+            echo "No changes to commit."
+          fi
+
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

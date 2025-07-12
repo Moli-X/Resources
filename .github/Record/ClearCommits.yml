@@ -1,0 +1,27 @@
+name: Clear Commits
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          ref: X
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout --orphan clearhistory
+          git branch -D X
+          git checkout --orphan X
+          git add .
+          git commit -m "ㅤ"
+          git push -f -u origin X
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 0

@@ -42,20 +42,21 @@ DOMAIN-SUFFIX,scapi.vmware.com
 DOMAIN-SUFFIX,ens-apj.getboxer.com
 DOMAIN-SUFFIX,boxeravatars.getboxer.com
 
+IP-CIDR,10.146.136.147
 
 # 关键字匹配
-DOMAIN-KEYWORD,getboxer  # Boxer 相关服务
-DOMAIN-KEYWORD,gravatar  # Gravatar 相关服务
-DOMAIN-KEYWORD,vmwservices  # VMware 相关服务
-DOMAIN-KEYWORD,academy  # Delta 相关服务
-DOMAIN-KEYWORD,deltaww  # Delta 相关服务
-DOMAIN-KEYWORD,vmware  # VMware 相关服务
-DOMAIN-KEYWORD,awmdm  # 可能与移动设备管理（MDM）相关
-DOMAIN-KEYWORD,teams  # Microsoft Teams 相关服务
-DOMAIN-KEYWORD,microsoft  # Microsoft 相关服务
-DOMAIN-KEYWORD,office  # Microsoft Office 相关服务
-DOMAIN-KEYWORD,skype  # Skype 相关服务
-DOMAIN-KEYWORD,delta  # Delta 相关服务
-DOMAIN-KEYWORD,dms  # 可能与 Delta 相关服务
-DOMAIN-KEYWORD,mydelta  # Delta 相关服务
-DOMAIN-KEYWORD,mydeltaww  # Delta 相关服务
+DOMAIN-KEYWORD,getboxer  
+DOMAIN-KEYWORD,gravatar  
+DOMAIN-KEYWORD,vmwservices  
+DOMAIN-KEYWORD,academy  
+DOMAIN-KEYWORD,deltaww  
+DOMAIN-KEYWORD,vmware  
+DOMAIN-KEYWORD,awmdm  
+DOMAIN-KEYWORD,teams  
+DOMAIN-KEYWORD,microsoft  
+DOMAIN-KEYWORD,office  
+DOMAIN-KEYWORD,skype  
+DOMAIN-KEYWORD,delta  
+DOMAIN-KEYWORD,dms  
+DOMAIN-KEYWORD,mydelta  
+DOMAIN-KEYWORD,mydeltaww  

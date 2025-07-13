@@ -42,7 +42,8 @@ DOMAIN-SUFFIX,scapi.vmware.com
 DOMAIN-SUFFIX,ens-apj.getboxer.com
 DOMAIN-SUFFIX,boxeravatars.getboxer.com
 
-IP-CIDR,10.146.136.147
+# LOG
+IP-CIDR,10.146.136.147/32
 
 # 关键字匹配
 DOMAIN-KEYWORD,getboxer  

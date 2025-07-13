@@ -355,6 +355,7 @@ jobs:
             [JD_Price]="https://raw.githubusercontent.com/ddgksf2013/Modules/main/JD_Price.sgmodule"
             [Adblock4limbo]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.conf"
             [123pan.webEnhance]="https://raw.githubusercontent.com/ddgksf2013/Modules/main/123pan.webEnhance.sgmodule"
+            [SubStore]="https://github.com/sub-store-org/Sub-Store/blob/master/config/QX.snippet"
             # [mobileClouds_remove_ads]="https://kelee.one/Tool/Loon/Lpx/mobileClouds_remove_ads.lpx"
             # [PICC_Insurance_remove_ads]="https://kelee.one/Tool/Loon/Lpx/PICC_Insurance_remove_ads.lpx"
             # [Spotify_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx"

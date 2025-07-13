@@ -2,7 +2,7 @@
 | | | | |
 |---|---|---|---|
 | |类别|功能|链接|
-| |懒人配置|莫离|Auto.conf|
+| |懒人配置|莫离| [Auto.conf](https://raw.githubusercontent.com/GodMoli/QuanX/main/File/Auto.conf)|
 | | |matrix|https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/matrix.conf|
 | | |Lucky|https://raw.githubusercontent.com/As-Lucky/Lucky/main/Lucky-qx.conf|
 | | |Orz-3|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf|

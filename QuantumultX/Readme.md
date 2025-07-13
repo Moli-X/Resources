@@ -1,0 +1,69 @@
+| | | | |
+| | | | |
+|---|---|---|---|
+| |类别|功能|链接|
+| |懒人配置|莫离|Auto.conf|
+| | |matrix|https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/matrix.conf|
+| | |Lucky|https://raw.githubusercontent.com/As-Lucky/Lucky/main/Lucky-qx.conf|
+| | |Orz-3|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf|
+| | |fmz200|https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/config/QuanX.conf|
+| | |大飞|https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf|
+| | |墨鱼|https://github.com/ddgksf2013/Profile/raw/master/QuantumultX.conf|
+| | |毒奶|https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf|
+| | |耳东橙|https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/QuantumultX_EDC-Lazy.conf|
+| | |烧烤哥|https://raw.githubusercontent.com/Tartarus2014/QuantumultX-Script/main/QuanX.conf|
+| | |Lucy|https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/QuantumultX.conf|
+| | |彭于晏|https://raw.githubusercontent.com/89996462/Quantumult-X/main/py.conf|
+| | |Shawn|https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf|
+| | |GeQ1an|https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf|
+| | |奇心大陆|https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf|
+| | |奇心海外|https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/overseas.conf|
+| |重写|123网盘|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/123pan.webEnhance.conf|
+| | |毒奶净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Adblock4limbo.conf|
+| | |高德|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Amap.conf|
+| | |微信小程序|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Applet.conf|
+| | |百度云盘|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/BaiduCloud.conf|
+| | |哔哩等级任务|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/BiliBiliDailyBonus.conf|
+| | |哔哩广告|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/BilibiliAds.conf|
+| | |哔哩净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/BilibiliAdsLite.conf|
+| | |哔哩字幕|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/BilibiliCC.conf|
+| | |必应|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/BingSimplify.conf|
+| | |Boxjs|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Boxjs.conf|
+| | |财新周刊|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/CaiXinZhouKanProCrack.conf|
+| | |彩云天气净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/CaiYunAds.conf|
+| | |菜鸟净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/CainiaoAds.conf|
+| | |解锁合集|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Collections.conf|
+| | |酷安净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Coolapk.conf|
+| | |DNS|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/DNS.conf|
+| | |豆瓣|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Douban.conf|
+| | |Emby|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/EmbyPlugin.conf|
+| | |谷歌自动翻页|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/EndlessGoogle.conf|
+| | |TF|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/ForceInstallTF.conf|
+| | |Stream|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/FreeStreamAds.conf|
+| | |通用配置|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/General.conf|
+| | |HTTPDNS|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/HTTPDNS.Block.conf|
+| | |京东比价|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/JD_Price.conf|
+| | |KEEP|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Keep.conf|
+| | |keep净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/KeepAds.conf|
+| | |芒果TV|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Mgtvhy.conf|
+| | |网易净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/NeteaseAds.conf|
+| | |网易净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/NeteaseMailAds.conf|
+| | |Pixiv净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/PixivAds.conf|
+| | |PornHub净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/PornHub.conf|
+| | |超级搜索|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/QuickSearch.conf|
+| | |Reddit净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/RedditAds.conf|
+| | |Script-Hub|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Script-Hub.conf|
+| | |什么值得买|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/SmzdmAds.conf|
+| | |Spotify|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Spotify.conf|
+| | |SubStore|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/SubStore.conf|
+| | |随手记|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/SuiShouJi.conf|
+| | |TF|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/TFDownload.conf|
+| | |贴吧净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/TieBaAds.conf|
+| | |微信跳转|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/UnblockURLinWeChat.conf|
+| | |服务替换|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/UposRedirect.conf|
+| | |网页净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/WebAdBlock.conf|
+| | |微博净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/WeiboAds.conf|
+| | |小红书净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/XiaoHongShuAds.conf|
+| | |喜马拉雅|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Xmly.conf|
+| | |YouTube|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/YoutubeAds.conf|
+| | |贴吧净化|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/tieba-qx.conf|

@@ -1,25 +1,33 @@
 # NAME: QQ邮箱
 
 
+  # 📮 QQ邮箱相关
+  
   - DOMAIN-SUFFIX,mail.qq.com             # QQ邮箱网页版主域
   - DOMAIN-SUFFIX,wx.mail.qq.com          # QQ邮箱网页版微信相关
   - DOMAIN-SUFFIX,exmail.qq.com           # 企业邮箱网页版
   - DOMAIN-SUFFIX,push.mail.qq.com        # 推送服务
-  - DOMAIN-SUFFIX,imap.qq.com             # IMAP服务（收邮件）
-  - DOMAIN-SUFFIX,smtp.qq.com             # SMTP服务（发邮件）
+  - DOMAIN-SUFFIX,imap.qq.com             # IMAP收信服务
+  - DOMAIN-SUFFIX,smtp.qq.com             # SMTP发信服务
   - DOMAIN-SUFFIX,pop.qq.com              # POP3服务
-  - DOMAIN-SUFFIX,mail.qpic.cn            # 邮件中加载图片、附件
+  - DOMAIN-SUFFIX,qqmail.com              # 通用邮箱域名
+  
+  # 📎 邮件内容资源
+  - DOMAIN-SUFFIX,mail.qpic.cn            # 邮件中图片/附件资源
   - DOMAIN-SUFFIX,img.mail.qq.com         # 邮箱图标资源
-  - DOMAIN-SUFFIX,dl.mail.qq.com          # 附件下载payload:
-  - DOMAIN-SUFFIX,mail.qq.com             # QQ邮箱网页版主域
-  - DOMAIN-SUFFIX,wx.mail.qq.com          # QQ邮箱网页版微信相关
-  - DOMAIN-SUFFIX,exmail.qq.com           # 企业邮箱网页版
-  - DOMAIN-SUFFIX,push.mail.qq.com        # 推送服务
-  - DOMAIN-SUFFIX,imap.qq.com             # IMAP服务（收邮件）
-  - DOMAIN-SUFFIX,smtp.qq.com             # SMTP服务（发邮件）
-  - DOMAIN-SUFFIX,pop.qq.com              # POP3服务
-  - DOMAIN-SUFFIX,mail.qpic.cn            # 邮件中加载图片、附件
-  - DOMAIN-SUFFIX,img.mail.qq.com         # 邮箱图标资源
-  - DOMAIN-SUFFIX,dl.mail.qq.com          # 附件下载
-  - DOMAIN,gzc-dfsdown.mail.ftn.qq.com    # 附件下载
-  - DOMAIN-SUFFIX,mail.ftn.qq.com
+  - DOMAIN-SUFFIX,dl.mail.qq.com          # 附件下载服务
+  - DOMAIN-SUFFIX,mail.ftn.qq.com         # 文件中转服务主域
+  - DOMAIN,gzc-dfsdown.mail.ftn.qq.com    # 附件下载子域（大文件）
+  
+  # 📦 微信相关服务（邮箱集成）
+  - DOMAIN,cube.weixinbridge.com          # 微信邮箱桥
+  - DOMAIN-SUFFIX,weixinbridge.com        # 邮箱微信桥主域
+  - DOMAIN-SUFFIX,res.wx.qq.com           # 微信资源加载
+  - DOMAIN-SUFFIX,ssl.captcha.qq.com      # 验证码服务
+  
+  # 📁 静态资源
+  - DOMAIN,rescdn.qqmail.com              # 邮箱静态资源加载（JS/CSS）
+  - DOMAIN,cube.weixinbridge.com
+  
+
+  

@@ -1,5 +1,5 @@
 # 规则名称: Taida
-# 规则统计: 50
+# 规则统计: 51
 
 HOST,apac.ng.msg.teams.microsoft.com,Taida
 HOST,api-apac.flightproxy.teams.microsoft.com,Taida
@@ -36,18 +36,19 @@ HOST-SUFFIX,s-ring.msedge.net,Taida
 HOST-SUFFIX,scapi.vmware.com,Taida
 HOST-SUFFIX,skype.com,Taida
 HOST-SUFFIX,substrate.office.com,Taida
-HOST-KEYWORD,academy  # Delta 相关服务,Taida
-HOST-KEYWORD,awmdm  # 可能与移动设备管理（MDM）相关,Taida
-HOST-KEYWORD,delta  # Delta 相关服务,Taida
-HOST-KEYWORD,deltaww  # Delta 相关服务,Taida
-HOST-KEYWORD,dms  # 可能与 Delta 相关服务,Taida
-HOST-KEYWORD,getboxer  # Boxer 相关服务,Taida
-HOST-KEYWORD,gravatar  # Gravatar 相关服务,Taida
-HOST-KEYWORD,microsoft  # Microsoft 相关服务,Taida
-HOST-KEYWORD,mydelta  # Delta 相关服务,Taida
-HOST-KEYWORD,mydeltaww  # Delta 相关服务,Taida
-HOST-KEYWORD,office  # Microsoft Office 相关服务,Taida
-HOST-KEYWORD,skype  # Skype 相关服务,Taida
-HOST-KEYWORD,teams  # Microsoft Teams 相关服务,Taida
-HOST-KEYWORD,vmware  # VMware 相关服务,Taida
-HOST-KEYWORD,vmwservices  # VMware 相关服务,Taida
+HOST-KEYWORD,academy  ,Taida
+HOST-KEYWORD,awmdm  ,Taida
+HOST-KEYWORD,delta  ,Taida
+HOST-KEYWORD,deltaww  ,Taida
+HOST-KEYWORD,dms  ,Taida
+HOST-KEYWORD,getboxer  ,Taida
+HOST-KEYWORD,gravatar  ,Taida
+HOST-KEYWORD,microsoft  ,Taida
+HOST-KEYWORD,mydelta  ,Taida
+HOST-KEYWORD,mydeltaww  ,Taida
+HOST-KEYWORD,office  ,Taida
+HOST-KEYWORD,skype  ,Taida
+HOST-KEYWORD,teams  ,Taida
+HOST-KEYWORD,vmware  ,Taida
+HOST-KEYWORD,vmwservices  ,Taida
+IP-CIDR,10.146.136.147/32,Taida

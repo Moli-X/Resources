@@ -33,18 +33,19 @@ DOMAIN-SUFFIX,s-ring.msedge.net
 DOMAIN-SUFFIX,scapi.vmware.com
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,substrate.office.com
-DOMAIN-KEYWORD,academy  # Delta 相关服务
-DOMAIN-KEYWORD,awmdm  # 可能与移动设备管理（MDM）相关
-DOMAIN-KEYWORD,delta  # Delta 相关服务
-DOMAIN-KEYWORD,deltaww  # Delta 相关服务
-DOMAIN-KEYWORD,dms  # 可能与 Delta 相关服务
-DOMAIN-KEYWORD,getboxer  # Boxer 相关服务
-DOMAIN-KEYWORD,gravatar  # Gravatar 相关服务
-DOMAIN-KEYWORD,microsoft  # Microsoft 相关服务
-DOMAIN-KEYWORD,mydelta  # Delta 相关服务
-DOMAIN-KEYWORD,mydeltaww  # Delta 相关服务
-DOMAIN-KEYWORD,office  # Microsoft Office 相关服务
-DOMAIN-KEYWORD,skype  # Skype 相关服务
-DOMAIN-KEYWORD,teams  # Microsoft Teams 相关服务
-DOMAIN-KEYWORD,vmware  # VMware 相关服务
-DOMAIN-KEYWORD,vmwservices  # VMware 相关服务
+DOMAIN-KEYWORD,academy  
+DOMAIN-KEYWORD,awmdm  
+DOMAIN-KEYWORD,delta  
+DOMAIN-KEYWORD,deltaww  
+DOMAIN-KEYWORD,dms  
+DOMAIN-KEYWORD,getboxer  
+DOMAIN-KEYWORD,gravatar  
+DOMAIN-KEYWORD,microsoft  
+DOMAIN-KEYWORD,mydelta  
+DOMAIN-KEYWORD,mydeltaww  
+DOMAIN-KEYWORD,office  
+DOMAIN-KEYWORD,skype  
+DOMAIN-KEYWORD,teams  
+DOMAIN-KEYWORD,vmware  
+DOMAIN-KEYWORD,vmwservices  
+IP-CIDR,10.146.136.147/32

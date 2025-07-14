@@ -1,6 +1,6 @@
 # NAME: QQ邮箱
 
-payload:
+
   - DOMAIN-SUFFIX,mail.qq.com             # QQ邮箱网页版主域
   - DOMAIN-SUFFIX,wx.mail.qq.com          # QQ邮箱网页版微信相关
   - DOMAIN-SUFFIX,exmail.qq.com           # 企业邮箱网页版

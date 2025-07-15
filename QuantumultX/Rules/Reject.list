@@ -1,5 +1,5 @@
 # 规则名称: Reject
-# 规则统计: 5264
+# 规则统计: 5269
 
 HOST,118.89.204.198,Reject
 HOST,a.wkanx.com,Reject
@@ -113,6 +113,7 @@ HOST,adsp.xunlei.com,Reject
 HOST,adsstatic.vivo.com.cn,Reject
 HOST,adstats.tencentmusic.com,Reject
 HOST,adstore-index-1252524079.file.myqcloud.com,Reject
+HOST,adstrategy.biz.weibo.com,Reject
 HOST,adui.tg.meitu.com,Reject
 HOST,adv-adlog.variflight.com,Reject
 HOST,adv-ads.variflight.com,Reject
@@ -145,6 +146,7 @@ HOST,appnext.hs.llnwd.net,Reject
 HOST,apppv.zol.com.cn,Reject
 HOST,asimgs.pplive.cn,Reject
 HOST,atrace.chelaile.net.cn,Reject
+HOST,bootpreload.uve.weibo.com,Reject
 HOST,browsercfg-drcn.cloud.dbankcloud.cn,Reject
 HOST,business-cdn.shouji.sogou.com,Reject
 HOST,c.bing.com,Reject
@@ -3452,6 +3454,7 @@ HOST-SUFFIX,pakaujf.icu,Reject
 HOST-SUFFIX,panda.kdnet.net,Reject
 HOST-SUFFIX,panel-cn.com,Reject
 HOST-SUFFIX,pangle.io,Reject
+HOST-SUFFIX,pangolin-dsp-toutiao.com,Reject
 HOST-SUFFIX,pangolin-sdk-toutiao-b.com,Reject
 HOST-SUFFIX,pangolin-sdk-toutiao.com,Reject
 HOST-SUFFIX,pangolin-sdk-toutiao1.com,Reject
@@ -4322,6 +4325,7 @@ HOST-SUFFIX,top2099.com,Reject
 HOST-SUFFIX,topitme.com,Reject
 HOST-SUFFIX,torkeauwu.com,Reject
 HOST-SUFFIX,toublii.top,Reject
+HOST-SUFFIX,touch-moblie.com,Reject
 HOST-SUFFIX,touvxlii.top,Reject
 HOST-SUFFIX,tovbus.cn,Reject
 HOST-SUFFIX,towmfs.com,Reject
@@ -4913,6 +4917,7 @@ HOST-SUFFIX,xcf-bd-js.chuimg.com,Reject
 HOST-SUFFIX,xchmai.com,Reject
 HOST-SUFFIX,xcwdcynb.icu,Reject
 HOST-SUFFIX,xdrig.com,Reject
+HOST-SUFFIX,xdrun.com,Reject
 HOST-SUFFIX,xdyjt.com,Reject
 HOST-SUFFIX,xebetp.icu,Reject
 HOST-SUFFIX,xeccotftw.com,Reject

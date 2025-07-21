@@ -1,9 +1,10 @@
 # 规则名称: CDN
-# 规则统计: 3763
+# 规则统计: 3765
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
 HOST,4gtvimg2.4gtv.tv,CDN
+HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,CDN
 HOST,a-cdn.anthropic.com,CDN
 HOST,a.deviantart.net,CDN
 HOST,a.fireside.fm,CDN
@@ -995,6 +996,7 @@ HOST,demotiles.maplibre.org,CDN
 HOST,denali-static.grammarly.com,CDN
 HOST,design-assets.hubspot.com,CDN
 HOST,design-system.yext.com,CDN
+HOST,design.codeberg.org,CDN
 HOST,design.mayoclinic.org,CDN
 HOST,designsystem.brevo.com,CDN
 HOST,detectportal.firefox.com,CDN
@@ -1256,6 +1258,7 @@ HOST,imag.malavida.com,CDN
 HOST,image-forwarder.notaku.so,CDN
 HOST,image-stgus.samsung.com,CDN
 HOST,image-us.samsung.com,CDN
+HOST,image.acg.lol,CDN
 HOST,image.ap-mail.org,CDN
 HOST,image.civitai.com,CDN
 HOST,image.cnbcfm.com,CDN
@@ -1462,7 +1465,6 @@ HOST,img1.socialshopwave.com,CDN
 HOST,img1.yna.co.kr,CDN
 HOST,img2.socialshopwave.com,CDN
 HOST,img2.tnaflix.com,CDN
-HOST,img2.xiangbinjun.com,CDN
 HOST,img2.yna.co.kr,CDN
 HOST,img3.airdroid.com,CDN
 HOST,img3.socialshopwave.com,CDN
@@ -2660,7 +2662,6 @@ HOST-SUFFIX,2mdn.net,CDN
 HOST-SUFFIX,4cdn.org,CDN
 HOST-SUFFIX,4everland.io,CDN
 HOST-SUFFIX,666565.xyz,CDN
-HOST-SUFFIX,7mmtv.tv,CDN
 HOST-SUFFIX,91pic.org,CDN
 HOST-SUFFIX,98avcdn.xyz,CDN
 HOST-SUFFIX,99avcdn.com,CDN
@@ -3093,6 +3094,7 @@ HOST-SUFFIX,images.androeed.ru,CDN
 HOST-SUFFIX,images.arcpublishing.com,CDN
 HOST-SUFFIX,images.hentaicity.com,CDN
 HOST-SUFFIX,imageshack.us,CDN
+HOST-SUFFIX,imagetwist.com,CDN
 HOST-SUFFIX,img-dpreview.com,CDN
 HOST-SUFFIX,img.haiwaikan.com,CDN
 HOST-SUFFIX,img1.acsta.net,CDN
@@ -3134,7 +3136,6 @@ HOST-SUFFIX,ipfs.busy.org,CDN
 HOST-SUFFIX,ipfs.cyou,CDN
 HOST-SUFFIX,ipfs.decoo.io,CDN
 HOST-SUFFIX,ipfs.denarius.io,CDN
-HOST-SUFFIX,ipfs.drink.cafe,CDN
 HOST-SUFFIX,ipfs.eternum.io,CDN
 HOST-SUFFIX,ipfs.eth.aragon.network,CDN
 HOST-SUFFIX,ipfs.fleek.co,CDN
@@ -3687,6 +3688,7 @@ HOST-SUFFIX,yourimageshare.com,CDN
 HOST-SUFFIX,ypncdn.com,CDN
 HOST-SUFFIX,yps.link,CDN
 HOST-SUFFIX,ytimg.com,CDN
+HOST-SUFFIX,yygimg.im,CDN
 HOST-SUFFIX,z4a.net,CDN
 HOST-SUFFIX,zdassets.com,CDN
 HOST-SUFFIX,zdusercontent.com,CDN

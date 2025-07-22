@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3765
+# 规则统计: 3766
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3527,6 +3527,7 @@ HOST-SUFFIX,staticworld.net,CDN
 HOST-SUFFIX,statuspage.io,CDN
 HOST-SUFFIX,steamstatic.com,CDN
 HOST-SUFFIX,steamusercontent.com,CDN
+HOST-SUFFIX,steemitimages.com,CDN
 HOST-SUFFIX,sthlstatic.com,CDN
 HOST-SUFFIX,storage.cloudconvert.com,CDN
 HOST-SUFFIX,storage.googleapis.com,CDN

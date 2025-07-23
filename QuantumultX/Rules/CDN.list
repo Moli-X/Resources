@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3766
+# 规则统计: 3773
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -358,6 +358,7 @@ HOST,cache.omnicalculator.com,CDN
 HOST,cached.rebuyengine.com,CDN
 HOST,canny-assets.io,CDN
 HOST,cassette.sphdigital.com.sg,CDN
+HOST,categoriespages-cdn.trustpilot.net,CDN
 HOST,cc-embed.adobe.com,CDN
 HOST,cc.boyfriendtv.com,CDN
 HOST,cdn-1.ggjav.com,CDN
@@ -3710,9 +3711,15 @@ HOST-KEYWORD,-res.cloudinary.com,CDN
 HOST-KEYWORD,-thumbs.pornhost.com,CDN
 HOST-KEYWORD,-thumbs.worldsex.com,CDN
 HOST-KEYWORD,99avcdn,CDN
+HOST-KEYWORD,assets.trustpilot.net,CDN
 HOST-KEYWORD,cdn.adultempire.com,CDN
+HOST-KEYWORD,cdn.trustpilot.net,CDN
 HOST-KEYWORD,dsn.algolia.net,CDN
 HOST-KEYWORD,fonts.hanime1,CDN
+HOST-KEYWORD,images.trustpilot.com,CDN
+HOST-KEYWORD,images.trustpilot.net,CDN
+HOST-KEYWORD,scripts.trustpilot.com,CDN
+HOST-KEYWORD,static.trustpilot.com,CDN
 HOST-KEYWORD,vdownload.hanime1,CDN
 HOST-KEYWORD,vod-adaptive.akamaized.net,CDN
 HOST-KEYWORD,web-assets.zendesk,CDN

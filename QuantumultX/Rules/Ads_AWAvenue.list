@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 831
+# 规则统计: 840
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -146,11 +146,14 @@ HOST-SUFFIX,adx.tuia.cn,Ads_AWAvenue
 HOST-SUFFIX,adxlog-adnet.vivo.com.cn,Ads_AWAvenue
 HOST-SUFFIX,adxserver.ad.cmvideo.cn,Ads_AWAvenue
 HOST-SUFFIX,aegis.qq.com,Ads_AWAvenue
+HOST-SUFFIX,aem.dentsuchina.cn,Ads_AWAvenue
 HOST-SUFFIX,afs.googlesyndication.com,Ads_AWAvenue
 HOST-SUFFIX,agn.aty.sohu.com,Ads_AWAvenue
 HOST-SUFFIX,aiseet.aa.atianqi.com,Ads_AWAvenue
 HOST-SUFFIX,ali-ad.a.yximgs.com,Ads_AWAvenue
 HOST-SUFFIX,ali-p2p-v2.pull.yximgs.com,Ads_AWAvenue
+HOST-SUFFIX,alicoccdncnc-xn.inter.71edge.com,Ads_AWAvenue
+HOST-SUFFIX,alicoccdnct-xn.inter.71edge.com,Ads_AWAvenue
 HOST-SUFFIX,alog.umeng.com,Ads_AWAvenue
 HOST-SUFFIX,alogus.umeng.com,Ads_AWAvenue
 HOST-SUFFIX,als.baidu.com,Ads_AWAvenue
@@ -219,6 +222,7 @@ HOST-SUFFIX,bdad.123pan.cn,Ads_AWAvenue
 HOST-SUFFIX,bdapi-ads.realmemobile.com,Ads_AWAvenue
 HOST-SUFFIX,bdapi-in-ads.realmemobile.com,Ads_AWAvenue
 HOST-SUFFIX,bdapi.ads.oppomobile.com,Ads_AWAvenue
+HOST-SUFFIX,bdcdncnc.inter.71edge.com,Ads_AWAvenue
 HOST-SUFFIX,beacon-api.aliyuncs.com,Ads_AWAvenue
 HOST-SUFFIX,beacon.qq.com,Ads_AWAvenue
 HOST-SUFFIX,beaconcdn.qq.com,Ads_AWAvenue
@@ -402,6 +406,7 @@ HOST-SUFFIX,imdns.hpplay.cn,Ads_AWAvenue
 HOST-SUFFIX,img-c.heytapimage.com,Ads_AWAvenue
 HOST-SUFFIX,img-x.jd.com,Ads_AWAvenue
 HOST-SUFFIX,img.adnyg.com.w.kunlungr.com,Ads_AWAvenue
+HOST-SUFFIX,img2.360buyimg.com,Ads_AWAvenue
 HOST-SUFFIX,impression-asia.chinaliftoff.io,Ads_AWAvenue
 HOST-SUFFIX,impression-asia.liftoff.io,Ads_AWAvenue
 HOST-SUFFIX,impression.appsflyer.com,Ads_AWAvenue
@@ -483,6 +488,7 @@ HOST-SUFFIX,luimg.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,m-adnet.hiaiabc.com,Ads_AWAvenue
 HOST-SUFFIX,m.ad.zhangyue.com,Ads_AWAvenue
 HOST-SUFFIX,m.atm.youku.com,Ads_AWAvenue
+HOST-SUFFIX,m.iqiyipic.com,Ads_AWAvenue
 HOST-SUFFIX,m1.ad.10010.com,Ads_AWAvenue
 HOST-SUFFIX,mapi.m.jd.com,Ads_AWAvenue
 HOST-SUFFIX,masdkv6.3g.qq.com,Ads_AWAvenue
@@ -666,6 +672,7 @@ HOST-SUFFIX,snowflake.qq.com,Ads_AWAvenue
 HOST-SUFFIX,staging-notify.sec.miui.com,Ads_AWAvenue
 HOST-SUFFIX,stat.dongqiudi.com,Ads_AWAvenue
 HOST-SUFFIX,stat.y.qq.com,Ads_AWAvenue
+HOST-SUFFIX,static-s.iqiyi.com,Ads_AWAvenue
 HOST-SUFFIX,static.ads-twitter.com,Ads_AWAvenue
 HOST-SUFFIX,statics.woozooo.com,Ads_AWAvenue
 HOST-SUFFIX,stats.wp.com,Ads_AWAvenue
@@ -824,7 +831,9 @@ HOST-SUFFIX,xlog.jd.com,Ads_AWAvenue
 HOST-SUFFIX,xlviiirdr.com,Ads_AWAvenue
 HOST-SUFFIX,xlviirdr.com,Ads_AWAvenue
 HOST-SUFFIX,xycdn.com,Ads_AWAvenue
+HOST-SUFFIX,yk-ssp-ad.cp31.ott.cibntv.net,Ads_AWAvenue
 HOST-SUFFIX,yk-ssp.ad.youku.com,Ads_AWAvenue
+HOST-SUFFIX,ykad-data.cp31.ott.cibntv.net,Ads_AWAvenue
 HOST-SUFFIX,ykad-data.youku.com,Ads_AWAvenue
 HOST-SUFFIX,ykad-gateway.youku.com,Ads_AWAvenue
 HOST-SUFFIX,youku-acs.m.taobao.com,Ads_AWAvenue

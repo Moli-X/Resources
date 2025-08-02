@@ -20,5 +20,5 @@ payload:
   - DOMAIN-SUFFIX,payment.x.com 
   - DOMAIN-KEYWORD,twitter 
   - DOMAIN-KEYWORD,xapp 
-  - IP-CIDR,192.0.2.0/24   # 替换为X实际IP段
+  - IP-CIDR,192.0.2.0/24   
 

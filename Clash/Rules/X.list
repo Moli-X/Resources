@@ -1,0 +1,24 @@
+# X.com 和 Grok AI 分流规则
+# 更新日期：2024-07-20
+
+payload:
+
+  - DOMAIN-SUFFIX,x.com 
+  - DOMAIN-SUFFIX,twitter.com 
+  - DOMAIN-SUFFIX,twimg.com   
+  - DOMAIN-SUFFIX,grok.x.com   
+  - DOMAIN-SUFFIX,grok.com     
+  - DOMAIN-SUFFIX,xai.com      
+  - DOMAIN-SUFFIX,x.ai         
+  - DOMAIN-SUFFIX,api.x.com 
+  - DOMAIN-SUFFIX,mobile.x.com 
+  - DOMAIN-SUFFIX,ads-api.x.com 
+  - DOMAIN-SUFFIX,abs.twimg.com 
+  - DOMAIN-SUFFIX,pbs.twimg.com 
+  - DOMAIN-SUFFIX,cdn.x.com 
+  - DOMAIN-SUFFIX,pay.x.com 
+  - DOMAIN-SUFFIX,payment.x.com 
+  - DOMAIN-KEYWORD,twitter 
+  - DOMAIN-KEYWORD,xapp 
+  - IP-CIDR,192.0.2.0/24   # 替换为X实际IP段
+

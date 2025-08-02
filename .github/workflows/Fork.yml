@@ -23,28 +23,29 @@ jobs:
     - name: 验证目标存储库
       uses: actions/checkout@v4.2.2
       with:
-        repository: Moli-X/Resources
-        path: Resources-repo
+        repository: Moli-X/Tool
+        path: Tool-repo
         token: ${{ secrets.GITHUB_TOKEN }}  
 
 
+    
 ###### Fork
 
     - name: 复刻原始文件
       run: |
-        mkdir -p Resources/.github/Record
-        curl -L -o Resources-repo/.github/Record/Build.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/Build.yml"
-        curl -L -o Resources-repo/.github/Record/ClearCommits.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/ClearCommits.yml"
+        mkdir -p Tool/.github/Record
+        curl -L -o Tool-repo/.github/Record/Build.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/Build.yml"
+        curl -L -o Tool-repo/.github/Record/ClearCommits.yml "https://github.com/Repcz/Tool/raw/X/.github/workflows/ClearCommits.yml"
 
     - name: 规则下载
       run: |
 
         # 检查是否在正确的仓库中
         repo_name=$(basename "$GITHUB_REPOSITORY")
-        if [[ "$repo_name" == "Resources" ]]; then
-            echo "Running in Resources repository"
+        if [[ "$repo_name" == "Tool" ]]; then
+            echo "Running in Tool repository"
             # 创建目标文件夹
-            mkdir -p Resources-repo/Ruleset
+            mkdir -p Tool-repo/Ruleset
             # 定义下载规则的函数
             download_rules() {
                 local output_file="$1"
@@ -59,24 +60,24 @@ jobs:
             }
 
             # 合并广告规则
-            download_rules "Resources-repo/Ruleset/Reject.list" \
+            download_rules "Tool-repo/Ruleset/Reject.list" \
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list" \
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list" \
                 "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list" \
                 "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
             
             # 合并 SukkaW 广告规则
-            download_rules "Resources-repo/Ruleset/Ads_SukkaW.list" \
+            download_rules "Tool-repo/Ruleset/Ads_SukkaW.list" \
                 "https://ruleset.skk.moe/List/domainset/reject.conf" \
                 "https://ruleset.skk.moe/List/non_ip/reject.conf"
             
             # 合并 SukkaW CDN 规则
-            download_rules "Resources-repo/Ruleset/CDN.list" \
+            download_rules "Tool-repo/Ruleset/CDN.list" \
                 "https://ruleset.skk.moe/List/domainset/cdn.conf" \
                 "https://ruleset.skk.moe/List/non_ip/cdn.conf"
             
             # 合并 GFW 规则
-            download_rules "Resources-repo/Ruleset/ProxyGFW.list" \
+            download_rules "Tool-repo/Ruleset/ProxyGFW.list" \
                 "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list" \
                 "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
 
@@ -159,41 +160,19 @@ jobs:
             # 下载文件
             for filename in "${!files[@]}"; do
                 echo "Downloading: ${files[$filename]}"
-                curl -A "Surge iOS/3367" -f -L -o "Resources-repo/Ruleset/$filename.list" "${files[$filename]}" || { echo "Download Failed: ${files[$filename]}"; exit 1; }
+                curl -A "Surge iOS/3367" -f -L -o "Tool-repo/Ruleset/$filename.list" "${files[$filename]}" || { echo "Download Failed: ${files[$filename]}"; exit 1; }
             done
         
             echo "Files downloaded successfully."
         else
-            echo "Unknown repository. Please run this script in the Resources repository."
+            echo "Unknown repository. Please run this script in the Tool repository."
             exit 1
         fi
 
 
     - name: Source创建
       run: |
-        for file in Resources-repo/Ruleset/*.list ; do
-          if [ -f "$file" ]; then
-            # 将以"."开头的行的第一个"."替换为 "DOMAIN-SUFFIX"
-            sed -i '/^\./s/^\./DOMAIN-SUFFIX,/' "$file"
-            # 将除了以 "#" 开头、"空行" 开头之外的行, 在行首添加 "DOMAIN"
-            sed -i -E '/^\s*$/b; /^\s*[#;]/b; /^DOMAIN,|^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,|^DOMAIN-WILDCARD,|^IP-CIDR,|^IP-CIDR6,|^IP-ASN,|^GEOIP,|^AND,|^OR,|^NOT,|^URL-REGEX,|^USER-AGENT,|^PROCESS-NAME,|^DEST-PORT,/b; s/^([^#])/DOMAIN,\1/' "$file"
-            # 删除文件中所有 [以 # 或 ; 开头的注释行] + [空行] + [每行中 // 及其后面的内容]
-            sed -i -e '/^\s*[#;]/d' -e '/^$/d' -e 's| //.*||'  "$file"
-            # 删除指定域名
-            sed -i -e '/DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe/d' "$file"
-            sed -i -e '/DOMAIN,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe/d' "$file"
-            sed -i -e '/DOMAIN,this_rule_set_is_made_by_sukkaw.skk.moe/d' "$file"
-            sed -i -e 's/,reject$//' "$file"
-            # 修正格式
-            sed -i 's/, */,/g' "$file"
-          else
-            echo "$file not found."
-          fi
-        done
-
-    - name: Source整理
-      run: |
-        for file in Resources-repo/Ruleset/*.list ; do
+        for file in Tool-repo/Ruleset/*.list ; do
           if [ -f "$file" ]; then
             sed -i -E '/^IP-CIDR,/!{/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]+/s/^/IP-CIDR,/}' "$file"
             sed -i -E '/^IP-CIDR6,/!{/^[a-fA-F0-9]+:|([a-fA-F0-9]+:+)+[a-fA-F0-9]+\/[0-9]+/s/^/IP-CIDR6,/}' "$file"
@@ -221,54 +200,59 @@ jobs:
           fi
         done
 
-    - name: Copy files
+
+    - name: Source整理
       run: |
-
-        #!/bin/bash
-        
-        # 删除 QuantumultX 的 Rules 文件夹
-        rm -rf Resources-repo/QuantumultX/Rules
-        
-        # 创建 QuantumultX 的 Rules 文件夹
-        mkdir -p Resources-repo/QuantumultX/Rules
-        
-        # 遍历所有 .list 文件并复制到 QuantumultX 的 Rules 目录中
-        for file in Resources-repo/Ruleset/*.list; do
-          filename=$(basename "$file")
-          cp "$file" "Resources-repo/QuantumultX/Rules/$filename"
-        done
-        
-        echo "QuantumultX rules copied successfully."
-
-
-
-###### QuantumultX
-
-    - name: QuantumultX
-      run: |
-        for file in Resources-repo/QuantumultX/Rules/*.list; do
+        for file in Tool-repo/Ruleset/*.list ; do
           if [ -f "$file" ]; then
-            sed -i -e '/^PROCESS-NAME/d' "$file"
-            sed -i -e '/^AND/d' "$file"
-            sed -i -e '/^OR/d' "$file"
-            sed -i -e '/^NOT/d' "$file"
-            sed -i -e '/^DEST-PORT/d' "$file"
-            sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
-            sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
-            sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"
-            sed -i -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g' "$file"
-            sed -i -e 's/^IP-CIDR6,/IP6-CIDR,/g' "$file"
-            sed -i 's/,no-resolve//g' "$file"
+            sed -i -E '/^IP-CIDR,/!{/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]+/s/^/IP-CIDR,/}' "$file"
+            sed -i -E '/^IP-CIDR6,/!{/^[a-fA-F0-9]+:|([a-fA-F0-9]+:+)+[a-fA-F0-9]+\/[0-9]+/s/^/IP-CIDR6,/}' "$file"
+            awk '
+            /^DOMAIN,/         { print "0 " $0; next }
+            /^DOMAIN-SUFFIX,/  { print "1 " $0; next }
+            /^DOMAIN-KEYWORD,/ { print "2 " $0; next }
+            /^DOMAIN-WILDCARD,/{ print "3 " $0; next }
+            /^IP-CIDR,/        { print "4 " $0; next }
+            /^IP-CIDR6,/       { print "5 " $0; next }
+            /^IP-ASN,/         { print "6 " $0; next }
+            /^PROCESS-NAME,/   { print "7 " $0; next }
+            /^URL-REGEX,/      { print "8 " $0; next }
+            /^USER-AGENT,/     { print "9 " $0; next }
+            /^GEOIP,/          { print "10 " $0; next }
+            /^AND,/            { print "11 " $0; next }
+            /^OR,/             { print "12 " $0; next }
+            /^NOT,/            { print "13 " $0; next }
+            /^DEST-PORT,/      { print "14 " $0; next }
+                               { print "15 " $0; next }
+            ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "$file.sorted" && mv "$file.sorted" "$file"
+            awk '!seen[tolower($0)]++' "$file" > temp && mv temp "$file"
           else
             echo "$file not found."
           fi
         done
 
-        for file in Resources-repo/QuantumultX/Rules/*.list; do
+    - name: Copy文件
+      run: |
+        rm -rf Tool-repo/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge}/Rules
+        mkdir -p Tool-repo/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge}/Rules
+        for file in Tool-repo/Ruleset/*.list; do
+          filename=$(basename "$file")
+          for dir in Clash Loon QuantumultX Shadowrocket Stash Surge; do
+            cp "$file" "Tool-repo/$dir/Rules/$filename"
+          done
+          # 复制到Egern文件夹, 并将后缀改为.yaml
+          cp "$file" "Tool-repo/Egern/Rules/${filename%.*}.yaml"
+        done
+        echo "Files copied successfully."
+
+###### Loon
+    - name: Loon
+      run: |
+        for file in Tool-repo/Loon/Rules/*.list; do
           if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
-            awk -v policy="$file_names" '!/^#|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile && mv tmpfile "$file"
             awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
             awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
             sed -i '2a\\' "$file"
@@ -277,214 +261,196 @@ jobs:
           fi
         done
 
-        cd Resources-repo/QuantumultX/Rules
 
-
-
-
-
-###### Loon
-    # - name: Loon
-      # run: |
-        # for file in Resources-repo/Loon/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # sed -i -e '/^PROCESS-NAME/d' "$file"
-            # file_names=$(basename "$file" .list)
-            # line_count=$(wc -l < "$file")
-            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # sed -i '2a\\' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
-
-
-    - name: 批量复刻QuantumultX重写
+    - name: 批量复刻LOON模块
       run: |
-        mkdir -p Resources-repo/QuantumultX/Rewrite
+        mkdir -p Tool-repo/Loon/Plugin/Kelee
 
-
+        
         # 定义插件及其原链接
-        declare -A Rewrites=(
-            [Keep]="https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.snippet"
-            [Boxjs]="https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf"
-            [General]="https://github.com/VirgilClyne/GetSomeFries/raw/main/snippet/General.snippet"
-            [QuickSearch]="https://github.com/Moli-X/Resources/raw/main/Rewrite/Search.conf"
-            [HTTPDNS.Block]="https://github.com/VirgilClyne/GetSomeFries/raw/main/snippet/HTTPDNS.Block.snippet"
-            [DNS]="https://github.com/VirgilClyne/GetSomeFries/raw/main/snippet/DNS.snippet"
-            [Script-Hub]="https://github.com/Script-Hub-Org/Script-Hub/raw/main/modules/script-hub.qx.conf"
-            [BiliBiliDailyBonus]="https://github.com/ClydeTime/BiliBili/raw/main/modules/BiliBiliDailyBonus.snippet"
-            [Collections]="https://github.com/chxm1023/Script_X/raw/main/Collections.conf"
-            [Xmly]="https://raw.githubusercontent.com/WeiGiegie/666/main/xmly.js"
-            [Mgtvhy]="https://raw.githubusercontent.com/gjwj666/qx/main/mgtvhy.conf"
-            [Spotify]="https://github.com/ddgksf2013/Rewrite/raw/master/UnlockVip/Spotify.conf"
-            [Amap]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Amap.conf"
-            [Applet]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Applet.conf"
-            [BilibiliAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/BilibiliAds.conf"
-            [BilibiliAdsLite]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/BilibiliAdsLite.conf"
-            [BingSimplify]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/BingSimplify.conf"
-            [CaiYunAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/CaiYunAds.conf"
-            [CainiaoAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/CainiaoAds.conf"
-            [FreeStreamAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/FreeStreamAds.conf"
-            [KeepAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/KeepAds.conf"
-            [NeteaseAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseAds.conf"
-            [NeteaseMailAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseMailAds.conf"
-            [RedditAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/RedditAds.conf"
-            [SmzdmAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/SmzdmAds.conf"
-            [SuiShouJi]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/SuiShouJi.conf"
-            [TieBaAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/TieBaAds.conf"
-            [WeiboAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Weibo.conf"
-            [XiaoHongShuAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/XiaoHongShuAds.conf"
-            [YoutubeAds]="https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf"
-            [BaiduCloud]="https://github.com/ddgksf2013/Rewrite/raw/master/Function/BaiduCloud.conf"
-            [BilibiliCC]="https://github.com/ddgksf2013/Rewrite/raw/master/Function/Bilibili_CC.conf"
-            [EmbyPlugin]="https://github.com/ddgksf2013/Rewrite/raw/master/Function/EmbyPlugin.conf"
-            [ForceInstallTF]="https://github.com/ddgksf2013/Rewrite/raw/master/Function/ForceInstallTF.conf"
-            [TFDownload]="https://github.com/ddgksf2013/Rewrite/raw/master/Function/TFDownload.conf"
-            [UnblockURLinWeChat]="https://github.com/ddgksf2013/Rewrite/raw/master/Function/UnblockURLinWeChat.conf"
-            [UposRedirect]="https://github.com/ddgksf2013/Rewrite/raw/master/Function/UposRedirect.conf"
-            [Douban]="https://github.com/ddgksf2013/Rewrite/raw/master/Html/Douban.conf"
-            [EndlessGoogle]="https://github.com/ddgksf2013/Rewrite/raw/master/Html/EndlessGoogle.conf"
-            [WebAdBlock]="https://github.com/ddgksf2013/Rewrite/raw/master/Html/WebAdBlock.conf"
-            [PornHub]="https://github.com/ddgksf2013/Scripts/raw/master/pornhub.js"
-            [CaiXinZhouKanProCrack]="https://raw.githubusercontent.com/ddgksf2013/MoYu/master/CaiXinZhouKanProCrack.js"
-            [tieba-qx]="https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf"
-            [PixivAds]="https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pixivAds.js"
-            [Coolapk]="https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js"
-            [JD_Price]="https://raw.githubusercontent.com/ddgksf2013/Modules/main/JD_Price.sgmodule"
-            [Adblock4limbo]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.conf"
-            [123pan.webEnhance]="https://raw.githubusercontent.com/ddgksf2013/Modules/main/123pan.webEnhance.sgmodule"
-            [SubStore]="https://github.com/sub-store-org/Sub-Store/blob/master/config/QX.snippet"
-            # [mobileClouds_remove_ads]="https://kelee.one/Tool/Loon/Lpx/mobileClouds_remove_ads.lpx"
-            # [PICC_Insurance_remove_ads]="https://kelee.one/Tool/Loon/Lpx/PICC_Insurance_remove_ads.lpx"
-            # [Spotify_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx"
-            # [SevenCat_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx"
-            # [HUPU_remove_ads]="https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx"
-            # [GaoDing_remove_ads]="https://kelee.one/Tool/Loon/Lpx/GaoDing_remove_ads.lpx"
-            # [PuPuMall_remove_ads]="https://kelee.one/Tool/Loon/Lpx/PuPuMall_remove_ads.lpx"
-            # [DiDi_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx"
-            # [Aiinquiry_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Aiinquiry_remove_ads.lpx"
-            # [QiXinBao_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QiXinBao_remove_ads.lpx"
-            # [ZhuanZhuan_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ZhuanZhuan_remove_ads.lpx"
-            # [RiskBird_remove_ads]="https://kelee.one/Tool/Loon/Lpx/RiskBird_remove_ads.lpx"
-            # [iMaiCai_remove_ads]="https://kelee.one/Tool/Loon/Lpx/iMaiCai_remove_ads.lpx"
-            # [ZuiYou_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ZuiYou_remove_ads.lpx"
-            # [MailMaster_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx"
-            # [MiaoRead_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MiaoRead_remove_ads.lpx"
-            # [SafetyHome_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SafetyHome_remove_ads.lpx"
-            # [360SmartCamera_remove_ads]="https://kelee.one/Tool/Loon/Lpx/360SmartCamera_remove_ads.lpx"
-            # [VideoGo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/VideoGo_remove_ads.lpx"
-            # [FlyerTea_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FlyerTea_remove_ads.lpx"
-            # [ShouYinTongMerchant_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ShouYinTongMerchant_remove_ads.lpx"
-            # [FenBi_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FenBi_remove_ads.lpx"
-            # [TV_Assistant_remove_ads]="https://kelee.one/Tool/Loon/Lpx/TV_Assistant_remove_ads.lpx"
-            # [XiaoHeiHe_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx"
-            # [Snowball_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Snowball_remove_ads.lpx"
-            # [KingdeeMyMoney_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KingdeeMyMoney_remove_ads.lpx"
-            # [XunLei_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XunLei_remove_ads.lpx"
-            # [ShuQiCenterReader_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ShuQiCenterReader_remove_ads.lpx"
-            # [QuarkBrowser_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx"
-            # [JiaXiaoDrive_remove_ads]="https://kelee.one/Tool/Loon/Lpx/JiaXiaoDrive_remove_ads.lpx"
-            # [JiaKaoBaoDian_remove_ads]="https://kelee.one/Tool/Loon/Lpx/JiaKaoBaoDian_remove_ads.lpx"
-            # [DuiTang_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DuiTang_remove_ads.lpx"
-            # [AutoHome_remove_ads]="https://kelee.one/Tool/Loon/Lpx/AutoHome_remove_ads.lpx"
-            # [KuGou_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx"
-            # [Kuwo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Kuwo_remove_ads.lpx"
-            # [DubbingShow_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DubbingShow_remove_ads.lpx"
-            # [MKZ_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MKZ_remove_ads.lpx"
-            # [KuaiKanComic_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KuaiKanComic_remove_ads.lpx"
-            # [BiliComic_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BiliComic_remove_ads.lpx"
-            # [XFuse_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XFuse_remove_ads.lpx"
-            # [ColorfulClouds_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ColorfulClouds_remove_ads.lpx"
-            # [Uki_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Uki_remove_ads.lpx"
-            # [Douyu_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Douyu_remove_ads.lpx"
-            # [GuideRank_remove_ads]="https://kelee.one/Tool/Loon/Lpx/GuideRank_remove_ads.lpx"
-            # [FleaMarket_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx"
-            # [PinDuoDuo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx"
-            # [CatEarFM_remove_ads]="https://kelee.one/Tool/Loon/Lpx/CatEarFM_remove_ads.lpx"
-            # [XiaoCan_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XiaoCan_remove_ads.lpx"
-            # [BooHee_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BooHee_remove_ads.lpx"
-            # [MaiMai_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MaiMai_remove_ads.lpx"
-            # [YoudaoDict_remove_ads]="https://kelee.one/Tool/Loon/Lpx/YoudaoDict_remove_ads.lpx"
-            # [MeiTu_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx"
-            # [555DY_remove_ads]="https://kelee.one/Tool/Loon/Lpx/555DY_remove_ads.lpx"
-            # [SeasunJX3_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SeasunJX3_remove_ads.lpx"
-            # [Keep_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Keep_remove_ads.lpx"
-            # [123NetWorkDisk_remove_ads]="https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx"
-            # [YoudaoTrans_remove_ads]="https://kelee.one/Tool/Loon/Lpx/YoudaoTrans_remove_ads.lpx"
-            # [MeituMYXJ_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MeituMYXJ_remove_ads.lpx"
-            # [YY_Voice_remove_ads]="https://kelee.one/Tool/Loon/Lpx/YY_Voice_remove_ads.lpx"
-            # [SF-Express_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SF-Express_remove_ads.lpx"
-            # [91160_remove_ads]="https://kelee.one/Tool/Loon/Lpx/91160_remove_ads.lpx"
-            # [NetEaseGodlike_remove_ads]="https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx"
-            # [SodaMusic_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SodaMusic_remove_ads.lpx"
-            # [KuaiDi100_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KuaiDi100_remove_ads.lpx"
-            # [ChengFenMiao_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ChengFenMiao_remove_ads.lpx"
-            # [FC_Box_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx"
-            # [KGRing_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KGRing_remove_ads.lpx"
-            # [ZongHeng_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ZongHeng_remove_ads.lpx"
-            # [51Job_remove_ads]="https://kelee.one/Tool/Loon/Lpx/51Job_remove_ads.lpx"
-            # [MeetYou_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx"
-            # [Yueyou_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Yueyou_remove_ads.lpx"
-            # [MaFengWo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MaFengWo_remove_ads.lpx"
-            # [OraySunlogin_remove_ads]="https://kelee.one/Tool/Loon/Lpx/OraySunlogin_remove_ads.lpx"
-            # [BaiduPhoto_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BaiduPhoto_remove_ads.lpx"
-            # [KuaiDuiZuoYe_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KuaiDuiZuoYe_remove_ads.lpx"
-            # [EtouchEcalendar_remove_ads]="https://kelee.one/Tool/Loon/Lpx/EtouchEcalendar_remove_ads.lpx"
-            # [BitqiuPan_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BitqiuPan_remove_ads.lpx"
-            # [MojiWeather_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx"
-            # [MeiShiJie_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MeiShiJie_remove_ads.lpx"
-            # [XiaChuFang_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XiaChuFang_remove_ads.lpx"
-            # [KwaiVideoeditor_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KwaiVideoeditor_remove_ads.lpx"
-            # [LuckinCoffee_remove_ads]="https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx"
-            # [QtingFM_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QtingFM_remove_ads.lpx"
-            # [UnionPay_remove_ads_with_ssl_unpinning]="https://kelee.one/Tool/Loon/Lpx/UnionPay_remove_ads_with_ssl_unpinning.lpx"
-            # [DouBan_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DouBan_remove_ads.lpx"
-            # [BaiduMap_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx"
-            # [FC_Box_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx"
-            # [ZhiLianZhaoPin_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ZhiLianZhaoPin_remove_ads.lpx"
-            # [LoonGallery]="https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx"
-            # [Sub-Store]="https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx"
-            # [Google]="https://kelee.one/Tool/Loon/Lpx/Google.lpx"
-            # [1.1.1.1]="https://kelee.one/Tool/Loon/Lpx/1.1.1.1.lpx"
-            # [BoxJs]="https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx"
-            # [WARP_Node_Query]="https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx"
-            # [JD_Price]="https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx"
-            # [YouTubeSubtitlesTranslation]="https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx"
-            # [Auto_Join_TF]="https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx"
-            # [VVebo_repair]="https://kelee.one/Tool/Loon/Lpx/VVebo_repair.lpx"
-            # [TestFlightRegionUnlock]="https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx"
-            # [Switch_github_mirror]="https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx"
-            # [Node_detection_tool]="https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx"
-            # [QQ_Redirect]="https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx"
-            # [Fileball_mount]="https://kelee.one/Tool/Loon/Lpx/Fileball_mount.lpx"
-            # [Block_HTTPDNS]="https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx"
-            # [Weixin_external_links_unlock]="https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx"
-            # [TikTok_redirectn]="https://kelee.one/Tool/Loon/Lpx/TikTok_redirect.lpx"
-            # [Spotify_lyrics_translation]="https://kelee.one/Tool/Loon/Lpx/Spotify_lyrics_translation.lpx"
-            # [NodeLinkCheck]="https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.Lpx"
-            # [QuickSearchn]="https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx"
-            # [UnnooQuan_remove_watermark]="https://kelee.one/Tool/Loon/Lpx/UnnooQuan_remove_watermark.lpx"
-            # [AppleWeatherEnhancer]="https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx"
-            # [WPS_checkin]="https://kelee.one/Tool/Loon/Lpx/WPS_checkin.lpx"
-            # [FollowRSS_checkin]="https://kelee.one/Tool/Loon/Lpx/FollowRSS_checkin.lpx"
-            # [KebidaDushu_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KebidaDushu_remove_ads.lpx"
+        declare -A plugins=(
+            [Spotify]="https://github.com/DualSubs/Spotify/releases/latest/download/DualSubs.Spotify.plugin"
+            [Boxjs]="https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.plugin"
+            [General]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/General.plugin"
+            [QuickSearch]="https://github.com/Moli-X/Resources/raw/main/Loon/Search.plugin"
+            [HTTPDNS.Block]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin"
+            [DNS]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/DNS.plugin"
+            [Script-Hub]="https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin"
+            [sxmd_sign]="https://raw.githubusercontent.com/bgvioletsky/ios_rule/main/Loon/plugin/sxmd_sign.plugin"
+            [BiliBiliDailyBonus]="https://raw.githubusercontent.com/ClydeTime/BiliBili/master/modules/BiliBiliDailyBonus.plugin"
+            [DualSubs.YouTube]="https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin"
+            [BlockAdvertisers]="https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx"
+            [Remove_ads_by_keli]="https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx"
+            [Cainiao_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx"
+            [Himalaya_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx"
+            [Tieba_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx"
+            [YouTube_remove_ads]="https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx"
+            [Weibo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx"
+            [Bilibili_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx"
+            [Weibo_intl_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx"
+            [Baidu_input_method_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx"
+            [Zhihu_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx"
+            [NeteaseCloudMusic_remove_ads]="https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx"
+            [CoolApk_remove_ads]="https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx"
+            [smzdm_remove_ads]="https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx"
+            [RedPaper_remove_ads]="https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx"
+            [Weixin_Official_Accounts_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx"
+            [QQMusic_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx"
+            [Daily_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Daily_remove_ads.lpx"
+            [IThome_remove_ads]="https://kelee.one/Tool/Loon/Lpx/IThome_remove_ads.lpx"
+            [BaiduSearchWebpage_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx"
+            [BaiduNetDisk_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BaiduNetDisk_remove_ads.lpx"
+            [TubeMax_remove_ads]="https://kelee.one/Tool/Loon/Lpx/TubeMax_remove_ads.lpx"
+            [Amap_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx"
+            [WexinMiniPrograms_Remove_ads]="https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx"
+            [QiDian_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx"
+            [AliYunDrive_remove_ads]="https://kelee.one/Tool/Loon/Lpx/AliYunDrive_remove_ads.lpx"
+            [iQiYi_Video_remove_ads]="https://kelee.one/Tool/Loon/Lpx/iQiYi_Video_remove_ads.lpx"
+            [DragonRead_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx"
+            [YouKu_Video_remove_ads]="https://kelee.one/Tool/Loon/Lpx/YouKu_Video_remove_ads.lpx"
+            [BabyTree_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BabyTree_remove_ads.lpx"
+            [Tencent_Video_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Tencent_Video_remove_ads.lpx"
+            [CaixinMedia_remove_ads]="https://kelee.one/Tool/Loon/Lpx/CaixinMedia_remove_ads.lpx"
+            [Mango_Viedo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Mango_Viedo_remove_ads.lpx"
+            [Umetrip_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx"
+            [JD_remove_ads]="https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx"
+            [PiPiXia_remove_ads]="https://kelee.one/Tool/Loon/Lpx/PiPiXia_remove_ads.lpx"
+            [Taobao_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx"
+            [NeteaseNews_remove_ads]="https://kelee.one/Tool/Loon/Lpx/NeteaseNews_remove_ads.lpx"
+            [12306_remove_ads]="https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx"
+            [Reddit_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Reddit_remove_ads.lpx"
+            [Soul_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx"
+            [QQKSong_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QQKSong_remove_ads.lpx"
+            [mobileClouds_remove_ads]="https://kelee.one/Tool/Loon/Lpx/mobileClouds_remove_ads.lpx"
+            [PICC_Insurance_remove_ads]="https://kelee.one/Tool/Loon/Lpx/PICC_Insurance_remove_ads.lpx"
+            [Spotify_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx"
+            [SevenCat_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx"
+            [HUPU_remove_ads]="https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx"
+            [GaoDing_remove_ads]="https://kelee.one/Tool/Loon/Lpx/GaoDing_remove_ads.lpx"
+            [PuPuMall_remove_ads]="https://kelee.one/Tool/Loon/Lpx/PuPuMall_remove_ads.lpx"
+            [DiDi_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx"
+            [Aiinquiry_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Aiinquiry_remove_ads.lpx"
+            [QiXinBao_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QiXinBao_remove_ads.lpx"
+            [ZhuanZhuan_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ZhuanZhuan_remove_ads.lpx"
+            [RiskBird_remove_ads]="https://kelee.one/Tool/Loon/Lpx/RiskBird_remove_ads.lpx"
+            [iMaiCai_remove_ads]="https://kelee.one/Tool/Loon/Lpx/iMaiCai_remove_ads.lpx"
+            [ZuiYou_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ZuiYou_remove_ads.lpx"
+            [MailMaster_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx"
+            [MiaoRead_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MiaoRead_remove_ads.lpx"
+            [SafetyHome_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SafetyHome_remove_ads.lpx"
+            [360SmartCamera_remove_ads]="https://kelee.one/Tool/Loon/Lpx/360SmartCamera_remove_ads.lpx"
+            [VideoGo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/VideoGo_remove_ads.lpx"
+            [FlyerTea_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FlyerTea_remove_ads.lpx"
+            [ShouYinTongMerchant_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ShouYinTongMerchant_remove_ads.lpx"
+            [FenBi_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FenBi_remove_ads.lpx"
+            [TV_Assistant_remove_ads]="https://kelee.one/Tool/Loon/Lpx/TV_Assistant_remove_ads.lpx"
+            [XiaoHeiHe_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx"
+            [Snowball_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Snowball_remove_ads.lpx"
+            [KingdeeMyMoney_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KingdeeMyMoney_remove_ads.lpx"
+            [XunLei_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XunLei_remove_ads.lpx"
+            [ShuQiCenterReader_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ShuQiCenterReader_remove_ads.lpx"
+            [QuarkBrowser_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx"
+            [JiaXiaoDrive_remove_ads]="https://kelee.one/Tool/Loon/Lpx/JiaXiaoDrive_remove_ads.lpx"
+            [JiaKaoBaoDian_remove_ads]="https://kelee.one/Tool/Loon/Lpx/JiaKaoBaoDian_remove_ads.lpx"
+            [DuiTang_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DuiTang_remove_ads.lpx"
+            [AutoHome_remove_ads]="https://kelee.one/Tool/Loon/Lpx/AutoHome_remove_ads.lpx"
+            [KuGou_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx"
+            [Kuwo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Kuwo_remove_ads.lpx"
+            [DubbingShow_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DubbingShow_remove_ads.lpx"
+            [MKZ_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MKZ_remove_ads.lpx"
+            [KuaiKanComic_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KuaiKanComic_remove_ads.lpx"
+            [BiliComic_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BiliComic_remove_ads.lpx"
+            [XFuse_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XFuse_remove_ads.lpx"
+            [ColorfulClouds_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ColorfulClouds_remove_ads.lpx"
+            [Uki_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Uki_remove_ads.lpx"
+            [Douyu_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Douyu_remove_ads.lpx"
+            [GuideRank_remove_ads]="https://kelee.one/Tool/Loon/Lpx/GuideRank_remove_ads.lpx"
+            [FleaMarket_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx"
+            [PinDuoDuo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx"
+            [CatEarFM_remove_ads]="https://kelee.one/Tool/Loon/Lpx/CatEarFM_remove_ads.lpx"
+            [XiaoCan_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XiaoCan_remove_ads.lpx"
+            [BooHee_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BooHee_remove_ads.lpx"
+            [MaiMai_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MaiMai_remove_ads.lpx"
+            [YoudaoDict_remove_ads]="https://kelee.one/Tool/Loon/Lpx/YoudaoDict_remove_ads.lpx"
+            [MeiTu_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx"
+            [555DY_remove_ads]="https://kelee.one/Tool/Loon/Lpx/555DY_remove_ads.lpx"
+            [SeasunJX3_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SeasunJX3_remove_ads.lpx"
+            [Keep_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Keep_remove_ads.lpx"
+            [123NetWorkDisk_remove_ads]="https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx"
+            [YoudaoTrans_remove_ads]="https://kelee.one/Tool/Loon/Lpx/YoudaoTrans_remove_ads.lpx"
+            [MeituMYXJ_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MeituMYXJ_remove_ads.lpx"
+            [YY_Voice_remove_ads]="https://kelee.one/Tool/Loon/Lpx/YY_Voice_remove_ads.lpx"
+            [SF-Express_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SF-Express_remove_ads.lpx"
+            [91160_remove_ads]="https://kelee.one/Tool/Loon/Lpx/91160_remove_ads.lpx"
+            [NetEaseGodlike_remove_ads]="https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx"
+            [SodaMusic_remove_ads]="https://kelee.one/Tool/Loon/Lpx/SodaMusic_remove_ads.lpx"
+            [KuaiDi100_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KuaiDi100_remove_ads.lpx"
+            [ChengFenMiao_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ChengFenMiao_remove_ads.lpx"
+            [FC_Box_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx"
+            [KGRing_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KGRing_remove_ads.lpx"
+            [ZongHeng_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ZongHeng_remove_ads.lpx"
+            [51Job_remove_ads]="https://kelee.one/Tool/Loon/Lpx/51Job_remove_ads.lpx"
+            [MeetYou_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx"
+            [Yueyou_remove_ads]="https://kelee.one/Tool/Loon/Lpx/Yueyou_remove_ads.lpx"
+            [MaFengWo_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MaFengWo_remove_ads.lpx"
+            [OraySunlogin_remove_ads]="https://kelee.one/Tool/Loon/Lpx/OraySunlogin_remove_ads.lpx"
+            [BaiduPhoto_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BaiduPhoto_remove_ads.lpx"
+            [KuaiDuiZuoYe_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KuaiDuiZuoYe_remove_ads.lpx"
+            [EtouchEcalendar_remove_ads]="https://kelee.one/Tool/Loon/Lpx/EtouchEcalendar_remove_ads.lpx"
+            [BitqiuPan_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BitqiuPan_remove_ads.lpx"
+            [MojiWeather_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx"
+            [MeiShiJie_remove_ads]="https://kelee.one/Tool/Loon/Lpx/MeiShiJie_remove_ads.lpx"
+            [XiaChuFang_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XiaChuFang_remove_ads.lpx"
+            [KwaiVideoeditor_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KwaiVideoeditor_remove_ads.lpx"
+            [LuckinCoffee_remove_ads]="https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx"
+            [QtingFM_remove_ads]="https://kelee.one/Tool/Loon/Lpx/QtingFM_remove_ads.lpx"
+            [UnionPay_remove_ads_with_ssl_unpinning]="https://kelee.one/Tool/Loon/Lpx/UnionPay_remove_ads_with_ssl_unpinning.lpx"
+            [DouBan_remove_ads]="https://kelee.one/Tool/Loon/Lpx/DouBan_remove_ads.lpx"
+            [BaiduMap_remove_ads]="https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx"
+            [FC_Box_remove_ads]="https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx"
+            [ZhiLianZhaoPin_remove_ads]="https://kelee.one/Tool/Loon/Lpx/ZhiLianZhaoPin_remove_ads.lpx"
+            [LoonGallery]="https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx"
+            [Sub-Store]="https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx"
+            [Google]="https://kelee.one/Tool/Loon/Lpx/Google.lpx"
+            [1.1.1.1]="https://kelee.one/Tool/Loon/Lpx/1.1.1.1.lpx"
+            [BoxJs]="https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx"
+            [WARP_Node_Query]="https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx"
+            [JD_Price]="https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx"
+            [YouTubeSubtitlesTranslation]="https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx"
+            [Auto_Join_TF]="https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx"
+            [VVebo_repair]="https://kelee.one/Tool/Loon/Lpx/VVebo_repair.lpx"
+            [TestFlightRegionUnlock]="https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx"
+            [Switch_github_mirror]="https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx"
+            [Node_detection_tool]="https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx"
+            [QQ_Redirect]="https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx"
+            [Fileball_mount]="https://kelee.one/Tool/Loon/Lpx/Fileball_mount.lpx"
+            [Block_HTTPDNS]="https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx"
+            [Weixin_external_links_unlock]="https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx"
+            [TikTok_redirectn]="https://kelee.one/Tool/Loon/Lpx/TikTok_redirect.lpx"
+            [Spotify_lyrics_translation]="https://kelee.one/Tool/Loon/Lpx/Spotify_lyrics_translation.lpx"
+            [NodeLinkCheck]="https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.Lpx"
+            [QuickSearchn]="https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx"
+            [UnnooQuan_remove_watermark]="https://kelee.one/Tool/Loon/Lpx/UnnooQuan_remove_watermark.lpx"
+            [AppleWeatherEnhancer]="https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx"
+            [WPS_checkin]="https://kelee.one/Tool/Loon/Lpx/WPS_checkin.lpx"
+            [FollowRSS_checkin]="https://kelee.one/Tool/Loon/Lpx/FollowRSS_checkin.lpx"
+            [KebidaDushu_remove_ads]="https://kelee.one/Tool/Loon/Lpx/KebidaDushu_remove_ads.lpx"
+            [XunLei_remove_ads]="https://kelee.one/Tool/Loon/Lpx/XunLei_remove_ads.lpx"
 
         )
-
+        
         # 下载插件并在文件中添加原链接
-        for Rewrite_name in "${!Rewrites[@]}"; do
-            url="${Rewrites[$Rewrite_name]}"
-            curl -A "Surge iOS/3367" -L -o "Resources-repo/QuantumultX/Rewrite/${Rewrite_name}.conf" "$url"
-
+        for plugin_name in "${!plugins[@]}"; do
+            url="${plugins[$plugin_name]}"
+            curl -A "Surge iOS/3367" -L -o "Tool-repo/Loon/Plugin/Kelee/${plugin_name}.plugin" "$url"
+            
             # 将原链接添加到文件开头
-           # echo "# 原链接 : $url" | cat - "Tool-repo/QuantumultX/Rewrite/Kelee/$Rewrite_name.conf" > temp && mv temp "Tool-repo/QuantumultX/Rewrite/Kelee/$Rewrite_name.conf"
-            sed -i "1s|^|# 原链接 : $url\n|" "Resources-repo/QuantumultX/Rewrite/$Rewrite_name.conf"  # 在文件开头添加原链接
+           # echo "# 原链接 : $url" | cat - "Tool-repo/Loon/Plugin/Kelee/$plugin_name.plugin" > temp && mv temp "Tool-repo/Loon/Plugin/Kelee/$plugin_name.plugin"
+            sed -i "1s|^|# 原链接 : $url\n|" "Tool-repo/Loon/Plugin/Kelee/$plugin_name.plugin"  # 在文件开头添加原链接
         done
 
         # 删除 error.log 文件
-        # rm -f Tool-repo/QuantumultX/Rewrite/Kelee/error.log || echo "No error log to delete"
+        # rm -f Tool-repo/Loon/Plugin/Kelee/error.log || echo "No error log to delete"
 
 
     - name: 提取链接
@@ -492,14 +458,14 @@ jobs:
         # 确保目标目录存在
         mkdir -p Script
     
-        # 切换到 Rewrite 目录
-        cd Resources-repo/QuantumultX/Rewrite
-
-        # 遍历 .Rewrite 文件并提取 .js 链接
-        for file in *.conf; do
+        # 切换到 Kelee 目录
+        cd Tool-repo/Loon/Plugin/Kelee
+    
+        # 遍历 .plugin 文件并提取 .js 链接
+        for file in *.plugin; do
           if [ -f "$file" ]; then
             # 提取链接
-            grep -o 'https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/[^ ]*\.js' "$file" | while read -r script_url; do
+            grep -o 'https://kelee\.one/Resource/JavaScript/[^ ]*\.js' "$file" | while read -r script_url; do
               script_name=$(basename "$script_url")
     
               # 确保下载目录存在
@@ -514,21 +480,18 @@ jobs:
           fi
         done
 
-    - name: 编辑QuantumultX模块
+    - name: 编辑LOON模块
       run: |
-        mkdir -p Resources-repo/QuantumultX/Rewrite
-        cd Resources-repo/QuantumultX/Rewrite  # 进入 Rewrite 目录
-        for file in *.conf; do
+        mkdir -p Tool-repo/Loon/Plugin/Kelee
+        cd Tool-repo/Loon/Plugin/Kelee  # 进入 Plugin 目录
+        for file in *.plugin; do
           if [ "$file" ] ; then
 
             # 修改以 .js 结尾的脚本链接，删除一个文件夹部分
-            # # sed -i 's|https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/.*/\([^/]*\.js\)|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Script/\1|' "$file"
-            # sed -i 's|https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/.*/\([^/]*\.js\)|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Script/\2|' "$file"
-            # sed -i 's|https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/./([^/]*\.js\)|https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/Script/\1|' "$file"
+            sed -i 's|https://kelee\.one/Resource/JavaScript/.*/\([^/]*\.js\)|https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Kelee/Script/\1|' "$file"
+
             # 修改 #!homepage 行（处理等号前可能有空格的情况）
-            sed -i 's|#!homepage\s*=\s*.*|#!homepage=https://github.com/Moli-X/Resources/raw/main/QuantumultX/Rewrite/'"$file"'|g' "$file"
-            # 删除//行
-            # sed -i '/\/\//d' "$file"
+            sed -i 's|#!homepage\s*=\s*.*|#!homepage=https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Kelee/'"$file"'|g' "$file"
 
             # 直接修改 #!openUrl 或 #!openurl 为 #App链接
             sed -i 's|^#!open[uU]rl\s*=\s*\(.*\)|#App链接=\1|' "$file"
@@ -546,211 +509,245 @@ jobs:
           fi
         done
 
-    # - name: 单独复刻loon配置
-      # run: |
-        # mkdir -p Tool/Loon
-        # curl -L -o Tool-repo/Loon/Loon.conf "https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"
+    - name: 单独复刻loon配置
+      run: |
+        mkdir -p Tool/Loon
+        curl -L -o Tool-repo/Loon/Loon.conf "https://github.com/Moli-X/Resources/raw/main/Loon/Loon.conf"
 
 
-# ###### Clash
+###### Clash
 
-    # - name: Clash规则
-      # run: |
-        # rm -rf Resources-repo/Ruleset
-        # for file in Resources-repo/Clash/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # sed -i -e '/^USER-AGENT/d' "$file"
-            # sed -i -e '/^URL-REGEX/d' "$file"
-            # file_names=$(basename "$file" .list)
-            # line_count=$(wc -l < "$file")
-            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # sed -i '2a\\' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
+    - name: Clash规则
+      run: |
+        rm -rf Tool-repo/Ruleset
+        for file in Tool-repo/Clash/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^URL-REGEX/d' "$file"
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
 
-    # - name: 复刻Meta覆写
-      # run: |
-        # mkdir -p Resources-repo/Clash/Meta
+    - name: 复刻Meta覆写
+      run: |
+        mkdir -p Tool-repo/Clash/Meta
 
-        # curl -L -o Resources-repo/Clash/Meta/Override.js "https://github.com/Repcz/Tool/raw/X/Clash/Meta/Override.js"
-        # curl -L -o Resources-repo/Clash/Meta/MihomoParty.js "https://github.com/Moli-X/Resources/raw/main/Clash/Script/MihomoParty.js"
-        # curl -L -o Resources-repo/Clash/Meta/MihomoParty.yaml "https://github.com/Moli-X/Resources/raw/main/Clash/MihomoParty.yaml"
+        curl -L -o Tool-repo/Clash/Meta/Override.js "https://github.com/Repcz/Tool/raw/X/Clash/Meta/Override.js"
+        curl -L -o Tool-repo/Clash/Meta/MihomoParty.js "https://github.com/Moli-X/Resources/raw/main/Clash/Script/MihomoParty.js"
+        curl -L -o Tool-repo/Clash/Meta/MihomoParty.yaml "https://github.com/Moli-X/Resources/raw/main/Clash/MihomoParty.yaml"
 
+###### QuantumultX
+
+    - name: QuantumultX规则
+      run: |
+        for file in Tool-repo/QuantumultX/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            sed -i -e '/^DEST-PORT/d' "$file"
+            sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
+            sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
+            sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"
+            sed -i -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g' "$file"
+            sed -i -e 's/^IP-CIDR6,/IP6-CIDR,/g' "$file"
+            sed -i 's/,no-resolve//g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+        for file in Tool-repo/QuantumultX/Rules/*.list; do
+          if [ -f "$file" ]; then
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v policy="$file_names" '!/^#|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
 
 
     - name: 单独复刻QX配置
       run: |
-        mkdir -p Resources/QuantumultX
-        curl -L -o Resources-repo/QuantumultX/QuantumultX.conf "https://github.com/GodMoli/QuanX/raw/main/File/Auto.conf"
+        mkdir -p Tool/QuantumultX
+        curl -L -o Tool-repo/QuantumultX/QuantumultX.conf "https://github.com/GodMoli/QuanX/raw/main/File/Auto.conf"
 
-# ###### Surge
+###### Surge
 
-    # - name: Surge规则
-      # run: |
-        # for file in Resources-repo/Surge/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # file_names=$(basename "$file" .list)
-            # line_count=$(wc -l < "$file")
-            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # sed -i '2a\\' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
+    - name: Surge规则
+      run: |
+        for file in Tool-repo/Surge/Rules/*.list; do
+          if [ -f "$file" ]; then
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
 
-    # # - name: 单独复刻Surge配置
-      # # run: |
-        # # mkdir -p Resources/Surge
-        # # curl -L -o Resources-repo/Surge/SurgePRO.conf "https://github.com/Moli-X/Resources/raw/main/Surge/SurgePRO.conf"
+    - name: 单独复刻Surge配置
+      run: |
+        mkdir -p Tool/Surge
+        curl -L -o Tool-repo/Surge/SurgePRO.conf "https://github.com/Moli-X/Resources/raw/main/Surge/SurgePRO.conf"
 
-# ###### Shadowrocket
+###### Shadowrocket
 
-    # - name: Shadowrocket规则
-      # run: |
-        # for file in Resources-repo/Shadowrocket/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # sed -i -e '/^PROCESS-NAME/d' "$file"
-            # file_names=$(basename "$file" .list)
-            # line_count=$(wc -l < "$file")
-            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # sed -i '2a\\' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
+    - name: Shadowrocket规则
+      run: |
+        for file in Tool-repo/Shadowrocket/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
 
-    # # - name: 单独复刻Shadowrocket配置
-      # # run: |
-        # # mkdir -p Resources/Shadowrocket
-        # # curl -L -o Resources-repo/Shadowrocket/Shadowrocket.conf "https://raw.githubusercontent.com/Moli-X/Shadowrocket/Master/Rewite/Shadowrocket.conf"
-
-
-
-# ###### Stash
-
-    # - name: Stash规则
-      # run: |
-        # for file in Resources-repo/Stash/Rules/*.list; do
-          # if [ -f "$file" ]; then
-            # sed -i -e '/^USER-AGENT/d' "$file"
-            # sed -i -e '/^URL-REGEX/d' "$file"
-            # sed -i -e '/^AND/d' "$file"
-            # sed -i -e '/^OR/d' "$file"
-            # sed -i -e '/^NOT/d' "$file"
-            # file_names=$(basename "$file" .list)
-            # line_count=$(wc -l < "$file")
-            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # sed -i -E '/^(OR|AND|NOT|USER-AGENT|URL-REGEX),/ s/^/#/' "$file"
-            # sed -i '2a\\' "$file"
-          # else
-            # echo "$file not found."
-          # fi
-        # done
-
-# ##### Egern       
-    # - name: Egern规则
-      # run: |
-        # # 确保目标目录存在
-        # mkdir -p Resources-repo/Egern/Rules
-        # cd Resources-repo/Egern/Rules
-        # # 遍历Resources-repo/Egern/Rules目录下的所有.yaml文件
-        # for file in Resources-repo/Egern/Rules/*.yaml; do
-          # # 如果文件存在
-          # if [ -f "$file" ]; then
-            # # 删除文件中的USER-AGENT、PROCESS-NAME、DEST-PORT行
-            # sed -i -e '/^USER-AGENT/d' "$file"
-            # sed -i -e '/^PROCESS-NAME/d' "$file"
-            # sed -i -e '/^DEST-PORT/d' "$file"
-            # # 将DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6, IP-ASN, URL-REGEX, GEOIP行前添加domain_set:, domain_suffix_set:, domain_keyword_set:, ip_cidr_set:, ip_cidr6_set:, asn_set:, url_regex_set:, geoip_set:
-            # awk '/^DOMAIN,/ && !added {print "domain_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk '/^DOMAIN-SUFFIX,/ && !added {print "domain_suffix_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk '/^DOMAIN-KEYWORD,/ && !added {print "domain_keyword_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk '/^IP-CIDR,/ && !added {print "ip_cidr_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk '/^IP-CIDR6,/ && !added {print "ip_cidr6_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk '/^IP-ASN,/ && !added {print "asn_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk '/^URL-REGEX,/ && !added {print "url_regex_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # awk '/^GEOIP,/ && !added {print "geoip_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          # else
-            # # 如果文件不存在，输出提示信息
-            # echo "$file not found."
-          # fi
-        # done
-
-        # # 遍历Tool-repo/Egern/Rules目录下的所有.yaml文件
-        # for file in Resources-repo/Egern/Rules/*.yaml; do
-          # # 如果文件存在
-          # if [ -f "$file" ]; then
-            # # 如果文件中存在IP-ASN、IP-CIDR、IP-CIDR6行，在文件开头添加o_resolve: true
-            # if grep -qE '^IP-(ASN|CIDR|CIDR6).*no-resolve$' "$file"; then
-            # sed -i '1i\no_resolve: true' "$file"
-            # fi
-            # # 将URL-REGEX行中的第二个逗号后的内容加上双引号
-            # sed -i -E 's/^(URL-REGEX,)([^,]+)$/\1"\2"/' "$file"
-            # # 将DOMAIN、DOMAIN-SUFFIX、DOMAIN-KEYWORD、IP-CIDR、IP-CIDR6、IP-ASN、URL-REGEX、GEOIP行前添加  -
-            # sed -i -E 's/^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|IP-CIDR|IP-CIDR6|IP-ASN|URL-REGEX|GEOIP),/  - /g' "$file"
-            # # 删除文件中的no-resolve
-            # sed -i 's/,no-resolve//g' "$file"
-            # # 获取文件名
-            # file_names=$(basename "$file" .yaml)
-            # # 获取文件中的行数
-            # line_count=$(grep -c '^  - ' "$file")
-            # # 在文件开头添加规则名称
-            # awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # # 在文件开头添加规则统计
-            # awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
-            # # 在文件开头添加空行
-            # sed -i '2a\\' "$file"
-          # else
-            # # 如果文件不存在，输出提示信息
-            # echo "$file not found."
-          # fi
-        # done
+    - name: 单独复刻Shadowrocket配置
+      run: |
+        mkdir -p Tool/Shadowrocket
+        curl -L -o Tool-repo/Shadowrocket/Shadowrocket.conf "https://raw.githubusercontent.com/Moli-X/Shadowrocket/Master/Rewite/Shadowrocket.conf"
 
 
 
-# ###### GeoIP
+###### Stash
 
-    # - name: 复刻GeoIP规则
-      # run: |
-        # mkdir -p Resources/GeoIP
-        # curl -L -o Resources-repo/GeoIP/CN_Country.mmdb "https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb"
-        # curl -L -o Resources-repo/GeoIP/Global_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
-        # curl -L -o Resources-repo/GeoIP/geoip-lite.dat "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
-        # curl -L -o Resources-repo/GeoIP/geosite.dat "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
-        # curl -L -o Resources-repo/GeoIP/country-lite.mmdb "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
-        # curl -L -o Resources-repo/GeoIP/GeoLite2-ASN.mmdb "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+    - name: Stash规则
+      run: |
+        for file in Tool-repo/Stash/Rules/*.list; do
+          if [ -f "$file" ]; then
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^URL-REGEX/d' "$file"
+            sed -i -e '/^AND/d' "$file"
+            sed -i -e '/^OR/d' "$file"
+            sed -i -e '/^NOT/d' "$file"
+            file_names=$(basename "$file" .list)
+            line_count=$(wc -l < "$file")
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            sed -i -E '/^(OR|AND|NOT|USER-AGENT|URL-REGEX),/ s/^/#/' "$file"
+            sed -i '2a\\' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+##### Egern       
+    - name: Egern规则
+      run: |
+        # 确保目标目录存在
+        mkdir -p Tool-repo/Egern/Rules
+        cd Tool-repo/Egern/Rules
+        # 遍历Tool-repo/Egern/Rules目录下的所有.yaml文件
+        for file in Tool-repo/Egern/Rules/*.yaml; do
+          # 如果文件存在
+          if [ -f "$file" ]; then
+            # 删除文件中的USER-AGENT、PROCESS-NAME、DEST-PORT行
+            sed -i -e '/^USER-AGENT/d' "$file"
+            sed -i -e '/^PROCESS-NAME/d' "$file"
+            sed -i -e '/^DEST-PORT/d' "$file"
+            # 将DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6, IP-ASN, URL-REGEX, GEOIP行前添加domain_set:, domain_suffix_set:, domain_keyword_set:, ip_cidr_set:, ip_cidr6_set:, asn_set:, url_regex_set:, geoip_set:
+            awk '/^DOMAIN,/ && !added {print "domain_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^DOMAIN-SUFFIX,/ && !added {print "domain_suffix_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^DOMAIN-KEYWORD,/ && !added {print "domain_keyword_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^IP-CIDR,/ && !added {print "ip_cidr_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^IP-CIDR6,/ && !added {print "ip_cidr6_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^IP-ASN,/ && !added {print "asn_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^URL-REGEX,/ && !added {print "url_regex_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^GEOIP,/ && !added {print "geoip_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+          else
+            # 如果文件不存在，输出提示信息
+            echo "$file not found."
+          fi
+        done
+
+        # 遍历Tool-repo/Egern/Rules目录下的所有.yaml文件
+        for file in Tool-repo/Egern/Rules/*.yaml; do
+          # 如果文件存在
+          if [ -f "$file" ]; then
+            # 如果文件中存在IP-ASN、IP-CIDR、IP-CIDR6行，在文件开头添加o_resolve: true
+            if grep -qE '^IP-(ASN|CIDR|CIDR6).*no-resolve$' "$file"; then
+            sed -i '1i\no_resolve: true' "$file"
+            fi
+            # 将URL-REGEX行中的第二个逗号后的内容加上双引号
+            sed -i -E 's/^(URL-REGEX,)([^,]+)$/\1"\2"/' "$file"
+            # 将DOMAIN、DOMAIN-SUFFIX、DOMAIN-KEYWORD、IP-CIDR、IP-CIDR6、IP-ASN、URL-REGEX、GEOIP行前添加  -
+            sed -i -E 's/^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|IP-CIDR|IP-CIDR6|IP-ASN|URL-REGEX|GEOIP),/  - /g' "$file"
+            # 删除文件中的no-resolve
+            sed -i 's/,no-resolve//g' "$file"
+            # 获取文件名
+            file_names=$(basename "$file" .yaml)
+            # 获取文件中的行数
+            line_count=$(grep -c '^  - ' "$file")
+            # 在文件开头添加规则名称
+            awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            # 在文件开头添加规则统计
+            awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            # 在文件开头添加空行
+            sed -i '2a\\' "$file"
+          else
+            # 如果文件不存在，输出提示信息
+            echo "$file not found."
+          fi
+        done
+
+
+
+###### GeoIP
+
+    - name: 复刻GeoIP规则
+      run: |
+        mkdir -p Tool/GeoIP
+        curl -L -o Tool-repo/GeoIP/CN_Country.mmdb "https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb"
+        curl -L -o Tool-repo/GeoIP/Global_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+        curl -L -o Tool-repo/GeoIP/geoip-lite.dat "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+        curl -L -o Tool-repo/GeoIP/geosite.dat "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+        curl -L -o Tool-repo/GeoIP/country-lite.mmdb "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
+        curl -L -o Tool-repo/GeoIP/GeoLite2-ASN.mmdb "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
 
 
 
 
-# ###### 可莉README
-    # - name: 提取并添加表格内容
-      # run: |
+###### 可莉README
+    - name: 提取并添加表格内容
+      run: |
 
-        # # 创建或清空目标 README 文件
-        # mkdir -p Tool/Loon
-        # echo '' > Tool-repo/Loon/Readme.md
+        # 创建或清空目标 README 文件
+        mkdir -p Tool/Loon
+        echo '' > Tool-repo/Loon/Readme.md
         
-        # # 添加 Resources 部分
-        # echo '### Resources' >> Tool-repo/Loon/Readme.md
-        # echo '<a href="https://t.me/GodMoliibot"><img src="https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Hello.gif" width="20%" height="20%"></a>' >> Tool-repo/Loon/Readme.md
-        # echo '' >> Tool-repo/Loon/Readme.md
-        # echo 'TG Channel：https://t.me/QuantX' >> Tool-repo/Loon/Readme.md
-        # echo '' >> Tool-repo/Loon/Readme.md
-        # echo '## Loon脚本收集: [欢迎投稿](https://t.me/Skill_XX )' >> Tool-repo/Loon/Readme.md
+        # 添加 Resources 部分
+        echo '### Resources' >> Tool-repo/Loon/Readme.md
+        echo '<a href="https://t.me/GodMoliibot"><img src="https://raw.githubusercontent.com/Moli-X/Resources/main/Icon/Image/Hello.gif" width="20%" height="20%"></a>' >> Tool-repo/Loon/Readme.md
+        echo '' >> Tool-repo/Loon/Readme.md
+        echo 'TG Channel：https://t.me/QuantX' >> Tool-repo/Loon/Readme.md
+        echo '' >> Tool-repo/Loon/Readme.md
+        echo '## Loon脚本收集: [欢迎投稿](https://t.me/Skill_XX )' >> Tool-repo/Loon/Readme.md
     
-        # # 提取并添加表格内容
-        # curl -s https://raw.githubusercontent.com/luestr/ProxyResource/main/README.md | \
-        # sed -n '/<table>/,/<\/table>/p' >> Tool-repo/Loon/Readme.md
+        # 提取并添加表格内容
+        curl -s https://raw.githubusercontent.com/luestr/ProxyResource/main/README.md | \
+        sed -n '/<table>/,/<\/table>/p' >> Tool-repo/Loon/Readme.md
     
-        # # 替换 Rewrite 部分
-        # sed -i 's|https://kelee.one/Tool/Loon/Rewrite|https://github.com/Moli-X/Tool/raw/X/Loon/Rewrite/Kelee|g' Tool-repo/Loon/Readme.md
+        # 替换 Lpx 部分
+        sed -i 's|https://kelee.one/Tool/Loon/Lpx|https://github.com/Moli-X/Tool/raw/X/Loon/Plugin/Kelee|g' Tool-repo/Loon/Readme.md
 
     
     
@@ -758,7 +755,7 @@ jobs:
 ###### Commit
     - name: 添加Commits
       run: |
-        cd Resources-repo
+        cd Tool-repo
         if [[ -n $(git status -s) ]]; then
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

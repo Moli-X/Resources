@@ -18,7 +18,7 @@ jobs:
           git branch -D X
           git checkout --orphan X
           git add .
-          git commit -m "ㅤ"
+          git commit -m "Rebuild"
           git push -f -u origin X
       - name: Cleanup Workflow
         uses: Mattraks/delete-workflow-runs@main

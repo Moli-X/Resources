@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7320
+# 规则统计: 7325
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -3771,6 +3771,7 @@ HOST-SUFFIX,lsmwebcast.com,ProxyGFW
 HOST-SUFFIX,lsxszzg.com,ProxyGFW
 HOST-SUFFIX,ltn.com.tw,ProxyGFW
 HOST-SUFFIX,luckydesigner.space,ProxyGFW
+HOST-SUFFIX,ludepress.com,ProxyGFW
 HOST-SUFFIX,luke54.com,ProxyGFW
 HOST-SUFFIX,luke54.org,ProxyGFW
 HOST-SUFFIX,lupm.org,ProxyGFW
@@ -6621,6 +6622,7 @@ HOST-SUFFIX,waikeung.org,ProxyGFW
 HOST-SUFFIX,wailaike.net,ProxyGFW
 HOST-SUFFIX,wainao.me,ProxyGFW
 HOST-SUFFIX,waiwaier.com,ProxyGFW
+HOST-SUFFIX,walletconnect.com,ProxyGFW
 HOST-SUFFIX,wallmama.com,ProxyGFW
 HOST-SUFFIX,wallornot.org,ProxyGFW
 HOST-SUFFIX,wallpapercasa.com,ProxyGFW
@@ -6895,6 +6897,8 @@ HOST-SUFFIX,www1.biz,ProxyGFW
 HOST-SUFFIX,www2.ohchr.org,ProxyGFW
 HOST-SUFFIX,www2.rocketbbs.com,ProxyGFW
 HOST-SUFFIX,wwwhost.biz,ProxyGFW
+HOST-SUFFIX,wxw.cat,ProxyGFW
+HOST-SUFFIX,wxw.moe,ProxyGFW
 HOST-SUFFIX,wzyboy.im,ProxyGFW
 HOST-SUFFIX,x-art.com,ProxyGFW
 HOST-SUFFIX,x-berry.com,ProxyGFW
@@ -7022,6 +7026,7 @@ HOST-SUFFIX,yandex.net,ProxyGFW
 HOST-SUFFIX,yandex.ru,ProxyGFW
 HOST-SUFFIX,yanghengjun.com,ProxyGFW
 HOST-SUFFIX,yangjianli.com,ProxyGFW
+HOST-SUFFIX,yangzhi.org,ProxyGFW
 HOST-SUFFIX,yasni.co.uk,ProxyGFW
 HOST-SUFFIX,yasukuni.or.jp,ProxyGFW
 HOST-SUFFIX,yayabay.com,ProxyGFW

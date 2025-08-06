@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3811
+# 规则统计: 3819
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1370,6 +1370,7 @@ HOST,images.spot.im,CDN
 HOST,images.spr.so,CDN
 HOST,images.store.crowdstrike.com,CDN
 HOST,images.svc.ui.com,CDN
+HOST,images.tg.cc,CDN
 HOST,images.tokopedia.net,CDN
 HOST,images.typeform.com,CDN
 HOST,images.unsplash.com,CDN
@@ -1404,6 +1405,7 @@ HOST,img-prod-cms-rt-microsoft-com.akamaized.net,CDN
 HOST,img-s-msn-com.akamaized.net,CDN
 HOST,img.177pica.com,CDN
 HOST,img.3movs.com,CDN
+HOST,img.4gamers.com.tw,CDN
 HOST,img.4khd.com,CDN
 HOST,img.adspower.net,CDN
 HOST,img.agrd.eu,CDN
@@ -1468,6 +1470,7 @@ HOST,img.sparemin.com,CDN
 HOST,img.sparknotes.com,CDN
 HOST,img.supjav.com,CDN
 HOST,img.telemetr.io,CDN
+HOST,img.tg.cc,CDN
 HOST,img.thingiverse.com,CDN
 HOST,img.timero.xyz,CDN
 HOST,img.toto.im,CDN
@@ -1615,6 +1618,7 @@ HOST,makerworld.bblmw.com,CDN
 HOST,mangaz-books.j-comi.jp,CDN
 HOST,mangaz-static.j-comi.jp,CDN
 HOST,mantisloader.mantis-awx.com,CDN
+HOST,map.vesselfinder.net,CDN
 HOST,maps.geoapify.com,CDN
 HOST,maps.gstatic.com,CDN
 HOST,maptile.osmand.net,CDN
@@ -1905,6 +1909,7 @@ HOST,public.mocortech.com,CDN
 HOST,public.saasexch.com,CDN
 HOST,public.zoorix.com,CDN
 HOST,publicsuffix.org,CDN
+HOST,puku-dist.4gamers.com.tw,CDN
 HOST,pytorch.org,CDN
 HOST,qmod.quotemedia.com,CDN
 HOST,quriobot.com,CDN
@@ -2122,6 +2127,7 @@ HOST,st-eu.dynamicyield.com,CDN
 HOST,st.agrd.eu,CDN
 HOST,st.deviantart.net,CDN
 HOST,st.dynamicyield.com,CDN
+HOST,st.transfer.it,CDN
 HOST,st1.zoom.us,CDN
 HOST,st2.zoom.us,CDN
 HOST,st3.zoom.us,CDN
@@ -2382,6 +2388,7 @@ HOST,static.underhentai.net,CDN
 HOST,static.uptimia.com,CDN
 HOST,static.v2ex.com,CDN
 HOST,static.vanta.com,CDN
+HOST,static.vesselfinder.net,CDN
 HOST,static.vinted.com,CDN
 HOST,static.vocadb.net,CDN
 HOST,static.webclicks24.com,CDN
@@ -2494,6 +2501,7 @@ HOST,thumbnail.missav.com,CDN
 HOST,thumbnailer.mixcloud.com,CDN
 HOST,thumbnails.applegamingwiki.com,CDN
 HOST,thumbnails.cbsig.net,CDN
+HOST,thumbor.4gamers.com.tw,CDN
 HOST,thumbor.forbes.com,CDN
 HOST,thumbs.onlyfans.com,CDN
 HOST,thumbs2.sendvid.com,CDN

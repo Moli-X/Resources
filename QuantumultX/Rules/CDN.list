@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3809
+# 规则统计: 3811
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -90,6 +90,7 @@ HOST,artworks.thetvdb.com,CDN
 HOST,asset-cdn.uscardforum.com,CDN
 HOST,asset.booth.pm,CDN
 HOST,asset.chase.com,CDN
+HOST,asset.jamieoliver.com,CDN
 HOST,asset.mansionglobal.com,CDN
 HOST,assets-app.circleci.com,CDN
 HOST,assets-cdn.123rf.com,CDN
@@ -568,6 +569,7 @@ HOST,cdn.ionos.de,CDN
 HOST,cdn.ip2location.io,CDN
 HOST,cdn.iporntv.net,CDN
 HOST,cdn.ipregistry.co,CDN
+HOST,cdn.jamieoliver.com,CDN
 HOST,cdn.javmg.com,CDN
 HOST,cdn.javsts.com,CDN
 HOST,cdn.jetboost.io,CDN

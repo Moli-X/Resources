@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3819
+# 规则统计: 3827
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -800,6 +800,7 @@ HOST,cdn1.stamped.io,CDN
 HOST,cdn1.suno.ai,CDN
 HOST,cdn1.sysgears.com,CDN
 HOST,cdn1.techbang.com,CDN
+HOST,cdn1.telegram.space,CDN
 HOST,cdn1.unrealengine.com,CDN
 HOST,cdn1.xxxsx.com,CDN
 HOST,cdn10.bigcommerce.com,CDN
@@ -839,10 +840,12 @@ HOST,cdn4.bigcommerce.com,CDN
 HOST,cdn4.edgedatg.com,CDN
 HOST,cdn4.iconfinder.com,CDN
 HOST,cdn4.sysgears.com,CDN
+HOST,cdn4.telegram.space,CDN
 HOST,cdn5.bigcommerce.com,CDN
 HOST,cdn5.edgedatg.com,CDN
 HOST,cdn5.hextom.com,CDN
 HOST,cdn5.iconfinder.com,CDN
+HOST,cdn5.telegram.space,CDN
 HOST,cdn6.aptoide.com,CDN
 HOST,cdn6.bigcommerce.com,CDN
 HOST,cdn6.edgedatg.com,CDN
@@ -1125,6 +1128,7 @@ HOST,fesdk.nexon.com,CDN
 HOST,fiddle.fastly.dev,CDN
 HOST,fiddle.jshell.net,CDN
 HOST,file.izanmei.net,CDN
+HOST,file1.hkepc.com,CDN
 HOST,files.armorgames.com,CDN
 HOST,files.buildwithfern.com,CDN
 HOST,files.jotform.com,CDN
@@ -1227,6 +1231,7 @@ HOST,i.guim.co.uk,CDN
 HOST,i.gzn.jp,CDN
 HOST,i.hamreus.com,CDN
 HOST,i.hentaifox.com,CDN
+HOST,i.hkepc.com,CDN
 HOST,i.ibb.co,CDN
 HOST,i.iheart.com,CDN
 HOST,i.imagepost.com,CDN
@@ -1295,6 +1300,7 @@ HOST,image.mgstage.com,CDN
 HOST,image.mux.com,CDN
 HOST,image.nmb.best,CDN
 HOST,image.p-c2-x.abema-tv.com,CDN
+HOST,image.prntscr.com,CDN
 HOST,image.send.grammarly.com,CDN
 HOST,image.ship.vercel.com,CDN
 HOST,image.shutterstock.com,CDN
@@ -2194,6 +2200,7 @@ HOST,static.addtoany.com,CDN
 HOST,static.adguardvpn.com,CDN
 HOST,static.afterpay.com,CDN
 HOST,static.ahrefs.com,CDN
+HOST,static.airtable.com,CDN
 HOST,static.aizanmei.org,CDN
 HOST,static.animaapp.com,CDN
 HOST,static.anyporn.com,CDN
@@ -2722,6 +2729,7 @@ HOST-SUFFIX,agechecker-northern-apps.com,CDN
 HOST-SUFFIX,agechecker.northern-apps.com,CDN
 HOST-SUFFIX,ahcdn.com,CDN
 HOST-SUFFIX,airio3.live,CDN
+HOST-SUFFIX,airtableusercontent.com,CDN
 HOST-SUFFIX,akidoo.top,CDN
 HOST-SUFFIX,alexdav.id,CDN
 HOST-SUFFIX,algolianet.com,CDN

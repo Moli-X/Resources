@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41940
+# 规则统计: 41950
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -4934,6 +4934,7 @@ HOST-SUFFIX,allergy.thermofisher.com,Ads_EasyListPrivacy
 HOST-SUFFIX,alliantdata.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,alliedfundingcorp.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,allinsurance.allinsure.ca,Ads_EasyListPrivacy
+HOST-SUFFIX,alloutdubstep.com,Ads_EasyListPrivacy
 HOST-SUFFIX,allreach.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,allrisks.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,allstarfg.actonservice.com,Ads_EasyListPrivacy
@@ -7556,6 +7557,7 @@ HOST-SUFFIX,blisscalendar.com,Ads_EasyListPrivacy
 HOST-SUFFIX,blissfulcrescendo.com,Ads_EasyListPrivacy
 HOST-SUFFIX,blissfullagoon.com,Ads_EasyListPrivacy
 HOST-SUFFIX,blitz-analytics-batch-server.blitz.gg,Ads_EasyListPrivacy
+HOST-SUFFIX,blitzcampaigns.com,Ads_EasyListPrivacy
 HOST-SUFFIX,blmjbp.casamundo.pl,Ads_EasyListPrivacy
 HOST-SUFFIX,blockchain.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,blockdial.com,Ads_EasyListPrivacy
@@ -8874,6 +8876,7 @@ HOST-SUFFIX,collector.githubapp.com,Ads_EasyListPrivacy
 HOST-SUFFIX,collector.hippodromeonline.com,Ads_EasyListPrivacy
 HOST-SUFFIX,collector.mazeberry.com,Ads_EasyListPrivacy
 HOST-SUFFIX,collector.megaxh.com,Ads_EasyListPrivacy
+HOST-SUFFIX,collector.net-logger.com,Ads_EasyListPrivacy
 HOST-SUFFIX,collector.pi.spectrum.net,Ads_EasyListPrivacy
 HOST-SUFFIX,collector.quillbot.com,Ads_EasyListPrivacy
 HOST-SUFFIX,collector.schibsted.io,Ads_EasyListPrivacy
@@ -12627,6 +12630,7 @@ HOST-SUFFIX,ermiph.petermanningnyc.com,Ads_EasyListPrivacy
 HOST-SUFFIX,eroar.lionsclubs.org,Ads_EasyListPrivacy
 HOST-SUFFIX,erp.qwic.nl,Ads_EasyListPrivacy
 HOST-SUFFIX,err.ifengcloud.ifeng.com,Ads_EasyListPrivacy
+HOST-SUFFIX,error-analytics-production.shopifysvc.com,Ads_EasyListPrivacy
 HOST-SUFFIX,error-analytics-sessions-production.shopifysvc.com,Ads_EasyListPrivacy
 HOST-SUFFIX,error-collector.ted.com,Ads_EasyListPrivacy
 HOST-SUFFIX,error.videonow.ru,Ads_EasyListPrivacy
@@ -13722,7 +13726,6 @@ HOST-SUFFIX,g990421676.co,Ads_EasyListPrivacy
 HOST-SUFFIX,g993dvyzae.branch.salesfloor.net,Ads_EasyListPrivacy
 HOST-SUFFIX,ga-beacon.appspot.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ga-tracker-dot-detmir-bonus.appspot.com,Ads_EasyListPrivacy
-HOST-SUFFIX,ga.finam.ru,Ads_EasyListPrivacy
 HOST-SUFFIX,ga.groc.press,Ads_EasyListPrivacy
 HOST-SUFFIX,ga.nsimg.net,Ads_EasyListPrivacy
 HOST-SUFFIX,ga.webdigi.co.uk,Ads_EasyListPrivacy
@@ -13779,6 +13782,7 @@ HOST-SUFFIX,gdsngr.chainreactioncycles.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gdt.qq.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gea-exchange-03.net.jumia.ug,Ads_EasyListPrivacy
 HOST-SUFFIX,gear.echovisuals.com,Ads_EasyListPrivacy
+HOST-SUFFIX,gearbubbles.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gecfnc.foresight.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,gedozw.autoscout24.cz,Ads_EasyListPrivacy
 HOST-SUFFIX,geekbackyard.com,Ads_EasyListPrivacy
@@ -14982,6 +14986,7 @@ HOST-SUFFIX,hello.steadyapp.com,Ads_EasyListPrivacy
 HOST-SUFFIX,hello.trailblazers.com,Ads_EasyListPrivacy
 HOST-SUFFIX,hello.wellocution.com,Ads_EasyListPrivacy
 HOST-SUFFIX,hellogain.actonservice.com,Ads_EasyListPrivacy
+HOST-SUFFIX,hellounbox.com,Ads_EasyListPrivacy
 HOST-SUFFIX,helpcollar.com,Ads_EasyListPrivacy
 HOST-SUFFIX,helpdesk.thinkhdi.com,Ads_EasyListPrivacy
 HOST-SUFFIX,helpflame.com,Ads_EasyListPrivacy
@@ -24662,6 +24667,7 @@ HOST-SUFFIX,p.placed.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.pmu.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,p.ryanhalliday.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.skimresources.com,Ads_EasyListPrivacy
+HOST-SUFFIX,p.spotidownloader.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.tencentmind.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.tryretool.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.typekit.net,Ads_EasyListPrivacy
@@ -35554,6 +35560,7 @@ HOST-SUFFIX,telemetry.moveworks.com,Ads_EasyListPrivacy
 HOST-SUFFIX,telemetry.navispherecarrier.com,Ads_EasyListPrivacy
 HOST-SUFFIX,telemetry.owenscorning.com,Ads_EasyListPrivacy
 HOST-SUFFIX,telemetry.phenixrts.com,Ads_EasyListPrivacy
+HOST-SUFFIX,telemetry.proton.me,Ads_EasyListPrivacy
 HOST-SUFFIX,telemetry.reembed.com,Ads_EasyListPrivacy
 HOST-SUFFIX,telemetry.ruthschris.com,Ads_EasyListPrivacy
 HOST-SUFFIX,telemetry.sdk.inmobi.com,Ads_EasyListPrivacy
@@ -35716,6 +35723,7 @@ HOST-SUFFIX,thecea.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,thefishstops.com,Ads_EasyListPrivacy
 HOST-SUFFIX,thefontzone.com,Ads_EasyListPrivacy
 HOST-SUFFIX,thejavalane.com,Ads_EasyListPrivacy
+HOST-SUFFIX,themangotea.com,Ads_EasyListPrivacy
 HOST-SUFFIX,theme.echovisuals.com,Ads_EasyListPrivacy
 HOST-SUFFIX,themepicker.com,Ads_EasyListPrivacy
 HOST-SUFFIX,thepowerstones.com,Ads_EasyListPrivacy
@@ -36044,6 +36052,7 @@ HOST-SUFFIX,todayintheword.moodybible.org,Ads_EasyListPrivacy
 HOST-SUFFIX,toeopa.doutornature.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tofupancake.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tofusquirrel.com,Ads_EasyListPrivacy
+HOST-SUFFIX,tomatobarrel.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tommys.openapp.link,Ads_EasyListPrivacy
 HOST-SUFFIX,tongji-res.meizu.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tongji.mafengwo.cn,Ads_EasyListPrivacy
@@ -37511,6 +37520,7 @@ HOST-SUFFIX,tracker-dot-optimeeze.appspot.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracker-rec.smart-bdash.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracker-server.high-cdn.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracker-v4.gamedock.io,Ads_EasyListPrivacy
+HOST-SUFFIX,tracker.3dissue.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracker.520call.me,Ads_EasyListPrivacy
 HOST-SUFFIX,tracker.adbinead.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracker.affiliate.iqbroker.com,Ads_EasyListPrivacy

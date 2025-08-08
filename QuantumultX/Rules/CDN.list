@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3827
+# 规则统计: 3829
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -962,6 +962,7 @@ HOST,content-prod-live.cert.starbucks.com,CDN
 HOST,content.any.run,CDN
 HOST,content.api.news,CDN
 HOST,content.arduino.cc,CDN
+HOST,content.gitbook.com,CDN
 HOST,content.invisioncic.com,CDN
 HOST,content.jwplatform.com,CDN
 HOST,content.kaspersky-labs.com,CDN
@@ -2143,6 +2144,7 @@ HOST,start-page.buffer.com,CDN
 HOST,static-00.iconduck.com,CDN
 HOST,static-1.bitchute.com,CDN
 HOST,static-2.bitchute.com,CDN
+HOST,static-2v.gitbook.com,CDN
 HOST,static-3.bitchute.com,CDN
 HOST,static-4.bitchute.com,CDN
 HOST,static-act.imoim.net,CDN

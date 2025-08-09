@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3835
+# 规则统计: 3838
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -688,6 +688,7 @@ HOST,cdn.roboflow.com,CDN
 HOST,cdn.royaleapi.com,CDN
 HOST,cdn.safecharge.com,CDN
 HOST,cdn.sanity.io,CDN
+HOST,cdn.sapphire.microsoftapp.net,CDN
 HOST,cdn.sc.gl,CDN
 HOST,cdn.scaleflex.it,CDN
 HOST,cdn.schemaapp.com,CDN
@@ -1349,6 +1350,7 @@ HOST,images.en.aptoide.com,CDN
 HOST,images.everyplate.com,CDN
 HOST,images.fandango.com,CDN
 HOST,images.financemagnates.com,CDN
+HOST,images.findagrave.com,CDN
 HOST,images.flightradar24.com,CDN
 HOST,images.freeimages.com,CDN
 HOST,images.g2crowd.com,CDN
@@ -2745,6 +2747,7 @@ HOST-SUFFIX,alonestreaming.com,CDN
 HOST-SUFFIX,alphafish.top,CDN
 HOST-SUFFIX,amaicdn.com,CDN
 HOST-SUFFIX,ampproject.org,CDN
+HOST-SUFFIX,ancestrycdn.com,CDN
 HOST-SUFFIX,angular.dev,CDN
 HOST-SUFFIX,angular.io,CDN
 HOST-SUFFIX,angularjs.org,CDN

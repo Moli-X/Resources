@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7325
+# 规则统计: 7327
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -671,6 +671,7 @@ HOST-SUFFIX,bitchute.com,ProxyGFW
 HOST-SUFFIX,bitcointalk.org,ProxyGFW
 HOST-SUFFIX,bitcoinworld.com,ProxyGFW
 HOST-SUFFIX,bitfinex.com,ProxyGFW
+HOST-SUFFIX,bitget.com,ProxyGFW
 HOST-SUFFIX,bithumb.com,ProxyGFW
 HOST-SUFFIX,bitinka.com.ar,ProxyGFW
 HOST-SUFFIX,bitmex.com,ProxyGFW
@@ -1245,6 +1246,7 @@ HOST-SUFFIX,cloakpoint.com,ProxyGFW
 HOST-SUFFIX,cloud.dify.ai,ProxyGFW
 HOST-SUFFIX,cloud.mail.ru,ProxyGFW
 HOST-SUFFIX,cloudcone.com,ProxyGFW
+HOST-SUFFIX,cloudflare-dns.com,ProxyGFW
 HOST-SUFFIX,cloudflare-ipfs.com,ProxyGFW
 HOST-SUFFIX,cloudfront.net,ProxyGFW
 HOST-SUFFIX,cloudfunctions.net,ProxyGFW
@@ -6375,6 +6377,7 @@ HOST-SUFFIX,unstable.icu,ProxyGFW
 HOST-SUFFIX,untraceable.us,ProxyGFW
 HOST-SUFFIX,unwire.hk,ProxyGFW
 HOST-SUFFIX,uocn.org,ProxyGFW
+HOST-SUFFIX,upbit.com,ProxyGFW
 HOST-SUFFIX,updates.tdesktop.com,ProxyGFW
 HOST-SUFFIX,updatestar.com,ProxyGFW
 HOST-SUFFIX,upghsbc.com,ProxyGFW
@@ -6877,7 +6880,6 @@ HOST-SUFFIX,www.monlamit.org,ProxyGFW
 HOST-SUFFIX,www.moztw.org,ProxyGFW
 HOST-SUFFIX,www.msn.com,ProxyGFW
 HOST-SUFFIX,www.nbc.com,ProxyGFW
-HOST-SUFFIX,www.nodeloc.com,ProxyGFW
 HOST-SUFFIX,www.owind.com,ProxyGFW
 HOST-SUFFIX,www.oxid.it,ProxyGFW
 HOST-SUFFIX,www.powerpointninja.com,ProxyGFW

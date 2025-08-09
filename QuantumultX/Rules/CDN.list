@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3829
+# 规则统计: 3835
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -108,6 +108,7 @@ HOST,assets-next.mattersprotocol.io,CDN
 HOST,assets-s3-us-east-1.ceros.com,CDN
 HOST,assets-themes.chess.com,CDN
 HOST,assets-v2.super.so,CDN
+HOST,assets-www.readspeaker.com,CDN
 HOST,assets-www.xbox.com,CDN
 HOST,assets.aboutamazon.com,CDN
 HOST,assets.adobedtm.com,CDN
@@ -334,6 +335,7 @@ HOST,c.animaapp.com,CDN
 HOST,c.fantia.jp,CDN
 HOST,c.marsflag.com,CDN
 HOST,c.navattic.com,CDN
+HOST,c.pki.goog,CDN
 HOST,c.s-microsoft.com,CDN
 HOST,c.speedtestcustom.com,CDN
 HOST,c.start.me,CDN
@@ -378,6 +380,7 @@ HOST,cdn-cms.tunein.com,CDN
 HOST,cdn-dynmedia-1.microsoft.com,CDN
 HOST,cdn-edge.karte.io,CDN
 HOST,cdn-eu.dynamicyield.com,CDN
+HOST,cdn-eu.readspeaker.com,CDN
 HOST,cdn-fck.tnaflix.com,CDN
 HOST,cdn-forum.networklessons.com,CDN
 HOST,cdn-front.freepik.com,CDN
@@ -409,6 +412,7 @@ HOST,cdn-static.talent.com,CDN
 HOST,cdn-swell-assets.yotpo.com,CDN
 HOST,cdn-thumbs.imagevenue.com,CDN
 HOST,cdn-uicons.flaticon.com,CDN
+HOST,cdn-us.readspeaker.com,CDN
 HOST,cdn-web.fydeos.io,CDN
 HOST,cdn-web.orbstack.dev,CDN
 HOST,cdn-web.tunein.com,CDN
@@ -2619,6 +2623,8 @@ HOST,vpncdn.protonweb.com,CDN
 HOST,vscode-sync-insiders.trafficmanager.net,CDN
 HOST,vscode-sync.trafficmanager.net,CDN
 HOST,vsmarketplacebadge.apphb.com,CDN
+HOST,vte-eu.readspeaker.com,CDN
+HOST,vte-us.readspeaker.com,CDN
 HOST,vuejs.org,CDN
 HOST,vz-2222604c-50b.b-cdn.net,CDN
 HOST,vz-c0fe498e-5ab.b-cdn.net,CDN

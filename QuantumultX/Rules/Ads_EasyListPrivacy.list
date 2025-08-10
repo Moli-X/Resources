@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41950
+# 规则统计: 41953
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -28690,6 +28690,7 @@ HOST-SUFFIX,skxbbj.clasic.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,skylightdata.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sl.trycircle.com,Ads_EasyListPrivacy
 HOST-SUFFIX,slackb.com,Ads_EasyListPrivacy
+HOST-SUFFIX,slackpod.com,Ads_EasyListPrivacy
 HOST-SUFFIX,slashnext.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,slaunch.shopcanopy.com,Ads_EasyListPrivacy
 HOST-SUFFIX,slaunch.spectrumtherapeutics.com,Ads_EasyListPrivacy
@@ -38005,6 +38006,7 @@ HOST-SUFFIX,tracking.ntl.no,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.nymphomaneladies.de,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.ocr.ca,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.oe24.at,Ads_EasyListPrivacy
+HOST-SUFFIX,tracking.offerista.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.ohiohealth.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.oldnational.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.olx-st.com,Ads_EasyListPrivacy
@@ -38955,6 +38957,7 @@ HOST-SUFFIX,ucmetrics.unicreditbanca.it,Ads_EasyListPrivacy
 HOST-SUFFIX,ucmetrics.unicreditgroup.eu,Ads_EasyListPrivacy
 HOST-SUFFIX,ucounter.ucoz.net,Ads_EasyListPrivacy
 HOST-SUFFIX,ucppeo.silux.hr,Ads_EasyListPrivacy
+HOST-SUFFIX,uct.service.usercentrics.eu,Ads_EasyListPrivacy
 HOST-SUFFIX,udblog.huya.com,Ads_EasyListPrivacy
 HOST-SUFFIX,udgrbq.malwarebytes.com,Ads_EasyListPrivacy
 HOST-SUFFIX,udicje.perrys.co.uk,Ads_EasyListPrivacy

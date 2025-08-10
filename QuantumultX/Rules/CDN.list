@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3838
+# 规则统计: 3845
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -723,6 +723,7 @@ HOST,cdn.stash.com,CDN
 HOST,cdn.staticdelivr.com,CDN
 HOST,cdn.staticswin.com,CDN
 HOST,cdn.stellarhosted.com,CDN
+HOST,cdn.streamlabs.com,CDN
 HOST,cdn.substack.com,CDN
 HOST,cdn.sunofbeaches.com,CDN
 HOST,cdn.svgator.com,CDN
@@ -1076,6 +1077,7 @@ HOST,embed.runkit.com,CDN
 HOST,embed.savvycal.com,CDN
 HOST,embed.tawk.to,CDN
 HOST,embed.ted.com,CDN
+HOST,embed.twitch.tv,CDN
 HOST,embed.typeform.com,CDN
 HOST,embedr.flickr.com,CDN
 HOST,embedwistia-a.akamaihd.net,CDN
@@ -1265,6 +1267,7 @@ HOST,i.xxxshake.com,CDN
 HOST,i2.anysex.com,CDN
 HOST,i2.bahamut.com.tw,CDN
 HOST,i2.hentaifox.com,CDN
+HOST,i2.nhentai.net,CDN
 HOST,i3.anysex.com,CDN
 HOST,i4.anysex.com,CDN
 HOST,ias.r10s.jp,CDN
@@ -1337,6 +1340,7 @@ HOST,images.arigatotravel.com,CDN
 HOST,images.axios.com,CDN
 HOST,images.bfmtv.com,CDN
 HOST,images.blackmagicdesign.com,CDN
+HOST,images.blockscan.com,CDN
 HOST,images.carfax.com,CDN
 HOST,images.contentful.com,CDN
 HOST,images.contentstack.io,CDN
@@ -2131,6 +2135,7 @@ HOST,sourcepoint.theguardian.com,CDN
 HOST,sp-spiegel-de.spiegel.de,CDN
 HOST,sp.nba.com,CDN
 HOST,sp.replit.com,CDN
+HOST,sp.streamlabs.com,CDN
 HOST,spcdn.incartupsell.com,CDN
 HOST,spoprod-a.akamaihd.net,CDN
 HOST,sprig.figma.com,CDN
@@ -2150,6 +2155,7 @@ HOST,start-page.buffer.com,CDN
 HOST,static-00.iconduck.com,CDN
 HOST,static-1.bitchute.com,CDN
 HOST,static-2.bitchute.com,CDN
+HOST,static-2c.gitbook.com,CDN
 HOST,static-2v.gitbook.com,CDN
 HOST,static-3.bitchute.com,CDN
 HOST,static-4.bitchute.com,CDN
@@ -2488,6 +2494,7 @@ HOST,t0.gstatic.com,CDN
 HOST,t1.gstatic.com,CDN
 HOST,t1.picb.cc,CDN
 HOST,t2.gstatic.com,CDN
+HOST,t2.nhentai.net,CDN
 HOST,t2.picb.cc,CDN
 HOST,t3.gstatic.com,CDN
 HOST,t3.picb.cc,CDN

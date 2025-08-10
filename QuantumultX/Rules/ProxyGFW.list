@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7327
+# 规则统计: 7328
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -3859,6 +3859,7 @@ HOST-SUFFIX,matters.town,ProxyGFW
 HOST-SUFFIX,matthewdgreen.wordpress.com,ProxyGFW
 HOST-SUFFIX,mattwilcox.net,ProxyGFW
 HOST-SUFFIX,maturejp.com,ProxyGFW
+HOST-SUFFIX,maven.neoforged.net,ProxyGFW
 HOST-SUFFIX,maven.org,ProxyGFW
 HOST-SUFFIX,maxing.jp,ProxyGFW
 HOST-SUFFIX,mayimayi.com,ProxyGFW

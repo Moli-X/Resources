@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3845
+# 规则统计: 3850
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -51,7 +51,6 @@ HOST,api.fontshare.com,CDN
 HOST,api.iconify.design,CDN
 HOST,api.indexnow.org,CDN
 HOST,api.instantly.ai,CDN
-HOST,api.mintlify.com,CDN
 HOST,api.mixpanel.com,CDN
 HOST,api.producthunt.com,CDN
 HOST,api.pwnedpasswords.com,CDN
@@ -60,6 +59,7 @@ HOST,api.roboflow.com,CDN
 HOST,api.weather.com,CDN
 HOST,api.web3.storage,CDN
 HOST,apichatwidget.usepylon.com,CDN
+HOST,apim.m3pd.com,CDN
 HOST,app-api.vidjet.io,CDN
 HOST,app-spm.com,CDN
 HOST,app-static.eu.posthog.com,CDN
@@ -559,6 +559,7 @@ HOST,cdn.hashnode.com,CDN
 HOST,cdn.headwayapp.co,CDN
 HOST,cdn.hellofresh.com,CDN
 HOST,cdn.hextom.com,CDN
+HOST,cdn.highporn.net,CDN
 HOST,cdn.hiive.space,CDN
 HOST,cdn.hinative.com,CDN
 HOST,cdn.hk01.com,CDN
@@ -1092,6 +1093,7 @@ HOST,encrypted-vtbn0.gstatic.com,CDN
 HOST,encrypted-vtbn1.gstatic.com,CDN
 HOST,encrypted-vtbn2.gstatic.com,CDN
 HOST,encrypted-vtbn3.gstatic.com,CDN
+HOST,eomd1.fembeqq.xyz,CDN
 HOST,epic-social-social-modules-prod.ol.epicgames.com,CDN
 HOST,error.rakuten.co.jp,CDN
 HOST,eslint-react.xyz,CDN
@@ -1450,6 +1452,7 @@ HOST,img.fortawesome.com,CDN
 HOST,img.freepik.com,CDN
 HOST,img.hellofresh.com,CDN
 HOST,img.hentaihaven.xxx,CDN
+HOST,img.highporn.net,CDN
 HOST,img.huffingtonpost.com,CDN
 HOST,img.icons8.com,CDN
 HOST,img.ifunny.co,CDN
@@ -2761,6 +2764,7 @@ HOST-SUFFIX,angularjs.org,CDN
 HOST-SUFFIX,anpoimages.com,CDN
 HOST-SUFFIX,anpustream.com,CDN
 HOST-SUFFIX,ant.design,CDN
+HOST-SUFFIX,anyhentai.com,CDN
 HOST-SUFFIX,aolcdn.com,CDN
 HOST-SUFFIX,aosikaimage.com,CDN
 HOST-SUFFIX,api.instabug.com,CDN
@@ -3716,6 +3720,7 @@ HOST-SUFFIX,warnermediacdn.com,CDN
 HOST-SUFFIX,watchlycdn.com,CDN
 HOST-SUFFIX,wdfiles.com,CDN
 HOST-SUFFIX,web.app,CDN
+HOST-SUFFIX,webinfcdn.com,CDN
 HOST-SUFFIX,webp.se,CDN
 HOST-SUFFIX,webpkgcache.com,CDN
 HOST-SUFFIX,website-files.com,CDN

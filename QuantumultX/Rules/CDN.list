@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3850
+# 规则统计: 3852
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -880,6 +880,7 @@ HOST,cdnl.moviefap.com,CDN
 HOST,cdnl.tnaflix.com,CDN
 HOST,cdnmedia.ero-video.net,CDN
 HOST,cdns.gigya.com,CDN
+HOST,cdns.us.gigya.com,CDN
 HOST,cdns.zbporn.com,CDN
 HOST,cdnsecakmi.kaltura.com,CDN
 HOST,cdnstatic.porno-cum.com,CDN
@@ -1775,6 +1776,7 @@ HOST,newassets.hcaptcha.com,CDN
 HOST,news-assets.apple.com,CDN
 HOST,news-data.pts.org.tw,CDN
 HOST,newsletter.postmarkapp.com,CDN
+HOST,newsstatic.rthk.hk,CDN
 HOST,next-images.123rf.com,CDN
 HOST,next-images.opencollective.com,CDN
 HOST,nextra.site,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3852
+# 规则统计: 3854
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -525,7 +525,6 @@ HOST,cdn.european-alternatives.eu,CDN
 HOST,cdn.evbstatic.com,CDN
 HOST,cdn.faire.com,CDN
 HOST,cdn.fastcomments.com,CDN
-HOST,cdn.fastmediaing.com,CDN
 HOST,cdn.fera.ai,CDN
 HOST,cdn.filen.io,CDN
 HOST,cdn.firebase.com,CDN
@@ -1186,6 +1185,7 @@ HOST,frames-commandbar-prod.commandbar.com,CDN
 HOST,freeshippingbar.herokuapp.com,CDN
 HOST,front-resource.fs.com,CDN
 HOST,frontend-apps.workos.com,CDN
+HOST,frontend-assets.supabase.com,CDN
 HOST,frontend.floatplane.com,CDN
 HOST,fs2.onlyhentaistuff.com,CDN
 HOST,fscdn.eppo.cloud,CDN
@@ -1642,6 +1642,7 @@ HOST,mantisloader.mantis-awx.com,CDN
 HOST,map.vesselfinder.net,CDN
 HOST,maps.geoapify.com,CDN
 HOST,maps.gstatic.com,CDN
+HOST,maps.wplace.live,CDN
 HOST,maptile.osmand.net,CDN
 HOST,marber-cdn.economist.com,CDN
 HOST,marfeelexperimentsexperienceengine.mrf.io,CDN
@@ -1836,7 +1837,6 @@ HOST,pbs.floatplane.com,CDN
 HOST,pcdn-my.pcloud.com,CDN
 HOST,pcdn-www.pcloud.com,CDN
 HOST,pcz.javidol.org,CDN
-HOST,pengtu.cc,CDN
 HOST,perf-na1.hsforms.com,CDN
 HOST,perf.hsforms.com,CDN
 HOST,pg2dhpc3p5ec22g3.jkforum.net,CDN
@@ -2203,6 +2203,7 @@ HOST,static-main.moovit.com,CDN
 HOST,static-media.fox.com,CDN
 HOST,static-mh.content.disney.io,CDN
 HOST,static-overlay.ubisoft.com,CDN
+HOST,static-production.npmjs.com,CDN
 HOST,static-r.kamihimeproject.net,CDN
 HOST,static-redesign.cnbcfm.com,CDN
 HOST,static-resource.np.community.playstation.net,CDN
@@ -2347,6 +2348,7 @@ HOST,static.newmobilelife.com,CDN
 HOST,static.news.bitcoin.com,CDN
 HOST,static.nhentai.net,CDN
 HOST,static.nicehash.com,CDN
+HOST,static.npmjs.com,CDN
 HOST,static.nrk.no,CDN
 HOST,static.nyse.com,CDN
 HOST,static.observablehq.com,CDN
@@ -2512,6 +2514,7 @@ HOST,tags.news.com.au,CDN
 HOST,talk.hyvor.com,CDN
 HOST,talk.washingtonpost.com,CDN
 HOST,talon-website-prod.ecosec.on.epicgames.com,CDN
+HOST,tanju.vip,CDN
 HOST,telemetry.1passwordservices.com,CDN
 HOST,telemetry.business.githubcopilot.com,CDN
 HOST,telemetry.individual.githubcopilot.com,CDN
@@ -2768,7 +2771,6 @@ HOST-SUFFIX,anpustream.com,CDN
 HOST-SUFFIX,ant.design,CDN
 HOST-SUFFIX,anyhentai.com,CDN
 HOST-SUFFIX,aolcdn.com,CDN
-HOST-SUFFIX,aosikaimage.com,CDN
 HOST-SUFFIX,api.instabug.com,CDN
 HOST-SUFFIX,api.loganalytics.io,CDN
 HOST-SUFFIX,app-analytics-services.com,CDN
@@ -3347,7 +3349,7 @@ HOST-SUFFIX,msftauthimages.net,CDN
 HOST-SUFFIX,msftconnecttest.com,CDN
 HOST-SUFFIX,msftncsi.com,CDN
 HOST-SUFFIX,msftstatic.com,CDN
-HOST-SUFFIX,mubicdn.com,CDN
+HOST-SUFFIX,mubicdn.net,CDN
 HOST-SUFFIX,muscache.com,CDN
 HOST-SUFFIX,mxmcdn.net,CDN
 HOST-SUFFIX,myanalytics.cdn.office.net,CDN
@@ -3722,7 +3724,7 @@ HOST-SUFFIX,warnermediacdn.com,CDN
 HOST-SUFFIX,watchlycdn.com,CDN
 HOST-SUFFIX,wdfiles.com,CDN
 HOST-SUFFIX,web.app,CDN
-HOST-SUFFIX,webinfcdn.com,CDN
+HOST-SUFFIX,webinfcdn.net,CDN
 HOST-SUFFIX,webp.se,CDN
 HOST-SUFFIX,webpkgcache.com,CDN
 HOST-SUFFIX,website-files.com,CDN

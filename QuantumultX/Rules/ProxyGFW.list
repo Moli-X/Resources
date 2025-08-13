@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7290
+# 规则统计: 7294
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -658,6 +658,7 @@ HOST-SUFFIX,bild.de,ProxyGFW
 HOST-SUFFIX,biliworld.com,ProxyGFW
 HOST-SUFFIX,billypan.com,ProxyGFW
 HOST-SUFFIX,binance.com,ProxyGFW
+HOST-SUFFIX,binance.org,ProxyGFW
 HOST-SUFFIX,binance.us,ProxyGFW
 HOST-SUFFIX,binancezh.cc,ProxyGFW
 HOST-SUFFIX,bing.com,ProxyGFW
@@ -3250,6 +3251,7 @@ HOST-SUFFIX,indsr.org.tw,ProxyGFW
 HOST-SUFFIX,inews-api.tvb.com,ProxyGFW
 HOST-SUFFIX,info-graf.fr,ProxyGFW
 HOST-SUFFIX,informer.com,ProxyGFW
+HOST-SUFFIX,infura.io,ProxyGFW
 HOST-SUFFIX,inherit.live,ProxyGFW
 HOST-SUFFIX,initiativesforchina.org,ProxyGFW
 HOST-SUFFIX,inkbunny.net,ProxyGFW
@@ -3769,6 +3771,7 @@ HOST-SUFFIX,lsmwebcast.com,ProxyGFW
 HOST-SUFFIX,lsxszzg.com,ProxyGFW
 HOST-SUFFIX,ltn.com.tw,ProxyGFW
 HOST-SUFFIX,luckydesigner.space,ProxyGFW
+HOST-SUFFIX,luckymobile.ca,ProxyGFW
 HOST-SUFFIX,ludepress.com,ProxyGFW
 HOST-SUFFIX,luke54.com,ProxyGFW
 HOST-SUFFIX,luke54.org,ProxyGFW
@@ -3920,6 +3923,7 @@ HOST-SUFFIX,meta.com,ProxyGFW
 HOST-SUFFIX,metacafe.com,ProxyGFW
 HOST-SUFFIX,metacubex.one,ProxyGFW
 HOST-SUFFIX,metafilter.com,ProxyGFW
+HOST-SUFFIX,metamask.io,ProxyGFW
 HOST-SUFFIX,metart.com,ProxyGFW
 HOST-SUFFIX,metarthunter.com,ProxyGFW
 HOST-SUFFIX,meteorshowersonline.com,ProxyGFW

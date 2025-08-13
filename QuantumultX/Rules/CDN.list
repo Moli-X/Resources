@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3854
+# 规则统计: 3861
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -408,6 +408,7 @@ HOST,cdn-seo.airdroid.com,CDN
 HOST,cdn-service.jp.sumologic.com,CDN
 HOST,cdn-share-sprites.flaticon.com,CDN
 HOST,cdn-static-1.medium.com,CDN
+HOST,cdn-static.paw.cloud,CDN
 HOST,cdn-static.talent.com,CDN
 HOST,cdn-swell-assets.yotpo.com,CDN
 HOST,cdn-thumbs.imagevenue.com,CDN
@@ -496,6 +497,7 @@ HOST,cdn.datacamp.com,CDN
 HOST,cdn.datatables.net,CDN
 HOST,cdn.datdota.com,CDN
 HOST,cdn.db-ip.com,CDN
+HOST,cdn.db.io,CDN
 HOST,cdn.decrypt.co,CDN
 HOST,cdn.delight-vr.com,CDN
 HOST,cdn.designsystem.arm.com,CDN
@@ -1067,6 +1069,7 @@ HOST,edge1.certona.net,CDN
 HOST,edgeassetservice.azureedge.net,CDN
 HOST,edgecdn-embza6g8cacagcbn.z01.azurefd.net,CDN
 HOST,edgestatic.azureedge.net,CDN
+HOST,edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net,CDN
 HOST,eep.io,CDN
 HOST,eightcha.com,CDN
 HOST,embed-cloudfront.wistia.com,CDN
@@ -1181,6 +1184,7 @@ HOST,fonts.upset.dev,CDN
 HOST,fonts.zapier.com,CDN
 HOST,fonts1.unidays.world,CDN
 HOST,forest-mt-s3.seekrtech.com,CDN
+HOST,form-assets.mailchimp.com,CDN
 HOST,frames-commandbar-prod.commandbar.com,CDN
 HOST,freeshippingbar.herokuapp.com,CDN
 HOST,front-resource.fs.com,CDN
@@ -1448,6 +1452,7 @@ HOST,img.decrypt.co,CDN
 HOST,img.dlsite.jp,CDN
 HOST,img.domaintools.com,CDN
 HOST,img.etimg.com,CDN
+HOST,img.fastcybers.com,CDN
 HOST,img.foresightnews.pro,CDN
 HOST,img.fortawesome.com,CDN
 HOST,img.freepik.com,CDN
@@ -2274,6 +2279,7 @@ HOST,static.eroterest.net,CDN
 HOST,static.esimplus.net,CDN
 HOST,static.ettoday.net,CDN
 HOST,static.euronews.com,CDN
+HOST,static.fastboostcdn.com,CDN
 HOST,static.fasthosts.co.uk,CDN
 HOST,static.fboom.me,CDN
 HOST,static.fbot.me,CDN
@@ -3284,6 +3290,7 @@ HOST-SUFFIX,kinja-static.com,CDN
 HOST-SUFFIX,kinsta.page,CDN
 HOST-SUFFIX,kirafile.com,CDN
 HOST-SUFFIX,klarnacdn.net,CDN
+HOST-SUFFIX,kleecks-cdn.com,CDN
 HOST-SUFFIX,kwcdn.com,CDN
 HOST-SUFFIX,kym-cdn.com,CDN
 HOST-SUFFIX,larksuitecdn.com,CDN

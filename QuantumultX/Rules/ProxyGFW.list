@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7294
+# 规则统计: 7297
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -627,6 +627,7 @@ HOST-SUFFIX,bestvpnusa.com,ProxyGFW
 HOST-SUFFIX,bet365.com,ProxyGFW
 HOST-SUFFIX,betaclouds.net,ProxyGFW
 HOST-SUFFIX,betfair.com,ProxyGFW
+HOST-SUFFIX,betterhash.net,ProxyGFW
 HOST-SUFFIX,betternet.co,ProxyGFW
 HOST-SUFFIX,bettervpn.com,ProxyGFW
 HOST-SUFFIX,bettween.com,ProxyGFW
@@ -2889,6 +2890,7 @@ HOST-SUFFIX,here.com,ProxyGFW
 HOST-SUFFIX,heritage.org,ProxyGFW
 HOST-SUFFIX,heroku.com,ProxyGFW
 HOST-SUFFIX,herokuapp.com,ProxyGFW
+HOST-SUFFIX,herominers.com,ProxyGFW
 HOST-SUFFIX,heungkongdiscuss.com,ProxyGFW
 HOST-SUFFIX,hexieshe.com,ProxyGFW
 HOST-SUFFIX,hexieshe.xyz,ProxyGFW
@@ -3339,6 +3341,7 @@ HOST-SUFFIX,itaboo.info,ProxyGFW
 HOST-SUFFIX,itaiwan.gov.tw,ProxyGFW
 HOST-SUFFIX,italiatibet.org,ProxyGFW
 HOST-SUFFIX,itasoftware.com,ProxyGFW
+HOST-SUFFIX,itch.io,ProxyGFW
 HOST-SUFFIX,itemdb.com,ProxyGFW
 HOST-SUFFIX,itemfix.com,ProxyGFW
 HOST-SUFFIX,ithelp.ithome.com.tw,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3898
+# 规则统计: 3902
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -56,6 +56,8 @@ HOST,api.producthunt.com,CDN
 HOST,api.pwnedpasswords.com,CDN
 HOST,api.qrserver.com,CDN
 HOST,api.roboflow.com,CDN
+HOST,api.simplesvg.com,CDN
+HOST,api.unisvg.com,CDN
 HOST,api.weather.com,CDN
 HOST,api.web3.storage,CDN
 HOST,apichatwidget.usepylon.com,CDN
@@ -1300,6 +1302,7 @@ HOST,icons.internetbrands.com,CDN
 HOST,icons.leavemealone.com,CDN
 HOST,icons.llamao.fi,CDN
 HOST,icons.ly,CDN
+HOST,icons.simplesvg.com,CDN
 HOST,icons.veryicon.com,CDN
 HOST,icons.zeabur.com,CDN
 HOST,iframe.nbcnews.com,CDN
@@ -2598,6 +2601,7 @@ HOST,tuf-repo.github.com,CDN
 HOST,turbo.build,CDN
 HOST,tvdownloaddw-a.akamaihd.net,CDN
 HOST,twemoji.maxcdn.com,CDN
+HOST,twenty-icons.com,CDN
 HOST,typeface.nyt.com,CDN
 HOST,typescript-eslint.io,CDN
 HOST,typescript.azureedge.net,CDN

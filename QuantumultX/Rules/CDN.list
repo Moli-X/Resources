@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3902
+# 规则统计: 3905
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -180,6 +180,7 @@ HOST,assets.grooveapps.com,CDN
 HOST,assets.guim.co.uk,CDN
 HOST,assets.gumroad.com,CDN
 HOST,assets.habr.com,CDN
+HOST,assets.hackmd.io,CDN
 HOST,assets.hearstapps.com,CDN
 HOST,assets.holopin.io,CDN
 HOST,assets.humix.com,CDN
@@ -1391,6 +1392,7 @@ HOST,images.macrumors.com,CDN
 HOST,images.mattel.net,CDN
 HOST,images.microcms-assets.io,CDN
 HOST,images.moegoat.com,CDN
+HOST,images.mooncloud.top,CDN
 HOST,images.moovitapp.com,CDN
 HOST,images.newrepublic.com,CDN
 HOST,images.now-tv.com,CDN
@@ -1920,6 +1922,7 @@ HOST,players.brightcove.net,CDN
 HOST,playgroundcdn.typescriptlang.org,CDN
 HOST,plugins.dprint.dev,CDN
 HOST,plus.unsplash.com,CDN
+HOST,pmecdn.protonweb.com,CDN
 HOST,polyfill-fe.toss.im,CDN
 HOST,polyfill.bbhub.io,CDN
 HOST,pomf2.lain.la,CDN

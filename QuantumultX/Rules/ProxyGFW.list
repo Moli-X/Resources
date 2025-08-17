@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7298
+# 规则统计: 7301
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -4602,6 +4602,7 @@ HOST-SUFFIX,paljorpublications.com,ProxyGFW
 HOST-SUFFIX,palmislife.com,ProxyGFW
 HOST-SUFFIX,paltalk.com,ProxyGFW
 HOST-SUFFIX,panamapapers.sueddeutsche.de,ProxyGFW
+HOST-SUFFIX,pancakeswap.finance,ProxyGFW
 HOST-SUFFIX,pandafan.pub,ProxyGFW
 HOST-SUFFIX,pandapow.co,ProxyGFW
 HOST-SUFFIX,pandapow.net,ProxyGFW
@@ -4678,6 +4679,7 @@ HOST-SUFFIX,periscope.tv,ProxyGFW
 HOST-SUFFIX,perplexity.ai,ProxyGFW
 HOST-SUFFIX,persecutionblog.com,ProxyGFW
 HOST-SUFFIX,persiankitty.com,ProxyGFW
+HOST-SUFFIX,pewresearch.org,ProxyGFW
 HOST-SUFFIX,pfd.org.hk,ProxyGFW
 HOST-SUFFIX,phapluan.org,ProxyGFW
 HOST-SUFFIX,phayul.com,ProxyGFW
@@ -4842,6 +4844,7 @@ HOST-SUFFIX,prism-break.org,ProxyGFW
 HOST-SUFFIX,prisoneralert.com,ProxyGFW
 HOST-SUFFIX,pritunl.com,ProxyGFW
 HOST-SUFFIX,privacybox.de,ProxyGFW
+HOST-SUFFIX,privacyguides.org,ProxyGFW
 HOST-SUFFIX,private.com,ProxyGFW
 HOST-SUFFIX,privateinternetaccess.com,ProxyGFW
 HOST-SUFFIX,privatepaste.com,ProxyGFW

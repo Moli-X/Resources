@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3905
+# 规则统计: 3911
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -234,6 +234,7 @@ HOST,assets.science.nasa.gov,CDN
 HOST,assets.sendinblue.com,CDN
 HOST,assets.shazam.com,CDN
 HOST,assets.sololearn.com,CDN
+HOST,assets.speedvitals.com,CDN
 HOST,assets.squarespace.com,CDN
 HOST,assets.squarewebsites.org,CDN
 HOST,assets.st-note.com,CDN
@@ -327,6 +328,7 @@ HOST,brick.a.ssl.fastly.net,CDN
 HOST,brick.freetls.fastly.net,CDN
 HOST,bst.icons8.com,CDN
 HOST,bucket1.notaku.so,CDN
+HOST,bulletin.svc.litv.tv,CDN
 HOST,bundle.5gtb.com,CDN
 HOST,bundle.dyn-rev.app,CDN
 HOST,bundle.trysavvy.com,CDN
@@ -1177,6 +1179,7 @@ HOST,files.writefreely.org,CDN
 HOST,files.yande.re,CDN
 HOST,filestore.community.support.microsoft.com,CDN
 HOST,filestore.fortinet.com,CDN
+HOST,fino.svc.litv.tv,CDN
 HOST,firebase-settings.crashlytics.com,CDN
 HOST,firebaseinstallations.googleapis.com,CDN
 HOST,firebaselogging-pa.googleapis.com,CDN
@@ -1623,6 +1626,7 @@ HOST,js1.chargebee.com,CDN
 HOST,jsdelivr.b-cdn.net,CDN
 HOST,jsdelivr.ioiox.net,CDN
 HOST,jslibs.blackmagicdesign.com,CDN
+HOST,jsmodule.svc.litv.tv,CDN
 HOST,jsonplaceholder.typicode.com,CDN
 HOST,jssdk.opin.media,CDN
 HOST,jssocdn.indiatimes.com,CDN
@@ -1917,6 +1921,7 @@ HOST,play.xfvod.pro,CDN
 HOST,player-frontend.cnevids.com,CDN
 HOST,player.cnevids.com,CDN
 HOST,player.louisvuitton.com,CDN
+HOST,player.svc.litv.tv,CDN
 HOST,player.vimeo.com,CDN
 HOST,players.brightcove.net,CDN
 HOST,playgroundcdn.typescriptlang.org,CDN
@@ -2433,6 +2438,7 @@ HOST,static.srcspot.com,CDN
 HOST,static.staff-start.com,CDN
 HOST,static.start.me,CDN
 HOST,static.status.io,CDN
+HOST,static.svc.litv.tv,CDN
 HOST,static.telegraph.co.uk,CDN
 HOST,static.tenki.jp,CDN
 HOST,static.test-beta.com,CDN

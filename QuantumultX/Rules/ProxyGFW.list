@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7301
+# 规则统计: 7305
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1524,6 +1524,7 @@ HOST-SUFFIX,demo.opera-mini.net,ProxyGFW
 HOST-SUFFIX,demo.unlock-music.dev,ProxyGFW
 HOST-SUFFIX,democrats.org,ProxyGFW
 HOST-SUFFIX,demosisto.hk,ProxyGFW
+HOST-SUFFIX,deno.dev,ProxyGFW
 HOST-SUFFIX,depositphotos.com,ProxyGFW
 HOST-SUFFIX,derekhsu.homeip.net,ProxyGFW
 HOST-SUFFIX,desc.se,ProxyGFW
@@ -1608,6 +1609,7 @@ HOST-SUFFIX,doc.new,ProxyGFW
 HOST-SUFFIX,docker.com,ProxyGFW
 HOST-SUFFIX,docker.io,ProxyGFW
 HOST-SUFFIX,docs.cfw.lbyczf.com,ProxyGFW
+HOST-SUFFIX,docs.deno.com,ProxyGFW
 HOST-SUFFIX,docs.new,ProxyGFW
 HOST-SUFFIX,doctorvoice.org,ProxyGFW
 HOST-SUFFIX,documentingreality.com,ProxyGFW
@@ -2249,6 +2251,7 @@ HOST-SUFFIX,furbo.org,ProxyGFW
 HOST-SUFFIX,furhhdl.org,ProxyGFW
 HOST-SUFFIX,furinkan.com,ProxyGFW
 HOST-SUFFIX,furl.net,ProxyGFW
+HOST-SUFFIX,furrybar.com,ProxyGFW
 HOST-SUFFIX,futurechinaforum.org,ProxyGFW
 HOST-SUFFIX,futuremessage.org,ProxyGFW
 HOST-SUFFIX,fux.com,ProxyGFW
@@ -4208,6 +4211,7 @@ HOST-SUFFIX,nationalreview.com,ProxyGFW
 HOST-SUFFIX,nationsonline.org,ProxyGFW
 HOST-SUFFIX,nationwide.com,ProxyGFW
 HOST-SUFFIX,naughtyamerica.com,ProxyGFW
+HOST-SUFFIX,naver.com,ProxyGFW
 HOST-SUFFIX,naver.jp,ProxyGFW
 HOST-SUFFIX,navy.mil,ProxyGFW
 HOST-SUFFIX,navyfamily.navy.mil,ProxyGFW

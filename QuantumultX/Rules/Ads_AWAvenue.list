@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 850
+# 规则统计: 853
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -378,6 +378,7 @@ HOST-SUFFIX,hc-ssp.sm.cn,Ads_AWAvenue
 HOST-SUFFIX,heads-ak.spotify.com.edgesuite.net,Ads_AWAvenue
 HOST-SUFFIX,heads-fa.spotify.com,Ads_AWAvenue
 HOST-SUFFIX,hexagon-analytics.com,Ads_AWAvenue
+HOST-SUFFIX,hlog.bigda.com,Ads_AWAvenue
 HOST-SUFFIX,hm.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,hmma.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,hotupgrade.hpplay.cn,Ads_AWAvenue
@@ -514,6 +515,7 @@ HOST-SUFFIX,micro-xdb.com,Ads_AWAvenue
 HOST-SUFFIX,mini-prog-drm.vodplayvideo.net,Ads_AWAvenue
 HOST-SUFFIX,mission-pub.smart-tv.cn,Ads_AWAvenue
 HOST-SUFFIX,miui-fxcse.avlyun.com,Ads_AWAvenue
+HOST-SUFFIX,mlog.bigda.com,Ads_AWAvenue
 HOST-SUFFIX,mmgame.qpic.cn,Ads_AWAvenue
 HOST-SUFFIX,mnqlog.ldmnq.com,Ads_AWAvenue
 HOST-SUFFIX,moatads.com,Ads_AWAvenue
@@ -773,6 +775,7 @@ HOST-SUFFIX,ulogs.umengcloud.com,Ads_AWAvenue
 HOST-SUFFIX,umengacs.m.taobao.com,Ads_AWAvenue
 HOST-SUFFIX,umengjmacs.m.taobao.com,Ads_AWAvenue
 HOST-SUFFIX,umini.shujupie.com,Ads_AWAvenue
+HOST-SUFFIX,union-mlog.bigda.com,Ads_AWAvenue
 HOST-SUFFIX,union.baidu.cn,Ads_AWAvenue
 HOST-SUFFIX,union.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,update.avlyun.sec.miui.com,Ads_AWAvenue

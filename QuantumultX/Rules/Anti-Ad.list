@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 90651
+# 规则统计: 90661
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -6655,7 +6655,6 @@ HOST-SUFFIX,adtrue.com,Anti-Ad
 HOST-SUFFIX,adtrue24.com,Anti-Ad
 HOST-SUFFIX,adttt.com,Anti-Ad
 HOST-SUFFIX,adui.tg.meitu.com,Anti-Ad
-HOST-SUFFIX,adukwai.com,Anti-Ad
 HOST-SUFFIX,adult.xyz,Anti-Ad
 HOST-SUFFIX,adult3dcomics.com,Anti-Ad
 HOST-SUFFIX,adultadvertising.net,Anti-Ad
@@ -56770,6 +56769,8 @@ HOST-SUFFIX,p04qzl.cn,Anti-Ad
 HOST-SUFFIX,p06.sc.origins.en25.com,Anti-Ad
 HOST-SUFFIX,p0v2ni.cn,Anti-Ad
 HOST-SUFFIX,p0y.cn,Anti-Ad
+HOST-SUFFIX,p1-ad.adukwai.com,Anti-Ad
+HOST-SUFFIX,p1-jx.adukwai.com,Anti-Ad
 HOST-SUFFIX,p1-play.edge4k.com,Anti-Ad
 HOST-SUFFIX,p1-play.kgslb.com,Anti-Ad
 HOST-SUFFIX,p1.360soucha.com,Anti-Ad
@@ -56784,6 +56785,9 @@ HOST-SUFFIX,p16-tiktokcdn-com.akamaized.net.iberostar.com,Anti-Ad
 HOST-SUFFIX,p1611129-mobac01.tokyo.ocn.ne.jp,Anti-Ad
 HOST-SUFFIX,p188.cn,Anti-Ad
 HOST-SUFFIX,p1yhfi19l.com,Anti-Ad
+HOST-SUFFIX,p2-ad.adukwai.com,Anti-Ad
+HOST-SUFFIX,p2-jx.adukwai.com,Anti-Ad
+HOST-SUFFIX,p2-lm.adukwai.com,Anti-Ad
 HOST-SUFFIX,p2-play.edge4k.com,Anti-Ad
 HOST-SUFFIX,p2.danskebank.co.uk,Anti-Ad
 HOST-SUFFIX,p2.danskebank.dk,Anti-Ad
@@ -56804,6 +56808,7 @@ HOST-SUFFIX,p2pupdate.gamedl.qq.com,Anti-Ad
 HOST-SUFFIX,p2pupgrade.gamedl.qq.com,Anti-Ad
 HOST-SUFFIX,p2sdmkj6t.bkt.clouddn.com,Anti-Ad
 HOST-SUFFIX,p2v.fun,Anti-Ad
+HOST-SUFFIX,p3-ad.adukwai.com,Anti-Ad
 HOST-SUFFIX,p3-tt.byteimg.com,Anti-Ad
 HOST-SUFFIX,p3.l.qq.com,Anti-Ad
 HOST-SUFFIX,p3.zbjimg.com,Anti-Ad
@@ -56814,10 +56819,12 @@ HOST-SUFFIX,p3p.mmstat.com,Anti-Ad
 HOST-SUFFIX,p3p.sogou.com,Anti-Ad
 HOST-SUFFIX,p3p.yahoo.com,Anti-Ad
 HOST-SUFFIX,p3tq.pandasuite.io,Anti-Ad
+HOST-SUFFIX,p4-ad.adukwai.com,Anti-Ad
 HOST-SUFFIX,p40rlh4k.xyz,Anti-Ad
 HOST-SUFFIX,p4gdt4um6.com,Anti-Ad
 HOST-SUFFIX,p4man.com.br,Anti-Ad
 HOST-SUFFIX,p4psearch.china.alibaba.com,Anti-Ad
+HOST-SUFFIX,p5-ad.adukwai.com,Anti-Ad
 HOST-SUFFIX,p5.zbjimg.com,Anti-Ad
 HOST-SUFFIX,p538087-mobac01.tokyo.ocn.ne.jp,Anti-Ad
 HOST-SUFFIX,p538240-mobac01.tokyo.ocn.ne.jp,Anti-Ad
@@ -83849,6 +83856,7 @@ HOST-SUFFIX,v1-ad.ixigua.com,Anti-Ad
 HOST-SUFFIX,v1-ad.video.yximgs.com,Anti-Ad
 HOST-SUFFIX,v1-dc-ad.ixigua.com,Anti-Ad
 HOST-SUFFIX,v1-feed.idreamsky.com,Anti-Ad
+HOST-SUFFIX,v1-lm.adukwai.com,Anti-Ad
 HOST-SUFFIX,v1.19purify.com,Anti-Ad
 HOST-SUFFIX,v1.phb123.com,Anti-Ad
 HOST-SUFFIX,v1.wphonelife.com,Anti-Ad
@@ -83861,6 +83869,7 @@ HOST-SUFFIX,v16.56.com,Anti-Ad
 HOST-SUFFIX,v16m-default.akamaized.net.iberostar.com,Anti-Ad
 HOST-SUFFIX,v2-ad.video.yximgs.com,Anti-Ad
 HOST-SUFFIX,v2-api-channel-launcher.hismarttv.com,Anti-Ad
+HOST-SUFFIX,v2-lm.adukwai.com,Anti-Ad
 HOST-SUFFIX,v2.da.mgtv.com,Anti-Ad
 HOST-SUFFIX,v2.jiathis.com,Anti-Ad
 HOST-SUFFIX,v2.phb123.com,Anti-Ad
@@ -83872,6 +83881,7 @@ HOST-SUFFIX,v3-ad.video.yximgs.com,Anti-Ad
 HOST-SUFFIX,v3-dc-ad.ixigua.com,Anti-Ad
 HOST-SUFFIX,v3.jiathis.com,Anti-Ad
 HOST-SUFFIX,v3cdn.net,Anti-Ad
+HOST-SUFFIX,v4-lm.adukwai.com,Anti-Ad
 HOST-SUFFIX,v4dwkcv.com,Anti-Ad
 HOST-SUFFIX,v4p.fun,Anti-Ad
 HOST-SUFFIX,v5ad.com,Anti-Ad

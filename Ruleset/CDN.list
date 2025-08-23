@@ -3869,6 +3869,7 @@ DOMAIN-WILDCARD,assets*.freshdesk.com
 DOMAIN-WILDCARD,blog-imgs-??.2nt.com
 DOMAIN-WILDCARD,blog-imgs-??.fc2.com
 DOMAIN-WILDCARD,browser-intake-*-datadoghq.com
+DOMAIN-WILDCARD,cdn-*.microsoft.com
 DOMAIN-WILDCARD,cdn-msp?.18comic.org
 DOMAIN-WILDCARD,cdn-msp?.18comic.vip
 DOMAIN-WILDCARD,cdn-msp?.jmcomic-zzz.one
@@ -3911,5 +3912,3 @@ DOMAIN-WILDCARD,video-thumbnail?.liaoningmovie.net
 DOMAIN-WILDCARD,video?-thumbnail?.fc2.com
 DOMAIN-WILDCARD,video?-thumbnail?.liaoningmovie.net
 DOMAIN-WILDCARD,vip-videoprem*-thumbnail?.fc2.com
-URL-REGEX,^http://www\.microsoft\.com/pki/
-URL-REGEX,^http://www\.microsoft\.com/pkiops/

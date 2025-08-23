@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3915
+# 规则统计: 3914
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3872,6 +3872,7 @@ HOST-WILDCARD,assets*.freshdesk.com,CDN
 HOST-WILDCARD,blog-imgs-??.2nt.com,CDN
 HOST-WILDCARD,blog-imgs-??.fc2.com,CDN
 HOST-WILDCARD,browser-intake-*-datadoghq.com,CDN
+HOST-WILDCARD,cdn-*.microsoft.com,CDN
 HOST-WILDCARD,cdn-msp?.18comic.org,CDN
 HOST-WILDCARD,cdn-msp?.18comic.vip,CDN
 HOST-WILDCARD,cdn-msp?.jmcomic-zzz.one,CDN
@@ -3914,5 +3915,3 @@ HOST-WILDCARD,video-thumbnail?.liaoningmovie.net,CDN
 HOST-WILDCARD,video?-thumbnail?.fc2.com,CDN
 HOST-WILDCARD,video?-thumbnail?.liaoningmovie.net,CDN
 HOST-WILDCARD,vip-videoprem*-thumbnail?.fc2.com,CDN
-URL-REGEX,^http://www\.microsoft\.com/pki/,CDN
-URL-REGEX,^http://www\.microsoft\.com/pkiops/,CDN

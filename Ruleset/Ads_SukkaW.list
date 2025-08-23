@@ -102696,6 +102696,7 @@ DOMAIN-WILDCARD,as*.prog.hu
 DOMAIN-WILDCARD,asd8900.oss-*.aliyuncs.com
 DOMAIN-WILDCARD,at*.doubanio.com
 DOMAIN-WILDCARD,attonlineservice*.wixstudio.com
+DOMAIN-WILDCARD,attr-logs.*.amazonaws.com
 DOMAIN-WILDCARD,auth-*.hismarttv.com
 DOMAIN-WILDCARD,authsignonstaff*.softr.app
 DOMAIN-WILDCARD,ax.*.ifeng.com
@@ -102775,6 +102776,7 @@ DOMAIN-WILDCARD,eclog*-*.cafe24.com
 DOMAIN-WILDCARD,ecommerce-events*.adscale.com
 DOMAIN-WILDCARD,etargetnet.*.hu
 DOMAIN-WILDCARD,eum*.instana.io
+DOMAIN-WILDCARD,event.*.karrotmarket.com
 DOMAIN-WILDCARD,event.*.shoplive.cloud
 DOMAIN-WILDCARD,events*.cre.ma
 DOMAIN-WILDCARD,events-api*.outfit7.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3913
+# 规则统计: 3915
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1828,6 +1828,7 @@ HOST,node.green,CDN
 HOST,nodeassets.nbcnews.com,CDN
 HOST,nodei.co,CDN
 HOST,npm.antfu.dev,CDN
+HOST,ns-cdn.neustar.biz,CDN
 HOST,ntp.msn.com,CDN
 HOST,null.jsbin.com,CDN
 HOST,o.n1mp.org,CDN
@@ -2923,6 +2924,7 @@ HOST-SUFFIX,cdn.ipinfo.io,CDN
 HOST-SUFFIX,cdn.manage.runcloud.io,CDN
 HOST-SUFFIX,cdn.medallia.com,CDN
 HOST-SUFFIX,cdn.mozilla.net,CDN
+HOST-SUFFIX,cdn.neustar,CDN
 HOST-SUFFIX,cdn.nimg.jp,CDN
 HOST-SUFFIX,cdn.nintendo.net,CDN
 HOST-SUFFIX,cdn.optimizely.com,CDN

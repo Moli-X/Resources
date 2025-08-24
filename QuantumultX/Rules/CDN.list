@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3914
+# 规则统计: 3918
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -248,6 +248,7 @@ HOST,assets.time.com,CDN
 HOST,assets.toiimg.com,CDN
 HOST,assets.tokopedia.net,CDN
 HOST,assets.toot.cafe,CDN
+HOST,assets.tvtropes.org,CDN
 HOST,assets.twitch.tv,CDN
 HOST,assets.unifi-ai.com,CDN
 HOST,assets.upload.io,CDN
@@ -313,6 +314,7 @@ HOST,badges.greenkeeper.io,CDN
 HOST,bcdn.starapps.studio,CDN
 HOST,bcmedia.bitchute.com,CDN
 HOST,before.good-apps.co,CDN
+HOST,beta.eslint-react.xyz,CDN
 HOST,bhl.scpwikicn.com,CDN
 HOST,blacklist.tampermonkey.net,CDN
 HOST,blade-public-static.blade-group.com,CDN
@@ -2456,6 +2458,7 @@ HOST,static.tp-link.com,CDN
 HOST,static.tradingview.com,CDN
 HOST,static.tronscan.org,CDN
 HOST,static.tumblr.com,CDN
+HOST,static.tvtropes.org,CDN
 HOST,static.twitchcdn.net,CDN
 HOST,static.typingclub.com,CDN
 HOST,static.ui.com,CDN
@@ -3869,6 +3872,7 @@ HOST-WILDCARD,*.kuaikan-cdn?.com,CDN
 HOST-WILDCARD,*.skyearth?.xyz,CDN
 HOST-WILDCARD,appcenter-filemanagement-*.cloudapp.net,CDN
 HOST-WILDCARD,assets*.freshdesk.com,CDN
+HOST-WILDCARD,assets.*.imaga.co,CDN
 HOST-WILDCARD,blog-imgs-??.2nt.com,CDN
 HOST-WILDCARD,blog-imgs-??.fc2.com,CDN
 HOST-WILDCARD,browser-intake-*-datadoghq.com,CDN

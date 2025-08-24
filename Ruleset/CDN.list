@@ -245,6 +245,7 @@ DOMAIN,assets.time.com
 DOMAIN,assets.toiimg.com
 DOMAIN,assets.tokopedia.net
 DOMAIN,assets.toot.cafe
+DOMAIN,assets.tvtropes.org
 DOMAIN,assets.twitch.tv
 DOMAIN,assets.unifi-ai.com
 DOMAIN,assets.upload.io
@@ -310,6 +311,7 @@ DOMAIN,badges.greenkeeper.io
 DOMAIN,bcdn.starapps.studio
 DOMAIN,bcmedia.bitchute.com
 DOMAIN,before.good-apps.co
+DOMAIN,beta.eslint-react.xyz
 DOMAIN,bhl.scpwikicn.com
 DOMAIN,blacklist.tampermonkey.net
 DOMAIN,blade-public-static.blade-group.com
@@ -2453,6 +2455,7 @@ DOMAIN,static.tp-link.com
 DOMAIN,static.tradingview.com
 DOMAIN,static.tronscan.org
 DOMAIN,static.tumblr.com
+DOMAIN,static.tvtropes.org
 DOMAIN,static.twitchcdn.net
 DOMAIN,static.typingclub.com
 DOMAIN,static.ui.com
@@ -3866,6 +3869,7 @@ DOMAIN-WILDCARD,*.kuaikan-cdn?.com
 DOMAIN-WILDCARD,*.skyearth?.xyz
 DOMAIN-WILDCARD,appcenter-filemanagement-*.cloudapp.net
 DOMAIN-WILDCARD,assets*.freshdesk.com
+DOMAIN-WILDCARD,assets.*.imaga.co
 DOMAIN-WILDCARD,blog-imgs-??.2nt.com
 DOMAIN-WILDCARD,blog-imgs-??.fc2.com
 DOMAIN-WILDCARD,browser-intake-*-datadoghq.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3918
+# 规则统计: 3921
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1676,6 +1676,7 @@ HOST,m-cdn.phonearena.com,CDN
 HOST,m.porn3dx.com,CDN
 HOST,m.wsj.net,CDN
 HOST,m3.gab.com,CDN
+HOST,m3u8-0.c-spanvideo.org,CDN
 HOST,m3u8.girigirilove.com,CDN
 HOST,makerworld.bblmw.com,CDN
 HOST,mangaz-books.j-comi.jp,CDN
@@ -2288,6 +2289,7 @@ HOST,static.bravoporn.com,CDN
 HOST,static.buffer.com,CDN
 HOST,static.buydomains.com,CDN
 HOST,static.bytepan.com,CDN
+HOST,static.c-spanvideo.org,CDN
 HOST,static.canva.com,CDN
 HOST,static.captcha-delivery.com,CDN
 HOST,static.carfax.com,CDN
@@ -2773,6 +2775,7 @@ HOST,www.pngmart.com,CDN
 HOST,www.tbstat.com,CDN
 HOST,www.typescriptlang.org,CDN
 HOST,wwwimages2.adobe.com,CDN
+HOST,ximage.c-spanvideo.org,CDN
 HOST,xpaywalletcdn.azureedge.net,CDN
 HOST,y.yarn.co,CDN
 HOST,yep.video.yahoo.com,CDN

@@ -142,6 +142,7 @@ jobs:
                 ["ChinaASN"]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
                 ["ChinaDomain"]="https://ruleset.skk.moe/List/non_ip/domestic.conf"
                 ["Lan"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+                ["Tencent"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Tencent/Tencent.list""
                 # 广告规则
                 ["HTTPDNS.Block"]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list"
                 ["Ads_limbopro"]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"

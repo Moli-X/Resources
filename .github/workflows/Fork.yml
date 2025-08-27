@@ -82,7 +82,6 @@ jobs:
 
             # 定义关联数组（使用简洁的键名）
             declare -A files=(
-                # 苹果
                 ["APNs"]="https://git.repcz.link/kelee.one/Tool/Loon/Lsr/ApplePushNotificationService.lsr"
                 ["Apple"]="https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
                 ["AppleProxy"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
@@ -118,7 +117,6 @@ jobs:
                 # 流媒体
                 ["AutoBilibili"]="https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Bilibili.list"
                 ["DouYin"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/DouYin/DouYin.list"
-                ["TikTok"]="https://git.repcz.link/kelee.one/Tool/Loon/Lsr/TikTok.lsr"
                 ["Netflix"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
                 ["HBO"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
                 ["Disney"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
@@ -142,7 +140,7 @@ jobs:
                 ["ChinaASN"]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
                 ["ChinaDomain"]="https://ruleset.skk.moe/List/non_ip/domestic.conf"
                 ["Lan"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
-                ["Tencent"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Tencent/Tencent.list""
+                ["Tencent"]="https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Tencent/Tencent.listt"
                 # 广告规则
                 ["HTTPDNS.Block"]="https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list"
                 ["Ads_limbopro"]="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"

@@ -35,7 +35,6 @@ DOMAIN,analytics.twitter.com
 DOMAIN,analytics.welcomesoftware.com
 DOMAIN,anchor.digitalocean.com
 DOMAIN,android-safebrowsing.google.com
-DOMAIN,answers-afd.microsoft.com
 DOMAIN,api-esp-ap.piano.io
 DOMAIN,api-eu.mixpanel.com
 DOMAIN,api-frameworks.vercel.sh
@@ -443,7 +442,6 @@ DOMAIN,cdn.aimerce.ai
 DOMAIN,cdn.amcharts.com
 DOMAIN,cdn.announcekit.app
 DOMAIN,cdn.answeroverflow.com
-DOMAIN,cdn.apkmonk.com
 DOMAIN,cdn.app.fossa.com
 DOMAIN,cdn.app.neononepay.com
 DOMAIN,cdn.apponic.com
@@ -496,6 +494,7 @@ DOMAIN,cdn.configcat.com
 DOMAIN,cdn.consentmanager.net
 DOMAIN,cdn.contentful.com
 DOMAIN,cdn.conveythis.com
+DOMAIN,cdn.cracked.sh
 DOMAIN,cdn.create.microsoft.com
 DOMAIN,cdn.credible.com
 DOMAIN,cdn.css.net
@@ -559,6 +558,7 @@ DOMAIN,cdn.getkoala.com
 DOMAIN,cdn.gettr.com
 DOMAIN,cdn.ghostery.com
 DOMAIN,cdn.giftcardpro.app
+DOMAIN,cdn.gigya.com
 DOMAIN,cdn.glitch.com
 DOMAIN,cdn.glitch.global
 DOMAIN,cdn.glitch.me
@@ -825,7 +825,6 @@ DOMAIN,cdn1.sysgears.com
 DOMAIN,cdn1.techbang.com
 DOMAIN,cdn1.telegram.space
 DOMAIN,cdn1.unrealengine.com
-DOMAIN,cdn1.xxxsx.com
 DOMAIN,cdn10.bigcommerce.com
 DOMAIN,cdn11.bigcommerce.com
 DOMAIN,cdn2-imgix.macpaw.com
@@ -882,7 +881,6 @@ DOMAIN,cdn8.bigcommerce.com
 DOMAIN,cdn9.bigcommerce.com
 DOMAIN,cdna.artstation.com
 DOMAIN,cdnapi.kaltura.com
-DOMAIN,cdnapisec.kaltura.com
 DOMAIN,cdnb.artstation.com
 DOMAIN,cdnc.imagefap.com
 DOMAIN,cdne-pics.youjizz.com
@@ -896,7 +894,6 @@ DOMAIN,cdnl.moviefap.com
 DOMAIN,cdnl.tnaflix.com
 DOMAIN,cdnmedia.ero-video.net
 DOMAIN,cdns.gigya.com
-DOMAIN,cdns.us.gigya.com
 DOMAIN,cdns.zbporn.com
 DOMAIN,cdnsecakmi.kaltura.com
 DOMAIN,cdnstatic.porno-cum.com
@@ -1001,7 +998,6 @@ DOMAIN,cookie-cdn.cookiepro.com
 DOMAIN,corp-backend.brevo.com
 DOMAIN,cors-proxy.htmldriven.com
 DOMAIN,cp2.cloudflare.com
-DOMAIN,cp3.cloudflare.com
 DOMAIN,cp4.cloudflare.com
 DOMAIN,cpwebassets.codepen.io
 DOMAIN,craftassets.unraid.net
@@ -1038,7 +1034,6 @@ DOMAIN,db.onlinewebfonts.com
 DOMAIN,dc-cdn.cdw.com
 DOMAIN,dd.dexscreener.com
 DOMAIN,ddcdn.comtucdncom.com
-DOMAIN,decart-oasis.azureedge.net
 DOMAIN,demo.unified-streaming.com
 DOMAIN,demotiles.maplibre.org
 DOMAIN,denali-static.grammarly.com
@@ -1160,7 +1155,7 @@ DOMAIN,fesdk.nexon.com
 DOMAIN,fiddle.fastly.dev
 DOMAIN,fiddle.jshell.net
 DOMAIN,file.izanmei.net
-DOMAIN,file1.hkepc.com
+DOMAIN,file1.hkepc.net
 DOMAIN,files.armorgames.com
 DOMAIN,files.buildwithfern.com
 DOMAIN,files.jotform.com
@@ -1177,7 +1172,6 @@ DOMAIN,files.smashing.media
 DOMAIN,files.svc.ui.com
 DOMAIN,files.writefreely.org
 DOMAIN,files.yande.re
-DOMAIN,filestore.community.support.microsoft.com
 DOMAIN,filestore.fortinet.com
 DOMAIN,fino.svc.litv.tv
 DOMAIN,firebase-settings.crashlytics.com
@@ -1266,7 +1260,7 @@ DOMAIN,i.guim.co.uk
 DOMAIN,i.gzn.jp
 DOMAIN,i.hamreus.com
 DOMAIN,i.hentaifox.com
-DOMAIN,i.hkepc.com
+DOMAIN,i.hkepc.net
 DOMAIN,i.ibb.co
 DOMAIN,i.iheart.com
 DOMAIN,i.imagepost.com
@@ -1395,7 +1389,6 @@ DOMAIN,images.macrumors.com
 DOMAIN,images.mattel.net
 DOMAIN,images.microcms-assets.io
 DOMAIN,images.moegoat.com
-DOMAIN,images.mooncloud.top
 DOMAIN,images.moovitapp.com
 DOMAIN,images.newrepublic.com
 DOMAIN,images.now-tv.com
@@ -1689,7 +1682,6 @@ DOMAIN,marfeelexperimentsexperienceengine.mrf.io
 DOMAIN,marketing.figma.com
 DOMAIN,marketing.thingiverse.com
 DOMAIN,marketplace-web-assets.vinted.com
-DOMAIN,mastodon-static.miao.dev
 DOMAIN,mcdn.vrporn.com
 DOMAIN,mcdnds.vrporn.com
 DOMAIN,mcdns.vrporn.com
@@ -1697,9 +1689,7 @@ DOMAIN,media-cdn.atlassian.com
 DOMAIN,media-cdn.comfy.social
 DOMAIN,media-cdn.epicgames.com
 DOMAIN,media-cms.onesignal.com
-DOMAIN,media-s3-eu-west-1.ceros.com
 DOMAIN,media-s3-us-east-1.ceros.com
-DOMAIN,media-s3-us-west-1.ceros.com
 DOMAIN,media.beehiiv.com
 DOMAIN,media.breitbart.com
 DOMAIN,media.cleanshot.cloud
@@ -1767,19 +1757,11 @@ DOMAIN,media.wired.com
 DOMAIN,media.yukimochi.jp
 DOMAIN,media0.giphy.com
 DOMAIN,media1.giphy.com
-DOMAIN,media1.kissjav.com
 DOMAIN,media1.tenor.com
-DOMAIN,media10.kissjav.com
 DOMAIN,media2.dev.to
 DOMAIN,media2.giphy.com
-DOMAIN,media2.kissjav.com
 DOMAIN,media3.giphy.com
-DOMAIN,media3.kissjav.com
 DOMAIN,media4.giphy.com
-DOMAIN,media4.kissjav.com
-DOMAIN,media7.kissjav.com
-DOMAIN,media8.kissjav.com
-DOMAIN,media9.kissjav.com
 DOMAIN,medias.meow.social
 DOMAIN,medium-media.vgm.io
 DOMAIN,megapx-assets.dcard.tw
@@ -2096,10 +2078,6 @@ DOMAIN,s3.us-west-004.backblazeb2.com
 DOMAIN,s3media.squarespace.com
 DOMAIN,s4.anilist.co
 DOMAIN,s4.itho.me
-DOMAIN,s4.maxstream.org
-DOMAIN,s5.maxstream.org
-DOMAIN,s6.maxstream.org
-DOMAIN,s7.maxstream.org
 DOMAIN,s8.maxstream.org
 DOMAIN,s9.maxstream.org
 DOMAIN,safebrowsing.brave.com
@@ -2227,7 +2205,6 @@ DOMAIN,static-cache.k2s.cc
 DOMAIN,static-cdn.123rf.com
 DOMAIN,static-cdn.bytegiftia.top
 DOMAIN,static-cdn.jtvnw.net
-DOMAIN,static-cdn.osdn.net
 DOMAIN,static-cdn.spot.im
 DOMAIN,static-cdn.usertesting.com
 DOMAIN,static-clst.avgle.com
@@ -2304,8 +2281,6 @@ DOMAIN,static.coingecko.com
 DOMAIN,static.community.workday.com
 DOMAIN,static.convertio.co
 DOMAIN,static.corp.google.com
-DOMAIN,static.cracked.io
-DOMAIN,static.cracked.to
 DOMAIN,static.crunchyroll.com
 DOMAIN,static.crypto.com
 DOMAIN,static.dash.cloudflare.com
@@ -2407,7 +2382,6 @@ DOMAIN,static.onlyfans.com
 DOMAIN,static.oomol.com
 DOMAIN,static.opensea.io
 DOMAIN,static.oracle.com
-DOMAIN,static.osdn.net
 DOMAIN,static.parallels.com
 DOMAIN,static.peatio.com
 DOMAIN,static.pfrt.yna.co.kr
@@ -2481,22 +2455,17 @@ DOMAIN,static01.nyt.com
 DOMAIN,static02.nyt.com
 DOMAIN,static1.e621.net
 DOMAIN,static1.lottiefiles.com
-DOMAIN,static1.muchohentai.com
 DOMAIN,static1.smartbear.co
 DOMAIN,static1.squarespace.com
 DOMAIN,static10.lottiefiles.com
 DOMAIN,static2.avg.com
 DOMAIN,static2.lottiefiles.com
-DOMAIN,static2.muchohentai.com
 DOMAIN,static2.onlyfans.com
 DOMAIN,static2.sharepointonline.com
 DOMAIN,static3.lottiefiles.com
-DOMAIN,static3.muchohentai.com
 DOMAIN,static3.squarespace.com
 DOMAIN,static4.lottiefiles.com
-DOMAIN,static4.muchohentai.com
 DOMAIN,static5.lottiefiles.com
-DOMAIN,static5.muchohentai.com
 DOMAIN,static6.lottiefiles.com
 DOMAIN,static7.lottiefiles.com
 DOMAIN,static8.lottiefiles.com
@@ -2542,7 +2511,6 @@ DOMAIN,sts3.wsj.net
 DOMAIN,stubdownloader.services.mozilla.com
 DOMAIN,styleguide-assets.shannons.com.au
 DOMAIN,support.content.office.net
-DOMAIN,sw.cool3c.com
 DOMAIN,sync.getpublica.com
 DOMAIN,t.betterstack.com
 DOMAIN,t.nhentai.net
@@ -2585,8 +2553,6 @@ DOMAIN,thumbor.forbes.com
 DOMAIN,thumbs.onlyfans.com
 DOMAIN,thumbs2.sendvid.com
 DOMAIN,thumbsnap.com
-DOMAIN,ti1.knews.cc
-DOMAIN,ti2.knews.cc
 DOMAIN,tiles.openfreemap.org
 DOMAIN,tiles.stadiamaps.com
 DOMAIN,tiles.versatiles.org
@@ -2662,7 +2628,6 @@ DOMAIN,v-tiles1.downdetector.com
 DOMAIN,v-tiles2.downdetector.com
 DOMAIN,v-tiles3.downdetector.com
 DOMAIN,v.w-x.co
-DOMAIN,v2-images.crackle.com
 DOMAIN,v2.listenloop.com
 DOMAIN,v2uploads.zopim.io
 DOMAIN,vanilla-extract.style
@@ -2694,7 +2659,6 @@ DOMAIN,vscode-sync-insiders.trafficmanager.net
 DOMAIN,vscode-sync.trafficmanager.net
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN,vte-eu.readspeaker.com
-DOMAIN,vte-us.readspeaker.com
 DOMAIN,vuejs.org
 DOMAIN,vz-2222604c-50b.b-cdn.net
 DOMAIN,vz-c0fe498e-5ab.b-cdn.net
@@ -2702,7 +2666,6 @@ DOMAIN,w.chatlio.com
 DOMAIN,w.soundcloud.com
 DOMAIN,w2.influxdata.com
 DOMAIN,wa.arounddeal.com
-DOMAIN,wac-cdn-2.atlassian.com
 DOMAIN,wac-cdn.atlassian.com
 DOMAIN,waitlisted.co
 DOMAIN,wandi-6402.kxcdn.com
@@ -3894,8 +3857,6 @@ DOMAIN-WILDCARD,image*.cloudokyo.cloud
 DOMAIN-WILDCARD,img-*.now.com
 DOMAIN-WILDCARD,img?.porngo.com
 DOMAIN-WILDCARD,img??.porngo.com
-DOMAIN-WILDCARD,media?.kissjav.com
-DOMAIN-WILDCARD,media??.kissjav.com
 DOMAIN-WILDCARD,object-storage-*.vexxhost.net
 DOMAIN-WILDCARD,ocsp.*.amazontrust.com
 DOMAIN-WILDCARD,proxy-*.dailymotion.com
@@ -3909,6 +3870,8 @@ DOMAIN-WILDCARD,s???.pornone.com
 DOMAIN-WILDCARD,sdk.*.braze.eu
 DOMAIN-WILDCARD,static?.tgstat.ru
 DOMAIN-WILDCARD,static??.tgstat.ru
+DOMAIN-WILDCARD,stream?.kissjav.com
+DOMAIN-WILDCARD,stream??.kissjav.com
 DOMAIN-WILDCARD,t?.nhentai.net
 DOMAIN-WILDCARD,th-*.pornone.com
 DOMAIN-WILDCARD,uploads-*.insided.com

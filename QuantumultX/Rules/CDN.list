@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3884
+# 规则统计: 3897
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -716,6 +716,7 @@ HOST,cdn.scripts.wtwhmedia.com,CDN
 HOST,cdn.search.brave.com,CDN
 HOST,cdn.sedo.com,CDN
 HOST,cdn.segment.com,CDN
+HOST,cdn.seline.so,CDN
 HOST,cdn.seondf.com,CDN
 HOST,cdn.seonintelligence.com,CDN
 HOST,cdn.servicebell.com,CDN
@@ -1043,6 +1044,7 @@ HOST,denali-static.grammarly.com,CDN
 HOST,design-assets.hubspot.com,CDN
 HOST,design-system.yext.com,CDN
 HOST,design.codeberg.org,CDN
+HOST,design.keyoxide.org,CDN
 HOST,design.mayoclinic.org,CDN
 HOST,designsystem.brevo.com,CDN
 HOST,detectportal.firefox.com,CDN
@@ -1276,6 +1278,7 @@ HOST,i.jpg.dog,CDN
 HOST,i.kickstarter.com,CDN
 HOST,i.loli.best,CDN
 HOST,i.mediatek.com,CDN
+HOST,i.mij.rip,CDN
 HOST,i.mt.lv,CDN
 HOST,i.mydramalist.com,CDN
 HOST,i.nhentai.net,CDN
@@ -2174,8 +2177,10 @@ HOST,ss7.vzw.com,CDN
 HOST,ssl.gstatic.com,CDN
 HOST,st-eu.dynamicyield.com,CDN
 HOST,st.agrd.eu,CDN
+HOST,st.codeforces.com,CDN
 HOST,st.deviantart.net,CDN
 HOST,st.dynamicyield.com,CDN
+HOST,st.prntscr.com,CDN
 HOST,st.transfer.it,CDN
 HOST,st1.zoom.us,CDN
 HOST,st2.zoom.us,CDN
@@ -2451,6 +2456,7 @@ HOST,static.workday.com,CDN
 HOST,static.xgroovy.com,CDN
 HOST,static.xns.one,CDN
 HOST,static.xxxshake.com,CDN
+HOST,static.yfsp.tv,CDN
 HOST,static.zaobao.com,CDN
 HOST,static.zaobao.com.sg,CDN
 HOST,static.zuora.com,CDN
@@ -2752,6 +2758,7 @@ HOST-SUFFIX,2img.net,CDN
 HOST-SUFFIX,2mdn.net,CDN
 HOST-SUFFIX,4cdn.org,CDN
 HOST-SUFFIX,4everland.io,CDN
+HOST-SUFFIX,52netflix.com,CDN
 HOST-SUFFIX,666565.xyz,CDN
 HOST-SUFFIX,91pic.org,CDN
 HOST-SUFFIX,98avcdn.xyz,CDN
@@ -2948,15 +2955,18 @@ HOST-SUFFIX,cloudatacdn.com,CDN
 HOST-SUFFIX,cloudflare-ipfs.com,CDN
 HOST-SUFFIX,cloudflare.ltd,CDN
 HOST-SUFFIX,cloudflarestream.com,CDN
+HOST-SUFFIX,cloudforfun.vip,CDN
 HOST-SUFFIX,cloudfront.net,CDN
 HOST-SUFFIX,cloudfront.net.in,CDN
 HOST-SUFFIX,cloudimg.io,CDN
+HOST-SUFFIX,cloudlin.vip,CDN
 HOST-SUFFIX,cmail19.com,CDN
 HOST-SUFFIX,cmail20.com,CDN
 HOST-SUFFIX,cms-cdn.linear.app,CDN
 HOST-SUFFIX,cms.replit.com,CDN
 HOST-SUFFIX,cnbetacdn.com,CDN
 HOST-SUFFIX,codeberg.page,CDN
+HOST-SUFFIX,codeforces.org,CDN
 HOST-SUFFIX,codepenassets.com,CDN
 HOST-SUFFIX,colliderimages.com,CDN
 HOST-SUFFIX,combinatronics.io,CDN
@@ -3131,6 +3141,8 @@ HOST-SUFFIX,googleusercontent.com,CDN
 HOST-SUFFIX,graphql.org,CDN
 HOST-SUFFIX,gravatar.com,CDN
 HOST-SUFFIX,gravity.jup.io,CDN
+HOST-SUFFIX,gsuus.com,CDN
+HOST-SUFFIX,gszyi.com,CDN
 HOST-SUFFIX,gtranslate.net,CDN
 HOST-SUFFIX,gw3.io,CDN
 HOST-SUFFIX,h-cdn.co,CDN
@@ -3322,6 +3334,7 @@ HOST-SUFFIX,live-video.net,CDN
 HOST-SUFFIX,livemediahost.com,CDN
 HOST-SUFFIX,local.webcontainer.io,CDN
 HOST-SUFFIX,localizecdn.com,CDN
+HOST-SUFFIX,locimg.com,CDN
 HOST-SUFFIX,lodash.com,CDN
 HOST-SUFFIX,loggly.com,CDN
 HOST-SUFFIX,logz.io,CDN

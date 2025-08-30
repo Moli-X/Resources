@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3897
+# 规则统计: 3900
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -505,6 +505,7 @@ HOST,cdn.cuty.io,CDN
 HOST,cdn.cxense.com,CDN
 HOST,cdn.daily.dev,CDN
 HOST,cdn.dap.dmm.co.jp,CDN
+HOST,cdn.daradara.me,CDN
 HOST,cdn.datacamp.com,CDN
 HOST,cdn.datatables.net,CDN
 HOST,cdn.datdota.com,CDN
@@ -1298,6 +1299,7 @@ HOST,i2.nhentai.net,CDN
 HOST,i3.anysex.com,CDN
 HOST,i4.anysex.com,CDN
 HOST,ias.r10s.jp,CDN
+HOST,icdn.javxx.com,CDN
 HOST,ichef.bbci.co.uk,CDN
 HOST,icons.buffer.com,CDN
 HOST,icons.duckduckgo.com,CDN
@@ -3816,6 +3818,7 @@ HOST-SUFFIX,yygimg.im,CDN
 HOST-SUFFIX,z4a.net,CDN
 HOST-SUFFIX,zdassets.com,CDN
 HOST-SUFFIX,zdusercontent.com,CDN
+HOST-SUFFIX,zenwave56.site,CDN
 HOST-SUFFIX,zi-scripts.com,CDN
 HOST-SUFFIX,ziffstatic.com,CDN
 HOST-SUFFIX,ziglang.org,CDN

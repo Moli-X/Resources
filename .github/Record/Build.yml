@@ -68,6 +68,19 @@ jobs:
                 curl -f -L "$url" >> Tool-repo/Ruleset/CDN.list || { echo "Download Failed: $url"; exit 1; }
                 echo "" >> Tool-repo/Ruleset/CDN.list
             done
+            # 合并 SukkaW Download 规则
+            urls=(
+                "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf"
+                "https://ruleset.skk.moe/List/non_ip/download.conf"
+                "https://ruleset.skk.moe/List/domainset/download.conf"
+                "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list"
+            )
+            > Tool-repo/Ruleset/Direct.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L "$url" >> Tool-repo/Ruleset/Direct.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/Direct.list
+            done
             # 合并 GFW 规则
             urls=(
                 "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
@@ -177,7 +190,6 @@ jobs:
                 "AdGuardChinese.list https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
                 # 自定义规则
                 "Crypto.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Crypto.list"
-                "Direct.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list"
                 "Emby.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Emby.list"
                 "Lan.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Lan.list"
                 "Porn.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Porn.list"

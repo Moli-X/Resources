@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 93196
+# 规则统计: 93195
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -89976,7 +89976,6 @@ HOST-SUFFIX,www-sadobe.anabuki-community.com,Anti-Ad
 HOST-SUFFIX,www-sadobe.anabuki.co.jp,Anti-Ad
 HOST-SUFFIX,www-smt.daiichisankyo-hc.co.jp,Anti-Ad
 HOST-SUFFIX,www.lm.cccab.club,Anti-Ad
-HOST-SUFFIX,www.statcounter.com,Anti-Ad
 HOST-SUFFIX,www.umiwi.com,Anti-Ad
 HOST-SUFFIX,www1.cynergysolutions.net,Anti-Ad
 HOST-SUFFIX,www1.discountautomirrors.com,Anti-Ad

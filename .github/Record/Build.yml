@@ -68,11 +68,8 @@ jobs:
                 curl -f -L "$url" >> Tool-repo/Ruleset/CDN.list || { echo "Download Failed: $url"; exit 1; }
                 echo "" >> Tool-repo/Ruleset/CDN.list
             done
-            # 合并 SukkaW Download 规则
+            # 合并 Download 规则
             urls=(
-                "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf"
-                "https://ruleset.skk.moe/List/non_ip/download.conf"
-                "https://ruleset.skk.moe/List/domainset/download.conf"
                 "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list"
             )
             > Tool-repo/Ruleset/Direct.list

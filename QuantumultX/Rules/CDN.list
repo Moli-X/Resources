@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3900
+# 规则统计: 3904
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -516,6 +516,7 @@ HOST,cdn.delight-vr.com,CDN
 HOST,cdn.designerapp.osi.office.net,CDN
 HOST,cdn.designsystem.arm.com,CDN
 HOST,cdn.deta.space,CDN
+HOST,cdn.devdojo.com,CDN
 HOST,cdn.devolutions.net,CDN
 HOST,cdn.dexscreener.com,CDN
 HOST,cdn.dnsimple.com,CDN
@@ -1953,6 +1954,7 @@ HOST,proxy.spigotmc.org,CDN
 HOST,ps.w.org,CDN
 HOST,psp-logos.uptimerobot.com,CDN
 HOST,pub.creaders.net,CDN
+HOST,public-assets.postmarkapp.com,CDN
 HOST,public-assets.typeform.com,CDN
 HOST,public-cdn.bblmw.com,CDN
 HOST,public-files.gumroad.com,CDN
@@ -2737,6 +2739,7 @@ HOST,ws-cdn.nperf.com,CDN
 HOST,ws2-cache.aptoide.com,CDN
 HOST,ww2-secure.justanswer.com,CDN
 HOST,ww2.justanswer.com,CDN
+HOST,www-cdn.uscardforum.com,CDN
 HOST,www-res.cablelabs.com,CDN
 HOST,www-static.ripe.net,CDN
 HOST,www.10086.win,CDN
@@ -3668,6 +3671,7 @@ HOST-SUFFIX,stripst.com,CDN
 HOST-SUFFIX,strpst.com,CDN
 HOST-SUFFIX,stylexjs.com,CDN
 HOST-SUFFIX,substackcdn.com,CDN
+HOST-SUFFIX,supabase.co,CDN
 HOST-SUFFIX,superfiliate-cdn.com,CDN
 HOST-SUFFIX,surge.sh,CDN
 HOST-SUFFIX,surrit.com,CDN

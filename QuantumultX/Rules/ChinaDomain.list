@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 829
+# 规则统计: 831
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -694,6 +694,8 @@ HOST-SUFFIX,taobao.com,ChinaDomain
 HOST-SUFFIX,taobao.org,ChinaDomain
 HOST-SUFFIX,taobaocdn.com,ChinaDomain
 HOST-SUFFIX,taopiaopiao.com,ChinaDomain
+HOST-SUFFIX,tapimg.com,ChinaDomain
+HOST-SUFFIX,taptap.cn,ChinaDomain
 HOST-SUFFIX,tb.cn,ChinaDomain
 HOST-SUFFIX,tbcache.com,ChinaDomain
 HOST-SUFFIX,tbcdn.cn,ChinaDomain

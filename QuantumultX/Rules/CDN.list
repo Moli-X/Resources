@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3904
+# 规则统计: 3908
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -50,6 +50,7 @@ HOST,api.fontshare.com,CDN
 HOST,api.iconify.design,CDN
 HOST,api.indexnow.org,CDN
 HOST,api.instantly.ai,CDN
+HOST,api.media.atlassian.com,CDN
 HOST,api.mixpanel.com,CDN
 HOST,api.producthunt.com,CDN
 HOST,api.pwnedpasswords.com,CDN
@@ -282,6 +283,7 @@ HOST,assets9.lottiefiles.com,CDN
 HOST,assetscdn-wchat.eu.freshchat.com,CDN
 HOST,assetscdn.jable.tv,CDN
 HOST,at.cbsi.com,CDN
+HOST,atl-global.atlassian.com,CDN
 HOST,attach.mobile01.com,CDN
 HOST,attach2.mobile01.com,CDN
 HOST,attachments.office.net,CDN
@@ -400,6 +402,7 @@ HOST,cdn-img2.iporntv.net,CDN
 HOST,cdn-img3.iporntv.net,CDN
 HOST,cdn-live.foreignaffairs.com,CDN
 HOST,cdn-longterm.mee6.xyz,CDN
+HOST,cdn-loyalty.yotpo.com,CDN
 HOST,cdn-main.plus500.com,CDN
 HOST,cdn-media-0.freecodecamp.org,CDN
 HOST,cdn-media-1.freecodecamp.org,CDN
@@ -1595,7 +1598,6 @@ HOST,j.udn.com.tw,CDN
 HOST,jac.yahoosandbox.com,CDN
 HOST,jaws.pbs.org,CDN
 HOST,jfe-cdn.qualtrics.com,CDN
-HOST,jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net,CDN
 HOST,jnmedia.ero-video.net,CDN
 HOST,js-1-cdn.airdroid.com,CDN
 HOST,js-cdn.blockchair.io,CDN
@@ -3507,6 +3509,7 @@ HOST-SUFFIX,pressablecdn.com,CDN
 HOST-SUFFIX,pressidiumcdn.com,CDN
 HOST-SUFFIX,prhcdn.com,CDN
 HOST-SUFFIX,privacy-gateway.cloudflare.com,CDN
+HOST-SUFFIX,prod-east.frontend.public.atl-paas.net,CDN
 HOST-SUFFIX,prod.public.atl-paas.net,CDN
 HOST-SUFFIX,project1content.com,CDN
 HOST-SUFFIX,proxy.startpage.com,CDN
@@ -3701,6 +3704,7 @@ HOST-SUFFIX,tile.openstreetmap.de,CDN
 HOST-SUFFIX,tile.openstreetmap.org,CDN
 HOST-SUFFIX,tile.osm.org,CDN
 HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
+HOST-SUFFIX,tiles.mapbox.com,CDN
 HOST-SUFFIX,tindiemedia.com,CDN
 HOST-SUFFIX,tiqcdn.com,CDN
 HOST-SUFFIX,tkcdns.com,CDN

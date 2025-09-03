@@ -47,6 +47,7 @@ DOMAIN,api.fontshare.com
 DOMAIN,api.iconify.design
 DOMAIN,api.indexnow.org
 DOMAIN,api.instantly.ai
+DOMAIN,api.media.atlassian.com
 DOMAIN,api.mixpanel.com
 DOMAIN,api.producthunt.com
 DOMAIN,api.pwnedpasswords.com
@@ -279,6 +280,7 @@ DOMAIN,assets9.lottiefiles.com
 DOMAIN,assetscdn-wchat.eu.freshchat.com
 DOMAIN,assetscdn.jable.tv
 DOMAIN,at.cbsi.com
+DOMAIN,atl-global.atlassian.com
 DOMAIN,attach.mobile01.com
 DOMAIN,attach2.mobile01.com
 DOMAIN,attachments.office.net
@@ -397,6 +399,7 @@ DOMAIN,cdn-img2.iporntv.net
 DOMAIN,cdn-img3.iporntv.net
 DOMAIN,cdn-live.foreignaffairs.com
 DOMAIN,cdn-longterm.mee6.xyz
+DOMAIN,cdn-loyalty.yotpo.com
 DOMAIN,cdn-main.plus500.com
 DOMAIN,cdn-media-0.freecodecamp.org
 DOMAIN,cdn-media-1.freecodecamp.org
@@ -1592,7 +1595,6 @@ DOMAIN,j.udn.com.tw
 DOMAIN,jac.yahoosandbox.com
 DOMAIN,jaws.pbs.org
 DOMAIN,jfe-cdn.qualtrics.com
-DOMAIN,jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
 DOMAIN,jnmedia.ero-video.net
 DOMAIN,js-1-cdn.airdroid.com
 DOMAIN,js-cdn.blockchair.io
@@ -3504,6 +3506,7 @@ DOMAIN-SUFFIX,pressablecdn.com
 DOMAIN-SUFFIX,pressidiumcdn.com
 DOMAIN-SUFFIX,prhcdn.com
 DOMAIN-SUFFIX,privacy-gateway.cloudflare.com
+DOMAIN-SUFFIX,prod-east.frontend.public.atl-paas.net
 DOMAIN-SUFFIX,prod.public.atl-paas.net
 DOMAIN-SUFFIX,project1content.com
 DOMAIN-SUFFIX,proxy.startpage.com
@@ -3698,6 +3701,7 @@ DOMAIN-SUFFIX,tile.openstreetmap.de
 DOMAIN-SUFFIX,tile.openstreetmap.org
 DOMAIN-SUFFIX,tile.osm.org
 DOMAIN-SUFFIX,tiles-api.maps.komoot.net
+DOMAIN-SUFFIX,tiles.mapbox.com
 DOMAIN-SUFFIX,tindiemedia.com
 DOMAIN-SUFFIX,tiqcdn.com
 DOMAIN-SUFFIX,tkcdns.com

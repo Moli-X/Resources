@@ -266,11 +266,11 @@ jobs:
 
     - name: Copy files
       run: |
-        rm -rf Tool-repo/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge,sing-box}/Rules
-        mkdir -p Tool-repo/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge,sing-box,mihomo}/Rules
+        rm -rf Tool-repo/{Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge,sing-box}/Rules
+        mkdir -p Tool-repo/{Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge,sing-box,mihomo}/Rules
         for file in Tool-repo/Ruleset/*.list; do
           filename=$(basename "$file")
-          for dir in Clash Loon QuantumultX Shadowrocket Stash Surge mihomo; do
+          for dir in Loon QuantumultX Shadowrocket Stash Surge mihomo; do
             mkdir -p "Tool-repo/$dir/Rules"
             cp "$file" "Tool-repo/$dir/Rules/$filename"
           done
@@ -283,10 +283,10 @@ jobs:
         done
         echo "Files copied successfully."
 
-    - name: Clash/mihomo
+    - name: mihomo
       run: |
         rm -rf Tool-repo/Ruleset
-        for file in Tool-repo/{Clash,mihomo}/Rules/*.list; do
+        for file in Tool-repo/mihomo/Rules/*.list; do
           if [ -f "$file" ]; then
             sed -i -e '/^USER-AGENT/d' "$file"
             sed -i -e '/^URL-REGEX/d' "$file"

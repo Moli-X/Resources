@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3908
+# 规则统计: 3916
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -312,6 +312,8 @@ HOST,badges.crowdin.net,CDN
 HOST,badges.frapsoft.com,CDN
 HOST,badges.gitter.im,CDN
 HOST,badges.greenkeeper.io,CDN
+HOST,barracuda-assets.zoovu.com,CDN
+HOST,barracuda-cdn.zoovu.com,CDN
 HOST,bcdn.starapps.studio,CDN
 HOST,bcmedia.bitchute.com,CDN
 HOST,before.good-apps.co,CDN
@@ -342,6 +344,7 @@ HOST,bundles.npr.org,CDN
 HOST,bunnycdn-video-assets.b-cdn.net,CDN
 HOST,businessunitprofile-cdn.trustpilot.net,CDN
 HOST,busuanzi.ibruce.info,CDN
+HOST,c-bin.b-cdn.net,CDN
 HOST,c.1password.com,CDN
 HOST,c.animaapp.com,CDN
 HOST,c.fantia.jp,CDN
@@ -396,6 +399,7 @@ HOST,cdn-eu.readspeaker.com,CDN
 HOST,cdn-fck.tnaflix.com,CDN
 HOST,cdn-forum.networklessons.com,CDN
 HOST,cdn-front.freepik.com,CDN
+HOST,cdn-icons-png.flaticon.com,CDN
 HOST,cdn-images-1.medium.com,CDN
 HOST,cdn-images.mailchimp.com,CDN
 HOST,cdn-img2.iporntv.net,CDN
@@ -728,6 +732,7 @@ HOST,cdn.servicebell.com,CDN
 HOST,cdn.setapp.com,CDN
 HOST,cdn.sheetjs.com,CDN
 HOST,cdn.shopify.com,CDN
+HOST,cdn.shoplineapp.com,CDN
 HOST,cdn.shoppinggives.com,CDN
 HOST,cdn.sift.com,CDN
 HOST,cdn.simpleicons.org,CDN
@@ -1976,6 +1981,7 @@ HOST,quriobot.com,CDN
 HOST,r.r10s.jp,CDN
 HOST,r2.1hanime.com,CDN
 HOST,r2.leadsy.ai,CDN
+HOST,r2cdn.myshopline.com,CDN
 HOST,r2cdn.perplexity.ai,CDN
 HOST,rapid-cdn.yottaa.com,CDN
 HOST,raw.github.com,CDN
@@ -2590,6 +2596,7 @@ HOST,touchgal-image.moyu.moe,CDN
 HOST,tourpic-vector.maps.komoot.net,CDN
 HOST,townsquare.media,CDN
 HOST,tracking.inflection.io,CDN
+HOST,trekcdnprod.azureedge.net,CDN
 HOST,truth.bahamut.com.tw,CDN
 HOST,tuf-repo-cdn.sigstore.dev,CDN
 HOST,tuf-repo.github.com,CDN
@@ -3597,6 +3604,7 @@ HOST-SUFFIX,sftcdn.net,CDN
 HOST-SUFFIX,shgcdn.com,CDN
 HOST-SUFFIX,shields.io,CDN
 HOST-SUFFIX,shopifycdn.com,CDN
+HOST-SUFFIX,shoplineimg.com,CDN
 HOST-SUFFIX,shoppulse88.store,CDN
 HOST-SUFFIX,shortpixel.ai,CDN
 HOST-SUFFIX,simgbb.com,CDN

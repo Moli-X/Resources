@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3917
+# 规则统计: 3918
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2500,6 +2500,7 @@ HOST,statics.erothots.co,CDN
 HOST,statics.goorm.io,CDN
 HOST,statics.simpshub.com,CDN
 HOST,statics.streamable.com,CDN
+HOST,staticsource1.redotpay.com,CDN
 HOST,staticw2.yotpo.com,CDN
 HOST,stats.codesandbox.io,CDN
 HOST,stats.setapp.com,CDN

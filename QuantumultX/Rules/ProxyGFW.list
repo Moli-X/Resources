@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7311
+# 规则统计: 7314
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -886,6 +886,8 @@ HOST-SUFFIX,bsky.app,ProxyGFW
 HOST-SUFFIX,bsky.network,ProxyGFW
 HOST-SUFFIX,bsky.social,ProxyGFW
 HOST-SUFFIX,bt2mag.com,ProxyGFW
+HOST-SUFFIX,bt4g.org,ProxyGFW
+HOST-SUFFIX,bt4gprx.com,ProxyGFW
 HOST-SUFFIX,bt95.com,ProxyGFW
 HOST-SUFFIX,btaia.com,ProxyGFW
 HOST-SUFFIX,btbit.net,ProxyGFW
@@ -5744,6 +5746,7 @@ HOST-SUFFIX,tamiaode.tk,ProxyGFW
 HOST-SUFFIX,tanc.org,ProxyGFW
 HOST-SUFFIX,tangben.com,ProxyGFW
 HOST-SUFFIX,tangren.us,ProxyGFW
+HOST-SUFFIX,tanks.gg,ProxyGFW
 HOST-SUFFIX,taoism.net,ProxyGFW
 HOST-SUFFIX,taolun.info,ProxyGFW
 HOST-SUFFIX,tap.io,ProxyGFW

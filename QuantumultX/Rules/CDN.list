@@ -2582,6 +2582,7 @@ HOST,tiles.versatiles.org,CDN
 HOST,tiles.windy.com,CDN
 HOST,time-a.nist.gov,CDN
 HOST,time.akamai.com,CDN
+HOST,time.apple.com,CDN
 HOST,time.cloudflare.com,CDN
 HOST,time.google.com,CDN
 HOST,time.windows.com,CDN
@@ -3575,7 +3576,6 @@ HOST-SUFFIX,rrcdnbf3.com,CDN
 HOST-SUFFIX,rsb.net,CDN
 HOST-SUFFIX,rspcdn.net,CDN
 HOST-SUFFIX,rss3.dev,CDN
-HOST-SUFFIX,ruleset.skk.moe,CDN
 HOST-SUFFIX,rum.cronitor.io,CDN
 HOST-SUFFIX,runkit-packages.com,CDN
 HOST-SUFFIX,runkitcdn.com,CDN

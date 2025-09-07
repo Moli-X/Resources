@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7314
+# 规则统计: 7315
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -3300,6 +3300,7 @@ HOST-SUFFIX,iphonehacks.com,ProxyGFW
 HOST-SUFFIX,iphonetaiwan.org,ProxyGFW
 HOST-SUFFIX,iphonix.fr,ProxyGFW
 HOST-SUFFIX,ipicture.ru,ProxyGFW
+HOST-SUFFIX,ipify.org,ProxyGFW
 HOST-SUFFIX,ipinfo.io,ProxyGFW
 HOST-SUFFIX,ipjetable.net,ProxyGFW
 HOST-SUFFIX,ipobar.com,ProxyGFW

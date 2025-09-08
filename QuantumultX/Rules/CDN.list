@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3918
+# 规则统计: 3923
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -810,6 +810,8 @@ HOST,cdn.writeas.net,CDN
 HOST,cdn.xeiaso.net,CDN
 HOST,cdn.xgroovy.com,CDN
 HOST,cdn.xvidzz.com,CDN
+HOST,cdn.yamibuy.com,CDN
+HOST,cdn.yamibuy.net,CDN
 HOST,cdn.yinghuazy.xyz,CDN
 HOST,cdn.you.com,CDN
 HOST,cdn.ywxi.net,CDN
@@ -1186,6 +1188,7 @@ HOST,files.scamadviser.com,CDN
 HOST,files.slack.com,CDN
 HOST,files.smashing.media,CDN
 HOST,files.svc.ui.com,CDN
+HOST,files.webfe.shopee.io,CDN
 HOST,files.writefreely.org,CDN
 HOST,files.yande.re,CDN
 HOST,filestore.fortinet.com,CDN
@@ -1468,6 +1471,7 @@ HOST,img.adspower.net,CDN
 HOST,img.agrd.eu,CDN
 HOST,img.announcekit.app,CDN
 HOST,img.api.video,CDN
+HOST,img.apk.cafe,CDN
 HOST,img.applealmond.com,CDN
 HOST,img.apponic.com,CDN
 HOST,img.atlasobscura.com,CDN
@@ -2177,6 +2181,7 @@ HOST,socialpic.video.friday.tw,CDN
 HOST,solve-widget.forethought.ai,CDN
 HOST,source.domaintools.com,CDN
 HOST,source.unsplash.com,CDN
+HOST,sourcemap.webfe.shopeemobile.com,CDN
 HOST,sourcemaps.squarespace.net,CDN
 HOST,sourcepoint.theguardian.com,CDN
 HOST,sp-spiegel-de.spiegel.de,CDN

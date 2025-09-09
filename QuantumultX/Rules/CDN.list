@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3928
+# 规则统计: 3935
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -829,6 +829,7 @@ HOST,cdn0.techbang.com,CDN
 HOST,cdn01.jotfor.ms,CDN
 HOST,cdn02.jotfor.ms,CDN
 HOST,cdn03.jotfor.ms,CDN
+HOST,cdn1.affirm.com,CDN
 HOST,cdn1.airdroid.com,CDN
 HOST,cdn1.bigcommerce.com,CDN
 HOST,cdn1.dan.com,CDN
@@ -1176,6 +1177,7 @@ HOST,fesdk.nexon.com,CDN
 HOST,fiddle.fastly.dev,CDN
 HOST,fiddle.jshell.net,CDN
 HOST,file.izanmei.net,CDN
+HOST,file.zoom.us,CDN
 HOST,file1.hkepc.net,CDN
 HOST,files.armorgames.com,CDN
 HOST,files.buildwithfern.com,CDN
@@ -1448,6 +1450,7 @@ HOST,images1.cmp.optimizely.com,CDN
 HOST,images1.vinted.net,CDN
 HOST,images1.welcomesoftware.com,CDN
 HOST,images2.cmp.optimizely.com,CDN
+HOST,images2.giant-bicycles.com,CDN
 HOST,images2.welcomesoftware.com,CDN
 HOST,images3.cmp.optimizely.com,CDN
 HOST,images3.welcomesoftware.com,CDN
@@ -2343,6 +2346,7 @@ HOST,static.freedownloadmanager.org,CDN
 HOST,static.freeimages.com,CDN
 HOST,static.getbutton.io,CDN
 HOST,static.gettyimages.com,CDN
+HOST,static.giant-bicycles.com,CDN
 HOST,static.gitbook.com,CDN
 HOST,static.gl-inet.com,CDN
 HOST,static.global.visioncritical.com,CDN
@@ -2361,6 +2365,7 @@ HOST,static.ifunny.co,CDN
 HOST,static.incapsula.com,CDN
 HOST,static.independent.co.uk,CDN
 HOST,static.inferno.iheart.com,CDN
+HOST,static.inflect.com,CDN
 HOST,static.infomaniak.ch,CDN
 HOST,static.institution.grammarly.com,CDN
 HOST,static.iris.informa.com,CDN
@@ -2714,6 +2719,8 @@ HOST,web-assets.waze.com,CDN
 HOST,web-assets.zendesk.co.jp,CDN
 HOST,web-assets.zendesk.com,CDN
 HOST,web-cdn.bitrise.io,CDN
+HOST,web-sdk-cdn.eyefitu.com,CDN
+HOST,web-sdk.eyefitu.com,CDN
 HOST,web-static.archive.org,CDN
 HOST,web-static.pages.iheart.com,CDN
 HOST,web-toolbar.playstation.com,CDN

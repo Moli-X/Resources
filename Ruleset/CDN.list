@@ -826,6 +826,7 @@ DOMAIN,cdn0.techbang.com
 DOMAIN,cdn01.jotfor.ms
 DOMAIN,cdn02.jotfor.ms
 DOMAIN,cdn03.jotfor.ms
+DOMAIN,cdn1.affirm.com
 DOMAIN,cdn1.airdroid.com
 DOMAIN,cdn1.bigcommerce.com
 DOMAIN,cdn1.dan.com
@@ -1173,6 +1174,7 @@ DOMAIN,fesdk.nexon.com
 DOMAIN,fiddle.fastly.dev
 DOMAIN,fiddle.jshell.net
 DOMAIN,file.izanmei.net
+DOMAIN,file.zoom.us
 DOMAIN,file1.hkepc.net
 DOMAIN,files.armorgames.com
 DOMAIN,files.buildwithfern.com
@@ -1445,6 +1447,7 @@ DOMAIN,images1.cmp.optimizely.com
 DOMAIN,images1.vinted.net
 DOMAIN,images1.welcomesoftware.com
 DOMAIN,images2.cmp.optimizely.com
+DOMAIN,images2.giant-bicycles.com
 DOMAIN,images2.welcomesoftware.com
 DOMAIN,images3.cmp.optimizely.com
 DOMAIN,images3.welcomesoftware.com
@@ -2340,6 +2343,7 @@ DOMAIN,static.freedownloadmanager.org
 DOMAIN,static.freeimages.com
 DOMAIN,static.getbutton.io
 DOMAIN,static.gettyimages.com
+DOMAIN,static.giant-bicycles.com
 DOMAIN,static.gitbook.com
 DOMAIN,static.gl-inet.com
 DOMAIN,static.global.visioncritical.com
@@ -2358,6 +2362,7 @@ DOMAIN,static.ifunny.co
 DOMAIN,static.incapsula.com
 DOMAIN,static.independent.co.uk
 DOMAIN,static.inferno.iheart.com
+DOMAIN,static.inflect.com
 DOMAIN,static.infomaniak.ch
 DOMAIN,static.institution.grammarly.com
 DOMAIN,static.iris.informa.com
@@ -2711,6 +2716,8 @@ DOMAIN,web-assets.waze.com
 DOMAIN,web-assets.zendesk.co.jp
 DOMAIN,web-assets.zendesk.com
 DOMAIN,web-cdn.bitrise.io
+DOMAIN,web-sdk-cdn.eyefitu.com
+DOMAIN,web-sdk.eyefitu.com
 DOMAIN,web-static.archive.org
 DOMAIN,web-static.pages.iheart.com
 DOMAIN,web-toolbar.playstation.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3935
+# 规则统计: 3946
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -15,6 +15,7 @@ HOST,a5.behance.net,CDN
 HOST,a57.foxnews.com,CDN
 HOST,academy-public.coinmarketcap.com,CDN
 HOST,account-cdn.svc.ui.com,CDN
+HOST,account-widget-mfe.gcore.com,CDN
 HOST,accounts-cdn.9gag.com,CDN
 HOST,adkit.9pub.io,CDN
 HOST,aff.equalweb.com,CDN
@@ -334,6 +335,7 @@ HOST,brew.sh,CDN
 HOST,brick.a.ssl.fastly.net,CDN
 HOST,brick.freetls.fastly.net,CDN
 HOST,bst.icons8.com,CDN
+HOST,bucket.noy.asia,CDN
 HOST,bucket1.notaku.so,CDN
 HOST,bulletin.svc.litv.tv,CDN
 HOST,bundle.5gtb.com,CDN
@@ -507,6 +509,7 @@ HOST,cdn.consentmanager.net,CDN
 HOST,cdn.contentful.com,CDN
 HOST,cdn.conveythis.com,CDN
 HOST,cdn.cracked.sh,CDN
+HOST,cdn.craft.cloud,CDN
 HOST,cdn.create.microsoft.com,CDN
 HOST,cdn.credible.com,CDN
 HOST,cdn.css.net,CDN
@@ -1252,6 +1255,7 @@ HOST,gohugo.io,CDN
 HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,CDN
 HOST,graph.facebook.com,CDN
 HOST,gravatar.cat.net,CDN
+HOST,gravatar.tapglb.com,CDN
 HOST,gstatic.com,CDN
 HOST,gstatic.olympics.com,CDN
 HOST,gt1.onlyhentaistuff.com,CDN
@@ -1412,6 +1416,7 @@ HOST,images.idgesg.net,CDN
 HOST,images.kick.com,CDN
 HOST,images.loox.io,CDN
 HOST,images.macrumors.com,CDN
+HOST,images.mathworks.com,CDN
 HOST,images.mattel.net,CDN
 HOST,images.microcms-assets.io,CDN
 HOST,images.moegoat.com,CDN
@@ -1522,6 +1527,7 @@ HOST,img.moedog.org,CDN
 HOST,img.moegirl.tw,CDN
 HOST,img.moviefap.com,CDN
 HOST,img.mresou.com,CDN
+HOST,img.noy.asia,CDN
 HOST,img.olympics.com,CDN
 HOST,img.openshop.com.hk,CDN
 HOST,img.pawoo.net,CDN
@@ -1621,6 +1627,7 @@ HOST,js-eu1.hsforms.net,CDN
 HOST,js-s3.quickcep.com,CDN
 HOST,js.braintreegateway.com,CDN
 HOST,js.chargebee.com,CDN
+HOST,js.chargify.com,CDN
 HOST,js.chilipiper.com,CDN
 HOST,js.createsend1.com,CDN
 HOST,js.hsforms.net,CDN
@@ -1630,6 +1637,7 @@ HOST,js.klarna.com,CDN
 HOST,js.memberful.com,CDN
 HOST,js.navattic.com,CDN
 HOST,js.partnerstack.com,CDN
+HOST,js.pngtree.com,CDN
 HOST,js.prosopo.io,CDN
 HOST,js.pusher.com,CDN
 HOST,js.puter.com,CDN
@@ -1940,6 +1948,7 @@ HOST,playgroundcdn.typescriptlang.org,CDN
 HOST,plugins.dprint.dev,CDN
 HOST,plus.unsplash.com,CDN
 HOST,pmecdn.protonweb.com,CDN
+HOST,png.pngtree.com,CDN
 HOST,polyfill-fe.toss.im,CDN
 HOST,polyfill.bbhub.io,CDN
 HOST,pomf2.lain.la,CDN
@@ -2440,6 +2449,7 @@ HOST,static.scarf.sh,CDN
 HOST,static.seel.com,CDN
 HOST,static.serverhunter.com,CDN
 HOST,static.skyassets.com,CDN
+HOST,static.smartframe.io,CDN
 HOST,static.snapchat.com,CDN
 HOST,static.snaptube.in,CDN
 HOST,static.snyk.io,CDN
@@ -2947,6 +2957,7 @@ HOST-SUFFIX,cdn.rollbar.com,CDN
 HOST-SUFFIX,cdn.runcloud.io,CDN
 HOST-SUFFIX,cdn.s7s.ai,CDN
 HOST-SUFFIX,cdn.serverable.com,CDN
+HOST-SUFFIX,cdn.shift8web.com,CDN
 HOST-SUFFIX,cdn.signalfx.com,CDN
 HOST-SUFFIX,cdn.skk.moe,CDN
 HOST-SUFFIX,cdn.survey.medallia.com,CDN

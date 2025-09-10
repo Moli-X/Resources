@@ -12,6 +12,7 @@ DOMAIN,a5.behance.net
 DOMAIN,a57.foxnews.com
 DOMAIN,academy-public.coinmarketcap.com
 DOMAIN,account-cdn.svc.ui.com
+DOMAIN,account-widget-mfe.gcore.com
 DOMAIN,accounts-cdn.9gag.com
 DOMAIN,adkit.9pub.io
 DOMAIN,aff.equalweb.com
@@ -331,6 +332,7 @@ DOMAIN,brew.sh
 DOMAIN,brick.a.ssl.fastly.net
 DOMAIN,brick.freetls.fastly.net
 DOMAIN,bst.icons8.com
+DOMAIN,bucket.noy.asia
 DOMAIN,bucket1.notaku.so
 DOMAIN,bulletin.svc.litv.tv
 DOMAIN,bundle.5gtb.com
@@ -504,6 +506,7 @@ DOMAIN,cdn.consentmanager.net
 DOMAIN,cdn.contentful.com
 DOMAIN,cdn.conveythis.com
 DOMAIN,cdn.cracked.sh
+DOMAIN,cdn.craft.cloud
 DOMAIN,cdn.create.microsoft.com
 DOMAIN,cdn.credible.com
 DOMAIN,cdn.css.net
@@ -1249,6 +1252,7 @@ DOMAIN,gohugo.io
 DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
 DOMAIN,graph.facebook.com
 DOMAIN,gravatar.cat.net
+DOMAIN,gravatar.tapglb.com
 DOMAIN,gstatic.com
 DOMAIN,gstatic.olympics.com
 DOMAIN,gt1.onlyhentaistuff.com
@@ -1409,6 +1413,7 @@ DOMAIN,images.idgesg.net
 DOMAIN,images.kick.com
 DOMAIN,images.loox.io
 DOMAIN,images.macrumors.com
+DOMAIN,images.mathworks.com
 DOMAIN,images.mattel.net
 DOMAIN,images.microcms-assets.io
 DOMAIN,images.moegoat.com
@@ -1519,6 +1524,7 @@ DOMAIN,img.moedog.org
 DOMAIN,img.moegirl.tw
 DOMAIN,img.moviefap.com
 DOMAIN,img.mresou.com
+DOMAIN,img.noy.asia
 DOMAIN,img.olympics.com
 DOMAIN,img.openshop.com.hk
 DOMAIN,img.pawoo.net
@@ -1618,6 +1624,7 @@ DOMAIN,js-eu1.hsforms.net
 DOMAIN,js-s3.quickcep.com
 DOMAIN,js.braintreegateway.com
 DOMAIN,js.chargebee.com
+DOMAIN,js.chargify.com
 DOMAIN,js.chilipiper.com
 DOMAIN,js.createsend1.com
 DOMAIN,js.hsforms.net
@@ -1627,6 +1634,7 @@ DOMAIN,js.klarna.com
 DOMAIN,js.memberful.com
 DOMAIN,js.navattic.com
 DOMAIN,js.partnerstack.com
+DOMAIN,js.pngtree.com
 DOMAIN,js.prosopo.io
 DOMAIN,js.pusher.com
 DOMAIN,js.puter.com
@@ -1937,6 +1945,7 @@ DOMAIN,playgroundcdn.typescriptlang.org
 DOMAIN,plugins.dprint.dev
 DOMAIN,plus.unsplash.com
 DOMAIN,pmecdn.protonweb.com
+DOMAIN,png.pngtree.com
 DOMAIN,polyfill-fe.toss.im
 DOMAIN,polyfill.bbhub.io
 DOMAIN,pomf2.lain.la
@@ -2437,6 +2446,7 @@ DOMAIN,static.scarf.sh
 DOMAIN,static.seel.com
 DOMAIN,static.serverhunter.com
 DOMAIN,static.skyassets.com
+DOMAIN,static.smartframe.io
 DOMAIN,static.snapchat.com
 DOMAIN,static.snaptube.in
 DOMAIN,static.snyk.io
@@ -2944,6 +2954,7 @@ DOMAIN-SUFFIX,cdn.rollbar.com
 DOMAIN-SUFFIX,cdn.runcloud.io
 DOMAIN-SUFFIX,cdn.s7s.ai
 DOMAIN-SUFFIX,cdn.serverable.com
+DOMAIN-SUFFIX,cdn.shift8web.com
 DOMAIN-SUFFIX,cdn.signalfx.com
 DOMAIN-SUFFIX,cdn.skk.moe
 DOMAIN-SUFFIX,cdn.survey.medallia.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3966
+# 规则统计: 3969
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -662,6 +662,7 @@ HOST,cdn.networklessons.com,CDN
 HOST,cdn.neverbounce.com,CDN
 HOST,cdn.nfcube.com,CDN
 HOST,cdn.nolt.io,CDN
+HOST,cdn.northropgrumman.com,CDN
 HOST,cdn.now.gg,CDN
 HOST,cdn.nperf.com,CDN
 HOST,cdn.omnicalculator.com,CDN
@@ -2328,6 +2329,7 @@ HOST,static.carfax.com,CDN
 HOST,static.chaika.moe,CDN
 HOST,static.change.org,CDN
 HOST,static.chessarena.com,CDN
+HOST,static.chrome-stats.com,CDN
 HOST,static.clips4sale.com,CDN
 HOST,static.cloud.coveo.com,CDN
 HOST,static.cloudcachetci.com,CDN
@@ -3724,6 +3726,7 @@ HOST-SUFFIX,strapi.logto.io,CDN
 HOST-SUFFIX,stream.publicradio.org,CDN
 HOST-SUFFIX,streamhentai.org,CDN
 HOST-SUFFIX,streamhk.com,CDN
+HOST-SUFFIX,striiiipst.com,CDN
 HOST-SUFFIX,stripcdn.com,CDN
 HOST-SUFFIX,stripeassets.com,CDN
 HOST-SUFFIX,stripecdn.com,CDN

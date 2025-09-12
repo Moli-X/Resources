@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3948
+# 规则统计: 3966
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -21,6 +21,7 @@ HOST,adkit.9pub.io,CDN
 HOST,aff.equalweb.com,CDN
 HOST,affportal.bhphoto.com,CDN
 HOST,agi.armorgames.com,CDN
+HOST,ah-cdn.merge.dev,CDN
 HOST,aimg.fc2.com,CDN
 HOST,ajax.cat.net,CDN
 HOST,ajax.cdnjs.com,CDN
@@ -486,6 +487,7 @@ HOST,cdn.c1.amplience.net,CDN
 HOST,cdn.calibermind.com,CDN
 HOST,cdn.cameo.com,CDN
 HOST,cdn.camweara.com,CDN
+HOST,cdn.candy.ai,CDN
 HOST,cdn.cbd.int,CDN
 HOST,cdn.cfr.org,CDN
 HOST,cdn.changelog.com,CDN
@@ -962,9 +964,11 @@ HOST,cloudflare.tv,CDN
 HOST,cloudfront.barilliance.com,CDN
 HOST,cloudfront.codeproject.com,CDN
 HOST,cloudinary-res.cloudinary.com,CDN
+HOST,cm1.aminoapps.com,CDN
 HOST,cmd-cdn.cleanmymac.com,CDN
 HOST,cmp-cdn.p.aws.economist.com,CDN
 HOST,cms-assets.nodecraft.com,CDN
+HOST,cms-assets.unrealengine.com,CDN
 HOST,cms-assets.webediamovies.pro,CDN
 HOST,cms-assets.xboxservices.com,CDN
 HOST,cms-cdn.goat.com,CDN
@@ -988,6 +992,7 @@ HOST,common-header.nimg.jp,CDN
 HOST,components.clever-cloud.com,CDN
 HOST,components.justanswer.com,CDN
 HOST,components.trynow.net,CDN
+HOST,components.unrealengine.com,CDN
 HOST,config.extension.grammarly.com,CDN
 HOST,connect-js.stripe.com,CDN
 HOST,connect.facebook.net,CDN
@@ -1562,6 +1567,7 @@ HOST,img0.yna.co.kr,CDN
 HOST,img1.ak.crunchyroll.com,CDN
 HOST,img1.socialshopwave.com,CDN
 HOST,img1.yna.co.kr,CDN
+HOST,img2.gelbooru.com,CDN
 HOST,img2.javdove.com,CDN
 HOST,img2.javmost.com,CDN
 HOST,img2.socialshopwave.com,CDN
@@ -1572,9 +1578,11 @@ HOST,img3.javmost.com,CDN
 HOST,img3.socialshopwave.com,CDN
 HOST,img3.yna.co.kr,CDN
 HOST,img4.airdroid.com,CDN
+HOST,img4.gelbooru.com,CDN
 HOST,img4.javmost.com,CDN
 HOST,img4.socialshopwave.com,CDN
 HOST,img4.yna.co.kr,CDN
+HOST,img5.gelbooru.com,CDN
 HOST,img5.socialshopwave.com,CDN
 HOST,img5.yna.co.kr,CDN
 HOST,img6.airdroid.com,CDN
@@ -1626,6 +1634,7 @@ HOST,js-1-cdn.airdroid.com,CDN
 HOST,js-cdn.blockchair.io,CDN
 HOST,js-eu1.hsforms.net,CDN
 HOST,js-s3.quickcep.com,CDN
+HOST,js.assemblyexchange.com,CDN
 HOST,js.braintreegateway.com,CDN
 HOST,js.chargebee.com,CDN
 HOST,js.chargify.com,CDN
@@ -1882,6 +1891,7 @@ HOST,p.sda1.dev,CDN
 HOST,p.typekit.net,CDN
 HOST,p.udn.com.tw,CDN
 HOST,p2.bahamut.com.tw,CDN
+HOST,pa1.aninoapps.com,CDN
 HOST,pacdn.500px.org,CDN
 HOST,package-assets.oomol.com,CDN
 HOST,packages.jetbrains.team,CDN
@@ -1949,6 +1959,7 @@ HOST,players.brightcove.net,CDN
 HOST,playgroundcdn.typescriptlang.org,CDN
 HOST,plugins.dprint.dev,CDN
 HOST,plus.unsplash.com,CDN
+HOST,pm1.aninoapps.com,CDN
 HOST,pmecdn.protonweb.com,CDN
 HOST,png.pngtree.com,CDN
 HOST,polyfill-fe.toss.im,CDN
@@ -2075,6 +2086,7 @@ HOST,s1.divhunt.com,CDN
 HOST,s1.feedly.com,CDN
 HOST,s1.maxstream.org,CDN
 HOST,s1.qwant.com,CDN
+HOST,s1.zerochan.net,CDN
 HOST,s10.maxstream.org,CDN
 HOST,s11.maxstream.org,CDN
 HOST,s13.maxstream.org,CDN
@@ -2234,6 +2246,7 @@ HOST,static-4.bitchute.com,CDN
 HOST,static-act.imoim.net,CDN
 HOST,static-assets-1.truthsocial.com,CDN
 HOST,static-assets-prod.epicgames.com,CDN
+HOST,static-assets-prod.unrealengine.com,CDN
 HOST,static-assets-web.flixcart.com,CDN
 HOST,static-assets.clubhouseapi.com,CDN
 HOST,static-assets.codecademy.com,CDN
@@ -2289,6 +2302,7 @@ HOST,static.ahrefs.com,CDN
 HOST,static.airtable.com,CDN
 HOST,static.aizanmei.org,CDN
 HOST,static.animaapp.com,CDN
+HOST,static.aninoapps.com,CDN
 HOST,static.anyporn.com,CDN
 HOST,static.anysex.com,CDN
 HOST,static.apkpure.com,CDN
@@ -2498,6 +2512,7 @@ HOST,static.xxxshake.com,CDN
 HOST,static.yfsp.tv,CDN
 HOST,static.zaobao.com,CDN
 HOST,static.zaobao.com.sg,CDN
+HOST,static.zerochan.net,CDN
 HOST,static.zuora.com,CDN
 HOST,static01.nyt.com,CDN
 HOST,static02.nyt.com,CDN
@@ -2717,6 +2732,7 @@ HOST,w.chatlio.com,CDN
 HOST,w.soundcloud.com,CDN
 HOST,w2.influxdata.com,CDN
 HOST,wa.arounddeal.com,CDN
+HOST,wa1.aninoapps.com,CDN
 HOST,wac-cdn.atlassian.com,CDN
 HOST,waitlisted.co,CDN
 HOST,wandi-6402.kxcdn.com,CDN
@@ -2783,8 +2799,10 @@ HOST,www-cdn.uscardforum.com,CDN
 HOST,www-res.cablelabs.com,CDN
 HOST,www-static.ripe.net,CDN
 HOST,www.10086.win,CDN
+HOST,www.acgpix.de,CDN
 HOST,www.bbthat.com,CDN
 HOST,www.gstatic.com,CDN
+HOST,www.paypalobjects.com,CDN
 HOST,www.pngmart.com,CDN
 HOST,www.tbstat.com,CDN
 HOST,www.typescriptlang.org,CDN

@@ -609,7 +609,7 @@ HOST,cdn.iporntv.net,CDN
 HOST,cdn.ipregistry.co,CDN
 HOST,cdn.jamieoliver.com,CDN
 HOST,cdn.javmg.com,CDN
-HOST,cdn.javsts.com,CDN
+HOST,cdn.javmiku.com,CDN
 HOST,cdn.jetboost.io,CDN
 HOST,cdn.jetphotos.com,CDN
 HOST,cdn.jitbit.com,CDN
@@ -1202,7 +1202,6 @@ HOST,files.scamadviser.com,CDN
 HOST,files.slack.com,CDN
 HOST,files.smashing.media,CDN
 HOST,files.svc.ui.com,CDN
-HOST,files.webfe.shopee.io,CDN
 HOST,files.writefreely.org,CDN
 HOST,files.yande.re,CDN
 HOST,filestore.fortinet.com,CDN
@@ -2212,7 +2211,6 @@ HOST,socialpic.video.friday.tw,CDN
 HOST,solve-widget.forethought.ai,CDN
 HOST,source.domaintools.com,CDN
 HOST,source.unsplash.com,CDN
-HOST,sourcemap.webfe.shopeemobile.com,CDN
 HOST,sourcemaps.squarespace.net,CDN
 HOST,sourcepoint.theguardian.com,CDN
 HOST,sp-spiegel-de.spiegel.de,CDN
@@ -3811,6 +3809,7 @@ HOST-SUFFIX,uvcdn.com,CDN
 HOST-SUFFIX,v-cdn.net,CDN
 HOST-SUFFIX,v2ex.co,CDN
 HOST-SUFFIX,valnetcdn.com,CDN
+HOST-SUFFIX,vancdn.com,CDN
 HOST-SUFFIX,vanillicon.com,CDN
 HOST-SUFFIX,vcmdiawe.com,CDN
 HOST-SUFFIX,vercel.app,CDN
@@ -3836,6 +3835,7 @@ HOST-SUFFIX,warnermediacdn.com,CDN
 HOST-SUFFIX,watchlycdn.com,CDN
 HOST-SUFFIX,wdfiles.com,CDN
 HOST-SUFFIX,web.app,CDN
+HOST-SUFFIX,webfe.shopee.io,CDN
 HOST-SUFFIX,webinfcdn.net,CDN
 HOST-SUFFIX,webp.se,CDN
 HOST-SUFFIX,webpkgcache.com,CDN

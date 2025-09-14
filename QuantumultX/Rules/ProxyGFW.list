@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7315
+# 规则统计: 7317
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -3881,6 +3881,7 @@ HOST-SUFFIX,mcadforums.com,ProxyGFW
 HOST-SUFFIX,mcaf.ee,ProxyGFW
 HOST-SUFFIX,mcfog.com,ProxyGFW
 HOST-SUFFIX,mcreasite.com,ProxyGFW
+HOST-SUFFIX,mcusercontent.com,ProxyGFW
 HOST-SUFFIX,md-t.org,ProxyGFW
 HOST-SUFFIX,me.me,ProxyGFW
 HOST-SUFFIX,me.ns.ci,ProxyGFW
@@ -5740,6 +5741,7 @@ HOST-SUFFIX,taiwanus.net,ProxyGFW
 HOST-SUFFIX,taiwanyes.com,ProxyGFW
 HOST-SUFFIX,taiwanyes.ning.com,ProxyGFW
 HOST-SUFFIX,talk853.com,ProxyGFW
+HOST-SUFFIX,talkatone.com,ProxyGFW
 HOST-SUFFIX,talkboxapp.com,ProxyGFW
 HOST-SUFFIX,talkcc.com,ProxyGFW
 HOST-SUFFIX,talkonly.net,ProxyGFW

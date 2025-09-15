@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3969
+# 规则统计: 3974
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -375,6 +375,7 @@ HOST,c7.patreon.com,CDN
 HOST,c8.patreon.com,CDN
 HOST,ca.nfs.pub,CDN
 HOST,cacerts.digicert.com,CDN
+HOST,cacerts.rapidssl.com,CDN
 HOST,cache-05.filehippo.net,CDN
 HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
@@ -767,6 +768,7 @@ HOST,cdn.streamlabs.com,CDN
 HOST,cdn.substack.com,CDN
 HOST,cdn.sunofbeaches.com,CDN
 HOST,cdn.svgator.com,CDN
+HOST,cdn.syftdata.com,CDN
 HOST,cdn.tailwindcss.com,CDN
 HOST,cdn.techcommunity.microsoft.com,CDN
 HOST,cdn.termius.com,CDN
@@ -908,6 +910,7 @@ HOST,cdn8.bigcommerce.com,CDN
 HOST,cdn9.bigcommerce.com,CDN
 HOST,cdna.artstation.com,CDN
 HOST,cdnapi.kaltura.com,CDN
+HOST,cdnassets.roboflow.com,CDN
 HOST,cdnb.artstation.com,CDN
 HOST,cdnc.imagefap.com,CDN
 HOST,cdne-pics.youjizz.com,CDN
@@ -2155,6 +2158,7 @@ HOST,scripts.scriptwrapper.com,CDN
 HOST,scripts.webeo.com,CDN
 HOST,sdata.ndtv.com,CDN
 HOST,sdk.customfit.ai,CDN
+HOST,sdk.gleap.io,CDN
 HOST,sdk.listenlive.co,CDN
 HOST,sdk.loyaltylion.net,CDN
 HOST,sdk.privacy-center.org,CDN
@@ -2460,6 +2464,7 @@ HOST,static.redhat.com,CDN
 HOST,static.registration.bluehost.com,CDN
 HOST,static.reo.dev,CDN
 HOST,static.replay.io,CDN
+HOST,static.roboflow.com,CDN
 HOST,static.salidzini.lv,CDN
 HOST,static.scarf.sh,CDN
 HOST,static.seel.com,CDN

@@ -122,6 +122,18 @@ jobs:
                 curl -f -L "$url" >> Tool-repo/Ruleset/AppleCN.list || { echo "Download Failed: $url"; exit 1; }
                 echo "" >> Tool-repo/Ruleset/AppleCN.list
             done
+            # 合并 Proxy 规则
+            urls=(
+                "https://ruleset.skk.moe/List/non_ip/global.conf"
+                "https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Custom/Proxy.list"
+                "https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Proxy.list"
+            )
+            > Tool-repo/Ruleset/Proxy.list
+            for url in "${urls[@]}"; do
+                echo "Downloading: $url"
+                curl -f -L "$url" >> Tool-repo/Ruleset/Proxy.list || { echo "Download Failed: $url"; exit 1; }
+                echo "" >> Tool-repo/Ruleset/Proxy.list
+            done
             # 下载规则
             files=(
                 # 苹果
@@ -169,6 +181,7 @@ jobs:
                 "Steam.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
                 "Epic.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
                 "Game.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
+                "Xbox.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Xbox/Xbox.list"
                 # 下载CDN
                 "DownloadCDN_Global.list https://git.repcz.link/kelee.one/Tool/Loon/Lsr/InternationalDownloadCDN.lsr"
                 "DownloadCDN_CN.list https://git.repcz.link/kelee.one/Tool/Loon/Lsr/ChinaDownloadCDN.lsr"
@@ -191,7 +204,6 @@ jobs:
                 "Lan.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Lan.list"
                 "Porn.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Porn.list"
                 "Prevent_DNS_Leaks.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Prevent_DNS_Leaks.list"
-                "Proxy.list https://ruleset.skk.moe/List/non_ip/global.conf"
                 "Talkatone.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Talkatone.list"
                 "Telegram_NoIP.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Telegram_NoIP.list"
                 "Telegram.list https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Telegram.list"

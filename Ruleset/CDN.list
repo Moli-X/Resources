@@ -62,6 +62,7 @@ DOMAIN,api.web3.storage
 DOMAIN,apichatwidget.usepylon.com
 DOMAIN,apim.m3pd.com
 DOMAIN,app-api.vidjet.io
+DOMAIN,app-cdn.logo.com
 DOMAIN,app-spm.com
 DOMAIN,app-static.eu.posthog.com
 DOMAIN,app-static.turtl.co
@@ -597,6 +598,7 @@ DOMAIN,cdn.hk01.com
 DOMAIN,cdn.hongkongcard.com
 DOMAIN,cdn.hypershort.com
 DOMAIN,cdn.icomoon.io
+DOMAIN,cdn.icon-icons.com
 DOMAIN,cdn.iconfinder.com
 DOMAIN,cdn.imageengine.io
 DOMAIN,cdn.img.ly
@@ -850,6 +852,7 @@ DOMAIN,cdn1.suno.ai
 DOMAIN,cdn1.sysgears.com
 DOMAIN,cdn1.techbang.com
 DOMAIN,cdn1.telegram.space
+DOMAIN,cdn1.telesco.pe
 DOMAIN,cdn1.unrealengine.com
 DOMAIN,cdn10.bigcommerce.com
 DOMAIN,cdn11.bigcommerce.com
@@ -889,11 +892,13 @@ DOMAIN,cdn4.edgedatg.com
 DOMAIN,cdn4.iconfinder.com
 DOMAIN,cdn4.sysgears.com
 DOMAIN,cdn4.telegram.space
+DOMAIN,cdn4.telesco.pe
 DOMAIN,cdn5.bigcommerce.com
 DOMAIN,cdn5.edgedatg.com
 DOMAIN,cdn5.hextom.com
 DOMAIN,cdn5.iconfinder.com
 DOMAIN,cdn5.telegram.space
+DOMAIN,cdn5.telesco.pe
 DOMAIN,cdn6.aptoide.com
 DOMAIN,cdn6.bigcommerce.com
 DOMAIN,cdn6.edgedatg.com
@@ -1417,6 +1422,7 @@ DOMAIN,images.freeimages.com
 DOMAIN,images.g2crowd.com
 DOMAIN,images.github.media
 DOMAIN,images.hothardware.com
+DOMAIN,images.icon-icons.com
 DOMAIN,images.idgesg.net
 DOMAIN,images.indianexpress.com
 DOMAIN,images.kick.com
@@ -1952,6 +1958,7 @@ DOMAIN,play.vidyard.com
 DOMAIN,play.xfvod.pro
 DOMAIN,player-frontend.cnevids.com
 DOMAIN,player.cnevids.com
+DOMAIN,player.interactivity.brightcove.com
 DOMAIN,player.louisvuitton.com
 DOMAIN,player.svc.litv.tv
 DOMAIN,player.vimeo.com
@@ -2552,6 +2559,7 @@ DOMAIN,stats.setapp.macpaw.dev
 DOMAIN,status.canarymail.io
 DOMAIN,status.ui.com
 DOMAIN,stbff.newfold.com
+DOMAIN,stc.utdstc.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
@@ -2923,6 +2931,7 @@ DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,botsrv2.com
 DOMAIN-SUFFIX,boxcdn.net
 DOMAIN-SUFFIX,bp.blogspot.com
+DOMAIN-SUFFIX,brightcovecdn.com
 DOMAIN-SUFFIX,brightspotcdn.com
 DOMAIN-SUFFIX,bstarstatic.com
 DOMAIN-SUFFIX,bstatic.com

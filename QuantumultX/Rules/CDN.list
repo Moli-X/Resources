@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3975
+# 规则统计: 3984
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -65,6 +65,7 @@ HOST,api.web3.storage,CDN
 HOST,apichatwidget.usepylon.com,CDN
 HOST,apim.m3pd.com,CDN
 HOST,app-api.vidjet.io,CDN
+HOST,app-cdn.logo.com,CDN
 HOST,app-spm.com,CDN
 HOST,app-static.eu.posthog.com,CDN
 HOST,app-static.turtl.co,CDN
@@ -600,6 +601,7 @@ HOST,cdn.hk01.com,CDN
 HOST,cdn.hongkongcard.com,CDN
 HOST,cdn.hypershort.com,CDN
 HOST,cdn.icomoon.io,CDN
+HOST,cdn.icon-icons.com,CDN
 HOST,cdn.iconfinder.com,CDN
 HOST,cdn.imageengine.io,CDN
 HOST,cdn.img.ly,CDN
@@ -853,6 +855,7 @@ HOST,cdn1.suno.ai,CDN
 HOST,cdn1.sysgears.com,CDN
 HOST,cdn1.techbang.com,CDN
 HOST,cdn1.telegram.space,CDN
+HOST,cdn1.telesco.pe,CDN
 HOST,cdn1.unrealengine.com,CDN
 HOST,cdn10.bigcommerce.com,CDN
 HOST,cdn11.bigcommerce.com,CDN
@@ -892,11 +895,13 @@ HOST,cdn4.edgedatg.com,CDN
 HOST,cdn4.iconfinder.com,CDN
 HOST,cdn4.sysgears.com,CDN
 HOST,cdn4.telegram.space,CDN
+HOST,cdn4.telesco.pe,CDN
 HOST,cdn5.bigcommerce.com,CDN
 HOST,cdn5.edgedatg.com,CDN
 HOST,cdn5.hextom.com,CDN
 HOST,cdn5.iconfinder.com,CDN
 HOST,cdn5.telegram.space,CDN
+HOST,cdn5.telesco.pe,CDN
 HOST,cdn6.aptoide.com,CDN
 HOST,cdn6.bigcommerce.com,CDN
 HOST,cdn6.edgedatg.com,CDN
@@ -1420,6 +1425,7 @@ HOST,images.freeimages.com,CDN
 HOST,images.g2crowd.com,CDN
 HOST,images.github.media,CDN
 HOST,images.hothardware.com,CDN
+HOST,images.icon-icons.com,CDN
 HOST,images.idgesg.net,CDN
 HOST,images.indianexpress.com,CDN
 HOST,images.kick.com,CDN
@@ -1955,6 +1961,7 @@ HOST,play.vidyard.com,CDN
 HOST,play.xfvod.pro,CDN
 HOST,player-frontend.cnevids.com,CDN
 HOST,player.cnevids.com,CDN
+HOST,player.interactivity.brightcove.com,CDN
 HOST,player.louisvuitton.com,CDN
 HOST,player.svc.litv.tv,CDN
 HOST,player.vimeo.com,CDN
@@ -2555,6 +2562,7 @@ HOST,stats.setapp.macpaw.dev,CDN
 HOST,status.canarymail.io,CDN
 HOST,status.ui.com,CDN
 HOST,stbff.newfold.com,CDN
+HOST,stc.utdstc.com,CDN
 HOST,steamcdn-a.akamaihd.net,CDN
 HOST,steamusercontent-a.akamaihd.net,CDN
 HOST,steamuserimages-a.akamaihd.net,CDN
@@ -2926,6 +2934,7 @@ HOST-SUFFIX,bootstrapcdn.com,CDN
 HOST-SUFFIX,botsrv2.com,CDN
 HOST-SUFFIX,boxcdn.net,CDN
 HOST-SUFFIX,bp.blogspot.com,CDN
+HOST-SUFFIX,brightcovecdn.com,CDN
 HOST-SUFFIX,brightspotcdn.com,CDN
 HOST-SUFFIX,bstarstatic.com,CDN
 HOST-SUFFIX,bstatic.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3984
+# 规则统计: 3996
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -72,6 +72,7 @@ HOST,app-static.turtl.co,CDN
 HOST,app.1password.com,CDN
 HOST,app.backinstock.org,CDN
 HOST,app.brightback.com,CDN
+HOST,app.cart-bot.net,CDN
 HOST,app.chatwoot.com,CDN
 HOST,app.cookieyes.com,CDN
 HOST,app.groove.cm,CDN
@@ -309,6 +310,7 @@ HOST,az700632.vo.msecnd.net,CDN
 HOST,b.peatio.com,CDN
 HOST,b.sf-syn.com,CDN
 HOST,b5x-sentry.1passwordservices.com,CDN
+HOST,backinstock.useamp.com,CDN
 HOST,badbits.dwebops.pub,CDN
 HOST,badge.buildkite.com,CDN
 HOST,badge.fury.io,CDN
@@ -341,6 +343,7 @@ HOST,bucket.noy.asia,CDN
 HOST,bucket1.notaku.so,CDN
 HOST,bulletin.svc.litv.tv,CDN
 HOST,bundle.5gtb.com,CDN
+HOST,bundle.9gtb.com,CDN
 HOST,bundle.dyn-rev.app,CDN
 HOST,bundle.trysavvy.com,CDN
 HOST,bundlephobia.com,CDN
@@ -380,6 +383,7 @@ HOST,cacerts.rapidssl.com,CDN
 HOST,cache-05.filehippo.net,CDN
 HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
+HOST,cache.industry.siemens.com,CDN
 HOST,cache.omnicalculator.com,CDN
 HOST,cached.rebuyengine.com,CDN
 HOST,canny-assets.io,CDN
@@ -390,6 +394,7 @@ HOST,cc.boyfriendtv.com,CDN
 HOST,cdn-1.ggjav.com,CDN
 HOST,cdn-1.strava.com,CDN
 HOST,cdn-a.sonyentertainmentnetwork.com,CDN
+HOST,cdn-app.cart-bot.net,CDN
 HOST,cdn-app.pathfactory.com,CDN
 HOST,cdn-assets.circleci.com,CDN
 HOST,cdn-avatars.huggingface.co,CDN
@@ -1062,6 +1067,7 @@ HOST,d4.alternativeto.net,CDN
 HOST,dam.freshworks.com,CDN
 HOST,damassets.autodesk.net,CDN
 HOST,dassets.shimano.com,CDN
+HOST,data.cdn.siemens.com,CDN
 HOST,data.jsdelivr.com,CDN
 HOST,data.osmand.net,CDN
 HOST,data.pendo.io,CDN
@@ -1624,6 +1630,7 @@ HOST,import-cdn.default.com,CDN
 HOST,ims.windy.com,CDN
 HOST,info.cloudflare.com,CDN
 HOST,info.knak.com,CDN
+HOST,instafeed.nfcube.com,CDN
 HOST,int.mwbbiz.com,CDN
 HOST,integrations.gitbook.com,CDN
 HOST,interactive-examples.mdn.mozilla.net,CDN
@@ -1696,6 +1703,7 @@ HOST,lib.arvancloud.ir,CDN
 HOST,libraries.hund.io,CDN
 HOST,libs.quillbot.com,CDN
 HOST,lift-ai-js.marketlinc.com,CDN
+HOST,light.spicegems.org,CDN
 HOST,lightning.cnn.com,CDN
 HOST,limitless.cmax.ai,CDN
 HOST,link.storjshare.io,CDN
@@ -2472,6 +2480,7 @@ HOST,static.redhat.com,CDN
 HOST,static.registration.bluehost.com,CDN
 HOST,static.reo.dev,CDN
 HOST,static.replay.io,CDN
+HOST,static.returngo.ai,CDN
 HOST,static.roboflow.com,CDN
 HOST,static.salidzini.lv,CDN
 HOST,static.scarf.sh,CDN
@@ -2778,6 +2787,7 @@ HOST,webstatic.chargebee.com,CDN
 HOST,widget.automizely.com,CDN
 HOST,widget.datablocks.se,CDN
 HOST,widget.docsbot.ai,CDN
+HOST,widget.finlogix.com,CDN
 HOST,widget.freshworks.com,CDN
 HOST,widget.gotolstoy.com,CDN
 HOST,widget.intercom.io,CDN
@@ -3129,6 +3139,7 @@ HOST-SUFFIX,envatousercontent.com,CDN
 HOST-SUFFIX,epimg.net,CDN
 HOST-SUFFIX,erocdn.co,CDN
 HOST-SUFFIX,eroimg.net,CDN
+HOST-SUFFIX,esc-apps-cdn.com,CDN
 HOST-SUFFIX,esm.run,CDN
 HOST-SUFFIX,esm.sh,CDN
 HOST-SUFFIX,espncdn.com,CDN
@@ -3440,6 +3451,7 @@ HOST-SUFFIX,media.ci-en.jp,CDN
 HOST-SUFFIX,media.strapiapp.com,CDN
 HOST-SUFFIX,media.tumblr.com,CDN
 HOST-SUFFIX,media.zestyio.com,CDN
+HOST-SUFFIX,mediadecathlon.com,CDN
 HOST-SUFFIX,mediadelivery.net,CDN
 HOST-SUFFIX,meetupstatic.com,CDN
 HOST-SUFFIX,mercdn.net,CDN

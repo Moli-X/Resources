@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3996
+# 规则统计: 3998
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1142,6 +1142,7 @@ HOST,embed.tawk.to,CDN
 HOST,embed.ted.com,CDN
 HOST,embed.twitch.tv,CDN
 HOST,embed.typeform.com,CDN
+HOST,embed.zenn.studio,CDN
 HOST,embedr.flickr.com,CDN
 HOST,embedwistia-a.akamaihd.net,CDN
 HOST,emoji-css.afeld.me,CDN
@@ -2534,6 +2535,7 @@ HOST,static.xxxshake.com,CDN
 HOST,static.yfsp.tv,CDN
 HOST,static.zaobao.com,CDN
 HOST,static.zaobao.com.sg,CDN
+HOST,static.zenn.studio,CDN
 HOST,static.zerochan.net,CDN
 HOST,static.zuora.com,CDN
 HOST,static01.nyt.com,CDN

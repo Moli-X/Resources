@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 832
+# 规则统计: 835
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -10,7 +10,9 @@ HOST,cdnstatic.tencentcs.com,ChinaDomain
 HOST,cn.download.nvidia.com,ChinaDomain
 HOST,config.ubnt.com,ChinaDomain
 HOST,dl.ubnt.com,ChinaDomain
+HOST,dns.pub,ChinaDomain
 HOST,doh.pub,ChinaDomain
+HOST,dot.pub,ChinaDomain
 HOST,gstore.val.manlaxy.com,ChinaDomain
 HOST,i.dell.com,ChinaDomain
 HOST,kms.03k.org,ChinaDomain
@@ -66,6 +68,7 @@ HOST-SUFFIX,360in.com,ChinaDomain
 HOST-SUFFIX,360kuai.com,ChinaDomain
 HOST-SUFFIX,360os.com,ChinaDomain
 HOST-SUFFIX,360safe.com,ChinaDomain
+HOST-SUFFIX,360simg.com,ChinaDomain
 HOST-SUFFIX,360tpcdn.com,ChinaDomain
 HOST-SUFFIX,360webcache.com,ChinaDomain
 HOST-SUFFIX,36kr.com,ChinaDomain

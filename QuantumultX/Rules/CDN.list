@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3998
+# 规则统计: 4000
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1425,6 +1425,7 @@ HOST,images.emojiterra.com,CDN
 HOST,images.en.aptoide.com,CDN
 HOST,images.everyplate.com,CDN
 HOST,images.fandango.com,CDN
+HOST,images.filepuma.com,CDN
 HOST,images.financemagnates.com,CDN
 HOST,images.findagrave.com,CDN
 HOST,images.flightradar24.com,CDN
@@ -1697,6 +1698,7 @@ HOST,launcher.spot.im,CDN
 HOST,launchercontent.mojang.com,CDN
 HOST,lc.nssurge.com,CDN
 HOST,lcdn-locator.apple.com,CDN
+HOST,learn-attachment.microsoft.com,CDN
 HOST,learn.optimizely.com,CDN
 HOST,lecontent.sololearn.com,CDN
 HOST,ledger-wp-website-s3-prd.ledger.com,CDN

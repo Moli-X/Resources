@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7317
+# 规则统计: 7320
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -2303,6 +2303,7 @@ HOST-SUFFIX,gardennetworks.com,ProxyGFW
 HOST-SUFFIX,gardennetworks.org,ProxyGFW
 HOST-SUFFIX,garena.com,ProxyGFW
 HOST-SUFFIX,gartlive.com,ProxyGFW
+HOST-SUFFIX,garudalinux.org,ProxyGFW
 HOST-SUFFIX,gate-project.com,ProxyGFW
 HOST-SUFFIX,gate.io,ProxyGFW
 HOST-SUFFIX,gatecoin.com,ProxyGFW
@@ -4348,6 +4349,7 @@ HOST-SUFFIX,ninjacloak.com,ProxyGFW
 HOST-SUFFIX,ninjaproxy.ninja,ProxyGFW
 HOST-SUFFIX,nintendium.com,ProxyGFW
 HOST-SUFFIX,ninth.biz,ProxyGFW
+HOST-SUFFIX,nirsoft.net,ProxyGFW
 HOST-SUFFIX,nitter.cc,ProxyGFW
 HOST-SUFFIX,nitter.net,ProxyGFW
 HOST-SUFFIX,niu.moe,ProxyGFW
@@ -6592,6 +6594,7 @@ HOST-SUFFIX,vpnvip.com,ProxyGFW
 HOST-SUFFIX,vpnworldwide.com,ProxyGFW
 HOST-SUFFIX,vporn.com,ProxyGFW
 HOST-SUFFIX,vpser.net,ProxyGFW
+HOST-SUFFIX,vpsxb.net,ProxyGFW
 HOST-SUFFIX,vraiesagesse.net,ProxyGFW
 HOST-SUFFIX,vrchat.com,ProxyGFW
 HOST-SUFFIX,vrmtr.com,ProxyGFW

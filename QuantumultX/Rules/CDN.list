@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4000
+# 规则统计: 4002
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -716,6 +716,7 @@ HOST,cdn.quadpay.com,CDN
 HOST,cdn.quickemailverification.com,CDN
 HOST,cdn.rauno.me,CDN
 HOST,cdn.readme.io,CDN
+HOST,cdn.readmoo.com,CDN
 HOST,cdn.ready-market.com.tw,CDN
 HOST,cdn.rebuyengine.com,CDN
 HOST,cdn.recovermycart.com,CDN
@@ -2041,6 +2042,7 @@ HOST,rapid-cdn.yottaa.com,CDN
 HOST,raw.github.com,CDN
 HOST,rawmarkdown.cloudflareaccess.org,CDN
 HOST,rbds-static.redbull.com,CDN
+HOST,reader.readmoo.com,CDN
 HOST,rebound.postmarkapp.com,CDN
 HOST,redircdn.com,CDN
 HOST,registry.api.cnn.io,CDN

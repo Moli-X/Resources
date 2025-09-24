@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 94996
+# 规则统计: 94997
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -9340,6 +9340,7 @@ HOST-SUFFIX,api.myadsget.com,Anti-Ad
 HOST-SUFFIX,api.newad.ifeng.com,Anti-Ad
 HOST-SUFFIX,api.newbelden.com,Anti-Ad
 HOST-SUFFIX,api.newsfeed.intl.miui.com,Anti-Ad
+HOST-SUFFIX,api.open.oppomobile.com,Anti-Ad
 HOST-SUFFIX,api.pingstart.com,Anti-Ad
 HOST-SUFFIX,api.poll.aiseet.atianqi.com,Anti-Ad
 HOST-SUFFIX,api.primecaster.net,Anti-Ad

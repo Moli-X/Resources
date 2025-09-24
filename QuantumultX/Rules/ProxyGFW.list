@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7321
+# 规则统计: 7323
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -382,6 +382,7 @@ HOST-SUFFIX,apetube.com,ProxyGFW
 HOST-SUFFIX,api-secure.recaptcha.net,ProxyGFW
 HOST-SUFFIX,api-verify.recaptcha.net,ProxyGFW
 HOST-SUFFIX,api.ai,ProxyGFW
+HOST-SUFFIX,api.palworldgame.com,ProxyGFW
 HOST-SUFFIX,api.proxlet.com,ProxyGFW
 HOST-SUFFIX,api.pureapk.com,ProxyGFW
 HOST-SUFFIX,api.recaptcha.net,ProxyGFW
@@ -4474,6 +4475,7 @@ HOST-SUFFIX,ocreampies.com,ProxyGFW
 HOST-SUFFIX,ocry.com,ProxyGFW
 HOST-SUFFIX,ocsp.int-x3.letsencrypt.org,ProxyGFW
 HOST-SUFFIX,october-review.org,ProxyGFW
+HOST-SUFFIX,octocaptcha.com,ProxyGFW
 HOST-SUFFIX,oculus.com,ProxyGFW
 HOST-SUFFIX,oculuscdn.com,ProxyGFW
 HOST-SUFFIX,odysee.com,ProxyGFW

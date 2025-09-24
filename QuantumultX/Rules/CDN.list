@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4002
+# 规则统计: 4003
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1759,6 +1759,7 @@ HOST,media-cms.onesignal.com,CDN
 HOST,media-s3-us-east-1.ceros.com,CDN
 HOST,media.beehiiv.com,CDN
 HOST,media.breitbart.com,CDN
+HOST,media.bundlehunt.com,CDN
 HOST,media.cleanshot.cloud,CDN
 HOST,media.cmx.edu.kg,CDN
 HOST,media.cnn.com,CDN

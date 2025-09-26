@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4003
+# 规则统计: 4009
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1005,6 +1005,7 @@ HOST,code.upscope.io,CDN
 HOST,comm.res.easebar.com,CDN
 HOST,common-header.nimg.jp,CDN
 HOST,components.clever-cloud.com,CDN
+HOST,components.cyclingfactory.be,CDN
 HOST,components.justanswer.com,CDN
 HOST,components.trynow.net,CDN
 HOST,components.unrealengine.com,CDN
@@ -1418,6 +1419,7 @@ HOST,images.carfax.com,CDN
 HOST,images.contentful.com,CDN
 HOST,images.contentstack.io,CDN
 HOST,images.crunchbase.com,CDN
+HOST,images.cyclingfactory.be,CDN
 HOST,images.design-editor.com,CDN
 HOST,images.dmca.com,CDN
 HOST,images.drata.com,CDN
@@ -1496,6 +1498,7 @@ HOST,img-5-cdn.airdroid.com,CDN
 HOST,img-api.mac4ever.com,CDN
 HOST,img-cos.mandaoo.com,CDN
 HOST,img-en.fs.com,CDN
+HOST,img-fnc.ebc.net.tw,CDN
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,CDN
 HOST,img-s-msn-com.akamaized.net,CDN
 HOST,img.177pica.com,CDN
@@ -2039,6 +2042,7 @@ HOST,r2.1hanime.com,CDN
 HOST,r2.leadsy.ai,CDN
 HOST,r2cdn.myshopline.com,CDN
 HOST,r2cdn.perplexity.ai,CDN
+HOST,r34xyz.b-cdn.net,CDN
 HOST,rapid-cdn.yottaa.com,CDN
 HOST,raw.github.com,CDN
 HOST,rawmarkdown.cloudflareaccess.org,CDN
@@ -2590,6 +2594,7 @@ HOST,storage.gra.cloud.ovh.net,CDN
 HOST,storage.ko-fi.com,CDN
 HOST,storage.moegirl.tw,CDN
 HOST,storage.sciencecast.org,CDN
+HOST,storage.tally.so,CDN
 HOST,storage.windiscover.com,CDN
 HOST,storage.withfabric.xyz,CDN
 HOST,storageapi.fleek.co,CDN
@@ -2647,6 +2652,7 @@ HOST,thumbor.forbes.com,CDN
 HOST,thumbs.onlyfans.com,CDN
 HOST,thumbs2.sendvid.com,CDN
 HOST,thumbsnap.com,CDN
+HOST,tile2.intervals.icu,CDN
 HOST,tiles.openfreemap.org,CDN
 HOST,tiles.stadiamaps.com,CDN
 HOST,tiles.versatiles.org,CDN

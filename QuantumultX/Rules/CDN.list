@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4009
+# 规则统计: 4012
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -156,6 +156,7 @@ HOST,assets.dictionary.com,CDN
 HOST,assets.dify.ai,CDN
 HOST,assets.dnsfilter.com,CDN
 HOST,assets.documentcloud.org,CDN
+HOST,assets.dub.co,CDN
 HOST,assets.dwncdn.net,CDN
 HOST,assets.ecomm.ui.com,CDN
 HOST,assets.embeddables.com,CDN
@@ -1322,6 +1323,7 @@ HOST,i.iwara.tv,CDN
 HOST,i.jpg.dog,CDN
 HOST,i.kickstarter.com,CDN
 HOST,i.loli.best,CDN
+HOST,i.magecdn.com,CDN
 HOST,i.mediatek.com,CDN
 HOST,i.mij.rip,CDN
 HOST,i.mt.lv,CDN
@@ -2783,6 +2785,7 @@ HOST,web-assets.waze.com,CDN
 HOST,web-assets.zendesk.co.jp,CDN
 HOST,web-assets.zendesk.com,CDN
 HOST,web-cdn.bitrise.io,CDN
+HOST,web-cdn.bsky.app,CDN
 HOST,web-sdk-cdn.eyefitu.com,CDN
 HOST,web-sdk.eyefitu.com,CDN
 HOST,web-static.archive.org,CDN

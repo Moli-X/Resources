@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 38
+# 规则统计: 39
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,AI
 HOST,ai.google.dev,AI
@@ -20,6 +20,7 @@ HOST-SUFFIX,deepmind.com,AI
 HOST-SUFFIX,deepmind.google,AI
 HOST-SUFFIX,dify.ai,AI
 HOST-SUFFIX,geller-pa.googleapis.com,AI
+HOST-SUFFIX,gemini.google,AI
 HOST-SUFFIX,gemini.google.com,AI
 HOST-SUFFIX,generativeai.google,AI
 HOST-SUFFIX,generativelanguage.googleapis.com,AI

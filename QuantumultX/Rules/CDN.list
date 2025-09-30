@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4014
+# 规则统计: 4022
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -193,6 +193,7 @@ HOST,assets.ifttt.com,CDN
 HOST,assets.ipstack.com,CDN
 HOST,assets.jable.tv,CDN
 HOST,assets.jolipage.co,CDN
+HOST,assets.juksy.com,CDN
 HOST,assets.kagi.com,CDN
 HOST,assets.keysquare.io,CDN
 HOST,assets.khoros.com,CDN
@@ -249,6 +250,7 @@ HOST,assets.static-upwork.com,CDN
 HOST,assets.stickpng.com,CDN
 HOST,assets.stigg.io,CDN
 HOST,assets.swoogo.com,CDN
+HOST,assets.tatlerasia.com,CDN
 HOST,assets.the-independent.com,CDN
 HOST,assets.time.com,CDN
 HOST,assets.toiimg.com,CDN
@@ -779,6 +781,7 @@ HOST,cdn.sunofbeaches.com,CDN
 HOST,cdn.svgator.com,CDN
 HOST,cdn.syftdata.com,CDN
 HOST,cdn.tailwindcss.com,CDN
+HOST,cdn.tatlerasia.com,CDN
 HOST,cdn.techcommunity.microsoft.com,CDN
 HOST,cdn.termius.com,CDN
 HOST,cdn.theatlantic.com,CDN
@@ -853,6 +856,7 @@ HOST,cdn1.bigcommerce.com,CDN
 HOST,cdn1.dan.com,CDN
 HOST,cdn1.edgedatg.com,CDN
 HOST,cdn1.epicgames.com,CDN
+HOST,cdn1.ettoday.net,CDN
 HOST,cdn1.hentaicity.com,CDN
 HOST,cdn1.hotmoza.tv,CDN
 HOST,cdn1.iconfinder.com,CDN
@@ -1081,7 +1085,6 @@ HOST,david-dm.org,CDN
 HOST,db.onlinewebfonts.com,CDN
 HOST,dc-cdn.cdw.com,CDN
 HOST,dd.dexscreener.com,CDN
-HOST,ddcdn.comtucdncom.com,CDN
 HOST,demo.unified-streaming.com,CDN
 HOST,demotiles.maplibre.org,CDN
 HOST,denali-static.grammarly.com,CDN
@@ -1474,6 +1477,7 @@ HOST,images.tokopedia.net,CDN
 HOST,images.typeform.com,CDN
 HOST,images.unsplash.com,CDN
 HOST,images.videolan.org,CDN
+HOST,images.voguehk.com,CDN
 HOST,images.web3.storage,CDN
 HOST,images.weserv.nl,CDN
 HOST,images.wikia.com,CDN
@@ -1606,7 +1610,6 @@ HOST,img4.gelbooru.com,CDN
 HOST,img4.javmost.com,CDN
 HOST,img4.socialshopwave.com,CDN
 HOST,img4.yna.co.kr,CDN
-HOST,img5.gelbooru.com,CDN
 HOST,img5.socialshopwave.com,CDN
 HOST,img5.yna.co.kr,CDN
 HOST,img6.airdroid.com,CDN
@@ -1778,6 +1781,7 @@ HOST,media.dev.to,CDN
 HOST,media.discordapp.net,CDN
 HOST,media.dlsite.com,CDN
 HOST,media.e4le.me,CDN
+HOST,media.ettoday.net,CDN
 HOST,media.evolv.ai,CDN
 HOST,media.fc2.com,CDN
 HOST,media.flaticon.com,CDN
@@ -2232,7 +2236,6 @@ HOST,sites.chase.com,CDN
 HOST,sites.super.so,CDN
 HOST,skills-assets.pstmn.io,CDN
 HOST,sm.ign.com,CDN
-HOST,smd-cms.nasa.gov,CDN
 HOST,sn-s3-cdn.angry.im,CDN
 HOST,snippet.growsumo.com,CDN
 HOST,snippet.maze.co,CDN
@@ -2252,6 +2255,7 @@ HOST,sp.replit.com,CDN
 HOST,sp.streamlabs.com,CDN
 HOST,spcdn.incartupsell.com,CDN
 HOST,spoprod-a.akamaihd.net,CDN
+HOST,spotlightimage.biggo.com,CDN
 HOST,sprig.figma.com,CDN
 HOST,ss7.vzw.com,CDN
 HOST,ssl.gstatic.com,CDN
@@ -2284,6 +2288,7 @@ HOST,static-assets.clubhouseapi.com,CDN
 HOST,static-assets.codecademy.com,CDN
 HOST,static-assets.coinbase.com,CDN
 HOST,static-assets.freeanimehentai.net,CDN
+HOST,static-assets.juksy.com,CDN
 HOST,static-assets.mapbox.com,CDN
 HOST,static-assets.npr.org,CDN
 HOST,static-assets.vinted.com,CDN
@@ -2441,6 +2446,7 @@ HOST,static.launchdarkly.com,CDN
 HOST,static.licdn.com,CDN
 HOST,static.linear.app,CDN
 HOST,static.lingq.com,CDN
+HOST,static.lwn.net,CDN
 HOST,static.macupdate.com,CDN
 HOST,static.maxmind.com,CDN
 HOST,static.mediafire.com,CDN
@@ -2667,6 +2673,7 @@ HOST,time.apple.com,CDN
 HOST,time.cloudflare.com,CDN
 HOST,time.google.com,CDN
 HOST,time.windows.com,CDN
+HOST,tn.tubepornclassic.com,CDN
 HOST,tn.txxx.tube,CDN
 HOST,tn.upornia.com,CDN
 HOST,tn.vjav.com,CDN
@@ -3925,6 +3932,7 @@ HOST-SUFFIX,yimg.com,CDN
 HOST-SUFFIX,yimg.jp,CDN
 HOST-SUFFIX,ymq.cool,CDN
 HOST-SUFFIX,yourimageshare.com,CDN
+HOST-SUFFIX,ypcdn.com,CDN
 HOST-SUFFIX,ypncdn.com,CDN
 HOST-SUFFIX,yps.link,CDN
 HOST-SUFFIX,ytimg.com,CDN

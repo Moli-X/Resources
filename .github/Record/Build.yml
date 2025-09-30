@@ -126,7 +126,6 @@ jobs:
             urls=(
                 "https://ruleset.skk.moe/List/non_ip/global.conf"
                 "https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Custom/Proxy.list"
-                "https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Proxy.list"
             )
             > Tool-repo/Ruleset/Proxy.list
             for url in "${urls[@]}"; do

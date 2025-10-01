@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4022
+# 规则统计: 4028
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -567,6 +567,7 @@ HOST,cdn.evbstatic.com,CDN
 HOST,cdn.faire.com,CDN
 HOST,cdn.fastcomments.com,CDN
 HOST,cdn.fasterthanli.me,CDN
+HOST,cdn.fellou.ai,CDN
 HOST,cdn.fera.ai,CDN
 HOST,cdn.filen.io,CDN
 HOST,cdn.firebase.com,CDN
@@ -2001,6 +2002,7 @@ HOST,pomf2.lain.la,CDN
 HOST,pool.jortage.com,CDN
 HOST,pplx-next-static-public.perplexity.ai,CDN
 HOST,pplx-res.cloudinary.com,CDN
+HOST,pptstatic.iyf.tv,CDN
 HOST,practicaldev-herokuapp-com.freetls.fastly.net,CDN
 HOST,prego-cache.prod.sketch.com,CDN
 HOST,prettier.io,CDN
@@ -2389,6 +2391,7 @@ HOST,static.edge.microsoftapp.net,CDN
 HOST,static.elfsight.com,CDN
 HOST,static.eroterest.net,CDN
 HOST,static.esimplus.net,CDN
+HOST,static.ess.apple.com,CDN
 HOST,static.ettoday.net,CDN
 HOST,static.euronews.com,CDN
 HOST,static.fastboostcdn.com,CDN
@@ -2434,6 +2437,7 @@ HOST,static.infomaniak.ch,CDN
 HOST,static.institution.grammarly.com,CDN
 HOST,static.iris.informa.com,CDN
 HOST,static.itch.io,CDN
+HOST,static.iyf.tv,CDN
 HOST,static.j51.net,CDN
 HOST,static.javcdn.info,CDN
 HOST,static.javhd.com,CDN
@@ -3125,6 +3129,7 @@ HOST-SUFFIX,disquscdn.com,CDN
 HOST-SUFFIX,divio-media.net,CDN
 HOST-SUFFIX,dlunar.net,CDN
 HOST-SUFFIX,dmcdn.net,CDN
+HOST-SUFFIX,dnvodcdn.me,CDN
 HOST-SUFFIX,docker.io,CDN
 HOST-SUFFIX,dockerstatic.com,CDN
 HOST-SUFFIX,dogehls.xyz,CDN
@@ -3250,6 +3255,7 @@ HOST-SUFFIX,gitlab.io,CDN
 HOST-SUFFIX,gitpage.si,CDN
 HOST-SUFFIX,glass.adidas.com,CDN
 HOST-SUFFIX,glbimg.com,CDN
+HOST-SUFFIX,global-cdn.me,CDN
 HOST-SUFFIX,gold-usergeneratedcontent.net,CDN
 HOST-SUFFIX,googleadservices.com,CDN
 HOST-SUFFIX,googleusercontent.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4028
+# 规则统计: 4032
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -308,6 +308,7 @@ HOST,avatars.mds.yandex.net,CDN
 HOST,avatars.micro.blog,CDN
 HOST,avatars.plurk.com,CDN
 HOST,avts.wmlabs.net,CDN
+HOST,awsimgsrc.dmm.co.jp,CDN
 HOST,axiecdn.axieinfinity.com,CDN
 HOST,az700632.vo.msecnd.net,CDN
 HOST,b.peatio.com,CDN
@@ -1967,6 +1968,7 @@ HOST,pics.x-n-x-x.pro,CDN
 HOST,pics2.serviporno.com,CDN
 HOST,pictures-cdn.porn.com,CDN
 HOST,pim-media.intel.com,CDN
+HOST,pixoraa.cc,CDN
 HOST,pkg-cdn.jetbrains.team,CDN
 HOST,pkg-size.dev,CDN
 HOST,pkg.csb.dev,CDN
@@ -2215,6 +2217,7 @@ HOST,segapi.clerk.com,CDN
 HOST,segment.digitalocean.com,CDN
 HOST,sentry.ainopara.com,CDN
 HOST,seo-wp.airdroid.com,CDN
+HOST,sequoia.cdn-apple.com,CDN
 HOST,service-icons.zeabur.com,CDN
 HOST,services.linkfire.com,CDN
 HOST,sf-coze-web-cdn.coze.com,CDN
@@ -2708,6 +2711,7 @@ HOST,ubistatic2-a.akamaihd.net,CDN
 HOST,ubistatic2-a.ubisoft.com,CDN
 HOST,udata.namespace.so,CDN
 HOST,uhf.microsoft.com,CDN
+HOST,ui-cdn.digitalocean-ui.com,CDN
 HOST,ui-cdn.digitalocean.com,CDN
 HOST,ui-statics-cf.streamable.com,CDN
 HOST,ui.contentstack.com,CDN

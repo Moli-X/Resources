@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4032
+# 规则统计: 4037
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1675,6 +1675,7 @@ HOST,js.jotform.com,CDN
 HOST,js.klarn.com,CDN
 HOST,js.klarna.com,CDN
 HOST,js.memberful.com,CDN
+HOST,js.nagich.co.il,CDN
 HOST,js.navattic.com,CDN
 HOST,js.partnerstack.com,CDN
 HOST,js.pngtree.com,CDN
@@ -2259,6 +2260,7 @@ HOST,sp.nba.com,CDN
 HOST,sp.replit.com,CDN
 HOST,sp.streamlabs.com,CDN
 HOST,spcdn.incartupsell.com,CDN
+HOST,speedmedia2.jfrog.com,CDN
 HOST,spoprod-a.akamaihd.net,CDN
 HOST,spotlightimage.biggo.com,CDN
 HOST,sprig.figma.com,CDN
@@ -2306,6 +2308,7 @@ HOST,static-cdn.bytegiftia.top,CDN
 HOST,static-cdn.jtvnw.net,CDN
 HOST,static-cdn.spot.im,CDN
 HOST,static-cdn.usertesting.com,CDN
+HOST,static-cf.foxdata.com,CDN
 HOST,static-clst.avgle.com,CDN
 HOST,static-community.tp-link.com,CDN
 HOST,static-dm.ubisoft.com,CDN
@@ -2359,6 +2362,7 @@ HOST,static.beebom.com,CDN
 HOST,static.bit.cloud,CDN
 HOST,static.bit.dev,CDN
 HOST,static.bitfinex.com,CDN
+HOST,static.bodor.com,CDN
 HOST,static.bravoporn.com,CDN
 HOST,static.buffer.com,CDN
 HOST,static.buydomains.com,CDN
@@ -2487,6 +2491,7 @@ HOST,static.olelive.com,CDN
 HOST,static.onlinewebfonts.com,CDN
 HOST,static.onlyfans.com,CDN
 HOST,static.oomol.com,CDN
+HOST,static.openreplay.com,CDN
 HOST,static.opensea.io,CDN
 HOST,static.oracle.com,CDN
 HOST,static.parallels.com,CDN

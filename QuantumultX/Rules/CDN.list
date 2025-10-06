@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4037
+# 规则统计: 4043
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -127,6 +127,7 @@ HOST,assets.awwwards.com,CDN
 HOST,assets.basehub.com,CDN
 HOST,assets.bbhub.io,CDN
 HOST,assets.bitstamp.net,CDN
+HOST,assets.bitwarden.com,CDN
 HOST,assets.bnidx.com,CDN
 HOST,assets.braintreegateway.com,CDN
 HOST,assets.bravenet.com,CDN
@@ -403,6 +404,7 @@ HOST,cdn-app.pathfactory.com,CDN
 HOST,cdn-assets.circleci.com,CDN
 HOST,cdn-avatars.huggingface.co,CDN
 HOST,cdn-b.saashub.com,CDN
+HOST,cdn-blocks.karte.io,CDN
 HOST,cdn-bundler.nice-team.net,CDN
 HOST,cdn-c.leavemealone.com,CDN
 HOST,cdn-cf-east.streamable.com,CDN
@@ -507,6 +509,7 @@ HOST,cdn.chess24.com,CDN
 HOST,cdn.circle.so,CDN
 HOST,cdn.clever-cloud.com,CDN
 HOST,cdn.cliqz.com,CDN
+HOST,cdn.cloud.unity.com,CDN
 HOST,cdn.cloudcraft.co,CDN
 HOST,cdn.cmcmarkets.com,CDN
 HOST,cdn.cms-twdigitalassets.com,CDN
@@ -647,6 +650,7 @@ HOST,cdn.lihkg.com,CDN
 HOST,cdn.linearicons.com,CDN
 HOST,cdn.livechatinc.com,CDN
 HOST,cdn.logbase.io,CDN
+HOST,cdn.login.unity.com,CDN
 HOST,cdn.loom.com,CDN
 HOST,cdn.macstories.net,CDN
 HOST,cdn.manageengine.com,CDN
@@ -1363,6 +1367,7 @@ HOST,icons.ly,CDN
 HOST,icons.simplesvg.com,CDN
 HOST,icons.veryicon.com,CDN
 HOST,icons.zeabur.com,CDN
+HOST,idportal-cdn-prd.unity.com,CDN
 HOST,iframe.nbcnews.com,CDN
 HOST,ih0.redbubble.net,CDN
 HOST,ih1.redbubble.net,CDN
@@ -2252,6 +2257,7 @@ HOST,social-reaction-api.hk01.com,CDN
 HOST,socialpic.video.friday.tw,CDN
 HOST,solve-widget.forethought.ai,CDN
 HOST,source.domaintools.com,CDN
+HOST,source.roboflow.com,CDN
 HOST,source.unsplash.com,CDN
 HOST,sourcemaps.squarespace.net,CDN
 HOST,sourcepoint.theguardian.com,CDN

@@ -99,6 +99,7 @@ DOMAIN,assets-app.circleci.com
 DOMAIN,assets-cdn.123rf.com
 DOMAIN,assets-cdn.abcnews.com
 DOMAIN,assets-cdn.abcotvs.net
+DOMAIN,assets-cdn.anh.moe
 DOMAIN,assets-cdn.jable.tv
 DOMAIN,assets-cdn.porn.com
 DOMAIN,assets-cdn.watchdisneyfe.com
@@ -465,6 +466,7 @@ DOMAIN,cdn.adguard.info
 DOMAIN,cdn.adsninja.ca
 DOMAIN,cdn.aimerce.ai
 DOMAIN,cdn.amcharts.com
+DOMAIN,cdn.amh.moe
 DOMAIN,cdn.announcekit.app
 DOMAIN,cdn.answeroverflow.com
 DOMAIN,cdn.app.fossa.com
@@ -1117,6 +1119,7 @@ DOMAIN,downloads.coindesk.com
 DOMAIN,drop.ndtv.com
 DOMAIN,drscdn.500px.org
 DOMAIN,dynamic-assets.coinbase.com
+DOMAIN,dynamic-cdn.cms.ayoba.me
 DOMAIN,dz2cdn1.dzone.com
 DOMAIN,e.calibermind.com
 DOMAIN,e.deviantart.net
@@ -1769,6 +1772,7 @@ DOMAIN,media-cdn.atlassian.com
 DOMAIN,media-cdn.comfy.social
 DOMAIN,media-cdn.epicgames.com
 DOMAIN,media-central.indianexpress.com
+DOMAIN,media-cms.ayoba.me
 DOMAIN,media-cms.onesignal.com
 DOMAIN,media-s3-us-east-1.ceros.com
 DOMAIN,media.beehiiv.com
@@ -2427,6 +2431,7 @@ DOMAIN,static.gigabyte.com
 DOMAIN,static.gitbook.com
 DOMAIN,static.gl-inet.com
 DOMAIN,static.global.visioncritical.com
+DOMAIN,static.gmgard.com
 DOMAIN,static.gnome.org
 DOMAIN,static.gopro.com
 DOMAIN,static.grammarly.com
@@ -2915,6 +2920,8 @@ DOMAIN-SUFFIX,alexdav.id
 DOMAIN-SUFFIX,algolianet.com
 DOMAIN-SUFFIX,alonestreaming.com
 DOMAIN-SUFFIX,alphafish.top
+DOMAIN-SUFFIX,am-cdn.online
+DOMAIN-SUFFIX,am-cdn.pics
 DOMAIN-SUFFIX,amaicdn.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,ancestrycdn.com

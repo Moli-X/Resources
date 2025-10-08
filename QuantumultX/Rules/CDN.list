@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4043
+# 规则统计: 4050
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -102,6 +102,7 @@ HOST,assets-app.circleci.com,CDN
 HOST,assets-cdn.123rf.com,CDN
 HOST,assets-cdn.abcnews.com,CDN
 HOST,assets-cdn.abcotvs.net,CDN
+HOST,assets-cdn.anh.moe,CDN
 HOST,assets-cdn.jable.tv,CDN
 HOST,assets-cdn.porn.com,CDN
 HOST,assets-cdn.watchdisneyfe.com,CDN
@@ -468,6 +469,7 @@ HOST,cdn.adguard.info,CDN
 HOST,cdn.adsninja.ca,CDN
 HOST,cdn.aimerce.ai,CDN
 HOST,cdn.amcharts.com,CDN
+HOST,cdn.amh.moe,CDN
 HOST,cdn.announcekit.app,CDN
 HOST,cdn.answeroverflow.com,CDN
 HOST,cdn.app.fossa.com,CDN
@@ -1120,6 +1122,7 @@ HOST,downloads.coindesk.com,CDN
 HOST,drop.ndtv.com,CDN
 HOST,drscdn.500px.org,CDN
 HOST,dynamic-assets.coinbase.com,CDN
+HOST,dynamic-cdn.cms.ayoba.me,CDN
 HOST,dz2cdn1.dzone.com,CDN
 HOST,e.calibermind.com,CDN
 HOST,e.deviantart.net,CDN
@@ -1772,6 +1775,7 @@ HOST,media-cdn.atlassian.com,CDN
 HOST,media-cdn.comfy.social,CDN
 HOST,media-cdn.epicgames.com,CDN
 HOST,media-central.indianexpress.com,CDN
+HOST,media-cms.ayoba.me,CDN
 HOST,media-cms.onesignal.com,CDN
 HOST,media-s3-us-east-1.ceros.com,CDN
 HOST,media.beehiiv.com,CDN
@@ -2430,6 +2434,7 @@ HOST,static.gigabyte.com,CDN
 HOST,static.gitbook.com,CDN
 HOST,static.gl-inet.com,CDN
 HOST,static.global.visioncritical.com,CDN
+HOST,static.gmgard.com,CDN
 HOST,static.gnome.org,CDN
 HOST,static.gopro.com,CDN
 HOST,static.grammarly.com,CDN
@@ -2918,6 +2923,8 @@ HOST-SUFFIX,alexdav.id,CDN
 HOST-SUFFIX,algolianet.com,CDN
 HOST-SUFFIX,alonestreaming.com,CDN
 HOST-SUFFIX,alphafish.top,CDN
+HOST-SUFFIX,am-cdn.online,CDN
+HOST-SUFFIX,am-cdn.pics,CDN
 HOST-SUFFIX,amaicdn.com,CDN
 HOST-SUFFIX,ampproject.org,CDN
 HOST-SUFFIX,ancestrycdn.com,CDN

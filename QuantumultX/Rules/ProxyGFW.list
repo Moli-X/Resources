@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7328
+# 规则统计: 7329
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -5482,6 +5482,7 @@ HOST-SUFFIX,solana.com,ProxyGFW
 HOST-SUFFIX,solarsystem.nasa.gov,ProxyGFW
 HOST-SUFFIX,solidaritetibet.org,ProxyGFW
 HOST-SUFFIX,solidfiles.com,ProxyGFW
+HOST-SUFFIX,solscan.io,ProxyGFW
 HOST-SUFFIX,solv.finance,ProxyGFW
 HOST-SUFFIX,somee.com,ProxyGFW
 HOST-SUFFIX,sonatype.org,ProxyGFW

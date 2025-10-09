@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4050
+# 规则统计: 4052
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1292,6 +1292,7 @@ HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,CDN
 HOST,graph.facebook.com,CDN
 HOST,gravatar.cat.net,CDN
 HOST,gravatar.tapglb.com,CDN
+HOST,groundnews.b-cdn.net,CDN
 HOST,gstatic.com,CDN
 HOST,gstatic.olympics.com,CDN
 HOST,gt1.onlyhentaistuff.com,CDN
@@ -2810,6 +2811,7 @@ HOST,wandi-6402.kxcdn.com,CDN
 HOST,wcpstatic.microsoft.com,CDN
 HOST,wctour-images.worldchess.com,CDN
 HOST,weather.istatmenus.app,CDN
+HOST,web-api-cdn.ground.news,CDN
 HOST,web-assets.esetstatic.com,CDN
 HOST,web-assets.ifttt.com,CDN
 HOST,web-assets.otogi-frontier.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 96286
+# 规则统计: 96285
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -16627,7 +16627,6 @@ HOST-SUFFIX,cdn.optmn.cloud,Anti-Ad
 HOST-SUFFIX,cdn.perfdrive.com,Anti-Ad
 HOST-SUFFIX,cdn.pocoiq.cn,Anti-Ad
 HOST-SUFFIX,cdn.polarbyte.com,Anti-Ad
-HOST-SUFFIX,cdn.puata.info,Anti-Ad
 HOST-SUFFIX,cdn.pyadx.com,Anti-Ad
 HOST-SUFFIX,cdn.qgr.ph,Anti-Ad
 HOST-SUFFIX,cdn.qgraph.io,Anti-Ad
@@ -29557,7 +29556,6 @@ HOST-SUFFIX,ewyvuznndlmrk.online,Anti-Ad
 HOST-SUFFIX,ewywma.icu,Anti-Ad
 HOST-SUFFIX,ewzjbeqw.com,Anti-Ad
 HOST-SUFFIX,ex.mobmore.com,Anti-Ad
-HOST-SUFFIX,ex.puata.info,Anti-Ad
 HOST-SUFFIX,ex.tanx.com,Anti-Ad
 HOST-SUFFIX,exacdn.com,Anti-Ad
 HOST-SUFFIX,exactag.com,Anti-Ad
@@ -63952,6 +63950,7 @@ HOST-SUFFIX,pu.pretunique.fr,Anti-Ad
 HOST-SUFFIX,pu5hk1n2020.com,Anti-Ad
 HOST-SUFFIX,puabhxebvxluh.space,Anti-Ad
 HOST-SUFFIX,puabvo.com,Anti-Ad
+HOST-SUFFIX,puata.info,Anti-Ad
 HOST-SUFFIX,pub-referral-widget.current.us,Anti-Ad
 HOST-SUFFIX,pub.funshion.com,Anti-Ad
 HOST-SUFFIX,pub.mop.com,Anti-Ad

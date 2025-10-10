@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 835
+# 规则统计: 836
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -411,6 +411,7 @@ HOST-SUFFIX,hwccpc.com,ChinaDomain
 HOST-SUFFIX,hwht.com,ChinaDomain
 HOST-SUFFIX,hwtrip.com,ChinaDomain
 HOST-SUFFIX,hwwt8.com,ChinaDomain
+HOST-SUFFIX,i4.cn,ChinaDomain
 HOST-SUFFIX,ialicdn.com,ChinaDomain
 HOST-SUFFIX,ibreader.com,ChinaDomain
 HOST-SUFFIX,ibuscloud.com,ChinaDomain

@@ -833,7 +833,7 @@ HOST-SUFFIX,zui.com,ChinaDomain
 HOST-SUFFIX,zuimeitianqi.com,ChinaDomain
 HOST-SUFFIX,zuoyebang.com,ChinaDomain
 HOST-SUFFIX,zybang.com,ChinaDomain
-HOST-WILDCARD,*.qhimgs?.com,ChinaDomain
+HOST-WILDCARD,*.qhimgs,ChinaDomain
 USER-AGENT,%E4%BC%98%E9%85%B7*,ChinaDomain
 USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*,ChinaDomain
 USER-AGENT,TeslaMap,ChinaDomain

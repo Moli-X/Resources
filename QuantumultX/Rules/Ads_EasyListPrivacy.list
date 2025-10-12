@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42047
+# 规则统计: 42052
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -5497,6 +5497,7 @@ HOST-SUFFIX,analytics.runpath.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.salesanalytics.io,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.samsungknox.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.sanoma.fi,Ads_EasyListPrivacy
+HOST-SUFFIX,analytics.sayprimer.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.scorpion.co,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.seagate.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.shareaholic.com,Ads_EasyListPrivacy
@@ -7471,6 +7472,7 @@ HOST-SUFFIX,bft5.destinia.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,bfvlgp.appstory.co.kr,Ads_EasyListPrivacy
 HOST-SUFFIX,bfzikn.l-wine.ru,Ads_EasyListPrivacy
 HOST-SUFFIX,bg-go.experian.com,Ads_EasyListPrivacy
+HOST-SUFFIX,bgalytics.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bgaycm.exvital-shop.de,Ads_EasyListPrivacy
 HOST-SUFFIX,bgevqy.moschino.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bgfmvc.amandalindroth.com,Ads_EasyListPrivacy
@@ -23923,6 +23925,7 @@ HOST-SUFFIX,now.myfashionevents.com,Ads_EasyListPrivacy
 HOST-SUFFIX,now.peek-cloppenburg.de,Ads_EasyListPrivacy
 HOST-SUFFIX,now.tana.fi,Ads_EasyListPrivacy
 HOST-SUFFIX,now.wealthmanagement.com,Ads_EasyListPrivacy
+HOST-SUFFIX,nowaymail.com,Ads_EasyListPrivacy
 HOST-SUFFIX,nparallel.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,npczil.maxandco.com,Ads_EasyListPrivacy
 HOST-SUFFIX,npfopn.mix.tokyo,Ads_EasyListPrivacy
@@ -24053,6 +24056,7 @@ HOST-SUFFIX,o.j2.com,Ads_EasyListPrivacy
 HOST-SUFFIX,o.j2global.com,Ads_EasyListPrivacy
 HOST-SUFFIX,o.macworld.co.uk,Ads_EasyListPrivacy
 HOST-SUFFIX,o.medallia.com,Ads_EasyListPrivacy
+HOST-SUFFIX,o.momently.info,Ads_EasyListPrivacy
 HOST-SUFFIX,o.myomnicard.in,Ads_EasyListPrivacy
 HOST-SUFFIX,o.opentable.co.uk,Ads_EasyListPrivacy
 HOST-SUFFIX,o.opentable.com,Ads_EasyListPrivacy
@@ -24713,6 +24717,7 @@ HOST-SUFFIX,ozvlyz.justmusic.de,Ads_EasyListPrivacy
 HOST-SUFFIX,p.aty.sohu.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.cab.ua,Ads_EasyListPrivacy
 HOST-SUFFIX,p.classroombookings.com,Ads_EasyListPrivacy
+HOST-SUFFIX,p.codio.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.cquotient.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.data.cctv.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.ejs.dev,Ads_EasyListPrivacy
@@ -25554,6 +25559,7 @@ HOST-SUFFIX,prenesi-mojm.mercator.si,Ads_EasyListPrivacy
 HOST-SUFFIX,prepareplanes.com,Ads_EasyListPrivacy
 HOST-SUFFIX,presetrabbits.com,Ads_EasyListPrivacy
 HOST-SUFFIX,presscoder.com,Ads_EasyListPrivacy
+HOST-SUFFIX,prettyeasycafe.com,Ads_EasyListPrivacy
 HOST-SUFFIX,prettylearning.com,Ads_EasyListPrivacy
 HOST-SUFFIX,preview.fi-institutional.com.au,Ads_EasyListPrivacy
 HOST-SUFFIX,previousplayground.com,Ads_EasyListPrivacy
@@ -39879,7 +39885,6 @@ HOST-SUFFIX,video.bzfd.it,Ads_EasyListPrivacy
 HOST-SUFFIX,video.funnelbox.com,Ads_EasyListPrivacy
 HOST-SUFFIX,video.verintsystemsinc.com,Ads_EasyListPrivacy
 HOST-SUFFIX,video.vitcord.com,Ads_EasyListPrivacy
-HOST-SUFFIX,videocdnmetrika.com,Ads_EasyListPrivacy
 HOST-SUFFIX,videoevents.outbrain.com,Ads_EasyListPrivacy
 HOST-SUFFIX,videoplayerhub.com,Ads_EasyListPrivacy
 HOST-SUFFIX,videos.adp.ca,Ads_EasyListPrivacy

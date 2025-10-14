@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4041
+# 规则统计: 4043
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1909,12 +1909,14 @@ HOST,oaos-resources.allstate.com,CDN
 HOST,object.innei.in,CDN
 HOST,objects.g0v.social,CDN
 HOST,objects.hit.moe,CDN
+HOST,ocsp.comodoca.com,CDN
 HOST,ocsp.digicert.com,CDN
 HOST,ocsp.godaddy.com,CDN
 HOST,ocsp.sectigo.com,CDN
 HOST,ocsp.usertrust.com,CDN
 HOST,oct8neproxy.azurewebsites.net,CDN
 HOST,ohttp-relay1.fastly-edge.com,CDN
+HOST,oneocsp.microsoft.com,CDN
 HOST,ooo.0o0.ooo,CDN
 HOST,open-vsx.org,CDN
 HOST,openapi.vercel.sh,CDN

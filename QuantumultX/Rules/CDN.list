@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4043
+# 规则统计: 4048
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1412,6 +1412,7 @@ HOST,image.thefly.com,CDN
 HOST,image.tmdb.org,CDN
 HOST,image.vuukle.com,CDN
 HOST,image.westinyou.com,CDN
+HOST,image.yuntu.com.tw,CDN
 HOST,imagecdn.clips4sale.com,CDN
 HOST,imagehost.player.fm,CDN
 HOST,imageio.forbes.com,CDN
@@ -1479,6 +1480,7 @@ HOST,images.purevpn-tools.com,CDN
 HOST,images.samsung.com,CDN
 HOST,images.scalero.io,CDN
 HOST,images.scrolller.com,CDN
+HOST,images.softwaresuggest.com,CDN
 HOST,images.spot.im,CDN
 HOST,images.spr.so,CDN
 HOST,images.store.crowdstrike.com,CDN
@@ -1837,6 +1839,7 @@ HOST,media.shopimind.com,CDN
 HOST,media.smooch.io,CDN
 HOST,media.steampowered.com,CDN
 HOST,media.tailfin.cc,CDN
+HOST,media.technologycounter.com,CDN
 HOST,media.telanganatoday.com,CDN
 HOST,media.tenor.com,CDN
 HOST,media.themoviedb.org,CDN
@@ -2916,6 +2919,7 @@ HOST-SUFFIX,abc-cdn.net.au,CDN
 HOST-SUFFIX,abcnewsfe.com,CDN
 HOST-SUFFIX,abebookscdn.com,CDN
 HOST-SUFFIX,addons.business,CDN
+HOST-SUFFIX,adguardcdn.com,CDN
 HOST-SUFFIX,adobeccstatic.com,CDN
 HOST-SUFFIX,adtidy.org,CDN
 HOST-SUFFIX,agechecker-northern-apps.com,CDN
@@ -3676,6 +3680,7 @@ HOST-SUFFIX,quip-cdn.com,CDN
 HOST-SUFFIX,quip-marketing.com,CDN
 HOST-SUFFIX,quoracdn.net,CDN
 HOST-SUFFIX,qy0.ru,CDN
+HOST-SUFFIX,rackcdn.com,CDN
 HOST-SUFFIX,radix-ui.com,CDN
 HOST-SUFFIX,randomuser.me,CDN
 HOST-SUFFIX,ravencoinipfs-gateway.com,CDN

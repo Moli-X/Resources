@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7331
+# 规则统计: 7334
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -454,6 +454,7 @@ HOST-SUFFIX,asia-gaming.com,ProxyGFW
 HOST-SUFFIX,asiaharvest.org,ProxyGFW
 HOST-SUFFIX,asianage.com,ProxyGFW
 HOST-SUFFIX,asianews.it,ProxyGFW
+HOST-SUFFIX,asianfanfics.com,ProxyGFW
 HOST-SUFFIX,asiansexdiary.com,ProxyGFW
 HOST-SUFFIX,asianspiss.com,ProxyGFW
 HOST-SUFFIX,asianwomensfilm.de,ProxyGFW
@@ -6126,6 +6127,7 @@ HOST-SUFFIX,truebuddha-md.org,ProxyGFW
 HOST-SUFFIX,truenas.com,ProxyGFW
 HOST-SUFFIX,truesocial.media,ProxyGFW
 HOST-SUFFIX,trulyergonomic.com,ProxyGFW
+HOST-SUFFIX,trustwallet.com,ProxyGFW
 HOST-SUFFIX,truth101.co.tv,ProxyGFW
 HOST-SUFFIX,truthontour.org,ProxyGFW
 HOST-SUFFIX,truthsocial.com,ProxyGFW
@@ -7131,6 +7133,7 @@ HOST-SUFFIX,z-lib.gd,ProxyGFW
 HOST-SUFFIX,z-lib.gl,ProxyGFW
 HOST-SUFFIX,z-lib.io,ProxyGFW
 HOST-SUFFIX,z-lib.org,ProxyGFW
+HOST-SUFFIX,z-library.ec,ProxyGFW
 HOST-SUFFIX,z-library.sk,ProxyGFW
 HOST-SUFFIX,zacebook.com,ProxyGFW
 HOST-SUFFIX,zalmos.com,ProxyGFW

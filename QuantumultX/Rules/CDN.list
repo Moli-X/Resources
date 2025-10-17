@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4048
+# 规则统计: 4052
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -979,6 +979,7 @@ HOST,chat.digitalgenius.com,CDN
 HOST,chatwidgetmetrics-proxy.usepylon.com,CDN
 HOST,checkout-sdk.bigcommerce.com,CDN
 HOST,checkout.stripe.com,CDN
+HOST,chunk-composing.canva.com,CDN
 HOST,ci.testling.com,CDN
 HOST,cimg.cnyes.cool,CDN
 HOST,claritystatic.azureedge.net,CDN
@@ -1246,6 +1247,7 @@ HOST,firefox.settings.services.mozilla.com,CDN
 HOST,fiverr-res.cloudinary.com,CDN
 HOST,flo.uri.sh,CDN
 HOST,flows.trysavvy.com,CDN
+HOST,font-public.canva.com,CDN
 HOST,fonts.bunny.net,CDN
 HOST,fonts.cat.net,CDN
 HOST,fonts.codeberg.org,CDN
@@ -1784,6 +1786,7 @@ HOST,media-s3-us-east-1.ceros.com,CDN
 HOST,media.beehiiv.com,CDN
 HOST,media.breitbart.com,CDN
 HOST,media.bundlehunt.com,CDN
+HOST,media.canva.com,CDN
 HOST,media.cleanshot.cloud,CDN
 HOST,media.cmx.edu.kg,CDN
 HOST,media.cnn.com,CDN
@@ -2662,6 +2665,7 @@ HOST,t3.gstatic.com,CDN
 HOST,t3.picb.cc,CDN
 HOST,t4.picb.cc,CDN
 HOST,tag.trovo-tag.com,CDN
+HOST,tag.tvads.ai,CDN
 HOST,tag.unifyintent.com,CDN
 HOST,tags.nationwide.com,CDN
 HOST,tags.nba.com,CDN

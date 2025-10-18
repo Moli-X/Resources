@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 98022
+# 规则统计: 98020
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -4744,8 +4744,6 @@ HOST-SUFFIX,ac-ebis.usen-store.com,Anti-Ad
 HOST-SUFFIX,ac-ebis.usen.biz,Anti-Ad
 HOST-SUFFIX,ac.86huoche.com,Anti-Ad
 HOST-SUFFIX,ac.art456.com,Anti-Ad
-HOST-SUFFIX,ac.dun.163.com,Anti-Ad
-HOST-SUFFIX,ac.dun.163yun.com,Anti-Ad
 HOST-SUFFIX,ac.geechs-job.com,Anti-Ad
 HOST-SUFFIX,ac.livelty.com,Anti-Ad
 HOST-SUFFIX,ac.mmstat.com,Anti-Ad

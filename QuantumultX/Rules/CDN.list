@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4069
+# 规则统计: 4071
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -621,6 +621,7 @@ HOST,cdn.iconfinder.com,CDN
 HOST,cdn.imageengine.io,CDN
 HOST,cdn.img.ly,CDN
 HOST,cdn.infoq.com,CDN
+HOST,cdn.insightmediagroup.io,CDN
 HOST,cdn.ionos.de,CDN
 HOST,cdn.ip2location.io,CDN
 HOST,cdn.iporntv.net,CDN
@@ -2611,6 +2612,7 @@ HOST,static7.lottiefiles.com,CDN
 HOST,static8.lottiefiles.com,CDN
 HOST,static9.lottiefiles.com,CDN
 HOST,staticctf.ubisoft.com,CDN
+HOST,statici.icloud.com,CDN
 HOST,staticintl.cloudcachetci.com,CDN
 HOST,staticm.fastcomments.com,CDN
 HOST,statics-marketingsites-eas-ms-com.akamaized.net,CDN

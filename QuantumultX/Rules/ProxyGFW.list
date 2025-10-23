@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7336
+# 规则统计: 7337
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1616,6 +1616,7 @@ HOST-SUFFIX,dnvod.tv,ProxyGFW
 HOST-SUFFIX,doc.new,ProxyGFW
 HOST-SUFFIX,docker.com,ProxyGFW
 HOST-SUFFIX,docker.io,ProxyGFW
+HOST-SUFFIX,dockerstatus.com,ProxyGFW
 HOST-SUFFIX,docs.cfw.lbyczf.com,ProxyGFW
 HOST-SUFFIX,docs.deno.com,ProxyGFW
 HOST-SUFFIX,docs.new,ProxyGFW

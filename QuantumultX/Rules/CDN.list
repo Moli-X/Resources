@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4071
+# 规则统计: 4072
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -139,6 +139,7 @@ HOST,assets.byteplus.com,CDN
 HOST,assets.calendly.com,CDN
 HOST,assets.canny.io,CDN
 HOST,assets.capterra.com,CDN
+HOST,assets.cello.so,CDN
 HOST,assets.change.org,CDN
 HOST,assets.chaos.social,CDN
 HOST,assets.chess24.com,CDN

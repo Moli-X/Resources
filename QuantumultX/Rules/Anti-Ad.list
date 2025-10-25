@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 97846
+# 规则统计: 97845
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -6450,7 +6450,6 @@ HOST-SUFFIX,ads.passiontimes.hk,Anti-Ad
 HOST-SUFFIX,ads.pinterest.com,Anti-Ad
 HOST-SUFFIX,ads.planetwin365affiliate.com,Anti-Ad
 HOST-SUFFIX,ads.playboy.com,Anti-Ad
-HOST-SUFFIX,ads.privacy.qq.com,Anti-Ad
 HOST-SUFFIX,ads.raidrive.com,Anti-Ad
 HOST-SUFFIX,ads.reader.yueyouxs.com,Anti-Ad
 HOST-SUFFIX,ads.saymedia.com,Anti-Ad
@@ -23620,6 +23619,7 @@ HOST-SUFFIX,dd.control4.com,Anti-Ad
 HOST-SUFFIX,dd.dante2007.com,Anti-Ad
 HOST-SUFFIX,dd.g2.com,Anti-Ad
 HOST-SUFFIX,dd.garena.com,Anti-Ad
+HOST-SUFFIX,dd.iask.cn,Anti-Ad
 HOST-SUFFIX,dd.leboncoin.fr,Anti-Ad
 HOST-SUFFIX,dd.lofujj.com,Anti-Ad
 HOST-SUFFIX,dd.mangofortune.net,Anti-Ad
@@ -38901,8 +38901,6 @@ HOST-SUFFIX,iamiraqi.com,Anti-Ad
 HOST-SUFFIX,ianjumb.com,Anti-Ad
 HOST-SUFFIX,iareascebc.life,Anti-Ad
 HOST-SUFFIX,iasbetaffiliates.com,Anti-Ad
-HOST-SUFFIX,iask.cn,Anti-Ad
-HOST-SUFFIX,iask.com.cn,Anti-Ad
 HOST-SUFFIX,iask.qq.com,Anti-Ad
 HOST-SUFFIX,iatoex.kahve.com,Anti-Ad
 HOST-SUFFIX,iaudienc.com,Anti-Ad
@@ -56540,6 +56538,7 @@ HOST-SUFFIX,mwvpjvvnovuqb.website,Anti-Ad
 HOST-SUFFIX,mwxema.galerieslafayette.com,Anti-Ad
 HOST-SUFFIX,mwxtdssacysl.com,Anti-Ad
 HOST-SUFFIX,mwxxgdhvhdrgt.space,Anti-Ad
+HOST-SUFFIX,mwzbp.iask.com.cn,Anti-Ad
 HOST-SUFFIX,mwzkkpwmq.com,Anti-Ad
 HOST-SUFFIX,mx.carfax.com,Anti-Ad
 HOST-SUFFIX,mx.carte-gr.total.fr,Anti-Ad

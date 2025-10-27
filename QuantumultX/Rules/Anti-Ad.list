@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 98474
+# 规则统计: 98466
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -18496,9 +18496,7 @@ HOST-SUFFIX,cloudmobi.net,Anti-Ad
 HOST-SUFFIX,cloudpath82.com,Anti-Ad
 HOST-SUFFIX,cloudpsh.top,Anti-Ad
 HOST-SUFFIX,cloudpush.iqiyi.com,Anti-Ad
-HOST-SUFFIX,cloudservice12.kingsoft-office-service.com,Anti-Ad
 HOST-SUFFIX,cloudservice13.kingsoft-office-service.com,Anti-Ad
-HOST-SUFFIX,cloudservice22.kingsoft-office-service.com,Anti-Ad
 HOST-SUFFIX,cloudservice27.kingsoft-office-service.com,Anti-Ad
 HOST-SUFFIX,cloudtracer101.com,Anti-Ad
 HOST-SUFFIX,cloudtrack-camp.com,Anti-Ad
@@ -34297,9 +34295,7 @@ HOST-SUFFIX,gg.vevor.com,Anti-Ad
 HOST-SUFFIX,gg.vidown.cn,Anti-Ad
 HOST-SUFFIX,gg.xywy.com,Anti-Ad
 HOST-SUFFIX,gg1.jc001.cn,Anti-Ad
-HOST-SUFFIX,gg2.51cto.com,Anti-Ad
 HOST-SUFFIX,gg2888.com,Anti-Ad
-HOST-SUFFIX,gg3.51cto.com,Anti-Ad
 HOST-SUFFIX,gg86.pinggu.org,Anti-Ad
 HOST-SUFFIX,gg88.bj.bcebos.com,Anti-Ad
 HOST-SUFFIX,gg8888.cnfol.com,Anti-Ad
@@ -36050,9 +36046,6 @@ HOST-SUFFIX,gritoils.com,Anti-Ad
 HOST-SUFFIX,griwourtadoothe.net,Anti-Ad
 HOST-SUFFIX,grizzledcourage.pro,Anti-Ad
 HOST-SUFFIX,grjqvelblmzmu.website,Anti-Ad
-HOST-SUFFIX,grjs01.com,Anti-Ad
-HOST-SUFFIX,grjs02.com,Anti-Ad
-HOST-SUFFIX,grjs06.com,Anti-Ad
 HOST-SUFFIX,grknnolhmwypkn.com,Anti-Ad
 HOST-SUFFIX,grmciysmhnyaj.site,Anti-Ad
 HOST-SUFFIX,grmtas.com,Anti-Ad
@@ -48575,7 +48568,6 @@ HOST-SUFFIX,log.pipeline.datarize.io,Anti-Ad
 HOST-SUFFIX,log.quora.com,Anti-Ad
 HOST-SUFFIX,log.qvb.qcloud.com,Anti-Ad
 HOST-SUFFIX,log.rabobank.nl,Anti-Ad
-HOST-SUFFIX,log.rc.hunantv.com,Anti-Ad
 HOST-SUFFIX,log.recommend.nicovideo.jp,Anti-Ad
 HOST-SUFFIX,log.reformal.ru,Anti-Ad
 HOST-SUFFIX,log.ren.tv,Anti-Ad

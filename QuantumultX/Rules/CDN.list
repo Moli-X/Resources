@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4072
+# 规则统计: 4073
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1556,6 +1556,7 @@ HOST,img.fastcybers.com,CDN
 HOST,img.foresightnews.pro,CDN
 HOST,img.fortawesome.com,CDN
 HOST,img.freepik.com,CDN
+HOST,img.gs,CDN
 HOST,img.hellofresh.com,CDN
 HOST,img.hentaihaven.xxx,CDN
 HOST,img.highporn.net,CDN

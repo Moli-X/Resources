@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4073
+# 规则统计: 4075
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1278,6 +1278,7 @@ HOST,fscdn.eppo.cloud,CDN
 HOST,g-static.ap4r.com,CDN
 HOST,g.newsweek.com,CDN
 HOST,g1.nyt.com,CDN
+HOST,gamemedia.armorgames.com,CDN
 HOST,gdb.rferl.org,CDN
 HOST,gearbox.imgix.com,CDN
 HOST,genesis-cdn.ff.com,CDN
@@ -2071,6 +2072,7 @@ HOST,publicsuffix.org,CDN
 HOST,puku-dist.4gamers.com.tw,CDN
 HOST,pytorch.org,CDN
 HOST,qmod.quotemedia.com,CDN
+HOST,quests.armorgames.com,CDN
 HOST,quriobot.com,CDN
 HOST,r.r10s.jp,CDN
 HOST,r2.1hanime.com,CDN

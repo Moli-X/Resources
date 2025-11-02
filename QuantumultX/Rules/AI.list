@@ -1,8 +1,9 @@
 # 规则名称: AI
-# 规则统计: 41
+# 规则统计: 43
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,AI
 HOST,ai.google.dev,AI
+HOST,aida.googleapis.com,AI
 HOST,aisandbox-pa.googleapis.com,AI
 HOST,alkalicore-pa.clients6.google.com,AI
 HOST,api.github.com,AI
@@ -18,6 +19,7 @@ HOST-SUFFIX,chat.com,AI
 HOST-SUFFIX,chatgpt.com,AI
 HOST-SUFFIX,claude.ai,AI
 HOST-SUFFIX,clipdrop.co,AI
+HOST-SUFFIX,cloudcode-pa.googleapis.com,AI
 HOST-SUFFIX,deepmind.com,AI
 HOST-SUFFIX,deepmind.google,AI
 HOST-SUFFIX,dify.ai,AI

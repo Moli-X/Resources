@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4073
+# 规则统计: 4076
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1363,6 +1363,7 @@ HOST,i4.anysex.com,CDN
 HOST,ias.r10s.jp,CDN
 HOST,icdn.javxx.com,CDN
 HOST,ichef.bbci.co.uk,CDN
+HOST,icon.icepanel.io,CDN
 HOST,icons.buffer.com,CDN
 HOST,icons.duckduckgo.com,CDN
 HOST,icons.ferndocs.com,CDN
@@ -1892,6 +1893,7 @@ HOST,namedotcom-cdn.name.tools,CDN
 HOST,nav.yumenosora.co.jp,CDN
 HOST,navismithapis-cdn.com,CDN
 HOST,nbcnewsdigital-static.nbcuni.com,CDN
+HOST,nel.teo-rum.com,CDN
 HOST,net-fe-static-assets.network-controller.svc.ui.com,CDN
 HOST,netlify.apollo.io,CDN
 HOST,newassets.hcaptcha.com,CDN
@@ -2393,6 +2395,7 @@ HOST,static.c-spanvideo.org,CDN
 HOST,static.canva.com,CDN
 HOST,static.captcha-delivery.com,CDN
 HOST,static.carfax.com,CDN
+HOST,static.cdnlogo.com,CDN
 HOST,static.chaika.moe,CDN
 HOST,static.change.org,CDN
 HOST,static.chessarena.com,CDN

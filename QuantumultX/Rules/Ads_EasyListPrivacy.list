@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42100
+# 规则统计: 42103
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -4948,6 +4948,7 @@ HOST-SUFFIX,alloutdubstep.com,Ads_EasyListPrivacy
 HOST-SUFFIX,allreach.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,allrisks.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,allstarfg.actonservice.com,Ads_EasyListPrivacy
+HOST-SUFFIX,alltypo.com,Ads_EasyListPrivacy
 HOST-SUFFIX,alluringbucket.com,Ads_EasyListPrivacy
 HOST-SUFFIX,allvideometrika.com,Ads_EasyListPrivacy
 HOST-SUFFIX,almalasers.actonservice.com,Ads_EasyListPrivacy
@@ -24950,6 +24951,7 @@ HOST-SUFFIX,partner.service.belboon.com,Ads_EasyListPrivacy
 HOST-SUFFIX,partnerapp.kravein.com.au,Ads_EasyListPrivacy
 HOST-SUFFIX,partnerapp.urbanclap.com,Ads_EasyListPrivacy
 HOST-SUFFIX,partnerdev.extasy.com,Ads_EasyListPrivacy
+HOST-SUFFIX,partnerhut.com,Ads_EasyListPrivacy
 HOST-SUFFIX,partnerlinks.io,Ads_EasyListPrivacy
 HOST-SUFFIX,partnermktg.symantec.com,Ads_EasyListPrivacy
 HOST-SUFFIX,partners.avaya.com,Ads_EasyListPrivacy
@@ -28766,6 +28768,7 @@ HOST-SUFFIX,sites.siemens.com,Ads_EasyListPrivacy
 HOST-SUFFIX,siusmv.coraltravel.pl,Ads_EasyListPrivacy
 HOST-SUFFIX,six9e.canal.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,sixauthority.com,Ads_EasyListPrivacy
+HOST-SUFFIX,sixpants.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sixscissors.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sizcsi.eobuv.cz,Ads_EasyListPrivacy
 HOST-SUFFIX,sizybn.shipsltd.co.jp,Ads_EasyListPrivacy

@@ -79,9 +79,6 @@ DOMAIN,app.quotemedia.com
 DOMAIN,app.roboflow.com
 DOMAIN,app.viral-loops.com
 DOMAIN,appassets.mvtdev.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apps-static.route4me.com
 DOMAIN,apps.bazaarvoice.com
 DOMAIN,apps.profitihub.com
@@ -1057,8 +1054,6 @@ DOMAIN,conversiongorilla.com
 DOMAIN,cookie-cdn.cookiepro.com
 DOMAIN,corp-backend.brevo.com
 DOMAIN,cors-proxy.htmldriven.com
-DOMAIN,cp2.cloudflare.com
-DOMAIN,cp4.cloudflare.com
 DOMAIN,cpwebassets.codepen.io
 DOMAIN,craftassets.unraid.net
 DOMAIN,cravatar.eu
@@ -3837,6 +3832,7 @@ DOMAIN-SUFFIX,stylexjs.com
 DOMAIN-SUFFIX,substackcdn.com
 DOMAIN-SUFFIX,supabase.co
 DOMAIN-SUFFIX,superfiliate-cdn.com
+DOMAIN-SUFFIX,superhumanstatic.com
 DOMAIN-SUFFIX,surge.sh
 DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,surrit.store

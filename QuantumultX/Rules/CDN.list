@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4077
+# 规则统计: 4073
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -82,9 +82,6 @@ HOST,app.quotemedia.com,CDN
 HOST,app.roboflow.com,CDN
 HOST,app.viral-loops.com,CDN
 HOST,appassets.mvtdev.com,CDN
-HOST,apple-relay.apple.com,CDN
-HOST,apple-relay.cloudflare.com,CDN
-HOST,apple-relay.fastly-edge.com,CDN
 HOST,apps-static.route4me.com,CDN
 HOST,apps.bazaarvoice.com,CDN
 HOST,apps.profitihub.com,CDN
@@ -1060,8 +1057,6 @@ HOST,conversiongorilla.com,CDN
 HOST,cookie-cdn.cookiepro.com,CDN
 HOST,corp-backend.brevo.com,CDN
 HOST,cors-proxy.htmldriven.com,CDN
-HOST,cp2.cloudflare.com,CDN
-HOST,cp4.cloudflare.com,CDN
 HOST,cpwebassets.codepen.io,CDN
 HOST,craftassets.unraid.net,CDN
 HOST,cravatar.eu,CDN
@@ -3840,6 +3835,7 @@ HOST-SUFFIX,stylexjs.com,CDN
 HOST-SUFFIX,substackcdn.com,CDN
 HOST-SUFFIX,supabase.co,CDN
 HOST-SUFFIX,superfiliate-cdn.com,CDN
+HOST-SUFFIX,superhumanstatic.com,CDN
 HOST-SUFFIX,surge.sh,CDN
 HOST-SUFFIX,surrit.com,CDN
 HOST-SUFFIX,surrit.store,CDN

@@ -5,7 +5,13 @@ DOMAIN,aisandbox-pa.googleapis.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,api.github.com
 DOMAIN,api.jetbrains.ai
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp2.cloudflare.com
+DOMAIN,cp4.cloudflare.com
 DOMAIN,gateway.ai.cloudflare.com
+DOMAIN,guzzoni.apple.com
 DOMAIN,jules.google.com
 DOMAIN,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,ai.com
@@ -37,6 +43,7 @@ DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com

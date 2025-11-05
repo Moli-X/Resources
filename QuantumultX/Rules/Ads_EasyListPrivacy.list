@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42103
+# 规则统计: 42106
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -17563,6 +17563,7 @@ HOST-SUFFIX,justicejudo.com,Ads_EasyListPrivacy
 HOST-SUFFIX,justpickaname.com,Ads_EasyListPrivacy
 HOST-SUFFIX,justsayyes.infor.com,Ads_EasyListPrivacy
 HOST-SUFFIX,justwebcards.com,Ads_EasyListPrivacy
+HOST-SUFFIX,justwowjars.com,Ads_EasyListPrivacy
 HOST-SUFFIX,juzqsq.finanzcheck.de,Ads_EasyListPrivacy
 HOST-SUFFIX,jvbvng.notino.it,Ads_EasyListPrivacy
 HOST-SUFFIX,jviyau.pelicanwater.com,Ads_EasyListPrivacy
@@ -28713,6 +28714,7 @@ HOST-SUFFIX,simg.yemeksepeti.com,Ads_EasyListPrivacy
 HOST-SUFFIX,simple.avaya.com,Ads_EasyListPrivacy
 HOST-SUFFIX,simple.siegelgale.com,Ads_EasyListPrivacy
 HOST-SUFFIX,simplenaming.com,Ads_EasyListPrivacy
+HOST-SUFFIX,simplesafari.com,Ads_EasyListPrivacy
 HOST-SUFFIX,simplesidewalk.com,Ads_EasyListPrivacy
 HOST-SUFFIX,simpletopay.americanexpress.co.uk,Ads_EasyListPrivacy
 HOST-SUFFIX,simpletopay.americanexpress.com,Ads_EasyListPrivacy
@@ -40234,6 +40236,7 @@ HOST-SUFFIX,wats.gogoinflight.com,Ads_EasyListPrivacy
 HOST-SUFFIX,watson.microsoft.com,Ads_EasyListPrivacy
 HOST-SUFFIX,wave.getonthewave.com,Ads_EasyListPrivacy
 HOST-SUFFIX,waveinverter.com,Ads_EasyListPrivacy
+HOST-SUFFIX,wavesimple.com,Ads_EasyListPrivacy
 HOST-SUFFIX,wavesmachine.com,Ads_EasyListPrivacy
 HOST-SUFFIX,wavrlh.cedok.cz,Ads_EasyListPrivacy
 HOST-SUFFIX,wavzlt.michaelstars.com,Ads_EasyListPrivacy

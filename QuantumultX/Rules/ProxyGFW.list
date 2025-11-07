@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7338
+# 规则统计: 7339
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -2082,6 +2082,7 @@ HOST-SUFFIX,flagsonline.it,ProxyGFW
 HOST-SUFFIX,flecheinthepeche.fr,ProxyGFW
 HOST-SUFFIX,fleshbot.com,ProxyGFW
 HOST-SUFFIX,fleursdeslettres.com,ProxyGFW
+HOST-SUFFIX,flexclip.com,ProxyGFW
 HOST-SUFFIX,flexpool.io,ProxyGFW
 HOST-SUFFIX,flgg.us,ProxyGFW
 HOST-SUFFIX,flgjustice.org,ProxyGFW

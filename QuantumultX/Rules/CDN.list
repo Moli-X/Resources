@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4079
+# 规则统计: 4080
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1232,6 +1232,7 @@ HOST,files.reg.ru,CDN
 HOST,files.scamadviser.com,CDN
 HOST,files.slack.com,CDN
 HOST,files.smashing.media,CDN
+HOST,files.stripe.com,CDN
 HOST,files.svc.ui.com,CDN
 HOST,files.writefreely.org,CDN
 HOST,files.yande.re,CDN

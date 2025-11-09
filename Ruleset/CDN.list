@@ -8,6 +8,7 @@ DOMAIN,a.fireside.fm
 DOMAIN,a.gawby.com
 DOMAIN,a.kickstarter.com
 DOMAIN,a.klaviyo.com
+DOMAIN,a.pomf.cat
 DOMAIN,a5.behance.net
 DOMAIN,a57.foxnews.com
 DOMAIN,academy-public.coinmarketcap.com
@@ -290,6 +291,7 @@ DOMAIN,assetscdn.jable.tv
 DOMAIN,at.cbsi.com
 DOMAIN,atl-global.atlassian.com
 DOMAIN,attach.mobile01.com
+DOMAIN,attach.setn.com
 DOMAIN,attach2.mobile01.com
 DOMAIN,attachments.office.net
 DOMAIN,audio.rfa.org
@@ -548,6 +550,7 @@ DOMAIN,cdn.dnsimple.com
 DOMAIN,cdn.docsbot.com
 DOMAIN,cdn.document360.io
 DOMAIN,cdn.donmai.us
+DOMAIN,cdn.doofinder.com
 DOMAIN,cdn.dotaoutpost.com
 DOMAIN,cdn.downdetector.com
 DOMAIN,cdn.download.it
@@ -874,6 +877,7 @@ DOMAIN,cdn1.sysgears.com
 DOMAIN,cdn1.techbang.com
 DOMAIN,cdn1.telegram.space
 DOMAIN,cdn1.telesco.pe
+DOMAIN,cdn1.tubeteen18.com
 DOMAIN,cdn1.unrealengine.com
 DOMAIN,cdn10.bigcommerce.com
 DOMAIN,cdn11.bigcommerce.com
@@ -897,6 +901,7 @@ DOMAIN,cdn2.suno.ai
 DOMAIN,cdn2.sysgears.com
 DOMAIN,cdn2.techbang.com
 DOMAIN,cdn2.ttloli.com
+DOMAIN,cdn2.tubeteen18.com
 DOMAIN,cdn2.turboviplay.cc
 DOMAIN,cdn2.unrealengine.com
 DOMAIN,cdn3.bigcommerce.com
@@ -907,6 +912,7 @@ DOMAIN,cdn3.iconfinder.com
 DOMAIN,cdn3.onlyfans.com
 DOMAIN,cdn3.stamped.io
 DOMAIN,cdn3.sysgears.com
+DOMAIN,cdn3.tubeteen18.com
 DOMAIN,cdn3.unrealengine.com
 DOMAIN,cdn4.bigcommerce.com
 DOMAIN,cdn4.edgedatg.com
@@ -914,12 +920,14 @@ DOMAIN,cdn4.iconfinder.com
 DOMAIN,cdn4.sysgears.com
 DOMAIN,cdn4.telegram.space
 DOMAIN,cdn4.telesco.pe
+DOMAIN,cdn4.tubeteen18.com
 DOMAIN,cdn5.bigcommerce.com
 DOMAIN,cdn5.edgedatg.com
 DOMAIN,cdn5.hextom.com
 DOMAIN,cdn5.iconfinder.com
 DOMAIN,cdn5.telegram.space
 DOMAIN,cdn5.telesco.pe
+DOMAIN,cdn5.tubeteen18.com
 DOMAIN,cdn6.aptoide.com
 DOMAIN,cdn6.bigcommerce.com
 DOMAIN,cdn6.edgedatg.com
@@ -1579,6 +1587,7 @@ DOMAIN,img.moedog.org
 DOMAIN,img.moegirl.tw
 DOMAIN,img.moviefap.com
 DOMAIN,img.mresou.com
+DOMAIN,img.news.ebc.net.tw
 DOMAIN,img.noy.asia
 DOMAIN,img.olympics.com
 DOMAIN,img.openshop.com.hk
@@ -1653,6 +1662,7 @@ DOMAIN,imgrs.apkcombo.com
 DOMAIN,imgs.plurk.com
 DOMAIN,imgs.search.brave.com
 DOMAIN,imgs.xkcd.com
+DOMAIN,imgs02.aventertainments.com
 DOMAIN,imgs3.hcaptcha.com
 DOMAIN,imgsrv.crunchyroll.com
 DOMAIN,imgssl.constantcontact.com
@@ -2075,6 +2085,7 @@ DOMAIN,quests.armorgames.com
 DOMAIN,quriobot.com
 DOMAIN,r.r10s.jp
 DOMAIN,r2.1hanime.com
+DOMAIN,r2.gear4music.com
 DOMAIN,r2.leadsy.ai
 DOMAIN,r2cdn.myshopline.com
 DOMAIN,r2cdn.perplexity.ai
@@ -2354,6 +2365,7 @@ DOMAIN,static-mh.content.disney.io
 DOMAIN,static-overlay.ubisoft.com
 DOMAIN,static-production.npmjs.com
 DOMAIN,static-r.kamihimeproject.net
+DOMAIN,static-r2.gear4music.com
 DOMAIN,static-redesign.cnbcfm.com
 DOMAIN,static-resource.np.community.playstation.net
 DOMAIN,static-secure-uploads.ui.com
@@ -2443,6 +2455,7 @@ DOMAIN,static.foxnews.com
 DOMAIN,static.frame.work
 DOMAIN,static.freedownloadmanager.org
 DOMAIN,static.freeimages.com
+DOMAIN,static.generated.photos
 DOMAIN,static.getbutton.io
 DOMAIN,static.gettyimages.com
 DOMAIN,static.giant-bicycles.com
@@ -2620,8 +2633,10 @@ DOMAIN,statici.icloud.com
 DOMAIN,staticintl.cloudcachetci.com
 DOMAIN,staticm.fastcomments.com
 DOMAIN,statics-marketingsites-eas-ms-com.akamaized.net
+DOMAIN,statics-prod.mirrordaily.news
 DOMAIN,statics.erothots.co
 DOMAIN,statics.goorm.io
+DOMAIN,statics.mnnews.tw
 DOMAIN,statics.simpshub.com
 DOMAIN,statics.streamable.com
 DOMAIN,staticsource1.redotpay.com
@@ -2726,6 +2741,7 @@ DOMAIN,top1cdn.top1health.com
 DOMAIN,topbar-static.piano.io
 DOMAIN,torrindex.net
 DOMAIN,touchgal-image.moyu.moe
+DOMAIN,tour-content-cdn.kellymadisonmedia.com
 DOMAIN,tourpic-vector.maps.komoot.net
 DOMAIN,townsquare.media
 DOMAIN,tracking.inflection.io
@@ -2906,6 +2922,7 @@ DOMAIN,y.yarn.co
 DOMAIN,yep.video.yahoo.com
 DOMAIN,zephr-templates.cnbc.com
 DOMAIN,zod.dev
+DOMAIN,zzz.wxw.moe
 DOMAIN-SUFFIX,1a-1791.com
 DOMAIN-SUFFIX,1passwordusercontent.ca
 DOMAIN-SUFFIX,1passwordusercontent.com
@@ -3365,6 +3382,7 @@ DOMAIN-SUFFIX,imagebam.com
 DOMAIN-SUFFIX,imageban.ru
 DOMAIN-SUFFIX,imagedelivery.net
 DOMAIN-SUFFIX,imagehub.cc
+DOMAIN-SUFFIX,images-dnxlive.com
 DOMAIN-SUFFIX,images-iherb.com
 DOMAIN-SUFFIX,images.androeed.ru
 DOMAIN-SUFFIX,images.arcpublishing.com
@@ -3453,6 +3471,7 @@ DOMAIN-SUFFIX,itsre-sumo.mozilla.net
 DOMAIN-SUFFIX,itvstatic.com
 DOMAIN-SUFFIX,javcdn.li
 DOMAIN-SUFFIX,javcdn.vip
+DOMAIN-SUFFIX,javhucdn.com
 DOMAIN-SUFFIX,javplayer.me
 DOMAIN-SUFFIX,javtxt.com
 DOMAIN-SUFFIX,jbkcdn.com

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4099
+# 规则统计: 4100
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3047,6 +3047,7 @@ HOST-SUFFIX,bunnycdn.com,CDN
 HOST-SUFFIX,bytebucket.org,CDN
 HOST-SUFFIX,bytedapm.com,CDN
 HOST-SUFFIX,c-dn.net,CDN
+HOST-SUFFIX,capcutstatic.com,CDN
 HOST-SUFFIX,cartocdn.com,CDN
 HOST-SUFFIX,cas-bridge.xethub.hf.co,CDN
 HOST-SUFFIX,cbsnewsstatic.com,CDN

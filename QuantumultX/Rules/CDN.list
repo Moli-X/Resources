@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4100
+# 规则统计: 4091
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -140,7 +140,6 @@ HOST,assets.capterra.com,CDN
 HOST,assets.cello.so,CDN
 HOST,assets.change.org,CDN
 HOST,assets.chaos.social,CDN
-HOST,assets.chess24.com,CDN
 HOST,assets.clever-cloud.com,CDN
 HOST,assets.clickfunnels.com,CDN
 HOST,assets.cloudpilot.ai,CDN
@@ -469,7 +468,6 @@ HOST,cdn.adguard.info,CDN
 HOST,cdn.adsninja.ca,CDN
 HOST,cdn.aimerce.ai,CDN
 HOST,cdn.amcharts.com,CDN
-HOST,cdn.amh.moe,CDN
 HOST,cdn.announcekit.app,CDN
 HOST,cdn.answeroverflow.com,CDN
 HOST,cdn.app.fossa.com,CDN
@@ -507,7 +505,6 @@ HOST,cdn.cbd.int,CDN
 HOST,cdn.cfr.org,CDN
 HOST,cdn.changelog.com,CDN
 HOST,cdn.channel.io,CDN
-HOST,cdn.chess24.com,CDN
 HOST,cdn.circle.so,CDN
 HOST,cdn.clever-cloud.com,CDN
 HOST,cdn.cliqz.com,CDN
@@ -824,7 +821,6 @@ HOST,cdn.v2ex.com,CDN
 HOST,cdn.vector.co,CDN
 HOST,cdn.verifypass.com,CDN
 HOST,cdn.viafoura.net,CDN
-HOST,cdn.vidible.tv,CDN
 HOST,cdn.vidyard.com,CDN
 HOST,cdn.viglink.com,CDN
 HOST,cdn.violet.vin,CDN
@@ -1047,7 +1043,6 @@ HOST,consentdeliveryfd.azurefd.net,CDN
 HOST,consumersite-assets.trustpilot.net,CDN
 HOST,consumersiteimages.trustpilot.net,CDN
 HOST,content-a.strava.com,CDN
-HOST,content-cdn.y2mate.com,CDN
 HOST,content-management-files.canva.com,CDN
 HOST,content-prod-live.cert.starbucks.com,CDN
 HOST,content.any.run,CDN
@@ -1503,7 +1498,6 @@ HOST,images.tokopedia.net,CDN
 HOST,images.typeform.com,CDN
 HOST,images.unsplash.com,CDN
 HOST,images.videolan.org,CDN
-HOST,images.voguehk.com,CDN
 HOST,images.web3.storage,CDN
 HOST,images.weserv.nl,CDN
 HOST,images.whoer.com,CDN
@@ -1576,7 +1570,6 @@ HOST,img.imgdd.com,CDN
 HOST,img.informer.com,CDN
 HOST,img.itch.zone,CDN
 HOST,img.javstore.net,CDN
-HOST,img.jjbb.me,CDN
 HOST,img.jsdelivr.com,CDN
 HOST,img.kbhgames.com,CDN
 HOST,img.kemono.su,CDN
@@ -1615,6 +1608,7 @@ HOST,img.timero.xyz,CDN
 HOST,img.toto.im,CDN
 HOST,img.utdstc.com,CDN
 HOST,img.vim-cn.com,CDN
+HOST,img.voguehk.com,CDN
 HOST,img.washingtonpost.com,CDN
 HOST,img.windy.com,CDN
 HOST,img.xhacgn.com,CDN
@@ -2333,7 +2327,6 @@ HOST,static-assets-web.flixcart.com,CDN
 HOST,static-assets.clubhouseapi.com,CDN
 HOST,static-assets.codecademy.com,CDN
 HOST,static-assets.coinbase.com,CDN
-HOST,static-assets.freeanimehentai.net,CDN
 HOST,static-assets.juksy.com,CDN
 HOST,static-assets.mapbox.com,CDN
 HOST,static-assets.npr.org,CDN
@@ -2489,7 +2482,6 @@ HOST,static.iris.informa.com,CDN
 HOST,static.itch.io,CDN
 HOST,static.iyf.tv,CDN
 HOST,static.j51.net,CDN
-HOST,static.javcdn.info,CDN
 HOST,static.javhd.com,CDN
 HOST,static.jsbin.com,CDN
 HOST,static.k2s.cc,CDN
@@ -2639,7 +2631,6 @@ HOST,statics-marketingsites-eas-ms-com.akamaized.net,CDN
 HOST,statics-prod.mirrordaily.news,CDN
 HOST,statics.erothots.co,CDN
 HOST,statics.goorm.io,CDN
-HOST,statics.mnnews.tw,CDN
 HOST,statics.simpshub.com,CDN
 HOST,statics.streamable.com,CDN
 HOST,staticsource1.redotpay.com,CDN
@@ -2711,7 +2702,6 @@ HOST,telemetry2.devolutions.net,CDN
 HOST,texture.laby.net,CDN
 HOST,th.bing.com,CDN
 HOST,themes.fourthwall.com,CDN
-HOST,thingproxy.freeboard.io,CDN
 HOST,thumbnail.missav.com,CDN
 HOST,thumbnailer.mixcloud.com,CDN
 HOST,thumbnails.applegamingwiki.com,CDN
@@ -3187,6 +3177,7 @@ HOST-SUFFIX,descopecdn.com,CDN
 HOST-SUFFIX,design-system.economist.com,CDN
 HOST-SUFFIX,devrum.uptime.com,CDN
 HOST-SUFFIX,dilcdn.com,CDN
+HOST-SUFFIX,directupload.net,CDN
 HOST-SUFFIX,disconnect.me,CDN
 HOST-SUFFIX,discourse-cdn.com,CDN
 HOST-SUFFIX,disquscdn.com,CDN

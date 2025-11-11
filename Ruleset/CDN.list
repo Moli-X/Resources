@@ -137,7 +137,6 @@ DOMAIN,assets.capterra.com
 DOMAIN,assets.cello.so
 DOMAIN,assets.change.org
 DOMAIN,assets.chaos.social
-DOMAIN,assets.chess24.com
 DOMAIN,assets.clever-cloud.com
 DOMAIN,assets.clickfunnels.com
 DOMAIN,assets.cloudpilot.ai
@@ -466,7 +465,6 @@ DOMAIN,cdn.adguard.info
 DOMAIN,cdn.adsninja.ca
 DOMAIN,cdn.aimerce.ai
 DOMAIN,cdn.amcharts.com
-DOMAIN,cdn.amh.moe
 DOMAIN,cdn.announcekit.app
 DOMAIN,cdn.answeroverflow.com
 DOMAIN,cdn.app.fossa.com
@@ -504,7 +502,6 @@ DOMAIN,cdn.cbd.int
 DOMAIN,cdn.cfr.org
 DOMAIN,cdn.changelog.com
 DOMAIN,cdn.channel.io
-DOMAIN,cdn.chess24.com
 DOMAIN,cdn.circle.so
 DOMAIN,cdn.clever-cloud.com
 DOMAIN,cdn.cliqz.com
@@ -821,7 +818,6 @@ DOMAIN,cdn.v2ex.com
 DOMAIN,cdn.vector.co
 DOMAIN,cdn.verifypass.com
 DOMAIN,cdn.viafoura.net
-DOMAIN,cdn.vidible.tv
 DOMAIN,cdn.vidyard.com
 DOMAIN,cdn.viglink.com
 DOMAIN,cdn.violet.vin
@@ -1044,7 +1040,6 @@ DOMAIN,consentdeliveryfd.azurefd.net
 DOMAIN,consumersite-assets.trustpilot.net
 DOMAIN,consumersiteimages.trustpilot.net
 DOMAIN,content-a.strava.com
-DOMAIN,content-cdn.y2mate.com
 DOMAIN,content-management-files.canva.com
 DOMAIN,content-prod-live.cert.starbucks.com
 DOMAIN,content.any.run
@@ -1500,7 +1495,6 @@ DOMAIN,images.tokopedia.net
 DOMAIN,images.typeform.com
 DOMAIN,images.unsplash.com
 DOMAIN,images.videolan.org
-DOMAIN,images.voguehk.com
 DOMAIN,images.web3.storage
 DOMAIN,images.weserv.nl
 DOMAIN,images.whoer.com
@@ -1573,7 +1567,6 @@ DOMAIN,img.imgdd.com
 DOMAIN,img.informer.com
 DOMAIN,img.itch.zone
 DOMAIN,img.javstore.net
-DOMAIN,img.jjbb.me
 DOMAIN,img.jsdelivr.com
 DOMAIN,img.kbhgames.com
 DOMAIN,img.kemono.su
@@ -1612,6 +1605,7 @@ DOMAIN,img.timero.xyz
 DOMAIN,img.toto.im
 DOMAIN,img.utdstc.com
 DOMAIN,img.vim-cn.com
+DOMAIN,img.voguehk.com
 DOMAIN,img.washingtonpost.com
 DOMAIN,img.windy.com
 DOMAIN,img.xhacgn.com
@@ -2330,7 +2324,6 @@ DOMAIN,static-assets-web.flixcart.com
 DOMAIN,static-assets.clubhouseapi.com
 DOMAIN,static-assets.codecademy.com
 DOMAIN,static-assets.coinbase.com
-DOMAIN,static-assets.freeanimehentai.net
 DOMAIN,static-assets.juksy.com
 DOMAIN,static-assets.mapbox.com
 DOMAIN,static-assets.npr.org
@@ -2486,7 +2479,6 @@ DOMAIN,static.iris.informa.com
 DOMAIN,static.itch.io
 DOMAIN,static.iyf.tv
 DOMAIN,static.j51.net
-DOMAIN,static.javcdn.info
 DOMAIN,static.javhd.com
 DOMAIN,static.jsbin.com
 DOMAIN,static.k2s.cc
@@ -2636,7 +2628,6 @@ DOMAIN,statics-marketingsites-eas-ms-com.akamaized.net
 DOMAIN,statics-prod.mirrordaily.news
 DOMAIN,statics.erothots.co
 DOMAIN,statics.goorm.io
-DOMAIN,statics.mnnews.tw
 DOMAIN,statics.simpshub.com
 DOMAIN,statics.streamable.com
 DOMAIN,staticsource1.redotpay.com
@@ -2708,7 +2699,6 @@ DOMAIN,telemetry2.devolutions.net
 DOMAIN,texture.laby.net
 DOMAIN,th.bing.com
 DOMAIN,themes.fourthwall.com
-DOMAIN,thingproxy.freeboard.io
 DOMAIN,thumbnail.missav.com
 DOMAIN,thumbnailer.mixcloud.com
 DOMAIN,thumbnails.applegamingwiki.com
@@ -3184,6 +3174,7 @@ DOMAIN-SUFFIX,descopecdn.com
 DOMAIN-SUFFIX,design-system.economist.com
 DOMAIN-SUFFIX,devrum.uptime.com
 DOMAIN-SUFFIX,dilcdn.com
+DOMAIN-SUFFIX,directupload.net
 DOMAIN-SUFFIX,disconnect.me
 DOMAIN-SUFFIX,discourse-cdn.com
 DOMAIN-SUFFIX,disquscdn.com

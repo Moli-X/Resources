@@ -29,6 +29,7 @@ DOMAIN,ajax.microsoft.com
 DOMAIN,ak.sail-horizon.com
 DOMAIN,akamai-assets.squarespace.com
 DOMAIN,akamai-origin.myanimelist.net
+DOMAIN,alcdn.msauth.net
 DOMAIN,alt.idgesg.net
 DOMAIN,amazon-omni-cdn.com
 DOMAIN,amp.akamaized.net
@@ -154,7 +155,6 @@ DOMAIN,assets.dify.ai
 DOMAIN,assets.dnsfilter.com
 DOMAIN,assets.documentcloud.org
 DOMAIN,assets.dub.co
-DOMAIN,assets.dwncdn.net
 DOMAIN,assets.ecomm.ui.com
 DOMAIN,assets.embeddables.com
 DOMAIN,assets.euractiv.com
@@ -222,6 +222,7 @@ DOMAIN,assets.play.xbox.com
 DOMAIN,assets.plurk.com
 DOMAIN,assets.polarbyte.com
 DOMAIN,assets.poool.fr
+DOMAIN,assets.porndig.com
 DOMAIN,assets.positional-bucket.com
 DOMAIN,assets.prowritingaid.com
 DOMAIN,assets.queue-it.net
@@ -394,7 +395,10 @@ DOMAIN,categoriespages-cdn.trustpilot.net
 DOMAIN,cc-embed.adobe.com
 DOMAIN,cc.boyfriendtv.com
 DOMAIN,cdn-1.ggjav.com
+DOMAIN,cdn-1.porn87.com
 DOMAIN,cdn-1.strava.com
+DOMAIN,cdn-2.porn87.com
+DOMAIN,cdn-3.porn87.com
 DOMAIN,cdn-a.sonyentertainmentnetwork.com
 DOMAIN,cdn-app.cart-bot.net
 DOMAIN,cdn-app.pathfactory.com
@@ -440,6 +444,7 @@ DOMAIN,cdn-seo.airdroid.com
 DOMAIN,cdn-service.jp.sumologic.com
 DOMAIN,cdn-share-sprites.flaticon.com
 DOMAIN,cdn-static-1.medium.com
+DOMAIN,cdn-static-push.porndig.com
 DOMAIN,cdn-static.paw.cloud
 DOMAIN,cdn-static.talent.com
 DOMAIN,cdn-swell-assets.yotpo.com
@@ -614,6 +619,7 @@ DOMAIN,cdn.icomoon.io
 DOMAIN,cdn.icon-icons.com
 DOMAIN,cdn.iconfinder.com
 DOMAIN,cdn.imageengine.io
+DOMAIN,cdn.imago-images.com
 DOMAIN,cdn.img.ly
 DOMAIN,cdn.infoq.com
 DOMAIN,cdn.insightmediagroup.io
@@ -646,6 +652,7 @@ DOMAIN,cdn.lgrckt-in.com
 DOMAIN,cdn.libravatar.org
 DOMAIN,cdn.lihkg.com
 DOMAIN,cdn.linearicons.com
+DOMAIN,cdn.lineicons.com
 DOMAIN,cdn.livechatinc.com
 DOMAIN,cdn.logbase.io
 DOMAIN,cdn.login.unity.com
@@ -666,6 +673,7 @@ DOMAIN,cdn.minecraft-server-list.com
 DOMAIN,cdn.miohentai.com
 DOMAIN,cdn.missav.com
 DOMAIN,cdn.modrinth.com
+DOMAIN,cdn.moeload.com
 DOMAIN,cdn.music.com
 DOMAIN,cdn.myanimelist.net
 DOMAIN,cdn.myfonts.net
@@ -738,6 +746,7 @@ DOMAIN,cdn.rive.app
 DOMAIN,cdn.road.cc
 DOMAIN,cdn.robinpro.gallery
 DOMAIN,cdn.roboflow.com
+DOMAIN,cdn.roof.ai
 DOMAIN,cdn.royaleapi.com
 DOMAIN,cdn.safecharge.com
 DOMAIN,cdn.sanity.io
@@ -1205,6 +1214,8 @@ DOMAIN,fast.appcues.com
 DOMAIN,fast.wistia.com
 DOMAIN,fast.wistia.net
 DOMAIN,fastly-cloud.typenetwork.com
+DOMAIN,fastly-gce.allmovie.com
+DOMAIN,fastly-s3.allmovie.com
 DOMAIN,fastporndelivery.hqporner.com
 DOMAIN,favicon.pirsch.io
 DOMAIN,favicon.yandex.net
@@ -1384,6 +1395,7 @@ DOMAIN,ih2.redbubble.net
 DOMAIN,ih3.redbubble.net
 DOMAIN,ik.imgkit.net
 DOMAIN,imag.malavida.com
+DOMAIN,image-cdn.porndig.com
 DOMAIN,image-forwarder.notaku.so
 DOMAIN,image-stgus.samsung.com
 DOMAIN,image-us.samsung.com
@@ -1564,9 +1576,11 @@ DOMAIN,img.huffingtonpost.com
 DOMAIN,img.icons8.com
 DOMAIN,img.ifunny.co
 DOMAIN,img.imgdd.com
+DOMAIN,img.imoutomoe.net
 DOMAIN,img.informer.com
 DOMAIN,img.itch.zone
 DOMAIN,img.javstore.net
+DOMAIN,img.javynow.com
 DOMAIN,img.jsdelivr.com
 DOMAIN,img.kbhgames.com
 DOMAIN,img.kemono.su
@@ -1789,6 +1803,7 @@ DOMAIN,media-cdn.epicgames.com
 DOMAIN,media-central.indianexpress.com
 DOMAIN,media-cms.ayoba.me
 DOMAIN,media-cms.onesignal.com
+DOMAIN,media-hls.growcdnssedge.com
 DOMAIN,media-s3-us-east-1.ceros.com
 DOMAIN,media.beehiiv.com
 DOMAIN,media.breitbart.com
@@ -1846,6 +1861,7 @@ DOMAIN,media.pointandplace.com
 DOMAIN,media.printables.com
 DOMAIN,media.pullopen.xyz
 DOMAIN,media.ra.kroll.com
+DOMAIN,media.remax-prod.eng.remax.tech
 DOMAIN,media.shopimind.com
 DOMAIN,media.smooch.io
 DOMAIN,media.steampowered.com
@@ -2350,6 +2366,7 @@ DOMAIN,static-files.bitchute.com
 DOMAIN,static-forms.klaviyo.com
 DOMAIN,static-gcp.freepikcompany.com
 DOMAIN,static-id.fc2.com
+DOMAIN,static-images.remax.com
 DOMAIN,static-landing.probiplacehold.cot.com
 DOMAIN,static-lccn.leetcode.com
 DOMAIN,static-main.moovit.com
@@ -3202,6 +3219,7 @@ DOMAIN-SUFFIX,dummyjson.com
 DOMAIN-SUFFIX,dwcdn.net
 DOMAIN-SUFFIX,dweb.eu.org
 DOMAIN-SUFFIX,dweb.link
+DOMAIN-SUFFIX,dwncdn.net
 DOMAIN-SUFFIX,dynamic-static-assets.com
 DOMAIN-SUFFIX,e.crashlytics.com
 DOMAIN-SUFFIX,easylist.to
@@ -3374,6 +3392,7 @@ DOMAIN-SUFFIX,imagebam.com
 DOMAIN-SUFFIX,imageban.ru
 DOMAIN-SUFFIX,imagedelivery.net
 DOMAIN-SUFFIX,imagehub.cc
+DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,images-dnxlive.com
 DOMAIN-SUFFIX,images-iherb.com
 DOMAIN-SUFFIX,images.androeed.ru
@@ -3510,6 +3529,7 @@ DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,live-video.net
 DOMAIN-SUFFIX,livemediahost.com
+DOMAIN-SUFFIX,lllcdn.autos
 DOMAIN-SUFFIX,local.webcontainer.io
 DOMAIN-SUFFIX,localizecdn.com
 DOMAIN-SUFFIX,locimg.com
@@ -3860,6 +3880,7 @@ DOMAIN-SUFFIX,sway-cdn.com
 DOMAIN-SUFFIX,swiftypecdn.com
 DOMAIN-SUFFIX,sxccdn.com
 DOMAIN-SUFFIX,szjal.cn
+DOMAIN-SUFFIX,t8cdn.com
 DOMAIN-SUFFIX,tapecontent.net
 DOMAIN-SUFFIX,targetimg1.com
 DOMAIN-SUFFIX,tauri.app
@@ -4046,6 +4067,10 @@ DOMAIN-WILDCARD,assets.*.imaga.co
 DOMAIN-WILDCARD,blog-imgs-??.2nt.com
 DOMAIN-WILDCARD,blog-imgs-??.fc2.com
 DOMAIN-WILDCARD,browser-intake-*-datadoghq.com
+DOMAIN-WILDCARD,cdn*.boysfood.com
+DOMAIN-WILDCARD,cdn*.pigav.com
+DOMAIN-WILDCARD,cdn*.porn87.com
+DOMAIN-WILDCARD,cdn*.pornhost.com
 DOMAIN-WILDCARD,cdn-*.microsoft.com
 DOMAIN-WILDCARD,cdn-msp?.18comic.org
 DOMAIN-WILDCARD,cdn-msp?.18comic.vip
@@ -4058,6 +4083,7 @@ DOMAIN-WILDCARD,cdn?.18girlssex.com
 DOMAIN-WILDCARD,cdn?.mikuclub.fun
 DOMAIN-WILDCARD,cdns.*.gigya.com
 DOMAIN-WILDCARD,chunk-*.mux.com
+DOMAIN-WILDCARD,fastly-*.allmovie.com
 DOMAIN-WILDCARD,file?.mikuclub.fun
 DOMAIN-WILDCARD,i?.nhentai.net
 DOMAIN-WILDCARD,image*.cloudokyo.cloud

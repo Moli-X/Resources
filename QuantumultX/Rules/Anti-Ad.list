@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 99437
+# 规则统计: 99429
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -7002,13 +7002,9 @@ HOST-SUFFIX,adworldmedia.net,Anti-Ad
 HOST-SUFFIX,adwstats.com,Anti-Ad
 HOST-SUFFIX,adwx6vcj.com,Anti-Ad
 HOST-SUFFIX,adx-bid.tianzhuobj.com,Anti-Ad
-HOST-SUFFIX,adx-bj-req.anythinktech.com,Anti-Ad
-HOST-SUFFIX,adx-bj.anythinktech.com,Anti-Ad
-HOST-SUFFIX,adx-cn.anythinktech.com,Anti-Ad
 HOST-SUFFIX,adx-drcn.op.dbankcloud.cn,Anti-Ad
 HOST-SUFFIX,adx-exchange.toast.com,Anti-Ad
 HOST-SUFFIX,adx-open-service.youku.com,Anti-Ad
-HOST-SUFFIX,adx-os.anythinktech.com,Anti-Ad
 HOST-SUFFIX,adx-static.ksosoft.com,Anti-Ad
 HOST-SUFFIX,adx.36kr.com,Anti-Ad
 HOST-SUFFIX,adx.ads.heytapmobi.com,Anti-Ad
@@ -9260,6 +9256,7 @@ HOST-SUFFIX,anyrelationsandin.com,Anti-Ad
 HOST-SUFFIX,anysad.pro,Anti-Ad
 HOST-SUFFIX,anysdk.com,Anti-Ad
 HOST-SUFFIX,anysize.pro,Anti-Ad
+HOST-SUFFIX,anythinktech.com,Anti-Ad
 HOST-SUFFIX,anytimebananarecoil.com,Anti-Ad
 HOST-SUFFIX,anytimespurt.com,Anti-Ad
 HOST-SUFFIX,anytrack.io,Anti-Ad
@@ -9435,7 +9432,6 @@ HOST-SUFFIX,api.aixifan.com,Anti-Ad
 HOST-SUFFIX,api.all-internet.jp,Anti-Ad
 HOST-SUFFIX,api.analytics.omgpop.com,Anti-Ad
 HOST-SUFFIX,api.anti.wauee.com,Anti-Ad
-HOST-SUFFIX,api.anythinktech.com,Anti-Ad
 HOST-SUFFIX,api.apiok.net.iberostar.com,Anti-Ad
 HOST-SUFFIX,api.appodeal.com,Anti-Ad
 HOST-SUFFIX,api.apps.sina.cn,Anti-Ad
@@ -18072,7 +18068,6 @@ HOST-SUFFIX,cmx.autohome.com.cn,Anti-Ad
 HOST-SUFFIX,cmxfbwwuwdyjq.site,Anti-Ad
 HOST-SUFFIX,cmyiojnzfirqc.website,Anti-Ad
 HOST-SUFFIX,cmzaly.gebrueder-goetz.de,Anti-Ad
-HOST-SUFFIX,cn-api.anythinktech.com,Anti-Ad
 HOST-SUFFIX,cn-go.experian.com,Anti-Ad
 HOST-SUFFIX,cn.bidushe.com,Anti-Ad
 HOST-SUFFIX,cn.innity-asia.com,Anti-Ad
@@ -21952,7 +21947,6 @@ HOST-SUFFIX,d9r4lqt28t1fm.cloudfront.net,Anti-Ad
 HOST-SUFFIX,d9w.fl1c.com,Anti-Ad
 HOST-SUFFIX,d9yk47of1efyy.cloudfront.net,Anti-Ad
 HOST-SUFFIX,da-ads.com,Anti-Ad
-HOST-SUFFIX,da.anythinktech.com,Anti-Ad
 HOST-SUFFIX,da.bodenhaus.de,Anti-Ad
 HOST-SUFFIX,da.daji.com,Anti-Ad
 HOST-SUFFIX,da.freo.nl,Anti-Ad
@@ -22786,7 +22780,6 @@ HOST-SUFFIX,datingtop-flirt.com,Anti-Ad
 HOST-SUFFIX,datingtop-flirtses.com,Anti-Ad
 HOST-SUFFIX,datingtopgirls.com,Anti-Ad
 HOST-SUFFIX,datjwuqifa.com,Anti-Ad
-HOST-SUFFIX,datk.anythinktech.com,Anti-Ad
 HOST-SUFFIX,datouniao.com,Anti-Ad
 HOST-SUFFIX,datsoaksou.net,Anti-Ad
 HOST-SUFFIX,datsunthick.com,Anti-Ad
@@ -84451,7 +84444,6 @@ HOST-SUFFIX,tk.airfrance.ua,Anti-Ad
 HOST-SUFFIX,tk.airfrance.us,Anti-Ad
 HOST-SUFFIX,tk.airfrance.vn,Anti-Ad
 HOST-SUFFIX,tk.alexandermcqueen.com,Anti-Ad
-HOST-SUFFIX,tk.anythinktech.com,Anti-Ad
 HOST-SUFFIX,tk.apprentis-auteuil.org,Anti-Ad
 HOST-SUFFIX,tk.assurland.com,Anti-Ad
 HOST-SUFFIX,tk.assurlandpro.com,Anti-Ad

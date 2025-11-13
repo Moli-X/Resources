@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4091
+# 规则统计: 4117
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -32,6 +32,7 @@ HOST,ajax.microsoft.com,CDN
 HOST,ak.sail-horizon.com,CDN
 HOST,akamai-assets.squarespace.com,CDN
 HOST,akamai-origin.myanimelist.net,CDN
+HOST,alcdn.msauth.net,CDN
 HOST,alt.idgesg.net,CDN
 HOST,amazon-omni-cdn.com,CDN
 HOST,amp.akamaized.net,CDN
@@ -157,7 +158,6 @@ HOST,assets.dify.ai,CDN
 HOST,assets.dnsfilter.com,CDN
 HOST,assets.documentcloud.org,CDN
 HOST,assets.dub.co,CDN
-HOST,assets.dwncdn.net,CDN
 HOST,assets.ecomm.ui.com,CDN
 HOST,assets.embeddables.com,CDN
 HOST,assets.euractiv.com,CDN
@@ -225,6 +225,7 @@ HOST,assets.play.xbox.com,CDN
 HOST,assets.plurk.com,CDN
 HOST,assets.polarbyte.com,CDN
 HOST,assets.poool.fr,CDN
+HOST,assets.porndig.com,CDN
 HOST,assets.positional-bucket.com,CDN
 HOST,assets.prowritingaid.com,CDN
 HOST,assets.queue-it.net,CDN
@@ -397,7 +398,10 @@ HOST,categoriespages-cdn.trustpilot.net,CDN
 HOST,cc-embed.adobe.com,CDN
 HOST,cc.boyfriendtv.com,CDN
 HOST,cdn-1.ggjav.com,CDN
+HOST,cdn-1.porn87.com,CDN
 HOST,cdn-1.strava.com,CDN
+HOST,cdn-2.porn87.com,CDN
+HOST,cdn-3.porn87.com,CDN
 HOST,cdn-a.sonyentertainmentnetwork.com,CDN
 HOST,cdn-app.cart-bot.net,CDN
 HOST,cdn-app.pathfactory.com,CDN
@@ -443,6 +447,7 @@ HOST,cdn-seo.airdroid.com,CDN
 HOST,cdn-service.jp.sumologic.com,CDN
 HOST,cdn-share-sprites.flaticon.com,CDN
 HOST,cdn-static-1.medium.com,CDN
+HOST,cdn-static-push.porndig.com,CDN
 HOST,cdn-static.paw.cloud,CDN
 HOST,cdn-static.talent.com,CDN
 HOST,cdn-swell-assets.yotpo.com,CDN
@@ -617,6 +622,7 @@ HOST,cdn.icomoon.io,CDN
 HOST,cdn.icon-icons.com,CDN
 HOST,cdn.iconfinder.com,CDN
 HOST,cdn.imageengine.io,CDN
+HOST,cdn.imago-images.com,CDN
 HOST,cdn.img.ly,CDN
 HOST,cdn.infoq.com,CDN
 HOST,cdn.insightmediagroup.io,CDN
@@ -649,6 +655,7 @@ HOST,cdn.lgrckt-in.com,CDN
 HOST,cdn.libravatar.org,CDN
 HOST,cdn.lihkg.com,CDN
 HOST,cdn.linearicons.com,CDN
+HOST,cdn.lineicons.com,CDN
 HOST,cdn.livechatinc.com,CDN
 HOST,cdn.logbase.io,CDN
 HOST,cdn.login.unity.com,CDN
@@ -669,6 +676,7 @@ HOST,cdn.minecraft-server-list.com,CDN
 HOST,cdn.miohentai.com,CDN
 HOST,cdn.missav.com,CDN
 HOST,cdn.modrinth.com,CDN
+HOST,cdn.moeload.com,CDN
 HOST,cdn.music.com,CDN
 HOST,cdn.myanimelist.net,CDN
 HOST,cdn.myfonts.net,CDN
@@ -741,6 +749,7 @@ HOST,cdn.rive.app,CDN
 HOST,cdn.road.cc,CDN
 HOST,cdn.robinpro.gallery,CDN
 HOST,cdn.roboflow.com,CDN
+HOST,cdn.roof.ai,CDN
 HOST,cdn.royaleapi.com,CDN
 HOST,cdn.safecharge.com,CDN
 HOST,cdn.sanity.io,CDN
@@ -1208,6 +1217,8 @@ HOST,fast.appcues.com,CDN
 HOST,fast.wistia.com,CDN
 HOST,fast.wistia.net,CDN
 HOST,fastly-cloud.typenetwork.com,CDN
+HOST,fastly-gce.allmovie.com,CDN
+HOST,fastly-s3.allmovie.com,CDN
 HOST,fastporndelivery.hqporner.com,CDN
 HOST,favicon.pirsch.io,CDN
 HOST,favicon.yandex.net,CDN
@@ -1387,6 +1398,7 @@ HOST,ih2.redbubble.net,CDN
 HOST,ih3.redbubble.net,CDN
 HOST,ik.imgkit.net,CDN
 HOST,imag.malavida.com,CDN
+HOST,image-cdn.porndig.com,CDN
 HOST,image-forwarder.notaku.so,CDN
 HOST,image-stgus.samsung.com,CDN
 HOST,image-us.samsung.com,CDN
@@ -1567,9 +1579,11 @@ HOST,img.huffingtonpost.com,CDN
 HOST,img.icons8.com,CDN
 HOST,img.ifunny.co,CDN
 HOST,img.imgdd.com,CDN
+HOST,img.imoutomoe.net,CDN
 HOST,img.informer.com,CDN
 HOST,img.itch.zone,CDN
 HOST,img.javstore.net,CDN
+HOST,img.javynow.com,CDN
 HOST,img.jsdelivr.com,CDN
 HOST,img.kbhgames.com,CDN
 HOST,img.kemono.su,CDN
@@ -1792,6 +1806,7 @@ HOST,media-cdn.epicgames.com,CDN
 HOST,media-central.indianexpress.com,CDN
 HOST,media-cms.ayoba.me,CDN
 HOST,media-cms.onesignal.com,CDN
+HOST,media-hls.growcdnssedge.com,CDN
 HOST,media-s3-us-east-1.ceros.com,CDN
 HOST,media.beehiiv.com,CDN
 HOST,media.breitbart.com,CDN
@@ -1849,6 +1864,7 @@ HOST,media.pointandplace.com,CDN
 HOST,media.printables.com,CDN
 HOST,media.pullopen.xyz,CDN
 HOST,media.ra.kroll.com,CDN
+HOST,media.remax-prod.eng.remax.tech,CDN
 HOST,media.shopimind.com,CDN
 HOST,media.smooch.io,CDN
 HOST,media.steampowered.com,CDN
@@ -2353,6 +2369,7 @@ HOST,static-files.bitchute.com,CDN
 HOST,static-forms.klaviyo.com,CDN
 HOST,static-gcp.freepikcompany.com,CDN
 HOST,static-id.fc2.com,CDN
+HOST,static-images.remax.com,CDN
 HOST,static-landing.probiplacehold.cot.com,CDN
 HOST,static-lccn.leetcode.com,CDN
 HOST,static-main.moovit.com,CDN
@@ -3205,6 +3222,7 @@ HOST-SUFFIX,dummyjson.com,CDN
 HOST-SUFFIX,dwcdn.net,CDN
 HOST-SUFFIX,dweb.eu.org,CDN
 HOST-SUFFIX,dweb.link,CDN
+HOST-SUFFIX,dwncdn.net,CDN
 HOST-SUFFIX,dynamic-static-assets.com,CDN
 HOST-SUFFIX,e.crashlytics.com,CDN
 HOST-SUFFIX,easylist.to,CDN
@@ -3377,6 +3395,7 @@ HOST-SUFFIX,imagebam.com,CDN
 HOST-SUFFIX,imageban.ru,CDN
 HOST-SUFFIX,imagedelivery.net,CDN
 HOST-SUFFIX,imagehub.cc,CDN
+HOST-SUFFIX,images-amazon.com,CDN
 HOST-SUFFIX,images-dnxlive.com,CDN
 HOST-SUFFIX,images-iherb.com,CDN
 HOST-SUFFIX,images.androeed.ru,CDN
@@ -3513,6 +3532,7 @@ HOST-SUFFIX,line-cdn.net,CDN
 HOST-SUFFIX,line-scdn.net,CDN
 HOST-SUFFIX,live-video.net,CDN
 HOST-SUFFIX,livemediahost.com,CDN
+HOST-SUFFIX,lllcdn.autos,CDN
 HOST-SUFFIX,local.webcontainer.io,CDN
 HOST-SUFFIX,localizecdn.com,CDN
 HOST-SUFFIX,locimg.com,CDN
@@ -3863,6 +3883,7 @@ HOST-SUFFIX,sway-cdn.com,CDN
 HOST-SUFFIX,swiftypecdn.com,CDN
 HOST-SUFFIX,sxccdn.com,CDN
 HOST-SUFFIX,szjal.cn,CDN
+HOST-SUFFIX,t8cdn.com,CDN
 HOST-SUFFIX,tapecontent.net,CDN
 HOST-SUFFIX,targetimg1.com,CDN
 HOST-SUFFIX,tauri.app,CDN
@@ -4049,6 +4070,10 @@ HOST-WILDCARD,assets.*.imaga.co,CDN
 HOST-WILDCARD,blog-imgs-??.2nt.com,CDN
 HOST-WILDCARD,blog-imgs-??.fc2.com,CDN
 HOST-WILDCARD,browser-intake-*-datadoghq.com,CDN
+HOST-WILDCARD,cdn*.boysfood.com,CDN
+HOST-WILDCARD,cdn*.pigav.com,CDN
+HOST-WILDCARD,cdn*.porn87.com,CDN
+HOST-WILDCARD,cdn*.pornhost.com,CDN
 HOST-WILDCARD,cdn-*.microsoft.com,CDN
 HOST-WILDCARD,cdn-msp?.18comic.org,CDN
 HOST-WILDCARD,cdn-msp?.18comic.vip,CDN
@@ -4061,6 +4086,7 @@ HOST-WILDCARD,cdn?.18girlssex.com,CDN
 HOST-WILDCARD,cdn?.mikuclub.fun,CDN
 HOST-WILDCARD,cdns.*.gigya.com,CDN
 HOST-WILDCARD,chunk-*.mux.com,CDN
+HOST-WILDCARD,fastly-*.allmovie.com,CDN
 HOST-WILDCARD,file?.mikuclub.fun,CDN
 HOST-WILDCARD,i?.nhentai.net,CDN
 HOST-WILDCARD,image*.cloudokyo.cloud,CDN

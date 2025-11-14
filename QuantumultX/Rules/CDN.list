@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4117
+# 规则统计: 4124
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -393,6 +393,7 @@ HOST,cache.industry.siemens.com,CDN
 HOST,cache.omnicalculator.com,CDN
 HOST,cached.rebuyengine.com,CDN
 HOST,canny-assets.io,CDN
+HOST,canvas-lb.tubitv.com,CDN
 HOST,cassette.sphdigital.com.sg,CDN
 HOST,categoriespages-cdn.trustpilot.net,CDN
 HOST,cc-embed.adobe.com,CDN
@@ -1477,6 +1478,7 @@ HOST,images.hothardware.com,CDN
 HOST,images.icon-icons.com,CDN
 HOST,images.idgesg.net,CDN
 HOST,images.indianexpress.com,CDN
+HOST,images.justwatch.com,CDN
 HOST,images.kick.com,CDN
 HOST,images.loox.io,CDN
 HOST,images.macrumors.com,CDN
@@ -1510,6 +1512,7 @@ HOST,images.tokopedia.net,CDN
 HOST,images.typeform.com,CDN
 HOST,images.unsplash.com,CDN
 HOST,images.videolan.org,CDN
+HOST,images.vudu.com,CDN
 HOST,images.web3.storage,CDN
 HOST,images.weserv.nl,CDN
 HOST,images.whoer.com,CDN
@@ -1522,6 +1525,7 @@ HOST,images1.vinted.net,CDN
 HOST,images1.welcomesoftware.com,CDN
 HOST,images2.cmp.optimizely.com,CDN
 HOST,images2.giant-bicycles.com,CDN
+HOST,images2.vudu.com,CDN
 HOST,images2.welcomesoftware.com,CDN
 HOST,images3.cmp.optimizely.com,CDN
 HOST,images3.welcomesoftware.com,CDN
@@ -1797,6 +1801,7 @@ HOST,marfeelexperimentsexperienceengine.mrf.io,CDN
 HOST,marketing.figma.com,CDN
 HOST,marketing.thingiverse.com,CDN
 HOST,marketplace-web-assets.vinted.com,CDN
+HOST,mcdn.tubi.tv,CDN
 HOST,mcdn.vrporn.com,CDN
 HOST,mcdnds.vrporn.com,CDN
 HOST,mcdns.vrporn.com,CDN
@@ -2368,6 +2373,7 @@ HOST,static-exp3.licdn.com,CDN
 HOST,static-files.bitchute.com,CDN
 HOST,static-forms.klaviyo.com,CDN
 HOST,static-gcp.freepikcompany.com,CDN
+HOST,static-homepage-en.pluto.tv,CDN
 HOST,static-id.fc2.com,CDN
 HOST,static-images.remax.com,CDN
 HOST,static-landing.probiplacehold.cot.com,CDN
@@ -2757,6 +2763,7 @@ HOST,townsquare.media,CDN
 HOST,tracking.inflection.io,CDN
 HOST,trekcdnprod.azureedge.net,CDN
 HOST,truth.bahamut.com.tw,CDN
+HOST,tubi.video,CDN
 HOST,tuf-repo-cdn.sigstore.dev,CDN
 HOST,tuf-repo.github.com,CDN
 HOST,turbo.build,CDN

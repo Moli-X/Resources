@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4124
+# 规则统计: 4132
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -681,6 +681,7 @@ HOST,cdn.moeload.com,CDN
 HOST,cdn.music.com,CDN
 HOST,cdn.myanimelist.net,CDN
 HOST,cdn.myfonts.net,CDN
+HOST,cdn.myfutanari.com,CDN
 HOST,cdn.myportfolio.com,CDN
 HOST,cdn.nba.com,CDN
 HOST,cdn.ndtv.com,CDN
@@ -997,6 +998,7 @@ HOST,checkout.stripe.com,CDN
 HOST,chunk-composing.canva.com,CDN
 HOST,ci.testling.com,CDN
 HOST,cimg.cnyes.cool,CDN
+HOST,clara.iwara.tv,CDN
 HOST,claritystatic.azureedge.net,CDN
 HOST,clickup.marketlinc.com,CDN
 HOST,clientsdk.launchdarkly.com,CDN
@@ -1236,6 +1238,7 @@ HOST,file.zoom.us,CDN
 HOST,file1.hkepc.net,CDN
 HOST,files.armorgames.com,CDN
 HOST,files.buildwithfern.com,CDN
+HOST,files.iwara.tv,CDN
 HOST,files.jotform.com,CDN
 HOST,files.kick.com,CDN
 HOST,files.mastodon.ktachibana.party,CDN
@@ -1323,6 +1326,7 @@ HOST,hello.zonos.com,CDN
 HOST,hentaiworldtv.b-cdn.net,CDN
 HOST,heroicons.com,CDN
 HOST,hhhhhhome86227170.wordpress.com,CDN
+HOST,himeko.iwara.tv,CDN
 HOST,hips.hearstapps.com,CDN
 HOST,hls.hentaicity.com,CDN
 HOST,home.integrate.com,CDN
@@ -1546,6 +1550,7 @@ HOST,img-fnc.ebc.net.tw,CDN
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,CDN
 HOST,img-s-msn-com.akamaized.net,CDN
 HOST,img.177pica.com,CDN
+HOST,img.321cdn.com,CDN
 HOST,img.3movs.com,CDN
 HOST,img.4gamers.com.tw,CDN
 HOST,img.4khd.com,CDN
@@ -2394,6 +2399,7 @@ HOST,static-us.afterpay.com,CDN
 HOST,static-web-prod.skillshare.com,CDN
 HOST,static-web.grammarly.com,CDN
 HOST,static-www.onlyoffice.com,CDN
+HOST,static.3dporndude.com,CDN
 HOST,static.4shared.com,CDN
 HOST,static.ada.support,CDN
 HOST,static.addtoany.com,CDN
@@ -2591,6 +2597,7 @@ HOST,static.start.me,CDN
 HOST,static.status.io,CDN
 HOST,static.svc.litv.tv,CDN
 HOST,static.telegraph.co.uk,CDN
+HOST,static.tella.tv,CDN
 HOST,static.tenki.jp,CDN
 HOST,static.test-beta.com,CDN
 HOST,static.theguardian.com,CDN
@@ -3212,6 +3219,7 @@ HOST-SUFFIX,dnvodcdn.me,CDN
 HOST-SUFFIX,docker.io,CDN
 HOST-SUFFIX,dockerstatic.com,CDN
 HOST-SUFFIX,dogehls.xyz,CDN
+HOST-SUFFIX,dolphin-anty-cdn.com,CDN
 HOST-SUFFIX,doodcdn.co,CDN
 HOST-SUFFIX,doppiocdn.com,CDN
 HOST-SUFFIX,doppiocdn.live,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4132
+# 规则统计: 4133
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -629,6 +629,7 @@ HOST,cdn.infoq.com,CDN
 HOST,cdn.insightmediagroup.io,CDN
 HOST,cdn.ionos.de,CDN
 HOST,cdn.ip2location.io,CDN
+HOST,cdn.iplocation.net,CDN
 HOST,cdn.iporntv.net,CDN
 HOST,cdn.ipregistry.co,CDN
 HOST,cdn.jamieoliver.com,CDN

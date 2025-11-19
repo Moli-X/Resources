@@ -133,12 +133,14 @@ DOMAIN-SUFFIX,advertising.yandex.ru
 DOMAIN-SUFFIX,advice-ads.s3.amazonaws.com
 DOMAIN-SUFFIX,adview.cn
 DOMAIN-SUFFIX,adx-ad.smart-tv.cn
+DOMAIN-SUFFIX,adx-api.jinmo.tech
 DOMAIN-SUFFIX,adx-bj-req.anythinktech.com
 DOMAIN-SUFFIX,adx-bj.anythinktech.com
 DOMAIN-SUFFIX,adx-cn.anythinktech.com
 DOMAIN-SUFFIX,adx-drcn.op.dbankcloud.cn
 DOMAIN-SUFFIX,adx-open-service.youku.com
 DOMAIN-SUFFIX,adx-os.anythinktech.com
+DOMAIN-SUFFIX,adx-saas.advlion.com
 DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 DOMAIN-SUFFIX,adx.ads.oppomobile.com
 DOMAIN-SUFFIX,adx.adwangmai.com
@@ -238,6 +240,7 @@ DOMAIN-SUFFIX,bgg.baidu.com
 DOMAIN-SUFFIX,bianxian.com
 DOMAIN-SUFFIX,bingads.microsoft.com
 DOMAIN-SUFFIX,biz.weibo.com
+DOMAIN-SUFFIX,bj-td-menta-01-callback.advlion.com
 DOMAIN-SUFFIX,bj.ad.track.66mobi.com
 DOMAIN-SUFFIX,books-analytics-events.apple.com
 DOMAIN-SUFFIX,bootpreload.uve.weibo.com
@@ -248,6 +251,7 @@ DOMAIN-SUFFIX,bsrv.qq.com
 DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,business-api.tiktok.com
 DOMAIN-SUFFIX,c.bidtoolads.com
+DOMAIN-SUFFIX,c.etoolads.cn
 DOMAIN-SUFFIX,c.evidon.com
 DOMAIN-SUFFIX,c.gj.qq.com
 DOMAIN-SUFFIX,c.kuaiduizuoye.com
@@ -529,6 +533,7 @@ DOMAIN-SUFFIX,mobilead.kuwo.cn
 DOMAIN-SUFFIX,mobilelog.upqzfile.com
 DOMAIN-SUFFIX,monitor-ads-test.huan.tv
 DOMAIN-SUFFIX,monitor-uu.play.aiseet.atianqi.com
+DOMAIN-SUFFIX,monitor.adxsenmeng.com
 DOMAIN-SUFFIX,monitor.music.qq.com
 DOMAIN-SUFFIX,monitor.uu.qq.com
 DOMAIN-SUFFIX,monsetting.toutiao.com
@@ -605,6 +610,7 @@ DOMAIN-SUFFIX,promotion-partner.kuaishou.com
 DOMAIN-SUFFIX,proxy.advp.apple.com
 DOMAIN-SUFFIX,public.gdtimg.com
 DOMAIN-SUFFIX,q.i.gdt.qq.com
+DOMAIN-SUFFIX,qmlog.baertt.com
 DOMAIN-SUFFIX,qn-cdnfile1pcdn.msstatic.com
 DOMAIN-SUFFIX,qqdata.ab.qq.com
 DOMAIN-SUFFIX,qzs.gdtimg.com
@@ -625,8 +631,10 @@ DOMAIN-SUFFIX,rps.hpplay.cn
 DOMAIN-SUFFIX,rpt.gdt.qq.com
 DOMAIN-SUFFIX,rt.applovin.com
 DOMAIN-SUFFIX,rt.applvn.com
+DOMAIN-SUFFIX,rtb.adxsenmeng.com
 DOMAIN-SUFFIX,rtb.voiceads.cn
 DOMAIN-SUFFIX,s.amazon-adsystem.com
+DOMAIN-SUFFIX,s1.cdn-sg.advlion.com
 DOMAIN-SUFFIX,s8t.teads.tv
 DOMAIN-SUFFIX,saad.ms.zhangyue.net
 DOMAIN-SUFFIX,saas.hpplay.cn
@@ -710,6 +718,7 @@ DOMAIN-SUFFIX,t3.a.market.xiaomi.com
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
 DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv
 DOMAIN-SUFFIX,tangram.e.qq.com
+DOMAIN-SUFFIX,target.ads.jihuoniao.com
 DOMAIN-SUFFIX,tdc.qq.com
 DOMAIN-SUFFIX,tdsdk.cpatrk.net
 DOMAIN-SUFFIX,tdsdk.xdrig.com

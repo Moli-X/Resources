@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7359
+# 规则统计: 7364
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -206,6 +206,7 @@ HOST-SUFFIX,addictedtocoffee.de,ProxyGFW
 HOST-SUFFIX,addons.mozilla.org,ProxyGFW
 HOST-SUFFIX,addyoutube.com,ProxyGFW
 HOST-SUFFIX,adelaidebbs.com,ProxyGFW
+HOST-SUFFIX,adguard-vpn.com,ProxyGFW
 HOST-SUFFIX,adguard.org,ProxyGFW
 HOST-SUFFIX,admin.recaptcha.net,ProxyGFW
 HOST-SUFFIX,admob.com,ProxyGFW
@@ -235,6 +236,7 @@ HOST-SUFFIX,ahcdn.com,ProxyGFW
 HOST-SUFFIX,ai-kan.net,ProxyGFW
 HOST-SUFFIX,ai-wen.net,ProxyGFW
 HOST-SUFFIX,ai.binwang.me,ProxyGFW
+HOST-SUFFIX,ai.dev,ProxyGFW
 HOST-SUFFIX,ai.google,ProxyGFW
 HOST-SUFFIX,aiosearch.com,ProxyGFW
 HOST-SUFFIX,aiph.net,ProxyGFW
@@ -2883,6 +2885,7 @@ HOST-SUFFIX,hautelookcdn.com,ProxyGFW
 HOST-SUFFIX,have8.com,ProxyGFW
 HOST-SUFFIX,hbg.com,ProxyGFW
 HOST-SUFFIX,hbo.com,ProxyGFW
+HOST-SUFFIX,hbomax.com,ProxyGFW
 HOST-SUFFIX,hcaptcha.com,ProxyGFW
 HOST-SUFFIX,hclips.com,ProxyGFW
 HOST-SUFFIX,hd.stheadline.com,ProxyGFW
@@ -4044,6 +4047,7 @@ HOST-SUFFIX,mixpod.com,ProxyGFW
 HOST-SUFFIX,mixx.com,ProxyGFW
 HOST-SUFFIX,mizzmona.com,ProxyGFW
 HOST-SUFFIX,mjib.gov.tw,ProxyGFW
+HOST-SUFFIX,mjj.rip,ProxyGFW
 HOST-SUFFIX,mjlsh.usc.cuhk.edu.hk,ProxyGFW
 HOST-SUFFIX,mk5000.com,ProxyGFW
 HOST-SUFFIX,mlc.ai,ProxyGFW
@@ -5172,6 +5176,7 @@ HOST-SUFFIX,rule34video.com,ProxyGFW
 HOST-SUFFIX,rumble.com,ProxyGFW
 HOST-SUFFIX,runbtx.com,ProxyGFW
 HOST-SUFFIX,rushbee.com,ProxyGFW
+HOST-SUFFIX,rustdesk.com,ProxyGFW
 HOST-SUFFIX,rusvpn.com,ProxyGFW
 HOST-SUFFIX,ruten.com.tw,ProxyGFW
 HOST-SUFFIX,rutracker.net,ProxyGFW

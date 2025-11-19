@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4133
+# 规则统计: 4144
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -545,6 +545,7 @@ HOST,cdn.datdota.com,CDN
 HOST,cdn.db-ip.com,CDN
 HOST,cdn.db.io,CDN
 HOST,cdn.decrypt.co,CDN
+HOST,cdn.decrypt.day,CDN
 HOST,cdn.delight-vr.com,CDN
 HOST,cdn.designerapp.osi.office.net,CDN
 HOST,cdn.designsystem.arm.com,CDN
@@ -1022,6 +1023,7 @@ HOST,cms-assets.xboxservices.com,CDN
 HOST,cms-cdn.goat.com,CDN
 HOST,cms-cdn.now.gg,CDN
 HOST,cms.blavity.com,CDN
+HOST,cms.myfonts.com,CDN
 HOST,cms.recordedfuture.com,CDN
 HOST,cms.therecord.media,CDN
 HOST,cms.typenetwork.com,CDN
@@ -1329,6 +1331,7 @@ HOST,heroicons.com,CDN
 HOST,hhhhhhome86227170.wordpress.com,CDN
 HOST,himeko.iwara.tv,CDN
 HOST,hips.hearstapps.com,CDN
+HOST,hiveplayer-static.bamgrid.com,CDN
 HOST,hls.hentaicity.com,CDN
 HOST,home.integrate.com,CDN
 HOST,hp.foxnews.com,CDN
@@ -1345,6 +1348,7 @@ HOST,i.dailymail.co.uk,CDN
 HOST,i.gawby.com,CDN
 HOST,i.geekflare.com,CDN
 HOST,i.giphy.com,CDN
+HOST,i.git99.com,CDN
 HOST,i.guim.co.uk,CDN
 HOST,i.gzn.jp,CDN
 HOST,i.hamreus.com,CDN
@@ -2060,6 +2064,7 @@ HOST,polyfill-fe.toss.im,CDN
 HOST,polyfill.bbhub.io,CDN
 HOST,pomf2.lain.la,CDN
 HOST,pool.jortage.com,CDN
+HOST,pp-static.monotype.com,CDN
 HOST,pplx-next-static-public.perplexity.ai,CDN
 HOST,pplx-res.cloudinary.com,CDN
 HOST,pptstatic.iyf.tv,CDN
@@ -2275,6 +2280,7 @@ HOST,secure.fanboy.co.nz,CDN
 HOST,secure.telegraph.co.uk,CDN
 HOST,segapi.clerk.com,CDN
 HOST,segment.digitalocean.com,CDN
+HOST,sellon.shiprocket.in,CDN
 HOST,sentry.ainopara.com,CDN
 HOST,seo-wp.airdroid.com,CDN
 HOST,sequoia.cdn-apple.com,CDN
@@ -2324,6 +2330,7 @@ HOST,speedmedia2.jfrog.com,CDN
 HOST,spoprod-a.akamaihd.net,CDN
 HOST,spotlightimage.biggo.com,CDN
 HOST,sprig.figma.com,CDN
+HOST,sr-cdn-1.shiprocket.in,CDN
 HOST,ss7.vzw.com,CDN
 HOST,ssl.gstatic.com,CDN
 HOST,st-eu.dynamicyield.com,CDN
@@ -2399,6 +2406,7 @@ HOST,static-sv.fc2.com,CDN
 HOST,static-us.afterpay.com,CDN
 HOST,static-web-prod.skillshare.com,CDN
 HOST,static-web.grammarly.com,CDN
+HOST,static-webfonts.myfonts.com,CDN
 HOST,static-www.onlyoffice.com,CDN
 HOST,static.3dporndude.com,CDN
 HOST,static.4shared.com,CDN
@@ -2558,6 +2566,7 @@ HOST,static.onlyfans.com,CDN
 HOST,static.oomol.com,CDN
 HOST,static.openreplay.com,CDN
 HOST,static.opensea.io,CDN
+HOST,static.opensuse.org,CDN
 HOST,static.oracle.com,CDN
 HOST,static.parallels.com,CDN
 HOST,static.peatio.com,CDN
@@ -3399,6 +3408,7 @@ HOST-SUFFIX,i-dont-care-about-cookies.eu,CDN
 HOST-SUFFIX,i.optimole.com,CDN
 HOST-SUFFIX,ibytedtos.com,CDN
 HOST-SUFFIX,ibyteimg.com,CDN
+HOST-SUFFIX,icfcdn.com,CDN
 HOST-SUFFIX,icon.horse,CDN
 HOST-SUFFIX,iframe.ly,CDN
 HOST-SUFFIX,iggcdn.com,CDN
@@ -3644,6 +3654,7 @@ HOST-SUFFIX,npm.io,CDN
 HOST-SUFFIX,npmcdn.com,CDN
 HOST-SUFFIX,npmfs.com,CDN
 HOST-SUFFIX,npms.io,CDN
+HOST-SUFFIX,nsimg.net,CDN
 HOST-SUFFIX,nv7s.com,CDN
 HOST-SUFFIX,nxcli.io,CDN
 HOST-SUFFIX,nxedge.io,CDN

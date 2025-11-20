@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7364
+# 规则统计: 7369
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1272,6 +1272,7 @@ HOST-SUFFIX,cloud.mail.ru,ProxyGFW
 HOST-SUFFIX,cloudcone.com,ProxyGFW
 HOST-SUFFIX,cloudflare-dns.com,ProxyGFW
 HOST-SUFFIX,cloudflare-ipfs.com,ProxyGFW
+HOST-SUFFIX,cloudflarestatus.com,ProxyGFW
 HOST-SUFFIX,cloudfront.net,ProxyGFW
 HOST-SUFFIX,cloudfunctions.net,ProxyGFW
 HOST-SUFFIX,club1069.com,ProxyGFW
@@ -3708,6 +3709,7 @@ HOST-SUFFIX,liaowangxizang.net,ProxyGFW
 HOST-SUFFIX,liberal.org.hk,ProxyGFW
 HOST-SUFFIX,libertysculpturepark.com,ProxyGFW
 HOST-SUFFIX,libertytimes.com.tw,ProxyGFW
+HOST-SUFFIX,library-access.sk,ProxyGFW
 HOST-SUFFIX,library.usc.cuhk.edu.hk,ProxyGFW
 HOST-SUFFIX,libraryinformationtechnology.com,ProxyGFW
 HOST-SUFFIX,libredd.it,ProxyGFW
@@ -3991,6 +3993,7 @@ HOST-SUFFIX,middle-way.net,ProxyGFW
 HOST-SUFFIX,mihk.hk,ProxyGFW
 HOST-SUFFIX,mihr.com,ProxyGFW
 HOST-SUFFIX,mihua.org,ProxyGFW
+HOST-SUFFIX,mij.rip,ProxyGFW
 HOST-SUFFIX,mikanani.me,ProxyGFW
 HOST-SUFFIX,mike.cz.cc,ProxyGFW
 HOST-SUFFIX,mikesoltys.com,ProxyGFW
@@ -4046,6 +4049,7 @@ HOST-SUFFIX,mixi.jp,ProxyGFW
 HOST-SUFFIX,mixpod.com,ProxyGFW
 HOST-SUFFIX,mixx.com,ProxyGFW
 HOST-SUFFIX,mizzmona.com,ProxyGFW
+HOST-SUFFIX,mji.rip,ProxyGFW
 HOST-SUFFIX,mjib.gov.tw,ProxyGFW
 HOST-SUFFIX,mjj.rip,ProxyGFW
 HOST-SUFFIX,mjlsh.usc.cuhk.edu.hk,ProxyGFW
@@ -7006,6 +7010,7 @@ HOST-SUFFIX,xmovies.com,ProxyGFW
 HOST-SUFFIX,xn--11xs86f.icu,ProxyGFW
 HOST-SUFFIX,xn--4gq171p.com,ProxyGFW
 HOST-SUFFIX,xn--90wwvt03e.com,ProxyGFW
+HOST-SUFFIX,xn--9iqy04a7fi01l.com,ProxyGFW
 HOST-SUFFIX,xn--9pr62r24a.com,ProxyGFW
 HOST-SUFFIX,xn--czq75pvv1aj5c.org,ProxyGFW
 HOST-SUFFIX,xn--i2ru8q2qg.com,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4166
+# 规则统计: 4169
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -693,6 +693,7 @@ HOST,cdn.nerdschalk.com,CDN
 HOST,cdn.networklessons.com,CDN
 HOST,cdn.neverbounce.com,CDN
 HOST,cdn.nfcube.com,CDN
+HOST,cdn.nodeimage.com,CDN
 HOST,cdn.nolt.io,CDN
 HOST,cdn.northropgrumman.com,CDN
 HOST,cdn.now.gg,CDN
@@ -3227,6 +3228,7 @@ HOST-SUFFIX,data.debugbear.com,CDN
 HOST-SUFFIX,dataplane.rudderstack.com,CDN
 HOST-SUFFIX,datocms-assets.com,CDN
 HOST-SUFFIX,daumcdn.net,CDN
+HOST-SUFFIX,dc-telemetry.net,CDN
 HOST-SUFFIX,dditsadn.com,CDN
 HOST-SUFFIX,dditscdn.com,CDN
 HOST-SUFFIX,ddpic.info,CDN
@@ -3237,6 +3239,7 @@ HOST-SUFFIX,denopkg.com,CDN
 HOST-SUFFIX,descopecdn.com,CDN
 HOST-SUFFIX,design-system.economist.com,CDN
 HOST-SUFFIX,devrum.uptime.com,CDN
+HOST-SUFFIX,digikeyassets.com,CDN
 HOST-SUFFIX,dilcdn.com,CDN
 HOST-SUFFIX,directupload.net,CDN
 HOST-SUFFIX,disconnect.me,CDN

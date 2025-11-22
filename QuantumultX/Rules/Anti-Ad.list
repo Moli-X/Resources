@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 95768
+# 规则统计: 95772
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -5748,6 +5748,7 @@ HOST-SUFFIX,adfront.auction.co.kr,Anti-Ad
 HOST-SUFFIX,adfrontiers.com,Anti-Ad
 HOST-SUFFIX,adfsda005.xyz,Anti-Ad
 HOST-SUFFIX,adfunds.org,Anti-Ad
+HOST-SUFFIX,adfunlink.com,Anti-Ad
 HOST-SUFFIX,adfurikun.jp,Anti-Ad
 HOST-SUFFIX,adfusion.com,Anti-Ad
 HOST-SUFFIX,adfuture.cn,Anti-Ad
@@ -13430,6 +13431,7 @@ HOST-SUFFIX,bidswitch.net,Anti-Ad
 HOST-SUFFIX,bidsxchange.com,Anti-Ad
 HOST-SUFFIX,bidtheatre.com,Anti-Ad
 HOST-SUFFIX,bidtimize.com,Anti-Ad
+HOST-SUFFIX,bidtoolads.com,Anti-Ad
 HOST-SUFFIX,bidvance.com,Anti-Ad
 HOST-SUFFIX,bidverdrd.com,Anti-Ad
 HOST-SUFFIX,bidvertiser.com,Anti-Ad
@@ -15490,7 +15492,6 @@ HOST-SUFFIX,c.baidu.com,Anti-Ad
 HOST-SUFFIX,c.bannerflow.net,Anti-Ad
 HOST-SUFFIX,c.bazo.io,Anti-Ad
 HOST-SUFFIX,c.bccyyc.com,Anti-Ad
-HOST-SUFFIX,c.bidtoolads.com,Anti-Ad
 HOST-SUFFIX,c.bigcomics.bid,Anti-Ad
 HOST-SUFFIX,c.bing.com,Anti-Ad
 HOST-SUFFIX,c.booksir.com.cn,Anti-Ad
@@ -80190,6 +80191,7 @@ HOST-SUFFIX,takeyouforward.co,Anti-Ad
 HOST-SUFFIX,takigx.tourneau.com,Anti-Ad
 HOST-SUFFIX,takingbackjuly.com,Anti-Ad
 HOST-SUFFIX,takqyi.laurenhi.jp,Anti-Ad
+HOST-SUFFIX,takuad.com,Anti-Ad
 HOST-SUFFIX,talaropa.com,Anti-Ad
 HOST-SUFFIX,talckyslodder.top,Anti-Ad
 HOST-SUFFIX,talcoidsakis.com,Anti-Ad
@@ -82161,6 +82163,7 @@ HOST-SUFFIX,tob-tracker.yximgs.com,Anti-Ad
 HOST-SUFFIX,tobaccosturgeon.com,Anti-Ad
 HOST-SUFFIX,tobaltoyon.com,Anti-Ad
 HOST-SUFFIX,tobecation.github.io,Anti-Ad
+HOST-SUFFIX,tobidad.com,Anti-Ad
 HOST-SUFFIX,tobipovsem.com,Anti-Ad
 HOST-SUFFIX,toblog.snssdk.com,Anti-Ad
 HOST-SUFFIX,toboads.com,Anti-Ad
@@ -82337,6 +82340,7 @@ HOST-SUFFIX,topnews-24.com,Anti-Ad
 HOST-SUFFIX,topnewsgo.com,Anti-Ad
 HOST-SUFFIX,topodat.info,Anti-Ad
 HOST-SUFFIX,topofblogs.com,Anti-Ad
+HOST-SUFFIX,toponad.com,Anti-Ad
 HOST-SUFFIX,topperformance.xyz,Anti-Ad
 HOST-SUFFIX,toppleunit.com,Anti-Ad
 HOST-SUFFIX,topprofitablecpm.com,Anti-Ad

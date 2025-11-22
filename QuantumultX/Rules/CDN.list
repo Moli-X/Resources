@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4169
+# 规则统计: 4172
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -42,6 +42,7 @@ HOST,analytics.twitter.com,CDN
 HOST,analytics.welcomesoftware.com,CDN
 HOST,anchor.digitalocean.com,CDN
 HOST,android-safebrowsing.google.com,CDN
+HOST,api-cdn.shutterstock.com,CDN
 HOST,api-esp-ap.piano.io,CDN
 HOST,api-eu.mixpanel.com,CDN
 HOST,api-frameworks.vercel.sh,CDN
@@ -2300,6 +2301,7 @@ HOST,sellon.shiprocket.in,CDN
 HOST,sentry.ainopara.com,CDN
 HOST,seo-wp.airdroid.com,CDN
 HOST,sequoia.cdn-apple.com,CDN
+HOST,server.arcgisonline.com,CDN
 HOST,service-icons.zeabur.com,CDN
 HOST,services.linkfire.com,CDN
 HOST,sf-coze-web-cdn.coze.com,CDN
@@ -3904,6 +3906,7 @@ HOST-SUFFIX,steamstatic.com,CDN
 HOST-SUFFIX,steamusercontent.com,CDN
 HOST-SUFFIX,steemitimages.com,CDN
 HOST-SUFFIX,sthlstatic.com,CDN
+HOST-SUFFIX,storage.boilerplate.com,CDN
 HOST-SUFFIX,storage.cloudconvert.com,CDN
 HOST-SUFFIX,storage.googleapis.com,CDN
 HOST-SUFFIX,storage.infomaniak.com,CDN

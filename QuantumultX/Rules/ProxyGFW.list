@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7371
+# 规则统计: 7373
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -4238,6 +4238,7 @@ HOST-SUFFIX,nalandabodhi.org,ProxyGFW
 HOST-SUFFIX,nalandawest.org,ProxyGFW
 HOST-SUFFIX,namgyal.org,ProxyGFW
 HOST-SUFFIX,namgyalmonastery.org,ProxyGFW
+HOST-SUFFIX,namu.wiki,ProxyGFW
 HOST-SUFFIX,nanopool.org,ProxyGFW
 HOST-SUFFIX,nanyang.com,ProxyGFW
 HOST-SUFFIX,nanyangpost.com,ProxyGFW
@@ -4755,6 +4756,7 @@ HOST-SUFFIX,picasaweb.com,ProxyGFW
 HOST-SUFFIX,picgo.net,ProxyGFW
 HOST-SUFFIX,picidae.net,ProxyGFW
 HOST-SUFFIX,picjs.xyz,ProxyGFW
+HOST-SUFFIX,picsart.com,ProxyGFW
 HOST-SUFFIX,picturedip.com,ProxyGFW
 HOST-SUFFIX,picturesocial.com,ProxyGFW
 HOST-SUFFIX,picuki.com,ProxyGFW

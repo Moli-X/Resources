@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4172
+# 规则统计: 4174
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -454,6 +454,7 @@ HOST,cdn-static-push.porndig.com,CDN
 HOST,cdn-static.paw.cloud,CDN
 HOST,cdn-static.talent.com,CDN
 HOST,cdn-swell-assets.yotpo.com,CDN
+HOST,cdn-teams-slug.flaticon.com,CDN
 HOST,cdn-thumbs.imagevenue.com,CDN
 HOST,cdn-uicons.flaticon.com,CDN
 HOST,cdn-us.readspeaker.com,CDN
@@ -3620,6 +3621,7 @@ HOST-SUFFIX,mercdn.net,CDN
 HOST-SUFFIX,metric.gstatic.com,CDN
 HOST-SUFFIX,mfcimg.com,CDN
 HOST-SUFFIX,minotar.net,CDN
+HOST-SUFFIX,mintcdn.com,CDN
 HOST-SUFFIX,mirror-media.xyz,CDN
 HOST-SUFFIX,misskeyusercontent.com,CDN
 HOST-SUFFIX,misskeyusercontent.jp,CDN

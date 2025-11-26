@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4175
+# 规则统计: 4185
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1083,6 +1083,8 @@ HOST,conversiongorilla.com,CDN
 HOST,cookie-cdn.cookiepro.com,CDN
 HOST,corp-backend.brevo.com,CDN
 HOST,cors-proxy.htmldriven.com,CDN
+HOST,cover.comicbz.com,CDN
+HOST,cover.yymanhua.com,CDN
 HOST,covers.openlibrary.org,CDN
 HOST,cpwebassets.codepen.io,CDN
 HOST,craftassets.unraid.net,CDN
@@ -1099,7 +1101,9 @@ HOST,csp.microsoft.com,CDN
 HOST,css-1-cdn.airdroid.com,CDN
 HOST,css.4jpg.top,CDN
 HOST,css.blackmagicdesign.com,CDN
+HOST,css.comicbz.com,CDN
 HOST,css.createsend1.com,CDN
+HOST,css.yymanhua.com,CDN
 HOST,curl.se,CDN
 HOST,cw-image-resizer.cwg.tw,CDN
 HOST,cwsimages.ingramcontent.com,CDN
@@ -1427,6 +1431,7 @@ HOST,image.acg.lol,CDN
 HOST,image.ap-mail.org,CDN
 HOST,image.civitai.com,CDN
 HOST,image.cnbcfm.com,CDN
+HOST,image.comicbz.com,CDN
 HOST,image.crisp.chat,CDN
 HOST,image.dooo.ng,CDN
 HOST,image.email.microsoftemail.com,CDN
@@ -1453,7 +1458,9 @@ HOST,image.thefly.com,CDN
 HOST,image.tmdb.org,CDN
 HOST,image.vuukle.com,CDN
 HOST,image.westinyou.com,CDN
+HOST,image.xmanhua.net,CDN
 HOST,image.yuntu.com.tw,CDN
+HOST,image.yymanhua.com,CDN
 HOST,imagecdn.clips4sale.com,CDN
 HOST,imagehost.player.fm,CDN
 HOST,imageio.forbes.com,CDN
@@ -1540,6 +1547,7 @@ HOST,images.whoer.com,CDN
 HOST,images.wikia.com,CDN
 HOST,images.wsj.net,CDN
 HOST,images.wsjcommerce.net,CDN
+HOST,images.wurstclient.net,CDN
 HOST,images.youracclaim.com,CDN
 HOST,images1.cmp.optimizely.com,CDN
 HOST,images1.vinted.net,CDN
@@ -2116,6 +2124,7 @@ HOST,public-img.mewe.com,CDN
 HOST,public-pages.cbinsights.com,CDN
 HOST,public.flourish.studio,CDN
 HOST,public.hare200.com,CDN
+HOST,public.komiic.com,CDN
 HOST,public.linear.app,CDN
 HOST,public.mocortech.com,CDN
 HOST,public.saasexch.com,CDN
@@ -2474,6 +2483,7 @@ HOST,static.codepen.io,CDN
 HOST,static.cohere.so,CDN
 HOST,static.coinall.ltd,CDN
 HOST,static.coingecko.com,CDN
+HOST,static.comicbz.com,CDN
 HOST,static.community.workday.com,CDN
 HOST,static.convertio.co,CDN
 HOST,static.corp.google.com,CDN

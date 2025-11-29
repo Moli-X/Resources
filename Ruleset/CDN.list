@@ -1157,6 +1157,7 @@ DOMAIN,e.linear.app
 DOMAIN,e3.365dm.com
 DOMAIN,eaassets-a.akamaihd.net
 DOMAIN,easylist-downloads.adblockplus.org
+DOMAIN,ecn.dev.virtualearth.net
 DOMAIN,ecommplugins-scripts.trustpilot.com
 DOMAIN,ecommplugins-trustboxsettings.trustpilot.com
 DOMAIN,edata.ndtv.com
@@ -2132,6 +2133,7 @@ DOMAIN,pytorch.org
 DOMAIN,qmod.quotemedia.com
 DOMAIN,quests.armorgames.com
 DOMAIN,quriobot.com
+DOMAIN,r.bing.com
 DOMAIN,r.r10s.jp
 DOMAIN,r2.1hanime.com
 DOMAIN,r2.gear4music.com
@@ -2835,6 +2837,7 @@ DOMAIN,unsubscribe-imgs.leavemealone.com
 DOMAIN,uos-support-files.svc.ui.com
 DOMAIN,updates.signal.org
 DOMAIN,updates2.signal.org
+DOMAIN,upload.movim.eu
 DOMAIN,upload.wikimedia.org
 DOMAIN,uploads-cdn.omnicalculator.com
 DOMAIN,uploads.codesandbox.io
@@ -3969,6 +3972,7 @@ DOMAIN-SUFFIX,tile.openstreetmap.org
 DOMAIN-SUFFIX,tile.osm.org
 DOMAIN-SUFFIX,tiles-api.maps.komoot.net
 DOMAIN-SUFFIX,tiles.mapbox.com
+DOMAIN-SUFFIX,tiles.virtualearth.net
 DOMAIN-SUFFIX,tindiemedia.com
 DOMAIN-SUFFIX,tiqcdn.com
 DOMAIN-SUFFIX,tkcdns.com

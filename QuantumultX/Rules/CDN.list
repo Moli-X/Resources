@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4185
+# 规则统计: 4189
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1160,6 +1160,7 @@ HOST,e.linear.app,CDN
 HOST,e3.365dm.com,CDN
 HOST,eaassets-a.akamaihd.net,CDN
 HOST,easylist-downloads.adblockplus.org,CDN
+HOST,ecn.dev.virtualearth.net,CDN
 HOST,ecommplugins-scripts.trustpilot.com,CDN
 HOST,ecommplugins-trustboxsettings.trustpilot.com,CDN
 HOST,edata.ndtv.com,CDN
@@ -2135,6 +2136,7 @@ HOST,pytorch.org,CDN
 HOST,qmod.quotemedia.com,CDN
 HOST,quests.armorgames.com,CDN
 HOST,quriobot.com,CDN
+HOST,r.bing.com,CDN
 HOST,r.r10s.jp,CDN
 HOST,r2.1hanime.com,CDN
 HOST,r2.gear4music.com,CDN
@@ -2838,6 +2840,7 @@ HOST,unsubscribe-imgs.leavemealone.com,CDN
 HOST,uos-support-files.svc.ui.com,CDN
 HOST,updates.signal.org,CDN
 HOST,updates2.signal.org,CDN
+HOST,upload.movim.eu,CDN
 HOST,upload.wikimedia.org,CDN
 HOST,uploads-cdn.omnicalculator.com,CDN
 HOST,uploads.codesandbox.io,CDN
@@ -3972,6 +3975,7 @@ HOST-SUFFIX,tile.openstreetmap.org,CDN
 HOST-SUFFIX,tile.osm.org,CDN
 HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
 HOST-SUFFIX,tiles.mapbox.com,CDN
+HOST-SUFFIX,tiles.virtualearth.net,CDN
 HOST-SUFFIX,tindiemedia.com,CDN
 HOST-SUFFIX,tiqcdn.com,CDN
 HOST-SUFFIX,tkcdns.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42190
+# 规则统计: 42192
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -14839,6 +14839,7 @@ HOST-SUFFIX,gravitykick.com,Ads_EasyListPrivacy
 HOST-SUFFIX,graylog.prod.cams.run,Ads_EasyListPrivacy
 HOST-SUFFIX,grayoranges.com,Ads_EasyListPrivacy
 HOST-SUFFIX,grayreceipt.com,Ads_EasyListPrivacy
+HOST-SUFFIX,grayscaleart.com,Ads_EasyListPrivacy
 HOST-SUFFIX,grc.openapp.link,Ads_EasyListPrivacy
 HOST-SUFFIX,grc2.secureforms.mcafee.com,Ads_EasyListPrivacy
 HOST-SUFFIX,greasegarden.com,Ads_EasyListPrivacy
@@ -27823,6 +27824,7 @@ HOST-SUFFIX,seahorseinfo.agilent.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sealingdev.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,sealtravels.com,Ads_EasyListPrivacy
 HOST-SUFFIX,seamarketny.actonservice.com,Ads_EasyListPrivacy
+HOST-SUFFIX,seamlesssalon.com,Ads_EasyListPrivacy
 HOST-SUFFIX,seao.business.samsung.com,Ads_EasyListPrivacy
 HOST-SUFFIX,search.anonymous.ads.brave.com,Ads_EasyListPrivacy
 HOST-SUFFIX,seatsmoke.com,Ads_EasyListPrivacy

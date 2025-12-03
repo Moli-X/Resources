@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4189
+# 规则统计: 4190
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2841,6 +2841,7 @@ HOST,uos-support-files.svc.ui.com,CDN
 HOST,updates.signal.org,CDN
 HOST,updates2.signal.org,CDN
 HOST,upload.movim.eu,CDN
+HOST,upload.teftera.com,CDN
 HOST,upload.wikimedia.org,CDN
 HOST,uploads-cdn.omnicalculator.com,CDN
 HOST,uploads.codesandbox.io,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4190
+# 规则统计: 4193
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1405,6 +1405,7 @@ HOST,i4.anysex.com,CDN
 HOST,ias.r10s.jp,CDN
 HOST,icdn.javxx.com,CDN
 HOST,ichef.bbci.co.uk,CDN
+HOST,icms-image.slatic.net,CDN
 HOST,icon.icepanel.io,CDN
 HOST,icons.buffer.com,CDN
 HOST,icons.duckduckgo.com,CDN
@@ -1813,6 +1814,7 @@ HOST,logos.kiwibrowser.com,CDN
 HOST,logos.speedtestcustom.com,CDN
 HOST,loutre.blockchair.io,CDN
 HOST,lumiere-a.akamaihd.net,CDN
+HOST,lzd-img-global.slatic.net,CDN
 HOST,m-cdn.phonearena.com,CDN
 HOST,m.porn3dx.com,CDN
 HOST,m.wsj.net,CDN
@@ -3588,6 +3590,7 @@ HOST-SUFFIX,kleecks-cdn.com,CDN
 HOST-SUFFIX,kwcdn.com,CDN
 HOST-SUFFIX,kym-cdn.com,CDN
 HOST-SUFFIX,larksuitecdn.com,CDN
+HOST-SUFFIX,lazcdn.com,CDN
 HOST-SUFFIX,lbpicpic.com,CDN
 HOST-SUFFIX,lbpictupian.com,CDN
 HOST-SUFFIX,ldstatic.com,CDN

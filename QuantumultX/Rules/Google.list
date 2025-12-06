@@ -1,9 +1,10 @@
 # 规则名称: Google
-# 规则统计: 24
+# 规则统计: 25
 
 HOST-SUFFIX,1e100.net,Google
 HOST-SUFFIX,2mdn.net,Google
 HOST-SUFFIX,app-measurement.net,Google
+HOST-SUFFIX,c.gle,Google
 HOST-SUFFIX,g.co,Google
 HOST-SUFFIX,ggpht.com,Google
 HOST-SUFFIX,goo.gl,Google

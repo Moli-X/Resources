@@ -1,7 +1,8 @@
 # 规则名称: OneDrive
-# 规则统计: 16
+# 规则统计: 17
 
 HOST-SUFFIX,livefilestore.com,OneDrive
+HOST-SUFFIX,microsoftpersonalcontent.com,OneDrive
 HOST-SUFFIX,oneclient.sfx.ms,OneDrive
 HOST-SUFFIX,onedrive.com,OneDrive
 HOST-SUFFIX,onedrive.live.com,OneDrive

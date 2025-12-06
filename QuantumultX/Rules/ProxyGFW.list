@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7374
+# 规则统计: 7377
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1542,6 +1542,7 @@ HOST-SUFFIX,demo.opera-mini.net,ProxyGFW
 HOST-SUFFIX,demo.unlock-music.dev,ProxyGFW
 HOST-SUFFIX,democrats.org,ProxyGFW
 HOST-SUFFIX,demosisto.hk,ProxyGFW
+HOST-SUFFIX,deno.com,ProxyGFW
 HOST-SUFFIX,deno.dev,ProxyGFW
 HOST-SUFFIX,depositphotos.com,ProxyGFW
 HOST-SUFFIX,derekhsu.homeip.net,ProxyGFW
@@ -3454,7 +3455,6 @@ HOST-SUFFIX,jfqu37.xyz,ProxyGFW
 HOST-SUFFIX,jgoodies.com,ProxyGFW
 HOST-SUFFIX,jiangweiping.com,ProxyGFW
 HOST-SUFFIX,jiaoyou8.com,ProxyGFW
-HOST-SUFFIX,jichangtj.com,ProxyGFW
 HOST-SUFFIX,jiehua.cz,ProxyGFW
 HOST-SUFFIX,jiepang.com,ProxyGFW
 HOST-SUFFIX,jieshibaobao.com,ProxyGFW
@@ -3832,7 +3832,6 @@ HOST-SUFFIX,lyfhk.net,ProxyGFW
 HOST-SUFFIX,lzjscript.com,ProxyGFW
 HOST-SUFFIX,lzmtnews.org,ProxyGFW
 HOST-SUFFIX,m-sport.co.uk,ProxyGFW
-HOST-SUFFIX,m-team.cc,ProxyGFW
 HOST-SUFFIX,m.hkgalden.com,ProxyGFW
 HOST-SUFFIX,m.me,ProxyGFW
 HOST-SUFFIX,m.moegirl.org,ProxyGFW
@@ -4496,6 +4495,7 @@ HOST-SUFFIX,nytstyle.com,ProxyGFW
 HOST-SUFFIX,nzchinese.com,ProxyGFW
 HOST-SUFFIX,nzchinese.net.nz,ProxyGFW
 HOST-SUFFIX,o3o.ca,ProxyGFW
+HOST-SUFFIX,oaiusercontent.com,ProxyGFW
 HOST-SUFFIX,oanda.com,ProxyGFW
 HOST-SUFFIX,oann.com,ProxyGFW
 HOST-SUFFIX,oauth.net,ProxyGFW
@@ -4654,6 +4654,7 @@ HOST-SUFFIX,paldengyal.com,ProxyGFW
 HOST-SUFFIX,paljorpublications.com,ProxyGFW
 HOST-SUFFIX,palmislife.com,ProxyGFW
 HOST-SUFFIX,paltalk.com,ProxyGFW
+HOST-SUFFIX,palworldgame.com,ProxyGFW
 HOST-SUFFIX,panamapapers.sueddeutsche.de,ProxyGFW
 HOST-SUFFIX,pancakeswap.finance,ProxyGFW
 HOST-SUFFIX,pandafan.pub,ProxyGFW
@@ -4895,6 +4896,7 @@ HOST-SUFFIX,pride.google,ProxyGFW
 HOST-SUFFIX,primevideo.com,ProxyGFW
 HOST-SUFFIX,printfriendly.com,ProxyGFW
 HOST-SUFFIX,prism-break.org,ProxyGFW
+HOST-SUFFIX,prismic.io,ProxyGFW
 HOST-SUFFIX,prisoneralert.com,ProxyGFW
 HOST-SUFFIX,pritunl.com,ProxyGFW
 HOST-SUFFIX,privacybox.de,ProxyGFW
@@ -5485,6 +5487,7 @@ HOST-SUFFIX,snaptu.com,ProxyGFW
 HOST-SUFFIX,sndcdn.com,ProxyGFW
 HOST-SUFFIX,sneakme.net,ProxyGFW
 HOST-SUFFIX,snowlionpub.com,ProxyGFW
+HOST-SUFFIX,sntp.uk,ProxyGFW
 HOST-SUFFIX,sobees.com,ProxyGFW
 HOST-SUFFIX,soc.mil,ProxyGFW
 HOST-SUFFIX,social.datalabour.com,ProxyGFW

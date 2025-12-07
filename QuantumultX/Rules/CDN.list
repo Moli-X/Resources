@@ -2493,7 +2493,6 @@ HOST,static.convertio.co,CDN
 HOST,static.corp.google.com,CDN
 HOST,static.crunchyroll.com,CDN
 HOST,static.crypto.com,CDN
-HOST,static.dash.cloudflare.com,CDN
 HOST,static.deepl.com,CDN
 HOST,static.doujins.com,CDN
 HOST,static.drtuber.com,CDN
@@ -3908,6 +3907,7 @@ HOST-SUFFIX,static-assets.photoshop.adobe.com,CDN
 HOST-SUFFIX,static-prod-web.miniclip.com,CDN
 HOST-SUFFIX,static.amplience.net,CDN
 HOST-SUFFIX,static.chaosgroup.com,CDN
+HOST-SUFFIX,static.dash.cloudflare.com,CDN
 HOST-SUFFIX,static.domains,CDN
 HOST-SUFFIX,static.flickr.com,CDN
 HOST-SUFFIX,static.gartner.com,CDN

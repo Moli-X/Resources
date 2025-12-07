@@ -2490,7 +2490,6 @@ DOMAIN,static.convertio.co
 DOMAIN,static.corp.google.com
 DOMAIN,static.crunchyroll.com
 DOMAIN,static.crypto.com
-DOMAIN,static.dash.cloudflare.com
 DOMAIN,static.deepl.com
 DOMAIN,static.doujins.com
 DOMAIN,static.drtuber.com
@@ -3905,6 +3904,7 @@ DOMAIN-SUFFIX,static-assets.photoshop.adobe.com
 DOMAIN-SUFFIX,static-prod-web.miniclip.com
 DOMAIN-SUFFIX,static.amplience.net
 DOMAIN-SUFFIX,static.chaosgroup.com
+DOMAIN-SUFFIX,static.dash.cloudflare.com
 DOMAIN-SUFFIX,static.domains
 DOMAIN-SUFFIX,static.flickr.com
 DOMAIN-SUFFIX,static.gartner.com

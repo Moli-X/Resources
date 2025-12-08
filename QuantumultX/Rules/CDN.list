@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4194
+# 规则统计: 4196
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -612,6 +612,7 @@ HOST,cdn.gofundme.com,CDN
 HOST,cdn.googlesource.com,CDN
 HOST,cdn.graph.office.net,CDN
 HOST,cdn.growthbook.io,CDN
+HOST,cdn.hackaday.io,CDN
 HOST,cdn.hackernoon.com,CDN
 HOST,cdn.hashnode.com,CDN
 HOST,cdn.headwayapp.co,CDN
@@ -1339,6 +1340,7 @@ HOST,gstatic.olympics.com,CDN
 HOST,gt1.onlyhentaistuff.com,CDN
 HOST,gtranslate.io,CDN
 HOST,hawk.tomsguide.com,CDN
+HOST,hawky.pcgamer.com,CDN
 HOST,headway-widget.net,CDN
 HOST,heatmap-external-a.strava.com,CDN
 HOST,hello.zonos.com,CDN

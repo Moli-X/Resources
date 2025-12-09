@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4196
+# 规则统计: 4190
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1000,7 +1000,6 @@ HOST,cf.mhgui.com,CDN
 HOST,cf.shopee.tw,CDN
 HOST,cfvod.kaltura.com,CDN
 HOST,chart.googleapis.com,CDN
-HOST,chat-content.beanfun.com,CDN
 HOST,chat.digitalgenius.com,CDN
 HOST,chatwidgetmetrics-proxy.usepylon.com,CDN
 HOST,checkout-sdk.bigcommerce.com,CDN
@@ -1837,7 +1836,6 @@ HOST,marfeelexperimentsexperienceengine.mrf.io,CDN
 HOST,marketing.figma.com,CDN
 HOST,marketing.thingiverse.com,CDN
 HOST,marketplace-web-assets.vinted.com,CDN
-HOST,mcdn.tubi.tv,CDN
 HOST,mcdn.vrporn.com,CDN
 HOST,mcdnds.vrporn.com,CDN
 HOST,mcdns.vrporn.com,CDN
@@ -2222,8 +2220,6 @@ HOST,s1.freebeacon.com,CDN
 HOST,s1.maxstream.org,CDN
 HOST,s1.qwant.com,CDN
 HOST,s1.zerochan.net,CDN
-HOST,s10.maxstream.org,CDN
-HOST,s11.maxstream.org,CDN
 HOST,s13.maxstream.org,CDN
 HOST,s2.coinmarketcap.com,CDN
 HOST,s2.freebeacon.com,CDN
@@ -2269,7 +2265,6 @@ HOST,s4.anilist.co,CDN
 HOST,s4.freebeacon.com,CDN
 HOST,s4.itho.me,CDN
 HOST,s8.maxstream.org,CDN
-HOST,s9.maxstream.org,CDN
 HOST,safebrowsing.brave.com,CDN
 HOST,safebrowsing.google.com,CDN
 HOST,safebrowsing.googleapis.com,CDN
@@ -2703,7 +2698,6 @@ HOST,staticintl.cloudcachetci.com,CDN
 HOST,staticm.fastcomments.com,CDN
 HOST,statics-marketingsites-eas-ms-com.akamaized.net,CDN
 HOST,statics-prod.mirrordaily.news,CDN
-HOST,statics.erothots.co,CDN
 HOST,statics.goorm.io,CDN
 HOST,statics.simpshub.com,CDN
 HOST,statics.streamable.com,CDN

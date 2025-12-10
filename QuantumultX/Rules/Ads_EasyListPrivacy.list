@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42204
+# 规则统计: 42205
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -4013,6 +4013,7 @@ HOST-SUFFIX,aazfby.auto.de,Ads_EasyListPrivacy
 HOST-SUFFIX,aazmiw.reisenthel.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ab-machine.forbes.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ab.blogs.es,Ads_EasyListPrivacy
+HOST-SUFFIX,ab.dns-finder.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ab.fanatical.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ab.oney.es,Ads_EasyListPrivacy
 HOST-SUFFIX,ab.perfumesclub.com,Ads_EasyListPrivacy
@@ -10766,7 +10767,6 @@ HOST-SUFFIX,deeplink.tytod.com,Ads_EasyListPrivacy
 HOST-SUFFIX,deeplink.wagr.ai,Ads_EasyListPrivacy
 HOST-SUFFIX,deeplink.wbnc.99array.com,Ads_EasyListPrivacy
 HOST-SUFFIX,deeplink.winespectator.com,Ads_EasyListPrivacy
-HOST-SUFFIX,deeplink.xeropan.com,Ads_EasyListPrivacy
 HOST-SUFFIX,deeplinkdev.upoker.net,Ads_EasyListPrivacy
 HOST-SUFFIX,deeplinks.amex.dynamify.com,Ads_EasyListPrivacy
 HOST-SUFFIX,deeplinks.breaz.dynamify.com,Ads_EasyListPrivacy
@@ -24824,6 +24824,7 @@ HOST-SUFFIX,p.aty.sohu.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.cab.ua,Ads_EasyListPrivacy
 HOST-SUFFIX,p.classroombookings.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.codio.com,Ads_EasyListPrivacy
+HOST-SUFFIX,p.controld.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.cquotient.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.data.cctv.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.ejs.dev,Ads_EasyListPrivacy

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4196
+# 规则统计: 4205
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -179,6 +179,7 @@ HOST,assets.gcore.pro,CDN
 HOST,assets.geeksforgeeks.org,CDN
 HOST,assets.genius.com,CDN
 HOST,assets.getkirby.com,CDN
+HOST,assets.getpostman.com,CDN
 HOST,assets.github.dev,CDN
 HOST,assets.goat.com,CDN
 HOST,assets.gorgias.help,CDN
@@ -192,6 +193,7 @@ HOST,assets.hearstapps.com,CDN
 HOST,assets.holopin.io,CDN
 HOST,assets.humix.com,CDN
 HOST,assets.ifttt.com,CDN
+HOST,assets.ipapi.com,CDN
 HOST,assets.ipstack.com,CDN
 HOST,assets.jable.tv,CDN
 HOST,assets.jolipage.co,CDN
@@ -392,6 +394,7 @@ HOST,cache-05.filehippo.net,CDN
 HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
 HOST,cache.industry.siemens.com,CDN
+HOST,cache.ip-api.com,CDN
 HOST,cache.omnicalculator.com,CDN
 HOST,cached.rebuyengine.com,CDN
 HOST,canny-assets.io,CDN
@@ -1147,6 +1150,7 @@ HOST,dlassets-ssl.xboxlive.com,CDN
 HOST,do.featurebase.app,CDN
 HOST,docs.brew.sh,CDN
 HOST,docs.rs,CDN
+HOST,documenter-assets.pstmn.io,CDN
 HOST,domain.expiring-soon.xyz,CDN
 HOST,doppler-config.cbsivideo.com,CDN
 HOST,doujin-assets.dmm.co.jp,CDN
@@ -1420,6 +1424,7 @@ HOST,icons.ly,CDN
 HOST,icons.simplesvg.com,CDN
 HOST,icons.veryicon.com,CDN
 HOST,icons.zeabur.com,CDN
+HOST,identity-assets.getpostman.com,CDN
 HOST,idportal-cdn-prd.unity.com,CDN
 HOST,iframe.nbcnews.com,CDN
 HOST,ih0.redbubble.net,CDN
@@ -2524,6 +2529,7 @@ HOST,static.freedownloadmanager.org,CDN
 HOST,static.freeimages.com,CDN
 HOST,static.generated.photos,CDN
 HOST,static.getbutton.io,CDN
+HOST,static.getpostman.com,CDN
 HOST,static.gettyimages.com,CDN
 HOST,static.giant-bicycles.com,CDN
 HOST,static.gigabyte.com,CDN
@@ -2549,6 +2555,8 @@ HOST,static.inferno.iheart.com,CDN
 HOST,static.inflect.com,CDN
 HOST,static.infomaniak.ch,CDN
 HOST,static.institution.grammarly.com,CDN
+HOST,static.ipgeolocation.io,CDN
+HOST,static.iplocate.io,CDN
 HOST,static.iris.informa.com,CDN
 HOST,static.itch.io,CDN
 HOST,static.iyf.tv,CDN
@@ -3433,6 +3441,7 @@ HOST-SUFFIX,himg.nl,CDN
 HOST-SUFFIX,hits.b3log.org,CDN
 HOST-SUFFIX,hommec.com,CDN
 HOST-SUFFIX,howtogeekimages.com,CDN
+HOST-SUFFIX,hrcdn.net,CDN
 HOST-SUFFIX,hs-scripts.com,CDN
 HOST-SUFFIX,hs-scripts.net,CDN
 HOST-SUFFIX,hsappstatic.net,CDN

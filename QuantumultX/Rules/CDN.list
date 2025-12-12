@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4205
+# 规则统计: 4207
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -254,6 +254,7 @@ HOST,assets.stash.com,CDN
 HOST,assets.static-upwork.com,CDN
 HOST,assets.stickpng.com,CDN
 HOST,assets.stigg.io,CDN
+HOST,assets.streamlinehq.com,CDN
 HOST,assets.swoogo.com,CDN
 HOST,assets.tatlerasia.com,CDN
 HOST,assets.the-independent.com,CDN
@@ -684,6 +685,7 @@ HOST,cdn.mcr.ea.com,CDN
 HOST,cdn.metadata.io,CDN
 HOST,cdn.mewe.com,CDN
 HOST,cdn.micro.blog,CDN
+HOST,cdn.mida.so,CDN
 HOST,cdn.mikrotik.com,CDN
 HOST,cdn.minecraft-server-list.com,CDN
 HOST,cdn.miohentai.com,CDN

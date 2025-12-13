@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42205
+# 规则统计: 42210
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -7521,6 +7521,7 @@ HOST-SUFFIX,bidswitch.net,Ads_EasyListPrivacy
 HOST-SUFFIX,bienvenido.americanindustriesgroup.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bigcustomernetwork.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bigdata.clarin.com,Ads_EasyListPrivacy
+HOST-SUFFIX,bigfishapparel.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bigworldfashion.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bijkep.hotelesestelar.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bikepaws.com,Ads_EasyListPrivacy
@@ -7622,6 +7623,7 @@ HOST-SUFFIX,bluekai.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bluelp.2ask.blue.com.hk,Ads_EasyListPrivacy
 HOST-SUFFIX,bluemarblepayroll.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,bluemountains.actonservice.com,Ads_EasyListPrivacy
+HOST-SUFFIX,bluenest.net,Ads_EasyListPrivacy
 HOST-SUFFIX,blueoceanpharma.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,blueoyster.click,Ads_EasyListPrivacy
 HOST-SUFFIX,bluevinebooks.com,Ads_EasyListPrivacy
@@ -9073,6 +9075,7 @@ HOST-SUFFIX,community.keeperz.app,Ads_EasyListPrivacy
 HOST-SUFFIX,compare.easyviaggio.com,Ads_EasyListPrivacy
 HOST-SUFFIX,compare.easyviajar.com,Ads_EasyListPrivacy
 HOST-SUFFIX,comparereaction.com,Ads_EasyListPrivacy
+HOST-SUFFIX,compilework.com,Ads_EasyListPrivacy
 HOST-SUFFIX,complexpixel.com,Ads_EasyListPrivacy
 HOST-SUFFIX,compliance.coniferhealth.com,Ads_EasyListPrivacy
 HOST-SUFFIX,compliance.govdocs.com,Ads_EasyListPrivacy
@@ -10967,6 +10970,7 @@ HOST-SUFFIX,dialogue.mazda.sk,Ads_EasyListPrivacy
 HOST-SUFFIX,dialogue.nl.mazda.be,Ads_EasyListPrivacy
 HOST-SUFFIX,diamages.carte-gr.total.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,diboji.class101.net,Ads_EasyListPrivacy
+HOST-SUFFIX,dicecandies.com,Ads_EasyListPrivacy
 HOST-SUFFIX,dicemoments.com,Ads_EasyListPrivacy
 HOST-SUFFIX,didzrr.nutraholic.com,Ads_EasyListPrivacy
 HOST-SUFFIX,difficultfog.com,Ads_EasyListPrivacy
@@ -21681,6 +21685,7 @@ HOST-SUFFIX,metawelcome.com,Ads_EasyListPrivacy
 HOST-SUFFIX,metc.banfield.com,Ads_EasyListPrivacy
 HOST-SUFFIX,meteachugood.holdmybeerconsulting.com,Ads_EasyListPrivacy
 HOST-SUFFIX,meter.bref.sh,Ads_EasyListPrivacy
+HOST-SUFFIX,metis.truecaller.com,Ads_EasyListPrivacy
 HOST-SUFFIX,metric-nonssl.nomura.co.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,metric.1035thearrow.com,Ads_EasyListPrivacy
 HOST-SUFFIX,metric.4imprint.com,Ads_EasyListPrivacy

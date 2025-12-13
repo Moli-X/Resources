@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4209
+# 规则统计: 4215
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -761,7 +761,6 @@ HOST,cdn.redoc.ly,CDN
 HOST,cdn.redwap.xyz,CDN
 HOST,cdn.registerdisney.go.com,CDN
 HOST,cdn.reimu.net,CDN
-HOST,cdn.report-uri.com,CDN
 HOST,cdn.rex.contents.rakuten.co.jp,CDN
 HOST,cdn.rive.app,CDN
 HOST,cdn.road.cc,CDN
@@ -1414,6 +1413,7 @@ HOST,i3.anysex.com,CDN
 HOST,i4.anysex.com,CDN
 HOST,ias.r10s.jp,CDN
 HOST,icdn.javxx.com,CDN
+HOST,icdn.missav123.to,CDN
 HOST,ichef.bbci.co.uk,CDN
 HOST,icms-image.slatic.net,CDN
 HOST,icon.icepanel.io,CDN
@@ -3014,6 +3014,9 @@ HOST-SUFFIX,1a-1791.com,CDN
 HOST-SUFFIX,1passwordusercontent.ca,CDN
 HOST-SUFFIX,1passwordusercontent.com,CDN
 HOST-SUFFIX,1passwordusercontent.eu,CDN
+HOST-SUFFIX,2024cdn.sx,CDN
+HOST-SUFFIX,2025cdn.sx,CDN
+HOST-SUFFIX,2026cdn.sx,CDN
 HOST-SUFFIX,2img.net,CDN
 HOST-SUFFIX,2mdn.net,CDN
 HOST-SUFFIX,4cdn.org,CDN
@@ -3349,6 +3352,7 @@ HOST-SUFFIX,fbcdn.net,CDN
 HOST-SUFFIX,fbsbx.com,CDN
 HOST-SUFFIX,featureassets.org,CDN
 HOST-SUFFIX,feedercdn.com,CDN
+HOST-SUFFIX,fembeqv2.xyz,CDN
 HOST-SUFFIX,ffzy888.com,CDN
 HOST-SUFFIX,filecunhua.top,CDN
 HOST-SUFFIX,files.bbci.co.uk,CDN
@@ -3408,6 +3412,7 @@ HOST-SUFFIX,githubassets.com,CDN
 HOST-SUFFIX,githubusercontent.com,CDN
 HOST-SUFFIX,gitlab-static.net,CDN
 HOST-SUFFIX,gitlab.io,CDN
+HOST-SUFFIX,gitmirror.com,CDN
 HOST-SUFFIX,gitpage.si,CDN
 HOST-SUFFIX,glass.adidas.com,CDN
 HOST-SUFFIX,glbimg.com,CDN
@@ -3839,6 +3844,7 @@ HOST-SUFFIX,redditmedia.com,CDN
 HOST-SUFFIX,redditstatic.com,CDN
 HOST-SUFFIX,registry.gitplac.si,CDN
 HOST-SUFFIX,replicate.delivery,CDN
+HOST-SUFFIX,report-uri.com,CDN
 HOST-SUFFIX,res.office365.com,CDN
 HOST-SUFFIX,rescript-lang.org,CDN
 HOST-SUFFIX,rlcdn.com,CDN

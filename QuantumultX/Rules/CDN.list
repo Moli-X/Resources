@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4215
+# 规则统计: 4216
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1566,6 +1566,7 @@ HOST,images.youracclaim.com,CDN
 HOST,images1.cmp.optimizely.com,CDN
 HOST,images1.vinted.net,CDN
 HOST,images1.welcomesoftware.com,CDN
+HOST,images10.newegg.com,CDN
 HOST,images2.cmp.optimizely.com,CDN
 HOST,images2.giant-bicycles.com,CDN
 HOST,images2.vudu.com,CDN

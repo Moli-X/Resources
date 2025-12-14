@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 835
+# 规则统计: 838
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -162,6 +162,7 @@ HOST-SUFFIX,bcelive.com,ChinaDomain
 HOST-SUFFIX,bdatu.com,ChinaDomain
 HOST-SUFFIX,bdimg.com,ChinaDomain
 HOST-SUFFIX,bdstatic.com,ChinaDomain
+HOST-SUFFIX,bdurl.net,ChinaDomain
 HOST-SUFFIX,bdydns.com,ChinaDomain
 HOST-SUFFIX,bendibao.com,ChinaDomain
 HOST-SUFFIX,benghuai.com,ChinaDomain
@@ -193,7 +194,9 @@ HOST-SUFFIX,bytednsdoc.com,ChinaDomain
 HOST-SUFFIX,byteeffecttos.com,ChinaDomain
 HOST-SUFFIX,bytegoofy.com,ChinaDomain
 HOST-SUFFIX,byteimg.com,ChinaDomain
+HOST-SUFFIX,bytescm.com,ChinaDomain
 HOST-SUFFIX,bytetcc.com,ChinaDomain
+HOST-SUFFIX,bytetos.com,ChinaDomain
 HOST-SUFFIX,c-ctrip.com,ChinaDomain
 HOST-SUFFIX,c-t.work,ChinaDomain
 HOST-SUFFIX,cailianpress.com,ChinaDomain

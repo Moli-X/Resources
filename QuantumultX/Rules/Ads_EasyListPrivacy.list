@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42210
+# 规则统计: 42217
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -3989,7 +3989,6 @@ HOST-SUFFIX,aakashapp.byjus.com,Ads_EasyListPrivacy
 HOST-SUFFIX,aaktao.entel.cl,Ads_EasyListPrivacy
 HOST-SUFFIX,aamcompany.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,aametrics.aktia.fi,Ads_EasyListPrivacy
-HOST-SUFFIX,aamt.msnbc.com,Ads_EasyListPrivacy
 HOST-SUFFIX,aamt.nbcnews.com,Ads_EasyListPrivacy
 HOST-SUFFIX,aamt.newsapp.telemundo.com,Ads_EasyListPrivacy
 HOST-SUFFIX,aamt.today.com,Ads_EasyListPrivacy
@@ -4937,6 +4936,7 @@ HOST-SUFFIX,ali-pro-pull.kwai.net.iberostar.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ali8.alinea.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,alias.cloud-marketing.dimensiondata.com,Ads_EasyListPrivacy
 HOST-SUFFIX,aliasanvil.com,Ads_EasyListPrivacy
+HOST-SUFFIX,alib.nine.com.au,Ads_EasyListPrivacy
 HOST-SUFFIX,alibabapizza.openapp.link,Ads_EasyListPrivacy
 HOST-SUFFIX,alicat.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,alikeaddition.com,Ads_EasyListPrivacy
@@ -5096,6 +5096,7 @@ HOST-SUFFIX,analytics-beacon.p.uliza.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics-cf.bigcrunch.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics-cms.whitebeard.me,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics-coletor-site.ojc.com.br,Ads_EasyListPrivacy
+HOST-SUFFIX,analytics-collect.karakuri.ai,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics-consent-manager-v2-prod.azureedge.net,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics-dataplane.invideo.io,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics-fe.digital-cloud-prem.medallia.com,Ads_EasyListPrivacy
@@ -11572,6 +11573,7 @@ HOST-SUFFIX,e.nicklauschildrens.org,Ads_EasyListPrivacy
 HOST-SUFFIX,e.pomonaelectronics.com,Ads_EasyListPrivacy
 HOST-SUFFIX,e.quizlet.com,Ads_EasyListPrivacy
 HOST-SUFFIX,e.replacementdevicelawsuit.com,Ads_EasyListPrivacy
+HOST-SUFFIX,e.revenue.cat,Ads_EasyListPrivacy
 HOST-SUFFIX,e.shop.app,Ads_EasyListPrivacy
 HOST-SUFFIX,e.synchronybank.com,Ads_EasyListPrivacy
 HOST-SUFFIX,e.unchealthcare.org,Ads_EasyListPrivacy
@@ -11949,6 +11951,7 @@ HOST-SUFFIX,eicyds.qoo10.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,eifeou.pandahall.com,Ads_EasyListPrivacy
 HOST-SUFFIX,eiftfa.fashionette.de,Ads_EasyListPrivacy
 HOST-SUFFIX,eightgreens.com,Ads_EasyListPrivacy
+HOST-SUFFIX,eighthlayer.net,Ads_EasyListPrivacy
 HOST-SUFFIX,eikwax.marmot.com,Ads_EasyListPrivacy
 HOST-SUFFIX,eimcqw.dickies.com,Ads_EasyListPrivacy
 HOST-SUFFIX,einrfh.justanswer.com,Ads_EasyListPrivacy
@@ -15126,6 +15129,7 @@ HOST-SUFFIX,hesprh.sony.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,heuida.shopafrm.com,Ads_EasyListPrivacy
 HOST-SUFFIX,hevqaz.submarino.com.br,Ads_EasyListPrivacy
 HOST-SUFFIX,heyaxr.fashiondays.bg,Ads_EasyListPrivacy
+HOST-SUFFIX,heycomputers.com,Ads_EasyListPrivacy
 HOST-SUFFIX,hf.forevernetworks.com,Ads_EasyListPrivacy
 HOST-SUFFIX,hfc195b.com,Ads_EasyListPrivacy
 HOST-SUFFIX,hfmogh.piatradesign.ro,Ads_EasyListPrivacy
@@ -15499,6 +15503,7 @@ HOST-SUFFIX,iconmediapixel.com,Ads_EasyListPrivacy
 HOST-SUFFIX,iconnode.com,Ads_EasyListPrivacy
 HOST-SUFFIX,icslearn.actonsoftware.com,Ads_EasyListPrivacy
 HOST-SUFFIX,ictrjw.barcastores.com,Ads_EasyListPrivacy
+HOST-SUFFIX,icywinter.com,Ads_EasyListPrivacy
 HOST-SUFFIX,id-ward.com,Ads_EasyListPrivacy
 HOST-SUFFIX,id.a-mx.com,Ads_EasyListPrivacy
 HOST-SUFFIX,idbkfy.kango-roo.com,Ads_EasyListPrivacy
@@ -19713,6 +19718,7 @@ HOST-SUFFIX,maddeningpowder.com,Ads_EasyListPrivacy
 HOST-SUFFIX,madebyintent.com,Ads_EasyListPrivacy
 HOST-SUFFIX,madisoncres.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,madlysuccessful.com,Ads_EasyListPrivacy
+HOST-SUFFIX,madoverrice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,madrid.report.botm.transparentedge.io,Ads_EasyListPrivacy
 HOST-SUFFIX,maeketing.net.gafas.es,Ads_EasyListPrivacy
 HOST-SUFFIX,mafiahairdresser.actonservice.com,Ads_EasyListPrivacy
@@ -40717,6 +40723,7 @@ HOST-SUFFIX,whispermeeting.com,Ads_EasyListPrivacy
 HOST-SUFFIX,whitepapers.blackboard.com,Ads_EasyListPrivacy
 HOST-SUFFIX,whitepapers.rockwellautomation.com,Ads_EasyListPrivacy
 HOST-SUFFIX,whoami.akamai.net.iberostar.com,Ads_EasyListPrivacy
+HOST-SUFFIX,wholepagecache.com,Ads_EasyListPrivacy
 HOST-SUFFIX,whoogled.com,Ads_EasyListPrivacy
 HOST-SUFFIX,whqkyq.leasingmarkt.de,Ads_EasyListPrivacy
 HOST-SUFFIX,whwiab.pamono.it,Ads_EasyListPrivacy

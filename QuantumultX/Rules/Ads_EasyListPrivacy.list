@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 42217
+# 规则统计: 42220
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -37974,6 +37974,8 @@ HOST-SUFFIX,tracking.care.salinasvalleyhealth.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.carsales.com.au,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.cat898.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.cdiscount.com,Ads_EasyListPrivacy
+HOST-SUFFIX,tracking.cds.dmm.co.jp,Ads_EasyListPrivacy
+HOST-SUFFIX,tracking.cds.dmm.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.cello-square.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.cengage.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tracking.cenomicenters.com,Ads_EasyListPrivacy
@@ -39941,6 +39943,7 @@ HOST-SUFFIX,vanishmemory.com,Ads_EasyListPrivacy
 HOST-SUFFIX,vapxga.sieh-an.de,Ads_EasyListPrivacy
 HOST-SUFFIX,varys.asongofzandc.xyz,Ads_EasyListPrivacy
 HOST-SUFFIX,vatrack.hinet.net,Ads_EasyListPrivacy
+HOST-SUFFIX,vault.gostatera.com,Ads_EasyListPrivacy
 HOST-SUFFIX,vazulp.graniph.com,Ads_EasyListPrivacy
 HOST-SUFFIX,vbe.voyage-prive.be,Ads_EasyListPrivacy
 HOST-SUFFIX,vbkryy.pasonacareer.jp,Ads_EasyListPrivacy

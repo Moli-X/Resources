@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4216
+# 规则统计: 4218
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -162,6 +162,7 @@ HOST,assets.documentcloud.org,CDN
 HOST,assets.dub.co,CDN
 HOST,assets.ecomm.ui.com,CDN
 HOST,assets.embeddables.com,CDN
+HOST,assets.endorsely.com,CDN
 HOST,assets.euractiv.com,CDN
 HOST,assets.exercism.org,CDN
 HOST,assets.extension.grammarly.com,CDN
@@ -4004,6 +4005,7 @@ HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
 HOST-SUFFIX,tiles.mapbox.com,CDN
 HOST-SUFFIX,tiles.virtualearth.net,CDN
 HOST-SUFFIX,tindiemedia.com,CDN
+HOST-SUFFIX,tinifycdn.com,CDN
 HOST-SUFFIX,tiqcdn.com,CDN
 HOST-SUFFIX,tkcdns.com,CDN
 HOST-SUFFIX,tmsimg.com,CDN

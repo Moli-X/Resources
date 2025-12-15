@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 896
+# 规则统计: 893
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -328,7 +328,6 @@ HOST-SUFFIX,dc.sigmob.cn,Ads_AWAvenue
 HOST-SUFFIX,de.tynt.com,Ads_AWAvenue
 HOST-SUFFIX,diagnosis.ad.xiaomi.com,Ads_AWAvenue
 HOST-SUFFIX,dig.bdurl.net,Ads_AWAvenue
-HOST-SUFFIX,dl.zuimeitianqi.com,Ads_AWAvenue
 HOST-SUFFIX,dlogs.bwton.com,Ads_AWAvenue
 HOST-SUFFIX,dm.toutiao.com,Ads_AWAvenue
 HOST-SUFFIX,domain.aishengji.com,Ads_AWAvenue
@@ -348,8 +347,6 @@ HOST-SUFFIX,edge.ads.twitch.tv,Ads_AWAvenue
 HOST-SUFFIX,ef-dongfeng.tanx.com,Ads_AWAvenue
 HOST-SUFFIX,engine.dcad01.com,Ads_AWAvenue
 HOST-SUFFIX,entry.baidu.com,Ads_AWAvenue
-HOST-SUFFIX,errlog.umeng.com,Ads_AWAvenue
-HOST-SUFFIX,errnewlog.umeng.com,Ads_AWAvenue
 HOST-SUFFIX,et-eus.w.inmobi.com,Ads_AWAvenue
 HOST-SUFFIX,event.tradplusad.com,Ads_AWAvenue
 HOST-SUFFIX,events-drcn.op.dbankcloud.cn,Ads_AWAvenue
@@ -660,7 +657,6 @@ HOST-SUFFIX,s1.cdn-sg.advlion.com,Ads_AWAvenue
 HOST-SUFFIX,s8t.teads.tv,Ads_AWAvenue
 HOST-SUFFIX,saad.ms.zhangyue.net,Ads_AWAvenue
 HOST-SUFFIX,saas.hpplay.cn,Ads_AWAvenue
-HOST-SUFFIX,safebrowsing.googleapis.com,Ads_AWAvenue
 HOST-SUFFIX,safebrowsing.urlsec.gg.com,Ads_AWAvenue
 HOST-SUFFIX,samsung-com.112.2o7.net,Ads_AWAvenue
 HOST-SUFFIX,samsungads.com,Ads_AWAvenue
@@ -728,6 +724,7 @@ HOST-SUFFIX,success.ctobsnssdk.com,Ads_AWAvenue
 HOST-SUFFIX,supply.inmobicdn.net,Ads_AWAvenue
 HOST-SUFFIX,sv-video.play.aiseet.atianqi.com,Ads_AWAvenue
 HOST-SUFFIX,syh-imp.cdnjtzy.com,Ads_AWAvenue
+HOST-SUFFIX,syh.zybang.com,Ads_AWAvenue
 HOST-SUFFIX,szbdyd.com,Ads_AWAvenue
 HOST-SUFFIX,t-dsp.pinduoduo.com,Ads_AWAvenue
 HOST-SUFFIX,t.applovin.com,Ads_AWAvenue

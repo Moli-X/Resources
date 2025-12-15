@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4218
+# 规则统计: 4221
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -221,6 +221,7 @@ HOST,assets.nintendo.com,CDN
 HOST,assets.nxtrace.org,CDN
 HOST,assets.onestore.ms,CDN
 HOST,assets.ontrack.com,CDN
+HOST,assets.openalternative.co,CDN
 HOST,assets.openshift.com,CDN
 HOST,assets.openshift.net,CDN
 HOST,assets.orz.uno,CDN
@@ -1678,6 +1679,7 @@ HOST,img.windy.com,CDN
 HOST,img.xbooru.com,CDN
 HOST,img.xhacgn.com,CDN
 HOST,img.xjh.me,CDN
+HOST,img.yna.co.kr,CDN
 HOST,img.youtube.com,CDN
 HOST,img0.socialshopwave.com,CDN
 HOST,img0.yna.co.kr,CDN
@@ -2117,6 +2119,7 @@ HOST,previews.fleek.co,CDN
 HOST,privacy.axios.com,CDN
 HOST,pro2-ui-assets-s3-fy.myportfolio.com,CDN
 HOST,prod-cdn.webtune.ai,CDN
+HOST,prod-images.rippling.com,CDN
 HOST,prod-packager-packages.codesandbox.io,CDN
 HOST,prod-streaming-video-msn-com.akamaized.net,CDN
 HOST,prod-video-cms-amp-microsoft-com.akamaized.net,CDN

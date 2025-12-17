@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 98836
+# 规则统计: 98835
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -81797,7 +81797,6 @@ HOST-SUFFIX,system-beta.b-cdn.net,Anti-Ad
 HOST-SUFFIX,system-notify.app,Anti-Ad
 HOST-SUFFIX,system.nefiber.com,Anti-Ad
 HOST-SUFFIX,systeme-business.online,Anti-Ad
-HOST-SUFFIX,systeme.io,Anti-Ad
 HOST-SUFFIX,systemleadb.com,Anti-Ad
 HOST-SUFFIX,systemssummit.com,Anti-Ad
 HOST-SUFFIX,systemsupport.top,Anti-Ad

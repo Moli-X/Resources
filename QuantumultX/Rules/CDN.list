@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4221
+# 规则统计: 4225
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -281,6 +281,7 @@ HOST,assets.wikiwand.com,CDN
 HOST,assets.xboxservices.com,CDN
 HOST,assets.xmind.net,CDN
 HOST,assets.yande.re,CDN
+HOST,assets.zendesk.com,CDN
 HOST,assets.zerohedge.com,CDN
 HOST,assets.zilliz.com,CDN
 HOST,assets0.headwayapp.co,CDN
@@ -1897,6 +1898,7 @@ HOST,media.invisioncic.com,CDN
 HOST,media.istockphoto.com,CDN
 HOST,media.kit.com,CDN
 HOST,media.lantern.io,CDN
+HOST,media.letsdeel.com,CDN
 HOST,media.licdn.com,CDN
 HOST,media.loom-app.com,CDN
 HOST,media.maptiler.com,CDN
@@ -2010,6 +2012,7 @@ HOST,oneocsp.microsoft.com,CDN
 HOST,ooo.0o0.ooo,CDN
 HOST,open-vsx.org,CDN
 HOST,openapi.vercel.sh,CDN
+HOST,openreplay-new.deel.tools,CDN
 HOST,openseauserdata.com,CDN
 HOST,opensignal.cdnbye.com,CDN
 HOST,optimizationguide-pa.googleapis.com,CDN
@@ -2640,6 +2643,7 @@ HOST,static.returngo.ai,CDN
 HOST,static.roboflow.com,CDN
 HOST,static.salidzini.lv,CDN
 HOST,static.scarf.sh,CDN
+HOST,static.sdkassets.chime.aws,CDN
 HOST,static.seel.com,CDN
 HOST,static.serverhunter.com,CDN
 HOST,static.skyassets.com,CDN
@@ -2957,7 +2961,7 @@ HOST,webfonts.zoho.com,CDN
 HOST,webobjects2.cdw.com,CDN
 HOST,webp.frostming.com,CDN
 HOST,website-cdn.ipinfo.io,CDN
-HOST,website-media.deel.com,CDN
+HOST,website-media,CDN
 HOST,website-prod.cache.wpscdn.com,CDN
 HOST,webstatic.chargebee.com,CDN
 HOST,widget.automizely.com,CDN

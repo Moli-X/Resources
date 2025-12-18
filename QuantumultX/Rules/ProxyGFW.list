@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7382
+# 规则统计: 7384
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -680,6 +680,7 @@ HOST-SUFFIX,bit-z.com,ProxyGFW
 HOST-SUFFIX,bit.do,ProxyGFW
 HOST-SUFFIX,bit.ly,ProxyGFW
 HOST-SUFFIX,bit.no.com,ProxyGFW
+HOST-SUFFIX,bitbaby.com,ProxyGFW
 HOST-SUFFIX,bitbay.net,ProxyGFW
 HOST-SUFFIX,bitc.bme.emory.edu,ProxyGFW
 HOST-SUFFIX,bitchute.com,ProxyGFW
@@ -3203,6 +3204,7 @@ HOST-SUFFIX,icu-project.org,ProxyGFW
 HOST-SUFFIX,id.hao123.com,ProxyGFW
 HOST-SUFFIX,id.heroku.com,ProxyGFW
 HOST-SUFFIX,idaiwan.com,ProxyGFW
+HOST-SUFFIX,idcflare.com,ProxyGFW
 HOST-SUFFIX,iddddg.com,ProxyGFW
 HOST-SUFFIX,idemocracy.asia,ProxyGFW
 HOST-SUFFIX,identi.ca,ProxyGFW

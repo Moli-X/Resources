@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4225
+# 规则统计: 4232
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -18,6 +18,7 @@ HOST,academy-public.coinmarketcap.com,CDN
 HOST,account-cdn.svc.ui.com,CDN
 HOST,account-widget-mfe.gcore.com,CDN
 HOST,accounts-cdn.9gag.com,CDN
+HOST,acdn.mercury.com,CDN
 HOST,adkit.9pub.io,CDN
 HOST,aff.equalweb.com,CDN
 HOST,affportal.bhphoto.com,CDN
@@ -209,6 +210,7 @@ HOST,assets.mailgun.com,CDN
 HOST,assets.mastercard.com,CDN
 HOST,assets.matters.news,CDN
 HOST,assets.mayoclinic.org,CDN
+HOST,assets.mcp.corespeed.io,CDN
 HOST,assets.media-platform.com,CDN
 HOST,assets.monei.com,CDN
 HOST,assets.monica.im,CDN
@@ -685,6 +687,7 @@ HOST,cdn.mathjax.org,CDN
 HOST,cdn.matterhorn.app,CDN
 HOST,cdn.mcauto-images-production.sendgrid.net,CDN
 HOST,cdn.mcr.ea.com,CDN
+HOST,cdn.mercury.com,CDN
 HOST,cdn.metadata.io,CDN
 HOST,cdn.mewe.com,CDN
 HOST,cdn.micro.blog,CDN
@@ -1016,6 +1019,7 @@ HOST,checkout.stripe.com,CDN
 HOST,chunk-composing.canva.com,CDN
 HOST,ci.testling.com,CDN
 HOST,cimg.cnyes.cool,CDN
+HOST,circle-flags.zeljko.me,CDN
 HOST,clara.iwara.tv,CDN
 HOST,claritystatic.azureedge.net,CDN
 HOST,clickup.marketlinc.com,CDN
@@ -1827,6 +1831,7 @@ HOST,load.csell.co,CDN
 HOST,loader.mantis-intelligence.com,CDN
 HOST,log-collector.17app.co,CDN
 HOST,logo.clearbit.com,CDN
+HOST,logos.composio.dev,CDN
 HOST,logos.kiwibrowser.com,CDN
 HOST,logos.speedtestcustom.com,CDN
 HOST,loutre.blockchair.io,CDN
@@ -2080,6 +2085,7 @@ HOST,pkg-size.dev,CDN
 HOST,pkg.csb.dev,CDN
 HOST,pkgs.dev.azure.com,CDN
 HOST,pl.ea.com,CDN
+HOST,placeholder.pics,CDN
 HOST,platform-assets.typekit.net,CDN
 HOST,platform.instagram.com,CDN
 HOST,platform.theverge.com,CDN
@@ -3156,6 +3162,7 @@ HOST-SUFFIX,cdn-lfs-us-1.huggingface.co,CDN
 HOST-SUFFIX,cdn-lfs.hf.co,CDN
 HOST-SUFFIX,cdn-lfs.huggingface.co,CDN
 HOST-SUFFIX,cdn-one.com,CDN
+HOST-SUFFIX,cdn-plain.com,CDN
 HOST-SUFFIX,cdn-spurit.com,CDN
 HOST-SUFFIX,cdn-telegram.org,CDN
 HOST-SUFFIX,cdn-uploads.huggingface.co,CDN

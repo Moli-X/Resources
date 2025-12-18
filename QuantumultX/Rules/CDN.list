@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4232
+# 规则统计: 4236
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -91,6 +91,7 @@ HOST,apps.bazaarvoice.com,CDN
 HOST,apps.profitihub.com,CDN
 HOST,apps.sophi.io,CDN
 HOST,apps.voxmedia.com,CDN
+HOST,appstatico.electronic.us,CDN
 HOST,archive.mozilla.org,CDN
 HOST,article-image-ix.nikkei.com,CDN
 HOST,artworks.thetvdb.com,CDN
@@ -1012,6 +1013,7 @@ HOST,cf.mhgui.com,CDN
 HOST,cf.shopee.tw,CDN
 HOST,cfvod.kaltura.com,CDN
 HOST,chart.googleapis.com,CDN
+HOST,chat-assets.front.app,CDN
 HOST,chat.digitalgenius.com,CDN
 HOST,chatwidgetmetrics-proxy.usepylon.com,CDN
 HOST,checkout-sdk.bigcommerce.com,CDN
@@ -2169,6 +2171,7 @@ HOST,r.r10s.jp,CDN
 HOST,r2.1hanime.com,CDN
 HOST,r2.gear4music.com,CDN
 HOST,r2.leadsy.ai,CDN
+HOST,r2cdn.corespeed.io,CDN
 HOST,r2cdn.myshopline.com,CDN
 HOST,r2cdn.perplexity.ai,CDN
 HOST,r34xyz.b-cdn.net,CDN
@@ -3119,6 +3122,7 @@ HOST-SUFFIX,bblcdn.com,CDN
 HOST-SUFFIX,bdzybf7.com,CDN
 HOST-SUFFIX,bestfreecdn.com,CDN
 HOST-SUFFIX,bestjavcdn.com,CDN
+HOST-SUFFIX,betterstackcdn.com,CDN
 HOST-SUFFIX,bftuvip.com,CDN
 HOST-SUFFIX,bfzypic.com,CDN
 HOST-SUFFIX,bgstatic.com,CDN

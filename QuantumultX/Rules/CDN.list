@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4236
+# 规则统计: 4240
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -799,6 +799,7 @@ HOST,cdn.shoppinggives.com,CDN
 HOST,cdn.sift.com,CDN
 HOST,cdn.simpleicons.org,CDN
 HOST,cdn.simplelocalize.io,CDN
+HOST,cdn.simplesat.io,CDN
 HOST,cdn.sitesearch360.com,CDN
 HOST,cdn.sketch.com,CDN
 HOST,cdn.skymavis.com,CDN
@@ -1410,6 +1411,7 @@ HOST,i.pcmag.com,CDN
 HOST,i.rtings.com,CDN
 HOST,i.servimg.com,CDN
 HOST,i.snap.as,CDN
+HOST,i.typlog.com,CDN
 HOST,i.vgy.me,CDN
 HOST,i.xgroovy.com,CDN
 HOST,i.xozilla.xxx,CDN
@@ -1629,6 +1631,7 @@ HOST,img.fastcybers.com,CDN
 HOST,img.foresightnews.pro,CDN
 HOST,img.fortawesome.com,CDN
 HOST,img.freepik.com,CDN
+HOST,img.fzf404.art,CDN
 HOST,img.gs,CDN
 HOST,img.hellofresh.com,CDN
 HOST,img.hentaihaven.xxx,CDN
@@ -2121,6 +2124,7 @@ HOST,pplx-next-static-public.perplexity.ai,CDN
 HOST,pplx-res.cloudinary.com,CDN
 HOST,pptstatic.iyf.tv,CDN
 HOST,practicaldev-herokuapp-com.freetls.fastly.net,CDN
+HOST,prd-www-cdn.ubnt.com,CDN
 HOST,prego-cache.prod.sketch.com,CDN
 HOST,prettier.io,CDN
 HOST,preview.anysex.com,CDN

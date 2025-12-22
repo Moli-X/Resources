@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7385
+# 规则统计: 7386
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -5636,6 +5636,7 @@ HOST-SUFFIX,startpage.com,ProxyGFW
 HOST-SUFFIX,startuplivingchina.com,ProxyGFW
 HOST-SUFFIX,stat.gov.tw,ProxyGFW
 HOST-SUFFIX,static-economist.com,ProxyGFW
+HOST-SUFFIX,static.pocketcasts.com,ProxyGFW
 HOST-SUFFIX,static.shemalez.com,ProxyGFW
 HOST-SUFFIX,static01.nyt.com,ProxyGFW
 HOST-SUFFIX,statically.io,ProxyGFW

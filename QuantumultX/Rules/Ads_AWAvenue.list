@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 892
+# 规则统计: 896
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -132,6 +132,7 @@ HOST-SUFFIX,adstudio.spotify.com,Ads_AWAvenue
 HOST-SUFFIX,adtago.s3.amazonaws.com,Ads_AWAvenue
 HOST-SUFFIX,adtech.yahooinc.com,Ads_AWAvenue
 HOST-SUFFIX,adtrack.quark.cn,Ads_AWAvenue
+HOST-SUFFIX,adtracker.medproad.com,Ads_AWAvenue
 HOST-SUFFIX,adv-api.shenshiads.com,Ads_AWAvenue
 HOST-SUFFIX,adv.sec.intl.miui.com,Ads_AWAvenue
 HOST-SUFFIX,adv.sec.miui.com,Ads_AWAvenue
@@ -526,6 +527,7 @@ HOST-SUFFIX,masdkv6.3g.qq.com,Ads_AWAvenue
 HOST-SUFFIX,mazu.m.qq.com,Ads_AWAvenue
 HOST-SUFFIX,mbdlog.iqiyi.com,Ads_AWAvenue
 HOST-SUFFIX,mcs.zijieapi.com,Ads_AWAvenue
+HOST-SUFFIX,medproad.com,Ads_AWAvenue
 HOST-SUFFIX,metrics.data.hicloud.com,Ads_AWAvenue
 HOST-SUFFIX,metrics.icloud.com,Ads_AWAvenue
 HOST-SUFFIX,metrics.mzstatic.com,Ads_AWAvenue
@@ -629,6 +631,7 @@ HOST-SUFFIX,promotion-partner.kuaishou.com,Ads_AWAvenue
 HOST-SUFFIX,proxy.advp.apple.com,Ads_AWAvenue
 HOST-SUFFIX,public.gdtimg.com,Ads_AWAvenue
 HOST-SUFFIX,q.i.gdt.qq.com,Ads_AWAvenue
+HOST-SUFFIX,qcwx.medproad.com,Ads_AWAvenue
 HOST-SUFFIX,qmlog.baertt.com,Ads_AWAvenue
 HOST-SUFFIX,qn-cdnfile1pcdn.msstatic.com,Ads_AWAvenue
 HOST-SUFFIX,qqdata.ab.qq.com,Ads_AWAvenue
@@ -726,6 +729,7 @@ HOST-SUFFIX,sv-video.play.aiseet.atianqi.com,Ads_AWAvenue
 HOST-SUFFIX,syh-imp.cdnjtzy.com,Ads_AWAvenue
 HOST-SUFFIX,syh.zybang.com,Ads_AWAvenue
 HOST-SUFFIX,szbdyd.com,Ads_AWAvenue
+HOST-SUFFIX,t-adx.52qumao.com,Ads_AWAvenue
 HOST-SUFFIX,t-dsp.pinduoduo.com,Ads_AWAvenue
 HOST-SUFFIX,t.applovin.com,Ads_AWAvenue
 HOST-SUFFIX,t.l.qq.com,Ads_AWAvenue

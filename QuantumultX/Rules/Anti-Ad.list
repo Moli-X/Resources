@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 100190
+# 规则统计: 100192
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -72766,6 +72766,7 @@ HOST-SUFFIX,sdjxnisnlfuah.website,Anti-Ad
 HOST-SUFFIX,sdk-ab-config.qquanquan.com,Anti-Ad
 HOST-SUFFIX,sdk-analytics-web.cloud.itau.com.br,Anti-Ad
 HOST-SUFFIX,sdk-cache.video.ptqy.gitv.tv,Anti-Ad
+HOST-SUFFIX,sdk-config.tanx.com,Anti-Ad
 HOST-SUFFIX,sdk.api.bjshcw.com,Anti-Ad
 HOST-SUFFIX,sdk.api.oaid.wocloud.cn,Anti-Ad
 HOST-SUFFIX,sdk.appadhoc.com.bsclink.cn,Anti-Ad
@@ -80633,6 +80634,7 @@ HOST-SUFFIX,statistics.tattermedia.com,Anti-Ad
 HOST-SUFFIX,statistics.tuv.com,Anti-Ad
 HOST-SUFFIX,statistics.wibiya.com,Anti-Ad
 HOST-SUFFIX,statisticsaccent.com,Anti-Ad
+HOST-SUFFIX,statisticslinks.com,Anti-Ad
 HOST-SUFFIX,statisticsplatform.com,Anti-Ad
 HOST-SUFFIX,statistiek.rijksoverheid.nl,Anti-Ad
 HOST-SUFFIX,statistik-gallup.net,Anti-Ad

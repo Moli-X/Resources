@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4245
+# 规则统计: 4249
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1986,7 +1986,6 @@ HOST,nav.yumenosora.co.jp,CDN
 HOST,navismithapis-cdn.com,CDN
 HOST,nbcnewsdigital-static.nbcuni.com,CDN
 HOST,nel.heroku.com,CDN
-HOST,nel.teo-rum.com,CDN
 HOST,net-fe-static-assets.network-controller.svc.ui.com,CDN
 HOST,netlify.apollo.io,CDN
 HOST,newassets.hcaptcha.com,CDN
@@ -2351,6 +2350,7 @@ HOST,sequoia.cdn-apple.com,CDN
 HOST,server.arcgisonline.com,CDN
 HOST,service-icons.zeabur.com,CDN
 HOST,services.linkfire.com,CDN
+HOST,sessions-bugsnag.docker.com,CDN
 HOST,sf-coze-web-cdn.coze.com,CDN
 HOST,sf-flow-web-cdn.ciciai.com,CDN
 HOST,sfiles.cnyes.cool,CDN
@@ -2813,6 +2813,7 @@ HOST,telemetry2.devolutions.net,CDN
 HOST,texture.laby.net,CDN
 HOST,th.bing.com,CDN
 HOST,themes.fourthwall.com,CDN
+HOST,themes.hibootstrap.com,CDN
 HOST,thumbnail.missav.com,CDN
 HOST,thumbnailer.mixcloud.com,CDN
 HOST,thumbnails.applegamingwiki.com,CDN
@@ -3023,6 +3024,7 @@ HOST,www-static.ripe.net,CDN
 HOST,www.10086.win,CDN
 HOST,www.acgpix.de,CDN
 HOST,www.bbthat.com,CDN
+HOST,www.envoyproxy.io,CDN
 HOST,www.gstatic.com,CDN
 HOST,www.paypalobjects.com,CDN
 HOST,www.pngmart.com,CDN
@@ -3873,6 +3875,7 @@ HOST-SUFFIX,redditmedia.com,CDN
 HOST-SUFFIX,redditstatic.com,CDN
 HOST-SUFFIX,registry.gitplac.si,CDN
 HOST-SUFFIX,replicate.delivery,CDN
+HOST-SUFFIX,replicateassets.com,CDN
 HOST-SUFFIX,report-uri.com,CDN
 HOST-SUFFIX,res.office365.com,CDN
 HOST-SUFFIX,rescript-lang.org,CDN
@@ -4016,6 +4019,7 @@ HOST-SUFFIX,tauri.app,CDN
 HOST-SUFFIX,teamtailor-cdn.com,CDN
 HOST-SUFFIX,tedcdn.com,CDN
 HOST-SUFFIX,telemetry.services.yofi.ai,CDN
+HOST-SUFFIX,teo-rum.com,CDN
 HOST-SUFFIX,teraboxcdn.com,CDN
 HOST-SUFFIX,thesourcemediaassets.com,CDN
 HOST-SUFFIX,thirdwebcdn.com,CDN

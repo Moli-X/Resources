@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7387
+# 规则统计: 7388
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -3806,6 +3806,7 @@ HOST-SUFFIX,lorenzetti.com.br,ProxyGFW
 HOST-SUFFIX,lotsawahouse.org,ProxyGFW
 HOST-SUFFIX,lotuslight.org.hk,ProxyGFW
 HOST-SUFFIX,lotuslight.org.tw,ProxyGFW
+HOST-SUFFIX,lovart.ai,ProxyGFW
 HOST-SUFFIX,loved.hk,ProxyGFW
 HOST-SUFFIX,lovetvshow.com,ProxyGFW
 HOST-SUFFIX,lpsg.com,ProxyGFW

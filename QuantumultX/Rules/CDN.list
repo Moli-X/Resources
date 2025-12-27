@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4249
+# 规则统计: 4252
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -719,6 +719,7 @@ HOST,cdn.omnicalculator.com,CDN
 HOST,cdn.one.store,CDN
 HOST,cdn.onesignal.com,CDN
 HOST,cdn.onetime.dog,CDN
+HOST,cdn.onfastspring.com,CDN
 HOST,cdn.onlyhentaistuff.com,CDN
 HOST,cdn.openai.com,CDN
 HOST,cdn.osxdaily.com,CDN
@@ -1483,6 +1484,7 @@ HOST,image.thefly.com,CDN
 HOST,image.tmdb.org,CDN
 HOST,image.vuukle.com,CDN
 HOST,image.westinyou.com,CDN
+HOST,image.worthepenny.com,CDN
 HOST,image.xmanhua.net,CDN
 HOST,image.yuntu.com.tw,CDN
 HOST,image.yymanhua.com,CDN
@@ -2236,6 +2238,7 @@ HOST,s.abcnews.com,CDN
 HOST,s.gishan.cc,CDN
 HOST,s.imgflip.com,CDN
 HOST,s.imgur.com,CDN
+HOST,s.linear.app,CDN
 HOST,s.midishow.net,CDN
 HOST,s.namemc.com,CDN
 HOST,s.pacn.ws,CDN
@@ -3026,7 +3029,6 @@ HOST,www.acgpix.de,CDN
 HOST,www.bbthat.com,CDN
 HOST,www.envoyproxy.io,CDN
 HOST,www.gstatic.com,CDN
-HOST,www.paypalobjects.com,CDN
 HOST,www.pngmart.com,CDN
 HOST,www.tbstat.com,CDN
 HOST,www.typescriptlang.org,CDN
@@ -3783,6 +3785,7 @@ HOST-SUFFIX,pastebin.com,CDN
 HOST-SUFFIX,patientpop.com,CDN
 HOST-SUFFIX,patreonusercontent.com,CDN
 HOST-SUFFIX,payloadcms.app,CDN
+HOST-SUFFIX,paypalobjects.com,CDN
 HOST-SUFFIX,pcdn.co,CDN
 HOST-SUFFIX,permaweb.eu.org,CDN
 HOST-SUFFIX,permaweb.io,CDN

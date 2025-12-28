@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7388
+# 规则统计: 7391
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -276,6 +276,7 @@ HOST-SUFFIX,alicejapan.co.jp,ProxyGFW
 HOST-SUFFIX,aliengu.com,ProxyGFW
 HOST-SUFFIX,alive.bar,ProxyGFW
 HOST-SUFFIX,aljazeera.com,ProxyGFW
+HOST-SUFFIX,aljazeera.net,ProxyGFW
 HOST-SUFFIX,alkasir.com,ProxyGFW
 HOST-SUFFIX,all4mom.org,ProxyGFW
 HOST-SUFFIX,allcoin.com,ProxyGFW
@@ -1631,7 +1632,6 @@ HOST-SUFFIX,docker.com,ProxyGFW
 HOST-SUFFIX,docker.io,ProxyGFW
 HOST-SUFFIX,dockerstatus.com,ProxyGFW
 HOST-SUFFIX,docs.cfw.lbyczf.com,ProxyGFW
-HOST-SUFFIX,docs.deno.com,ProxyGFW
 HOST-SUFFIX,docs.new,ProxyGFW
 HOST-SUFFIX,doctorvoice.org,ProxyGFW
 HOST-SUFFIX,documentingreality.com,ProxyGFW
@@ -2394,6 +2394,7 @@ HOST-SUFFIX,gfw.org.ua,ProxyGFW
 HOST-SUFFIX,gfw.press,ProxyGFW
 HOST-SUFFIX,gfw.report,ProxyGFW
 HOST-SUFFIX,gfwatch.org,ProxyGFW
+HOST-SUFFIX,gfwbao.com,ProxyGFW
 HOST-SUFFIX,gfwlist.end,ProxyGFW
 HOST-SUFFIX,gfwlist.start,ProxyGFW
 HOST-SUFFIX,ggpht.com,ProxyGFW
@@ -3370,6 +3371,7 @@ HOST-SUFFIX,ismalltits.com,ProxyGFW
 HOST-SUFFIX,ismprofessional.net,ProxyGFW
 HOST-SUFFIX,isohunt.com,ProxyGFW
 HOST-SUFFIX,israbox.com,ProxyGFW
+HOST-SUFFIX,issues.chromium.org,ProxyGFW
 HOST-SUFFIX,issuu.com,ProxyGFW
 HOST-SUFFIX,istars.co.nz,ProxyGFW
 HOST-SUFFIX,istarshine.com,ProxyGFW
@@ -5649,6 +5651,7 @@ HOST-SUFFIX,stc.com.sa,ProxyGFW
 HOST-SUFFIX,steam-chat.com,ProxyGFW
 HOST-SUFFIX,steamcommunity.com,ProxyGFW
 HOST-SUFFIX,steamgames.com,ProxyGFW
+HOST-SUFFIX,steamladder.com,ProxyGFW
 HOST-SUFFIX,steampowered.com,ProxyGFW
 HOST-SUFFIX,steamserver.net,ProxyGFW
 HOST-SUFFIX,steamstat.us,ProxyGFW

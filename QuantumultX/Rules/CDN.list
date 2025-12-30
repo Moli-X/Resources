@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4252
+# 规则统计: 4253
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -628,6 +628,7 @@ HOST,cdn.hashnode.com,CDN
 HOST,cdn.headwayapp.co,CDN
 HOST,cdn.heapanalytics.com,CDN
 HOST,cdn.hellofresh.com,CDN
+HOST,cdn.hero-sms.com,CDN
 HOST,cdn.hextom.com,CDN
 HOST,cdn.highporn.net,CDN
 HOST,cdn.hiive.space,CDN

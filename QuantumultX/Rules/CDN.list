@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4253
+# 规则统计: 4254
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -269,6 +269,7 @@ HOST,assets.tokopedia.net,CDN
 HOST,assets.toot.cafe,CDN
 HOST,assets.tvtropes.org,CDN
 HOST,assets.twitch.tv,CDN
+HOST,assets.unicorn.studio,CDN
 HOST,assets.unifi-ai.com,CDN
 HOST,assets.upload.io,CDN
 HOST,assets.vantage.sh,CDN

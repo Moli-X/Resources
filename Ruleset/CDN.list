@@ -1227,6 +1227,7 @@ DOMAIN,error.rakuten.co.jp
 DOMAIN,eslint-react.xyz
 DOMAIN,eslint.org
 DOMAIN,eslint.style
+DOMAIN,eu-assets.i.posthog.com
 DOMAIN,eu-images.contentstack.com
 DOMAIN,eu.cdnbye.com
 DOMAIN,eu.hamreus.com
@@ -1272,6 +1273,7 @@ DOMAIN,fiddle.fastly.dev
 DOMAIN,fiddle.jshell.net
 DOMAIN,file.ahu.moe
 DOMAIN,file.izanmei.net
+DOMAIN,file.xiaohai.ai
 DOMAIN,file.zoom.us
 DOMAIN,file1.hkepc.net
 DOMAIN,files.armorgames.com
@@ -1624,7 +1626,6 @@ DOMAIN,img.catwvod.xyz
 DOMAIN,img.clerk.com
 DOMAIN,img.community.ui.com
 DOMAIN,img.connatix.com
-DOMAIN,img.coomer.su
 DOMAIN,img.decrypt.co
 DOMAIN,img.dlsite.jp
 DOMAIN,img.domaintools.com
@@ -1649,12 +1650,12 @@ DOMAIN,img.javstore.net
 DOMAIN,img.javynow.com
 DOMAIN,img.jsdelivr.com
 DOMAIN,img.kbhgames.com
-DOMAIN,img.kemono.su
 DOMAIN,img.logokit.com
 DOMAIN,img.ltyears.com
 DOMAIN,img.lvv2.com
 DOMAIN,img.m.mw
 DOMAIN,img.majors.im
+DOMAIN,img.manyse.com
 DOMAIN,img.ml0987.com
 DOMAIN,img.moedog.org
 DOMAIN,img.moegirl.tw
@@ -1709,7 +1710,6 @@ DOMAIN,img3.javmost.com
 DOMAIN,img3.socialshopwave.com
 DOMAIN,img3.yna.co.kr
 DOMAIN,img4.airdroid.com
-DOMAIN,img4.gelbooru.com
 DOMAIN,img4.javmost.com
 DOMAIN,img4.socialshopwave.com
 DOMAIN,img4.yna.co.kr
@@ -1754,7 +1754,6 @@ DOMAIN,interactive.guim.co.uk
 DOMAIN,interwiki.scpwiki.com
 DOMAIN,interwiki.scpwikicn.com
 DOMAIN,ip-ranges.amazonaws.com
-DOMAIN,ipfs.d.tube
 DOMAIN,irp-cdn.multiscreensite.com
 DOMAIN,isitmaintained.com
 DOMAIN,j.udn.com.tw
@@ -1837,7 +1836,6 @@ DOMAIN,lm.visualon.info
 DOMAIN,load.csell.co
 DOMAIN,loader.mantis-intelligence.com
 DOMAIN,log-collector.17app.co
-DOMAIN,logo.clearbit.com
 DOMAIN,logos.composio.dev
 DOMAIN,logos.kiwibrowser.com
 DOMAIN,logos.speedtestcustom.com
@@ -1885,6 +1883,7 @@ DOMAIN,media.cnn.com
 DOMAIN,media.contentapi.ea.com
 DOMAIN,media.convertkit.com
 DOMAIN,media.crazyshit.com
+DOMAIN,media.d.tube
 DOMAIN,media.daily.dev
 DOMAIN,media.datacenterdynamics.com
 DOMAIN,media.dev.to
@@ -2100,14 +2099,13 @@ DOMAIN,platform.twitter.com
 DOMAIN,platform.vox.com
 DOMAIN,platforms.makemytrip.com
 DOMAIN,play.gotolstoy.com
-DOMAIN,play.izanmei.net
 DOMAIN,play.publicradio.org
 DOMAIN,play.vidyard.com
 DOMAIN,play.xfvod.pro
+DOMAIN,play.xiaoh.ai
 DOMAIN,player-frontend.cnevids.com
 DOMAIN,player.cnevids.com
 DOMAIN,player.interactivity.brightcove.com
-DOMAIN,player.louisvuitton.com
 DOMAIN,player.svc.litv.tv
 DOMAIN,player.vimeo.com
 DOMAIN,players.brightcove.net
@@ -2308,7 +2306,6 @@ DOMAIN,safebrowsing.google.com
 DOMAIN,safebrowsing.googleapis.com
 DOMAIN,sandpack-cdn-staging.blazingly.io
 DOMAIN,sandpack-cdn-v2.codesandbox.io
-DOMAIN,sato.manyse.com
 DOMAIN,sbl.onfastspring.com
 DOMAIN,scache.vzw.com
 DOMAIN,scache1.vzw.com
@@ -2591,6 +2588,7 @@ DOMAIN,static.iplocate.io
 DOMAIN,static.iris.informa.com
 DOMAIN,static.itch.io
 DOMAIN,static.iyf.tv
+DOMAIN,static.izanmei.icu
 DOMAIN,static.j51.net
 DOMAIN,static.javhd.com
 DOMAIN,static.jsbin.com
@@ -2709,6 +2707,7 @@ DOMAIN,static.vocadb.net
 DOMAIN,static.webclicks24.com
 DOMAIN,static.whatsapp.net
 DOMAIN,static.workday.com
+DOMAIN,static.wwto.net
 DOMAIN,static.xgroovy.com
 DOMAIN,static.xns.one
 DOMAIN,static.xxxshake.com
@@ -2813,6 +2812,7 @@ DOMAIN,telemetry.split.io
 DOMAIN,telemetry.stepsecurity.io
 DOMAIN,telemetry.vercel.com
 DOMAIN,telemetry2.devolutions.net
+DOMAIN,test.manyse.com
 DOMAIN,texture.laby.net
 DOMAIN,th.bing.com
 DOMAIN,themes.fourthwall.com
@@ -2893,6 +2893,7 @@ DOMAIN,uploads.linear.app
 DOMAIN,uploads.sitepoint.com
 DOMAIN,upos-sz-mirroralibstar1.bilivideo.com
 DOMAIN,upos-sz-mirrorcosbstar1.bilivideo.com
+DOMAIN,us-assets.i.posthog.com
 DOMAIN,us-js.zonka.co
 DOMAIN,us.123rf.com
 DOMAIN,us.hamreus.com
@@ -3094,6 +3095,7 @@ DOMAIN-SUFFIX,anpustream.com
 DOMAIN-SUFFIX,ant.design
 DOMAIN-SUFFIX,anyhentai.com
 DOMAIN-SUFFIX,aolcdn.com
+DOMAIN-SUFFIX,apac.orbitor.dev
 DOMAIN-SUFFIX,api.instabug.com
 DOMAIN-SUFFIX,api.loganalytics.io
 DOMAIN-SUFFIX,app-analytics-services.com
@@ -3309,6 +3311,7 @@ DOMAIN-SUFFIX,denopkg.com
 DOMAIN-SUFFIX,descopecdn.com
 DOMAIN-SUFFIX,design-system.economist.com
 DOMAIN-SUFFIX,devrum.uptime.com
+DOMAIN-SUFFIX,dget.top
 DOMAIN-SUFFIX,digikeyassets.com
 DOMAIN-SUFFIX,dilcdn.com
 DOMAIN-SUFFIX,directupload.net
@@ -3368,6 +3371,7 @@ DOMAIN-SUFFIX,eth.sucks
 DOMAIN-SUFFIX,etsystatic.com
 DOMAIN-SUFFIX,eu-browse.startpage.com
 DOMAIN-SUFFIX,eu-proxy.startpage.com
+DOMAIN-SUFFIX,eu.orbitor.dev
 DOMAIN-SUFFIX,events.backtrace.io
 DOMAIN-SUFFIX,exp-tas.com
 DOMAIN-SUFFIX,externulls.com
@@ -3566,8 +3570,10 @@ DOMAIN-SUFFIX,ipfs.busy.org
 DOMAIN-SUFFIX,ipfs.cyou
 DOMAIN-SUFFIX,ipfs.decoo.io
 DOMAIN-SUFFIX,ipfs.denarius.io
+DOMAIN-SUFFIX,ipfs.ecolatam.com
 DOMAIN-SUFFIX,ipfs.eternum.io
 DOMAIN-SUFFIX,ipfs.eth.aragon.network
+DOMAIN-SUFFIX,ipfs.filebase.io
 DOMAIN-SUFFIX,ipfs.fleek.co
 DOMAIN-SUFFIX,ipfs.fooock.com
 DOMAIN-SUFFIX,ipfs.funnychain.co
@@ -3584,6 +3590,7 @@ DOMAIN-SUFFIX,ipfs.litnet.work
 DOMAIN-SUFFIX,ipfs.mrh.io
 DOMAIN-SUFFIX,ipfs.mttk.net
 DOMAIN-SUFFIX,ipfs.namebase.io
+DOMAIN-SUFFIX,ipfs.orbitor.dev
 DOMAIN-SUFFIX,ipfs.overpi.com
 DOMAIN-SUFFIX,ipfs.runfission.com
 DOMAIN-SUFFIX,ipfs.scalaproject.io
@@ -3643,6 +3650,7 @@ DOMAIN-SUFFIX,kleecks-cdn.com
 DOMAIN-SUFFIX,kwcdn.com
 DOMAIN-SUFFIX,kym-cdn.com
 DOMAIN-SUFFIX,larksuitecdn.com
+DOMAIN-SUFFIX,latam.orbitor.dev
 DOMAIN-SUFFIX,lazcdn.com
 DOMAIN-SUFFIX,lbpicpic.com
 DOMAIN-SUFFIX,lbpictupian.com

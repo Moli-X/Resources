@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7391
+# 规则统计: 7393
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -4714,6 +4714,7 @@ HOST-SUFFIX,pct.org.tw,ProxyGFW
 HOST-SUFFIX,pdetails.com,ProxyGFW
 HOST-SUFFIX,pdproxy.com,ProxyGFW
 HOST-SUFFIX,pds.nasa.gov,ProxyGFW
+HOST-SUFFIX,pdst.fm,ProxyGFW
 HOST-SUFFIX,peace.ca,ProxyGFW
 HOST-SUFFIX,peacefire.org,ProxyGFW
 HOST-SUFFIX,peacehall.com,ProxyGFW
@@ -6436,6 +6437,7 @@ HOST-SUFFIX,unstable.icu,ProxyGFW
 HOST-SUFFIX,untraceable.us,ProxyGFW
 HOST-SUFFIX,unwire.hk,ProxyGFW
 HOST-SUFFIX,uocn.org,ProxyGFW
+HOST-SUFFIX,up.audio,ProxyGFW
 HOST-SUFFIX,upbit.com,ProxyGFW
 HOST-SUFFIX,updates.tdesktop.com,ProxyGFW
 HOST-SUFFIX,updatestar.com,ProxyGFW

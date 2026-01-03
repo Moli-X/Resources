@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7393
+# 规则统计: 7402
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -4783,14 +4783,23 @@ HOST-SUFFIX,pinkrod.com,ProxyGFW
 HOST-SUFFIX,pinoy-n.com,ProxyGFW
 HOST-SUFFIX,pinterest.at,ProxyGFW
 HOST-SUFFIX,pinterest.ca,ProxyGFW
+HOST-SUFFIX,pinterest.cl,ProxyGFW
 HOST-SUFFIX,pinterest.co.kr,ProxyGFW
 HOST-SUFFIX,pinterest.co.uk,ProxyGFW
 HOST-SUFFIX,pinterest.com,ProxyGFW
+HOST-SUFFIX,pinterest.com.au,ProxyGFW
+HOST-SUFFIX,pinterest.com.mx,ProxyGFW
 HOST-SUFFIX,pinterest.de,ProxyGFW
 HOST-SUFFIX,pinterest.dk,ProxyGFW
+HOST-SUFFIX,pinterest.es,ProxyGFW
 HOST-SUFFIX,pinterest.fr,ProxyGFW
+HOST-SUFFIX,pinterest.ie,ProxyGFW
+HOST-SUFFIX,pinterest.it,ProxyGFW
 HOST-SUFFIX,pinterest.jp,ProxyGFW
 HOST-SUFFIX,pinterest.nl,ProxyGFW
+HOST-SUFFIX,pinterest.nz,ProxyGFW
+HOST-SUFFIX,pinterest.ph,ProxyGFW
+HOST-SUFFIX,pinterest.pt,ProxyGFW
 HOST-SUFFIX,pinterest.se,ProxyGFW
 HOST-SUFFIX,pioneer-worker.forums-free.com,ProxyGFW
 HOST-SUFFIX,pipii.tv,ProxyGFW

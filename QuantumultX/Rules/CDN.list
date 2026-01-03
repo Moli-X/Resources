@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4263
+# 规则统计: 4272
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -116,6 +116,7 @@ HOST,assets-next.matters.news,CDN
 HOST,assets-next.mattersprotocol.io,CDN
 HOST,assets-s3-us-east-1.ceros.com,CDN
 HOST,assets-themes.chess.com,CDN
+HOST,assets-v2.i-scmp.com,CDN
 HOST,assets-v2.super.so,CDN
 HOST,assets-www.readspeaker.com,CDN
 HOST,assets-www.xbox.com,CDN
@@ -222,6 +223,7 @@ HOST,assets.newrepublic.com,CDN
 HOST,assets.nflxext.com,CDN
 HOST,assets.nintendo.com,CDN
 HOST,assets.nxtrace.org,CDN
+HOST,assets.nypost.com,CDN
 HOST,assets.onestore.ms,CDN
 HOST,assets.ontrack.com,CDN
 HOST,assets.openalternative.co,CDN
@@ -508,6 +510,7 @@ HOST,cdn.bfldr.com,CDN
 HOST,cdn.bigcloud.click,CDN
 HOST,cdn.birdie.so,CDN
 HOST,cdn.blogarama.com,CDN
+HOST,cdn.boldmethod.com,CDN
 HOST,cdn.botframework.com,CDN
 HOST,cdn.branch.io,CDN
 HOST,cdn.brandfetch.io,CDN
@@ -637,6 +640,7 @@ HOST,cdn.hinative.com,CDN
 HOST,cdn.hk01.com,CDN
 HOST,cdn.hongkongcard.com,CDN
 HOST,cdn.hypershort.com,CDN
+HOST,cdn.i-scmp.com,CDN
 HOST,cdn.icomoon.io,CDN
 HOST,cdn.icon-icons.com,CDN
 HOST,cdn.iconfinder.com,CDN
@@ -953,6 +957,7 @@ HOST,cdn3.tubeteen18.com,CDN
 HOST,cdn3.unrealengine.com,CDN
 HOST,cdn4.bigcommerce.com,CDN
 HOST,cdn4.edgedatg.com,CDN
+HOST,cdn4.focus.bg,CDN
 HOST,cdn4.iconfinder.com,CDN
 HOST,cdn4.sysgears.com,CDN
 HOST,cdn4.telegram.space,CDN
@@ -1523,6 +1528,7 @@ HOST,images.drata.com,CDN
 HOST,images.ecomm.microsoft.com,CDN
 HOST,images.emojiterra.com,CDN
 HOST,images.en.aptoide.com,CDN
+HOST,images.euronews.com,CDN
 HOST,images.everyplate.com,CDN
 HOST,images.fandango.com,CDN
 HOST,images.filepuma.com,CDN
@@ -1903,6 +1909,7 @@ HOST,media.geeksforgeeks.org,CDN
 HOST,media.gettr.com,CDN
 HOST,media.gettyimages.com,CDN
 HOST,media.giphy.com,CDN
+HOST,media.glassdoor.com,CDN
 HOST,media.graphassets.com,CDN
 HOST,media.hachyderm.io,CDN
 HOST,media.hentaifreak.org,CDN
@@ -2783,6 +2790,7 @@ HOST,sts.online.visualstudio.com,CDN
 HOST,sts3.wsj.net,CDN
 HOST,stubdownloader.services.mozilla.com,CDN
 HOST,styleguide-assets.shannons.com.au,CDN
+HOST,subscriptions.news.com.au,CDN
 HOST,support.content.office.net,CDN
 HOST,swan.prod.merch.vpsvc.com,CDN
 HOST,sync.getpublica.com,CDN
@@ -4035,6 +4043,7 @@ HOST-SUFFIX,tedcdn.com,CDN
 HOST-SUFFIX,telemetry.services.yofi.ai,CDN
 HOST-SUFFIX,teo-rum.com,CDN
 HOST-SUFFIX,teraboxcdn.com,CDN
+HOST-SUFFIX,thecontentserver.com,CDN
 HOST-SUFFIX,thesourcemediaassets.com,CDN
 HOST-SUFFIX,thirdwebcdn.com,CDN
 HOST-SUFFIX,thisiscdn.com,CDN

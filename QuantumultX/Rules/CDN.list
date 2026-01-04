@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4272
+# 规则统计: 4273
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1978,6 +1978,7 @@ HOST,mixin-images.zeromesh.net,CDN
 HOST,mkt-site-asset.crypto.com,CDN
 HOST,mobilecenter.azureedge.net,CDN
 HOST,moderate.cleantalk.org,CDN
+HOST,modules.kernelsu.org,CDN
 HOST,modulous.huffpost.com,CDN
 HOST,momentjs.com,CDN
 HOST,moodular.jotform.com,CDN

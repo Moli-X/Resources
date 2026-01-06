@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7402
+# 规则统计: 7407
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -238,6 +238,7 @@ HOST-SUFFIX,ai-wen.net,ProxyGFW
 HOST-SUFFIX,ai.binwang.me,ProxyGFW
 HOST-SUFFIX,ai.dev,ProxyGFW
 HOST-SUFFIX,ai.google,ProxyGFW
+HOST-SUFFIX,ai.studio,ProxyGFW
 HOST-SUFFIX,aiosearch.com,ProxyGFW
 HOST-SUFFIX,aiph.net,ProxyGFW
 HOST-SUFFIX,airasia.com,ProxyGFW
@@ -1509,6 +1510,7 @@ HOST-SUFFIX,dawangidc.com,ProxyGFW
 HOST-SUFFIX,daxa.cn,ProxyGFW
 HOST-SUFFIX,dayabook.com,ProxyGFW
 HOST-SUFFIX,daylife.com,ProxyGFW
+HOST-SUFFIX,dazn.com,ProxyGFW
 HOST-SUFFIX,db.tt,ProxyGFW
 HOST-SUFFIX,dbc.hk,ProxyGFW
 HOST-SUFFIX,dbgjd.com,ProxyGFW
@@ -4582,6 +4584,8 @@ HOST-SUFFIX,onmypc.us,ProxyGFW
 HOST-SUFFIX,onthehunt.com,ProxyGFW
 HOST-SUFFIX,ontrac.com,ProxyGFW
 HOST-SUFFIX,oojj.de,ProxyGFW
+HOST-SUFFIX,ooni.io,ProxyGFW
+HOST-SUFFIX,ooni.org,ProxyGFW
 HOST-SUFFIX,oopsforum.com,ProxyGFW
 HOST-SUFFIX,open.com.hk,ProxyGFW
 HOST-SUFFIX,open.firstory.me,ProxyGFW
@@ -6993,6 +6997,7 @@ HOST-SUFFIX,xbabe.com,ProxyGFW
 HOST-SUFFIX,xbookcn.com,ProxyGFW
 HOST-SUFFIX,xbtce.com,ProxyGFW
 HOST-SUFFIX,xcafe.in,ProxyGFW
+HOST-SUFFIX,xcancel.com,ProxyGFW
 HOST-SUFFIX,xcity.jp,ProxyGFW
 HOST-SUFFIX,xcritic.com,ProxyGFW
 HOST-SUFFIX,xerotica.com,ProxyGFW

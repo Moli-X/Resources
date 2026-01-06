@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4273
+# 规则统计: 4275
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1090,6 +1090,7 @@ HOST,consentdeliveryfd.azurefd.net,CDN
 HOST,consumersite-assets.trustpilot.net,CDN
 HOST,consumersiteimages.trustpilot.net,CDN
 HOST,content-a.strava.com,CDN
+HOST,content-cdn.svc.ui.com,CDN
 HOST,content-management-files.canva.com,CDN
 HOST,content-prod-live.cert.starbucks.com,CDN
 HOST,content.any.run,CDN
@@ -2535,6 +2536,7 @@ HOST,static.coingecko.com,CDN
 HOST,static.comicbz.com,CDN
 HOST,static.community.workday.com,CDN
 HOST,static.convertio.co,CDN
+HOST,static.corespeed.io,CDN
 HOST,static.corp.google.com,CDN
 HOST,static.crunchyroll.com,CDN
 HOST,static.crypto.com,CDN
@@ -2995,7 +2997,7 @@ HOST,webfonts.zoho.com,CDN
 HOST,webobjects2.cdw.com,CDN
 HOST,webp.frostming.com,CDN
 HOST,website-cdn.ipinfo.io,CDN
-HOST,website-media,CDN
+HOST,website-media.deel.com,CDN
 HOST,website-prod.cache.wpscdn.com,CDN
 HOST,webstatic.chargebee.com,CDN
 HOST,widget.automizely.com,CDN

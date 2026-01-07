@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4275
+# 规则统计: 4279
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -346,6 +346,7 @@ HOST,bcmedia.bitchute.com,CDN
 HOST,before.good-apps.co,CDN
 HOST,beta.eslint-react.xyz,CDN
 HOST,bhl.scpwikicn.com,CDN
+HOST,biomejs.dev,CDN
 HOST,blacklist.tampermonkey.net,CDN
 HOST,blade-public-static.blade-group.com,CDN
 HOST,blob.jortage.com,CDN
@@ -1482,6 +1483,7 @@ HOST,image.mgstage.com,CDN
 HOST,image.mux.com,CDN
 HOST,image.nmb.best,CDN
 HOST,image.p-c2-x.abema-tv.com,CDN
+HOST,image.pitchbook.com,CDN
 HOST,image.prntscr.com,CDN
 HOST,image.send.grammarly.com,CDN
 HOST,image.ship.vercel.com,CDN
@@ -1878,6 +1880,8 @@ HOST,mcdns.vrporn.com,CDN
 HOST,media-cdn.atlassian.com,CDN
 HOST,media-cdn.comfy.social,CDN
 HOST,media-cdn.epicgames.com,CDN
+HOST,media-cdn.factba.se,CDN
+HOST,media-cdn.rollcall.com,CDN
 HOST,media-central.indianexpress.com,CDN
 HOST,media-cms.ayoba.me,CDN
 HOST,media-cms.onesignal.com,CDN

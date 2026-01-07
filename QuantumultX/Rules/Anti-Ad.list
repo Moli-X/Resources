@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 98910
+# 规则统计: 98911
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -8121,7 +8121,6 @@ HOST-SUFFIX,ali-pro-origin-pull.kwai.net.iberostar.com,Anti-Ad
 HOST-SUFFIX,ali-pro-pull.kwai.net.iberostar.com,Anti-Ad
 HOST-SUFFIX,ali8.alinea.fr,Anti-Ad
 HOST-SUFFIX,alia-iso.com,Anti-Ad
-HOST-SUFFIX,aliapp.org,Anti-Ad
 HOST-SUFFIX,alias.cloud-marketing.dimensiondata.com,Anti-Ad
 HOST-SUFFIX,aliasanvil.com,Anti-Ad
 HOST-SUFFIX,aliasfoot.com,Anti-Ad
@@ -16827,6 +16826,7 @@ HOST-SUFFIX,cdn.wuyou.ca,Anti-Ad
 HOST-SUFFIX,cdn.xbcpcn.com,Anti-Ad
 HOST-SUFFIX,cdn.xiaoduoai.com,Anti-Ad
 HOST-SUFFIX,cdn.yld.is,Anti-Ad
+HOST-SUFFIX,cdn.ynuf.aliapp.org,Anti-Ad
 HOST-SUFFIX,cdn0.mobmore.com,Anti-Ad
 HOST-SUFFIX,cdn1.crispadvertising.com,Anti-Ad
 HOST-SUFFIX,cdn1.lbesec.com,Anti-Ad
@@ -89243,6 +89243,7 @@ HOST-SUFFIX,umbel.com,Anti-Ad
 HOST-SUFFIX,umbkhpryixebl.space,Anti-Ad
 HOST-SUFFIX,umbrella6.top,Anti-Ad
 HOST-SUFFIX,umc.danuoyi.alicdn.com,Anti-Ad
+HOST-SUFFIX,umdc.aliapp.org,Anti-Ad
 HOST-SUFFIX,umdlbn.globetrotter.de,Anti-Ad
 HOST-SUFFIX,umdpva.gakumado.mynavi.jp,Anti-Ad
 HOST-SUFFIX,umdwwuasqcdar.online,Anti-Ad

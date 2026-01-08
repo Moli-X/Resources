@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4279
+# 规则统计: 4280
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1907,6 +1907,7 @@ HOST,media.e4le.me,CDN
 HOST,media.ettoday.net,CDN
 HOST,media.evolv.ai,CDN
 HOST,media.fc2.com,CDN
+HOST,media.fidoalliance.org,CDN
 HOST,media.flaticon.com,CDN
 HOST,media.fs.com,CDN
 HOST,media.gamestop.com,CDN

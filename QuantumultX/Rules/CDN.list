@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4280
+# 规则统计: 4295
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -120,6 +120,7 @@ HOST,assets-v2.i-scmp.com,CDN
 HOST,assets-v2.super.so,CDN
 HOST,assets-www.readspeaker.com,CDN
 HOST,assets-www.xbox.com,CDN
+HOST,assets.about.me,CDN
 HOST,assets.aboutamazon.com,CDN
 HOST,assets.adobedtm.com,CDN
 HOST,assets.airbuddy.app,CDN
@@ -489,6 +490,7 @@ HOST,cdn.accounts.nintendo.com,CDN
 HOST,cdn.adguard.com,CDN
 HOST,cdn.adguard.info,CDN
 HOST,cdn.adsninja.ca,CDN
+HOST,cdn.affine.pro,CDN
 HOST,cdn.aimerce.ai,CDN
 HOST,cdn.amcharts.com,CDN
 HOST,cdn.announcekit.app,CDN
@@ -1113,6 +1115,7 @@ HOST,cors-proxy.htmldriven.com,CDN
 HOST,cover.comicbz.com,CDN
 HOST,cover.yymanhua.com,CDN
 HOST,covers.openlibrary.org,CDN
+HOST,cpp-content.bhn.cards,CDN
 HOST,cpwebassets.codepen.io,CDN
 HOST,craftassets.unraid.net,CDN
 HOST,cravatar.eu,CDN
@@ -1149,6 +1152,7 @@ HOST,data.web.clickup.com,CDN
 HOST,david-dm.org,CDN
 HOST,db.onlinewebfonts.com,CDN
 HOST,dc-cdn.cdw.com,CDN
+HOST,dd.blackhawknetwork.com,CDN
 HOST,dd.dexscreener.com,CDN
 HOST,demo.unified-streaming.com,CDN
 HOST,demotiles.maplibre.org,CDN
@@ -1171,6 +1175,7 @@ HOST,dl.airdroid.com,CDN
 HOST,dlassets-ssl.xboxlive.com,CDN
 HOST,do.featurebase.app,CDN
 HOST,docs.brew.sh,CDN
+HOST,docs.mrchromebox.tech,CDN
 HOST,docs.rs,CDN
 HOST,documenter-assets.pstmn.io,CDN
 HOST,domain.expiring-soon.xyz,CDN
@@ -1271,6 +1276,7 @@ HOST,fastly-cloud.typenetwork.com,CDN
 HOST,fastly-gce.allmovie.com,CDN
 HOST,fastly-s3.allmovie.com,CDN
 HOST,fastporndelivery.hqporner.com,CDN
+HOST,favicon.im,CDN
 HOST,favicon.pirsch.io,CDN
 HOST,favicon.yandex.net,CDN
 HOST,favicons.nextdns.io,CDN
@@ -1338,6 +1344,7 @@ HOST,front-resource.fs.com,CDN
 HOST,frontend-apps.workos.com,CDN
 HOST,frontend-assets.supabase.com,CDN
 HOST,frontend.floatplane.com,CDN
+HOST,fs.mingpao.com,CDN
 HOST,fs2.onlyhentaistuff.com,CDN
 HOST,fscdn.eppo.cloud,CDN
 HOST,g-static.ap4r.com,CDN
@@ -1501,6 +1508,7 @@ HOST,image.xmanhua.net,CDN
 HOST,image.yuntu.com.tw,CDN
 HOST,image.yymanhua.com,CDN
 HOST,imagecdn.clips4sale.com,CDN
+HOST,imagecdn.mixlr.com,CDN
 HOST,imagehost.player.fm,CDN
 HOST,imageio.forbes.com,CDN
 HOST,imageproxy.ifunny.co,CDN
@@ -1708,8 +1716,10 @@ HOST,img.yna.co.kr,CDN
 HOST,img.youtube.com,CDN
 HOST,img0.socialshopwave.com,CDN
 HOST,img0.yna.co.kr,CDN
+HOST,img04.en25.com,CDN
 HOST,img1.ak.crunchyroll.com,CDN
 HOST,img1.socialshopwave.com,CDN
+HOST,img1.yeggi.com,CDN
 HOST,img1.yna.co.kr,CDN
 HOST,img2.gelbooru.com,CDN
 HOST,img2.javdove.com,CDN
@@ -2209,6 +2219,7 @@ HOST,registry.oomol.com,CDN
 HOST,regmedia.co.uk,CDN
 HOST,reload.getsentry.net,CDN
 HOST,renderer-assets.typeform.com,CDN
+HOST,report-uri.cloudflare.com,CDN
 HOST,res-etl-ssl.mypikpak.com,CDN
 HOST,res-geo.cdn.office.net,CDN
 HOST,res.abc.net.au,CDN
@@ -2330,6 +2341,7 @@ HOST,scache2.vzw.com,CDN
 HOST,scdn.clerk.com,CDN
 HOST,scdn.line-apps.com,CDN
 HOST,scontent.whatsapp.net,CDN
+HOST,screenshot.domains,CDN
 HOST,screenshots.codesandbox.io,CDN
 HOST,screenshots.debian.net,CDN
 HOST,screenshots.downloadtorrentfile.com,CDN
@@ -2951,6 +2963,7 @@ HOST,video.cdnbye.com,CDN
 HOST,video.dailymail.co.uk,CDN
 HOST,video1.7mmtv.sx,CDN
 HOST,video2.7mmtv.sx,CDN
+HOST,video3.mingpao.com,CDN
 HOST,videos.elephas.app,CDN
 HOST,videos.ohentai.org,CDN
 HOST,videos2-h.sendvid.com,CDN
@@ -3295,6 +3308,7 @@ HOST-SUFFIX,codeforces.org,CDN
 HOST-SUFFIX,codepenassets.com,CDN
 HOST-SUFFIX,colliderimages.com,CDN
 HOST-SUFFIX,combinatronics.io,CDN
+HOST-SUFFIX,commondatastorage.googleapis.com,CDN
 HOST-SUFFIX,content-storage-upload.googleapis.com,CDN
 HOST-SUFFIX,content001.bet365.com,CDN
 HOST-SUFFIX,contenthub.allstate.com,CDN
@@ -3842,6 +3856,7 @@ HOST-SUFFIX,placewaifu.com,CDN
 HOST-SUFFIX,pnpm.io,CDN
 HOST-SUFFIX,pocket-image-cache.com,CDN
 HOST-SUFFIX,poecdn.net,CDN
+HOST-SUFFIX,poki-cdn.com,CDN
 HOST-SUFFIX,polyfill-fastly.io,CDN
 HOST-SUFFIX,pool.ntp.org,CDN
 HOST-SUFFIX,porn-cdn.com,CDN

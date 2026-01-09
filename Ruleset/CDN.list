@@ -117,6 +117,7 @@ DOMAIN,assets-v2.i-scmp.com
 DOMAIN,assets-v2.super.so
 DOMAIN,assets-www.readspeaker.com
 DOMAIN,assets-www.xbox.com
+DOMAIN,assets.about.me
 DOMAIN,assets.aboutamazon.com
 DOMAIN,assets.adobedtm.com
 DOMAIN,assets.airbuddy.app
@@ -486,6 +487,7 @@ DOMAIN,cdn.accounts.nintendo.com
 DOMAIN,cdn.adguard.com
 DOMAIN,cdn.adguard.info
 DOMAIN,cdn.adsninja.ca
+DOMAIN,cdn.affine.pro
 DOMAIN,cdn.aimerce.ai
 DOMAIN,cdn.amcharts.com
 DOMAIN,cdn.announcekit.app
@@ -1110,6 +1112,7 @@ DOMAIN,cors-proxy.htmldriven.com
 DOMAIN,cover.comicbz.com
 DOMAIN,cover.yymanhua.com
 DOMAIN,covers.openlibrary.org
+DOMAIN,cpp-content.bhn.cards
 DOMAIN,cpwebassets.codepen.io
 DOMAIN,craftassets.unraid.net
 DOMAIN,cravatar.eu
@@ -1146,6 +1149,7 @@ DOMAIN,data.web.clickup.com
 DOMAIN,david-dm.org
 DOMAIN,db.onlinewebfonts.com
 DOMAIN,dc-cdn.cdw.com
+DOMAIN,dd.blackhawknetwork.com
 DOMAIN,dd.dexscreener.com
 DOMAIN,demo.unified-streaming.com
 DOMAIN,demotiles.maplibre.org
@@ -1168,6 +1172,7 @@ DOMAIN,dl.airdroid.com
 DOMAIN,dlassets-ssl.xboxlive.com
 DOMAIN,do.featurebase.app
 DOMAIN,docs.brew.sh
+DOMAIN,docs.mrchromebox.tech
 DOMAIN,docs.rs
 DOMAIN,documenter-assets.pstmn.io
 DOMAIN,domain.expiring-soon.xyz
@@ -1268,6 +1273,7 @@ DOMAIN,fastly-cloud.typenetwork.com
 DOMAIN,fastly-gce.allmovie.com
 DOMAIN,fastly-s3.allmovie.com
 DOMAIN,fastporndelivery.hqporner.com
+DOMAIN,favicon.im
 DOMAIN,favicon.pirsch.io
 DOMAIN,favicon.yandex.net
 DOMAIN,favicons.nextdns.io
@@ -1335,6 +1341,7 @@ DOMAIN,front-resource.fs.com
 DOMAIN,frontend-apps.workos.com
 DOMAIN,frontend-assets.supabase.com
 DOMAIN,frontend.floatplane.com
+DOMAIN,fs.mingpao.com
 DOMAIN,fs2.onlyhentaistuff.com
 DOMAIN,fscdn.eppo.cloud
 DOMAIN,g-static.ap4r.com
@@ -1498,6 +1505,7 @@ DOMAIN,image.xmanhua.net
 DOMAIN,image.yuntu.com.tw
 DOMAIN,image.yymanhua.com
 DOMAIN,imagecdn.clips4sale.com
+DOMAIN,imagecdn.mixlr.com
 DOMAIN,imagehost.player.fm
 DOMAIN,imageio.forbes.com
 DOMAIN,imageproxy.ifunny.co
@@ -1705,8 +1713,10 @@ DOMAIN,img.yna.co.kr
 DOMAIN,img.youtube.com
 DOMAIN,img0.socialshopwave.com
 DOMAIN,img0.yna.co.kr
+DOMAIN,img04.en25.com
 DOMAIN,img1.ak.crunchyroll.com
 DOMAIN,img1.socialshopwave.com
+DOMAIN,img1.yeggi.com
 DOMAIN,img1.yna.co.kr
 DOMAIN,img2.gelbooru.com
 DOMAIN,img2.javdove.com
@@ -2206,6 +2216,7 @@ DOMAIN,registry.oomol.com
 DOMAIN,regmedia.co.uk
 DOMAIN,reload.getsentry.net
 DOMAIN,renderer-assets.typeform.com
+DOMAIN,report-uri.cloudflare.com
 DOMAIN,res-etl-ssl.mypikpak.com
 DOMAIN,res-geo.cdn.office.net
 DOMAIN,res.abc.net.au
@@ -2327,6 +2338,7 @@ DOMAIN,scache2.vzw.com
 DOMAIN,scdn.clerk.com
 DOMAIN,scdn.line-apps.com
 DOMAIN,scontent.whatsapp.net
+DOMAIN,screenshot.domains
 DOMAIN,screenshots.codesandbox.io
 DOMAIN,screenshots.debian.net
 DOMAIN,screenshots.downloadtorrentfile.com
@@ -2948,6 +2960,7 @@ DOMAIN,video.cdnbye.com
 DOMAIN,video.dailymail.co.uk
 DOMAIN,video1.7mmtv.sx
 DOMAIN,video2.7mmtv.sx
+DOMAIN,video3.mingpao.com
 DOMAIN,videos.elephas.app
 DOMAIN,videos.ohentai.org
 DOMAIN,videos2-h.sendvid.com
@@ -3292,6 +3305,7 @@ DOMAIN-SUFFIX,codeforces.org
 DOMAIN-SUFFIX,codepenassets.com
 DOMAIN-SUFFIX,colliderimages.com
 DOMAIN-SUFFIX,combinatronics.io
+DOMAIN-SUFFIX,commondatastorage.googleapis.com
 DOMAIN-SUFFIX,content-storage-upload.googleapis.com
 DOMAIN-SUFFIX,content001.bet365.com
 DOMAIN-SUFFIX,contenthub.allstate.com
@@ -3839,6 +3853,7 @@ DOMAIN-SUFFIX,placewaifu.com
 DOMAIN-SUFFIX,pnpm.io
 DOMAIN-SUFFIX,pocket-image-cache.com
 DOMAIN-SUFFIX,poecdn.net
+DOMAIN-SUFFIX,poki-cdn.com
 DOMAIN-SUFFIX,polyfill-fastly.io
 DOMAIN-SUFFIX,pool.ntp.org
 DOMAIN-SUFFIX,porn-cdn.com

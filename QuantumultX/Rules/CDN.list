@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4295
+# 规则统计: 4297
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -210,6 +210,7 @@ HOST,assets.kraken.com,CDN
 HOST,assets.leetcode.com,CDN
 HOST,assets.lemonsqueezy.com,CDN
 HOST,assets.mailgun.com,CDN
+HOST,assets.map.brightcove.com,CDN
 HOST,assets.mastercard.com,CDN
 HOST,assets.matters.news,CDN
 HOST,assets.mayoclinic.org,CDN
@@ -1359,6 +1360,7 @@ HOST,geoip-js.com,CDN
 HOST,geojson.io,CDN
 HOST,gfx-data.news-engineering.aws.wapo.pub,CDN
 HOST,gitpkg-fork.vercel.sh,CDN
+HOST,global-assets.fitch.group,CDN
 HOST,global.divhunt.com,CDN
 HOST,glyph.medium.com,CDN
 HOST,gmedia.playstation.com,CDN

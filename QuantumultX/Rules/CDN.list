@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4297
+# 规则统计: 4309
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -88,6 +88,7 @@ HOST,app.viral-loops.com,CDN
 HOST,appassets.mvtdev.com,CDN
 HOST,apps-static.route4me.com,CDN
 HOST,apps.bazaarvoice.com,CDN
+HOST,apps.paidy.com,CDN
 HOST,apps.profitihub.com,CDN
 HOST,apps.sophi.io,CDN
 HOST,apps.voxmedia.com,CDN
@@ -485,9 +486,11 @@ HOST,cdn.17app.co,CDN
 HOST,cdn.18jav.tv,CDN
 HOST,cdn.24.co.za,CDN
 HOST,cdn.7tv.app,CDN
+HOST,cdn.accessibly.app,CDN
 HOST,cdn.accounts.autodesk.com,CDN
 HOST,cdn.accounts.firefox.com,CDN
 HOST,cdn.accounts.nintendo.com,CDN
+HOST,cdn.activity.smart-bdash.com,CDN
 HOST,cdn.adguard.com,CDN
 HOST,cdn.adguard.info,CDN
 HOST,cdn.adsninja.ca,CDN
@@ -551,6 +554,7 @@ HOST,cdn.configcat.com,CDN
 HOST,cdn.consentmanager.net,CDN
 HOST,cdn.contentful.com,CDN
 HOST,cdn.conveythis.com,CDN
+HOST,cdn.corso.com,CDN
 HOST,cdn.cracked.sh,CDN
 HOST,cdn.craft.cloud,CDN
 HOST,cdn.create.microsoft.com,CDN
@@ -1320,6 +1324,7 @@ HOST,firebaselogging.googleapis.com,CDN
 HOST,firebaseremoteconfig.googleapis.com,CDN
 HOST,firefox.settings.services.mozilla.com,CDN
 HOST,fiverr-res.cloudinary.com,CDN
+HOST,flagsapi.com,CDN
 HOST,flo.uri.sh,CDN
 HOST,flows.trysavvy.com,CDN
 HOST,font-public.canva.com,CDN
@@ -1468,6 +1473,7 @@ HOST,ih1.redbubble.net,CDN
 HOST,ih2.redbubble.net,CDN
 HOST,ih3.redbubble.net,CDN
 HOST,ik.imgkit.net,CDN
+HOST,im.np-payment-gateway.com,CDN
 HOST,imag.malavida.com,CDN
 HOST,image-cdn.porndig.com,CDN
 HOST,image-forwarder.notaku.so,CDN
@@ -1783,6 +1789,7 @@ HOST,isitmaintained.com,CDN
 HOST,j.udn.com.tw,CDN
 HOST,jac.yahoosandbox.com,CDN
 HOST,jaws.pbs.org,CDN
+HOST,jetpack.wordpress.com,CDN
 HOST,jfe-cdn.qualtrics.com,CDN
 HOST,jnmedia.ero-video.net,CDN
 HOST,js-1-cdn.airdroid.com,CDN
@@ -1809,6 +1816,7 @@ HOST,js.pusher.com,CDN
 HOST,js.puter.com,CDN
 HOST,js.qualified.com,CDN
 HOST,js.recurly.com,CDN
+HOST,js.rtoaster.jp,CDN
 HOST,js.short.io,CDN
 HOST,js.smile.io,CDN
 HOST,js.stripe.com,CDN
@@ -1986,6 +1994,7 @@ HOST,media4.giphy.com,CDN
 HOST,medias.meow.social,CDN
 HOST,medium-media.vgm.io,CDN
 HOST,megapx-assets.dcard.tw,CDN
+HOST,melonbooks.akamaized.net,CDN
 HOST,meteorclient.com,CDN
 HOST,metrics.kapa.ai,CDN
 HOST,micro.rubiconproject.com,CDN
@@ -2249,6 +2258,7 @@ HOST,reviews-badge.capterra.com,CDN
 HOST,rs-cdn.splashtop.com,CDN
 HOST,rsi.grafana.com,CDN
 HOST,rsms.me,CDN
+HOST,rt.rtoaster.jp,CDN
 HOST,rtcg-access.bytevcloud.com,CDN
 HOST,rts-static-prod.freshworksapi.com,CDN
 HOST,rules.ac,CDN
@@ -2355,6 +2365,7 @@ HOST,scripts.webeo.com,CDN
 HOST,sdata.ndtv.com,CDN
 HOST,sdk.customfit.ai,CDN
 HOST,sdk.gleap.io,CDN
+HOST,sdk.helloextend.com,CDN
 HOST,sdk.listenlive.co,CDN
 HOST,sdk.loyaltylion.net,CDN
 HOST,sdk.privacy-center.org,CDN
@@ -2911,6 +2922,7 @@ HOST,ui.contentstack.com,CDN
 HOST,ui.powerreviews.com,CDN
 HOST,ui.trailhead.com,CDN
 HOST,uim.9uu22.com,CDN
+HOST,unavatar.io,CDN
 HOST,unlimited-cdn.waifu2x.net,CDN
 HOST,unsubscribe-imgs.leavemealone.com,CDN
 HOST,uos-support-files.svc.ui.com,CDN

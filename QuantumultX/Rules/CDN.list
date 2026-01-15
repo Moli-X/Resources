@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4309
+# 规则统计: 4310
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2214,6 +2214,7 @@ HOST,r2.1hanime.com,CDN
 HOST,r2.dejavu.moe,CDN
 HOST,r2.gear4music.com,CDN
 HOST,r2.leadsy.ai,CDN
+HOST,r2cdn.c7d.dev,CDN
 HOST,r2cdn.corespeed.io,CDN
 HOST,r2cdn.myshopline.com,CDN
 HOST,r2cdn.perplexity.ai,CDN

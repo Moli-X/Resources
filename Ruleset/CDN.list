@@ -7,7 +7,6 @@ DOMAIN,a.deviantart.net
 DOMAIN,a.fireside.fm
 DOMAIN,a.gawby.com
 DOMAIN,a.kickstarter.com
-DOMAIN,a.klaviyo.com
 DOMAIN,a.pomf.cat
 DOMAIN,a5.behance.net
 DOMAIN,a57.foxnews.com
@@ -399,6 +398,7 @@ DOMAIN,c6.patreon.com
 DOMAIN,c7.patreon.com
 DOMAIN,c8.patreon.com
 DOMAIN,ca.nfs.pub
+DOMAIN,ca1.onlyhentaistuff.com
 DOMAIN,cacerts.digicert.com
 DOMAIN,cacerts.rapidssl.com
 DOMAIN,cache-05.filehippo.net
@@ -533,6 +533,7 @@ DOMAIN,cdn.cbd.int
 DOMAIN,cdn.cfr.org
 DOMAIN,cdn.changelog.com
 DOMAIN,cdn.channel.io
+DOMAIN,cdn.chord.co
 DOMAIN,cdn.circle.so
 DOMAIN,cdn.clever-cloud.com
 DOMAIN,cdn.cliqz.com
@@ -544,7 +545,6 @@ DOMAIN,cdn.cnn.com
 DOMAIN,cdn.cnx-software.com
 DOMAIN,cdn.codeblackbelt.com
 DOMAIN,cdn.commandbar.com
-DOMAIN,cdn.commento.io
 DOMAIN,cdn.comparitech.com
 DOMAIN,cdn.concert.io
 DOMAIN,cdn.configcat.com
@@ -624,9 +624,6 @@ DOMAIN,cdn.gettr.com
 DOMAIN,cdn.ghostery.com
 DOMAIN,cdn.giftcardpro.app
 DOMAIN,cdn.gigya.com
-DOMAIN,cdn.glitch.com
-DOMAIN,cdn.glitch.global
-DOMAIN,cdn.glitch.me
 DOMAIN,cdn.gofundme.com
 DOMAIN,cdn.googlesource.com
 DOMAIN,cdn.graph.office.net
@@ -731,7 +728,6 @@ DOMAIN,cdn.one.store
 DOMAIN,cdn.onesignal.com
 DOMAIN,cdn.onetime.dog
 DOMAIN,cdn.onfastspring.com
-DOMAIN,cdn.onlyhentaistuff.com
 DOMAIN,cdn.openai.com
 DOMAIN,cdn.osxdaily.com
 DOMAIN,cdn.paddle.com
@@ -1050,7 +1046,6 @@ DOMAIN,cloudflare.tv
 DOMAIN,cloudfront.barilliance.com
 DOMAIN,cloudfront.codeproject.com
 DOMAIN,cloudinary-res.cloudinary.com
-DOMAIN,cm1.aminoapps.com
 DOMAIN,cmd-cdn.cleanmymac.com
 DOMAIN,cmp-cdn.p.aws.economist.com
 DOMAIN,cms-assets.nodecraft.com
@@ -1107,7 +1102,6 @@ DOMAIN,content.jwplatform.com
 DOMAIN,content.kaspersky-labs.com
 DOMAIN,content.overwolf.com
 DOMAIN,content.powerapps.com
-DOMAIN,content.product.glitch.com
 DOMAIN,content.wepik.com
 DOMAIN,contents-thumbnail2.fc2.com
 DOMAIN,conversiongorilla.com
@@ -1166,6 +1160,7 @@ DOMAIN,design.keyoxide.org
 DOMAIN,design.mayoclinic.org
 DOMAIN,designsystem.brevo.com
 DOMAIN,detectportal.firefox.com
+DOMAIN,devicons.railway.com
 DOMAIN,devnull.perfops.net
 DOMAIN,dh-site.b-cdn.net
 DOMAIN,dims.apnews.com
@@ -1378,7 +1373,6 @@ DOMAIN,gravatar.tapglb.com
 DOMAIN,groundnews.b-cdn.net
 DOMAIN,gstatic.com
 DOMAIN,gstatic.olympics.com
-DOMAIN,gt1.onlyhentaistuff.com
 DOMAIN,gtranslate.io
 DOMAIN,hawk.tomsguide.com
 DOMAIN,hawky.pcgamer.com
@@ -2459,6 +2453,7 @@ DOMAIN,static-2v.gitbook.com
 DOMAIN,static-3.bitchute.com
 DOMAIN,static-4.bitchute.com
 DOMAIN,static-act.imoim.net
+DOMAIN,static-app.klaviyo.com
 DOMAIN,static-assets-1.truthsocial.com
 DOMAIN,static-assets-prod.epicgames.com
 DOMAIN,static-assets-prod.unrealengine.com
@@ -3104,6 +3099,7 @@ DOMAIN-SUFFIX,99avcdn.com
 DOMAIN-SUFFIX,99avcdn.net
 DOMAIN-SUFFIX,99avcdn.org
 DOMAIN-SUFFIX,9cache.com
+DOMAIN-SUFFIX,a.klaviyo.com
 DOMAIN-SUFFIX,a.storyblok.com
 DOMAIN-SUFFIX,a1tb.com
 DOMAIN-SUFFIX,a7s.imgix.com

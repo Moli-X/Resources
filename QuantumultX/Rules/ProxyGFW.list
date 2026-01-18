@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7406
+# 规则统计: 7411
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -257,6 +257,7 @@ HOST-SUFFIX,aiweiweiblog.com,ProxyGFW
 HOST-SUFFIX,ajsands.com,ProxyGFW
 HOST-SUFFIX,akademiye.org,ProxyGFW
 HOST-SUFFIX,akamai.net,ProxyGFW
+HOST-SUFFIX,akamai.tvb.com,ProxyGFW
 HOST-SUFFIX,akamaihd.net,ProxyGFW
 HOST-SUFFIX,akamaistream.net,ProxyGFW
 HOST-SUFFIX,akamaized.net,ProxyGFW
@@ -346,7 +347,10 @@ HOST-SUFFIX,angularjs.org,ProxyGFW
 HOST-SUFFIX,animecrazy.net,ProxyGFW
 HOST-SUFFIX,animeshippuuden.com,ProxyGFW
 HOST-SUFFIX,aniscartujo.com,ProxyGFW
+HOST-SUFFIX,annas-archive.in,ProxyGFW
+HOST-SUFFIX,annas-archive.li,ProxyGFW
 HOST-SUFFIX,annas-archive.org,ProxyGFW
+HOST-SUFFIX,annas-archive.pm,ProxyGFW
 HOST-SUFFIX,annas-archive.se,ProxyGFW
 HOST-SUFFIX,annatam.com,ProxyGFW
 HOST-SUFFIX,anobii.com,ProxyGFW
@@ -2144,7 +2148,6 @@ HOST-SUFFIX,forum.mymaji.com,ProxyGFW
 HOST-SUFFIX,forum.omy.sg,ProxyGFW
 HOST-SUFFIX,forum.palmislife.com,ProxyGFW
 HOST-SUFFIX,forum.slime.com.tw,ProxyGFW
-HOST-SUFFIX,forum.tvb.com,ProxyGFW
 HOST-SUFFIX,forum.xinbao.de,ProxyGFW
 HOST-SUFFIX,forum4hk.com,ProxyGFW
 HOST-SUFFIX,forums-free.com,ProxyGFW
@@ -4232,6 +4235,7 @@ HOST-SUFFIX,myspacecdn.com,ProxyGFW
 HOST-SUFFIX,mytalkbox.com,ProxyGFW
 HOST-SUFFIX,myteamspeak.com,ProxyGFW
 HOST-SUFFIX,mytizi.com,ProxyGFW
+HOST-SUFFIX,mytvsuper.com,ProxyGFW
 HOST-SUFFIX,mywife.cc,ProxyGFW
 HOST-SUFFIX,mywww.biz,ProxyGFW
 HOST-SUFFIX,myz.info,ProxyGFW
@@ -6261,6 +6265,7 @@ HOST-SUFFIX,tv.com,ProxyGFW
 HOST-SUFFIX,tv.jtbc.joins.com,ProxyGFW
 HOST-SUFFIX,tvants.com,ProxyGFW
 HOST-SUFFIX,tvb.com,ProxyGFW
+HOST-SUFFIX,tvbanywhere.com,ProxyGFW
 HOST-SUFFIX,tvboxnow.com,ProxyGFW
 HOST-SUFFIX,tvbs.com.tw,ProxyGFW
 HOST-SUFFIX,tvider.com,ProxyGFW

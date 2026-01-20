@@ -1771,6 +1771,7 @@ DOMAIN,info.cloudflare.com
 DOMAIN,info.knak.com
 DOMAIN,instafeed.nfcube.com
 DOMAIN,int.mwbbiz.com
+DOMAIN,intake-logging.wikimedia.org
 DOMAIN,integrations.gitbook.com
 DOMAIN,interactive-examples.mdn.mozilla.net
 DOMAIN,interactive.guim.co.uk
@@ -2018,6 +2019,7 @@ DOMAIN,namedotcom-cdn.name.tools
 DOMAIN,nav.yumenosora.co.jp
 DOMAIN,navismithapis-cdn.com
 DOMAIN,nbcnewsdigital-static.nbcuni.com
+DOMAIN,nel.bgptools-agent-cf.com
 DOMAIN,nel.heroku.com
 DOMAIN,net-fe-static-assets.network-controller.svc.ui.com
 DOMAIN,netlify.apollo.io
@@ -2996,6 +2998,7 @@ DOMAIN,vz-c0fe498e-5ab.b-cdn.net
 DOMAIN,w.chatlio.com
 DOMAIN,w.soundcloud.com
 DOMAIN,w2.influxdata.com
+DOMAIN,w3-reporting.reddit.com
 DOMAIN,wa.arounddeal.com
 DOMAIN,wa1.aninoapps.com
 DOMAIN,wac-cdn.atlassian.com
@@ -3536,6 +3539,7 @@ DOMAIN-SUFFIX,hrcdn.net
 DOMAIN-SUFFIX,hs-scripts.com
 DOMAIN-SUFFIX,hs-scripts.net
 DOMAIN-SUFFIX,hsappstatic.net
+DOMAIN-SUFFIX,hsbrowserreports.com
 DOMAIN-SUFFIX,hscollectedforms.net
 DOMAIN-SUFFIX,hsstatic.net
 DOMAIN-SUFFIX,hsto.org

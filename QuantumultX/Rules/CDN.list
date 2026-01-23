@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4315
+# 规则统计: 4323
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -132,6 +132,7 @@ HOST,assets.auth.magic.link,CDN
 HOST,assets.awwwards.com,CDN
 HOST,assets.basehub.com,CDN
 HOST,assets.bbhub.io,CDN
+HOST,assets.bbystatic.com,CDN
 HOST,assets.bitstamp.net,CDN
 HOST,assets.bitwarden.com,CDN
 HOST,assets.bnidx.com,CDN
@@ -443,6 +444,8 @@ HOST,cdn-fck.tnaflix.com,CDN
 HOST,cdn-forum.networklessons.com,CDN
 HOST,cdn-front.freepik.com,CDN
 HOST,cdn-icons-png.flaticon.com,CDN
+HOST,cdn-image01.casetify.com,CDN
+HOST,cdn-image02.casetify.com,CDN
 HOST,cdn-images-1.medium.com,CDN
 HOST,cdn-images.mailchimp.com,CDN
 HOST,cdn-img2.iporntv.net,CDN
@@ -467,6 +470,7 @@ HOST,cdn-rdstaticassets.readdle.com,CDN
 HOST,cdn-seo.airdroid.com,CDN
 HOST,cdn-service.jp.sumologic.com,CDN
 HOST,cdn-share-sprites.flaticon.com,CDN
+HOST,cdn-stamplib.casetify.com,CDN
 HOST,cdn-static-1.medium.com,CDN
 HOST,cdn-static-push.porndig.com,CDN
 HOST,cdn-static.paw.cloud,CDN
@@ -533,6 +537,7 @@ HOST,cdn.calibermind.com,CDN
 HOST,cdn.cameo.com,CDN
 HOST,cdn.camweara.com,CDN
 HOST,cdn.candy.ai,CDN
+HOST,cdn.casetify.com,CDN
 HOST,cdn.cbd.int,CDN
 HOST,cdn.cfr.org,CDN
 HOST,cdn.changelog.com,CDN
@@ -2804,6 +2809,7 @@ HOST,steamusercontent-a.akamaihd.net,CDN
 HOST,steamuserimages-a.akamaihd.net,CDN
 HOST,steamvideo-a.akamaihd.net,CDN
 HOST,storage-b.picacomic.com,CDN
+HOST,storage.courtlistener.com,CDN
 HOST,storage.crisp.chat,CDN
 HOST,storage.deepin.org,CDN
 HOST,storage.gra.cloud.ovh.net,CDN
@@ -2819,6 +2825,7 @@ HOST,storageapi2.fleek.co,CDN
 HOST,store-images.microsoft.com,CDN
 HOST,store-images.s-microsoft.com,CDN
 HOST,stories.freepiklabs.com,CDN
+HOST,storybooks.fluentui.dev,CDN
 HOST,stream.mux.com,CDN
 HOST,streaming.split.io,CDN
 HOST,sts.online.visualstudio.com,CDN
@@ -2952,6 +2959,7 @@ HOST,us3.hamreus.com,CDN
 HOST,use.fortawesome.com,CDN
 HOST,use.typekit.com,CDN
 HOST,use.typekit.net,CDN
+HOST,usehooks-ts.com,CDN
 HOST,user-images.trustpilot.com,CDN
 HOST,user-uploads.perchance.org,CDN
 HOST,usercontent.flodesk.com,CDN

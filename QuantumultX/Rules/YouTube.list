@@ -1,5 +1,5 @@
 # 规则名称: YouTube
-# 规则统计: 17
+# 规则统计: 14
 
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
@@ -15,6 +15,3 @@ HOST-SUFFIX,youtubekids.com,YouTube
 HOST-SUFFIX,yt.be,YouTube
 HOST-SUFFIX,ytimg.com,YouTube
 HOST-KEYWORD,youtube,YouTube
-USER-AGENT,*youtube*,YouTube
-USER-AGENT,YouTube*,YouTube
-USER-AGENT,com.google.ios.youtube*,YouTube

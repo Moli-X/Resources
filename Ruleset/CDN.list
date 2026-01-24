@@ -129,7 +129,6 @@ DOMAIN,assets.auth.magic.link
 DOMAIN,assets.awwwards.com
 DOMAIN,assets.basehub.com
 DOMAIN,assets.bbhub.io
-DOMAIN,assets.bbystatic.com
 DOMAIN,assets.bitstamp.net
 DOMAIN,assets.bitwarden.com
 DOMAIN,assets.bnidx.com
@@ -267,7 +266,6 @@ DOMAIN,assets.swoogo.com
 DOMAIN,assets.tatlerasia.com
 DOMAIN,assets.the-independent.com
 DOMAIN,assets.time.com
-DOMAIN,assets.toiimg.com
 DOMAIN,assets.tokopedia.net
 DOMAIN,assets.toot.cafe
 DOMAIN,assets.tvtropes.org
@@ -1100,6 +1098,7 @@ DOMAIN,content-a.strava.com
 DOMAIN,content-cdn.svc.ui.com
 DOMAIN,content-management-files.canva.com
 DOMAIN,content-prod-live.cert.starbucks.com
+DOMAIN,content.9gtb.com
 DOMAIN,content.any.run
 DOMAIN,content.api.news
 DOMAIN,content.arduino.cc
@@ -2366,6 +2365,7 @@ DOMAIN,scripts.dailymail.co.uk
 DOMAIN,scripts.scriptwrapper.com
 DOMAIN,scripts.webeo.com
 DOMAIN,sdata.ndtv.com
+DOMAIN,sdk-static.loyaltylion.net
 DOMAIN,sdk.customfit.ai
 DOMAIN,sdk.gleap.io
 DOMAIN,sdk.helloextend.com
@@ -2613,6 +2613,7 @@ DOMAIN,static.gl-inet.com
 DOMAIN,static.global.visioncritical.com
 DOMAIN,static.gmgard.com
 DOMAIN,static.gnome.org
+DOMAIN,static.goaffpro.com
 DOMAIN,static.gopro.com
 DOMAIN,static.grammarly.com
 DOMAIN,static.guim.co.uk
@@ -2732,7 +2733,6 @@ DOMAIN,static.test-beta.com
 DOMAIN,static.theguardian.com
 DOMAIN,static.themebuilder.aws.arc.pub
 DOMAIN,static.threatlocker.com
-DOMAIN,static.toiimg.com
 DOMAIN,static.tokenview.io
 DOMAIN,static.toss.im
 DOMAIN,static.touhoudb.com
@@ -2813,6 +2813,7 @@ DOMAIN,storage.gra.cloud.ovh.net
 DOMAIN,storage.ko-fi.com
 DOMAIN,storage.moegirl.tw
 DOMAIN,storage.sciencecast.org
+DOMAIN,storage.synctrack.io
 DOMAIN,storage.tally.so
 DOMAIN,storage.windiscover.com
 DOMAIN,storage.withfabric.xyz
@@ -3188,6 +3189,7 @@ DOMAIN-SUFFIX,badgen.net
 DOMAIN-SUFFIX,badoocdn.com
 DOMAIN-SUFFIX,balley.top
 DOMAIN-SUFFIX,bblcdn.com
+DOMAIN-SUFFIX,bbystatic.com
 DOMAIN-SUFFIX,bdzybf7.com
 DOMAIN-SUFFIX,bestfreecdn.com
 DOMAIN-SUFFIX,bestjavcdn.com
@@ -4113,6 +4115,7 @@ DOMAIN-SUFFIX,tkcdns.com
 DOMAIN-SUFFIX,tmsimg.com
 DOMAIN-SUFFIX,tnastatic.com
 DOMAIN-SUFFIX,tnmr.org
+DOMAIN-SUFFIX,toiimg.com
 DOMAIN-SUFFIX,tokyvideo.com
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,tpdfiles.com

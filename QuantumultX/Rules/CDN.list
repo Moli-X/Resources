@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4323
+# 规则统计: 4326
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -132,7 +132,6 @@ HOST,assets.auth.magic.link,CDN
 HOST,assets.awwwards.com,CDN
 HOST,assets.basehub.com,CDN
 HOST,assets.bbhub.io,CDN
-HOST,assets.bbystatic.com,CDN
 HOST,assets.bitstamp.net,CDN
 HOST,assets.bitwarden.com,CDN
 HOST,assets.bnidx.com,CDN
@@ -270,7 +269,6 @@ HOST,assets.swoogo.com,CDN
 HOST,assets.tatlerasia.com,CDN
 HOST,assets.the-independent.com,CDN
 HOST,assets.time.com,CDN
-HOST,assets.toiimg.com,CDN
 HOST,assets.tokopedia.net,CDN
 HOST,assets.toot.cafe,CDN
 HOST,assets.tvtropes.org,CDN
@@ -1103,6 +1101,7 @@ HOST,content-a.strava.com,CDN
 HOST,content-cdn.svc.ui.com,CDN
 HOST,content-management-files.canva.com,CDN
 HOST,content-prod-live.cert.starbucks.com,CDN
+HOST,content.9gtb.com,CDN
 HOST,content.any.run,CDN
 HOST,content.api.news,CDN
 HOST,content.arduino.cc,CDN
@@ -2369,6 +2368,7 @@ HOST,scripts.dailymail.co.uk,CDN
 HOST,scripts.scriptwrapper.com,CDN
 HOST,scripts.webeo.com,CDN
 HOST,sdata.ndtv.com,CDN
+HOST,sdk-static.loyaltylion.net,CDN
 HOST,sdk.customfit.ai,CDN
 HOST,sdk.gleap.io,CDN
 HOST,sdk.helloextend.com,CDN
@@ -2616,6 +2616,7 @@ HOST,static.gl-inet.com,CDN
 HOST,static.global.visioncritical.com,CDN
 HOST,static.gmgard.com,CDN
 HOST,static.gnome.org,CDN
+HOST,static.goaffpro.com,CDN
 HOST,static.gopro.com,CDN
 HOST,static.grammarly.com,CDN
 HOST,static.guim.co.uk,CDN
@@ -2735,7 +2736,6 @@ HOST,static.test-beta.com,CDN
 HOST,static.theguardian.com,CDN
 HOST,static.themebuilder.aws.arc.pub,CDN
 HOST,static.threatlocker.com,CDN
-HOST,static.toiimg.com,CDN
 HOST,static.tokenview.io,CDN
 HOST,static.toss.im,CDN
 HOST,static.touhoudb.com,CDN
@@ -2816,6 +2816,7 @@ HOST,storage.gra.cloud.ovh.net,CDN
 HOST,storage.ko-fi.com,CDN
 HOST,storage.moegirl.tw,CDN
 HOST,storage.sciencecast.org,CDN
+HOST,storage.synctrack.io,CDN
 HOST,storage.tally.so,CDN
 HOST,storage.windiscover.com,CDN
 HOST,storage.withfabric.xyz,CDN
@@ -3191,6 +3192,7 @@ HOST-SUFFIX,badgen.net,CDN
 HOST-SUFFIX,badoocdn.com,CDN
 HOST-SUFFIX,balley.top,CDN
 HOST-SUFFIX,bblcdn.com,CDN
+HOST-SUFFIX,bbystatic.com,CDN
 HOST-SUFFIX,bdzybf7.com,CDN
 HOST-SUFFIX,bestfreecdn.com,CDN
 HOST-SUFFIX,bestjavcdn.com,CDN
@@ -4116,6 +4118,7 @@ HOST-SUFFIX,tkcdns.com,CDN
 HOST-SUFFIX,tmsimg.com,CDN
 HOST-SUFFIX,tnastatic.com,CDN
 HOST-SUFFIX,tnmr.org,CDN
+HOST-SUFFIX,toiimg.com,CDN
 HOST-SUFFIX,tokyvideo.com,CDN
 HOST-SUFFIX,torproject.org,CDN
 HOST-SUFFIX,tpdfiles.com,CDN

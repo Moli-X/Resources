@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4326
+# 规则统计: 4329
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2492,6 +2492,7 @@ HOST,static-cf.foxdata.com,CDN
 HOST,static-clst.avgle.com,CDN
 HOST,static-community.tp-link.com,CDN
 HOST,static-dm.ubisoft.com,CDN
+HOST,static-documents.wizards.com,CDN
 HOST,static-e.live.fc2.com,CDN
 HOST,static-effect.reg.ru,CDN
 HOST,static-exp1.licdn.com,CDN
@@ -2522,6 +2523,7 @@ HOST,static-web-prod.skillshare.com,CDN
 HOST,static-web.grammarly.com,CDN
 HOST,static-webfonts.myfonts.com,CDN
 HOST,static-www.onlyoffice.com,CDN
+HOST,static-www.sendsafely.com,CDN
 HOST,static.3dporndude.com,CDN
 HOST,static.4shared.com,CDN
 HOST,static.ada.support,CDN
@@ -4026,6 +4028,7 @@ HOST-SUFFIX,sqspcdn.com,CDN
 HOST-SUFFIX,squarespace-cdn.com,CDN
 HOST-SUFFIX,srcdn.com,CDN
 HOST-SUFFIX,ss-cdn.com,CDN
+HOST-SUFFIX,ss-domain.com,CDN
 HOST-SUFFIX,ssl-images-amazon.com,CDN
 HOST-SUFFIX,sstatic.net,CDN
 HOST-SUFFIX,stack.imgur.com,CDN

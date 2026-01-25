@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4329
+# 规则统计: 4330
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3082,6 +3082,7 @@ HOST,ws-cdn.nperf.com,CDN
 HOST,ws2-cache.aptoide.com,CDN
 HOST,ww2-secure.justanswer.com,CDN
 HOST,ww2.justanswer.com,CDN
+HOST,www-cdn.anthropic.com,CDN
 HOST,www-cdn.uscardforum.com,CDN
 HOST,www-res.cablelabs.com,CDN
 HOST,www-static.ripe.net,CDN

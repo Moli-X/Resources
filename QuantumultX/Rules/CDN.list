@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4330
+# 规则统计: 4337
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -158,6 +158,7 @@ HOST,assets.coingecko.com,CDN
 HOST,assets.context.ly,CDN
 HOST,assets.controld.com,CDN
 HOST,assets.convertkit.com,CDN
+HOST,assets.customer.io,CDN
 HOST,assets.cyberghostvpn.com,CDN
 HOST,assets.dev.to,CDN
 HOST,assets.dictionary.com,CDN
@@ -819,6 +820,7 @@ HOST,cdn.sitesearch360.com,CDN
 HOST,cdn.sketch.com,CDN
 HOST,cdn.skymavis.com,CDN
 HOST,cdn.smooch.io,CDN
+HOST,cdn.snaptravel.com,CDN
 HOST,cdn.softswiss.net,CDN
 HOST,cdn.sphlabs.com,CDN
 HOST,cdn.split.io,CDN
@@ -835,6 +837,7 @@ HOST,cdn.stonly.com,CDN
 HOST,cdn.streamlabs.com,CDN
 HOST,cdn.substack.com,CDN
 HOST,cdn.sunofbeaches.com,CDN
+HOST,cdn.super.com,CDN
 HOST,cdn.svgator.com,CDN
 HOST,cdn.syftdata.com,CDN
 HOST,cdn.tailwindcss.com,CDN
@@ -2152,6 +2155,7 @@ HOST,player.vimeo.com,CDN
 HOST,players.brightcove.net,CDN
 HOST,playgroundcdn.typescriptlang.org,CDN
 HOST,plugins.dprint.dev,CDN
+HOST,plugins.pubtailer.com,CDN
 HOST,plus.unsplash.com,CDN
 HOST,pm1.aninoapps.com,CDN
 HOST,pmecdn.protonweb.com,CDN
@@ -2368,6 +2372,7 @@ HOST,scripts.dailymail.co.uk,CDN
 HOST,scripts.scriptwrapper.com,CDN
 HOST,scripts.webeo.com,CDN
 HOST,sdata.ndtv.com,CDN
+HOST,sdk-cdn.fun.xyz,CDN
 HOST,sdk-static.loyaltylion.net,CDN
 HOST,sdk.customfit.ai,CDN
 HOST,sdk.gleap.io,CDN
@@ -3500,6 +3505,7 @@ HOST-SUFFIX,gayzyimage.com,CDN
 HOST-SUFFIX,gcr.si,CDN
 HOST-SUFFIX,gdvid.info,CDN
 HOST-SUFFIX,gentcdn.com,CDN
+HOST-SUFFIX,getaroom-cdn.com,CDN
 HOST-SUFFIX,ggpht.com,CDN
 HOST-SUFFIX,girlsgogamescdn.com,CDN
 HOST-SUFFIX,giscus.app,CDN
@@ -4092,6 +4098,7 @@ HOST-SUFFIX,swiftypecdn.com,CDN
 HOST-SUFFIX,sxccdn.com,CDN
 HOST-SUFFIX,szjal.cn,CDN
 HOST-SUFFIX,t8cdn.com,CDN
+HOST-SUFFIX,tacdn.com,CDN
 HOST-SUFFIX,tapecontent.net,CDN
 HOST-SUFFIX,targetimg1.com,CDN
 HOST-SUFFIX,tauri.app,CDN

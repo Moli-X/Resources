@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4339
+# 规则统计: 4345
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -145,6 +145,7 @@ HOST,assets.calendly.com,CDN
 HOST,assets.canny.io,CDN
 HOST,assets.capterra.com,CDN
 HOST,assets.cello.so,CDN
+HOST,assets.cgtrader.com,CDN
 HOST,assets.change.org,CDN
 HOST,assets.chaos.social,CDN
 HOST,assets.clever-cloud.com,CDN
@@ -439,6 +440,7 @@ HOST,cdn-client.medium.com,CDN
 HOST,cdn-cms.tunein.com,CDN
 HOST,cdn-dynmedia-1.microsoft.com,CDN
 HOST,cdn-edge.karte.io,CDN
+HOST,cdn-en.aptoide.com,CDN
 HOST,cdn-eu.dynamicyield.com,CDN
 HOST,cdn-eu.readspeaker.com,CDN
 HOST,cdn-fck.tnaflix.com,CDN
@@ -508,6 +510,7 @@ HOST,cdn.answeroverflow.com,CDN
 HOST,cdn.app.fossa.com,CDN
 HOST,cdn.app.neononepay.com,CDN
 HOST,cdn.apponic.com,CDN
+HOST,cdn.aptoide.com,CDN
 HOST,cdn.arcade.software,CDN
 HOST,cdn.arduino.cc,CDN
 HOST,cdn.arstechnica.net,CDN
@@ -1635,6 +1638,7 @@ HOST,img-api.mac4ever.com,CDN
 HOST,img-cos.mandaoo.com,CDN
 HOST,img-en.fs.com,CDN
 HOST,img-fnc.ebc.net.tw,CDN
+HOST,img-new.cgtrader.com,CDN
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,CDN
 HOST,img-s-msn-com.akamaized.net,CDN
 HOST,img.177pica.com,CDN
@@ -1917,6 +1921,7 @@ HOST,media.beehiiv.com,CDN
 HOST,media.breitbart.com,CDN
 HOST,media.bundlehunt.com,CDN
 HOST,media.canva.com,CDN
+HOST,media.cgtrader.com,CDN
 HOST,media.cleanshot.cloud,CDN
 HOST,media.cmx.edu.kg,CDN
 HOST,media.cnn.com,CDN
@@ -2510,6 +2515,7 @@ HOST,static-forms.klaviyo.com,CDN
 HOST,static-gcp.freepikcompany.com,CDN
 HOST,static-homepage-en.pluto.tv,CDN
 HOST,static-id.fc2.com,CDN
+HOST,static-images.aptoide.com,CDN
 HOST,static-images.remax.com,CDN
 HOST,static-landing.probiplacehold.cot.com,CDN
 HOST,static-lccn.leetcode.com,CDN

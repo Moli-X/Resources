@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,ad.shunchangzhixing.com
 DOMAIN-SUFFIX,ad.tencentmusic.com
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,ad.v3mh.com
+DOMAIN-SUFFIX,ad.weibo.com
 DOMAIN-SUFFIX,ad.winrar.com.cn
 DOMAIN-SUFFIX,ad.ximalaya.com
 DOMAIN-SUFFIX,ad.xunkids.com
@@ -57,6 +58,7 @@ DOMAIN-SUFFIX,adexp.liftoff.io
 DOMAIN-SUFFIX,adexpo.tencentmusic.com
 DOMAIN-SUFFIX,adfilter.imtt.qq.com
 DOMAIN-SUFFIX,adguanggao.eee114.com
+DOMAIN-SUFFIX,adimg.uve.weibo.com
 DOMAIN-SUFFIX,adintl.cn
 DOMAIN-SUFFIX,adjust.cn
 DOMAIN-SUFFIX,adjust.com
@@ -75,6 +77,7 @@ DOMAIN-SUFFIX,ads-sg.tiktok.com
 DOMAIN-SUFFIX,ads-video-al.xhscdn.com
 DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
 DOMAIN-SUFFIX,ads.95516.com
+DOMAIN-SUFFIX,ads.auctions.yahoo.com
 DOMAIN-SUFFIX,ads.cup.com.cn
 DOMAIN-SUFFIX,ads.google.cn
 DOMAIN-SUFFIX,ads.huan.tv
@@ -124,12 +127,14 @@ DOMAIN-SUFFIX,adstat.izuiyou.com
 DOMAIN-SUFFIX,adstats.tencentmusic.com
 DOMAIN-SUFFIX,adstore-1252524079.file.myqcloud.com
 DOMAIN-SUFFIX,adstore-index-1252524079.file.myqcloud.com
+DOMAIN-SUFFIX,adstrategy.biz.weibo.com
 DOMAIN-SUFFIX,adstudio-assets.scdn.co
 DOMAIN-SUFFIX,adstudio.spotify.com
 DOMAIN-SUFFIX,adtago.s3.amazonaws.com
 DOMAIN-SUFFIX,adtech.yahooinc.com
 DOMAIN-SUFFIX,adtrack.quark.cn
 DOMAIN-SUFFIX,adtracker.medproad.com
+DOMAIN-SUFFIX,adui.tg.meitu.com
 DOMAIN-SUFFIX,adv-api.shenshiads.com
 DOMAIN-SUFFIX,adv.sec.intl.miui.com
 DOMAIN-SUFFIX,adv.sec.miui.com
@@ -150,6 +155,7 @@ DOMAIN-SUFFIX,adx-drcn.op.dbankcloud.cn
 DOMAIN-SUFFIX,adx-open-service.youku.com
 DOMAIN-SUFFIX,adx-os.anythinktech.com
 DOMAIN-SUFFIX,adx-saas.advlion.com
+DOMAIN-SUFFIX,adx-strategy-api-cn.statisticslinks.com
 DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 DOMAIN-SUFFIX,adx.ads.oppomobile.com
 DOMAIN-SUFFIX,adx.adwangmai.com
@@ -228,7 +234,6 @@ DOMAIN-SUFFIX,applog.lc.quark.cn
 DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,applog.zijieapi.com
 DOMAIN-SUFFIX,applovin.com
-DOMAIN-SUFFIX,appversion.115.com
 DOMAIN-SUFFIX,aqyad.com
 DOMAIN-SUFFIX,aspect-upush.umeng.com
 DOMAIN-SUFFIX,auction.unityads.unity3d.com
@@ -552,6 +557,7 @@ DOMAIN-SUFFIX,monitor.adxsenmeng.com
 DOMAIN-SUFFIX,monitor.music.qq.com
 DOMAIN-SUFFIX,monitor.uu.qq.com
 DOMAIN-SUFFIX,monsetting.toutiao.com
+DOMAIN-SUFFIX,mores.toponad.com
 DOMAIN-SUFFIX,ms.applovin.com
 DOMAIN-SUFFIX,ms.applvn.com
 DOMAIN-SUFFIX,ms4.applovin.com
@@ -674,6 +680,7 @@ DOMAIN-SUFFIX,sdk.hzsanjiaomao.com
 DOMAIN-SUFFIX,sdk.markmedia.com.cn
 DOMAIN-SUFFIX,sdk.mobads.adwangmai.com
 DOMAIN-SUFFIX,sdkapi.cloooud.com
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com
 DOMAIN-SUFFIX,sdkauth.hpplay.cn
 DOMAIN-SUFFIX,sdkconf.avlyun.com
 DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com
@@ -738,6 +745,7 @@ DOMAIN-SUFFIX,t2.a.market.xiaomi.com
 DOMAIN-SUFFIX,t2.fancyapi.com
 DOMAIN-SUFFIX,t3.a.market.xiaomi.com
 DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv
+DOMAIN-SUFFIX,tagtic.cn
 DOMAIN-SUFFIX,tangram.e.qq.com
 DOMAIN-SUFFIX,target.ads.jihuoniao.com
 DOMAIN-SUFFIX,tdc.qq.com
@@ -790,6 +798,7 @@ DOMAIN-SUFFIX,tracker.ai.xiaomi.com
 DOMAIN-SUFFIX,tracker.gitee.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.rus.miui.com
+DOMAIN-SUFFIX,tuiguang.meitu.com
 DOMAIN-SUFFIX,tvapp.hpplay.cn
 DOMAIN-SUFFIX,tvuser-ch.cedock.com
 DOMAIN-SUFFIX,tx-ad.a.yximgs.com

@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 838
+# 规则统计: 859
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -242,6 +242,7 @@ HOST-SUFFIX,cmfchina.com,ChinaDomain
 HOST-SUFFIX,cmfunds.cn,ChinaDomain
 HOST-SUFFIX,cmpassport.com,ChinaDomain
 HOST-SUFFIX,cmvideo.cn,ChinaDomain
+HOST-SUFFIX,cnb.cool,ChinaDomain
 HOST-SUFFIX,cnblogs.com,ChinaDomain
 HOST-SUFFIX,cnnic.cn,ChinaDomain
 HOST-SUFFIX,cnspeedtest.cn,ChinaDomain
@@ -257,12 +258,14 @@ HOST-SUFFIX,coolapkmarket.net,ChinaDomain
 HOST-SUFFIX,cowcs.com,ChinaDomain
 HOST-SUFFIX,cowtransfer.com,ChinaDomain
 HOST-SUFFIX,coze.cn,ChinaDomain
+HOST-SUFFIX,cqcbank.com,ChinaDomain
 HOST-SUFFIX,csdn.com,ChinaDomain
 HOST-SUFFIX,csdn.net,ChinaDomain
 HOST-SUFFIX,csdnimg.cn,ChinaDomain
 HOST-SUFFIX,ctfile.com,ChinaDomain
 HOST-SUFFIX,ctrip.com,ChinaDomain
 HOST-SUFFIX,cz88.net,ChinaDomain
+HOST-SUFFIX,d-ctrip.com,ChinaDomain
 HOST-SUFFIX,dancf.com,ChinaDomain
 HOST-SUFFIX,dangdang.com,ChinaDomain
 HOST-SUFFIX,daocloud.io,ChinaDomain
@@ -275,6 +278,7 @@ HOST-SUFFIX,dcarimg.com,ChinaDomain
 HOST-SUFFIX,dcarlive.com,ChinaDomain
 HOST-SUFFIX,dcarstatic.com,ChinaDomain
 HOST-SUFFIX,dcarvod.com,ChinaDomain
+HOST-SUFFIX,dcloud.io,ChinaDomain
 HOST-SUFFIX,dewu.com,ChinaDomain
 HOST-SUFFIX,dfcfw.com,ChinaDomain
 HOST-SUFFIX,dianping.com,ChinaDomain
@@ -291,6 +295,7 @@ HOST-SUFFIX,dl.bscstorage.net,ChinaDomain
 HOST-SUFFIX,dl.delivery.mp.microsoft.com,ChinaDomain
 HOST-SUFFIX,dl.eccdnx.com,ChinaDomain
 HOST-SUFFIX,dl.pinyuncloud.com,ChinaDomain
+HOST-SUFFIX,dns.la,ChinaDomain
 HOST-SUFFIX,dnspod.cn,ChinaDomain
 HOST-SUFFIX,dnspod.com,ChinaDomain
 HOST-SUFFIX,dnsv1.com,ChinaDomain
@@ -306,6 +311,7 @@ HOST-SUFFIX,doubao.com,ChinaDomain
 HOST-SUFFIX,douyin.com,ChinaDomain
 HOST-SUFFIX,douyincdn.com,ChinaDomain
 HOST-SUFFIX,douyinliving.com,ChinaDomain
+HOST-SUFFIX,douyinpay.com,ChinaDomain
 HOST-SUFFIX,douyinpic.com,ChinaDomain
 HOST-SUFFIX,douyinstatic.com,ChinaDomain
 HOST-SUFFIX,douyinvod.com,ChinaDomain
@@ -319,6 +325,7 @@ HOST-SUFFIX,dpfile.com,ChinaDomain
 HOST-SUFFIX,duapp.com,ChinaDomain
 HOST-SUFFIX,duba.net,ChinaDomain
 HOST-SUFFIX,duokan.com,ChinaDomain
+HOST-SUFFIX,duokanbox.com,ChinaDomain
 HOST-SUFFIX,dwz.cn,ChinaDomain
 HOST-SUFFIX,dxy.cn,ChinaDomain
 HOST-SUFFIX,dxycdn.com,ChinaDomain
@@ -393,10 +400,13 @@ HOST-SUFFIX,hicloud.com,ChinaDomain
 HOST-SUFFIX,hihonor.com,ChinaDomain
 HOST-SUFFIX,hihonorcdn.com,ChinaDomain
 HOST-SUFFIX,hihonorcloud.com,ChinaDomain
+HOST-SUFFIX,hisense.com,ChinaDomain
 HOST-SUFFIX,hitv.com,ChinaDomain
 HOST-SUFFIX,hongxiu.com,ChinaDomain
 HOST-SUFFIX,honor.cn,ChinaDomain
 HOST-SUFFIX,honor.com,ChinaDomain
+HOST-SUFFIX,huanqiu.com,ChinaDomain
+HOST-SUFFIX,huanqiucdn.cn,ChinaDomain
 HOST-SUFFIX,huawei.cn,ChinaDomain
 HOST-SUFFIX,huawei.com,ChinaDomain
 HOST-SUFFIX,huaweistatic.com,ChinaDomain
@@ -497,7 +507,9 @@ HOST-SUFFIX,linkedin.cn,ChinaDomain
 HOST-SUFFIX,livechina.cn,ChinaDomain
 HOST-SUFFIX,livechina.com,ChinaDomain
 HOST-SUFFIX,ljcdn.com,ChinaDomain
+HOST-SUFFIX,lkcoffee.com,ChinaDomain
 HOST-SUFFIX,lofter.com,ChinaDomain
+HOST-SUFFIX,luckincoffeecdn.com,ChinaDomain
 HOST-SUFFIX,ludashi.com,ChinaDomain
 HOST-SUFFIX,luojilab.com,ChinaDomain
 HOST-SUFFIX,m1905.cn,ChinaDomain
@@ -527,7 +539,9 @@ HOST-SUFFIX,mihayo.com,ChinaDomain
 HOST-SUFFIX,mihoyo.com,ChinaDomain
 HOST-SUFFIX,mijia.tech,ChinaDomain
 HOST-SUFFIX,miot-spec.org,ChinaDomain
+HOST-SUFFIX,mipay.com,ChinaDomain
 HOST-SUFFIX,miui.com,ChinaDomain
+HOST-SUFFIX,miwifi.com,ChinaDomain
 HOST-SUFFIX,miyoushe.com,ChinaDomain
 HOST-SUFFIX,mmstat.com,ChinaDomain
 HOST-SUFFIX,mobike.com,ChinaDomain
@@ -543,6 +557,7 @@ HOST-SUFFIX,myapp.com,ChinaDomain
 HOST-SUFFIX,mybank.cn,ChinaDomain
 HOST-SUFFIX,myoppo.com,ChinaDomain
 HOST-SUFFIX,myqcloud.com,ChinaDomain
+HOST-SUFFIX,myssl.com,ChinaDomain
 HOST-SUFFIX,myzaker.com,ChinaDomain
 HOST-SUFFIX,mzres.com,ChinaDomain
 HOST-SUFFIX,neea.cn,ChinaDomain
@@ -554,6 +569,7 @@ HOST-SUFFIX,netstatic.net,ChinaDomain
 HOST-SUFFIX,news.cn,ChinaDomain
 HOST-SUFFIX,nga.cn,ChinaDomain
 HOST-SUFFIX,ngabbs.com,ChinaDomain
+HOST-SUFFIX,niu.com,ChinaDomain
 HOST-SUFFIX,nlark.com,ChinaDomain
 HOST-SUFFIX,nmc.cn,ChinaDomain
 HOST-SUFFIX,npmmirror.com,ChinaDomain
@@ -563,6 +579,7 @@ HOST-SUFFIX,oceanengine.com,ChinaDomain
 HOST-SUFFIX,officewebapps.cn,ChinaDomain
 HOST-SUFFIX,okr.com,ChinaDomain
 HOST-SUFFIX,oneplus.cn,ChinaDomain
+HOST-SUFFIX,oneplus.net,ChinaDomain
 HOST-SUFFIX,oneplusbbs.com,ChinaDomain
 HOST-SUFFIX,onlinedown.com,ChinaDomain
 HOST-SUFFIX,openinstall.io,ChinaDomain
@@ -632,6 +649,7 @@ HOST-SUFFIX,qlogo.cn,ChinaDomain
 HOST-SUFFIX,qpic.cn,ChinaDomain
 HOST-SUFFIX,qq.com,ChinaDomain
 HOST-SUFFIX,qqmail.com,ChinaDomain
+HOST-SUFFIX,quark.cn,ChinaDomain
 HOST-SUFFIX,qy.net,ChinaDomain
 HOST-SUFFIX,qyer.com,ChinaDomain
 HOST-SUFFIX,qyerstatic.com,ChinaDomain
@@ -716,6 +734,7 @@ HOST-SUFFIX,tianyancha.com,ChinaDomain
 HOST-SUFFIX,tieba.com,ChinaDomain
 HOST-SUFFIX,tmall.com,ChinaDomain
 HOST-SUFFIX,tnkjmec.com,ChinaDomain
+HOST-SUFFIX,tool.lu,ChinaDomain
 HOST-SUFFIX,toutiao.com,ChinaDomain
 HOST-SUFFIX,toutiaocloud.com,ChinaDomain
 HOST-SUFFIX,toutiaoimg.cn,ChinaDomain
@@ -750,6 +769,7 @@ HOST-SUFFIX,wallstreetcn.com,ChinaDomain
 HOST-SUFFIX,wandoujia.com,ChinaDomain
 HOST-SUFFIX,wangsu.com,ChinaDomain
 HOST-SUFFIX,weathercn.com,ChinaDomain
+HOST-SUFFIX,webank.com,ChinaDomain
 HOST-SUFFIX,webok.net,ChinaDomain
 HOST-SUFFIX,wegame.com,ChinaDomain
 HOST-SUFFIX,wegameplus.com,ChinaDomain
@@ -831,6 +851,7 @@ HOST-SUFFIX,zhuanzfx.com,ChinaDomain
 HOST-SUFFIX,zijieapi.com,ChinaDomain
 HOST-SUFFIX,zjcdn.com,ChinaDomain
 HOST-SUFFIX,zjurl.cn,ChinaDomain
+HOST-SUFFIX,zol.com,ChinaDomain
 HOST-SUFFIX,zui.com,ChinaDomain
 HOST-SUFFIX,zuimeitianqi.com,ChinaDomain
 HOST-SUFFIX,zuoyebang.com,ChinaDomain

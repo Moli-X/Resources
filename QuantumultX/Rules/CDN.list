@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4346
+# 规则统计: 4351
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1284,6 +1284,7 @@ HOST,f002.backblazeb2.com,CDN
 HOST,f003.backblazeb2.com,CDN
 HOST,f004.backblazeb2.com,CDN
 HOST,fast.appcues.com,CDN
+HOST,fast.chameleon.io,CDN
 HOST,fast.wistia.com,CDN
 HOST,fast.wistia.net,CDN
 HOST,fastly-cloud.typenetwork.com,CDN
@@ -1883,6 +1884,7 @@ HOST,logos.composio.dev,CDN
 HOST,logos.kiwibrowser.com,CDN
 HOST,logos.speedtestcustom.com,CDN
 HOST,loutre.blockchair.io,CDN
+HOST,lucide.dev,CDN
 HOST,lumiere-a.akamaihd.net,CDN
 HOST,lzd-img-global.slatic.net,CDN
 HOST,m-cdn.phonearena.com,CDN
@@ -2054,6 +2056,7 @@ HOST,nightly.link,CDN
 HOST,no-cache.hubspot.com,CDN
 HOST,node.green,CDN
 HOST,nodeassets.nbcnews.com,CDN
+HOST,nodebox-runtime.codesandbox.io,CDN
 HOST,nodei.co,CDN
 HOST,npm.antfu.dev,CDN
 HOST,ns-cdn.neustar.biz,CDN
@@ -2248,6 +2251,7 @@ HOST,regmedia.co.uk,CDN
 HOST,reload.getsentry.net,CDN
 HOST,renderer-assets.typeform.com,CDN
 HOST,report-uri.cloudflare.com,CDN
+HOST,res-3.cdn.office.net,CDN
 HOST,res-etl-ssl.mypikpak.com,CDN
 HOST,res-geo.cdn.office.net,CDN
 HOST,res.abc.net.au,CDN
@@ -2447,6 +2451,7 @@ HOST,source.roboflow.com,CDN
 HOST,source.unsplash.com,CDN
 HOST,sourcemaps.squarespace.net,CDN
 HOST,sourcepoint.theguardian.com,CDN
+HOST,sourcepointcmp.bloomberg.com,CDN
 HOST,sp-spiegel-de.spiegel.de,CDN
 HOST,sp.nba.com,CDN
 HOST,sp.replit.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7413
+# 规则统计: 7414
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -528,6 +528,7 @@ HOST-SUFFIX,baby-kingdom.com,ProxyGFW
 HOST-SUFFIX,babylonbee.com,ProxyGFW
 HOST-SUFFIX,babynet.com.hk,ProxyGFW
 HOST-SUFFIX,backchina.com,ProxyGFW
+HOST-SUFFIX,backend-v2.crixet.com,ProxyGFW
 HOST-SUFFIX,backpackers.com.tw,ProxyGFW
 HOST-SUFFIX,backtotiananmen.com,ProxyGFW
 HOST-SUFFIX,bad.news,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4351
+# 规则统计: 4364
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -505,6 +505,8 @@ HOST,cdn.adsninja.ca,CDN
 HOST,cdn.affine.pro,CDN
 HOST,cdn.aimerce.ai,CDN
 HOST,cdn.amcharts.com,CDN
+HOST,cdn.amgreatness.com,CDN
+HOST,cdn.animenewsnetwork.com,CDN
 HOST,cdn.announcekit.app,CDN
 HOST,cdn.answeroverflow.com,CDN
 HOST,cdn.app.fossa.com,CDN
@@ -526,6 +528,7 @@ HOST,cdn.bfldr.com,CDN
 HOST,cdn.bigcloud.click,CDN
 HOST,cdn.birdie.so,CDN
 HOST,cdn.blogarama.com,CDN
+HOST,cdn.bogos.io,CDN
 HOST,cdn.boldmethod.com,CDN
 HOST,cdn.botframework.com,CDN
 HOST,cdn.branch.io,CDN
@@ -795,6 +798,7 @@ HOST,cdn.road.cc,CDN
 HOST,cdn.robinpro.gallery,CDN
 HOST,cdn.roboflow.com,CDN
 HOST,cdn.roof.ai,CDN
+HOST,cdn.roseperl.com,CDN
 HOST,cdn.royaleapi.com,CDN
 HOST,cdn.safecharge.com,CDN
 HOST,cdn.sanity.io,CDN
@@ -875,6 +879,7 @@ HOST,cdn.uptimia.com,CDN
 HOST,cdn.us-east-1.prod.moon.dubai.aws.dev,CDN
 HOST,cdn.usd.fan,CDN
 HOST,cdn.userreport.com,CDN
+HOST,cdn.userway.org,CDN
 HOST,cdn.v2ex.com,CDN
 HOST,cdn.vector.co,CDN
 HOST,cdn.verifypass.com,CDN
@@ -1092,6 +1097,7 @@ HOST,components.cyclingfactory.be,CDN
 HOST,components.justanswer.com,CDN
 HOST,components.trynow.net,CDN
 HOST,components.unrealengine.com,CDN
+HOST,conf.config-security.com,CDN
 HOST,config.extension.grammarly.com,CDN
 HOST,connect-js.stripe.com,CDN
 HOST,connect.facebook.net,CDN
@@ -1804,6 +1810,7 @@ HOST,jaws.pbs.org,CDN
 HOST,jetpack.wordpress.com,CDN
 HOST,jfe-cdn.qualtrics.com,CDN
 HOST,jnmedia.ero-video.net,CDN
+HOST,jotai.org,CDN
 HOST,js-1-cdn.airdroid.com,CDN
 HOST,js-cdn.blockchair.io,CDN
 HOST,js-eu1.hsforms.net,CDN
@@ -1813,6 +1820,7 @@ HOST,js.braintreegateway.com,CDN
 HOST,js.chargebee.com,CDN
 HOST,js.chargify.com,CDN
 HOST,js.chilipiper.com,CDN
+HOST,js.convertflow.co,CDN
 HOST,js.createsend1.com,CDN
 HOST,js.hsforms.net,CDN
 HOST,js.jotform.com,CDN
@@ -1844,6 +1852,7 @@ HOST,jslibs.blackmagicdesign.com,CDN
 HOST,jsmodule.svc.litv.tv,CDN
 HOST,jsonplaceholder.typicode.com,CDN
 HOST,jssdk.opin.media,CDN
+HOST,jssdkcdns.mparticle.com,CDN
 HOST,jssocdn.indiatimes.com,CDN
 HOST,kdata1.com,CDN
 HOST,keyframe-cdn.abcnews.com,CDN
@@ -1883,6 +1892,7 @@ HOST,log-collector.17app.co,CDN
 HOST,logos.composio.dev,CDN
 HOST,logos.kiwibrowser.com,CDN
 HOST,logos.speedtestcustom.com,CDN
+HOST,logs.blip.net,CDN
 HOST,loutre.blockchair.io,CDN
 HOST,lucide.dev,CDN
 HOST,lumiere-a.akamaihd.net,CDN
@@ -2569,6 +2579,7 @@ HOST,static.beebom.com,CDN
 HOST,static.bit.cloud,CDN
 HOST,static.bit.dev,CDN
 HOST,static.bitfinex.com,CDN
+HOST,static.blip.net,CDN
 HOST,static.bodor.com,CDN
 HOST,static.bravoporn.com,CDN
 HOST,static.buffer.com,CDN
@@ -2694,6 +2705,7 @@ HOST,static.narrativ.com,CDN
 HOST,static.netify.ai,CDN
 HOST,static.newmobilelife.com,CDN
 HOST,static.news.bitcoin.com,CDN
+HOST,static.newsbreak.com,CDN
 HOST,static.nhentai.net,CDN
 HOST,static.nicehash.com,CDN
 HOST,static.npmjs.com,CDN
@@ -2731,6 +2743,7 @@ HOST,static.reo.dev,CDN
 HOST,static.replay.io,CDN
 HOST,static.returngo.ai,CDN
 HOST,static.roboflow.com,CDN
+HOST,static.rumble.com,CDN
 HOST,static.salidzini.lv,CDN
 HOST,static.scarf.sh,CDN
 HOST,static.sdkassets.chime.aws,CDN
@@ -3708,7 +3721,6 @@ HOST-SUFFIX,jbkcdn.io,CDN
 HOST-SUFFIX,jdbstatic.com,CDN
 HOST-SUFFIX,jinyingimage.com,CDN
 HOST-SUFFIX,jisuimage.com,CDN
-HOST-SUFFIX,jotai.org,CDN
 HOST-SUFFIX,jpg5.su,CDN
 HOST-SUFFIX,jpgjingpinx.com,CDN
 HOST-SUFFIX,js-eu1.hubspot.com,CDN
@@ -3966,6 +3978,7 @@ HOST-SUFFIX,react.dev,CDN
 HOST-SUFFIX,reactjs.org,CDN
 HOST-SUFFIX,readthedocs.io,CDN
 HOST-SUFFIX,reasoningtheory.net,CDN
+HOST-SUFFIX,rechargecdn.com,CDN
 HOST-SUFFIX,recharts.org,CDN
 HOST-SUFFIX,redcdn.net,CDN
 HOST-SUFFIX,redd.it,CDN

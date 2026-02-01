@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7417
+# 规则统计: 7420
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -572,6 +572,7 @@ HOST-SUFFIX,bbc.co,ProxyGFW
 HOST-SUFFIX,bbc.co.uk,ProxyGFW
 HOST-SUFFIX,bbc.com,ProxyGFW
 HOST-SUFFIX,bbc.in,ProxyGFW
+HOST-SUFFIX,bbc.pdn.tritondigital.com,ProxyGFW
 HOST-SUFFIX,bbcchinese.com,ProxyGFW
 HOST-SUFFIX,bbchat.tv,ProxyGFW
 HOST-SUFFIX,bbci.co.uk,ProxyGFW
@@ -1521,6 +1522,7 @@ HOST-SUFFIX,dbc.hk,ProxyGFW
 HOST-SUFFIX,dbgjd.com,ProxyGFW
 HOST-SUFFIX,dcard.tw,ProxyGFW
 HOST-SUFFIX,dcmilitary.com,ProxyGFW
+HOST-SUFFIX,dcs-spotify.megaphone.fm,ProxyGFW
 HOST-SUFFIX,ddc.com.tw,ProxyGFW
 HOST-SUFFIX,ddex.io,ProxyGFW
 HOST-SUFFIX,ddhw.info,ProxyGFW
@@ -2922,6 +2924,7 @@ HOST-SUFFIX,helloqueer.com,ProxyGFW
 HOST-SUFFIX,helloss.pw,ProxyGFW
 HOST-SUFFIX,hellotxt.com,ProxyGFW
 HOST-SUFFIX,hellouk.org,ProxyGFW
+HOST-SUFFIX,help.byspotify.com,ProxyGFW
 HOST-SUFFIX,helpeachpeople.com,ProxyGFW
 HOST-SUFFIX,helplinfen.com,ProxyGFW
 HOST-SUFFIX,helpster.de,ProxyGFW

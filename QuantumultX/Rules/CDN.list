@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4364
+# 规则统计: 4365
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2867,6 +2867,7 @@ HOST,sts.online.visualstudio.com,CDN
 HOST,sts3.wsj.net,CDN
 HOST,stubdownloader.services.mozilla.com,CDN
 HOST,styleguide-assets.shannons.com.au,CDN
+HOST,sub.creamycake.org,CDN
 HOST,subscriptions.news.com.au,CDN
 HOST,support.content.office.net,CDN
 HOST,swan.prod.merch.vpsvc.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 104467
+# 规则统计: 104468
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -57791,6 +57791,7 @@ HOST-SUFFIX,metricsdirect.com,Anti-Ad
 HOST-SUFFIX,metricsinfo.edc.ca,Anti-Ad
 HOST-SUFFIX,metricsinfoqac.edc.ca,Anti-Ad
 HOST-SUFFIX,metricsishare.rediff.com,Anti-Ad
+HOST-SUFFIX,metricslinks.com,Anti-Ad
 HOST-SUFFIX,metricss.bibliotheek.nl,Anti-Ad
 HOST-SUFFIX,metricssecure.empiretoday.com,Anti-Ad
 HOST-SUFFIX,metricssecure.luna.com,Anti-Ad

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4365
+# 规则统计: 4366
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -748,6 +748,7 @@ HOST,cdn.openai.com,CDN
 HOST,cdn.osxdaily.com,CDN
 HOST,cdn.paddle.com,CDN
 HOST,cdn.pagefly.io,CDN
+HOST,cdn.pagerduty.com,CDN
 HOST,cdn.pagic.org,CDN
 HOST,cdn.paidy.com,CDN
 HOST,cdn.paritydeals.com,CDN

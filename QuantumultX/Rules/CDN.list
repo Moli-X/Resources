@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4369
+# 规则统计: 4370
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2387,6 +2387,7 @@ HOST,scache1.vzw.com,CDN
 HOST,scache2.vzw.com,CDN
 HOST,scdn.clerk.com,CDN
 HOST,scdn.line-apps.com,CDN
+HOST,schema-cf.bc0a.com,CDN
 HOST,scontent.whatsapp.net,CDN
 HOST,screenshot.domains,CDN
 HOST,screenshots.codesandbox.io,CDN

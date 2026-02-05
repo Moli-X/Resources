@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7421
+# 规则统计: 7423
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -5324,6 +5324,7 @@ HOST-SUFFIX,seehua.com,ProxyGFW
 HOST-SUFFIX,seesmic.com,ProxyGFW
 HOST-SUFFIX,seevpn.com,ProxyGFW
 HOST-SUFFIX,seezone.net,ProxyGFW
+HOST-SUFFIX,sef.org.tw,ProxyGFW
 HOST-SUFFIX,sehuatang.net,ProxyGFW
 HOST-SUFFIX,sehuatang.org,ProxyGFW
 HOST-SUFFIX,sejie.com,ProxyGFW
@@ -6956,6 +6957,7 @@ HOST-SUFFIX,www.dwheeler.com,ProxyGFW
 HOST-SUFFIX,www.eastturkistan.net,ProxyGFW
 HOST-SUFFIX,www.gmiddle.com,ProxyGFW
 HOST-SUFFIX,www.gmiddle.net,ProxyGFW
+HOST-SUFFIX,www.hoyolab.com,ProxyGFW
 HOST-SUFFIX,www.hustlercash.com,ProxyGFW
 HOST-SUFFIX,www.idlcoyote.com,ProxyGFW
 HOST-SUFFIX,www.imdb.com,ProxyGFW

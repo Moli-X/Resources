@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4370
+# 规则统计: 4424
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -417,6 +417,7 @@ HOST,cache.omnicalculator.com,CDN
 HOST,cached.rebuyengine.com,CDN
 HOST,canny-assets.io,CDN
 HOST,canvas-lb.tubitv.com,CDN
+HOST,cartodb-basemaps-a.global.ssl.fastly.net,CDN
 HOST,cassette.sphdigital.com.sg,CDN
 HOST,categoriespages-cdn.trustpilot.net,CDN
 HOST,cc-embed.adobe.com,CDN
@@ -658,6 +659,7 @@ HOST,cdn.hiive.space,CDN
 HOST,cdn.hinative.com,CDN
 HOST,cdn.hk01.com,CDN
 HOST,cdn.hongkongcard.com,CDN
+HOST,cdn.hubble.team,CDN
 HOST,cdn.hypershort.com,CDN
 HOST,cdn.i-scmp.com,CDN
 HOST,cdn.icomoon.io,CDN
@@ -768,6 +770,7 @@ HOST,cdn.pixabay.com,CDN
 HOST,cdn.pkg.svc.ui.com,CDN
 HOST,cdn.plaid.com,CDN
 HOST,cdn.player.fm,CDN
+HOST,cdn.playersupport.riotgames.com,CDN
 HOST,cdn.playwire.com,CDN
 HOST,cdn.plot.ly,CDN
 HOST,cdn.plu.mx,CDN
@@ -795,6 +798,7 @@ HOST,cdn.redwap.xyz,CDN
 HOST,cdn.registerdisney.go.com,CDN
 HOST,cdn.reimu.net,CDN
 HOST,cdn.rex.contents.rakuten.co.jp,CDN
+HOST,cdn.rgpub.io,CDN
 HOST,cdn.rive.app,CDN
 HOST,cdn.road.cc,CDN
 HOST,cdn.robinpro.gallery,CDN
@@ -1382,6 +1386,7 @@ HOST,gearbox.imgix.com,CDN
 HOST,genesis-cdn.ff.com,CDN
 HOST,geoip-js.com,CDN
 HOST,geojson.io,CDN
+HOST,geoserveis.icgc.cat,CDN
 HOST,gfx-data.news-engineering.aws.wapo.pub,CDN
 HOST,gitpkg-fork.vercel.sh,CDN
 HOST,global-assets.fitch.group,CDN
@@ -1895,6 +1900,7 @@ HOST,logos.composio.dev,CDN
 HOST,logos.kiwibrowser.com,CDN
 HOST,logos.speedtestcustom.com,CDN
 HOST,logs.blip.net,CDN
+HOST,lolstatic-a.akamaihd.net,CDN
 HOST,loutre.blockchair.io,CDN
 HOST,lucide.dev,CDN
 HOST,lumiere-a.akamaihd.net,CDN
@@ -2404,6 +2410,7 @@ HOST,sdk-static.loyaltylion.net,CDN
 HOST,sdk.customfit.ai,CDN
 HOST,sdk.gleap.io,CDN
 HOST,sdk.helloextend.com,CDN
+HOST,sdk.hubble.team,CDN
 HOST,sdk.listenlive.co,CDN
 HOST,sdk.loyaltylion.net,CDN
 HOST,sdk.privacy-center.org,CDN
@@ -2920,12 +2927,52 @@ HOST,thumbor.forbes.com,CDN
 HOST,thumbs.onlyfans.com,CDN
 HOST,thumbs2.sendvid.com,CDN
 HOST,thumbsnap.com,CDN
+HOST,tile.loc.gov,CDN
+HOST,tile.mapzen.com,CDN
+HOST,tile.mtbmap.cz,CDN
+HOST,tile.nextzen.org,CDN
+HOST,tile.opentopomap.org,CDN
+HOST,tile.openweathermap.org,CDN
+HOST,tile.osm.be,CDN
+HOST,tile.osmand.net,CDN
+HOST,tile.ourmap.us,CDN
+HOST,tile.poloha.net,CDN
+HOST,tile.skybrush.io,CDN
+HOST,tile.thunderforest.com,CDN
+HOST,tile.waymarkedtrails.org,CDN
 HOST,tile2.intervals.icu,CDN
+HOST,tile2.opencyclemap.org,CDN
+HOST,tilecache.rainviewer.com,CDN
+HOST,tiledbasemaps.arcgis.com,CDN
+HOST,tilemaps.icgc.cat,CDN
+HOST,tiles-a.koordinates.com,CDN
+HOST,tiles.arcgis.com,CDN
+HOST,tiles.arcticconnect.ca,CDN
+HOST,tiles.gsj.jp,CDN
+HOST,tiles.immich.cloud,CDN
+HOST,tiles.mapilion.com,CDN
+HOST,tiles.mapillary.com,CDN
+HOST,tiles.maps.eox.at,CDN
+HOST,tiles.maps.opensearch.org,CDN
+HOST,tiles.mapterhorn.com,CDN
 HOST,tiles.meteoguard.dtn.com,CDN
 HOST,tiles.openfreemap.org,CDN
+HOST,tiles.openrailwaymap.org,CDN
+HOST,tiles.openseamap.org,CDN
+HOST,tiles.openskimap.org,CDN
+HOST,tiles.planet.com,CDN
 HOST,tiles.stadiamaps.com,CDN
+HOST,tiles.terria.io,CDN
 HOST,tiles.versatiles.org,CDN
 HOST,tiles.windy.com,CDN
+HOST,tiles.wmflabs.org,CDN
+HOST,tiles0.planet.com,CDN
+HOST,tiles1.planet.com,CDN
+HOST,tiles2.mapiful.com,CDN
+HOST,tiles2.planet.com,CDN
+HOST,tiles3.planet.com,CDN
+HOST,tileserver.gnome.org,CDN
+HOST,tileserver.memomaps.de,CDN
 HOST,time-a.nist.gov,CDN
 HOST,time.akamai.com,CDN
 HOST,time.apple.com,CDN
@@ -3883,6 +3930,7 @@ HOST-SUFFIX,on-fleek.app,CDN
 HOST-SUFFIX,onekey-asset.com,CDN
 HOST-SUFFIX,onelink-edge.com,CDN
 HOST-SUFFIX,onrender.com,CDN
+HOST-SUFFIX,openinframap.org,CDN
 HOST-SUFFIX,opentelemetry.io,CDN
 HOST-SUFFIX,operacdn.com,CDN
 HOST-SUFFIX,oreillystatic.com,CDN
@@ -4149,9 +4197,15 @@ HOST-SUFFIX,tiktokcdn-us.com,CDN
 HOST-SUFFIX,tiktokcdn.com,CDN
 HOST-SUFFIX,tildacdn.com,CDN
 HOST-SUFFIX,tildacdn.net,CDN
+HOST-SUFFIX,tile-cyclosm.openstreetmap.fr,CDN
+HOST-SUFFIX,tile.openstreetmap.bzh,CDN
 HOST-SUFFIX,tile.openstreetmap.de,CDN
+HOST-SUFFIX,tile.openstreetmap.fr,CDN
 HOST-SUFFIX,tile.openstreetmap.org,CDN
+HOST-SUFFIX,tile.osm.ch,CDN
 HOST-SUFFIX,tile.osm.org,CDN
+HOST-SUFFIX,tile.osmz.ru,CDN
+HOST-SUFFIX,tile.stamen.com,CDN
 HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
 HOST-SUFFIX,tiles.mapbox.com,CDN
 HOST-SUFFIX,tiles.virtualearth.net,CDN

@@ -1,18 +1,24 @@
 # 规则名称: HTTPDNS.Block
-# 规则统计: 49
+# 规则统计: 59
 
+HOST,aedns.weixin.qq.com,HTTPDNS.Block
 HOST,dns.jd.com,HTTPDNS.Block
 HOST,dns.weibo.cn,HTTPDNS.Block
 HOST,dns.weixin.qq.com,HTTPDNS.Block
 HOST,dns.weixin.qq.com.cn,HTTPDNS.Block
+HOST,dnspod.meituan.httpdns.qcloud.com,HTTPDNS.Block
+HOST,dnspod.meituan.httpdns.start.qcloud.com,HTTPDNS.Block
+HOST,doh.iqiyi.com,HTTPDNS.Block
 HOST,httpdns-api.aliyuncs.com,HTTPDNS.Block
 HOST,httpdns-sc.aliyuncs.com,HTTPDNS.Block
+HOST,httpdns-sdk.n.netease.com,HTTPDNS.Block
 HOST,httpdns.alicdn.com,HTTPDNS.Block
 HOST,httpdns.baidu.com,HTTPDNS.Block
 HOST,httpdns.baidubce.com,HTTPDNS.Block
 HOST,httpdns.bilivideo.com,HTTPDNS.Block
 HOST,httpdns.c.cdnhwc2.com,HTTPDNS.Block
 HOST,httpdns.calorietech.com,HTTPDNS.Block
+HOST,httpdns.immomo.com,HTTPDNS.Block
 HOST,httpdns.kg.qq.com,HTTPDNS.Block
 HOST,httpdns.meituan.com,HTTPDNS.Block
 HOST,httpdns.music.163.com,HTTPDNS.Block
@@ -20,9 +26,13 @@ HOST,httpdns.n.netease.com,HTTPDNS.Block
 HOST,httpdns.push.oppomobile.com,HTTPDNS.Block
 HOST,httpdns.volcengineapi.com,HTTPDNS.Block
 HOST,httpdns.yunxindns.com,HTTPDNS.Block
+HOST,httpdnsmultiapi.meituan.com,HTTPDNS.Block
+HOST,httpdnsmultiapivip.meituan.com,HTTPDNS.Block
 HOST,httpsdns.baidu.com,HTTPDNS.Block
 HOST,lofter.httpdns.c.163.com,HTTPDNS.Block
 HOST,music.httpdns.c.163.com,HTTPDNS.Block
+HOST,resolvers-cn.httpdns.aliyuncs.com,HTTPDNS.Block
+HOST,yuyin-httpdns.gslb.yy.com,HTTPDNS.Block
 HOST-SUFFIX,httpdns.pro,HTTPDNS.Block
 IP-CIDR,101.124.19.122/32,HTTPDNS.Block
 IP-CIDR,103.224.222.208/32,HTTPDNS.Block

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7424
+# 规则统计: 7427
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -702,6 +702,7 @@ HOST-SUFFIX,bitmex.com,ProxyGFW
 HOST-SUFFIX,bitshare.com,ProxyGFW
 HOST-SUFFIX,bitsnoop.com,ProxyGFW
 HOST-SUFFIX,bitterwinter.org,ProxyGFW
+HOST-SUFFIX,bittorrent.com,ProxyGFW
 HOST-SUFFIX,bitvise.com,ProxyGFW
 HOST-SUFFIX,bitz.ai,ProxyGFW
 HOST-SUFFIX,bizhat.com,ProxyGFW
@@ -2930,6 +2931,7 @@ HOST-SUFFIX,helpeachpeople.com,ProxyGFW
 HOST-SUFFIX,helplinfen.com,ProxyGFW
 HOST-SUFFIX,helpster.de,ProxyGFW
 HOST-SUFFIX,helpzhuling.org,ProxyGFW
+HOST-SUFFIX,hembed.com,ProxyGFW
 HOST-SUFFIX,hentai.to,ProxyGFW
 HOST-SUFFIX,hentaitube.tv,ProxyGFW
 HOST-SUFFIX,hentaivideoworld.com,ProxyGFW
@@ -6536,6 +6538,7 @@ HOST-SUFFIX,uygur.org,ProxyGFW
 HOST-SUFFIX,uymaarip.com,ProxyGFW
 HOST-SUFFIX,v.roucdn,ProxyGFW
 HOST-SUFFIX,v2.help,ProxyGFW
+HOST-SUFFIX,v2.hysteria.network,ProxyGFW
 HOST-SUFFIX,v2ex.com,ProxyGFW
 HOST-SUFFIX,v2fly.org,ProxyGFW
 HOST-SUFFIX,v2mm.tech,ProxyGFW

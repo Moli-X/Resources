@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7427
+# 规则统计: 7418
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -176,7 +176,6 @@ HOST-SUFFIX,abchinese.com,ProxyGFW
 HOST-SUFFIX,abebooks.co.uk,ProxyGFW
 HOST-SUFFIX,abebooks.com,ProxyGFW
 HOST-SUFFIX,abematv.akamaized.net,ProxyGFW
-HOST-SUFFIX,abitno.linpie.com,ProxyGFW
 HOST-SUFFIX,ablwang.com,ProxyGFW
 HOST-SUFFIX,aboluowang.com,ProxyGFW
 HOST-SUFFIX,about.gitlab.com,ProxyGFW
@@ -588,7 +587,6 @@ HOST-SUFFIX,bbs.huasing.org,ProxyGFW
 HOST-SUFFIX,bbs.junglobal.net,ProxyGFW
 HOST-SUFFIX,bbs.kimy.com.tw,ProxyGFW
 HOST-SUFFIX,bbs.mikocon.com,ProxyGFW
-HOST-SUFFIX,bbs.morbell.com,ProxyGFW
 HOST-SUFFIX,bbs.mychat.to,ProxyGFW
 HOST-SUFFIX,bbs.naixi.net,ProxyGFW
 HOST-SUFFIX,bbs.nyinfor.com,ProxyGFW
@@ -738,7 +736,6 @@ HOST-SUFFIX,blog.google,ProxyGFW
 HOST-SUFFIX,blog.jackjia.com,ProxyGFW
 HOST-SUFFIX,blog.jp,ProxyGFW
 HOST-SUFFIX,blog.kangye.org,ProxyGFW
-HOST-SUFFIX,blog.lester850.info,ProxyGFW
 HOST-SUFFIX,blog.martinoei.com,ProxyGFW
 HOST-SUFFIX,blog.pathtosharepoint.com,ProxyGFW
 HOST-SUFFIX,blog.pentalogic.net,ProxyGFW
@@ -1063,8 +1060,6 @@ HOST-SUFFIX,cdjp.org,ProxyGFW
 HOST-SUFFIX,cdn-images.mailchimp.com,ProxyGFW
 HOST-SUFFIX,cdn-telegram.org,ProxyGFW
 HOST-SUFFIX,cdn.arstechnica.net,ProxyGFW
-HOST-SUFFIX,cdn.assets.lfpcontent.com,ProxyGFW
-HOST-SUFFIX,cdn.helixstudios.net,ProxyGFW
 HOST-SUFFIX,cdn.jwplayer.com,ProxyGFW
 HOST-SUFFIX,cdn.printfriendly.com,ProxyGFW
 HOST-SUFFIX,cdn.registerdisney.go.com,ProxyGFW
@@ -2148,7 +2143,6 @@ HOST-SUFFIX,form.new,ProxyGFW
 HOST-SUFFIX,forms.new,ProxyGFW
 HOST-SUFFIX,forum.baby-kingdom.com,ProxyGFW
 HOST-SUFFIX,forum.cyberctm.com,ProxyGFW
-HOST-SUFFIX,forum.mymaji.com,ProxyGFW
 HOST-SUFFIX,forum.omy.sg,ProxyGFW
 HOST-SUFFIX,forum.palmislife.com,ProxyGFW
 HOST-SUFFIX,forum.slime.com.tw,ProxyGFW
@@ -3039,7 +3033,6 @@ HOST-SUFFIX,hkopentv.com,ProxyGFW
 HOST-SUFFIX,hkpeanut.com,ProxyGFW
 HOST-SUFFIX,hkptu.org,ProxyGFW
 HOST-SUFFIX,hkreporter.com,ProxyGFW
-HOST-SUFFIX,hkreporter.loved.hk,ProxyGFW
 HOST-SUFFIX,hku.hk,ProxyGFW
 HOST-SUFFIX,hkusu.net,ProxyGFW
 HOST-SUFFIX,hkvwet.com,ProxyGFW
@@ -3480,7 +3473,6 @@ HOST-SUFFIX,jifangge.com,ProxyGFW
 HOST-SUFFIX,jigglegifs.com,ProxyGFW
 HOST-SUFFIX,jigong1024.com,ProxyGFW
 HOST-SUFFIX,jigsy.com,ProxyGFW
-HOST-SUFFIX,jihadintel.meforum.org,ProxyGFW
 HOST-SUFFIX,jihadology.net,ProxyGFW
 HOST-SUFFIX,jiji.com,ProxyGFW
 HOST-SUFFIX,jims.net,ProxyGFW
@@ -4181,7 +4173,6 @@ HOST-SUFFIX,mx981.com,ProxyGFW
 HOST-SUFFIX,my-formosa.com,ProxyGFW
 HOST-SUFFIX,my-private-network.co.uk,ProxyGFW
 HOST-SUFFIX,my-proxy.com,ProxyGFW
-HOST-SUFFIX,my.mail.ru,ProxyGFW
 HOST-SUFFIX,my.opera.com,ProxyGFW
 HOST-SUFFIX,my.pcloud.com,ProxyGFW
 HOST-SUFFIX,my03.com,ProxyGFW
@@ -4413,7 +4404,6 @@ HOST-SUFFIX,niu.moe,ProxyGFW
 HOST-SUFFIX,niusnews.com,ProxyGFW
 HOST-SUFFIX,njactb.org,ProxyGFW
 HOST-SUFFIX,njuice.com,ProxyGFW
-HOST-SUFFIX,nko.navy.mil,ProxyGFW
 HOST-SUFFIX,nlfreevpn.com,ProxyGFW
 HOST-SUFFIX,nmsl.website,ProxyGFW
 HOST-SUFFIX,nnews.eu,ProxyGFW
@@ -6858,6 +6848,7 @@ HOST-SUFFIX,wikinews.org,ProxyGFW
 HOST-SUFFIX,wikipedia.com,ProxyGFW
 HOST-SUFFIX,wikipedia.org,ProxyGFW
 HOST-SUFFIX,wikiquote.org,ProxyGFW
+HOST-SUFFIX,wikis.tw,ProxyGFW
 HOST-SUFFIX,wikisource.org,ProxyGFW
 HOST-SUFFIX,wikiunblocked.org,ProxyGFW
 HOST-SUFFIX,wikiversity.org,ProxyGFW

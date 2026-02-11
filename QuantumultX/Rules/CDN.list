@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4424
+# 规则统计: 4430
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -670,6 +670,7 @@ HOST,cdn.imago-images.com,CDN
 HOST,cdn.img.ly,CDN
 HOST,cdn.infoq.com,CDN
 HOST,cdn.insightmediagroup.io,CDN
+HOST,cdn.inviter.co,CDN
 HOST,cdn.ionos.de,CDN
 HOST,cdn.ip2location.com,CDN
 HOST,cdn.ip2location.io,CDN
@@ -1082,6 +1083,7 @@ HOST,cms-assets.xboxservices.com,CDN
 HOST,cms-cdn.goat.com,CDN
 HOST,cms-cdn.now.gg,CDN
 HOST,cms.blavity.com,CDN
+HOST,cms.mistral.ai,CDN
 HOST,cms.myfonts.com,CDN
 HOST,cms.recordedfuture.com,CDN
 HOST,cms.therecord.media,CDN
@@ -1466,11 +1468,14 @@ HOST,i.vgy.me,CDN
 HOST,i.xgroovy.com,CDN
 HOST,i.xozilla.xxx,CDN
 HOST,i.xxxshake.com,CDN
+HOST,i1.xiaoyakankan.com,CDN
 HOST,i2.anysex.com,CDN
 HOST,i2.bahamut.com.tw,CDN
 HOST,i2.hentaifox.com,CDN
 HOST,i2.nhentai.net,CDN
+HOST,i2.xiaoyakankan.com,CDN
 HOST,i3.anysex.com,CDN
+HOST,i3.xiaoyakankan.com,CDN
 HOST,i4.anysex.com,CDN
 HOST,ias.r10s.jp,CDN
 HOST,icdn.javxx.com,CDN
@@ -2174,6 +2179,7 @@ HOST,platform.twitter.com,CDN
 HOST,platform.vox.com,CDN
 HOST,platforms.makemytrip.com,CDN
 HOST,play.gotolstoy.com,CDN
+HOST,play.modujx11.com,CDN
 HOST,play.publicradio.org,CDN
 HOST,play.vidyard.com,CDN
 HOST,play.xfvod.pro,CDN

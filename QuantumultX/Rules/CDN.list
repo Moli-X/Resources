@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4430
+# 规则统计: 4431
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -467,6 +467,7 @@ HOST,cdn-msp.18comic.vip,CDN
 HOST,cdn-msp.jmcomic-zzz.one,CDN
 HOST,cdn-msp.jmcomic.me,CDN
 HOST,cdn-node.diskpart.com,CDN
+HOST,cdn-nsbus.ui.com,CDN
 HOST,cdn-public-apis.moonlock.com,CDN
 HOST,cdn-public.sociabble.com,CDN
 HOST,cdn-raw.modrinth.com,CDN

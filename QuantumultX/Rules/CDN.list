@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4431
+# 规则统计: 4432
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2557,6 +2557,7 @@ HOST,static-lccn.leetcode.com,CDN
 HOST,static-main.moovit.com,CDN
 HOST,static-media.fox.com,CDN
 HOST,static-mh.content.disney.io,CDN
+HOST,static-oforms.onlyoffice.com,CDN
 HOST,static-overlay.ubisoft.com,CDN
 HOST,static-production.npmjs.com,CDN
 HOST,static-r.kamihimeproject.net,CDN

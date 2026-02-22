@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7275
+# 规则统计: 7280
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -257,6 +257,7 @@ HOST-SUFFIX,akamaistream.net,ProxyGFW
 HOST-SUFFIX,akamaized.net,ProxyGFW
 HOST-SUFFIX,akiba-online.com,ProxyGFW
 HOST-SUFFIX,akiba-web.com,ProxyGFW
+HOST-SUFFIX,akile.io,ProxyGFW
 HOST-SUFFIX,akinator.com,ProxyGFW
 HOST-SUFFIX,akow.org,ProxyGFW
 HOST-SUFFIX,al-islam.com,ProxyGFW
@@ -470,6 +471,7 @@ HOST-SUFFIX,aspi.org.au,ProxyGFW
 HOST-SUFFIX,aspistrategist.org.au,ProxyGFW
 HOST-SUFFIX,assembla.com,ProxyGFW
 HOST-SUFFIX,assets.bwbx.io,ProxyGFW
+HOST-SUFFIX,assets.nxtrace.org,ProxyGFW
 HOST-SUFFIX,assimp.org,ProxyGFW
 HOST-SUFFIX,astrill.com,ProxyGFW
 HOST-SUFFIX,atc.org.au,ProxyGFW
@@ -3880,6 +3882,7 @@ HOST-SUFFIX,mediafire.com,ProxyGFW
 HOST-SUFFIX,mediafreakcity.com,ProxyGFW
 HOST-SUFFIX,mediawiki.org,ProxyGFW
 HOST-SUFFIX,medium.com,ProxyGFW
+HOST-SUFFIX,meee.com.tw,ProxyGFW
 HOST-SUFFIX,meetav.com,ProxyGFW
 HOST-SUFFIX,meetup.com,ProxyGFW
 HOST-SUFFIX,mefeedia.com,ProxyGFW
@@ -4510,6 +4513,7 @@ HOST-SUFFIX,open.firstory.me,ProxyGFW
 HOST-SUFFIX,openai.com,ProxyGFW
 HOST-SUFFIX,openallweb.com,ProxyGFW
 HOST-SUFFIX,openbase.com,ProxyGFW
+HOST-SUFFIX,opencritic.com,ProxyGFW
 HOST-SUFFIX,opendemocracy.net,ProxyGFW
 HOST-SUFFIX,opendn.xyz,ProxyGFW
 HOST-SUFFIX,openervpn.in,ProxyGFW
@@ -6818,6 +6822,7 @@ HOST-SUFFIX,www.ajsands.com,ProxyGFW
 HOST-SUFFIX,www.antd.org,ProxyGFW
 HOST-SUFFIX,www.aolnews.com,ProxyGFW
 HOST-SUFFIX,www.bing.com,ProxyGFW
+HOST-SUFFIX,www.clashverge.dev,ProxyGFW
 HOST-SUFFIX,www.cmoinc.org,ProxyGFW
 HOST-SUFFIX,www.dmm.com,ProxyGFW
 HOST-SUFFIX,www.eastturkistan.net,ProxyGFW

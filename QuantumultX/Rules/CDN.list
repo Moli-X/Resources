@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4435
+# 规则统计: 4437
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -569,6 +569,7 @@ HOST,cdn.concert.io,CDN
 HOST,cdn.configcat.com,CDN
 HOST,cdn.consentmanager.net,CDN
 HOST,cdn.contentful.com,CDN
+HOST,cdn.convertbox.com,CDN
 HOST,cdn.conveythis.com,CDN
 HOST,cdn.corso.com,CDN
 HOST,cdn.cracked.sh,CDN
@@ -2252,6 +2253,7 @@ HOST,public.saasexch.com,CDN
 HOST,public.zoorix.com,CDN
 HOST,publicsuffix.org,CDN
 HOST,puku-dist.4gamers.com.tw,CDN
+HOST,purehalo.logto.io,CDN
 HOST,pytorch.org,CDN
 HOST,qmod.quotemedia.com,CDN
 HOST,quests.armorgames.com,CDN

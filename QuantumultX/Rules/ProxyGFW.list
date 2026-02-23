@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7280
+# 规则统计: 7282
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -6047,6 +6047,7 @@ HOST-SUFFIX,topshareware.com,ProxyGFW
 HOST-SUFFIX,topsy.com,ProxyGFW
 HOST-SUFFIX,toptip.ca,ProxyGFW
 HOST-SUFFIX,toptoon.net,ProxyGFW
+HOST-SUFFIX,tor.eff.org,ProxyGFW
 HOST-SUFFIX,tora.to,ProxyGFW
 HOST-SUFFIX,torcn.com,ProxyGFW
 HOST-SUFFIX,torguard.net,ProxyGFW
@@ -6330,6 +6331,7 @@ HOST-SUFFIX,unicode.org,ProxyGFW
 HOST-SUFFIX,unification.net,ProxyGFW
 HOST-SUFFIX,unification.org.tw,ProxyGFW
 HOST-SUFFIX,unirule.cloud,ProxyGFW
+HOST-SUFFIX,uniswap.org,ProxyGFW
 HOST-SUFFIX,unitedsocialpress.com,ProxyGFW
 HOST-SUFFIX,unix100.com,ProxyGFW
 HOST-SUFFIX,unknownspace.org,ProxyGFW

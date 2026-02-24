@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4437
+# 规则统计: 4438
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -216,6 +216,7 @@ HOST,assets.mailgun.com,CDN
 HOST,assets.map.brightcove.com,CDN
 HOST,assets.mastercard.com,CDN
 HOST,assets.matters.news,CDN
+HOST,assets.maxon.net,CDN
 HOST,assets.mayoclinic.org,CDN
 HOST,assets.mcp.corespeed.io,CDN
 HOST,assets.media-platform.com,CDN

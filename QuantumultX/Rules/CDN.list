@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4445
+# 规则统计: 4461
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -355,6 +355,7 @@ HOST,before.good-apps.co,CDN
 HOST,beta.eslint-react.xyz,CDN
 HOST,bhl.scpwikicn.com,CDN
 HOST,biomejs.dev,CDN
+HOST,bitmovin-a.akamaihd.net,CDN
 HOST,blacklist.tampermonkey.net,CDN
 HOST,blade-public-static.blade-group.com,CDN
 HOST,blob.jortage.com,CDN
@@ -532,6 +533,7 @@ HOST,cdn.bfe.dev,CDN
 HOST,cdn.bfldr.com,CDN
 HOST,cdn.bigcloud.click,CDN
 HOST,cdn.birdie.so,CDN
+HOST,cdn.bitmovin.com,CDN
 HOST,cdn.blogarama.com,CDN
 HOST,cdn.bogos.io,CDN
 HOST,cdn.boldmethod.com,CDN
@@ -1891,6 +1893,7 @@ HOST,learn-attachment.microsoft.com,CDN
 HOST,learn.optimizely.com,CDN
 HOST,lecontent.sololearn.com,CDN
 HOST,ledger-wp-website-s3-prd.ledger.com,CDN
+HOST,lf16-larkversion.larksuitecdn.com,CDN
 HOST,lib.arvancloud.ir,CDN
 HOST,libraries.hund.io,CDN
 HOST,libs.quillbot.com,CDN
@@ -2085,6 +2088,7 @@ HOST,newsletter.postmarkapp.com,CDN
 HOST,newsstatic.rthk.hk,CDN
 HOST,next-images.123rf.com,CDN
 HOST,next-images.opencollective.com,CDN
+HOST,nextplore.vercel.zapier-deployment.com,CDN
 HOST,nextra.site,CDN
 HOST,ni-assets.azureedge.net,CDN
 HOST,nightly.link,CDN
@@ -2131,6 +2135,8 @@ HOST,p.inari.site,CDN
 HOST,p.sda1.dev,CDN
 HOST,p.typekit.net,CDN
 HOST,p.udn.com.tw,CDN
+HOST,p16-hera-sg.larksuitecdn.com,CDN
+HOST,p16-hera-va.larksuitecdn.com,CDN
 HOST,p2.bahamut.com.tw,CDN
 HOST,pa1.aninoapps.com,CDN
 HOST,pacdn.500px.org,CDN
@@ -2459,6 +2465,9 @@ HOST,services.linkfire.com,CDN
 HOST,sessions-bugsnag.docker.com,CDN
 HOST,sf-coze-web-cdn.coze.com,CDN
 HOST,sf-flow-web-cdn.ciciai.com,CDN
+HOST,sf-ibf-sg.larksuitecdn.com,CDN
+HOST,sf-ibf-va.larksuitecdn.com,CDN
+HOST,sf19-scmcdn.larksuitecdn.com,CDN
 HOST,sfiles.cnyes.cool,CDN
 HOST,sg-thumbnail-drive.mypikpak.com,CDN
 HOST,share.chessbase.com,CDN
@@ -3638,6 +3647,7 @@ HOST-SUFFIX,gw3.io,CDN
 HOST-SUFFIX,h-cdn.co,CDN
 HOST-SUFFIX,h-cdn.com,CDN
 HOST-SUFFIX,hackerone-user-content.com,CDN
+HOST-SUFFIX,hanime-cdn.com,CDN
 HOST-SUFFIX,haproxy.org,CDN
 HOST-SUFFIX,hardbin.com,CDN
 HOST-SUFFIX,hbfile.net,CDN
@@ -3676,6 +3686,7 @@ HOST-SUFFIX,hubspotusercontent30.net,CDN
 HOST-SUFFIX,hubspotusercontent40.net,CDN
 HOST-SUFFIX,hugebil.com,CDN
 HOST-SUFFIX,hugoal.com,CDN
+HOST-SUFFIX,hydaelyn-25x-18.top,CDN
 HOST-SUFFIX,i-dont-care-about-cookies.eu,CDN
 HOST-SUFFIX,i.optimole.com,CDN
 HOST-SUFFIX,ibytedtos.com,CDN
@@ -3689,9 +3700,15 @@ HOST-SUFFIX,iili.io,CDN
 HOST-SUFFIX,ik.imagekit.io,CDN
 HOST-SUFFIX,illiweb.com,CDN
 HOST-SUFFIX,image8899.net,CDN
+HOST-SUFFIX,imageb.top,CDN
 HOST-SUFFIX,imagebam.com,CDN
 HOST-SUFFIX,imageban.ru,CDN
+HOST-SUFFIX,imagec.top,CDN
+HOST-SUFFIX,imaged.top,CDN
 HOST-SUFFIX,imagedelivery.net,CDN
+HOST-SUFFIX,imagee.top,CDN
+HOST-SUFFIX,imagef.top,CDN
+HOST-SUFFIX,imageg.top,CDN
 HOST-SUFFIX,imagehub.cc,CDN
 HOST-SUFFIX,images-amazon.com,CDN
 HOST-SUFFIX,images-dnxlive.com,CDN
@@ -3821,7 +3838,6 @@ HOST-SUFFIX,klarnacdn.net,CDN
 HOST-SUFFIX,kleecks-cdn.com,CDN
 HOST-SUFFIX,kwcdn.com,CDN
 HOST-SUFFIX,kym-cdn.com,CDN
-HOST-SUFFIX,larksuitecdn.com,CDN
 HOST-SUFFIX,latam.orbitor.dev,CDN
 HOST-SUFFIX,lazcdn.com,CDN
 HOST-SUFFIX,lbpicpic.com,CDN

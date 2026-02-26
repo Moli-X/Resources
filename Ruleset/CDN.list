@@ -352,6 +352,7 @@ DOMAIN,before.good-apps.co
 DOMAIN,beta.eslint-react.xyz
 DOMAIN,bhl.scpwikicn.com
 DOMAIN,biomejs.dev
+DOMAIN,bitmovin-a.akamaihd.net
 DOMAIN,blacklist.tampermonkey.net
 DOMAIN,blade-public-static.blade-group.com
 DOMAIN,blob.jortage.com
@@ -529,6 +530,7 @@ DOMAIN,cdn.bfe.dev
 DOMAIN,cdn.bfldr.com
 DOMAIN,cdn.bigcloud.click
 DOMAIN,cdn.birdie.so
+DOMAIN,cdn.bitmovin.com
 DOMAIN,cdn.blogarama.com
 DOMAIN,cdn.bogos.io
 DOMAIN,cdn.boldmethod.com
@@ -1888,6 +1890,7 @@ DOMAIN,learn-attachment.microsoft.com
 DOMAIN,learn.optimizely.com
 DOMAIN,lecontent.sololearn.com
 DOMAIN,ledger-wp-website-s3-prd.ledger.com
+DOMAIN,lf16-larkversion.larksuitecdn.com
 DOMAIN,lib.arvancloud.ir
 DOMAIN,libraries.hund.io
 DOMAIN,libs.quillbot.com
@@ -2082,6 +2085,7 @@ DOMAIN,newsletter.postmarkapp.com
 DOMAIN,newsstatic.rthk.hk
 DOMAIN,next-images.123rf.com
 DOMAIN,next-images.opencollective.com
+DOMAIN,nextplore.vercel.zapier-deployment.com
 DOMAIN,nextra.site
 DOMAIN,ni-assets.azureedge.net
 DOMAIN,nightly.link
@@ -2128,6 +2132,8 @@ DOMAIN,p.inari.site
 DOMAIN,p.sda1.dev
 DOMAIN,p.typekit.net
 DOMAIN,p.udn.com.tw
+DOMAIN,p16-hera-sg.larksuitecdn.com
+DOMAIN,p16-hera-va.larksuitecdn.com
 DOMAIN,p2.bahamut.com.tw
 DOMAIN,pa1.aninoapps.com
 DOMAIN,pacdn.500px.org
@@ -2456,6 +2462,9 @@ DOMAIN,services.linkfire.com
 DOMAIN,sessions-bugsnag.docker.com
 DOMAIN,sf-coze-web-cdn.coze.com
 DOMAIN,sf-flow-web-cdn.ciciai.com
+DOMAIN,sf-ibf-sg.larksuitecdn.com
+DOMAIN,sf-ibf-va.larksuitecdn.com
+DOMAIN,sf19-scmcdn.larksuitecdn.com
 DOMAIN,sfiles.cnyes.cool
 DOMAIN,sg-thumbnail-drive.mypikpak.com
 DOMAIN,share.chessbase.com
@@ -3635,6 +3644,7 @@ DOMAIN-SUFFIX,gw3.io
 DOMAIN-SUFFIX,h-cdn.co
 DOMAIN-SUFFIX,h-cdn.com
 DOMAIN-SUFFIX,hackerone-user-content.com
+DOMAIN-SUFFIX,hanime-cdn.com
 DOMAIN-SUFFIX,haproxy.org
 DOMAIN-SUFFIX,hardbin.com
 DOMAIN-SUFFIX,hbfile.net
@@ -3673,6 +3683,7 @@ DOMAIN-SUFFIX,hubspotusercontent30.net
 DOMAIN-SUFFIX,hubspotusercontent40.net
 DOMAIN-SUFFIX,hugebil.com
 DOMAIN-SUFFIX,hugoal.com
+DOMAIN-SUFFIX,hydaelyn-25x-18.top
 DOMAIN-SUFFIX,i-dont-care-about-cookies.eu
 DOMAIN-SUFFIX,i.optimole.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -3686,9 +3697,15 @@ DOMAIN-SUFFIX,iili.io
 DOMAIN-SUFFIX,ik.imagekit.io
 DOMAIN-SUFFIX,illiweb.com
 DOMAIN-SUFFIX,image8899.net
+DOMAIN-SUFFIX,imageb.top
 DOMAIN-SUFFIX,imagebam.com
 DOMAIN-SUFFIX,imageban.ru
+DOMAIN-SUFFIX,imagec.top
+DOMAIN-SUFFIX,imaged.top
 DOMAIN-SUFFIX,imagedelivery.net
+DOMAIN-SUFFIX,imagee.top
+DOMAIN-SUFFIX,imagef.top
+DOMAIN-SUFFIX,imageg.top
 DOMAIN-SUFFIX,imagehub.cc
 DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,images-dnxlive.com
@@ -3818,7 +3835,6 @@ DOMAIN-SUFFIX,klarnacdn.net
 DOMAIN-SUFFIX,kleecks-cdn.com
 DOMAIN-SUFFIX,kwcdn.com
 DOMAIN-SUFFIX,kym-cdn.com
-DOMAIN-SUFFIX,larksuitecdn.com
 DOMAIN-SUFFIX,latam.orbitor.dev
 DOMAIN-SUFFIX,lazcdn.com
 DOMAIN-SUFFIX,lbpicpic.com

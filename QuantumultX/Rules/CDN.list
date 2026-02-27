@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4461
+# 规则统计: 4467
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -545,6 +545,7 @@ HOST,cdn.bsky.social,CDN
 HOST,cdn.builder.io,CDN
 HOST,cdn.builderprofile.aws.dev,CDN
 HOST,cdn.bullwhip.cloud,CDN
+HOST,cdn.buttercms.com,CDN
 HOST,cdn.buymeacoffee.com,CDN
 HOST,cdn.c1.amplience.net,CDN
 HOST,cdn.calibermind.com,CDN
@@ -1606,6 +1607,7 @@ HOST,images.macrumors.com,CDN
 HOST,images.mathworks.com,CDN
 HOST,images.mattel.net,CDN
 HOST,images.microcms-assets.io,CDN
+HOST,images.mobilism.org,CDN
 HOST,images.moegoat.com,CDN
 HOST,images.moovitapp.com,CDN
 HOST,images.newrepublic.com,CDN
@@ -2830,6 +2832,7 @@ HOST,static.vesselfinder.net,CDN
 HOST,static.vinted.com,CDN
 HOST,static.vocadb.net,CDN
 HOST,static.webclicks24.com,CDN
+HOST,static.websites.data-crypt.com,CDN
 HOST,static.whatsapp.net,CDN
 HOST,static.workday.com,CDN
 HOST,static.wwto.net,CDN
@@ -3095,6 +3098,7 @@ HOST,vcdn.anysex.com,CDN
 HOST,vectorified.com,CDN
 HOST,versionbadg.es,CDN
 HOST,vetted.ai,CDN
+HOST,vg-bunny-cdn.b-cdn.net,CDN
 HOST,vice-prod.sdiapi.com,CDN
 HOST,vice-web-statics-cdn.vice.com,CDN
 HOST,video-images.vice.com,CDN
@@ -3528,6 +3532,7 @@ HOST-SUFFIX,e.crashlytics.com,CDN
 HOST-SUFFIX,easylist.to,CDN
 HOST-SUFFIX,ebayimg.com,CDN
 HOST-SUFFIX,ebaystatic.com,CDN
+HOST-SUFFIX,eclipsecontent.org,CDN
 HOST-SUFFIX,edge.storage-yahoo.jp,CDN
 HOST-SUFFIX,edgeone.app,CDN
 HOST-SUFFIX,edgestorewebcdn.azureedge.net,CDN
@@ -3676,6 +3681,7 @@ HOST-SUFFIX,hsbrowserreports.com,CDN
 HOST-SUFFIX,hscollectedforms.net,CDN
 HOST-SUFFIX,hsstatic.net,CDN
 HOST-SUFFIX,hsto.org,CDN
+HOST-SUFFIX,htv-hydaelyn.com,CDN
 HOST-SUFFIX,hubspotlinks.com,CDN
 HOST-SUFFIX,hubspotusercontent-eu1.net,CDN
 HOST-SUFFIX,hubspotusercontent-na1.net,CDN

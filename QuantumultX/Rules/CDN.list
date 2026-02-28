@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4467
+# 规则统计: 4468
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -862,6 +862,7 @@ HOST,cdn.substack.com,CDN
 HOST,cdn.sunofbeaches.com,CDN
 HOST,cdn.super.com,CDN
 HOST,cdn.svgator.com,CDN
+HOST,cdn.svgporn.com,CDN
 HOST,cdn.syftdata.com,CDN
 HOST,cdn.tailwindcss.com,CDN
 HOST,cdn.tatlerasia.com,CDN

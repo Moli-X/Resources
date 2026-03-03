@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7283
+# 规则统计: 7284
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1234,6 +1234,7 @@ HOST-SUFFIX,ck101.com,ProxyGFW
 HOST-SUFFIX,clarionproject.org,ProxyGFW
 HOST-SUFFIX,classicalguitarblog.net,ProxyGFW
 HOST-SUFFIX,claude.ai,ProxyGFW
+HOST-SUFFIX,claude.com,ProxyGFW
 HOST-SUFFIX,clb.org.hk,ProxyGFW
 HOST-SUFFIX,cldr.unicode.org,ProxyGFW
 HOST-SUFFIX,cleansite.biz,ProxyGFW
@@ -3830,6 +3831,7 @@ HOST-SUFFIX,manicur4ik.ru,ProxyGFW
 HOST-SUFFIX,mansion.com,ProxyGFW
 HOST-SUFFIX,mansionpoker.com,ProxyGFW
 HOST-SUFFIX,manta.com,ProxyGFW
+HOST-SUFFIX,manus.im,ProxyGFW
 HOST-SUFFIX,manyvoices.news,ProxyGFW
 HOST-SUFFIX,maplew.com,ProxyGFW
 HOST-SUFFIX,marc.info,ProxyGFW
@@ -6834,7 +6836,6 @@ HOST-SUFFIX,www.gmiddle.net,ProxyGFW
 HOST-SUFFIX,www.hoyolab.com,ProxyGFW
 HOST-SUFFIX,www.hustlercash.com,ProxyGFW
 HOST-SUFFIX,www.idlcoyote.com,ProxyGFW
-HOST-SUFFIX,www.imdb.com,ProxyGFW
 HOST-SUFFIX,www.kindleren.com,ProxyGFW
 HOST-SUFFIX,www.lamenhu.com,ProxyGFW
 HOST-SUFFIX,www.lorenzetti.com.br,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4468
+# 规则统计: 4469
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2607,6 +2607,7 @@ HOST,static.ahrefs.com,CDN
 HOST,static.ahu.moe,CDN
 HOST,static.airtable.com,CDN
 HOST,static.aizanmei.org,CDN
+HOST,static.ampcode.com,CDN
 HOST,static.animaapp.com,CDN
 HOST,static.aninoapps.com,CDN
 HOST,static.anyporn.com,CDN

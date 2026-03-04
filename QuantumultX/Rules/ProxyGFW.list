@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7284
+# 规则统计: 7287
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -438,6 +438,7 @@ HOST-SUFFIX,archiveofourown.org,ProxyGFW
 HOST-SUFFIX,archives.gov,ProxyGFW
 HOST-SUFFIX,arctosia.com,ProxyGFW
 HOST-SUFFIX,areca-backup.org,ProxyGFW
+HOST-SUFFIX,arena.ai,ProxyGFW
 HOST-SUFFIX,arena.taipei,ProxyGFW
 HOST-SUFFIX,arethusa.su,ProxyGFW
 HOST-SUFFIX,arlingtoncemetery.mil,ProxyGFW
@@ -450,6 +451,7 @@ HOST-SUFFIX,artstation.com,ProxyGFW
 HOST-SUFFIX,artsy.net,ProxyGFW
 HOST-SUFFIX,arunachalforests.gov.in,ProxyGFW
 HOST-SUFFIX,arvanstorage.ir,ProxyGFW
+HOST-SUFFIX,arweave.org,ProxyGFW
 HOST-SUFFIX,asacp.org,ProxyGFW
 HOST-SUFFIX,asdfg.jp,ProxyGFW
 HOST-SUFFIX,asg.to,ProxyGFW
@@ -6757,6 +6759,7 @@ HOST-SUFFIX,wiredpen.com,ProxyGFW
 HOST-SUFFIX,wireguard.com,ProxyGFW
 HOST-SUFFIX,wisdompubs.org,ProxyGFW
 HOST-SUFFIX,wisevid.com,ProxyGFW
+HOST-SUFFIX,wispbyte.com,ProxyGFW
 HOST-SUFFIX,wistia.com,ProxyGFW
 HOST-SUFFIX,withgoogle.com,ProxyGFW
 HOST-SUFFIX,withyoutube.com,ProxyGFW

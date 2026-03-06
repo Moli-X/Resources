@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4470
+# 规则统计: 4475
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -166,6 +166,7 @@ HOST,assets.dictionary.com,CDN
 HOST,assets.dify.ai,CDN
 HOST,assets.dnsfilter.com,CDN
 HOST,assets.documentcloud.org,CDN
+HOST,assets.driffle.com,CDN
 HOST,assets.dub.co,CDN
 HOST,assets.ecomm.ui.com,CDN
 HOST,assets.embeddables.com,CDN
@@ -252,6 +253,7 @@ HOST,assets.quillbot.com,CDN
 HOST,assets.raspberrypi.com,CDN
 HOST,assets.redbullshop.com,CDN
 HOST,assets.repair.org,CDN
+HOST,assets.reviews.io,CDN
 HOST,assets.safing.io,CDN
 HOST,assets.salesmartly.com,CDN
 HOST,assets.scaleflex.com,CDN
@@ -510,6 +512,7 @@ HOST,cdn.adguard.info,CDN
 HOST,cdn.adsninja.ca,CDN
 HOST,cdn.affine.pro,CDN
 HOST,cdn.aimerce.ai,CDN
+HOST,cdn.allkeyshop.com,CDN
 HOST,cdn.amcharts.com,CDN
 HOST,cdn.amgreatness.com,CDN
 HOST,cdn.animenewsnetwork.com,CDN
@@ -1892,7 +1895,6 @@ HOST,launcher-files.modrinth.com,CDN
 HOST,launcher.spot.im,CDN
 HOST,launchercontent.mojang.com,CDN
 HOST,lc.nssurge.com,CDN
-HOST,lcdn-locator.apple.com,CDN
 HOST,learn-attachment.microsoft.com,CDN
 HOST,learn.optimizely.com,CDN
 HOST,lecontent.sololearn.com,CDN
@@ -2657,6 +2659,7 @@ HOST,static.crunchyroll.com,CDN
 HOST,static.crypto.com,CDN
 HOST,static.deepl.com,CDN
 HOST,static.doujins.com,CDN
+HOST,static.driffle.com,CDN
 HOST,static.drtuber.com,CDN
 HOST,static.dw.com,CDN
 HOST,static.dzeninfra.ru,CDN
@@ -3167,6 +3170,7 @@ HOST,website-cdn.ipinfo.io,CDN
 HOST,website-media.deel.com,CDN
 HOST,website-prod.cache.wpscdn.com,CDN
 HOST,webstatic.chargebee.com,CDN
+HOST,widget.allkeyshop.com,CDN
 HOST,widget.automizely.com,CDN
 HOST,widget.datablocks.se,CDN
 HOST,widget.docsbot.ai,CDN
@@ -3175,6 +3179,7 @@ HOST,widget.freshworks.com,CDN
 HOST,widget.gotolstoy.com,CDN
 HOST,widget.intercom.io,CDN
 HOST,widget.kapa.ai,CDN
+HOST,widget.reviews.io,CDN
 HOST,widget.trustpilot.com,CDN
 HOST,widget.usepylon.com,CDN
 HOST,widget.user.com,CDN

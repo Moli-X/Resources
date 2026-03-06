@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 861
+# 规则统计: 862
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -233,6 +233,7 @@ HOST-SUFFIX,chushou.tv,ChinaDomain
 HOST-SUFFIX,cibntv.net,ChinaDomain
 HOST-SUFFIX,cloudglab.com,ChinaDomain
 HOST-SUFFIX,cls.cn,ChinaDomain
+HOST-SUFFIX,cm.steampowered.com,ChinaDomain
 HOST-SUFFIX,cmbchina.cn,ChinaDomain
 HOST-SUFFIX,cmbchina.com,ChinaDomain
 HOST-SUFFIX,cmbimg.cn,ChinaDomain

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7288
+# 规则统计: 7290
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1590,6 +1590,7 @@ HOST-SUFFIX,dmm.co.jp,ProxyGFW
 HOST-SUFFIX,dmm.com,ProxyGFW
 HOST-SUFFIX,dns-dns.com,ProxyGFW
 HOST-SUFFIX,dns-stuff.com,ProxyGFW
+HOST-SUFFIX,dns.cloudflare.com,ProxyGFW
 HOST-SUFFIX,dns.google,ProxyGFW
 HOST-SUFFIX,dns04.com,ProxyGFW
 HOST-SUFFIX,dns05.com,ProxyGFW
@@ -3283,6 +3284,7 @@ HOST-SUFFIX,internetpopculture.com,ProxyGFW
 HOST-SUFFIX,interseclab.org,ProxyGFW
 HOST-SUFFIX,inthenameofconfuciusmovie.com,ProxyGFW
 HOST-SUFFIX,investigating.wordpress.com,ProxyGFW
+HOST-SUFFIX,investing.com,ProxyGFW
 HOST-SUFFIX,invidio.us,ProxyGFW
 HOST-SUFFIX,inxian.com,ProxyGFW
 HOST-SUFFIX,iownyour.biz,ProxyGFW

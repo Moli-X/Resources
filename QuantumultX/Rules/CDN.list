@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4475
+# 规则统计: 4480
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -540,6 +540,7 @@ HOST,cdn.bitmovin.com,CDN
 HOST,cdn.blogarama.com,CDN
 HOST,cdn.bogos.io,CDN
 HOST,cdn.boldmethod.com,CDN
+HOST,cdn.boostcommerce.io,CDN
 HOST,cdn.botframework.com,CDN
 HOST,cdn.branch.io,CDN
 HOST,cdn.brandfetch.io,CDN
@@ -639,6 +640,7 @@ HOST,cdn.fontshare.com,CDN
 HOST,cdn.forms.office.net,CDN
 HOST,cdn.fosstodon.org,CDN
 HOST,cdn.fourthwall.com,CDN
+HOST,cdn.foxycart.com,CDN
 HOST,cdn.freebiesupply.com,CDN
 HOST,cdn.freecodecamp.org,CDN
 HOST,cdn.freesound.org,CDN
@@ -667,6 +669,7 @@ HOST,cdn.hero-sms.com,CDN
 HOST,cdn.hextom.com,CDN
 HOST,cdn.highporn.net,CDN
 HOST,cdn.hiive.space,CDN
+HOST,cdn.himetrica.com,CDN
 HOST,cdn.hinative.com,CDN
 HOST,cdn.hk01.com,CDN
 HOST,cdn.hongkongcard.com,CDN
@@ -1190,6 +1193,7 @@ HOST,data.osmand.net,CDN
 HOST,data.pendo.io,CDN
 HOST,data.schemaapp.com,CDN
 HOST,data.web.clickup.com,CDN
+HOST,data3.answerbase.com,CDN
 HOST,david-dm.org,CDN
 HOST,db.onlinewebfonts.com,CDN
 HOST,dc-cdn.cdw.com,CDN
@@ -4171,6 +4175,7 @@ HOST-SUFFIX,ss-domain.com,CDN
 HOST-SUFFIX,ssl-images-amazon.com,CDN
 HOST-SUFFIX,sstatic.net,CDN
 HOST-SUFFIX,stack.imgur.com,CDN
+HOST-SUFFIX,stackassets.com,CDN
 HOST-SUFFIX,stackblitz.io,CDN
 HOST-SUFFIX,stapecdn.com,CDN
 HOST-SUFFIX,static-assets.photoshop.adobe.com,CDN

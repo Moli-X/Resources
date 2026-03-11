@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4481
+# 规则统计: 4484
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1298,6 +1298,7 @@ HOST,eu1.hamreus.com,CDN
 HOST,eu2.hamreus.com,CDN
 HOST,eu3.hamreus.com,CDN
 HOST,euc-widget.freshworks.com,CDN
+HOST,event-assets.gsma.com,CDN
 HOST,event.ithome.com.tw,CDN
 HOST,events-delivery.apple.com,CDN
 HOST,events-live.apple.com,CDN
@@ -1316,6 +1317,7 @@ HOST,f001.backblazeb2.com,CDN
 HOST,f002.backblazeb2.com,CDN
 HOST,f003.backblazeb2.com,CDN
 HOST,f004.backblazeb2.com,CDN
+HOST,fa.gsma.com,CDN
 HOST,fast.appcues.com,CDN
 HOST,fast.chameleon.io,CDN
 HOST,fast.wistia.com,CDN
@@ -3608,6 +3610,7 @@ HOST-SUFFIX,fmcdn.net,CDN
 HOST-SUFFIX,fncstatic.com,CDN
 HOST-SUFFIX,fontawesome.com,CDN
 HOST-SUFFIX,fonts.com,CDN
+HOST-SUFFIX,fonts.gsma.com,CDN
 HOST-SUFFIX,fonts.net,CDN
 HOST-SUFFIX,forbesimg.com,CDN
 HOST-SUFFIX,forgecdn.net,CDN

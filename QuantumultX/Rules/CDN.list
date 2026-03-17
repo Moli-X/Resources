@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4489
+# 规则统计: 4491
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -70,6 +70,7 @@ HOST,apim.m3pd.com,CDN
 HOST,app-api.vidjet.io,CDN
 HOST,app-cdn.logo.com,CDN
 HOST,app-spm.com,CDN
+HOST,app-static-prod.posthog.com,CDN
 HOST,app-static.eu.posthog.com,CDN
 HOST,app-static.turtl.co,CDN
 HOST,app.1password.com,CDN
@@ -3032,6 +3033,7 @@ HOST,tn.txxx.tube,CDN
 HOST,tn.upornia.com,CDN
 HOST,tn.vjav.com,CDN
 HOST,todoist.b-cdn.net,CDN
+HOST,tomshardware-data.community.forum,CDN
 HOST,tools-static.wmflabs.org,CDN
 HOST,tools.refokus.com,CDN
 HOST,top1cdn.top1health.com,CDN

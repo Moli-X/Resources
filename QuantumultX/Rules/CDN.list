@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4491
+# 规则统计: 4494
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -42,6 +42,7 @@ HOST,analytics.twitter.com,CDN
 HOST,analytics.welcomesoftware.com,CDN
 HOST,anchor.digitalocean.com,CDN
 HOST,android-safebrowsing.google.com,CDN
+HOST,antiqua-ux-cdn.monotype.com,CDN
 HOST,api-cdn.shutterstock.com,CDN
 HOST,api-esp-ap.piano.io,CDN
 HOST,api-eu.mixpanel.com,CDN
@@ -1212,6 +1213,7 @@ HOST,design.keyoxide.org,CDN
 HOST,design.mayoclinic.org,CDN
 HOST,designsystem.brevo.com,CDN
 HOST,detectportal.firefox.com,CDN
+HOST,dev.visualwebsiteoptimizer.com,CDN
 HOST,devicons.railway.com,CDN
 HOST,devnull.perfops.net,CDN
 HOST,dh-site.b-cdn.net,CDN
@@ -2753,6 +2755,7 @@ HOST,static.missav.com,CDN
 HOST,static.mocortech.com,CDN
 HOST,static.moegoat.com,CDN
 HOST,static.monei.net,CDN
+HOST,static.monotype.com,CDN
 HOST,static.moomoo.com,CDN
 HOST,static.moonpay.com,CDN
 HOST,static.music.com,CDN

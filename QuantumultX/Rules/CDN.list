@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4494
+# 规则统计: 4495
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2447,6 +2447,7 @@ HOST,screenshots.webflow.com,CDN
 HOST,script.custobar.com,CDN
 HOST,scripts.dailymail.co.uk,CDN
 HOST,scripts.scriptwrapper.com,CDN
+HOST,scripts.tabler.io,CDN
 HOST,scripts.webeo.com,CDN
 HOST,sdata.ndtv.com,CDN
 HOST,sdk-cdn.fun.xyz,CDN

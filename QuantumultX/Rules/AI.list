@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 49
+# 规则统计: 50
 
 HOST,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe,AI
 HOST,ai.google.dev,AI
@@ -50,3 +50,4 @@ HOST-SUFFIX,sora.com,AI
 HOST-SUFFIX,x.ai,AI
 HOST-KEYWORD,alkalimakersuite-pa.clients6.google.com,AI
 HOST-KEYWORD,openai,AI
+URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+,AI

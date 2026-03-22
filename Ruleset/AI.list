@@ -47,3 +47,4 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 DOMAIN-KEYWORD,openai
+URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4494
+# 规则统计: 4495
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3232,6 +3232,7 @@ HOST,www.10086.win,CDN
 HOST,www.acgpix.de,CDN
 HOST,www.bbthat.com,CDN
 HOST,www.envoyproxy.io,CDN
+HOST,www.fumadocs.dev,CDN
 HOST,www.gstatic.com,CDN
 HOST,www.pngmart.com,CDN
 HOST,www.tbstat.com,CDN
@@ -4437,6 +4438,7 @@ HOST-KEYWORD,static.trustpilot.com,CDN
 HOST-KEYWORD,vdownload.hanime1,CDN
 HOST-KEYWORD,vod-adaptive.akamaized.net,CDN
 HOST-KEYWORD,web-assets.zendesk,CDN
+HOST-WILDCARD,*-intake-*-datadoghq.com,CDN
 HOST-WILDCARD,*.fsvod?.com,CDN
 HOST-WILDCARD,*.img.*.sendibm?.com,CDN
 HOST-WILDCARD,*.kuaikan-cdn?.com,CDN
@@ -4446,7 +4448,6 @@ HOST-WILDCARD,assets*.freshdesk.com,CDN
 HOST-WILDCARD,assets.*.imaga.co,CDN
 HOST-WILDCARD,blog-imgs-??.2nt.com,CDN
 HOST-WILDCARD,blog-imgs-??.fc2.com,CDN
-HOST-WILDCARD,browser-intake-*-datadoghq.com,CDN
 HOST-WILDCARD,cdn*.boysfood.com,CDN
 HOST-WILDCARD,cdn*.pigav.com,CDN
 HOST-WILDCARD,cdn*.porn87.com,CDN

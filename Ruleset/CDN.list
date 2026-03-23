@@ -3229,6 +3229,7 @@ DOMAIN,www.10086.win
 DOMAIN,www.acgpix.de
 DOMAIN,www.bbthat.com
 DOMAIN,www.envoyproxy.io
+DOMAIN,www.fumadocs.dev
 DOMAIN,www.gstatic.com
 DOMAIN,www.pngmart.com
 DOMAIN,www.tbstat.com
@@ -4434,6 +4435,7 @@ DOMAIN-KEYWORD,static.trustpilot.com
 DOMAIN-KEYWORD,vdownload.hanime1
 DOMAIN-KEYWORD,vod-adaptive.akamaized.net
 DOMAIN-KEYWORD,web-assets.zendesk
+DOMAIN-WILDCARD,*-intake-*-datadoghq.com
 DOMAIN-WILDCARD,*.fsvod?.com
 DOMAIN-WILDCARD,*.img.*.sendibm?.com
 DOMAIN-WILDCARD,*.kuaikan-cdn?.com
@@ -4443,7 +4445,6 @@ DOMAIN-WILDCARD,assets*.freshdesk.com
 DOMAIN-WILDCARD,assets.*.imaga.co
 DOMAIN-WILDCARD,blog-imgs-??.2nt.com
 DOMAIN-WILDCARD,blog-imgs-??.fc2.com
-DOMAIN-WILDCARD,browser-intake-*-datadoghq.com
 DOMAIN-WILDCARD,cdn*.boysfood.com
 DOMAIN-WILDCARD,cdn*.pigav.com
 DOMAIN-WILDCARD,cdn*.porn87.com

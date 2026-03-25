@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4495
+# 规则统计: 4500
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -307,6 +307,7 @@ HOST,assets.zilliz.com,CDN
 HOST,assets0.headwayapp.co,CDN
 HOST,assets1.lottiefiles.com,CDN
 HOST,assets10.lottiefiles.com,CDN
+HOST,assets2.blubrry.com,CDN
 HOST,assets2.canny.io,CDN
 HOST,assets2.lottiefiles.com,CDN
 HOST,assets3.lottiefiles.com,CDN
@@ -940,6 +941,7 @@ HOST,cdn.zapier.com,CDN
 HOST,cdn.zeabur.com,CDN
 HOST,cdn.zhujiwiki.com,CDN
 HOST,cdn.zigpoll.com,CDN
+HOST,cdn.zolplay.com,CDN
 HOST,cdn0-i.techbang.com,CDN
 HOST,cdn0.dan.com,CDN
 HOST,cdn0.iconfinder.com,CDN
@@ -1638,6 +1640,7 @@ HOST,images.prismic.io,CDN
 HOST,images.profile.autodesk.com,CDN
 HOST,images.ptt.cc,CDN
 HOST,images.purevpn-tools.com,CDN
+HOST,images.rss.app,CDN
 HOST,images.samsung.com,CDN
 HOST,images.scalero.io,CDN
 HOST,images.scrolller.com,CDN
@@ -1844,6 +1847,7 @@ HOST,interactive.guim.co.uk,CDN
 HOST,interwiki.scpwiki.com,CDN
 HOST,interwiki.scpwikicn.com,CDN
 HOST,ip-ranges.amazonaws.com,CDN
+HOST,ipxy.io,CDN
 HOST,irp-cdn.multiscreensite.com,CDN
 HOST,isitmaintained.com,CDN
 HOST,j.udn.com.tw,CDN
@@ -2631,6 +2635,7 @@ HOST,static.anysex.com,CDN
 HOST,static.apkpure.com,CDN
 HOST,static.arxiv.org,CDN
 HOST,static.assetlab.io,CDN
+HOST,static.assets-stash.eet-china.com,CDN
 HOST,static.axios.com,CDN
 HOST,static.bad.news,CDN
 HOST,static.bangumi.moe,CDN

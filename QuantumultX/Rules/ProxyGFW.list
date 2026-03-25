@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7297
+# 规则统计: 7298
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -6937,6 +6937,7 @@ HOST-SUFFIX,xm.com,ProxyGFW
 HOST-SUFFIX,xml-training-guide.com,ProxyGFW
 HOST-SUFFIX,xmovies.com,ProxyGFW
 HOST-SUFFIX,xn--11xs86f.icu,ProxyGFW
+HOST-SUFFIX,xn--1jqvh729avzfcy2d8ummib.com,ProxyGFW
 HOST-SUFFIX,xn--4gq171p.com,ProxyGFW
 HOST-SUFFIX,xn--90wwvt03e.com,ProxyGFW
 HOST-SUFFIX,xn--9iqy04a7fi01l.com,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4500
+# 规则统计: 4501
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3549,6 +3549,7 @@ HOST-SUFFIX,dropboxstatic.com,CDN
 HOST-SUFFIX,drtst.com,CDN
 HOST-SUFFIX,dsc.cloud,CDN
 HOST-SUFFIX,dtci-pe-vp-image-resizer.platform.edgedatg.com,CDN
+HOST-SUFFIX,dubassets.com,CDN
 HOST-SUFFIX,dubcdn.com,CDN
 HOST-SUFFIX,dummyimage.com,CDN
 HOST-SUFFIX,dummyjson.com,CDN

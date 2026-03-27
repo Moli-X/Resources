@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4501
+# 规则统计: 4502
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -561,6 +561,7 @@ HOST,cdn.calibermind.com,CDN
 HOST,cdn.cameo.com,CDN
 HOST,cdn.camweara.com,CDN
 HOST,cdn.candy.ai,CDN
+HOST,cdn.casestudies.svc.ui.com,CDN
 HOST,cdn.casetify.com,CDN
 HOST,cdn.cbd.int,CDN
 HOST,cdn.cfr.org,CDN

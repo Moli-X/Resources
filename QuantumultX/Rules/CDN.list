@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4502
+# 规则统计: 4503
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -13,6 +13,7 @@ HOST,a.kickstarter.com,CDN
 HOST,a.pomf.cat,CDN
 HOST,a5.behance.net,CDN
 HOST,a57.foxnews.com,CDN
+HOST,abre-videos.youjizz.com,CDN
 HOST,academy-public.coinmarketcap.com,CDN
 HOST,account-cdn.svc.ui.com,CDN
 HOST,account-widget-mfe.gcore.com,CDN

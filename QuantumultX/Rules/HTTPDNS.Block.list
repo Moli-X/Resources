@@ -1,5 +1,5 @@
 # 规则名称: HTTPDNS.Block
-# 规则统计: 59
+# 规则统计: 60
 
 HOST,aedns.weixin.qq.com,HTTPDNS.Block
 HOST,dns.jd.com,HTTPDNS.Block
@@ -15,6 +15,7 @@ HOST,httpdns-sdk.n.netease.com,HTTPDNS.Block
 HOST,httpdns.alicdn.com,HTTPDNS.Block
 HOST,httpdns.baidu.com,HTTPDNS.Block
 HOST,httpdns.baidubce.com,HTTPDNS.Block
+HOST,httpdns.bcelive.com,HTTPDNS.Block
 HOST,httpdns.bilivideo.com,HTTPDNS.Block
 HOST,httpdns.c.cdnhwc2.com,HTTPDNS.Block
 HOST,httpdns.calorietech.com,HTTPDNS.Block

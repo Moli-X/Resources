@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4503
+# 规则统计: 4507
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1630,6 +1630,7 @@ HOST,images.microcms-assets.io,CDN
 HOST,images.mobilism.org,CDN
 HOST,images.moegoat.com,CDN
 HOST,images.moovitapp.com,CDN
+HOST,images.nebula.tv,CDN
 HOST,images.newrepublic.com,CDN
 HOST,images.now-tv.com,CDN
 HOST,images.nvidia.com,CDN
@@ -2551,6 +2552,7 @@ HOST,st2.zoom.us,CDN
 HOST,st3.zoom.us,CDN
 HOST,st6-20.vk.com,CDN
 HOST,staging-pubfeed.linkby.com,CDN
+HOST,starlight.nebula.tv,CDN
 HOST,start-page.buffer.com,CDN
 HOST,static-00.iconduck.com,CDN
 HOST,static-1.bitchute.com,CDN
@@ -3678,6 +3680,7 @@ HOST-SUFFIX,googleusercontent.com,CDN
 HOST-SUFFIX,graphql.org,CDN
 HOST-SUFFIX,gravatar.com,CDN
 HOST-SUFFIX,gravity.jup.io,CDN
+HOST-SUFFIX,grouponcdn.com,CDN
 HOST-SUFFIX,gsuus.com,CDN
 HOST-SUFFIX,gszyi.com,CDN
 HOST-SUFFIX,gtranslate.net,CDN
@@ -4420,6 +4423,7 @@ HOST-SUFFIX,ziffstatic.com,CDN
 HOST-SUFFIX,ziglang.org,CDN
 HOST-SUFFIX,zippyshare.com,CDN
 HOST-SUFFIX,zkcdn.net,CDN
+HOST-SUFFIX,zobj.net,CDN
 HOST-SUFFIX,zohocdn.com,CDN
 HOST-SUFFIX,zohostatic.com,CDN
 HOST-SUFFIX,zohostatic.eu,CDN

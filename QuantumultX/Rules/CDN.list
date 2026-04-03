@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4514
+# 规则统计: 4517
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -278,6 +278,7 @@ HOST,assets.stickpng.com,CDN
 HOST,assets.stigg.io,CDN
 HOST,assets.streamlinehq.com,CDN
 HOST,assets.swoogo.com,CDN
+HOST,assets.tangled.network,CDN
 HOST,assets.tatlerasia.com,CDN
 HOST,assets.the-independent.com,CDN
 HOST,assets.tigerdata.com,CDN
@@ -333,6 +334,7 @@ HOST,aurora-customization-usw2.lithium.com,CDN
 HOST,auth.split.io,CDN
 HOST,avatar.freepik.com,CDN
 HOST,avatar.stefanjudis.com,CDN
+HOST,avatar.tangled.sh,CDN
 HOST,avatar2.bahamut.com.tw,CDN
 HOST,avatars.dicebear.com,CDN
 HOST,avatars.dzeninfra.ru,CDN
@@ -3656,6 +3658,7 @@ HOST-SUFFIX,gammacdn.com,CDN
 HOST-SUFFIX,garmincdn.com,CDN
 HOST-SUFFIX,gateway.originprotocol.com,CDN
 HOST-SUFFIX,gateway.pinata.cloud,CDN
+HOST-SUFFIX,gateway.scarf.sh,CDN
 HOST-SUFFIX,gateway.serph.network,CDN
 HOST-SUFFIX,gauthstatic.com,CDN
 HOST-SUFFIX,gayzyimage.com,CDN

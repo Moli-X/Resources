@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4517
+# 规则统计: 4518
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1297,6 +1297,7 @@ HOST,encrypted-vtbn3.gstatic.com,CDN
 HOST,eomd1.fembeqq.xyz,CDN
 HOST,epic-social-social-modules-prod.ol.epicgames.com,CDN
 HOST,error.rakuten.co.jp,CDN
+HOST,errors.figma.com,CDN
 HOST,eslint-react.xyz,CDN
 HOST,eslint.org,CDN
 HOST,eslint.style,CDN

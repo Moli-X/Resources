@@ -244,6 +244,7 @@ HOST,assets.openshift.com,CDN
 HOST,assets.openshift.net,CDN
 HOST,assets.orz.uno,CDN
 HOST,assets.peatio.com,CDN
+HOST,assets.pingie.com,CDN
 HOST,assets.pixlee.com,CDN
 HOST,assets.play.xbox.com,CDN
 HOST,assets.plurk.com,CDN
@@ -2173,7 +2174,6 @@ HOST,p16-hera-va.larksuitecdn.com,CDN
 HOST,p2.bahamut.com.tw,CDN
 HOST,pa1.aninoapps.com,CDN
 HOST,pacdn.500px.org,CDN
-HOST,package-assets.oomol.com,CDN
 HOST,packages.jetbrains.team,CDN
 HOST,panel-production-libs.b-cdn.net,CDN
 HOST,participants.evolv.ai,CDN
@@ -2800,7 +2800,6 @@ HOST,static.okx.com,CDN
 HOST,static.olelive.com,CDN
 HOST,static.onlinewebfonts.com,CDN
 HOST,static.onlyfans.com,CDN
-HOST,static.oomol.com,CDN
 HOST,static.openreplay.com,CDN
 HOST,static.opensea.io,CDN
 HOST,static.opensuse.org,CDN
@@ -3239,6 +3238,7 @@ HOST,wire.shodan.io,CDN
 HOST,wl-apps.yourwebsite.life,CDN
 HOST,wp.salesforce.com,CDN
 HOST,wpmedia.tealium.com,CDN
+HOST,wre-assets.prod.mapping.strava.com,CDN
 HOST,ws-assets.zoominfo.com,CDN
 HOST,ws-cdn.nperf.com,CDN
 HOST,ws2-cache.aptoide.com,CDN

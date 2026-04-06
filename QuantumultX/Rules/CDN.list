@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4518
+# 规则统计: 4520
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1037,6 +1037,7 @@ HOST,cdn77.pornoxo.com,CDN
 HOST,cdn8.bigcommerce.com,CDN
 HOST,cdn9.bigcommerce.com,CDN
 HOST,cdna.artstation.com,CDN
+HOST,cdna.pcpartpicker.com,CDN
 HOST,cdnapi.kaltura.com,CDN
 HOST,cdnassets.roboflow.com,CDN
 HOST,cdnb.artstation.com,CDN
@@ -2154,6 +2155,7 @@ HOST,opensignal.cdnbye.com,CDN
 HOST,optimizationguide-pa.googleapis.com,CDN
 HOST,optimizely.com,CDN
 HOST,organizer.bizzabo.com,CDN
+HOST,origin.picgo.net,CDN
 HOST,osint.digitalside.it,CDN
 HOST,oss.1p3a.com,CDN
 HOST,oss.moe.cat,CDN

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7299
+# 规则统计: 7303
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -426,6 +426,7 @@ HOST-SUFFIX,appspot-preview.com,ProxyGFW
 HOST-SUFFIX,appspot.com,ProxyGFW
 HOST-SUFFIX,appsto.re,ProxyGFW
 HOST-SUFFIX,aptoide.com,ProxyGFW
+HOST-SUFFIX,archive-it.org,ProxyGFW
 HOST-SUFFIX,archive.fo,ProxyGFW
 HOST-SUFFIX,archive.is,ProxyGFW
 HOST-SUFFIX,archive.li,ProxyGFW
@@ -1594,6 +1595,7 @@ HOST-SUFFIX,dns-dns.com,ProxyGFW
 HOST-SUFFIX,dns-stuff.com,ProxyGFW
 HOST-SUFFIX,dns.cloudflare.com,ProxyGFW
 HOST-SUFFIX,dns.google,ProxyGFW
+HOST-SUFFIX,dns.sb,ProxyGFW
 HOST-SUFFIX,dns04.com,ProxyGFW
 HOST-SUFFIX,dns05.com,ProxyGFW
 HOST-SUFFIX,dns1.us,ProxyGFW
@@ -1613,6 +1615,7 @@ HOST-SUFFIX,docs.new,ProxyGFW
 HOST-SUFFIX,doctorvoice.org,ProxyGFW
 HOST-SUFFIX,documentingreality.com,ProxyGFW
 HOST-SUFFIX,dogfartnetwork.com,ProxyGFW
+HOST-SUFFIX,doh.sb,ProxyGFW
 HOST-SUFFIX,dojin.com,ProxyGFW
 HOST-SUFFIX,dok-forum.net,ProxyGFW
 HOST-SUFFIX,dolc.de,ProxyGFW
@@ -1632,6 +1635,7 @@ HOST-SUFFIX,doom9.org,ProxyGFW
 HOST-SUFFIX,doosho.com,ProxyGFW
 HOST-SUFFIX,doourbest.org,ProxyGFW
 HOST-SUFFIX,dorjeshugden.com,ProxyGFW
+HOST-SUFFIX,dot.sb,ProxyGFW
 HOST-SUFFIX,dotgov.gov,ProxyGFW
 HOST-SUFFIX,dotplane.com,ProxyGFW
 HOST-SUFFIX,dotsub.com,ProxyGFW

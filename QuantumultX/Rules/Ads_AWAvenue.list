@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 903
+# 规则统计: 905
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -201,6 +201,7 @@ HOST-SUFFIX,ap.dongqiudi.com,Ads_AWAvenue
 HOST-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net,Ads_AWAvenue
 HOST-SUFFIX,apd-pcdnwxnat.teg.tencent-cloud.net,Ads_AWAvenue
 HOST-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net,Ads_AWAvenue
+HOST-SUFFIX,api-access.pangolin-sdk-toutiao-b.com,Ads_AWAvenue
 HOST-SUFFIX,api-access.pangolin-sdk-toutiao.com,Ads_AWAvenue
 HOST-SUFFIX,api-access.pangolin-sdk-toutiao1.com,Ads_AWAvenue
 HOST-SUFFIX,api-access.pangolin-sdk-toutiao2.com,Ads_AWAvenue
@@ -550,6 +551,7 @@ HOST-SUFFIX,mobads-pre-config.cdn.bcebos.com,Ads_AWAvenue
 HOST-SUFFIX,mobads.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,mobaliyun.res.mgtv.com,Ads_AWAvenue
 HOST-SUFFIX,mobile.da.mgtv.com,Ads_AWAvenue
+HOST-SUFFIX,mobile.events.data.microsoft.com,Ads_AWAvenue
 HOST-SUFFIX,mobilead.kuwo.cn,Ads_AWAvenue
 HOST-SUFFIX,mobilelog.kugou.com,Ads_AWAvenue
 HOST-SUFFIX,mobilelog.upqzfile.com,Ads_AWAvenue

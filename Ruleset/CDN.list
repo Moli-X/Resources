@@ -860,6 +860,7 @@ DOMAIN,cdn.sketch.com
 DOMAIN,cdn.skymavis.com
 DOMAIN,cdn.smooch.io
 DOMAIN,cdn.snaptravel.com
+DOMAIN,cdn.socket.io
 DOMAIN,cdn.softswiss.net
 DOMAIN,cdn.sphlabs.com
 DOMAIN,cdn.split.io
@@ -1272,6 +1273,7 @@ DOMAIN,embed-cloudfront.wistia.com
 DOMAIN,embed-ssl.wistia.com
 DOMAIN,embed-v2.testimonial.to
 DOMAIN,embed.culturalspot.org
+DOMAIN,embed.getwally.net
 DOMAIN,embed.reddit.com
 DOMAIN,embed.runkit.com
 DOMAIN,embed.savvycal.com
@@ -1997,6 +1999,7 @@ DOMAIN,media.cnn.com
 DOMAIN,media.contentapi.ea.com
 DOMAIN,media.convertkit.com
 DOMAIN,media.crazyshit.com
+DOMAIN,media.currys.biz
 DOMAIN,media.d.tube
 DOMAIN,media.daily.dev
 DOMAIN,media.datacenterdynamics.com
@@ -2748,6 +2751,7 @@ DOMAIN,static.institution.grammarly.com
 DOMAIN,static.ipgeolocation.io
 DOMAIN,static.iplocate.io
 DOMAIN,static.iris.informa.com
+DOMAIN,static.isitetv.com
 DOMAIN,static.itch.io
 DOMAIN,static.iyf.tv
 DOMAIN,static.izanmei.icu
@@ -4461,6 +4465,7 @@ DOMAIN-KEYWORD,vdownload.hanime1
 DOMAIN-KEYWORD,vod-adaptive.akamaized.net
 DOMAIN-KEYWORD,web-assets.zendesk
 DOMAIN-WILDCARD,*-intake-*-datadoghq.com
+DOMAIN-WILDCARD,*-intake.*.datadoghq.com
 DOMAIN-WILDCARD,*.fsvod?.com
 DOMAIN-WILDCARD,*.img.*.sendibm?.com
 DOMAIN-WILDCARD,*.kuaikan-cdn?.com

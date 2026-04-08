@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4520
+# 规则统计: 4525
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -863,6 +863,7 @@ HOST,cdn.sketch.com,CDN
 HOST,cdn.skymavis.com,CDN
 HOST,cdn.smooch.io,CDN
 HOST,cdn.snaptravel.com,CDN
+HOST,cdn.socket.io,CDN
 HOST,cdn.softswiss.net,CDN
 HOST,cdn.sphlabs.com,CDN
 HOST,cdn.split.io,CDN
@@ -1275,6 +1276,7 @@ HOST,embed-cloudfront.wistia.com,CDN
 HOST,embed-ssl.wistia.com,CDN
 HOST,embed-v2.testimonial.to,CDN
 HOST,embed.culturalspot.org,CDN
+HOST,embed.getwally.net,CDN
 HOST,embed.reddit.com,CDN
 HOST,embed.runkit.com,CDN
 HOST,embed.savvycal.com,CDN
@@ -2000,6 +2002,7 @@ HOST,media.cnn.com,CDN
 HOST,media.contentapi.ea.com,CDN
 HOST,media.convertkit.com,CDN
 HOST,media.crazyshit.com,CDN
+HOST,media.currys.biz,CDN
 HOST,media.d.tube,CDN
 HOST,media.daily.dev,CDN
 HOST,media.datacenterdynamics.com,CDN
@@ -2751,6 +2754,7 @@ HOST,static.institution.grammarly.com,CDN
 HOST,static.ipgeolocation.io,CDN
 HOST,static.iplocate.io,CDN
 HOST,static.iris.informa.com,CDN
+HOST,static.isitetv.com,CDN
 HOST,static.itch.io,CDN
 HOST,static.iyf.tv,CDN
 HOST,static.izanmei.icu,CDN
@@ -4464,6 +4468,7 @@ HOST-KEYWORD,vdownload.hanime1,CDN
 HOST-KEYWORD,vod-adaptive.akamaized.net,CDN
 HOST-KEYWORD,web-assets.zendesk,CDN
 HOST-WILDCARD,*-intake-*-datadoghq.com,CDN
+HOST-WILDCARD,*-intake.*.datadoghq.com,CDN
 HOST-WILDCARD,*.fsvod?.com,CDN
 HOST-WILDCARD,*.img.*.sendibm?.com,CDN
 HOST-WILDCARD,*.kuaikan-cdn?.com,CDN

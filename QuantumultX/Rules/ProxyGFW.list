@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7304
+# 规则统计: 7305
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -4009,6 +4009,7 @@ HOST-SUFFIX,mirrormedia.mg,ProxyGFW
 HOST-SUFFIX,missav.com,ProxyGFW
 HOST-SUFFIX,missav.ws,ProxyGFW
 HOST-SUFFIX,mist.vip,ProxyGFW
+HOST-SUFFIX,mistral.ai,ProxyGFW
 HOST-SUFFIX,mit.edu,ProxyGFW
 HOST-SUFFIX,mitao.com.tw,ProxyGFW
 HOST-SUFFIX,mitbbs.com,ProxyGFW

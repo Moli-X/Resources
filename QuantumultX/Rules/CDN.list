@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4525
+# 规则统计: 4527
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -153,6 +153,7 @@ HOST,assets.cgtrader.com,CDN
 HOST,assets.change.org,CDN
 HOST,assets.chaos.social,CDN
 HOST,assets.clever-cloud.com,CDN
+HOST,assets.clibo.tw,CDN
 HOST,assets.clickfunnels.com,CDN
 HOST,assets.cloudpilot.ai,CDN
 HOST,assets.cmcmarkets.com,CDN
@@ -2036,6 +2037,7 @@ HOST,media.letsdeel.com,CDN
 HOST,media.licdn.com,CDN
 HOST,media.loom-app.com,CDN
 HOST,media.maptiler.com,CDN
+HOST,media.marshmallow-qa.com,CDN
 HOST,media.mas.to,CDN
 HOST,media.masto.nu,CDN
 HOST,media.minecraftforum.net,CDN

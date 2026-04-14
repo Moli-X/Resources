@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4528
+# 规则统计: 4535
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -24,6 +24,7 @@ HOST,aff.equalweb.com,CDN
 HOST,affportal.bhphoto.com,CDN
 HOST,agi.armorgames.com,CDN
 HOST,ah-cdn.merge.dev,CDN
+HOST,ahrefscomscreenshot-3b70.kxcdn.com,CDN
 HOST,aimg.fc2.com,CDN
 HOST,ajax.cat.net,CDN
 HOST,ajax.cdnjs.com,CDN
@@ -566,6 +567,7 @@ HOST,cdn.c1.amplience.net,CDN
 HOST,cdn.calibermind.com,CDN
 HOST,cdn.cameo.com,CDN
 HOST,cdn.camweara.com,CDN
+HOST,cdn.candu.ai,CDN
 HOST,cdn.candy.ai,CDN
 HOST,cdn.casestudies.svc.ui.com,CDN
 HOST,cdn.casetify.com,CDN
@@ -2198,6 +2200,7 @@ HOST,perf.hsforms.com,CDN
 HOST,pg2dhpc3p5ec22g3.jkforum.net,CDN
 HOST,pgw.udn.com.tw,CDN
 HOST,ph.northflank.com,CDN
+HOST,ph.tryprofound.com,CDN
 HOST,phishing.army,CDN
 HOST,photos5.appleinsider.com,CDN
 HOST,pic-bstarstatic.akamaized.net,CDN
@@ -2220,6 +2223,7 @@ HOST,pics.x-n-x-x.pro,CDN
 HOST,pics2.serviporno.com,CDN
 HOST,pictures-cdn.porn.com,CDN
 HOST,pim-media.intel.com,CDN
+HOST,pixel-cdn.default.com,CDN
 HOST,pixoraa.cc,CDN
 HOST,pkg-cdn.jetbrains.team,CDN
 HOST,pkg-size.dev,CDN
@@ -2577,6 +2581,7 @@ HOST,static-2v.gitbook.com,CDN
 HOST,static-3.bitchute.com,CDN
 HOST,static-4.bitchute.com,CDN
 HOST,static-act.imoim.net,CDN
+HOST,static-app.ahrefs.com,CDN
 HOST,static-app.klaviyo.com,CDN
 HOST,static-assets-1.truthsocial.com,CDN
 HOST,static-assets-prod.epicgames.com,CDN
@@ -2836,6 +2841,7 @@ HOST,static.salidzini.lv,CDN
 HOST,static.scarf.sh,CDN
 HOST,static.sdkassets.chime.aws,CDN
 HOST,static.seel.com,CDN
+HOST,static.semrush.com,CDN
 HOST,static.serverhunter.com,CDN
 HOST,static.skyassets.com,CDN
 HOST,static.smartframe.io,CDN
@@ -2864,6 +2870,7 @@ HOST,static.touhoudb.com,CDN
 HOST,static.tp-link.com,CDN
 HOST,static.tradingview.com,CDN
 HOST,static.tronscan.org,CDN
+HOST,static.tryprofound.com,CDN
 HOST,static.tumblr.com,CDN
 HOST,static.tvtropes.org,CDN
 HOST,static.twitchcdn.net,CDN

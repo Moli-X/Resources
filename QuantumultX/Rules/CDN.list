@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4527
+# 规则统计: 4528
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2988,6 +2988,7 @@ HOST,telemetry.individual.githubcopilot.com,CDN
 HOST,telemetry.nextjs.org,CDN
 HOST,telemetry.split.io,CDN
 HOST,telemetry.stepsecurity.io,CDN
+HOST,telemetry.timescale.com,CDN
 HOST,telemetry.vercel.com,CDN
 HOST,telemetry2.devolutions.net,CDN
 HOST,test.manyse.com,CDN

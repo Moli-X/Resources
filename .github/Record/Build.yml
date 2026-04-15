@@ -379,6 +379,7 @@ jobs:
             sed -i -e '/^OR/d' "$file"
             sed -i -e '/^NOT/d' "$file"
             sed -i -e '/^DEST-PORT/d' "$file"
+            sed -i -e '/^URL-REGEX/d' "$file"
             sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
             sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
             sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"

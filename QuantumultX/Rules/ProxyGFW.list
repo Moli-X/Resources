@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7306
+# 规则统计: 7299
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1652,7 +1652,6 @@ HOST-SUFFIX,douhokanko.net,ProxyGFW
 HOST-SUFFIX,doujincafe.com,ProxyGFW
 HOST-SUFFIX,dowei.org,ProxyGFW
 HOST-SUFFIX,dowjones.com,ProxyGFW
-HOST-SUFFIX,download.aircrack-ng.org,ProxyGFW
 HOST-SUFFIX,download.dappcdn.com,ProxyGFW
 HOST-SUFFIX,dphk.org,ProxyGFW
 HOST-SUFFIX,dpool.top,ProxyGFW
@@ -4530,6 +4529,7 @@ HOST-SUFFIX,open.com.hk,ProxyGFW
 HOST-SUFFIX,open.firstory.me,ProxyGFW
 HOST-SUFFIX,openai.com,ProxyGFW
 HOST-SUFFIX,openallweb.com,ProxyGFW
+HOST-SUFFIX,openart.ai,ProxyGFW
 HOST-SUFFIX,openbase.com,ProxyGFW
 HOST-SUFFIX,opencritic.com,ProxyGFW
 HOST-SUFFIX,opendemocracy.net,ProxyGFW
@@ -5161,13 +5161,6 @@ HOST-SUFFIX,s.yimg.com,ProxyGFW
 HOST-SUFFIX,s1heng.com,ProxyGFW
 HOST-SUFFIX,s1s1s1.com,ProxyGFW
 HOST-SUFFIX,s3-ap-northeast-1.amazonaws.com,ProxyGFW
-HOST-SUFFIX,s3-ap-northeast-2.amazonaws.com,ProxyGFW
-HOST-SUFFIX,s3-ap-southeast-1.amazonaws.com,ProxyGFW
-HOST-SUFFIX,s3-ap-southeast-2.amazonaws.com,ProxyGFW
-HOST-SUFFIX,s3-eu-central-1.amazonaws.com,ProxyGFW
-HOST-SUFFIX,s3.ap-northeast-2.amazonaws.com,ProxyGFW
-HOST-SUFFIX,s3.eu-central-1.amazonaws.com,ProxyGFW
-HOST-SUFFIX,s3.us-east-1.amazonaws.com,ProxyGFW
 HOST-SUFFIX,s4miniarchive.com,ProxyGFW
 HOST-SUFFIX,s8forum.com,ProxyGFW
 HOST-SUFFIX,saboom.com,ProxyGFW

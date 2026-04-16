@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4535
+# 规则统计: 4536
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1717,6 +1717,7 @@ HOST,img.4khd.com,CDN
 HOST,img.adspower.net,CDN
 HOST,img.agrd.eu,CDN
 HOST,img.announcekit.app,CDN
+HOST,img.api.tryprofound.com,CDN
 HOST,img.api.video,CDN
 HOST,img.apk.cafe,CDN
 HOST,img.applealmond.com,CDN

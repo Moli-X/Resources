@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4525
+# 规则统计: 4533
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -300,6 +300,7 @@ HOST,assets.visioncritical.net,CDN
 HOST,assets.vodafone.co.uk,CDN
 HOST,assets.vogue.com,CDN
 HOST,assets.volvo.com,CDN
+HOST,assets.vrchat.com,CDN
 HOST,assets.xboxservices.com,CDN
 HOST,assets.xmind.net,CDN
 HOST,assets.yande.re,CDN
@@ -361,6 +362,7 @@ HOST,badges.greenkeeper.io,CDN
 HOST,banners.chessbase.com,CDN
 HOST,barracuda-assets.zoovu.com,CDN
 HOST,barracuda-cdn.zoovu.com,CDN
+HOST,bcdn.alotporn.com,CDN
 HOST,bcdn.starapps.studio,CDN
 HOST,bcmedia.bitchute.com,CDN
 HOST,before.good-apps.co,CDN
@@ -1940,6 +1942,7 @@ HOST,live-storage.fc2.com,CDN
 HOST,live.fanmingming.com,CDN
 HOST,live.visually-io.com,CDN
 HOST,livedoor.blogimg.jp,CDN
+HOST,liveimg.sooplive.com,CDN
 HOST,livemap-tiles1.waze.com,CDN
 HOST,lm.visualon.info,CDN
 HOST,load.csell.co,CDN
@@ -2335,6 +2338,7 @@ HOST,res.abc.net.au,CDN
 HOST,res.cloudinary.com,CDN
 HOST,res.craft.do,CDN
 HOST,res.garmin.com,CDN
+HOST,res.sooplive.com,CDN
 HOST,res2.weblium.site,CDN
 HOST,resize-image.vocus.cc,CDN
 HOST,resize.blogsys.jp,CDN
@@ -2840,6 +2844,7 @@ HOST,static.snaptube.in,CDN
 HOST,static.snyk.io,CDN
 HOST,static.socialshopwave.com,CDN
 HOST,static.solarwinds.com,CDN
+HOST,static.sooplive.com,CDN
 HOST,static.spankbang.com,CDN
 HOST,static.spigotmc.org,CDN
 HOST,static.srcspot.com,CDN
@@ -2929,6 +2934,7 @@ HOST,steamcdn-a.akamaihd.net,CDN
 HOST,steamusercontent-a.akamaihd.net,CDN
 HOST,steamuserimages-a.akamaihd.net,CDN
 HOST,steamvideo-a.akamaihd.net,CDN
+HOST,stimg.sooplive.com,CDN
 HOST,storage-b.picacomic.com,CDN
 HOST,storage.courtlistener.com,CDN
 HOST,storage.crisp.chat,CDN
@@ -3625,6 +3631,7 @@ HOST-SUFFIX,ffzy888.com,CDN
 HOST-SUFFIX,filecunhua.top,CDN
 HOST-SUFFIX,files.bbci.co.uk,CDN
 HOST-SUFFIX,files.gitbook.io,CDN
+HOST-SUFFIX,files.sooplive.co.kr,CDN
 HOST-SUFFIX,files.wordpress.com,CDN
 HOST-SUFFIX,fimfiction-static.net,CDN
 HOST-SUFFIX,firebaseapp.com,CDN
@@ -3777,6 +3784,7 @@ HOST-SUFFIX,imageshack.us,CDN
 HOST-SUFFIX,imagetwist.com,CDN
 HOST-SUFFIX,img-dpreview.com,CDN
 HOST-SUFFIX,img.haiwaikan.com,CDN
+HOST-SUFFIX,img.sooplive.com,CDN
 HOST-SUFFIX,img1.acsta.net,CDN
 HOST-SUFFIX,img2.acsta.net,CDN
 HOST-SUFFIX,img3.acsta.net,CDN

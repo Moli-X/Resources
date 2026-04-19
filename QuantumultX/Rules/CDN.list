@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4534
+# 规则统计: 4535
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1660,6 +1660,7 @@ HOST,images.softwaresuggest.com,CDN
 HOST,images.spectrumnews1.com,CDN
 HOST,images.spot.im,CDN
 HOST,images.spr.so,CDN
+HOST,images.status.page,CDN
 HOST,images.store.crowdstrike.com,CDN
 HOST,images.svc.ui.com,CDN
 HOST,images.tg.cc,CDN

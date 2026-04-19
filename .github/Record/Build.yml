@@ -341,8 +341,6 @@ jobs:
             if grep -qE '^IP-(ASN|CIDR|CIDR6).*no-resolve$' "$file"; then
             sed -i '1i\no_resolve: true' "$file"
             fi
-            sed -i -E 's/^(URL-REGEX,)([^,]+)$/\1"\2"/' "$file"
-            sed -i -E 's/^(DOMAIN-WILDCARD,)([^,]+)$/\1"\2"/' "$file"            
             sed -i -E 's/^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN-WILDCARD|DEST-PORT|IP-CIDR|IP-CIDR6|IP-ASN|URL-REGEX|GEOIP),/  - /g' "$file"
             sed -i 's/,no-resolve//g' "$file"
             file_names=$(basename "$file" .yaml)

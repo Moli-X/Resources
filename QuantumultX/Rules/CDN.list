@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4533
+# 规则统计: 4534
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2471,6 +2471,7 @@ HOST,scripts.webeo.com,CDN
 HOST,sdata.ndtv.com,CDN
 HOST,sdk-cdn.fun.xyz,CDN
 HOST,sdk-static.loyaltylion.net,CDN
+HOST,sdk.amazonaws.com,CDN
 HOST,sdk.customfit.ai,CDN
 HOST,sdk.gleap.io,CDN
 HOST,sdk.helloextend.com,CDN

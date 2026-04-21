@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4535
+# 规则统计: 4536
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3021,7 +3021,6 @@ HOST,tile.osmand.net,CDN
 HOST,tile.ourmap.us,CDN
 HOST,tile.poloha.net,CDN
 HOST,tile.skybrush.io,CDN
-HOST,tile.thunderforest.com,CDN
 HOST,tile.waymarkedtrails.org,CDN
 HOST,tile2.intervals.icu,CDN
 HOST,tile2.opencyclemap.org,CDN
@@ -3029,6 +3028,7 @@ HOST,tilecache.rainviewer.com,CDN
 HOST,tiledbasemaps.arcgis.com,CDN
 HOST,tilemaps.icgc.cat,CDN
 HOST,tiles-a.koordinates.com,CDN
+HOST,tiles-eu.stadiamaps.com,CDN
 HOST,tiles.arcgis.com,CDN
 HOST,tiles.arcticconnect.ca,CDN
 HOST,tiles.gsj.jp,CDN
@@ -4312,6 +4312,7 @@ HOST-SUFFIX,tile.osm.ch,CDN
 HOST-SUFFIX,tile.osm.org,CDN
 HOST-SUFFIX,tile.osmz.ru,CDN
 HOST-SUFFIX,tile.stamen.com,CDN
+HOST-SUFFIX,tile.thunderforest.com,CDN
 HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
 HOST-SUFFIX,tiles.mapbox.com,CDN
 HOST-SUFFIX,tiles.virtualearth.net,CDN

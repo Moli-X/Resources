@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 106380
+# 规则统计: 106381
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -8755,6 +8755,7 @@ HOST-SUFFIX,analytics.changiairport.com,Anti-Ad
 HOST-SUFFIX,analytics.chase.com,Anti-Ad
 HOST-SUFFIX,analytics.chattarize.de,Anti-Ad
 HOST-SUFFIX,analytics.chegg.com,Anti-Ad
+HOST-SUFFIX,analytics.cherry-ai.com,Anti-Ad
 HOST-SUFFIX,analytics.chilevision.cl,Anti-Ad
 HOST-SUFFIX,analytics.churchthemes.com,Anti-Ad
 HOST-SUFFIX,analytics.chvnoticias.cl,Anti-Ad

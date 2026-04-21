@@ -3018,7 +3018,6 @@ DOMAIN,tile.osmand.net
 DOMAIN,tile.ourmap.us
 DOMAIN,tile.poloha.net
 DOMAIN,tile.skybrush.io
-DOMAIN,tile.thunderforest.com
 DOMAIN,tile.waymarkedtrails.org
 DOMAIN,tile2.intervals.icu
 DOMAIN,tile2.opencyclemap.org
@@ -3026,6 +3025,7 @@ DOMAIN,tilecache.rainviewer.com
 DOMAIN,tiledbasemaps.arcgis.com
 DOMAIN,tilemaps.icgc.cat
 DOMAIN,tiles-a.koordinates.com
+DOMAIN,tiles-eu.stadiamaps.com
 DOMAIN,tiles.arcgis.com
 DOMAIN,tiles.arcticconnect.ca
 DOMAIN,tiles.gsj.jp
@@ -4309,6 +4309,7 @@ DOMAIN-SUFFIX,tile.osm.ch
 DOMAIN-SUFFIX,tile.osm.org
 DOMAIN-SUFFIX,tile.osmz.ru
 DOMAIN-SUFFIX,tile.stamen.com
+DOMAIN-SUFFIX,tile.thunderforest.com
 DOMAIN-SUFFIX,tiles-api.maps.komoot.net
 DOMAIN-SUFFIX,tiles.mapbox.com
 DOMAIN-SUFFIX,tiles.virtualearth.net

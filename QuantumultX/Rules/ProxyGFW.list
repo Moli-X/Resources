@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7300
+# 规则统计: 7309
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -410,6 +410,7 @@ HOST-SUFFIX,aplusvpn.com,ProxyGFW
 HOST-SUFFIX,app-measurement.net,ProxyGFW
 HOST-SUFFIX,app.box.com,ProxyGFW
 HOST-SUFFIX,app.cloudcone.com,ProxyGFW
+HOST-SUFFIX,app.element.io,ProxyGFW
 HOST-SUFFIX,app.heywire.com,ProxyGFW
 HOST-SUFFIX,app.smartmailcloud.com,ProxyGFW
 HOST-SUFFIX,app.tutanota.com,ProxyGFW
@@ -466,6 +467,7 @@ HOST-SUFFIX,asiansexdiary.com,ProxyGFW
 HOST-SUFFIX,asianspiss.com,ProxyGFW
 HOST-SUFFIX,asianwomensfilm.de,ProxyGFW
 HOST-SUFFIX,asiaone.com,ProxyGFW
+HOST-SUFFIX,asiasociety.org,ProxyGFW
 HOST-SUFFIX,asiatgp.com,ProxyGFW
 HOST-SUFFIX,asiatoday.us,ProxyGFW
 HOST-SUFFIX,ask.com,ProxyGFW
@@ -618,6 +620,7 @@ HOST-SUFFIX,beijingspring.com,ProxyGFW
 HOST-SUFFIX,beijingzx.org,ProxyGFW
 HOST-SUFFIX,belamionline.com,ProxyGFW
 HOST-SUFFIX,bell.wiki,ProxyGFW
+HOST-SUFFIX,bellingcat.com,ProxyGFW
 HOST-SUFFIX,bemywife.cc,ProxyGFW
 HOST-SUFFIX,beric.me,ProxyGFW
 HOST-SUFFIX,berlinerbericht.de,ProxyGFW
@@ -3344,6 +3347,7 @@ HOST-SUFFIX,ismalltits.com,ProxyGFW
 HOST-SUFFIX,ismprofessional.net,ProxyGFW
 HOST-SUFFIX,isohunt.com,ProxyGFW
 HOST-SUFFIX,israbox.com,ProxyGFW
+HOST-SUFFIX,issues.chromium.org,ProxyGFW
 HOST-SUFFIX,issuu.com,ProxyGFW
 HOST-SUFFIX,istars.co.nz,ProxyGFW
 HOST-SUFFIX,istarshine.com,ProxyGFW
@@ -3624,6 +3628,7 @@ HOST-SUFFIX,lamayeshe.com,ProxyGFW
 HOST-SUFFIX,lamnia.co.uk,ProxyGFW
 HOST-SUFFIX,lamrim.com,ProxyGFW
 HOST-SUFFIX,landofhope.tv,ProxyGFW
+HOST-SUFFIX,lantern.io,ProxyGFW
 HOST-SUFFIX,lanterncn.cn,ProxyGFW
 HOST-SUFFIX,lantosfoundation.org,ProxyGFW
 HOST-SUFFIX,laod.cn,ProxyGFW
@@ -5024,6 +5029,7 @@ HOST-SUFFIX,rationalwiki.org,ProxyGFW
 HOST-SUFFIX,raw.githack.com,ProxyGFW
 HOST-SUFFIX,rawgit.com,ProxyGFW
 HOST-SUFFIX,rawgithub.com,ProxyGFW
+HOST-SUFFIX,rawstory.com,ProxyGFW
 HOST-SUFFIX,razyboard.com,ProxyGFW
 HOST-SUFFIX,rcam.target.com,ProxyGFW
 HOST-SUFFIX,rcinet.ca,ProxyGFW
@@ -5043,6 +5049,7 @@ HOST-SUFFIX,realsexpass.com,ProxyGFW
 HOST-SUFFIX,reason.com,ProxyGFW
 HOST-SUFFIX,rebatesrule.net,ProxyGFW
 HOST-SUFFIX,recaptcha.net,ProxyGFW
+HOST-SUFFIX,recordedfuture.com,ProxyGFW
 HOST-SUFFIX,recordhistory.org,ProxyGFW
 HOST-SUFFIX,recovery.org.tw,ProxyGFW
 HOST-SUFFIX,recoveryversion.com.tw,ProxyGFW
@@ -5108,6 +5115,7 @@ HOST-SUFFIX,rmbl.ws,ProxyGFW
 HOST-SUFFIX,rmjdw.com,ProxyGFW
 HOST-SUFFIX,rmjdw132.info,ProxyGFW
 HOST-SUFFIX,roadshow.hk,ProxyGFW
+HOST-SUFFIX,roblox.com,ProxyGFW
 HOST-SUFFIX,roboforex.com,ProxyGFW
 HOST-SUFFIX,robustnessiskey.com,ProxyGFW
 HOST-SUFFIX,rocket-inc.net,ProxyGFW
@@ -5883,6 +5891,7 @@ HOST-SUFFIX,thevivekspot.com,ProxyGFW
 HOST-SUFFIX,thewgo.org,ProxyGFW
 HOST-SUFFIX,thewirechina.com,ProxyGFW
 HOST-SUFFIX,theync.com,ProxyGFW
+HOST-SUFFIX,thinkchina.sg,ProxyGFW
 HOST-SUFFIX,thinkgeek.com,ProxyGFW
 HOST-SUFFIX,thinkingtaiwan.com,ProxyGFW
 HOST-SUFFIX,thinkwithgoogle.com,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4536
+# 规则统计: 4537
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -377,6 +377,7 @@ HOST,blob.sololearn.com,CDN
 HOST,boards.greenhouse.io,CDN
 HOST,bookface-static.ycombinator.com,CDN
 HOST,bot.ivy.ai,CDN
+HOST,brand-assets.cne.ngc.nvidia.com,CDN
 HOST,brand-sdk.kmsmep.com,CDN
 HOST,brandwidgets.outtra.com,CDN
 HOST,brew.sh,CDN

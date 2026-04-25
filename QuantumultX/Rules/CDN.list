@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4537
+# 规则统计: 4541
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1302,9 +1302,11 @@ HOST,encrypted-vtbn1.gstatic.com,CDN
 HOST,encrypted-vtbn2.gstatic.com,CDN
 HOST,encrypted-vtbn3.gstatic.com,CDN
 HOST,eomd1.fembeqq.xyz,CDN
+HOST,ep1.pinkbike.org,CDN
 HOST,epic-social-social-modules-prod.ol.epicgames.com,CDN
 HOST,error.rakuten.co.jp,CDN
 HOST,errors.figma.com,CDN
+HOST,es.pinkbike.org,CDN
 HOST,eslint-react.xyz,CDN
 HOST,eslint.org,CDN
 HOST,eslint.style,CDN
@@ -1432,6 +1434,7 @@ HOST,geojson.io,CDN
 HOST,geoserveis.icgc.cat,CDN
 HOST,gfx-data.news-engineering.aws.wapo.pub,CDN
 HOST,gibs-c.earthdata.nasa.gov,CDN
+HOST,gis.pinkbike.org,CDN
 HOST,gitpkg-fork.vercel.sh,CDN
 HOST,global-assets.fitch.group,CDN
 HOST,global.divhunt.com,CDN
@@ -4407,6 +4410,7 @@ HOST-SUFFIX,winudf.com,CDN
 HOST-SUFFIX,wixmp.com,CDN
 HOST-SUFFIX,wixstatic.com,CDN
 HOST-SUFFIX,wixstudio.io,CDN
+HOST-SUFFIX,wklcdn.com,CDN
 HOST-SUFFIX,wmfusercontent.org,CDN
 HOST-SUFFIX,wolongcdnm3u8.com,CDN
 HOST-SUFFIX,wolongzywcdn3.com,CDN

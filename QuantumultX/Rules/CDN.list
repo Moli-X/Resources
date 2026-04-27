@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4541
+# 规则统计: 4542
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1975,6 +1975,7 @@ HOST,map.adsbexchange.com,CDN
 HOST,map.vesselfinder.net,CDN
 HOST,maps.geoapify.com,CDN
 HOST,maps.gstatic.com,CDN
+HOST,maps.wikimedia.org,CDN
 HOST,maps.wplace.live,CDN
 HOST,maptile.osmand.net,CDN
 HOST,marber-cdn.economist.com,CDN

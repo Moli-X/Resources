@@ -1,5 +1,5 @@
 # 规则名称: Reject
-# 规则统计: 6206
+# 规则统计: 6209
 
 HOST,118.89.204.198,Reject
 HOST,a.wkanx.com,Reject
@@ -1085,6 +1085,7 @@ HOST-SUFFIX,adtrace.org,Reject
 HOST-SUFFIX,adv-sv-show.focus.cn,Reject
 HOST-SUFFIX,advertising.com,Reject
 HOST-SUFFIX,advertising.yahoo.com,Reject
+HOST-SUFFIX,advlion.com,Reject
 HOST-SUFFIX,adwhirl.com,Reject
 HOST-SUFFIX,adwo.com,Reject
 HOST-SUFFIX,adx.mala.cn,Reject
@@ -5170,6 +5171,7 @@ HOST-SUFFIX,uaqe.cn,Reject
 HOST-SUFFIX,ub1.job592.com,Reject
 HOST-SUFFIX,ubeeludrt.com,Reject
 HOST-SUFFIX,uberads.com,Reject
+HOST-SUFFIX,ubixioe.com,Reject
 HOST-SUFFIX,ubmcvideo.baidustatic.com,Reject
 HOST-SUFFIX,ubudhal.com,Reject
 HOST-SUFFIX,uc9.suinidai.com.cn,Reject
@@ -5980,6 +5982,7 @@ HOST-SUFFIX,yukhj.com,Reject
 HOST-SUFFIX,yulx.cn,Reject
 HOST-SUFFIX,yumimobi.com,Reject
 HOST-SUFFIX,yunqingugm.com,Reject
+HOST-SUFFIX,yunxish.com,Reject
 HOST-SUFFIX,yuqnyudug.com,Reject
 HOST-SUFFIX,yur09111og.com,Reject
 HOST-SUFFIX,yur09121og.com,Reject

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4542
+# 规则统计: 4543
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -745,6 +745,7 @@ HOST,cdn.mathjax.org,CDN
 HOST,cdn.matterhorn.app,CDN
 HOST,cdn.mcauto-images-production.sendgrid.net,CDN
 HOST,cdn.mcr.ea.com,CDN
+HOST,cdn.mer.run,CDN
 HOST,cdn.mercury.com,CDN
 HOST,cdn.metadata.io,CDN
 HOST,cdn.mewe.com,CDN

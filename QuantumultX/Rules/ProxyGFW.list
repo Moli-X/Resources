@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7311
+# 规则统计: 7307
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -5212,9 +5212,6 @@ HOST-SUFFIX,sb-cd.com,ProxyGFW
 HOST-SUFFIX,sbme.me,ProxyGFW
 HOST-SUFFIX,sbs.com.au,ProxyGFW
 HOST-SUFFIX,sbti.unun.dev,ProxyGFW
-HOST-SUFFIX,scache.vzw.com,ProxyGFW
-HOST-SUFFIX,scache1.vzw.com,ProxyGFW
-HOST-SUFFIX,scache2.vzw.com,ProxyGFW
 HOST-SUFFIX,scasino.com,ProxyGFW
 HOST-SUFFIX,schema.org,ProxyGFW
 HOST-SUFFIX,sciencemag.org,ProxyGFW
@@ -5559,7 +5556,6 @@ HOST-SUFFIX,squirrelvpn.com,ProxyGFW
 HOST-SUFFIX,srocket.us,ProxyGFW
 HOST-SUFFIX,ss-link.com,ProxyGFW
 HOST-SUFFIX,ss.levyhsu.com,ProxyGFW
-HOST-SUFFIX,ss7.vzw.com,ProxyGFW
 HOST-SUFFIX,ssglobal.co,ProxyGFW
 HOST-SUFFIX,ssglobal.me,ProxyGFW
 HOST-SUFFIX,ssh91.com,ProxyGFW

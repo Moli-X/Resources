@@ -1,5 +1,5 @@
 # 规则名称: HTTPDNS.Block
-# 规则统计: 60
+# 规则统计: 64
 
 HOST,aedns.weixin.qq.com,HTTPDNS.Block
 HOST,dns.jd.com,HTTPDNS.Block
@@ -24,9 +24,11 @@ HOST,httpdns.kg.qq.com,HTTPDNS.Block
 HOST,httpdns.meituan.com,HTTPDNS.Block
 HOST,httpdns.music.163.com,HTTPDNS.Block
 HOST,httpdns.n.netease.com,HTTPDNS.Block
+HOST,httpdns.ocloud.oppomobile.com,HTTPDNS.Block
 HOST,httpdns.push.oppomobile.com,HTTPDNS.Block
 HOST,httpdns.volcengineapi.com,HTTPDNS.Block
 HOST,httpdns.yunxindns.com,HTTPDNS.Block
+HOST,httpdns.yunxinfw.com,HTTPDNS.Block
 HOST,httpdnsmultiapi.meituan.com,HTTPDNS.Block
 HOST,httpdnsmultiapivip.meituan.com,HTTPDNS.Block
 HOST,httpsdns.baidu.com,HTTPDNS.Block
@@ -43,7 +45,9 @@ IP-CIDR,118.89.204.198/32,HTTPDNS.Block
 IP-CIDR,119.29.29.98/32,HTTPDNS.Block
 IP-CIDR,119.29.29.99/32,HTTPDNS.Block
 IP-CIDR,123.151.54.50/32,HTTPDNS.Block
+IP-CIDR,180.76.76.112/32,HTTPDNS.Block
 IP-CIDR,180.76.76.200/32,HTTPDNS.Block
+IP-CIDR,180.76.76.220/32,HTTPDNS.Block
 IP-CIDR,182.254.116.117/32,HTTPDNS.Block
 IP-CIDR,182.254.118.119/32,HTTPDNS.Block
 IP-CIDR,202.90.108.13/32,HTTPDNS.Block

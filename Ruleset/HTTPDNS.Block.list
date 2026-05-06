@@ -21,9 +21,11 @@ DOMAIN,httpdns.kg.qq.com
 DOMAIN,httpdns.meituan.com
 DOMAIN,httpdns.music.163.com
 DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns.ocloud.oppomobile.com
 DOMAIN,httpdns.push.oppomobile.com
 DOMAIN,httpdns.volcengineapi.com
 DOMAIN,httpdns.yunxindns.com
+DOMAIN,httpdns.yunxinfw.com
 DOMAIN,httpdnsmultiapi.meituan.com
 DOMAIN,httpdnsmultiapivip.meituan.com
 DOMAIN,httpsdns.baidu.com
@@ -40,7 +42,9 @@ IP-CIDR,118.89.204.198/32
 IP-CIDR,119.29.29.98/32
 IP-CIDR,119.29.29.99/32
 IP-CIDR,123.151.54.50/32
+IP-CIDR,180.76.76.112/32
 IP-CIDR,180.76.76.200/32
+IP-CIDR,180.76.76.220/32
 IP-CIDR,182.254.116.117/32
 IP-CIDR,182.254.118.119/32
 IP-CIDR,202.90.108.13/32

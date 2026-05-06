@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4543
+# 规则统计: 4546
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1419,6 +1419,7 @@ HOST,freeshippingbar.herokuapp.com,CDN
 HOST,front-resource.fs.com,CDN
 HOST,frontend-apps.workos.com,CDN
 HOST,frontend-assets.supabase.com,CDN
+HOST,frontend-cdn.perplexity.ai,CDN
 HOST,frontend.floatplane.com,CDN
 HOST,fs.mingpao.com,CDN
 HOST,fscdn.eppo.cloud,CDN
@@ -1433,6 +1434,7 @@ HOST,genesis-cdn.ff.com,CDN
 HOST,geoip-js.com,CDN
 HOST,geojson.io,CDN
 HOST,geoserveis.icgc.cat,CDN
+HOST,get-it-on.codeberg.org,CDN
 HOST,gfx-data.news-engineering.aws.wapo.pub,CDN
 HOST,gibs-c.earthdata.nasa.gov,CDN
 HOST,gis.pinkbike.org,CDN
@@ -2520,6 +2522,7 @@ HOST,sg-thumbnail-drive.mypikpak.com,CDN
 HOST,share-assets.fe.garmin.com,CDN
 HOST,share.chessbase.com,CDN
 HOST,shell.cdn.office.net,CDN
+HOST,shields.rbtlog.dev,CDN
 HOST,shots.codepen.io,CDN
 HOST,showcase.abovemarket.com,CDN
 HOST,sig.grumpybumpers.com,CDN

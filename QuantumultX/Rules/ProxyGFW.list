@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7331
+# 规则统计: 7332
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -6358,6 +6358,7 @@ HOST-SUFFIX,ultrasurf.us,ProxyGFW
 HOST-SUFFIX,ultravpn.com,ProxyGFW
 HOST-SUFFIX,ultravpn.fr,ProxyGFW
 HOST-SUFFIX,ultraxs.com,ProxyGFW
+HOST-SUFFIX,umap.openstreetmap.fr,ProxyGFW
 HOST-SUFFIX,umich.edu,ProxyGFW
 HOST-SUFFIX,unblock-us.com,ProxyGFW
 HOST-SUFFIX,unblock.cn.com,ProxyGFW

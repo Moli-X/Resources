@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4550
+# 规则统计: 4554
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -497,6 +497,7 @@ HOST,cdn-share-sprites.flaticon.com,CDN
 HOST,cdn-stamplib.casetify.com,CDN
 HOST,cdn-static-1.medium.com,CDN
 HOST,cdn-static-push.porndig.com,CDN
+HOST,cdn-static.okendo.io,CDN
 HOST,cdn-static.paw.cloud,CDN
 HOST,cdn-static.talent.com,CDN
 HOST,cdn-swell-assets.yotpo.com,CDN
@@ -533,6 +534,7 @@ HOST,cdn.animenewsnetwork.com,CDN
 HOST,cdn.announcekit.app,CDN
 HOST,cdn.answeroverflow.com,CDN
 HOST,cdn.app.fossa.com,CDN
+HOST,cdn.app.metorik.com,CDN
 HOST,cdn.app.neononepay.com,CDN
 HOST,cdn.apponic.com,CDN
 HOST,cdn.aptoide.com,CDN
@@ -888,6 +890,7 @@ HOST,cdn.super.com,CDN
 HOST,cdn.svgator.com,CDN
 HOST,cdn.svgporn.com,CDN
 HOST,cdn.syftdata.com,CDN
+HOST,cdn.tabarn.ap,CDN
 HOST,cdn.tailwindcss.com,CDN
 HOST,cdn.tatlerasia.com,CDN
 HOST,cdn.techcommunity.microsoft.com,CDN
@@ -3123,6 +3126,7 @@ HOST,upload.movim.eu,CDN
 HOST,upload.teftera.com,CDN
 HOST,upload.wikimedia.org,CDN
 HOST,uploads-cdn.omnicalculator.com,CDN
+HOST,uploads.bikeindex.org,CDN
 HOST,uploads.codesandbox.io,CDN
 HOST,uploads.guim.co.uk,CDN
 HOST,uploads.linear.app,CDN

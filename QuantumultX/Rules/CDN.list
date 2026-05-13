@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4546
+# 规则统计: 4550
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -924,6 +924,7 @@ HOST,cdn.v2ex.com,CDN
 HOST,cdn.vector.co,CDN
 HOST,cdn.verifypass.com,CDN
 HOST,cdn.viafoura.net,CDN
+HOST,cdn.videy.co,CDN
 HOST,cdn.vidyard.com,CDN
 HOST,cdn.viglink.com,CDN
 HOST,cdn.violet.vin,CDN
@@ -1980,6 +1981,7 @@ HOST,maps.geoapify.com,CDN
 HOST,maps.gstatic.com,CDN
 HOST,maps.wikimedia.org,CDN
 HOST,maps.wplace.live,CDN
+HOST,mapserver.mapy.cz,CDN
 HOST,maptile.osmand.net,CDN
 HOST,marber-cdn.economist.com,CDN
 HOST,marfeelexperimentsexperienceengine.mrf.io,CDN
@@ -3023,7 +3025,6 @@ HOST,thumbsnap.com,CDN
 HOST,tile.loc.gov,CDN
 HOST,tile.mtbmap.cz,CDN
 HOST,tile.nextzen.org,CDN
-HOST,tile.opentopomap.org,CDN
 HOST,tile.openweathermap.org,CDN
 HOST,tile.osm.be,CDN
 HOST,tile.osmand.net,CDN
@@ -3054,6 +3055,7 @@ HOST,tiles.openseamap.org,CDN
 HOST,tiles.openskimap.org,CDN
 HOST,tiles.planet.com,CDN
 HOST,tiles.stadiamaps.com,CDN
+HOST,tiles.strava.com,CDN
 HOST,tiles.terria.io,CDN
 HOST,tiles.versatiles.org,CDN
 HOST,tiles.windy.com,CDN
@@ -4317,12 +4319,14 @@ HOST-SUFFIX,tile.openstreetmap.bzh,CDN
 HOST-SUFFIX,tile.openstreetmap.de,CDN
 HOST-SUFFIX,tile.openstreetmap.fr,CDN
 HOST-SUFFIX,tile.openstreetmap.org,CDN
+HOST-SUFFIX,tile.opentopomap.org,CDN
 HOST-SUFFIX,tile.osm.ch,CDN
 HOST-SUFFIX,tile.osm.org,CDN
 HOST-SUFFIX,tile.osmz.ru,CDN
 HOST-SUFFIX,tile.stamen.com,CDN
 HOST-SUFFIX,tile.thunderforest.com,CDN
 HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
+HOST-SUFFIX,tiles.freemap.sk,CDN
 HOST-SUFFIX,tiles.mapbox.com,CDN
 HOST-SUFFIX,tiles.virtualearth.net,CDN
 HOST-SUFFIX,tindiemedia.com,CDN

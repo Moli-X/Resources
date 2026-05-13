@@ -921,6 +921,7 @@ DOMAIN,cdn.v2ex.com
 DOMAIN,cdn.vector.co
 DOMAIN,cdn.verifypass.com
 DOMAIN,cdn.viafoura.net
+DOMAIN,cdn.videy.co
 DOMAIN,cdn.vidyard.com
 DOMAIN,cdn.viglink.com
 DOMAIN,cdn.violet.vin
@@ -1977,6 +1978,7 @@ DOMAIN,maps.geoapify.com
 DOMAIN,maps.gstatic.com
 DOMAIN,maps.wikimedia.org
 DOMAIN,maps.wplace.live
+DOMAIN,mapserver.mapy.cz
 DOMAIN,maptile.osmand.net
 DOMAIN,marber-cdn.economist.com
 DOMAIN,marfeelexperimentsexperienceengine.mrf.io
@@ -3020,7 +3022,6 @@ DOMAIN,thumbsnap.com
 DOMAIN,tile.loc.gov
 DOMAIN,tile.mtbmap.cz
 DOMAIN,tile.nextzen.org
-DOMAIN,tile.opentopomap.org
 DOMAIN,tile.openweathermap.org
 DOMAIN,tile.osm.be
 DOMAIN,tile.osmand.net
@@ -3051,6 +3052,7 @@ DOMAIN,tiles.openseamap.org
 DOMAIN,tiles.openskimap.org
 DOMAIN,tiles.planet.com
 DOMAIN,tiles.stadiamaps.com
+DOMAIN,tiles.strava.com
 DOMAIN,tiles.terria.io
 DOMAIN,tiles.versatiles.org
 DOMAIN,tiles.windy.com
@@ -4314,12 +4316,14 @@ DOMAIN-SUFFIX,tile.openstreetmap.bzh
 DOMAIN-SUFFIX,tile.openstreetmap.de
 DOMAIN-SUFFIX,tile.openstreetmap.fr
 DOMAIN-SUFFIX,tile.openstreetmap.org
+DOMAIN-SUFFIX,tile.opentopomap.org
 DOMAIN-SUFFIX,tile.osm.ch
 DOMAIN-SUFFIX,tile.osm.org
 DOMAIN-SUFFIX,tile.osmz.ru
 DOMAIN-SUFFIX,tile.stamen.com
 DOMAIN-SUFFIX,tile.thunderforest.com
 DOMAIN-SUFFIX,tiles-api.maps.komoot.net
+DOMAIN-SUFFIX,tiles.freemap.sk
 DOMAIN-SUFFIX,tiles.mapbox.com
 DOMAIN-SUFFIX,tiles.virtualearth.net
 DOMAIN-SUFFIX,tindiemedia.com

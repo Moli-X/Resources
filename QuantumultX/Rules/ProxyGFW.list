@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7335
+# 规则统计: 7337
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -5375,6 +5375,7 @@ HOST-SUFFIX,shwchurch3.com,ProxyGFW
 HOST-SUFFIX,siddharthasintent.org,ProxyGFW
 HOST-SUFFIX,sidelinesnews.com,ProxyGFW
 HOST-SUFFIX,sidelinessportseatery.com,ProxyGFW
+HOST-SUFFIX,sider.ai,ProxyGFW
 HOST-SUFFIX,sierrafriendsoftibet.org,ProxyGFW
 HOST-SUFFIX,signal.org,ProxyGFW
 HOST-SUFFIX,sijihuisuo.club,ProxyGFW
@@ -7167,6 +7168,7 @@ HOST-SUFFIX,zh.wikiquote.org,ProxyGFW
 HOST-SUFFIX,zhanbin.net,ProxyGFW
 HOST-SUFFIX,zhangboli.net,ProxyGFW
 HOST-SUFFIX,zhangtianliang.com,ProxyGFW
+HOST-SUFFIX,zhangzhehan.net,ProxyGFW
 HOST-SUFFIX,zhanlve.org,ProxyGFW
 HOST-SUFFIX,zhao.1984.city,ProxyGFW
 HOST-SUFFIX,zhenghui.org,ProxyGFW

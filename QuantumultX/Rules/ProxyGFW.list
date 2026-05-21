@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7337
+# 规则统计: 7343
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1920,6 +1920,7 @@ HOST-SUFFIX,ezua.com,ProxyGFW
 HOST-SUFFIX,f-droid.org,ProxyGFW
 HOST-SUFFIX,f2pool.com,ProxyGFW
 HOST-SUFFIX,f8.com,ProxyGFW
+HOST-SUFFIX,f95zone.to,ProxyGFW
 HOST-SUFFIX,facebook.br,ProxyGFW
 HOST-SUFFIX,facebook.com,ProxyGFW
 HOST-SUFFIX,facebook.de,ProxyGFW
@@ -2278,6 +2279,7 @@ HOST-SUFFIX,fzh999.net,ProxyGFW
 HOST-SUFFIX,fzlm.com,ProxyGFW
 HOST-SUFFIX,g-area.org,ProxyGFW
 HOST-SUFFIX,g-queen.com,ProxyGFW
+HOST-SUFFIX,g.ai,ProxyGFW
 HOST-SUFFIX,g.co,ProxyGFW
 HOST-SUFFIX,g.kfd.me,ProxyGFW
 HOST-SUFFIX,g0v.social,ProxyGFW
@@ -3676,6 +3678,7 @@ HOST-SUFFIX,leisurepro.com,ProxyGFW
 HOST-SUFFIX,lematin.ch,ProxyGFW
 HOST-SUFFIX,lemonde.fr,ProxyGFW
 HOST-SUFFIX,lenwhite.com,ProxyGFW
+HOST-SUFFIX,leonardo.ai,ProxyGFW
 HOST-SUFFIX,lerosua.org,ProxyGFW
 HOST-SUFFIX,lers.google,ProxyGFW
 HOST-SUFFIX,lesoir.be,ProxyGFW
@@ -5040,6 +5043,7 @@ HOST-SUFFIX,rangzen.org,ProxyGFW
 HOST-SUFFIX,ranxiang.com,ProxyGFW
 HOST-SUFFIX,ranyunfei.com,ProxyGFW
 HOST-SUFFIX,rapbull.net,ProxyGFW
+HOST-SUFFIX,raphael.app,ProxyGFW
 HOST-SUFFIX,rapidgator.net,ProxyGFW
 HOST-SUFFIX,rapidmoviez.com,ProxyGFW
 HOST-SUFFIX,rapidvpn.com,ProxyGFW
@@ -5173,6 +5177,7 @@ HOST-SUFFIX,rts.ch,ProxyGFW
 HOST-SUFFIX,rtycminnesota.org,ProxyGFW
 HOST-SUFFIX,ruanyifeng.com,ProxyGFW
 HOST-SUFFIX,rukor.org,ProxyGFW
+HOST-SUFFIX,rule34.us,ProxyGFW
 HOST-SUFFIX,rule34.xxx,ProxyGFW
 HOST-SUFFIX,rule34video.com,ProxyGFW
 HOST-SUFFIX,rumble.com,ProxyGFW
@@ -5520,6 +5525,7 @@ HOST-SUFFIX,sos.org,ProxyGFW
 HOST-SUFFIX,sosad.fun,ProxyGFW
 HOST-SUFFIX,sosreader.com,ProxyGFW
 HOST-SUFFIX,sostibet.org,ProxyGFW
+HOST-SUFFIX,sotwe.com,ProxyGFW
 HOST-SUFFIX,sou-tong.org,ProxyGFW
 HOST-SUFFIX,soubory.com,ProxyGFW
 HOST-SUFFIX,soul-plus.net,ProxyGFW

@@ -171,7 +171,7 @@ jobs:
                 "FitnessPlus.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
                 "AppleMedia.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
                 "Bahamut.list https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
-                "ProxyMedia.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+                "ProxyMedia.list https://ruleset.skk.moe/List/non_ip/stream.conf"
                 # PayPal
                 "PayPal.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
                 # Cloudflare

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7343
+# 规则统计: 7346
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -70,6 +70,7 @@ HOST-SUFFIX,21sextury.com,ProxyGFW
 HOST-SUFFIX,228.net.tw,ProxyGFW
 HOST-SUFFIX,233abc.com,ProxyGFW
 HOST-SUFFIX,233v2.com,ProxyGFW
+HOST-SUFFIX,24hbook.com,ProxyGFW
 HOST-SUFFIX,24hrs.ca,ProxyGFW
 HOST-SUFFIX,24smile.org,ProxyGFW
 HOST-SUFFIX,25u.com,ProxyGFW
@@ -3877,6 +3878,7 @@ HOST-SUFFIX,maruta.be,ProxyGFW
 HOST-SUFFIX,marxist.com,ProxyGFW
 HOST-SUFFIX,marxist.net,ProxyGFW
 HOST-SUFFIX,marxists.org,ProxyGFW
+HOST-SUFFIX,mas.to,ProxyGFW
 HOST-SUFFIX,mash.to,ProxyGFW
 HOST-SUFFIX,maskedip.com,ProxyGFW
 HOST-SUFFIX,mastodon.cloud,ProxyGFW
@@ -4263,6 +4265,7 @@ HOST-SUFFIX,ndr.de,ProxyGFW
 HOST-SUFFIX,ned.org,ProxyGFW
 HOST-SUFFIX,nekoslovakia.net,ProxyGFW
 HOST-SUFFIX,neo-miracle.com,ProxyGFW
+HOST-SUFFIX,neodb.social,ProxyGFW
 HOST-SUFFIX,neoforged.net,ProxyGFW
 HOST-SUFFIX,neowin.net,ProxyGFW
 HOST-SUFFIX,nephobox.com,ProxyGFW

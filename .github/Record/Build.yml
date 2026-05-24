@@ -1,3 +1,7 @@
+# =============================================================================
+# 规则集自动构建工作流
+# 每天 0:05 和 12:05 (UTC) 自动运行，从上游源下载规则并转换为多平台格式
+# =============================================================================
 name: Build
 
 on:
@@ -5,10 +9,12 @@ on:
   schedule:
     - cron: "5 0,12 * * *"
 
+# 同一时间只允许一个构建运行，防止并发冲突
 concurrency:
   group: build-rules
   cancel-in-progress: false
 
+# 需要写权限用于推送变更，actions 权限用于清理历史运行记录
 permissions:
   contents: write
   actions: write
@@ -18,26 +24,35 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SING_BOX_VERSION: 1.10.5
+      SING_BOX_VERSION: 1.11.7
 
     steps:
+    # =========================================================================
+    # Step 1: 检出仓库
+    # =========================================================================
     - name: Checkout Repository
       uses: actions/checkout@v6.0.2
       with:
         repository: ${{ github.repository }}
         path: Tool-repo
 
+    # =========================================================================
+    # Step 2: 下载 GeoIP 数据库（中国 + 全球）
+    # =========================================================================
     - name: GeoIP
       run: |
         mkdir -p Tool-repo/GeoIP
         curl -L -o Tool-repo/GeoIP/CN_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb"
         curl -L -o Tool-repo/GeoIP/Global_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb"
 
+    # =========================================================================
+    # Step 3: 下载上游规则源，合并/分类输出为 .list 文件
+    # =========================================================================
     - name: Run Bash Script
       run: |
         set -euo pipefail
 
-        # 通用下载合并函数: download_and_merge <output_file> <url1> [url2 ...]
+        # 通用下载合并函数：将多个 URL 的内容按序拼接到一个文件
         download_and_merge() {
             local output="$1"
             shift
@@ -58,7 +73,9 @@ jobs:
         echo "Running in Tool repository"
         mkdir -p Tool-repo/Ruleset
 
-        # 合并广告规则
+        # ---- 合并类规则（多源聚合为一个文件） ----
+
+        # 广告拦截规则
         download_and_merge Tool-repo/Ruleset/Reject.list \
             "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list" \
             "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list" \
@@ -66,46 +83,46 @@ jobs:
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list" \
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Reject.list"
 
-        # 合并 SukkaW 广告规则
+        # SukkaW 广告规则
         download_and_merge Tool-repo/Ruleset/Ads_SukkaW.list \
             "https://ruleset.skk.moe/List/domainset/reject.conf" \
             "https://ruleset.skk.moe/List/non_ip/reject.conf"
 
-        # 合并 SukkaW CDN 规则
+        # SukkaW CDN 规则
         download_and_merge Tool-repo/Ruleset/CDN.list \
             "https://ruleset.skk.moe/List/domainset/cdn.conf" \
             "https://ruleset.skk.moe/List/non_ip/cdn.conf"
 
-        # 合并 Download 规则
+        # 直连规则
         download_and_merge Tool-repo/Ruleset/Direct.list \
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list"
 
-        # 合并 GFW 规则
+        # GFW 代理规则
         download_and_merge Tool-repo/Ruleset/ProxyGFW.list \
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list" \
             "https://ruleset.skk.moe/List/non_ip/global.conf"
 
-        # 合并 AI 规则
+        # AI 规则（SukkaW + 自定义）
         download_and_merge Tool-repo/Ruleset/AI.list \
             "https://ruleset.skk.moe/List/non_ip/ai.conf" \
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/xAI.list" \
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/AI.list"
 
-        # 合并 AppleProxy 规则
+        # Apple 代理规则
         download_and_merge Tool-repo/Ruleset/AppleProxy.list \
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
 
-        # 合并 AppleCN 规则
+        # Apple 国内规则
         download_and_merge Tool-repo/Ruleset/AppleCN.list \
             "https://ruleset.skk.moe/List/non_ip/apple_cn.conf" \
             "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf"
 
-        # 合并 Proxy 规则
+        # 代理规则
         download_and_merge Tool-repo/Ruleset/Proxy.list \
             "https://ruleset.skk.moe/List/non_ip/global.conf" \
             "https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Custom/Proxy.list"
 
-        # 下载规则
+        # ---- 单源下载规则（一个 URL 对应一个文件） ----
         files=(
             # 苹果
             "APNs.list|https://git.repcz.link/kelee.one/Tool/Loon/Lsr/ApplePushNotificationService.lsr"
@@ -127,7 +144,7 @@ jobs:
             # 谷歌
             "YouTube.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
             "Google.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
-            # 微软
+            # 微软 / 开源
             "Github.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
             "OneDrive.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
             "Microsoft.list|https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
@@ -148,7 +165,7 @@ jobs:
             "PayPal.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
             # Cloudflare
             "Cloudflare.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
-            # 游戏规则
+            # 游戏
             "Steam.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
             "Epic.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
             "Game.list|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
@@ -190,38 +207,46 @@ jobs:
         done
         echo "Files downloaded successfully."
 
+    # =========================================================================
+    # Step 4: 源文件格式标准化（统一为 DOMAIN,xxx 格式）
+    # =========================================================================
     - name: Source build
       run: |
         set -euo pipefail
         for file in Tool-repo/Ruleset/*.list ; do
           if [ -f "$file" ]; then
-            # 将以"."开头的行的第一个"."替换为 "DOMAIN-SUFFIX"
+            # 将以"."开头的行（裸域名）转换为 DOMAIN-SUFFIX 格式
             sed -i '/^\./s/^\./DOMAIN-SUFFIX,/' "$file"
-            # 将除了以 "#" 开头、"空行" 开头之外的行, 在行首添加 "DOMAIN"
+            # 将未被识别为已知规则类型的行自动添加 DOMAIN, 前缀
             sed -i -E '/^\s*$/b; /^\s*[#;]/b; /^DOMAIN,|^DOMAIN-SUFFIX,|^DOMAIN-KEYWORD,|^DOMAIN-WILDCARD,|^IP-CIDR,|^IP-CIDR6,|^IP-ASN,|^GEOIP,|^AND,|^OR,|^NOT,|^URL-REGEX,|^USER-AGENT,|^PROCESS-NAME,|^DEST-PORT,/b; s/^([^#])/DOMAIN,\1/' "$file"
-            # 删除文件中所有 [以 # 或 ; 开头的注释行] + [空行] + [每行中 // 及其后面的内容]
+            # 删除注释行（#或;开头）、空行、行内注释（// 及之后内容）
             sed -i -e '/^\s*[#;]/d' -e '/^$/d' -e 's| //.*||'  "$file"
-            # 删除指定域名
-            sed -i -e '/DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe/d' "$file"
-            sed -i -e '/DOMAIN,th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe/d' "$file"
-            sed -i -e '/DOMAIN,this_rule_set_is_made_by_sukkaw.skk.moe/d' "$file"
-            sed -i -e '/DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe/d' "$file"
+            # 删除 SukkaW 规则的标记域名（匹配含 leet speak 在内的所有变体）
+            sed -i -E '/DOMAIN,.*ruleset\.skk\.moe/d' "$file"
+            # 移除行尾的 reject 标记
             sed -i -e 's/,reject$//' "$file"
+            # 删除误拦截的 12306 域名
             sed -i -e '/DOMAIN,ad.12306.cn/d' "$file"
-            # 修正格式
+            # 修正逗号后多余空格
             sed -i 's/, */,/g' "$file"
           else
             echo "$file not found."
           fi
         done
 
+    # =========================================================================
+    # Step 5: 排序与去重
+    # =========================================================================
     - name: Source sort
       run: |
         set -euo pipefail
         for file in Tool-repo/Ruleset/*.list ; do
           if [ -f "$file" ]; then
+            # 自动识别纯 IP 地址并添加 IP-CIDR, 前缀
             sed -i -E '/^IP-CIDR,/!{/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]+/s/^/IP-CIDR,/}' "$file"
+            # 自动识别纯 IPv6 地址并添加 IP-CIDR6, 前缀
             sed -i -E '/^IP-CIDR6,/!{/^[a-fA-F0-9]+:|([a-fA-F0-9]+:+)+[a-fA-F0-9]+\/[0-9]+/s/^/IP-CIDR6,/}' "$file"
+            # 按规则类型分组排序，保持同类规则在一起，组内按域名/IP 字母序排列
             awk '
             /^DOMAIN,/         { print "0 " $0; next }
             /^DOMAIN-SUFFIX,/  { print "1 " $0; next }
@@ -240,12 +265,16 @@ jobs:
             /^DEST-PORT,/      { print "14 " $0; next }
                                { print "15 " $0; next }
             ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "$file.sorted" && mv "$file.sorted" "$file"
+            # 大小写不敏感去重
             awk '!seen[tolower($0)]++' "$file" > temp && mv temp "$file"
           else
             echo "$file not found."
           fi
         done
 
+    # =========================================================================
+    # Step 6: 将通用 .list 文件复制到各平台目录
+    # =========================================================================
     - name: Copy files
       run: |
         set -euo pipefail
@@ -253,30 +282,36 @@ jobs:
         mkdir -p Tool-repo/{Egern,Loon,QuantumultX,Shadowrocket,Stash,Surge,sing-box,mihomo}/Rules
         for file in Tool-repo/Ruleset/*.list; do
           filename=$(basename "$file")
+          # 复制到大部分平台（保持 .list 后缀）
           for dir in Loon QuantumultX Shadowrocket Stash Surge mihomo; do
             cp "$file" "Tool-repo/$dir/Rules/$filename"
           done
-          # 复制到 Egern 文件夹, 并将后缀改为.yaml
+          # Egern 使用 .yaml 后缀
           cp "$file" "Tool-repo/Egern/Rules/${filename%.*}.yaml"
-          # 复制到 sing-box 文件夹, 并将后缀改为.json
+          # sing-box 使用 .json 后缀
           cp "$file" "Tool-repo/sing-box/Rules/${filename%.*}.json"
         done
         echo "Files copied successfully."
 
+    # =========================================================================
+    # Step 7: mihomo 平台格式处理
+    # =========================================================================
     - name: mihomo
       run: |
         set -euo pipefail
         rm -rf Tool-repo/Ruleset
         for file in Tool-repo/mihomo/Rules/*.list; do
           if [ -f "$file" ]; then
+            # 删除 mihomo 不支持的规则类型：USER-AGENT、URL-REGEX
             sed -i -e '/^USER-AGENT/d' "$file"
             sed -i -e '/^URL-REGEX/d' "$file"
-            # 将 DOMAIN-WILDCARD *.domain.com 转换为 DOMAIN-SUFFIX domain.com
+            # DOMAIN-WILDCARD *.domain.com 转换为 DOMAIN-SUFFIX domain.com
             sed -i -E 's/^DOMAIN-WILDCARD,\*\.(.+)/DOMAIN-SUFFIX,\1/' "$file"
             # 删除无法转换的残留 DOMAIN-WILDCARD 行
             sed -i '/^DOMAIN-WILDCARD,/d' "$file"
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
+            # 添加元数据注释头
             tmpfile=$(mktemp)
             awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
             tmpfile=$(mktemp)
@@ -287,6 +322,9 @@ jobs:
           fi
         done
 
+    # =========================================================================
+    # Step 8: Egern 平台格式转换（.list → .yaml 结构）
+    # =========================================================================
     - name: Egern
       run: |
         set -euo pipefail
@@ -296,12 +334,14 @@ jobs:
             continue
           fi
 
+          # 删除 Egern 不支持的规则类型
           sed -i -e '/^USER-AGENT/d' "$file"
           sed -i -e '/^PROCESS-NAME/d' "$file"
           sed -i -e '/^AND/d' "$file"
           sed -i -e '/^OR/d' "$file"
           sed -i -e '/^NOT/d' "$file"
 
+          # 在每个规则类型首次出现前插入对应的 YAML 键名
           awk 'BEGIN{added=0} /^DOMAIN,/          && !added {print "domain_set:";         added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
           awk 'BEGIN{added=0} /^DOMAIN-SUFFIX,/   && !added {print "domain_suffix_set:";  added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
           awk 'BEGIN{added=0} /^DOMAIN-KEYWORD,/  && !added {print "domain_keyword_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
@@ -313,13 +353,16 @@ jobs:
           awk 'BEGIN{added=0} /^DEST-PORT,/       && !added {print "dest_port_set:";      added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
           awk 'BEGIN{added=0} /^GEOIP,/           && !added {print "geoip_set:";           added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
 
-          # 格式转换
+          # 如果有 no-resolve 的 IP 规则，在文件头添加 no_resolve: true
           if grep -qE '^IP-(ASN|CIDR|CIDR6).*no-resolve$' "$file"; then
             sed -i '1i\no_resolve: true' "$file"
           fi
+          # SURGE格式规则类型 → Egern YAML 列表项格式
           sed -i -E 's/^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN-WILDCARD|DEST-PORT|IP-CIDR|IP-CIDR6|IP-ASN|URL-REGEX|GEOIP),/  - /g' "$file"
+          # 移除 no-resolve 后缀
           sed -i 's/,no-resolve//g' "$file"
 
+          # 添加元数据注释头
           file_names=$(basename "$file" .yaml)
           line_count=$(grep -c '^  - ' "$file")
           tmpfile=$(mktemp)
@@ -329,12 +372,17 @@ jobs:
           sed -i '2a\\' "$file"
         done
 
+    # =========================================================================
+    # Step 9: Loon 平台格式处理
+    # =========================================================================
     - name: Loon
       run: |
         set -euo pipefail
         for file in Tool-repo/Loon/Rules/*.list; do
           if [ -f "$file" ]; then
+            # 删除 Loon 不支持的 PROCESS-NAME 规则
             sed -i -e '/^PROCESS-NAME/d' "$file"
+            # 添加元数据注释头
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
             tmpfile=$(mktemp)
@@ -347,34 +395,43 @@ jobs:
           fi
         done
 
+    # =========================================================================
+    # Step 10: QuantumultX 平台格式转换
+    # =========================================================================
     - name: QuantumultX
       run: |
         set -euo pipefail
         for file in Tool-repo/QuantumultX/Rules/*.list; do
           if [ -f "$file" ]; then
+            # 删除 QX 不支持的规则类型
             sed -i -e '/^PROCESS-NAME/d' "$file"
             sed -i -e '/^AND/d' "$file"
             sed -i -e '/^OR/d' "$file"
             sed -i -e '/^NOT/d' "$file"
             sed -i -e '/^DEST-PORT/d' "$file"
             sed -i -e '/^URL-REGEX/d' "$file"
+            # SURGE格式规则类型 → QX 格式
             sed -i -e 's/^DOMAIN,/HOST,/g' "$file"
             sed -i -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g' "$file"
             sed -i -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' "$file"
             sed -i -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g' "$file"
             sed -i -e 's/^IP-CIDR6,/IP6-CIDR,/g' "$file"
+            # 移除 no-resolve 后缀
             sed -i 's/,no-resolve//g' "$file"
           else
             echo "$file not found."
           fi
         done
 
+        # QX 需要每行规则后追加策略名（策略名 = 文件名）
         for file in Tool-repo/QuantumultX/Rules/*.list; do
           if [ -f "$file" ]; then
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
+            # 非注释、非空行追加策略名
             tmpfile=$(mktemp)
             awk -v policy="$file_names" '!/^#|^ *$/ {print $0","policy; next} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            # 添加元数据注释头
             tmpfile=$(mktemp)
             awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
             tmpfile=$(mktemp)
@@ -388,12 +445,17 @@ jobs:
         cd Tool-repo/QuantumultX/Rules
         cp Ads_DiDiChuXing.list DDCX.snippet
 
+    # =========================================================================
+    # Step 11: Shadowrocket 平台格式处理
+    # =========================================================================
     - name: Shadowrocket
       run: |
         set -euo pipefail
         for file in Tool-repo/Shadowrocket/Rules/*.list; do
           if [ -f "$file" ]; then
+            # 删除 Shadowrocket 不支持的 PROCESS-NAME 规则
             sed -i -e '/^PROCESS-NAME/d' "$file"
+            # 添加元数据注释头
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
             tmpfile=$(mktemp)
@@ -406,16 +468,21 @@ jobs:
           fi
         done
 
+    # =========================================================================
+    # Step 12: Stash 平台格式处理
+    # =========================================================================
     - name: Stash
       run: |
         set -euo pipefail
         for file in Tool-repo/Stash/Rules/*.list; do
           if [ -f "$file" ]; then
+            # 删除 Stash 不支持的规则类型
             sed -i -e '/^USER-AGENT/d' "$file"
             sed -i -e '/^URL-REGEX/d' "$file"
             sed -i -e '/^AND/d' "$file"
             sed -i -e '/^OR/d' "$file"
             sed -i -e '/^NOT/d' "$file"
+            # 添加元数据注释头
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
             tmpfile=$(mktemp)
@@ -428,11 +495,15 @@ jobs:
           fi
         done
 
+    # =========================================================================
+    # Step 13: Surge 平台格式处理
+    # =========================================================================
     - name: Surge
       run: |
         set -euo pipefail
         for file in Tool-repo/Surge/Rules/*.list; do
           if [ -f "$file" ]; then
+            # Surge 原生支持所有规则类型，仅添加元数据注释头
             file_names=$(basename "$file" .list)
             line_count=$(wc -l < "$file")
             tmpfile=$(mktemp)
@@ -445,19 +516,23 @@ jobs:
           fi
         done
 
+    # =========================================================================
+    # Step 14: sing-box 平台格式转换（.json + 编译 .srs）
+    # =========================================================================
     - name: sing-box
       run: |
         set -euo pipefail
-        # 安装 sing-box
+        # 安装 sing-box 命令行工具
         curl -L -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
         tar -xzf sing-box.tar.gz
         chmod +x "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
         sudo mv "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
         sing-box version
-        # 处理 Rules
+
+        # 处理每个 .json 规则文件
         for file in Tool-repo/sing-box/Rules/*.json; do
           if [ -f "$file" ]; then
-            sed -i -e '/^PROCESS-NAME/d' "$file"
+            # 删除 sing-box 不支持的规则类型及注释、空行
             sed -i -e '/^AND/d' "$file"
             sed -i -e '/^OR/d' "$file"
             sed -i -e '/^NOT/d' "$file"
@@ -469,10 +544,13 @@ jobs:
             sed -i -e '/^#/d' "$file"
             sed -i -e '/^$/d' "$file"
 
+            # 构建 sing-box rule-set JSON 结构
             temp_file=$(mktemp)
             echo '{' > "$temp_file"
             echo '  "version": 2,' >> "$temp_file"
             echo '  "rules": [' >> "$temp_file"
+
+            # 提取 DOMAIN 规则
             domains=$(grep -E '^DOMAIN,' "$file" | cut -d, -f2 || true)
             if [ -n "$domains" ]; then
               domain_array=$(echo "$domains" | jq -R . | jq -s .)
@@ -483,6 +561,8 @@ jobs:
               echo '      ]' >> "$temp_file"
               echo '    },' >> "$temp_file"
             fi
+
+            # 提取 DOMAIN-SUFFIX 规则
             domain_suffixes=$(grep -E '^DOMAIN-SUFFIX,' "$file" | cut -d, -f2 || true)
             if [ -n "$domain_suffixes" ]; then
               domain_suffix_array=$(echo "$domain_suffixes" | jq -R . | jq -s .)
@@ -493,6 +573,8 @@ jobs:
               echo '      ]' >> "$temp_file"
               echo '    },' >> "$temp_file"
             fi
+
+            # 提取 DOMAIN-KEYWORD 规则
             domain_keywords=$(grep -E '^DOMAIN-KEYWORD,' "$file" | cut -d, -f2 || true)
             if [ -n "$domain_keywords" ]; then
               domain_keyword_array=$(echo "$domain_keywords" | jq -R . | jq -s .)
@@ -503,6 +585,8 @@ jobs:
               echo '      ]' >> "$temp_file"
               echo '    },' >> "$temp_file"
             fi
+
+            # 提取 IP-CIDR / IP-CIDR6 规则
             ip_cidrs=$(grep -E '^IP-CIDR,|^IP-CIDR6,' "$file" | cut -d, -f2 || true)
             if [ -n "$ip_cidrs" ]; then
               ip_cidr_array=$(echo "$ip_cidrs" | jq -R . | jq -s .)
@@ -511,23 +595,42 @@ jobs:
               echo "$ip_cidr_array" | jq -r '.[]' | sed 's/^/        "/;s/$/",/' >> "$temp_file"
               sed -i '$ s/,$//' "$temp_file"
               echo '      ]' >> "$temp_file"
-              echo '    }' >> "$temp_file"
+              echo '    },' >> "$temp_file"
             fi
+
+            # 提取 PROCESS-NAME 规则
+            process_names=$(grep -E '^PROCESS-NAME,' "$file" | cut -d, -f2 || true)
+            if [ -n "$process_names" ]; then
+              process_name_array=$(echo "$process_names" | jq -R . | jq -s .)
+              echo '    {' >> "$temp_file"
+              echo '      "process_name": [' >> "$temp_file"
+              echo "$process_name_array" | jq -r '.[]' | sed 's/^/        "/;s/$/",/' >> "$temp_file"
+              sed -i '$ s/,$//' "$temp_file"
+              echo '      ]' >> "$temp_file"
+              echo '    },' >> "$temp_file"
+            fi
+
+            # 清理末尾逗号
             sed -i '$ s/,$//' "$temp_file"
             echo '  ]' >> "$temp_file"
             echo '}' >> "$temp_file"
+
             mv "$temp_file" "$file"
-            # 编译 JSON 规则
+            # 升级 rule-set JSON 版本到当前最新，再编译为 .srs 二进制格式
+            sing-box rule-set upgrade -w "$file"
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
           else
             echo "$file not found."
           fi
         done
-        # 清理（移到循环外部，避免影响后续文件编译）
+        # 清理安装文件
         rm -rf sing-box "sing-box-${SING_BOX_VERSION}-linux-amd64" sing-box.tar.gz
         rm -rf "${{ github.workspace }}/Tool-repo/sing-box/Rules/ChinaASN"{.json,.srs}
         rm -rf "${{ github.workspace }}/Tool-repo/sing-box/Rules/FILTER_REGION"{.json,.srs}
 
+    # =========================================================================
+    # Step 15: 提交并推送变更
+    # =========================================================================
     - name: Push Update
       run: |
         set -euo pipefail
@@ -537,12 +640,15 @@ jobs:
             git config --local user.name "${{ github.actor }}"
             git add -A
             TIMESTAMP="$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
-            git commit -m "chore(rules): auto-sync rulesets at ${TIMESTAMP} [by ${{ github.actor }}]"
+            git commit -m "update(rules): ${TIMESTAMP}"
             git push origin "${{ github.ref_name }}"
           else
             echo "No changes to commit."
           fi
 
+    # =========================================================================
+    # Step 16: 清理历史 Workflow 运行记录，仅保留最近 2 次
+    # =========================================================================
     - name: Cleanup Workflow
       uses: Mattraks/delete-workflow-runs@main
       with:

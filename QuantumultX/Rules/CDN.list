@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4561
+# 规则统计: 4564
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -675,6 +675,7 @@ HOST,cdn.gettr.com,CDN
 HOST,cdn.ghostery.com,CDN
 HOST,cdn.giftcardpro.app,CDN
 HOST,cdn.gigya.com,CDN
+HOST,cdn.gist.ai,CDN
 HOST,cdn.gofundme.com,CDN
 HOST,cdn.googlesource.com,CDN
 HOST,cdn.growthbook.io,CDN
@@ -3243,6 +3244,7 @@ HOST,widget.freshworks.com,CDN
 HOST,widget.gotolstoy.com,CDN
 HOST,widget.intercom.io,CDN
 HOST,widget.kapa.ai,CDN
+HOST,widget.prod.equally.ai,CDN
 HOST,widget.reviews.io,CDN
 HOST,widget.trustpilot.com,CDN
 HOST,widget.usepylon.com,CDN
@@ -3636,6 +3638,7 @@ HOST-SUFFIX,events.backtrace.io,CDN
 HOST-SUFFIX,exp-tas.com,CDN
 HOST-SUFFIX,externulls.com,CDN
 HOST-SUFFIX,ezocdn.com,CDN
+HOST-SUFFIX,f-cdn.com,CDN
 HOST-SUFFIX,f.hubspotemail.net,CDN
 HOST-SUFFIX,f.hubspotfree.net,CDN
 HOST-SUFFIX,f.hubspotstarter.net,CDN

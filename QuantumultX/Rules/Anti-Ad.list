@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 106111
+# 规则统计: 106114
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -11083,6 +11083,7 @@ HOST-SUFFIX,applog-perf.uc.cn,Anti-Ad
 HOST-SUFFIX,applog.lc.quark.cn,Anti-Ad
 HOST-SUFFIX,applog.musical.ly,Anti-Ad
 HOST-SUFFIX,applog.reader.qq.com,Anti-Ad
+HOST-SUFFIX,applog.snssdk.com,Anti-Ad
 HOST-SUFFIX,applog.ssgdfs.com,Anti-Ad
 HOST-SUFFIX,applog.uc.cn,Anti-Ad
 HOST-SUFFIX,applog.ucdns.uc.cn,Anti-Ad
@@ -31946,6 +31947,7 @@ HOST-SUFFIX,f308e80f54.com,Anti-Ad
 HOST-SUFFIX,f30fpad7.xyz,Anti-Ad
 HOST-SUFFIX,f34aabcc0e.com,Anti-Ad
 HOST-SUFFIX,f351966262.com,Anti-Ad
+HOST-SUFFIX,f3531.top,Anti-Ad
 HOST-SUFFIX,f362.nola.com,Anti-Ad
 HOST-SUFFIX,f3fea4450e3b.xzccie.com,Anti-Ad
 HOST-SUFFIX,f3i5-0g49bgn-3h95-1324992141.cos.ap-jakarta.myqcloud.com,Anti-Ad
@@ -64068,6 +64070,7 @@ HOST-SUFFIX,orvietnmqxcgm.online,Anti-Ad
 HOST-SUFFIX,orvpurzpur.in,Anti-Ad
 HOST-SUFFIX,orxitdetwa.com,Anti-Ad
 HOST-SUFFIX,orzukuzorpxvp.online,Anti-Ad
+HOST-SUFFIX,os-mon.snssdk.com,Anti-Ad
 HOST-SUFFIX,os.efax.es,Anti-Ad
 HOST-SUFFIX,os.efax.nl,Anti-Ad
 HOST-SUFFIX,os.efaxcorporate.com,Anti-Ad

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4564
+# 规则统计: 4566
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1313,6 +1313,7 @@ HOST,encrypted-vtbn3.gstatic.com,CDN
 HOST,eomd1.fembeqq.xyz,CDN
 HOST,ep1.pinkbike.org,CDN
 HOST,epic-social-social-modules-prod.ol.epicgames.com,CDN
+HOST,error.c.cdn77.org,CDN
 HOST,error.rakuten.co.jp,CDN
 HOST,errors.figma.com,CDN
 HOST,es.pinkbike.org,CDN
@@ -3675,6 +3676,7 @@ HOST-SUFFIX,fmcdn.net,CDN
 HOST-SUFFIX,fncstatic.com,CDN
 HOST-SUFFIX,fontawesome.com,CDN
 HOST-SUFFIX,fonts.com,CDN
+HOST-SUFFIX,fonts.coollabs.io,CDN
 HOST-SUFFIX,fonts.gsma.com,CDN
 HOST-SUFFIX,fonts.net,CDN
 HOST-SUFFIX,forbesimg.com,CDN

@@ -115,7 +115,7 @@ jobs:
         # Apple 国内规则
         download_and_merge Tool-repo/Ruleset/AppleCN.list \
             "https://ruleset.skk.moe/List/non_ip/apple_cn.conf" \
-            "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf"
+            "https://ruleset.skk.moe/List/domainset/apple_cdn.conf"
 
         # 代理规则
         download_and_merge Tool-repo/Ruleset/Proxy.list \

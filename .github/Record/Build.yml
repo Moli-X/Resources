@@ -547,7 +547,7 @@ jobs:
             # 构建 sing-box rule-set JSON 结构
             temp_file=$(mktemp)
             echo '{' > "$temp_file"
-            echo '  "version": 2,' >> "$temp_file"
+            echo '  "version": 5,' >> "$temp_file"
             echo '  "rules": [' >> "$temp_file"
 
             # 提取 DOMAIN 规则
@@ -616,8 +616,7 @@ jobs:
             echo '}' >> "$temp_file"
 
             mv "$temp_file" "$file"
-            # 升级 rule-set JSON 版本到当前最新，再编译为 .srs 二进制格式
-            sing-box rule-set upgrade -w "$file"
+            # 编译为 .srs 二进制格式
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
           else
             echo "$file not found."

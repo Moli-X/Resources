@@ -24,7 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SING_BOX_VERSION: 1.11.7
 
     steps:
     # =========================================================================
@@ -522,6 +521,9 @@ jobs:
     - name: sing-box
       run: |
         set -euo pipefail
+        # 获取 sing-box 最新稳定版版本号
+        SING_BOX_VERSION=$(curl -sL "https://api.github.com/repos/SagerNet/sing-box/releases/latest" | jq -r '.tag_name' | sed 's/^v//')
+        echo "Latest sing-box version: ${SING_BOX_VERSION}"
         # 安装 sing-box 命令行工具
         curl -L -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
         tar -xzf sing-box.tar.gz
@@ -547,7 +549,7 @@ jobs:
             # 构建 sing-box rule-set JSON 结构
             temp_file=$(mktemp)
             echo '{' > "$temp_file"
-            echo '  "version": 5,' >> "$temp_file"
+            echo '  "version": 4,' >> "$temp_file"
             echo '  "rules": [' >> "$temp_file"
 
             # 提取 DOMAIN 规则
@@ -624,6 +626,7 @@ jobs:
         done
         # 清理安装文件
         rm -rf sing-box "sing-box-${SING_BOX_VERSION}-linux-amd64" sing-box.tar.gz
+        unset SING_BOX_VERSION
         rm -rf "${{ github.workspace }}/Tool-repo/sing-box/Rules/ChinaASN"{.json,.srs}
         rm -rf "${{ github.workspace }}/Tool-repo/sing-box/Rules/FILTER_REGION"{.json,.srs}
 

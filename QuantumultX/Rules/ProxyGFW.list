@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7348
+# 规则统计: 7354
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -457,6 +457,7 @@ HOST-SUFFIX,artsy.net,ProxyGFW
 HOST-SUFFIX,arunachalforests.gov.in,ProxyGFW
 HOST-SUFFIX,arvanstorage.ir,ProxyGFW
 HOST-SUFFIX,arweave.org,ProxyGFW
+HOST-SUFFIX,as.mr,ProxyGFW
 HOST-SUFFIX,asacp.org,ProxyGFW
 HOST-SUFFIX,asdfg.jp,ProxyGFW
 HOST-SUFFIX,asg.to,ProxyGFW
@@ -556,6 +557,7 @@ HOST-SUFFIX,bangchen.net,ProxyGFW
 HOST-SUFFIX,bangdream.space,ProxyGFW
 HOST-SUFFIX,bangkokpost.com,ProxyGFW
 HOST-SUFFIX,bangumi.moe,ProxyGFW
+HOST-SUFFIX,bangumi.tv,ProxyGFW
 HOST-SUFFIX,bangyoulater.com,ProxyGFW
 HOST-SUFFIX,bankmobilevibe.com,ProxyGFW
 HOST-SUFFIX,bannedbook.org,ProxyGFW
@@ -650,6 +652,7 @@ HOST-SUFFIX,bewww.net,ProxyGFW
 HOST-SUFFIX,beyondfirewall.com,ProxyGFW
 HOST-SUFFIX,bfnn.org,ProxyGFW
 HOST-SUFFIX,bfsh.hk,ProxyGFW
+HOST-SUFFIX,bgm.tv,ProxyGFW
 HOST-SUFFIX,bgme.me,ProxyGFW
 HOST-SUFFIX,bgvpn.com,ProxyGFW
 HOST-SUFFIX,bianlei.com,ProxyGFW
@@ -1119,6 +1122,7 @@ HOST-SUFFIX,chenshan20042005.wordpress.com,ProxyGFW
 HOST-SUFFIX,cherrysave.com,ProxyGFW
 HOST-SUFFIX,chhongbi.org,ProxyGFW
 HOST-SUFFIX,chicagoncmtv.com,ProxyGFW
+HOST-SUFFIX,chii.in,ProxyGFW
 HOST-SUFFIX,china-mmm.jp.net,ProxyGFW
 HOST-SUFFIX,china-mmm.net,ProxyGFW
 HOST-SUFFIX,china-mmm.sa.com,ProxyGFW
@@ -1294,7 +1298,6 @@ HOST-SUFFIX,cn6.eu,ProxyGFW
 HOST-SUFFIX,cna.com.tw,ProxyGFW
 HOST-SUFFIX,cnabc.com,ProxyGFW
 HOST-SUFFIX,cnbbnews.wordpress.com,ProxyGFW
-HOST-SUFFIX,cnbc.com,ProxyGFW
 HOST-SUFFIX,cnbeta.com.tw,ProxyGFW
 HOST-SUFFIX,cnd.org,ProxyGFW
 HOST-SUFFIX,cnet.com,ProxyGFW
@@ -2343,6 +2346,7 @@ HOST-SUFFIX,geekerhome.com,ProxyGFW
 HOST-SUFFIX,geekheart.info,ProxyGFW
 HOST-SUFFIX,gekikame.com,ProxyGFW
 HOST-SUFFIX,gelbooru.com,ProxyGFW
+HOST-SUFFIX,gencraft.com,ProxyGFW
 HOST-SUFFIX,generated.photos,ProxyGFW
 HOST-SUFFIX,genius.com,ProxyGFW
 HOST-SUFFIX,geocities.co.jp,ProxyGFW
@@ -2937,6 +2941,7 @@ HOST-SUFFIX,hi-on.org.tw,ProxyGFW
 HOST-SUFFIX,hicairo.com,ProxyGFW
 HOST-SUFFIX,hiccears.com,ProxyGFW
 HOST-SUFFIX,hidden-advent.org,ProxyGFW
+HOST-SUFFIX,hiddify.com,ProxyGFW
 HOST-SUFFIX,hide.me,ProxyGFW
 HOST-SUFFIX,hidecloud.com,ProxyGFW
 HOST-SUFFIX,hidein.net,ProxyGFW
@@ -6496,6 +6501,7 @@ HOST-SUFFIX,vatn.org,ProxyGFW
 HOST-SUFFIX,vcf-online.org,ProxyGFW
 HOST-SUFFIX,vcfbuilder.org,ProxyGFW
 HOST-SUFFIX,vds.rightster.com,ProxyGFW
+HOST-SUFFIX,veed.io,ProxyGFW
 HOST-SUFFIX,vegas.williamhill.com,ProxyGFW
 HOST-SUFFIX,vegasred.com,ProxyGFW
 HOST-SUFFIX,velkaepocha.sk,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4567
+# 规则统计: 4568
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -241,6 +241,7 @@ HOST,assets.nypost.com,CDN
 HOST,assets.onestore.ms,CDN
 HOST,assets.ontrack.com,CDN
 HOST,assets.openalternative.co,CDN
+HOST,assets.openlogi.org,CDN
 HOST,assets.openshift.com,CDN
 HOST,assets.openshift.net,CDN
 HOST,assets.orz.uno,CDN

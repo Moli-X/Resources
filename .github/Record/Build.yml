@@ -30,7 +30,7 @@ jobs:
     # Step 1: 检出仓库
     # =========================================================================
     - name: Checkout Repository
-      uses: actions/checkout@v6.0.2
+      uses: actions/checkout@v6.0.3
       with:
         repository: ${{ github.repository }}
         path: Tool-repo

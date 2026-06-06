@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4570
+# 规则统计: 4574
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -350,6 +350,7 @@ HOST,avts.wmlabs.net,CDN
 HOST,awsimgsrc.dmm.co.jp,CDN
 HOST,axiecdn.axieinfinity.com,CDN
 HOST,az700632.vo.msecnd.net,CDN
+HOST,b.manufact.com,CDN
 HOST,b.peatio.com,CDN
 HOST,b.sf-syn.com,CDN
 HOST,b5x-sentry.1passwordservices.com,CDN
@@ -2087,6 +2088,7 @@ HOST,media.tenor.com,CDN
 HOST,media.themoviedb.org,CDN
 HOST,media.theporndude.com,CDN
 HOST,media.theresanaiforthat.com,CDN
+HOST,media.trakt.tv,CDN
 HOST,media.user.com,CDN
 HOST,media.webtoo.ls,CDN
 HOST,media.wired.com,CDN
@@ -3135,6 +3137,7 @@ HOST,updates2.signal.org,CDN
 HOST,upload.movim.eu,CDN
 HOST,upload.teftera.com,CDN
 HOST,upload.wikimedia.org,CDN
+HOST,uploadcare.mwcglobalprofile.com,CDN
 HOST,uploads-cdn.omnicalculator.com,CDN
 HOST,uploads.bikeindex.org,CDN
 HOST,uploads.codesandbox.io,CDN
@@ -3211,6 +3214,7 @@ HOST,wa.arounddeal.com,CDN
 HOST,wa1.aninoapps.com,CDN
 HOST,wac-cdn.atlassian.com,CDN
 HOST,waitlisted.co,CDN
+HOST,walter-r2.trakt.tv,CDN
 HOST,wandi-6402.kxcdn.com,CDN
 HOST,wcpstatic.microsoft.com,CDN
 HOST,wctour-images.worldchess.com,CDN

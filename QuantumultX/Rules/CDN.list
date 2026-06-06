@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4568
+# 规则统计: 4570
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2216,6 +2216,7 @@ HOST,perf-na1.hsforms.com,CDN
 HOST,perf.hsforms.com,CDN
 HOST,pg2dhpc3p5ec22g3.jkforum.net,CDN
 HOST,pgw.udn.com.tw,CDN
+HOST,ph.langfuse.com,CDN
 HOST,ph.northflank.com,CDN
 HOST,ph.tryprofound.com,CDN
 HOST,phishing.army,CDN
@@ -3139,6 +3140,7 @@ HOST,uploads.bikeindex.org,CDN
 HOST,uploads.codesandbox.io,CDN
 HOST,uploads.guim.co.uk,CDN
 HOST,uploads.linear.app,CDN
+HOST,uploads.pullfrog.com,CDN
 HOST,uploads.sitepoint.com,CDN
 HOST,upos-sz-mirroralibstar1.bilivideo.com,CDN
 HOST,upos-sz-mirrorcosbstar1.bilivideo.com,CDN

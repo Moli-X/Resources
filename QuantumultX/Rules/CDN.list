@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4574
+# 规则统计: 4575
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -649,6 +649,7 @@ HOST,cdn.equinix.com,CDN
 HOST,cdn.eu.contentful.com,CDN
 HOST,cdn.european-alternatives.eu,CDN
 HOST,cdn.evbstatic.com,CDN
+HOST,cdn.evgnet.com,CDN
 HOST,cdn.f5.com,CDN
 HOST,cdn.faire.com,CDN
 HOST,cdn.fastcomments.com,CDN

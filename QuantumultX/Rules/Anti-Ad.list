@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 106021
+# 规则统计: 106022
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -5966,6 +5966,7 @@ HOST-SUFFIX,adcccc.com,Anti-Ad
 HOST-SUFFIX,adcdn.goo.ne.jp,Anti-Ad
 HOST-SUFFIX,adcdn.hpplay.cn,Anti-Ad
 HOST-SUFFIX,adcdn.tencentmusic.com,Anti-Ad
+HOST-SUFFIX,adcdn6.tencentmusic.com,Anti-Ad
 HOST-SUFFIX,adcdnx.com,Anti-Ad
 HOST-SUFFIX,adcell.com,Anti-Ad
 HOST-SUFFIX,adcell.de,Anti-Ad

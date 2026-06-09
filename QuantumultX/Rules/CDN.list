@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4575
+# 规则统计: 4582
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -288,6 +288,7 @@ HOST,assets.tigerdata.com,CDN
 HOST,assets.time.com,CDN
 HOST,assets.tokopedia.net,CDN
 HOST,assets.toot.cafe,CDN
+HOST,assets.transfernow.net,CDN
 HOST,assets.tvtropes.org,CDN
 HOST,assets.twitch.tv,CDN
 HOST,assets.unicorn.studio,CDN
@@ -441,6 +442,7 @@ HOST,canny-assets.io,CDN
 HOST,canvas-lb.tubitv.com,CDN
 HOST,cartodb-basemaps-a.global.ssl.fastly.net,CDN
 HOST,cassette.sphdigital.com.sg,CDN
+HOST,catalogartifact.azureedge.net,CDN
 HOST,categoriespages-cdn.trustpilot.net,CDN
 HOST,cc-embed.adobe.com,CDN
 HOST,cc.boyfriendtv.com,CDN
@@ -1197,6 +1199,7 @@ HOST,creative.eizzih.com,CDN
 HOST,creator-image.javhd.com,CDN
 HOST,crl.usertrust.com,CDN
 HOST,crl.verisign.com,CDN
+HOST,crl3.digicert.com,CDN
 HOST,crt.comodoca.com,CDN
 HOST,crt.sectigo.com,CDN
 HOST,crt.usertrust.com,CDN
@@ -1859,6 +1862,7 @@ HOST,imgcn5.bgmbk.tv,CDN
 HOST,imgfile.shop,CDN
 HOST,imgix.setapp.com,CDN
 HOST,imgopt.infoq.com,CDN
+HOST,imgproxy.flathub.org,CDN
 HOST,imgproxy.fourthwall.com,CDN
 HOST,imgrs.apkcombo.com,CDN
 HOST,imgs.plurk.com,CDN
@@ -2123,6 +2127,7 @@ HOST,momentjs.com,CDN
 HOST,moodular.jotform.com,CDN
 HOST,mosaic-blender.fxtwitter.com,CDN
 HOST,mosaic.fxtwitter.com,CDN
+HOST,mozilla-ohttp.fastly-edge.com,CDN
 HOST,mparticle.weather.com,CDN
 HOST,mstdn-s3.o3o.studio,CDN
 HOST,mta.newfold.com,CDN
@@ -3173,6 +3178,7 @@ HOST,v.w-x.co,CDN
 HOST,v2.listenloop.com,CDN
 HOST,v2uploads.zopim.io,CDN
 HOST,vanilla-extract.style,CDN
+HOST,variations.brave.com,CDN
 HOST,vbmspic.video.friday.tw,CDN
 HOST,vcdn.anysex.com,CDN
 HOST,vectorified.com,CDN
@@ -4319,6 +4325,7 @@ HOST-SUFFIX,sway-cdn.com,CDN
 HOST-SUFFIX,swiftypecdn.com,CDN
 HOST-SUFFIX,sxccdn.com,CDN
 HOST-SUFFIX,szjal.cn,CDN
+HOST-SUFFIX,t-assets.net,CDN
 HOST-SUFFIX,t8cdn.com,CDN
 HOST-SUFFIX,tacdn.com,CDN
 HOST-SUFFIX,tags.f5.com,CDN

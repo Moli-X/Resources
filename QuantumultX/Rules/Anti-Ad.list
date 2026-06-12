@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 103434
+# 规则统计: 103433
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -25943,7 +25943,6 @@ HOST-SUFFIX,dls-b23-link.ip.twelve99.net.iberostar.com,Anti-Ad
 HOST-SUFFIX,dls.guidrr.com,Anti-Ad
 HOST-SUFFIX,dlsw.baidu.com,Anti-Ad
 HOST-SUFFIX,dlsw.br.baidu.com,Anti-Ad
-HOST-SUFFIX,dlswbr.baidu.com,Anti-Ad
 HOST-SUFFIX,dlsybe78o0.com,Anti-Ad
 HOST-SUFFIX,dltehknrgvnjpf.com,Anti-Ad
 HOST-SUFFIX,dlthst9q2beh8.cloudfront.net,Anti-Ad

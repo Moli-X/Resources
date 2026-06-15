@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4582
+# 规则统计: 4585
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -438,6 +438,7 @@ HOST,cache.industry.siemens.com,CDN
 HOST,cache.ip-api.com,CDN
 HOST,cache.omnicalculator.com,CDN
 HOST,cached.rebuyengine.com,CDN
+HOST,cafe.github.com,CDN
 HOST,canny-assets.io,CDN
 HOST,canvas-lb.tubitv.com,CDN
 HOST,cartodb-basemaps-a.global.ssl.fastly.net,CDN
@@ -2704,6 +2705,7 @@ HOST,static.bytepan.com,CDN
 HOST,static.c-spanvideo.org,CDN
 HOST,static.canva.com,CDN
 HOST,static.captcha-delivery.com,CDN
+HOST,static.captcha.awswaf.com,CDN
 HOST,static.carfax.com,CDN
 HOST,static.cdnlogo.com,CDN
 HOST,static.chaika.moe,CDN
@@ -3826,6 +3828,7 @@ HOST-SUFFIX,images.hentaicity.com,CDN
 HOST-SUFFIX,imageshack.us,CDN
 HOST-SUFFIX,imagetwist.com,CDN
 HOST-SUFFIX,img-dpreview.com,CDN
+HOST-SUFFIX,img.gmo.jp,CDN
 HOST-SUFFIX,img.haiwaikan.com,CDN
 HOST-SUFFIX,img.sooplive.com,CDN
 HOST-SUFFIX,img1.acsta.net,CDN

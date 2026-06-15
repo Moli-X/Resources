@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 905
+# 规则统计: 899
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -769,23 +769,17 @@ HOST-SUFFIX,tmfmazu-wangka.m.qq.com,Ads_AWAvenue
 HOST-SUFFIX,tmfmazu.m.qq.com,Ads_AWAvenue
 HOST-SUFFIX,tmfsdk.m.qq.com,Ads_AWAvenue
 HOST-SUFFIX,tmfsdktcpv4.m.qq.com,Ads_AWAvenue
-HOST-SUFFIX,tnc0-aliec2.zijieapi.com,Ads_AWAvenue
-HOST-SUFFIX,tnc0-alisc1.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,tnc0-bjlgy.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-aliec1.toutiaoapi.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-aliec2.bytedance.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-aliec2.snssdk.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-aliec2.toutiaoapi.com,Ads_AWAvenue
-HOST-SUFFIX,tnc3-aliec2.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-alisc1.bytedance.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-alisc1.snssdk.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-alisc1.toutiaoapi.com,Ads_AWAvenue
-HOST-SUFFIX,tnc3-alisc1.zijieapi.com,Ads_AWAvenue
-HOST-SUFFIX,tnc3-alisc2.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-bjlgy.bytedance.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-bjlgy.snssdk.com,Ads_AWAvenue
 HOST-SUFFIX,tnc3-bjlgy.toutiaoapi.com,Ads_AWAvenue
-HOST-SUFFIX,tnc3-bjlgy.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,toblog.ctobsnssdk.com,Ads_AWAvenue
 HOST-SUFFIX,tpa-hcdn.iqiyi.com,Ads_AWAvenue
 HOST-SUFFIX,tpc.googlesyndication-cn.com,Ads_AWAvenue

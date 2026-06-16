@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4585
+# 规则统计: 4587
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1439,6 +1439,7 @@ HOST,frontend-cdn.perplexity.ai,CDN
 HOST,frontend.floatplane.com,CDN
 HOST,fs.mingpao.com,CDN
 HOST,fscdn.eppo.cloud,CDN
+HOST,fullstackopen.com,CDN
 HOST,g-static.ap4r.com,CDN
 HOST,g.newsweek.com,CDN
 HOST,g1.nyt.com,CDN
@@ -1477,6 +1478,7 @@ HOST,hawky.pcgamer.com,CDN
 HOST,headway-widget.net,CDN
 HOST,heatmap-external-a.strava.com,CDN
 HOST,hello.zonos.com,CDN
+HOST,hentai0.com,CDN
 HOST,hentaiworldtv.b-cdn.net,CDN
 HOST,heroicons.com,CDN
 HOST,hhhhhhome86227170.wordpress.com,CDN

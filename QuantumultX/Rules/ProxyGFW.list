@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7356
+# 规则统计: 7357
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -5423,6 +5423,7 @@ HOST-SUFFIX,sinomontreal.ca,ProxyGFW
 HOST-SUFFIX,sinonet.ca,ProxyGFW
 HOST-SUFFIX,sinopitt.info,ProxyGFW
 HOST-SUFFIX,sinoquebec.com,ProxyGFW
+HOST-SUFFIX,sinyalee.com,ProxyGFW
 HOST-SUFFIX,sipml5.org,ProxyGFW
 HOST-SUFFIX,sis.xxx,ProxyGFW
 HOST-SUFFIX,sis001.com,ProxyGFW

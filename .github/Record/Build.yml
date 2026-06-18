@@ -341,46 +341,98 @@ jobs:
         set -euo pipefail
         for file in Tool-repo/Egern/Rules/*.yaml; do
           if [ ! -f "$file" ]; then
-            echo "$file not found."
+            echo "⚠ Skipping $file (not found)"
+            continue
+          fi
+          if [ ! -s "$file" ]; then
+            echo "⚠ Skipping $file (empty)"
             continue
           fi
 
-          # 删除 Egern 不支持的规则类型
-          sed -i -e '/^USER-AGENT/d' "$file"
-          sed -i -e '/^PROCESS-NAME/d' "$file"
-          sed -i -e '/^AND/d' "$file"
-          sed -i -e '/^OR/d' "$file"
-          sed -i -e '/^NOT/d' "$file"
+          # --- 删除 Egern 不支持的规则类型 ---
+          # USER-AGENT 保留 → Egern 支持 user_agent_set（官方文档）
+          sed -i \
+            -e '/^PROCESS-NAME/d' \
+            -e '/^AND/d' \
+            -e '/^OR/d' \
+            -e '/^NOT/d' \
+            "$file"
 
-          # 在每个规则类型首次出现前插入对应的 YAML 键名
-          awk 'BEGIN{added=0} /^DOMAIN,/          && !added {print "domain_set:";         added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^DOMAIN-SUFFIX,/   && !added {print "domain_suffix_set:";  added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^DOMAIN-KEYWORD,/  && !added {print "domain_keyword_set:"; added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^DOMAIN-WILDCARD,/ && !added {print "domain_wildcard_set:";added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^IP-CIDR,/         && !added {print "ip_cidr_set:";        added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^IP-CIDR6,/        && !added {print "ip_cidr6_set:";       added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^IP-ASN,/          && !added {print "asn_set:";            added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^URL-REGEX,/       && !added {print "url_regex_set:";      added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^DEST-PORT,/       && !added {print "dest_port_set:";      added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
-          awk 'BEGIN{added=0} /^GEOIP,/           && !added {print "geoip_set:";           added=1} {print}' "$file" > tmpfile && mv tmpfile "$file"
+          # --- 插入 YAML 键名（单次 awk，减少文件读写） ---
+          awk '
+          BEGIN {
+            keys["DOMAIN,"]         = "domain_set:"
+            keys["DOMAIN-SUFFIX,"]  = "domain_suffix_set:"
+            keys["DOMAIN-KEYWORD,"] = "domain_keyword_set:"
+            keys["DOMAIN-WILDCARD,"]= "domain_wildcard_set:"
+            keys["IP-CIDR,"]        = "ip_cidr_set:"
+            keys["IP-CIDR6,"]       = "ip_cidr6_set:"
+            keys["IP-ASN,"]         = "asn_set:"
+            keys["URL-REGEX,"]      = "url_regex_set:"
+            keys["USER-AGENT,"]     = "user_agent_set:"
+            keys["DEST-PORT,"]      = "dest_port_set:"
+            keys["GEOIP,"]          = "geoip_set:"
+          }
+          {
+            for (prefix in keys) {
+              if (index($0, prefix) == 1) {
+                if (!added[prefix]) {
+                  print keys[prefix]
+                  added[prefix] = 1
+                }
+                break
+              }
+            }
+            print
+          }' "$file" > tmpfile && mv tmpfile "$file"
 
-          # 如果有 no-resolve 的 IP 规则，在文件头添加 no_resolve: true
-          if grep -qE '^IP-(ASN|CIDR|CIDR6).*no-resolve$' "$file"; then
-            sed -i '1i\no_resolve: true' "$file"
+          # --- 预检查是否需要 no_resolve ---
+          has_no_resolve=false
+          if grep -qE '^IP-(ASN|CIDR|CIDR6),.*no-resolve' "$file" 2>/dev/null; then
+            has_no_resolve=true
           fi
-          # SURGE格式规则类型 → Egern YAML 列表项格式
-          sed -i -E 's/^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN-WILDCARD|DEST-PORT|IP-CIDR|IP-CIDR6|IP-ASN|URL-REGEX|GEOIP),/  - /g' "$file"
+
+          # --- 格式转换 ---
+          # 规则类型前缀 → YAML 列表项格式
+          # 官方文档示例中，以下类型需双引号包裹（含 YAML 特殊字符）：
+          #   domain_wildcard_set:  "*.google.*"    (* 开头为 YAML 别名)
+          #   url_regex_set:        "pattern"        (正则特殊字符)
+          #   user_agent_set:       "*Chrome*"       (* 开头为 YAML 别名)
+          #   asn_set:              "AS15169"        (值含冒号等)
+          #   dest_port_set:        "80,443"         (逗号为 YAML 分隔符)
+
+          # URL-REGEX: 转义反斜杠后双引号包裹，兼容已有引号
+          sed -i -E '/^URL-REGEX,/s/\\/\\\\/g' "$file"
+          sed -i -E 's/^URL-REGEX,("?)(.+)\1$/  - "\2"/' "$file"
+
+          # USER-AGENT / IP-ASN / DEST-PORT / DOMAIN-WILDCARD: 双引号包裹
+          sed -i -E 's/^USER-AGENT,(.+)$/  - "\1"/' "$file"
+          sed -i -E 's/^IP-ASN,(.+)$/  - "\1"/' "$file"
+          sed -i -E 's/^DEST-PORT,(.+)$/  - "\1"/' "$file"
+          sed -i -E 's/^DOMAIN-WILDCARD,(.+)$/  - "\1"/' "$file"
+
+          # 通用规则类型: 移除前缀，转为列表项（无需引号，参考官方示例）
+          sed -i -E 's/^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|IP-CIDR|IP-CIDR6|GEOIP),/  - /g' "$file"
+
           # 移除 no-resolve 后缀
           sed -i 's/,no-resolve//g' "$file"
 
-          # 添加元数据注释头
-          file_names=$(basename "$file" .yaml)
-          line_count=$(grep -c '^  - ' "$file")
-          tmpfile=$(mktemp)
-          awk -v fname="$file_names" 'NR==1 {print "# 规则名称: " fname} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
-          tmpfile=$(mktemp)
-          awk -v count="$line_count" 'NR==2 {print "# 规则统计: " count} {print}' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
-          sed -i '2a\\' "$file"
+          # --- 插入 no_resolve ---
+          if [ "$has_no_resolve" = true ]; then
+            if ! head -1 "$file" | grep -q '^no_resolve:'; then
+              sed -i '1i\no_resolve: true' "$file"
+            fi
+          fi
+
+          # --- 添加元数据注释头 ---
+          file_name=$(basename "$file" .yaml)
+          rule_count=$(grep -c '^  - ' "$file" || true)
+          {
+            echo "# 规则名称: ${file_name}"
+            echo "# 规则统计: ${rule_count}"
+            echo ""
+            cat "$file"
+          } > "${file}.header" && mv "${file}.header" "$file"
         done
 
     # =========================================================================

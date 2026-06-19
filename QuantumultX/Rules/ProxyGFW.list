@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7357
+# 规则统计: 7360
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -185,6 +185,7 @@ HOST-SUFFIX,abplive.com,ProxyGFW
 HOST-SUFFIX,abs.edu,ProxyGFW
 HOST-SUFFIX,acast.com,ProxyGFW
 HOST-SUFFIX,accim.org,ProxyGFW
+HOST-SUFFIX,accountboy.com,ProxyGFW
 HOST-SUFFIX,accountkit.com,ProxyGFW
 HOST-SUFFIX,aceros-de-hispania.com,ProxyGFW
 HOST-SUFFIX,acevpn.com,ProxyGFW
@@ -4093,6 +4094,7 @@ HOST-SUFFIX,monlamit.org,ProxyGFW
 HOST-SUFFIX,monocloud.me,ProxyGFW
 HOST-SUFFIX,monster.com,ProxyGFW
 HOST-SUFFIX,moodyz.com,ProxyGFW
+HOST-SUFFIX,moomoo.com,ProxyGFW
 HOST-SUFFIX,moon.fm,ProxyGFW
 HOST-SUFFIX,moonbbs.com,ProxyGFW
 HOST-SUFFIX,moonbbs.info,ProxyGFW
@@ -7007,6 +7009,7 @@ HOST-SUFFIX,xn--noss43i.com,ProxyGFW
 HOST-SUFFIX,xn--oiq.cc,ProxyGFW
 HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,ProxyGFW
 HOST-SUFFIX,xn--u2u927b.com,ProxyGFW
+HOST-SUFFIX,xn--vuqv2cf7wzyig79c.com,ProxyGFW
 HOST-SUFFIX,xnpool.com,ProxyGFW
 HOST-SUFFIX,xnxx-cdn.com,ProxyGFW
 HOST-SUFFIX,xnxx.com,ProxyGFW

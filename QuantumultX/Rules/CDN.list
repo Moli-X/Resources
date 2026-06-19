@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4588
+# 规则统计: 4591
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -152,6 +152,7 @@ HOST,assets.cello.so,CDN
 HOST,assets.cgtrader.com,CDN
 HOST,assets.change.org,CDN
 HOST,assets.chaos.social,CDN
+HOST,assets.churnkey.co,CDN
 HOST,assets.clever-cloud.com,CDN
 HOST,assets.clibo.tw,CDN
 HOST,assets.clickfunnels.com,CDN
@@ -402,6 +403,7 @@ HOST,bundles.npr.org,CDN
 HOST,bunnycdn-video-assets.b-cdn.net,CDN
 HOST,businessunitprofile-cdn.trustpilot.net,CDN
 HOST,busuanzi.ibruce.info,CDN
+HOST,bytescale.mobbin.com,CDN
 HOST,c-bin.b-cdn.net,CDN
 HOST,c.1password.com,CDN
 HOST,c.animaapp.com,CDN
@@ -1291,6 +1293,7 @@ HOST,edgestatic.azureedge.net,CDN
 HOST,edgestorewebpme-d2hnhfgbgnfmfuha.z01.azurefd.net,CDN
 HOST,eep.io,CDN
 HOST,eightcha.com,CDN
+HOST,embed-audio.cnevids.com,CDN
 HOST,embed-cloudfront.wistia.com,CDN
 HOST,embed-ssl.wistia.com,CDN
 HOST,embed-v2.testimonial.to,CDN

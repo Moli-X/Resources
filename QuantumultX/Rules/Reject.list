@@ -1,5 +1,5 @@
 # 规则名称: Reject
-# 规则统计: 6209
+# 规则统计: 6208
 
 HOST,118.89.204.198,Reject
 HOST,a.wkanx.com,Reject
@@ -2497,7 +2497,6 @@ HOST-SUFFIX,googleadservices.com,Reject
 HOST-SUFFIX,googleadsserving.cn,Reject
 HOST-SUFFIX,googlehm.cc,Reject
 HOST-SUFFIX,googlesyndication.com,Reject
-HOST-SUFFIX,googletagmanager.com,Reject
 HOST-SUFFIX,googletagservices.com,Reject
 HOST-SUFFIX,goose64.top,Reject
 HOST-SUFFIX,gotadd.cn,Reject

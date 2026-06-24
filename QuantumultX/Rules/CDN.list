@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4601
+# 规则统计: 4607
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -674,6 +674,7 @@ HOST,cdn.freebiesupply.com,CDN
 HOST,cdn.freecodecamp.org,CDN
 HOST,cdn.freesound.org,CDN
 HOST,cdn.freshdesk.com,CDN
+HOST,cdn.fundraiseup.com,CDN
 HOST,cdn.gamemonkey.org,CDN
 HOST,cdn.gatherings.franchise.minecraft-services.net,CDN
 HOST,cdn.gdl.gg,CDN
@@ -1260,6 +1261,7 @@ HOST,divhunt-site.b-cdn.net,CDN
 HOST,divhunt.b-cdn.net,CDN
 HOST,dl.airdroid.com,CDN
 HOST,dlassets-ssl.xboxlive.com,CDN
+HOST,dlstats.izzyondroid.org,CDN
 HOST,do.featurebase.app,CDN
 HOST,docs.brew.sh,CDN
 HOST,docs.mrchromebox.tech,CDN
@@ -1303,6 +1305,7 @@ HOST,embed-ssl.wistia.com,CDN
 HOST,embed-v2.testimonial.to,CDN
 HOST,embed.culturalspot.org,CDN
 HOST,embed.getwally.net,CDN
+HOST,embed.lantern.io,CDN
 HOST,embed.reddit.com,CDN
 HOST,embed.runkit.com,CDN
 HOST,embed.savvycal.com,CDN
@@ -1439,6 +1442,7 @@ HOST,form-assets.mailchimp.com,CDN
 HOST,frames-commandbar-prod.commandbar.com,CDN
 HOST,freeshippingbar.herokuapp.com,CDN
 HOST,front-resource.fs.com,CDN
+HOST,frontend-apps-multi-region.workos.com,CDN
 HOST,frontend-apps.workos.com,CDN
 HOST,frontend-assets.supabase.com,CDN
 HOST,frontend-cdn.perplexity.ai,CDN
@@ -2769,6 +2773,7 @@ HOST,static.foxnews.com,CDN
 HOST,static.frame.work,CDN
 HOST,static.freedownloadmanager.org,CDN
 HOST,static.freeimages.com,CDN
+HOST,static.fundraiseup.com,CDN
 HOST,static.garmin.com,CDN
 HOST,static.generated.photos,CDN
 HOST,static.getbutton.io,CDN
@@ -4475,6 +4480,7 @@ HOST-SUFFIX,wmfusercontent.org,CDN
 HOST-SUFFIX,wolongcdnm3u8.com,CDN
 HOST-SUFFIX,wolongzywcdn3.com,CDN
 HOST-SUFFIX,workers.dev,CDN
+HOST-SUFFIX,workoscdn.com,CDN
 HOST-SUFFIX,wowmodels.com,CDN
 HOST-SUFFIX,wp.com,CDN
 HOST-SUFFIX,wpcomstaging.com,CDN

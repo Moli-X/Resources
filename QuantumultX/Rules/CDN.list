@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4591
+# 规则统计: 4601
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -248,6 +248,7 @@ HOST,assets.openshift.net,CDN
 HOST,assets.orz.uno,CDN
 HOST,assets.peatio.com,CDN
 HOST,assets.pingie.com,CDN
+HOST,assets.pingone.com,CDN
 HOST,assets.pixlee.com,CDN
 HOST,assets.play.xbox.com,CDN
 HOST,assets.plurk.com,CDN
@@ -983,6 +984,7 @@ HOST,cdn1.bigcommerce.com,CDN
 HOST,cdn1.dan.com,CDN
 HOST,cdn1.edgedatg.com,CDN
 HOST,cdn1.epicgames.com,CDN
+HOST,cdn1.espn.net,CDN
 HOST,cdn1.ettoday.net,CDN
 HOST,cdn1.hentaicity.com,CDN
 HOST,cdn1.hotmoza.tv,CDN
@@ -1133,6 +1135,7 @@ HOST,cms-cdn.now.gg,CDN
 HOST,cms.blavity.com,CDN
 HOST,cms.mistral.ai,CDN
 HOST,cms.myfonts.com,CDN
+HOST,cms.railway.com,CDN
 HOST,cms.recordedfuture.com,CDN
 HOST,cms.socialinsider.io,CDN
 HOST,cms.therecord.media,CDN
@@ -1249,6 +1252,7 @@ HOST,dev.visualwebsiteoptimizer.com,CDN
 HOST,devicons.railway.com,CDN
 HOST,devnull.perfops.net,CDN
 HOST,dh-site.b-cdn.net,CDN
+HOST,digitalhub.fifa.com,CDN
 HOST,dims.apnews.com,CDN
 HOST,disco-static.productessentials.app,CDN
 HOST,disco.headliner.link,CDN
@@ -1330,7 +1334,6 @@ HOST,es.pinkbike.org,CDN
 HOST,eslint-react.xyz,CDN
 HOST,eslint.org,CDN
 HOST,eslint.style,CDN
-HOST,eu-assets.i.posthog.com,CDN
 HOST,eu-images.contentstack.com,CDN
 HOST,eu.cdnbye.com,CDN
 HOST,eu.hamreus.com,CDN
@@ -1782,6 +1785,7 @@ HOST,img.javstore.net,CDN
 HOST,img.javynow.com,CDN
 HOST,img.jsdelivr.com,CDN
 HOST,img.kbhgames.com,CDN
+HOST,img.kemono.cr,CDN
 HOST,img.logokit.com,CDN
 HOST,img.ltyears.com,CDN
 HOST,img.lvv2.com,CDN
@@ -1987,6 +1991,7 @@ HOST,logs.blip.net,CDN
 HOST,lolstatic-a.akamaihd.net,CDN
 HOST,lucide.dev,CDN
 HOST,lumiere-a.akamaihd.net,CDN
+HOST,luminaire.railway.com,CDN
 HOST,lzd-img-global.slatic.net,CDN
 HOST,m-cdn.phonearena.com,CDN
 HOST,m.porn3dx.com,CDN
@@ -2993,6 +2998,7 @@ HOST,storageapi2.fleek.co,CDN
 HOST,store-images.microsoft.com,CDN
 HOST,store-images.s-microsoft.com,CDN
 HOST,stories.freepiklabs.com,CDN
+HOST,stories.usestoryteller.com,CDN
 HOST,storybooks.fluentui.dev,CDN
 HOST,stream.mux.com,CDN
 HOST,streaming.split.io,CDN
@@ -3141,6 +3147,7 @@ HOST,ui.powerreviews.com,CDN
 HOST,ui.trailhead.com,CDN
 HOST,uim.9uu22.com,CDN
 HOST,unavatar.io,CDN
+HOST,unleash.codeium.com,CDN
 HOST,unlimited-cdn.waifu2x.net,CDN
 HOST,unsubscribe-imgs.leavemealone.com,CDN
 HOST,uos-support-files.svc.ui.com,CDN
@@ -3159,7 +3166,6 @@ HOST,uploads.pullfrog.com,CDN
 HOST,uploads.sitepoint.com,CDN
 HOST,upos-sz-mirroralibstar1.bilivideo.com,CDN
 HOST,upos-sz-mirrorcosbstar1.bilivideo.com,CDN
-HOST,us-assets.i.posthog.com,CDN
 HOST,us-js.zonka.co,CDN
 HOST,us.123rf.com,CDN
 HOST,us.hamreus.com,CDN
@@ -3227,6 +3233,7 @@ HOST,wa.arounddeal.com,CDN
 HOST,wa1.aninoapps.com,CDN
 HOST,wac-cdn.atlassian.com,CDN
 HOST,waitlisted.co,CDN
+HOST,wall-ui-cdn.p.aws.economist.com,CDN
 HOST,walter-r2.trakt.tv,CDN
 HOST,wandi-6402.kxcdn.com,CDN
 HOST,wcpstatic.microsoft.com,CDN
@@ -3505,6 +3512,7 @@ HOST-SUFFIX,cdn.skk.moe,CDN
 HOST-SUFFIX,cdn.survey.medallia.com,CDN
 HOST-SUFFIX,cdn.turner.com,CDN
 HOST-SUFFIX,cdn.ubi.com,CDN
+HOST-SUFFIX,cdn.usestoryteller.com,CDN
 HOST-SUFFIX,cdn.workos.com,CDN
 HOST-SUFFIX,cdn1122.com,CDN
 HOST-SUFFIX,cdn2.hubspot.net,CDN
@@ -3575,6 +3583,7 @@ HOST-SUFFIX,csp-reporting.cloudflare.com,CDN
 HOST-SUFFIX,csp.withgoogle.com,CDN
 HOST-SUFFIX,ctfassets.net,CDN
 HOST-SUFFIX,cthd.icu,CDN
+HOST-SUFFIX,cursor-cdn.com,CDN
 HOST-SUFFIX,customerioforms.com,CDN
 HOST-SUFFIX,customeriomail.com,CDN
 HOST-SUFFIX,cwwcdn.com,CDN
@@ -3803,6 +3812,7 @@ HOST-SUFFIX,hugoal.com,CDN
 HOST-SUFFIX,hydaelyn-25x-18.top,CDN
 HOST-SUFFIX,i-dont-care-about-cookies.eu,CDN
 HOST-SUFFIX,i.optimole.com,CDN
+HOST-SUFFIX,i.posthog.com,CDN
 HOST-SUFFIX,ibytedtos.com,CDN
 HOST-SUFFIX,ibyteimg.com,CDN
 HOST-SUFFIX,icfcdn.com,CDN

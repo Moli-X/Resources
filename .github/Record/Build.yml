@@ -214,7 +214,16 @@ jobs:
         for entry in "${files[@]}"; do
             IFS='|' read -r filename url <<< "$entry"
             echo "Downloading: $url"
-            curl -A "Surge iOS/9527" -H "Accept: */*" -f -L -o "Tool-repo/Ruleset/$filename" "$url" || { echo "Download Failed: $url"; exit 1; }
+            if curl -f -L -o "Tool-repo/Ruleset/$filename" "$url"; then
+                echo "Downloaded: $filename"
+            elif [[ "$url" == *"kelee.one"* ]] && [ -f "Tool-repo/Loon/Rules/$filename" ]; then
+                # kelee.one 下载失败时降级使用上次构建的文件
+                echo "Download failed, falling back to existing file: $filename"
+                cp "Tool-repo/Loon/Rules/$filename" "Tool-repo/Ruleset/$filename"
+            else
+                echo "Download Failed: $url"
+                exit 1
+            fi
         done
         echo "Files downloaded successfully."
 

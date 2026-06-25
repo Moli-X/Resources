@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4607
+# 规则统计: 4608
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -416,6 +416,7 @@ HOST,c.s-microsoft.com,CDN
 HOST,c.speedtestcustom.com,CDN
 HOST,c.start.me,CDN
 HOST,c.tadst.com,CDN
+HOST,c.tenor.com,CDN
 HOST,c1.newegg.com,CDN
 HOST,c1.patreon.com,CDN
 HOST,c10.patreon.com,CDN

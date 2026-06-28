@@ -1,27 +1,170 @@
+# =============================================================================
+# Clear Commits — 按顶层目录分组重建分支提交历史
+#
+# 功能说明：
+#   - 从未修改过的文件 → 保留在初始提交中（不变）
+#   - 被修改过的文件 → 按顶层目录分组，每组一个独立提交
+#     （例如 .github/、src/、docs/ 各一个提交）
+#   - 根目录下的文件归为 "root" 组
+#   - 组内提交顺序按目录首次出现时间排列
+#
+# 运行后本地同步命令：
+#   git fetch origin && git reset --hard origin/<branch>
+# =============================================================================
+
 name: Clear Commits
 
 on:
   workflow_dispatch:
+    inputs:
+      branch:
+        description: 目标分支
+        required: true
+        default: X
+        type: string
+
+concurrency:
+  group: clear-commits-${{ inputs.branch }}
+  cancel-in-progress: true
+
+env:
+  TARGET_BRANCH: ${{ inputs.branch }}
 
 jobs:
-  build:
+  squash-commits:
+    name: Rebuild ${{ inputs.branch }} with per-directory commits
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7.0.0
+      # ------------------------------------------------------------------
+      # 1. 检出目标分支的完整历史
+      # ------------------------------------------------------------------
+      - name: Checkout target branch
+        uses: actions/checkout@v4
         with:
-          ref: X
-      - name: Configure Git
+          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 0
+
+      # ------------------------------------------------------------------
+      # 2. 验证分支存在且至少有一个提交
+      # ------------------------------------------------------------------
+      - name: Validate branch
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git checkout --orphan clearhistory
-          git branch -D X
-          git checkout --orphan X
-          git add .
-          git commit -m "Rebuild"
-          git push -f -u origin X
-      - name: Cleanup Workflow
-        uses: Mattraks/delete-workflow-runs@main
+          if ! git rev-parse --verify "refs/heads/${{ env.TARGET_BRANCH }}" >/dev/null 2>&1; then
+            echo "::error::Branch '${{ env.TARGET_BRANCH }}' does not exist or cannot be checked out."
+            exit 1
+          fi
+
+      # ------------------------------------------------------------------
+      # 3. 重建分支：按顶层目录分组生成独立提交
+      #
+      # 策略：
+      #   - 根提交之后从未修改的文件 → 保留在初始提交中
+      #   - 被修改过的文件 → 按顶层目录分组，每组一个独立提交
+      #     （例如 .github/、src/、docs/ 各一个提交）
+      #   - 根目录下的文件归为 "root" 组
+      #   - 组内提交顺序按目录首次出现时间排列
+      #
+      # 结果：提交数 ≈ 顶层目录数，远少于文件数
+      # ------------------------------------------------------------------
+      - name: Squash commits per directory
+        id: squash
+        run: |
+          git config --local user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+
+          ROOT="$(git rev-list --max-parents=0 HEAD 2>/dev/null || true)"
+          if [ -z "$ROOT" ]; then
+            echo "::error::在分支 '${{ env.TARGET_BRANCH }}' 上未找到任何提交"
+            exit 1
+          fi
+
+          COMMIT_COUNT="$(git rev-list --count HEAD 2>/dev/null || echo 0)"
+          echo "当前提交数：$COMMIT_COUNT"
+
+          if [ "$COMMIT_COUNT" -le 1 ]; then
+            echo "::warning::分支仅有 $COMMIT_COUNT 个提交，无需压缩"
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "skipped=false" >> "$GITHUB_OUTPUT"
+
+          CURRENT_HEAD="$(git rev-parse HEAD)"
+          ORIGINAL_BRANCH="${{ env.TARGET_BRANCH }}"
+
+          # ---- 在孤儿分支上重建历史 ----
+
+          # 以根提交的树状态启动孤儿分支
+          git checkout --orphan _squash_tmp
+          git rm -r -f --quiet . 2>/dev/null || true
+          git checkout "$ROOT" -- .
+          git add -A
+          git commit -m "chore: initial commit" --no-verify
+
+          # ---- 收集所有被修改过的文件（去重、按首次出现排序） ----
+          ALL_FILES="$(mktemp)"
+          git rev-list --reverse "$ROOT".."$CURRENT_HEAD" \
+            | while read -r COMMIT; do
+                git diff-tree --no-commit-id -r --name-only "$COMMIT" 2>/dev/null
+              done \
+            | sort -u > "$ALL_FILES"
+
+          # ---- 提取顶层目录列表（保持首次出现顺序） ----
+          DIR_LIST="$(mktemp)"
+          while IFS= read -r FILE; do
+            case "$FILE" in
+              */*) DIR="${FILE%%/*}" ;;
+              *)   DIR="root" ;;
+            esac
+            echo "$DIR"
+          done < "$ALL_FILES" | awk '!seen[$0]++' > "$DIR_LIST"
+
+          # ---- 按目录分组提交 ----
+          while IFS= read -r DIR; do
+            [ -z "$DIR" ] && continue
+            if [ "$DIR" = "root" ]; then
+              # 根目录文件（不含 /）
+              grep -v '/' "$ALL_FILES" > /tmp/_grp 2>/dev/null || true
+              MSG="chore: update root files"
+            else
+              grep "^$DIR/" "$ALL_FILES" > /tmp/_grp 2>/dev/null || true
+              MSG="chore: update $DIR"
+            fi
+
+            # 应用组内文件的最终状态
+            while IFS= read -r FILE; do
+              [ -z "$FILE" ] && continue
+              git checkout "$CURRENT_HEAD" -- "$FILE" 2>/dev/null || git rm -f "$FILE" 2>/dev/null || true
+            done < /tmp/_grp
+
+            git add -A
+            git commit -m "$MSG" --no-verify
+
+          done < "$DIR_LIST"
+
+          rm -f "$ALL_FILES" "$DIR_LIST"
+
+          # 用重建后的分支替换原始分支
+          git branch -f "$ORIGINAL_BRANCH" _squash_tmp
+          git checkout "$ORIGINAL_BRANCH"
+          git branch -D _squash_tmp
+
+      # ------------------------------------------------------------------
+      # 4. 强制推送压缩后的分支（比普通 --force 更安全）
+      # ------------------------------------------------------------------
+      - name: Push squashed branch
+        if: steps.squash.outputs.skipped != 'true'
+        run: |
+          git push origin "HEAD:${{ env.TARGET_BRANCH }}" --force-with-lease \
+            --atomic \
+            2>&1
+
+      # ------------------------------------------------------------------
+      # 5. 清理旧的工作流记录（排除当前运行中的记录，无法自删）
+      # ------------------------------------------------------------------
+      - name: Clean up workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
         with:
           retain_days: 0
-          keep_minimum_runs: 0
+          keep_minimum_runs: 2
+          # keep_minimum_runs: 2 确保保留最近2次运行记录

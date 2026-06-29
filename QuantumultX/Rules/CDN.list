@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4608
+# 规则统计: 4610
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1104,6 +1104,7 @@ HOST,cf.javfree.me,CDN
 HOST,cf.mhgui.com,CDN
 HOST,cf.shopee.tw,CDN
 HOST,cfvod.kaltura.com,CDN
+HOST,changelog-widget.canny.io,CDN
 HOST,chart.googleapis.com,CDN
 HOST,chat-assets.front.app,CDN
 HOST,chat.digitalgenius.com,CDN
@@ -3281,6 +3282,7 @@ HOST,widget.intercom.io,CDN
 HOST,widget.kapa.ai,CDN
 HOST,widget.prod.equally.ai,CDN
 HOST,widget.reviews.io,CDN
+HOST,widget.rss.app,CDN
 HOST,widget.trustpilot.com,CDN
 HOST,widget.usepylon.com,CDN
 HOST,widget.user.com,CDN

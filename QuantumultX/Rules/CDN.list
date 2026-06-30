@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4610
+# 规则统计: 4611
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2498,6 +2498,7 @@ HOST,safebrowsing.google.com,CDN
 HOST,safebrowsing.googleapis.com,CDN
 HOST,sandpack-cdn-staging.blazingly.io,CDN
 HOST,sandpack-cdn-v2.codesandbox.io,CDN
+HOST,sat.windy.com,CDN
 HOST,sbl.onfastspring.com,CDN
 HOST,scache.vzw.com,CDN
 HOST,scache1.vzw.com,CDN

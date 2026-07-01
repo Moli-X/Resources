@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4611
+# 规则统计: 4617
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -941,6 +941,7 @@ HOST,cdn.userreport.com,CDN
 HOST,cdn.userway.org,CDN
 HOST,cdn.v2ex.com,CDN
 HOST,cdn.vector.co,CDN
+HOST,cdn.veeam.com,CDN
 HOST,cdn.verifypass.com,CDN
 HOST,cdn.viafoura.net,CDN
 HOST,cdn.videy.co,CDN
@@ -1171,6 +1172,7 @@ HOST,connectivitycheck.gstatic.com,CDN
 HOST,consent-manager.ft.com,CDN
 HOST,consent-notice.ft.com,CDN
 HOST,consent.dw.com,CDN
+HOST,consent.formula1.com,CDN
 HOST,consentdeliveryfd.azurefd.net,CDN
 HOST,consumersite-assets.trustpilot.net,CDN
 HOST,consumersiteimages.trustpilot.net,CDN
@@ -1456,6 +1458,7 @@ HOST,g-static.ap4r.com,CDN
 HOST,g.newsweek.com,CDN
 HOST,g1.nyt.com,CDN
 HOST,gamemedia.armorgames.com,CDN
+HOST,gannett-cdn.ex.co,CDN
 HOST,gdb.rferl.org,CDN
 HOST,gdb.voanews.com,CDN
 HOST,gearbox.imgix.com,CDN
@@ -2058,6 +2061,7 @@ HOST,media.evolv.ai,CDN
 HOST,media.fc2.com,CDN
 HOST,media.fidoalliance.org,CDN
 HOST,media.flaticon.com,CDN
+HOST,media.formula1.com,CDN
 HOST,media.fs.com,CDN
 HOST,media.gamestop.com,CDN
 HOST,media.geeksforgeeks.org,CDN
@@ -2771,6 +2775,7 @@ HOST,static.ffx.io,CDN
 HOST,static.figma.com,CDN
 HOST,static.filehorse.com,CDN
 HOST,static.filestackapi.com,CDN
+HOST,static.formula1.com,CDN
 HOST,static.foxbusiness.com,CDN
 HOST,static.foxnews.com,CDN
 HOST,static.frame.work,CDN
@@ -3735,6 +3740,7 @@ HOST-SUFFIX,gadgets360cdn.com,CDN
 HOST-SUFFIX,gamccdn.com,CDN
 HOST-SUFFIX,gamesgamescdn.com,CDN
 HOST-SUFFIX,gammacdn.com,CDN
+HOST-SUFFIX,gannett-cdn.com,CDN
 HOST-SUFFIX,garmincdn.com,CDN
 HOST-SUFFIX,gateway.originprotocol.com,CDN
 HOST-SUFFIX,gateway.pinata.cloud,CDN

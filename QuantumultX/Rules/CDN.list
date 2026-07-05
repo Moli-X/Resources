@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4617
+# 规则统计: 4621
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -257,6 +257,7 @@ HOST,assets.poool.fr,CDN
 HOST,assets.porndig.com,CDN
 HOST,assets.positional-bucket.com,CDN
 HOST,assets.prowritingaid.com,CDN
+HOST,assets.pscp.tv,CDN
 HOST,assets.queue-it.net,CDN
 HOST,assets.quillbot.com,CDN
 HOST,assets.raspberrypi.com,CDN
@@ -356,6 +357,7 @@ HOST,az700632.vo.msecnd.net,CDN
 HOST,b.manufact.com,CDN
 HOST,b.peatio.com,CDN
 HOST,b.sf-syn.com,CDN
+HOST,b2b-contenthub.com,CDN
 HOST,b5x-sentry.1passwordservices.com,CDN
 HOST,backinstock.useamp.com,CDN
 HOST,badbits.dwebops.pub,CDN
@@ -1971,6 +1973,7 @@ HOST,learn-attachment.microsoft.com,CDN
 HOST,learn.optimizely.com,CDN
 HOST,lecontent.sololearn.com,CDN
 HOST,ledger-wp-website-s3-prd.ledger.com,CDN
+HOST,legacy-us-images.foundryco.app,CDN
 HOST,lf16-larkversion.larksuitecdn.com,CDN
 HOST,lib.arvancloud.ir,CDN
 HOST,libraries.hund.io,CDN
@@ -2581,6 +2584,7 @@ HOST,sites.chase.com,CDN
 HOST,sites.super.so,CDN
 HOST,skills-assets.pstmn.io,CDN
 HOST,sm.ign.com,CDN
+HOST,sm.pcmag.com,CDN
 HOST,sn-s3-cdn.angry.im,CDN
 HOST,snippet.growsumo.com,CDN
 HOST,snippet.maze.co,CDN

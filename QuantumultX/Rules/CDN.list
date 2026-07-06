@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4621
+# 规则统计: 4626
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -264,6 +264,7 @@ HOST,assets.raspberrypi.com,CDN
 HOST,assets.redbullshop.com,CDN
 HOST,assets.repair.org,CDN
 HOST,assets.reviews.io,CDN
+HOST,assets.ryanair.com,CDN
 HOST,assets.safing.io,CDN
 HOST,assets.salesmartly.com,CDN
 HOST,assets.scaleflex.com,CDN
@@ -499,6 +500,7 @@ HOST,cdn-msp.jmcomic-zzz.one,CDN
 HOST,cdn-msp.jmcomic.me,CDN
 HOST,cdn-node.diskpart.com,CDN
 HOST,cdn-nsbus.ui.com,CDN
+HOST,cdn-o.suno.com,CDN
 HOST,cdn-public-apis.moonlock.com,CDN
 HOST,cdn-public.sociabble.com,CDN
 HOST,cdn-raw.modrinth.com,CDN
@@ -583,6 +585,7 @@ HOST,cdn.c1.amplience.net,CDN
 HOST,cdn.calibermind.com,CDN
 HOST,cdn.cameo.com,CDN
 HOST,cdn.camweara.com,CDN
+HOST,cdn.candid.org,CDN
 HOST,cdn.candu.ai,CDN
 HOST,cdn.candy.ai,CDN
 HOST,cdn.casestudies.svc.ui.com,CDN
@@ -762,6 +765,7 @@ HOST,cdn.masto.host,CDN
 HOST,cdn.mathjax.org,CDN
 HOST,cdn.matterhorn.app,CDN
 HOST,cdn.mcauto-images-production.sendgrid.net,CDN
+HOST,cdn.mcp-use.com,CDN
 HOST,cdn.mcr.ea.com,CDN
 HOST,cdn.mer.run,CDN
 HOST,cdn.mercury.com,CDN
@@ -4297,6 +4301,7 @@ HOST-SUFFIX,sourceforge.io,CDN
 HOST-SUFFIX,splunkcloud.com,CDN
 HOST-SUFFIX,spreadshirtmedia.com,CDN
 HOST-SUFFIX,sqspcdn.com,CDN
+HOST-SUFFIX,squarecdn.com,CDN
 HOST-SUFFIX,squarespace-cdn.com,CDN
 HOST-SUFFIX,srcdn.com,CDN
 HOST-SUFFIX,ss-cdn.com,CDN

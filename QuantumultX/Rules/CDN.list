@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4627
+# 规则统计: 4632
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -463,6 +463,7 @@ HOST,cdn-a.sonyentertainmentnetwork.com,CDN
 HOST,cdn-app.cart-bot.net,CDN
 HOST,cdn-app.pathfactory.com,CDN
 HOST,cdn-assets.circleci.com,CDN
+HOST,cdn-assets.hinative.com,CDN
 HOST,cdn-avatars.huggingface.co,CDN
 HOST,cdn-b.saashub.com,CDN
 HOST,cdn-blocks.karte.io,CDN
@@ -864,6 +865,7 @@ HOST,cdn.safecharge.com,CDN
 HOST,cdn.sanity.io,CDN
 HOST,cdn.sapphire.microsoftapp.net,CDN
 HOST,cdn.sc.gl,CDN
+HOST,cdn.scalar.com,CDN
 HOST,cdn.scaleflex.it,CDN
 HOST,cdn.schemaapp.com,CDN
 HOST,cdn.sciencecast.org,CDN
@@ -2016,6 +2018,7 @@ HOST,m.wsj.net,CDN
 HOST,m3.gab.com,CDN
 HOST,m3u8-0.c-spanvideo.org,CDN
 HOST,m3u8.girigirilove.com,CDN
+HOST,magic.scalar.com,CDN
 HOST,makerworld.bblmw.com,CDN
 HOST,mangaz-books.j-comi.jp,CDN
 HOST,mangaz-static.j-comi.jp,CDN
@@ -2255,6 +2258,7 @@ HOST,pgw.udn.com.tw,CDN
 HOST,ph.langfuse.com,CDN
 HOST,ph.northflank.com,CDN
 HOST,ph.tryprofound.com,CDN
+HOST,pha-prx.ops.cloud.nx.app,CDN
 HOST,phishing.army,CDN
 HOST,photos5.appleinsider.com,CDN
 HOST,pic-bstarstatic.akamaized.net,CDN
@@ -2382,6 +2386,7 @@ HOST,rapid-cdn.yottaa.com,CDN
 HOST,raw.github.com,CDN
 HOST,rawmarkdown.cloudflareaccess.org,CDN
 HOST,rbds-static.redbull.com,CDN
+HOST,rdr.windy.com,CDN
 HOST,reader.readmoo.com,CDN
 HOST,rebound.postmarkapp.com,CDN
 HOST,redircdn.com,CDN

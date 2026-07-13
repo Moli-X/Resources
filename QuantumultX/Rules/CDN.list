@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4632
+# 规则统计: 4636
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1366,6 +1366,7 @@ HOST,events.ld.catamorphic.com,CDN
 HOST,events.split.io,CDN
 HOST,events.tableplus.com,CDN
 HOST,evt.24.com,CDN
+HOST,exbd.ex.co,CDN
 HOST,experience-ap.piano.io,CDN
 HOST,explorer-api.walletconnect.com,CDN
 HOST,external-content.duckduckgo.com,CDN
@@ -1888,6 +1889,7 @@ HOST,imgcn3.bgmbk.tv,CDN
 HOST,imgcn4.bgmbk.tv,CDN
 HOST,imgcn5.bgmbk.tv,CDN
 HOST,imgfile.shop,CDN
+HOST,imgix.datadoghq.com,CDN
 HOST,imgix.setapp.com,CDN
 HOST,imgopt.infoq.com,CDN
 HOST,imgproxy.flathub.org,CDN
@@ -3621,6 +3623,7 @@ HOST-SUFFIX,dataplane.rudderstack.com,CDN
 HOST-SUFFIX,datocms-assets.com,CDN
 HOST-SUFFIX,daumcdn.net,CDN
 HOST-SUFFIX,dc-telemetry.net,CDN
+HOST-SUFFIX,dd-static.net,CDN
 HOST-SUFFIX,dditsadn.com,CDN
 HOST-SUFFIX,dditscdn.com,CDN
 HOST-SUFFIX,ddpic.info,CDN
@@ -3887,6 +3890,7 @@ HOST-SUFFIX,imgix.net,CDN
 HOST-SUFFIX,imglink.win,CDN
 HOST-SUFFIX,imgmrplay.xyz,CDN
 HOST-SUFFIX,imgpng.xyz,CDN
+HOST-SUFFIX,imgproxy.org,CDN
 HOST-SUFFIX,imgsmail.ru,CDN
 HOST-SUFFIX,imgtbl.com,CDN
 HOST-SUFFIX,imgtp.com,CDN

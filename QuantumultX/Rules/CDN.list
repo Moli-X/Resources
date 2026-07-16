@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4636
+# 规则统计: 4632
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -870,7 +870,6 @@ HOST,cdn.scaleflex.it,CDN
 HOST,cdn.schemaapp.com,CDN
 HOST,cdn.sciencecast.org,CDN
 HOST,cdn.scpwiki.com,CDN
-HOST,cdn.scripts.wtwhmedia.com,CDN
 HOST,cdn.search.brave.com,CDN
 HOST,cdn.sedo.com,CDN
 HOST,cdn.segment.com,CDN
@@ -979,7 +978,6 @@ HOST,cdn.you.com,CDN
 HOST,cdn.ywxi.net,CDN
 HOST,cdn.zapier.com,CDN
 HOST,cdn.zeabur.com,CDN
-HOST,cdn.zhujiwiki.com,CDN
 HOST,cdn.zigpoll.com,CDN
 HOST,cdn.zolplay.com,CDN
 HOST,cdn0-i.techbang.com,CDN
@@ -1017,6 +1015,7 @@ HOST,cdn2.abiresearch.com,CDN
 HOST,cdn2.airdroid.com,CDN
 HOST,cdn2.auth0.com,CDN
 HOST,cdn2.bigcommerce.com,CDN
+HOST,cdn2.cameo.com,CDN
 HOST,cdn2.dan.com,CDN
 HOST,cdn2.downdetector.com,CDN
 HOST,cdn2.edgedatg.com,CDN
@@ -1117,7 +1116,6 @@ HOST,changelog-widget.canny.io,CDN
 HOST,chart.googleapis.com,CDN
 HOST,chat-assets.front.app,CDN
 HOST,chat.digitalgenius.com,CDN
-HOST,chatwidgetmetrics-proxy.usepylon.com,CDN
 HOST,checkout-sdk.bigcommerce.com,CDN
 HOST,checkout.stripe.com,CDN
 HOST,chunk-composing.canva.com,CDN
@@ -1672,7 +1670,6 @@ HOST,images.filepuma.com,CDN
 HOST,images.financemagnates.com,CDN
 HOST,images.findagrave.com,CDN
 HOST,images.flightradar24.com,CDN
-HOST,images.freeimages.com,CDN
 HOST,images.g2crowd.com,CDN
 HOST,images.github.media,CDN
 HOST,images.hothardware.com,CDN
@@ -1775,7 +1772,6 @@ HOST,img.atom.com,CDN
 HOST,img.atwiki.jp,CDN
 HOST,img.badgesize.io,CDN
 HOST,img.biguz.net,CDN
-HOST,img.bttimg.com,CDN
 HOST,img.catwvod.xyz,CDN
 HOST,img.clerk.com,CDN
 HOST,img.community.ui.com,CDN
@@ -1808,7 +1804,6 @@ HOST,img.kemono.cr,CDN
 HOST,img.logokit.com,CDN
 HOST,img.ltyears.com,CDN
 HOST,img.lvv2.com,CDN
-HOST,img.m.mw,CDN
 HOST,img.majors.im,CDN
 HOST,img.manyse.com,CDN
 HOST,img.ml0987.com,CDN
@@ -1826,7 +1821,6 @@ HOST,img.picacomic.com,CDN
 HOST,img.redbull.com,CDN
 HOST,img.reg.ru,CDN
 HOST,img.reimu.net,CDN
-HOST,img.represent.com,CDN
 HOST,img.riskified.com,CDN
 HOST,img.sflix.to,CDN
 HOST,img.shoplineapp.com,CDN
@@ -1858,7 +1852,6 @@ HOST,img1.socialshopwave.com,CDN
 HOST,img1.yeggi.com,CDN
 HOST,img1.yna.co.kr,CDN
 HOST,img2.gelbooru.com,CDN
-HOST,img2.javdove.com,CDN
 HOST,img2.javmost.com,CDN
 HOST,img2.socialshopwave.com,CDN
 HOST,img2.tnaflix.com,CDN
@@ -2430,6 +2423,9 @@ HOST,rs-cdn.splashtop.com,CDN
 HOST,rsi.grafana.com,CDN
 HOST,rsms.me,CDN
 HOST,rt.rtoaster.jp,CDN
+HOST,rt1.maphub.net,CDN
+HOST,rt2.maphub.net,CDN
+HOST,rt3.maphub.net,CDN
 HOST,rtcg-access.bytevcloud.com,CDN
 HOST,rts-static-prod.freshworksapi.com,CDN
 HOST,rules.ac,CDN
@@ -2486,7 +2482,6 @@ HOST,s3.c.im,CDN
 HOST,s3.coinmarketcap.com,CDN
 HOST,s3.cointelegraph.com,CDN
 HOST,s3.documentcloud.org,CDN
-HOST,s3.doujin.sh,CDN
 HOST,s3.duellinksmeta.com,CDN
 HOST,s3.dzeninfra.ru,CDN
 HOST,s3.envato.com,CDN
@@ -2664,7 +2659,6 @@ HOST,static-ca-cdn.eporner.com,CDN
 HOST,static-cache.fboom.me,CDN
 HOST,static-cache.k2s.cc,CDN
 HOST,static-cdn.123rf.com,CDN
-HOST,static-cdn.bytegiftia.top,CDN
 HOST,static-cdn.jtvnw.net,CDN
 HOST,static-cdn.spot.im,CDN
 HOST,static-cdn.usertesting.com,CDN
@@ -2796,7 +2790,6 @@ HOST,static.foxbusiness.com,CDN
 HOST,static.foxnews.com,CDN
 HOST,static.frame.work,CDN
 HOST,static.freedownloadmanager.org,CDN
-HOST,static.freeimages.com,CDN
 HOST,static.fundraiseup.com,CDN
 HOST,static.garmin.com,CDN
 HOST,static.generated.photos,CDN
@@ -2832,6 +2825,7 @@ HOST,static.ipgeolocation.io,CDN
 HOST,static.iplocate.io,CDN
 HOST,static.iris.informa.com,CDN
 HOST,static.isitetv.com,CDN
+HOST,static.istockphoto.com,CDN
 HOST,static.itch.io,CDN
 HOST,static.iyf.tv,CDN
 HOST,static.izanmei.icu,CDN
@@ -2848,6 +2842,7 @@ HOST,static.linear.app,CDN
 HOST,static.lingq.com,CDN
 HOST,static.lwn.net,CDN
 HOST,static.macupdate.com,CDN
+HOST,static.maphub.net,CDN
 HOST,static.maxmind.com,CDN
 HOST,static.mediafire.com,CDN
 HOST,static.meiguo.com,CDN
@@ -4413,6 +4408,7 @@ HOST-SUFFIX,tile.thunderforest.com,CDN
 HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
 HOST-SUFFIX,tiles.freemap.sk,CDN
 HOST-SUFFIX,tiles.mapbox.com,CDN
+HOST-SUFFIX,tiles.openstreetmap.us,CDN
 HOST-SUFFIX,tiles.virtualearth.net,CDN
 HOST-SUFFIX,tindiemedia.com,CDN
 HOST-SUFFIX,tinifycdn.com,CDN

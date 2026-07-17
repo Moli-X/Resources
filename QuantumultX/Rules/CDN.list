@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4632
+# 规则统计: 4633
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1239,6 +1239,7 @@ HOST,dassets.shimano.com,CDN
 HOST,data.cdn.siemens.com,CDN
 HOST,data.jsdelivr.com,CDN
 HOST,data.osmand.net,CDN
+HOST,data.peer.as,CDN
 HOST,data.pendo.io,CDN
 HOST,data.schemaapp.com,CDN
 HOST,data.web.clickup.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4635
+# 规则统计: 4636
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1160,6 +1160,7 @@ HOST,code.iconify.design,CDN
 HOST,code.ionicframework.com,CDN
 HOST,code.jquery.com,CDN
 HOST,code.piano.io,CDN
+HOST,code.trygravity.ai,CDN
 HOST,code.upscope.io,CDN
 HOST,comm.res.easebar.com,CDN
 HOST,common-header.nimg.jp,CDN

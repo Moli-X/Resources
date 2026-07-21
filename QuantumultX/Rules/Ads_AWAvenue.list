@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 899
+# 规则统计: 897
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -334,7 +334,6 @@ HOST-SUFFIX,datacollection.uve.weibo.com,Ads_AWAvenue
 HOST-SUFFIX,dc.sigmob.cn,Ads_AWAvenue
 HOST-SUFFIX,de.tynt.com,Ads_AWAvenue
 HOST-SUFFIX,diagnosis.ad.xiaomi.com,Ads_AWAvenue
-HOST-SUFFIX,dig.bdurl.net,Ads_AWAvenue
 HOST-SUFFIX,dlogs.bwton.com,Ads_AWAvenue
 HOST-SUFFIX,dm.toutiao.com,Ads_AWAvenue
 HOST-SUFFIX,domain.aishengji.com,Ads_AWAvenue
@@ -530,7 +529,6 @@ HOST-SUFFIX,mapi.m.jd.com,Ads_AWAvenue
 HOST-SUFFIX,masdkv6.3g.qq.com,Ads_AWAvenue
 HOST-SUFFIX,mazu.m.qq.com,Ads_AWAvenue
 HOST-SUFFIX,mbdlog.iqiyi.com,Ads_AWAvenue
-HOST-SUFFIX,mcs.zijieapi.com,Ads_AWAvenue
 HOST-SUFFIX,medproad.com,Ads_AWAvenue
 HOST-SUFFIX,metrics.data.hicloud.com,Ads_AWAvenue
 HOST-SUFFIX,metrics.icloud.com,Ads_AWAvenue

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7467
+# 规则统计: 7468
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -7283,6 +7283,7 @@ HOST-SUFFIX,zello.com,ProxyGFW
 HOST-SUFFIX,zengjinyan.org,ProxyGFW
 HOST-SUFFIX,zenmate.com,ProxyGFW
 HOST-SUFFIX,zenmate.com.ru,ProxyGFW
+HOST-SUFFIX,zenmux.ai,ProxyGFW
 HOST-SUFFIX,zerohedge.com,ProxyGFW
 HOST-SUFFIX,zeronet.io,ProxyGFW
 HOST-SUFFIX,zeutch.com,ProxyGFW

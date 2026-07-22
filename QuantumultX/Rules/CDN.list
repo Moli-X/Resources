@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4638
+# 规则统计: 4639
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2633,6 +2633,7 @@ HOST,st.prntscr.com,CDN
 HOST,st.transfer.it,CDN
 HOST,st1.zoom.us,CDN
 HOST,st2.zoom.us,CDN
+HOST,st3.depositphotos.com,CDN
 HOST,st3.zoom.us,CDN
 HOST,st6-20.vk.com,CDN
 HOST,staging-pubfeed.linkby.com,CDN

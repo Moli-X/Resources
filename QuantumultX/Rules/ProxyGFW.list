@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7468
+# 规则统计: 7469
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -6188,6 +6188,7 @@ HOST-SUFFIX,togetter.com,ProxyGFW
 HOST-SUFFIX,toh.info,ProxyGFW
 HOST-SUFFIX,token.im,ProxyGFW
 HOST-SUFFIX,tokenlon.im,ProxyGFW
+HOST-SUFFIX,tokenplus.app,ProxyGFW
 HOST-SUFFIX,tokyo-247.com,ProxyGFW
 HOST-SUFFIX,tokyo-hot.com,ProxyGFW
 HOST-SUFFIX,tokyo-porn-tube.com,ProxyGFW

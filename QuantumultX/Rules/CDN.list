@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4639
+# 规则统计: 4647
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1816,6 +1816,13 @@ HOST,img.moegirl.tw,CDN
 HOST,img.moviefap.com,CDN
 HOST,img.mresou.com,CDN
 HOST,img.news.ebc.net.tw,CDN
+HOST,img.novipnoad.ca,CDN
+HOST,img.novipnoad.cc,CDN
+HOST,img.novipnoad.com,CDN
+HOST,img.novipnoad.net,CDN
+HOST,img.novipnoad.uk,CDN
+HOST,img.novipnoad.us,CDN
+HOST,img.novipnoad.xyz,CDN
 HOST,img.noy.asia,CDN
 HOST,img.olympics.com,CDN
 HOST,img.openshop.com.hk,CDN
@@ -2803,6 +2810,7 @@ HOST,static.getbutton.io,CDN
 HOST,static.getpostman.com,CDN
 HOST,static.gettyimages.com,CDN
 HOST,static.giant-bicycles.com,CDN
+HOST,static.giffgaff.com,CDN
 HOST,static.gigabyte.com,CDN
 HOST,static.gitbook.com,CDN
 HOST,static.gl-inet.com,CDN

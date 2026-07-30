@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4647
+# 规则统计: 4648
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1164,6 +1164,7 @@ HOST,code.trygravity.ai,CDN
 HOST,code.upscope.io,CDN
 HOST,comm.res.easebar.com,CDN
 HOST,common-header.nimg.jp,CDN
+HOST,community-cdn.openstreetmap.org,CDN
 HOST,components.clever-cloud.com,CDN
 HOST,components.cyclingfactory.be,CDN
 HOST,components.justanswer.com,CDN

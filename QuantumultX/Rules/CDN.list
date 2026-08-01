@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4648
+# 规则统计: 4651
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -640,6 +640,7 @@ HOST,cdn.deta.space,CDN
 HOST,cdn.devdojo.com,CDN
 HOST,cdn.devolutions.net,CDN
 HOST,cdn.dexscreener.com,CDN
+HOST,cdn.dictionary.com,CDN
 HOST,cdn.dnsimple.com,CDN
 HOST,cdn.docsbot.com,CDN
 HOST,cdn.document360.io,CDN
@@ -921,6 +922,7 @@ HOST,cdn.techcommunity.microsoft.com,CDN
 HOST,cdn.termius.com,CDN
 HOST,cdn.theatlantic.com,CDN
 HOST,cdn.thenewstack.io,CDN
+HOST,cdn.theregister.com,CDN
 HOST,cdn.thewirecutter.com,CDN
 HOST,cdn.thingiverse.com,CDN
 HOST,cdn.tiny.cloud,CDN
@@ -1629,6 +1631,7 @@ HOST,image.status.io,CDN
 HOST,image.telanganatoday.com,CDN
 HOST,image.theblockbeats.info,CDN
 HOST,image.thefly.com,CDN
+HOST,image.theregister.com,CDN
 HOST,image.tmdb.org,CDN
 HOST,image.vuukle.com,CDN
 HOST,image.worthepenny.com,CDN

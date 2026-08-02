@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4651
+# 规则统计: 4653
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1178,6 +1178,7 @@ HOST,connect-js.stripe.com,CDN
 HOST,connect.facebook.net,CDN
 HOST,connect.getflowbox.com,CDN
 HOST,connect.nosto.com,CDN
+HOST,connectcache20.azureedge.net,CDN
 HOST,connectivitycheck.android.com,CDN
 HOST,connectivitycheck.gstatic.com,CDN
 HOST,consent-manager.ft.com,CDN
@@ -2038,6 +2039,7 @@ HOST,map.adsbexchange.com,CDN
 HOST,map.vesselfinder.net,CDN
 HOST,maps.geoapify.com,CDN
 HOST,maps.gstatic.com,CDN
+HOST,maps.hereapi.com,CDN
 HOST,maps.wikimedia.org,CDN
 HOST,maps.wplace.live,CDN
 HOST,mapserver.mapy.cz,CDN

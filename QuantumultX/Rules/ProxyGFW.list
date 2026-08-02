@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7474
+# 规则统计: 7475
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -4511,6 +4511,7 @@ HOST-SUFFIX,ntdtv.jp,ProxyGFW
 HOST-SUFFIX,ntdtv.org,ProxyGFW
 HOST-SUFFIX,ntdtv.ru,ProxyGFW
 HOST-SUFFIX,ntdtvla.com,ProxyGFW
+HOST-SUFFIX,nthlink.com,ProxyGFW
 HOST-SUFFIX,ntrfun.com,ProxyGFW
 HOST-SUFFIX,ntu.edu.tw,ProxyGFW
 HOST-SUFFIX,nu.nl,ProxyGFW

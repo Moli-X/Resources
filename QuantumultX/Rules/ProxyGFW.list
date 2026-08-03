@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7475
+# 规则统计: 7474
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1093,6 +1093,7 @@ HOST-SUFFIX,centauro.com.br,ProxyGFW
 HOST-SUFFIX,centerforhumanreprod.com,ProxyGFW
 HOST-SUFFIX,centralnation.com,ProxyGFW
 HOST-SUFFIX,centurys.net,ProxyGFW
+HOST-SUFFIX,cerebras.ai,ProxyGFW
 HOST-SUFFIX,certificate-transparency.org,ProxyGFW
 HOST-SUFFIX,certificate.revocationcheck.com,ProxyGFW
 HOST-SUFFIX,cex.io,ProxyGFW
@@ -1228,6 +1229,7 @@ HOST-SUFFIX,chromeexperiments.com,ProxyGFW
 HOST-SUFFIX,chromercise.com,ProxyGFW
 HOST-SUFFIX,chromestatus.com,ProxyGFW
 HOST-SUFFIX,chromium.org,ProxyGFW
+HOST-SUFFIX,cht.com.tw,ProxyGFW
 HOST-SUFFIX,chuang-yen.org,ProxyGFW
 HOST-SUFFIX,chubold.com,ProxyGFW
 HOST-SUFFIX,chubun.com,ProxyGFW
@@ -4182,7 +4184,6 @@ HOST-SUFFIX,motor4ik.ru,ProxyGFW
 HOST-SUFFIX,mousebreaker.com,ProxyGFW
 HOST-SUFFIX,movements.org,ProxyGFW
 HOST-SUFFIX,moviefap.com,ProxyGFW
-HOST-SUFFIX,mozilla.ai,ProxyGFW
 HOST-SUFFIX,mozilla.org,ProxyGFW
 HOST-SUFFIX,moztw.org,ProxyGFW
 HOST-SUFFIX,mp3buscador.com,ProxyGFW
@@ -5113,7 +5114,6 @@ HOST-SUFFIX,radio.co,ProxyGFW
 HOST-SUFFIX,radio.garden,ProxyGFW
 HOST-SUFFIX,radioaustralia.net.au,ProxyGFW
 HOST-SUFFIX,radiohilight.net,ProxyGFW
-HOST-SUFFIX,radiojar.com,ProxyGFW
 HOST-SUFFIX,radioline.co,ProxyGFW
 HOST-SUFFIX,radiotime.com,ProxyGFW
 HOST-SUFFIX,radiovaticana.org,ProxyGFW
@@ -7008,7 +7008,6 @@ HOST-SUFFIX,www.ajsands.com,ProxyGFW
 HOST-SUFFIX,www.antd.org,ProxyGFW
 HOST-SUFFIX,www.aolnews.com,ProxyGFW
 HOST-SUFFIX,www.bing.com,ProxyGFW
-HOST-SUFFIX,www.clashverge.dev,ProxyGFW
 HOST-SUFFIX,www.cmoinc.org,ProxyGFW
 HOST-SUFFIX,www.dmm.com,ProxyGFW
 HOST-SUFFIX,www.eastturkistan.net,ProxyGFW

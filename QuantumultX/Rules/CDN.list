@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4653
+# 规则统计: 4655
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -292,6 +292,7 @@ HOST,assets.tigerdata.com,CDN
 HOST,assets.time.com,CDN
 HOST,assets.tokopedia.net,CDN
 HOST,assets.toot.cafe,CDN
+HOST,assets.trainingpeaks.com,CDN
 HOST,assets.transfernow.net,CDN
 HOST,assets.tvtropes.org,CDN
 HOST,assets.twitch.tv,CDN
@@ -3302,6 +3303,7 @@ HOST,web-toolbar.playstation.com,CDN
 HOST,webappassets.smartsheet.com,CDN
 HOST,webassets.linear.app,CDN
 HOST,webcdn.17app.co,CDN
+HOST,webdist.data.apnic.net,CDN
 HOST,webfonts.zoho.com,CDN
 HOST,webobjects2.cdw.com,CDN
 HOST,webp.frostming.com,CDN

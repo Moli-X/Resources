@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 50
+# 规则统计: 51
 
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,AI
 HOST,ai.google.dev,AI
@@ -21,6 +21,7 @@ HOST-SUFFIX,anthropic.com,AI
 HOST-SUFFIX,bard.google.com,AI
 HOST-SUFFIX,chat.com,AI
 HOST-SUFFIX,chatgpt.com,AI
+HOST-SUFFIX,chatgpt.site,AI
 HOST-SUFFIX,claude.ai,AI
 HOST-SUFFIX,claude.com,AI
 HOST-SUFFIX,clipdrop.co,AI

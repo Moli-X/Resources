@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7474
+# 规则统计: 7472
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -503,7 +503,6 @@ HOST-SUFFIX,atnext.com,ProxyGFW
 HOST-SUFFIX,auctions.yahoo.co.jp,ProxyGFW
 HOST-SUFFIX,audacy.com,ProxyGFW
 HOST-SUFFIX,audionow.com,ProxyGFW
-HOST-SUFFIX,auntology.fandom.com,ProxyGFW
 HOST-SUFFIX,authorizeddns.net,ProxyGFW
 HOST-SUFFIX,authorizeddns.org,ProxyGFW
 HOST-SUFFIX,authorizeddns.us,ProxyGFW
@@ -3102,7 +3101,6 @@ HOST-SUFFIX,homedepot.com,ProxyGFW
 HOST-SUFFIX,homeperversion.com,ProxyGFW
 HOST-SUFFIX,homeservershow.com,ProxyGFW
 HOST-SUFFIX,honeynet.org,ProxyGFW
-HOST-SUFFIX,hongkong.fandom.com,ProxyGFW
 HOST-SUFFIX,hongkongfp.com,ProxyGFW
 HOST-SUFFIX,hongmeimei.com,ProxyGFW
 HOST-SUFFIX,hongzhi.li,ProxyGFW

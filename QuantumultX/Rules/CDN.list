@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4661
+# 规则统计: 4665
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -311,6 +311,7 @@ HOST,assets.vodafone.co.uk,CDN
 HOST,assets.vogue.com,CDN
 HOST,assets.volvo.com,CDN
 HOST,assets.vrchat.com,CDN
+HOST,assets.weather-forecast.com,CDN
 HOST,assets.xboxservices.com,CDN
 HOST,assets.xmind.net,CDN
 HOST,assets.yande.re,CDN
@@ -476,6 +477,7 @@ HOST,cdn-blocks.karte.io,CDN
 HOST,cdn-bundler.nice-team.net,CDN
 HOST,cdn-c.leavemealone.com,CDN
 HOST,cdn-cf-east.streamable.com,CDN
+HOST,cdn-city.livere.com,CDN
 HOST,cdn-client.medium.com,CDN
 HOST,cdn-cms.tunein.com,CDN
 HOST,cdn-dynmedia-1.microsoft.com,CDN
@@ -3466,6 +3468,7 @@ HOST-SUFFIX,assettype.com,CDN
 HOST-SUFFIX,avximg.com,CDN
 HOST-SUFFIX,aweber-static.com,CDN
 HOST-SUFFIX,awsstatic.com,CDN
+HOST-SUFFIX,awxcdn.com,CDN
 HOST-SUFFIX,ax1x.com,CDN
 HOST-SUFFIX,azurestaticapps.net,CDN
 HOST-SUFFIX,b2c-contenthub.com,CDN
@@ -3732,6 +3735,7 @@ HOST-SUFFIX,f.hubspotstarter.net,CDN
 HOST-SUFFIX,faceit-cdn.net,CDN
 HOST-SUFFIX,fakeimg.pl,CDN
 HOST-SUFFIX,fakestoreapi.com,CDN
+HOST-SUFFIX,fast-sfc.com,CDN
 HOST-SUFFIX,fastlycdn.com,CDN
 HOST-SUFFIX,favicone.com,CDN
 HOST-SUFFIX,fbcdn.com,CDN

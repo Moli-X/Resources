@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 868
+# 规则统计: 869
 
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -208,6 +208,7 @@ HOST-SUFFIX,cailianpress.com,ChinaDomain
 HOST-SUFFIX,cainiao.com,ChinaDomain
 HOST-SUFFIX,cainiaoyizhan.com,ChinaDomain
 HOST-SUFFIX,caiyunapp.com,ChinaDomain
+HOST-SUFFIX,caiyuncdn.com,ChinaDomain
 HOST-SUFFIX,camera360.com,ChinaDomain
 HOST-SUFFIX,camscanner.com,ChinaDomain
 HOST-SUFFIX,ccb.com,ChinaDomain

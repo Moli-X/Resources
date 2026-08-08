@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4665
+# 规则统计: 4667
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -450,6 +450,7 @@ HOST,cache.armorgames.com,CDN
 HOST,cache.hackedfreegames.com,CDN
 HOST,cache.industry.siemens.com,CDN
 HOST,cache.ip-api.com,CDN
+HOST,cache.mapcomplete.org,CDN
 HOST,cache.omnicalculator.com,CDN
 HOST,cached.rebuyengine.com,CDN
 HOST,cafe.github.com,CDN
@@ -3118,7 +3119,6 @@ HOST,tile.poloha.net,CDN
 HOST,tile.skybrush.io,CDN
 HOST,tile.waymarkedtrails.org,CDN
 HOST,tile2.intervals.icu,CDN
-HOST,tile2.opencyclemap.org,CDN
 HOST,tilecache.rainviewer.com,CDN
 HOST,tiledbasemaps.arcgis.com,CDN
 HOST,tilemaps.icgc.cat,CDN
@@ -4438,6 +4438,8 @@ HOST-SUFFIX,tile.osm.org,CDN
 HOST-SUFFIX,tile.osmz.ru,CDN
 HOST-SUFFIX,tile.stamen.com,CDN
 HOST-SUFFIX,tile.thunderforest.com,CDN
+HOST-SUFFIX,tile2.opencyclemap.org,CDN
+HOST-SUFFIX,tile3.opencyclemap.org,CDN
 HOST-SUFFIX,tiles-api.maps.komoot.net,CDN
 HOST-SUFFIX,tiles.freemap.sk,CDN
 HOST-SUFFIX,tiles.mapbox.com,CDN

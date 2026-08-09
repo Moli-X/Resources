@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4691
+# 规则统计: 4693
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3527,6 +3527,8 @@ HOST-SUFFIX,brightspotcdn.com,CDN
 HOST-SUFFIX,bstarstatic.com,CDN
 HOST-SUFFIX,bstatic.com,CDN
 HOST-SUFFIX,bugly.qcloud.com,CDN
+HOST-SUFFIX,buildkiteassets.com,CDN
+HOST-SUFFIX,buildkiteusercontent.com,CDN
 HOST-SUFFIX,bundle.run,CDN
 HOST-SUFFIX,bundle.thimatic-apps.com,CDN
 HOST-SUFFIX,bunnycdn.com,CDN

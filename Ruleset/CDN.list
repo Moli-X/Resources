@@ -85,6 +85,7 @@ DOMAIN,app.groovefunnels.com
 DOMAIN,app.moegirl.tw
 DOMAIN,app.quotemedia.com
 DOMAIN,app.roboflow.com
+DOMAIN,app.shop.pe
 DOMAIN,app.viral-loops.com
 DOMAIN,appassets.mvtdev.com
 DOMAIN,apps-static.route4me.com
@@ -163,6 +164,7 @@ DOMAIN,assets.coingecko.com
 DOMAIN,assets.context.ly
 DOMAIN,assets.controld.com
 DOMAIN,assets.convertkit.com
+DOMAIN,assets.create.roblox.com
 DOMAIN,assets.customer.io
 DOMAIN,assets.cyberghostvpn.com
 DOMAIN,assets.dev.to
@@ -187,6 +189,7 @@ DOMAIN,assets.foxdcg.com
 DOMAIN,assets.freespeechcoalition.com
 DOMAIN,assets.frontegg.com
 DOMAIN,assets.fxnetworks.com
+DOMAIN,assets.game8.co
 DOMAIN,assets.garr.it
 DOMAIN,assets.gcore.pro
 DOMAIN,assets.geeksforgeeks.org
@@ -282,6 +285,7 @@ DOMAIN,assets.static-upwork.com
 DOMAIN,assets.stickpng.com
 DOMAIN,assets.stigg.io
 DOMAIN,assets.streamlinehq.com
+DOMAIN,assets.swiftkey.com
 DOMAIN,assets.swoogo.com
 DOMAIN,assets.tangled.network
 DOMAIN,assets.tatlerasia.com
@@ -319,17 +323,23 @@ DOMAIN,assets.zilliz.com
 DOMAIN,assets.zpic.biz
 DOMAIN,assets0.headwayapp.co
 DOMAIN,assets1.lottiefiles.com
+DOMAIN,assets10.freshdesk.com
 DOMAIN,assets10.lottiefiles.com
 DOMAIN,assets2.blubrry.com
 DOMAIN,assets2.canny.io
+DOMAIN,assets2.freshdesk.com
 DOMAIN,assets2.lottiefiles.com
+DOMAIN,assets3.freshdesk.com
 DOMAIN,assets3.lottiefiles.com
 DOMAIN,assets4.lottiefiles.com
 DOMAIN,assets4.mist-train-girls.com
+DOMAIN,assets5.freshdesk.com
 DOMAIN,assets5.lottiefiles.com
 DOMAIN,assets6.lottiefiles.com
+DOMAIN,assets7.freshdesk.com
 DOMAIN,assets7.lottiefiles.com
 DOMAIN,assets8.lottiefiles.com
+DOMAIN,assets9.freshdesk.com
 DOMAIN,assets9.lottiefiles.com
 DOMAIN,assetscdn-wchat.eu.freshchat.com
 DOMAIN,assetscdn.jable.tv
@@ -1190,6 +1200,7 @@ DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,consent-manager.ft.com
 DOMAIN,consent-notice.ft.com
 DOMAIN,consent.dw.com
+DOMAIN,consent.fmm.io
 DOMAIN,consent.formula1.com
 DOMAIN,consentdeliveryfd.azurefd.net
 DOMAIN,consumersite-assets.trustpilot.net
@@ -1229,6 +1240,7 @@ DOMAIN,creator-image.javhd.com
 DOMAIN,crl.usertrust.com
 DOMAIN,crl.verisign.com
 DOMAIN,crl3.digicert.com
+DOMAIN,crossborder-integration.global-e.com
 DOMAIN,crt.comodoca.com
 DOMAIN,crt.sectigo.com
 DOMAIN,crt.usertrust.com
@@ -1478,6 +1490,7 @@ DOMAIN,g-static.ap4r.com
 DOMAIN,g.newsweek.com
 DOMAIN,g1.nyt.com
 DOMAIN,gamemedia.armorgames.com
+DOMAIN,gamesapps-assets.ghub.logitechg.com
 DOMAIN,gannett-cdn.ex.co
 DOMAIN,gdb.rferl.org
 DOMAIN,gdb.voanews.com
@@ -1554,6 +1567,7 @@ DOMAIN,i.iwara.tv
 DOMAIN,i.jpg.dog
 DOMAIN,i.kickstarter.com
 DOMAIN,i.loli.best
+DOMAIN,i.macsecurity.net
 DOMAIN,i.magecdn.com
 DOMAIN,i.mediatek.com
 DOMAIN,i.meee.com.tw
@@ -1565,6 +1579,7 @@ DOMAIN,i.niupic.com
 DOMAIN,i.pcmag.com
 DOMAIN,i.rtings.com
 DOMAIN,i.servimg.com
+DOMAIN,i.skiplagged.com
 DOMAIN,i.snap.as
 DOMAIN,i.typlog.com
 DOMAIN,i.vgy.me
@@ -1686,6 +1701,7 @@ DOMAIN,images.findagrave.com
 DOMAIN,images.flightradar24.com
 DOMAIN,images.g2crowd.com
 DOMAIN,images.github.media
+DOMAIN,images.gog.com
 DOMAIN,images.hothardware.com
 DOMAIN,images.icon-icons.com
 DOMAIN,images.indianexpress.com
@@ -2357,6 +2373,7 @@ DOMAIN,prod-packager-packages.codesandbox.io
 DOMAIN,prod-streaming-video-msn-com.akamaized.net
 DOMAIN,prod-video-cms-amp-microsoft-com.akamaized.net
 DOMAIN,prod.addictinggames.com
+DOMAIN,prod.docsiteassets.roblox.com
 DOMAIN,prodamdnewsencoding.akamaized.net
 DOMAIN,production-cmp.isgprivacy.cbsi.com
 DOMAIN,profile-images.xing.com
@@ -2880,6 +2897,7 @@ DOMAIN,static.monei.net
 DOMAIN,static.monotype.com
 DOMAIN,static.moomoo.com
 DOMAIN,static.moonpay.com
+DOMAIN,static.mul-pay.jp
 DOMAIN,static.music.com
 DOMAIN,static.mypikpak.com
 DOMAIN,static.mysph.sph.com.sg
@@ -2897,6 +2915,7 @@ DOMAIN,static.nrk.no
 DOMAIN,static.nyse.com
 DOMAIN,static.observablehq.com
 DOMAIN,static.oklink.com
+DOMAIN,static.okx.cab
 DOMAIN,static.okx.com
 DOMAIN,static.olelive.com
 DOMAIN,static.onlinewebfonts.com
@@ -3410,6 +3429,7 @@ DOMAIN-SUFFIX,addons.business
 DOMAIN-SUFFIX,adguardcdn.com
 DOMAIN-SUFFIX,adobeccstatic.com
 DOMAIN-SUFFIX,adtidy.org
+DOMAIN-SUFFIX,aexp-static.com
 DOMAIN-SUFFIX,agechecker-northern-apps.com
 DOMAIN-SUFFIX,agechecker.northern-apps.com
 DOMAIN-SUFFIX,ahcdn.com
@@ -3467,6 +3487,7 @@ DOMAIN-SUFFIX,aweber-static.com
 DOMAIN-SUFFIX,awsstatic.com
 DOMAIN-SUFFIX,awxcdn.com
 DOMAIN-SUFFIX,ax1x.com
+DOMAIN-SUFFIX,axis-cdn.net
 DOMAIN-SUFFIX,azurestaticapps.net
 DOMAIN-SUFFIX,b2c-contenthub.com
 DOMAIN-SUFFIX,badgen.net
@@ -3667,6 +3688,7 @@ DOMAIN-SUFFIX,discourse-cdn.com
 DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,divio-media.net
 DOMAIN-SUFFIX,dlunar.net
+DOMAIN-SUFFIX,dm-static.com
 DOMAIN-SUFFIX,dmcdn.net
 DOMAIN-SUFFIX,dnvodcdn.me
 DOMAIN-SUFFIX,docker.io
@@ -3812,6 +3834,7 @@ DOMAIN-SUFFIX,gitpage.si
 DOMAIN-SUFFIX,glass.adidas.com
 DOMAIN-SUFFIX,glbimg.com
 DOMAIN-SUFFIX,global-cdn.me
+DOMAIN-SUFFIX,gog-statics.com
 DOMAIN-SUFFIX,gold-usergeneratedcontent.net
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleusercontent.com
@@ -4214,6 +4237,7 @@ DOMAIN-SUFFIX,pressablecdn.com
 DOMAIN-SUFFIX,pressidiumcdn.com
 DOMAIN-SUFFIX,prhcdn.com
 DOMAIN-SUFFIX,privacy-gateway.cloudflare.com
+DOMAIN-SUFFIX,privacyguidesusercontent.com
 DOMAIN-SUFFIX,prod-east.frontend.public.atl-paas.net
 DOMAIN-SUFFIX,prod.public.atl-paas.net
 DOMAIN-SUFFIX,project1content.com

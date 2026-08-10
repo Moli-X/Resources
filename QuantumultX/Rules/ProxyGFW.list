@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7472
+# 规则统计: 7476
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -241,6 +241,7 @@ HOST-SUFFIX,ai-wen.net,ProxyGFW
 HOST-SUFFIX,ai.dev,ProxyGFW
 HOST-SUFFIX,ai.google,ProxyGFW
 HOST-SUFFIX,ai.studio,ProxyGFW
+HOST-SUFFIX,aihub.top,ProxyGFW
 HOST-SUFFIX,aiosearch.com,ProxyGFW
 HOST-SUFFIX,aiph.net,ProxyGFW
 HOST-SUFFIX,airasia.com,ProxyGFW
@@ -578,6 +579,7 @@ HOST-SUFFIX,barnabu.co.uk,ProxyGFW
 HOST-SUFFIX,bartender.dowjones.com,ProxyGFW
 HOST-SUFFIX,barton.de,ProxyGFW
 HOST-SUFFIX,bartvpn.com,ProxyGFW
+HOST-SUFFIX,basemaps.arcgis.com,ProxyGFW
 HOST-SUFFIX,bastillepost.com,ProxyGFW
 HOST-SUFFIX,bayvoice.net,ProxyGFW
 HOST-SUFFIX,baywords.com,ProxyGFW
@@ -1888,6 +1890,7 @@ HOST-SUFFIX,eromon.net,ProxyGFW
 HOST-SUFFIX,eroprofile.com,ProxyGFW
 HOST-SUFFIX,eroticsaloon.net,ProxyGFW
 HOST-SUFFIX,esg.t91y.com,ProxyGFW
+HOST-SUFFIX,esim.redteago.com,ProxyGFW
 HOST-SUFFIX,eslite.com,ProxyGFW
 HOST-SUFFIX,esmtp.biz,ProxyGFW
 HOST-SUFFIX,esurance.com,ProxyGFW
@@ -1926,6 +1929,7 @@ HOST-SUFFIX,exmormon.org,ProxyGFW
 HOST-SUFFIX,expatshield.com,ProxyGFW
 HOST-SUFFIX,expecthim.com,ProxyGFW
 HOST-SUFFIX,expekt.com,ProxyGFW
+HOST-SUFFIX,experience.arcgis.com,ProxyGFW
 HOST-SUFFIX,experts-univers.com,ProxyGFW
 HOST-SUFFIX,exploader.net,ProxyGFW
 HOST-SUFFIX,expofutures.com,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4693
+# 规则统计: 4704
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -305,6 +305,7 @@ HOST,assets.unicorn.studio,CDN
 HOST,assets.unifi-ai.com,CDN
 HOST,assets.unredacted.org,CDN
 HOST,assets.upload.io,CDN
+HOST,assets.userstyles.org,CDN
 HOST,assets.vantage.sh,CDN
 HOST,assets.vercel.com,CDN
 HOST,assets.video.yahoo.net,CDN
@@ -462,6 +463,7 @@ HOST,cache.industry.siemens.com,CDN
 HOST,cache.ip-api.com,CDN
 HOST,cache.mapcomplete.org,CDN
 HOST,cache.omnicalculator.com,CDN
+HOST,cache.sgvafs.com,CDN
 HOST,cached.rebuyengine.com,CDN
 HOST,cafe.github.com,CDN
 HOST,canny-assets.io,CDN
@@ -1471,6 +1473,7 @@ HOST,fonts.sony.net,CDN
 HOST,fonts.svc.ui.com,CDN
 HOST,fonts.twitter.com,CDN
 HOST,fonts.upset.dev,CDN
+HOST,fonts.wd40.info,CDN
 HOST,fonts.zapier.com,CDN
 HOST,fonts1.unidays.world,CDN
 HOST,forest-mt-s3.seekrtech.com,CDN
@@ -1921,6 +1924,7 @@ HOST,imgix.setapp.com,CDN
 HOST,imgopt.infoq.com,CDN
 HOST,imgproxy.flathub.org,CDN
 HOST,imgproxy.fourthwall.com,CDN
+HOST,imgproxy.windy.com,CDN
 HOST,imgrs.apkcombo.com,CDN
 HOST,imgs.plurk.com,CDN
 HOST,imgs.search.brave.com,CDN
@@ -2159,6 +2163,7 @@ HOST,media.theporndude.com,CDN
 HOST,media.theresanaiforthat.com,CDN
 HOST,media.trakt.tv,CDN
 HOST,media.user.com,CDN
+HOST,media.wd40.asia,CDN
 HOST,media.webtoo.ls,CDN
 HOST,media.wired.com,CDN
 HOST,media.yukimochi.jp,CDN
@@ -2222,6 +2227,7 @@ HOST,ni-assets.azureedge.net,CDN
 HOST,nightly.link,CDN
 HOST,no-cache.hubspot.com,CDN
 HOST,node.green,CDN
+HOST,node.windy.com,CDN
 HOST,nodeassets.nbcnews.com,CDN
 HOST,nodebox-runtime.codesandbox.io,CDN
 HOST,nodei.co,CDN
@@ -3041,6 +3047,8 @@ HOST,stats.codesandbox.io,CDN
 HOST,stats.setapp.com,CDN
 HOST,stats.setapp.macpaw.dev,CDN
 HOST,status.canarymail.io,CDN
+HOST,status.claude.com,CDN
+HOST,status.openai.com,CDN
 HOST,status.ui.com,CDN
 HOST,stbff.newfold.com,CDN
 HOST,stc.utdstc.com,CDN
@@ -3626,6 +3634,7 @@ HOST-SUFFIX,cloud2.influxdata.com,CDN
 HOST-SUFFIX,cloudatacdn.com,CDN
 HOST-SUFFIX,cloudflare-ipfs.com,CDN
 HOST-SUFFIX,cloudflare.ltd,CDN
+HOST-SUFFIX,cloudflarestatus.com,CDN
 HOST-SUFFIX,cloudflarestream.com,CDN
 HOST-SUFFIX,cloudforfun.vip,CDN
 HOST-SUFFIX,cloudfront.net,CDN
@@ -3828,6 +3837,7 @@ HOST-SUFFIX,gitcdn.xyz,CDN
 HOST-SUFFIX,githack.com,CDN
 HOST-SUFFIX,github.io,CDN
 HOST-SUFFIX,githubassets.com,CDN
+HOST-SUFFIX,githubstatus.com,CDN
 HOST-SUFFIX,githubusercontent.com,CDN
 HOST-SUFFIX,gitlab-static.net,CDN
 HOST-SUFFIX,gitlab.io,CDN
@@ -3933,6 +3943,7 @@ HOST-SUFFIX,img2.acsta.net,CDN
 HOST-SUFFIX,img3.acsta.net,CDN
 HOST-SUFFIX,imgair.net,CDN
 HOST-SUFFIX,imgbox.com,CDN
+HOST-SUFFIX,imgcdn8.com,CDN
 HOST-SUFFIX,imgikuncdn.com,CDN
 HOST-SUFFIX,imgikzy.com,CDN
 HOST-SUFFIX,imgimg.cc,CDN

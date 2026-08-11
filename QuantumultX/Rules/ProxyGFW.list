@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7476
+# 规则统计: 7477
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1608,6 +1608,7 @@ HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,ProxyGFW
 HOST-SUFFIX,disp.cc,ProxyGFW
 HOST-SUFFIX,disqus.com,ProxyGFW
 HOST-SUFFIX,dit-inc.us,ProxyGFW
+HOST-SUFFIX,divdyn.com,ProxyGFW
 HOST-SUFFIX,diyin.org,ProxyGFW
 HOST-SUFFIX,dizhidizhi.com,ProxyGFW
 HOST-SUFFIX,dizhuzhishang.com,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4710
+# 规则统计: 4712
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2670,6 +2670,7 @@ HOST,sprig.figma.com,CDN
 HOST,sr-cdn-1.shiprocket.in,CDN
 HOST,ss7.vzw.com,CDN
 HOST,ssl.gstatic.com,CDN
+HOST,sso-static.razer.com,CDN
 HOST,st-eu.dynamicyield.com,CDN
 HOST,st.agrd.eu,CDN
 HOST,st.codeforces.com,CDN
@@ -3969,6 +3970,7 @@ HOST-SUFFIX,ingest.atoms.dev,CDN
 HOST-SUFFIX,ingest.de.sentry.io,CDN
 HOST-SUFFIX,ingest.sentry.io,CDN
 HOST-SUFFIX,ingest.us.sentry.io,CDN
+HOST-SUFFIX,insightcdn.net,CDN
 HOST-SUFFIX,instant.page,CDN
 HOST-SUFFIX,intercomassets.com,CDN
 HOST-SUFFIX,intercomcdn.com,CDN

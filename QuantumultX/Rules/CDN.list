@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4704
+# 规则统计: 4710
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -588,6 +588,7 @@ HOST,cdn.bfe.dev,CDN
 HOST,cdn.bfldr.com,CDN
 HOST,cdn.birdie.so,CDN
 HOST,cdn.bitmovin.com,CDN
+HOST,cdn.bitrix24.eu,CDN
 HOST,cdn.blogarama.com,CDN
 HOST,cdn.bogos.io,CDN
 HOST,cdn.boldmethod.com,CDN
@@ -738,6 +739,7 @@ HOST,cdn.i-scmp.com,CDN
 HOST,cdn.icomoon.io,CDN
 HOST,cdn.icon-icons.com,CDN
 HOST,cdn.iconfinder.com,CDN
+HOST,cdn.id.life,CDN
 HOST,cdn.imageengine.io,CDN
 HOST,cdn.imago-images.com,CDN
 HOST,cdn.img.ly,CDN
@@ -1719,6 +1721,7 @@ HOST,images.microcms-assets.io,CDN
 HOST,images.mobilism.org,CDN
 HOST,images.moegoat.com,CDN
 HOST,images.moovitapp.com,CDN
+HOST,images.motion.dev,CDN
 HOST,images.nebula.tv,CDN
 HOST,images.newrepublic.com,CDN
 HOST,images.now-tv.com,CDN
@@ -2060,6 +2063,7 @@ HOST,mangaz-static.j-comi.jp,CDN
 HOST,mantisloader.mantis-awx.com,CDN
 HOST,map.adsbexchange.com,CDN
 HOST,map.vesselfinder.net,CDN
+HOST,maps-api-cdn.meteoblue.com,CDN
 HOST,maps.geoapify.com,CDN
 HOST,maps.gstatic.com,CDN
 HOST,maps.hereapi.com,CDN
@@ -2896,6 +2900,7 @@ HOST,static.maxmind.com,CDN
 HOST,static.mediafire.com,CDN
 HOST,static.meiguo.com,CDN
 HOST,static.mendeley.com,CDN
+HOST,static.meteoblue.com,CDN
 HOST,static.missav.com,CDN
 HOST,static.mocortech.com,CDN
 HOST,static.moegoat.com,CDN
@@ -4371,6 +4376,7 @@ HOST-SUFFIX,sny.monosnap.com,CDN
 HOST-SUFFIX,snzypic.com,CDN
 HOST-SUFFIX,someonewhocares.org,CDN
 HOST-SUFFIX,sourceforge.io,CDN
+HOST-SUFFIX,spaceship-cdn.com,CDN
 HOST-SUFFIX,splunkcloud.com,CDN
 HOST-SUFFIX,spreadshirtmedia.com,CDN
 HOST-SUFFIX,sqspcdn.com,CDN

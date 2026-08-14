@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4712
+# 规则统计: 4713
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -4099,6 +4099,7 @@ HOST-SUFFIX,lzzypic.com,CDN
 HOST-SUFFIX,macysassets.com,CDN
 HOST-SUFFIX,makeuseofimages.com,CDN
 HOST-SUFFIX,mangadex.network,CDN
+HOST-SUFFIX,manuscdn.com,CDN
 HOST-SUFFIX,mapi.4kvm.net,CDN
 HOST-SUFFIX,marketing.aws.dev,CDN
 HOST-SUFFIX,mcusercontent.com,CDN

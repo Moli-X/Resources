@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7477
+# 规则统计: 7478
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -3832,6 +3832,7 @@ HOST-SUFFIX,livemint.com,ProxyGFW
 HOST-SUFFIX,livestation.com,ProxyGFW
 HOST-SUFFIX,livestream.com,ProxyGFW
 HOST-SUFFIX,livevideo.com,ProxyGFW
+HOST-SUFFIX,livingatlas.arcgis.com,ProxyGFW
 HOST-SUFFIX,livingonline.us,ProxyGFW
 HOST-SUFFIX,livingstream.com,ProxyGFW
 HOST-SUFFIX,liwangyang.com,ProxyGFW

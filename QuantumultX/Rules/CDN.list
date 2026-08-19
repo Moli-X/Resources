@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4713
+# 规则统计: 4710
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -4645,13 +4645,11 @@ HOST-KEYWORD,assets.trustpilot.net,CDN
 HOST-KEYWORD,cdn.adultempire.com,CDN
 HOST-KEYWORD,cdn.trustpilot.net,CDN
 HOST-KEYWORD,dsn.algolia.net,CDN
-HOST-KEYWORD,fonts.hanime1,CDN
 HOST-KEYWORD,images.trustpilot.com,CDN
 HOST-KEYWORD,images.trustpilot.net,CDN
 HOST-KEYWORD,scripts.trustpilot.com,CDN
 HOST-KEYWORD,static.grammarly.com,CDN
 HOST-KEYWORD,static.trustpilot.com,CDN
-HOST-KEYWORD,vdownload.hanime1,CDN
 HOST-KEYWORD,vod-adaptive.akamaized.net,CDN
 HOST-KEYWORD,web-assets.zendesk,CDN
 HOST-WILDCARD,*-intake-*-datadoghq.com,CDN
@@ -4693,7 +4691,6 @@ HOST-WILDCARD,object-storage-*.vexxhost.net,CDN
 HOST-WILDCARD,ocsp.*.amazontrust.com,CDN
 HOST-WILDCARD,proxy-*.dailymotion.com,CDN
 HOST-WILDCARD,rr?---??.ouo.si,CDN
-HOST-WILDCARD,s*.hanime1,CDN
 HOST-WILDCARD,s3-*.figma.com,CDN
 HOST-WILDCARD,s3.*.wasabisys.com,CDN
 HOST-WILDCARD,s?.maxstream.org,CDN

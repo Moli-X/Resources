@@ -4642,13 +4642,11 @@ DOMAIN-KEYWORD,assets.trustpilot.net
 DOMAIN-KEYWORD,cdn.adultempire.com
 DOMAIN-KEYWORD,cdn.trustpilot.net
 DOMAIN-KEYWORD,dsn.algolia.net
-DOMAIN-KEYWORD,fonts.hanime1
 DOMAIN-KEYWORD,images.trustpilot.com
 DOMAIN-KEYWORD,images.trustpilot.net
 DOMAIN-KEYWORD,scripts.trustpilot.com
 DOMAIN-KEYWORD,static.grammarly.com
 DOMAIN-KEYWORD,static.trustpilot.com
-DOMAIN-KEYWORD,vdownload.hanime1
 DOMAIN-KEYWORD,vod-adaptive.akamaized.net
 DOMAIN-KEYWORD,web-assets.zendesk
 DOMAIN-WILDCARD,*-intake-*-datadoghq.com
@@ -4690,7 +4688,6 @@ DOMAIN-WILDCARD,object-storage-*.vexxhost.net
 DOMAIN-WILDCARD,ocsp.*.amazontrust.com
 DOMAIN-WILDCARD,proxy-*.dailymotion.com
 DOMAIN-WILDCARD,rr?---??.ouo.si
-DOMAIN-WILDCARD,s*.hanime1
 DOMAIN-WILDCARD,s3-*.figma.com
 DOMAIN-WILDCARD,s3.*.wasabisys.com
 DOMAIN-WILDCARD,s?.maxstream.org

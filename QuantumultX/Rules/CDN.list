@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4710
+# 规则统计: 4712
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -711,6 +711,7 @@ HOST,cdn.gdl.gg,CDN
 HOST,cdn.geekzone.co.nz,CDN
 HOST,cdn.gethypervisual.com,CDN
 HOST,cdn.getkoala.com,CDN
+HOST,cdn.getmerlin.in,CDN
 HOST,cdn.gettr.com,CDN
 HOST,cdn.ghostery.com,CDN
 HOST,cdn.giftcardpro.app,CDN
@@ -773,6 +774,7 @@ HOST,cdn.kobo.com,CDN
 HOST,cdn.langshop.app,CDN
 HOST,cdn.leandata.com,CDN
 HOST,cdn.lemonsqueezy.com,CDN
+HOST,cdn.leonardo.ai,CDN
 HOST,cdn.lgrckt-in.com,CDN
 HOST,cdn.libravatar.org,CDN
 HOST,cdn.lihkg.com,CDN

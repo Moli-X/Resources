@@ -240,7 +240,6 @@ DOMAIN,assets.nintendo.com
 DOMAIN,assets.northflank.com
 DOMAIN,assets.nxtrace.org
 DOMAIN,assets.nypost.com
-DOMAIN,assets.onestore.ms
 DOMAIN,assets.ontrack.com
 DOMAIN,assets.openalternative.co
 DOMAIN,assets.openlogi.org
@@ -626,7 +625,6 @@ DOMAIN,cdn.cms-twdigitalassets.com
 DOMAIN,cdn.cnn.com
 DOMAIN,cdn.cnx-software.com
 DOMAIN,cdn.codeblackbelt.com
-DOMAIN,cdn.commandbar.com
 DOMAIN,cdn.comparitech.com
 DOMAIN,cdn.concert.io
 DOMAIN,cdn.configcat.com
@@ -1470,6 +1468,7 @@ DOMAIN,fonts.googleapis.com
 DOMAIN,fonts.gstatic.com
 DOMAIN,fonts.loox.io
 DOMAIN,fonts.mailerlite.com
+DOMAIN,fonts.reown.com
 DOMAIN,fonts.sony.net
 DOMAIN,fonts.svc.ui.com
 DOMAIN,fonts.twitter.com
@@ -1479,7 +1478,6 @@ DOMAIN,fonts.zapier.com
 DOMAIN,fonts1.unidays.world
 DOMAIN,forest-mt-s3.seekrtech.com
 DOMAIN,form-assets.mailchimp.com
-DOMAIN,frames-commandbar-prod.commandbar.com
 DOMAIN,freeshippingbar.herokuapp.com
 DOMAIN,front-resource.fs.com
 DOMAIN,frontend-apps-multi-region.workos.com
@@ -2524,10 +2522,10 @@ DOMAIN,s3-figma-force-client-reloads-production.figma.com
 DOMAIN,s3-figma-plugin-images-production-sig.figma.com
 DOMAIN,s3-symbol-logo.tradingview.com
 DOMAIN,s3.2233778.xyz
-DOMAIN,s3.aaaaa.io
 DOMAIN,s3.acg.mn
 DOMAIN,s3.anilist.co
 DOMAIN,s3.arkjp.net
+DOMAIN,s3.beta.coinmarketcap.com
 DOMAIN,s3.c.im
 DOMAIN,s3.coinmarketcap.com
 DOMAIN,s3.cointelegraph.com
@@ -2771,7 +2769,6 @@ DOMAIN,static.arxiv.org
 DOMAIN,static.assetlab.io
 DOMAIN,static.assets-stash.eet-china.com
 DOMAIN,static.axios.com
-DOMAIN,static.bad.news
 DOMAIN,static.bangumi.moe
 DOMAIN,static.bbc.co.uk
 DOMAIN,static.bbci.co.uk

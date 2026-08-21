@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4712
+# 规则统计: 4709
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -243,7 +243,6 @@ HOST,assets.nintendo.com,CDN
 HOST,assets.northflank.com,CDN
 HOST,assets.nxtrace.org,CDN
 HOST,assets.nypost.com,CDN
-HOST,assets.onestore.ms,CDN
 HOST,assets.ontrack.com,CDN
 HOST,assets.openalternative.co,CDN
 HOST,assets.openlogi.org,CDN
@@ -629,7 +628,6 @@ HOST,cdn.cms-twdigitalassets.com,CDN
 HOST,cdn.cnn.com,CDN
 HOST,cdn.cnx-software.com,CDN
 HOST,cdn.codeblackbelt.com,CDN
-HOST,cdn.commandbar.com,CDN
 HOST,cdn.comparitech.com,CDN
 HOST,cdn.concert.io,CDN
 HOST,cdn.configcat.com,CDN
@@ -1473,6 +1471,7 @@ HOST,fonts.googleapis.com,CDN
 HOST,fonts.gstatic.com,CDN
 HOST,fonts.loox.io,CDN
 HOST,fonts.mailerlite.com,CDN
+HOST,fonts.reown.com,CDN
 HOST,fonts.sony.net,CDN
 HOST,fonts.svc.ui.com,CDN
 HOST,fonts.twitter.com,CDN
@@ -1482,7 +1481,6 @@ HOST,fonts.zapier.com,CDN
 HOST,fonts1.unidays.world,CDN
 HOST,forest-mt-s3.seekrtech.com,CDN
 HOST,form-assets.mailchimp.com,CDN
-HOST,frames-commandbar-prod.commandbar.com,CDN
 HOST,freeshippingbar.herokuapp.com,CDN
 HOST,front-resource.fs.com,CDN
 HOST,frontend-apps-multi-region.workos.com,CDN
@@ -2527,10 +2525,10 @@ HOST,s3-figma-force-client-reloads-production.figma.com,CDN
 HOST,s3-figma-plugin-images-production-sig.figma.com,CDN
 HOST,s3-symbol-logo.tradingview.com,CDN
 HOST,s3.2233778.xyz,CDN
-HOST,s3.aaaaa.io,CDN
 HOST,s3.acg.mn,CDN
 HOST,s3.anilist.co,CDN
 HOST,s3.arkjp.net,CDN
+HOST,s3.beta.coinmarketcap.com,CDN
 HOST,s3.c.im,CDN
 HOST,s3.coinmarketcap.com,CDN
 HOST,s3.cointelegraph.com,CDN
@@ -2774,7 +2772,6 @@ HOST,static.arxiv.org,CDN
 HOST,static.assetlab.io,CDN
 HOST,static.assets-stash.eet-china.com,CDN
 HOST,static.axios.com,CDN
-HOST,static.bad.news,CDN
 HOST,static.bangumi.moe,CDN
 HOST,static.bbc.co.uk,CDN
 HOST,static.bbci.co.uk,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4709
+# 规则统计: 4710
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2460,6 +2460,7 @@ HOST,resource-accel.fs.com,CDN
 HOST,resource.akashic.coe.nicovideo.jp,CDN
 HOST,resource.fs.com,CDN
 HOST,resource.logitech.com,CDN
+HOST,resource.logitechg.com,CDN
 HOST,resource.tnlmediagene.com,CDN
 HOST,resource.video.nimg.jp,CDN
 HOST,resources-cache.prod.sketch.com,CDN

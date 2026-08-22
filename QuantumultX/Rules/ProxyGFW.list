@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7481
+# 规则统计: 7483
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -894,6 +894,7 @@ HOST-SUFFIX,breakgfw.com,ProxyGFW
 HOST-SUFFIX,breaking911.com,ProxyGFW
 HOST-SUFFIX,breakingtweets.com,ProxyGFW
 HOST-SUFFIX,breakwall.net,ProxyGFW
+HOST-SUFFIX,briarproject.org,ProxyGFW
 HOST-SUFFIX,briefdream.com,ProxyGFW
 HOST-SUFFIX,briian.com,ProxyGFW
 HOST-SUFFIX,brill.com,ProxyGFW
@@ -1124,6 +1125,7 @@ HOST-SUFFIX,chat.com,ProxyGFW
 HOST-SUFFIX,chat.lmsys.org,ProxyGFW
 HOST-SUFFIX,chat.openai.com,ProxyGFW
 HOST-SUFFIX,chatgpt.com,ProxyGFW
+HOST-SUFFIX,chatgpt.site,ProxyGFW
 HOST-SUFFIX,chatnook.com,ProxyGFW
 HOST-SUFFIX,chatpdf.com,ProxyGFW
 HOST-SUFFIX,chaturbate.com,ProxyGFW

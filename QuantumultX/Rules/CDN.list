@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4710
+# 规则统计: 4715
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1225,6 +1225,7 @@ HOST,content.overwolf.com,CDN
 HOST,content.powerapps.com,CDN
 HOST,content.presspage.com,CDN
 HOST,content.wepik.com,CDN
+HOST,contentful-asset-proxy.sd.indazn.com,CDN
 HOST,contents-thumbnail2.fc2.com,CDN
 HOST,conversiongorilla.com,CDN
 HOST,cookie-cdn.cookiepro.com,CDN
@@ -1272,6 +1273,7 @@ HOST,data.schemaapp.com,CDN
 HOST,data.web.clickup.com,CDN
 HOST,data3.answerbase.com,CDN
 HOST,david-dm.org,CDN
+HOST,dazn-content-proxy.sd.indazn.com,CDN
 HOST,db.onlinewebfonts.com,CDN
 HOST,dc-cdn.cdw.com,CDN
 HOST,dd.blackhawknetwork.com,CDN
@@ -1636,6 +1638,7 @@ HOST,image.civitai.com,CDN
 HOST,image.cnbcfm.com,CDN
 HOST,image.comicbz.com,CDN
 HOST,image.crisp.chat,CDN
+HOST,image.discovery.indazn.com,CDN
 HOST,image.dooo.ng,CDN
 HOST,image.email.microsoftemail.com,CDN
 HOST,image.freepik.com,CDN
@@ -2814,6 +2817,7 @@ HOST,static.cracked.ax,CDN
 HOST,static.cracked.sh,CDN
 HOST,static.crunchyroll.com,CDN
 HOST,static.crypto.com,CDN
+HOST,static.dazndn.com,CDN
 HOST,static.deepl.com,CDN
 HOST,static.doujins.com,CDN
 HOST,static.driffle.com,CDN
@@ -3777,6 +3781,7 @@ HOST-SUFFIX,favicone.com,CDN
 HOST-SUFFIX,fbcdn.com,CDN
 HOST-SUFFIX,fbcdn.net,CDN
 HOST-SUFFIX,fbsbx.com,CDN
+HOST-SUFFIX,fe.indazn.com,CDN
 HOST-SUFFIX,featureassets.org,CDN
 HOST-SUFFIX,feedercdn.com,CDN
 HOST-SUFFIX,fembeqv2.xyz,CDN

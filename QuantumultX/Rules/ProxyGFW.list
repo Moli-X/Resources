@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7483
+# 规则统计: 7487
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -3023,6 +3023,7 @@ HOST-SUFFIX,himemix.com,ProxyGFW
 HOST-SUFFIX,himemix.net,ProxyGFW
 HOST-SUFFIX,hindustantimes.com,ProxyGFW
 HOST-SUFFIX,hinet.net,ProxyGFW
+HOST-SUFFIX,historylines.net,ProxyGFW
 HOST-SUFFIX,hitbtc.com,ProxyGFW
 HOST-SUFFIX,hitomi.la,ProxyGFW
 HOST-SUFFIX,hive.blog,ProxyGFW
@@ -3653,6 +3654,7 @@ HOST-SUFFIX,kir.jp,ProxyGFW
 HOST-SUFFIX,kissbbao.cn,ProxyGFW
 HOST-SUFFIX,kissjav.com,ProxyGFW
 HOST-SUFFIX,kiwi.kz,ProxyGFW
+HOST-SUFFIX,kiwix.org,ProxyGFW
 HOST-SUFFIX,kk-whys.co.jp,ProxyGFW
 HOST-SUFFIX,kkbox.com,ProxyGFW
 HOST-SUFFIX,kknews.cc,ProxyGFW
@@ -3985,6 +3987,7 @@ HOST-SUFFIX,maxing.jp,ProxyGFW
 HOST-SUFFIX,mayimayi.com,ProxyGFW
 HOST-SUFFIX,mcadforums.com,ProxyGFW
 HOST-SUFFIX,mcaf.ee,ProxyGFW
+HOST-SUFFIX,mceindex.com,ProxyGFW
 HOST-SUFFIX,mcfog.com,ProxyGFW
 HOST-SUFFIX,mcreasite.com,ProxyGFW
 HOST-SUFFIX,mcusercontent.com,ProxyGFW
@@ -5339,6 +5342,7 @@ HOST-SUFFIX,saveuighur.org,ProxyGFW
 HOST-SUFFIX,savevid.com,ProxyGFW
 HOST-SUFFIX,say2.info,ProxyGFW
 HOST-SUFFIX,sb-cd.com,ProxyGFW
+HOST-SUFFIX,sb.sb,ProxyGFW
 HOST-SUFFIX,sbme.me,ProxyGFW
 HOST-SUFFIX,sbs.com.au,ProxyGFW
 HOST-SUFFIX,sbti.unun.dev,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4716
+# 规则统计: 4723
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1278,6 +1278,7 @@ HOST,db.onlinewebfonts.com,CDN
 HOST,dc-cdn.cdw.com,CDN
 HOST,dd.blackhawknetwork.com,CDN
 HOST,dd.dexscreener.com,CDN
+HOST,delivery.twentythree.com,CDN
 HOST,demo.unified-streaming.com,CDN
 HOST,demotiles.maplibre.org,CDN
 HOST,denali-static.grammarly.com,CDN
@@ -1432,6 +1433,7 @@ HOST,file.izanm.org,CDN
 HOST,file.zoom.us,CDN
 HOST,file1.hkepc.net,CDN
 HOST,files.armorgames.com,CDN
+HOST,files.blocktempo.ai,CDN
 HOST,files.buildwithfern.com,CDN
 HOST,files.gempages.net,CDN
 HOST,files.iwara.tv,CDN
@@ -1634,6 +1636,7 @@ HOST,image-stgus.samsung.com,CDN
 HOST,image-us.samsung.com,CDN
 HOST,image.acg.lol,CDN
 HOST,image.ap-mail.org,CDN
+HOST,image.blocktempo.com,CDN
 HOST,image.civitai.com,CDN
 HOST,image.cnbcfm.com,CDN
 HOST,image.comicbz.com,CDN
@@ -3031,6 +3034,7 @@ HOST,static1.smartbear.co,CDN
 HOST,static1.squarespace.com,CDN
 HOST,static10.lottiefiles.com,CDN
 HOST,static2.avg.com,CDN
+HOST,static2.giroditalia.it,CDN
 HOST,static2.lottiefiles.com,CDN
 HOST,static2.onlyfans.com,CDN
 HOST,static2.sharepointonline.com,CDN
@@ -3292,6 +3296,7 @@ HOST,video-meta.humix.com,CDN
 HOST,video.bsky.app,CDN
 HOST,video.cdnbye.com,CDN
 HOST,video.dailymail.co.uk,CDN
+HOST,video.giroditalia.it,CDN
 HOST,video1.7mmtv.sx,CDN
 HOST,video2.7mmtv.sx,CDN
 HOST,video3.mingpao.com,CDN
@@ -3834,6 +3839,7 @@ HOST-SUFFIX,gateway.scarf.sh,CDN
 HOST-SUFFIX,gateway.serph.network,CDN
 HOST-SUFFIX,gauthstatic.com,CDN
 HOST-SUFFIX,gayzyimage.com,CDN
+HOST-SUFFIX,gazzettaobjects.it,CDN
 HOST-SUFFIX,gcr.si,CDN
 HOST-SUFFIX,gdvid.info,CDN
 HOST-SUFFIX,gentcdn.com,CDN
@@ -4301,6 +4307,7 @@ HOST-SUFFIX,rawgithub.com,CDN
 HOST-SUFFIX,raxcdn.com,CDN
 HOST-SUFFIX,raygun.io,CDN
 HOST-SUFFIX,rbxcdn.com,CDN
+HOST-SUFFIX,rcsobjects.it,CDN
 HOST-SUFFIX,rdtcdn.com,CDN
 HOST-SUFFIX,react.dev,CDN
 HOST-SUFFIX,reactjs.org,CDN

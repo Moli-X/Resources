@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4723
+# 规则统计: 4729
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -609,6 +609,7 @@ HOST,cdn.camweara.com,CDN
 HOST,cdn.candid.org,CDN
 HOST,cdn.candu.ai,CDN
 HOST,cdn.candy.ai,CDN
+HOST,cdn.candycode.com,CDN
 HOST,cdn.casestudies.svc.ui.com,CDN
 HOST,cdn.casetify.com,CDN
 HOST,cdn.catch.dmm.co.jp,CDN
@@ -1052,6 +1053,8 @@ HOST,cdn2.stamped.io,CDN
 HOST,cdn2.suno.ai,CDN
 HOST,cdn2.sysgears.com,CDN
 HOST,cdn2.techbang.com,CDN
+HOST,cdn2.telegram.space,CDN
+HOST,cdn2.telesco.pe,CDN
 HOST,cdn2.ttloli.com,CDN
 HOST,cdn2.tubeteen18.com,CDN
 HOST,cdn2.turboviplay.cc,CDN
@@ -1064,6 +1067,8 @@ HOST,cdn3.iconfinder.com,CDN
 HOST,cdn3.onlyfans.com,CDN
 HOST,cdn3.stamped.io,CDN
 HOST,cdn3.sysgears.com,CDN
+HOST,cdn3.telegram.space,CDN
+HOST,cdn3.telesco.pe,CDN
 HOST,cdn3.tubeteen18.com,CDN
 HOST,cdn3.unrealengine.com,CDN
 HOST,cdn4.bigcommerce.com,CDN
@@ -3356,6 +3361,7 @@ HOST,webp.frostming.com,CDN
 HOST,website-cdn.ipinfo.io,CDN
 HOST,website-media.deel.com,CDN
 HOST,website-prod.cache.wpscdn.com,CDN
+HOST,websiteres.nmteam.xyz,CDN
 HOST,webstatic.chargebee.com,CDN
 HOST,widget.allkeyshop.com,CDN
 HOST,widget.automizely.com,CDN

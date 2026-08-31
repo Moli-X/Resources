@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4729
+# 规则统计: 4730
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1152,6 +1152,7 @@ HOST,circle-flags.zeljko.me,CDN
 HOST,clara.iwara.tv,CDN
 HOST,claritystatic.azureedge.net,CDN
 HOST,clickup.marketlinc.com,CDN
+HOST,client-log-forwarder.1password.com,CDN
 HOST,clientsdk.launchdarkly.com,CDN
 HOST,clientstream.launchdarkly.com,CDN
 HOST,clips-media-assets2.twitch.tv,CDN

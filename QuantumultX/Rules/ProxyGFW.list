@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7490
+# 规则统计: 7492
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -2428,6 +2428,7 @@ HOST-SUFFIX,getjetso.com,ProxyGFW
 HOST-SUFFIX,getlantern.org,ProxyGFW
 HOST-SUFFIX,getmalus.com,ProxyGFW
 HOST-SUFFIX,getmdl.io,ProxyGFW
+HOST-SUFFIX,getmonero.org,ProxyGFW
 HOST-SUFFIX,getoutline.org,ProxyGFW
 HOST-SUFFIX,getsession.org,ProxyGFW
 HOST-SUFFIX,getsocialscope.com,ProxyGFW
@@ -4442,6 +4443,7 @@ HOST-SUFFIX,nhncorp.jp,ProxyGFW
 HOST-SUFFIX,nic.cz.cc,ProxyGFW
 HOST-SUFFIX,nic.google,ProxyGFW
 HOST-SUFFIX,nic.gov,ProxyGFW
+HOST-SUFFIX,nicoseiga.jp,ProxyGFW
 HOST-SUFFIX,nicovideo.jp,ProxyGFW
 HOST-SUFFIX,nighost.org,ProxyGFW
 HOST-SUFFIX,nightlife141.com,ProxyGFW

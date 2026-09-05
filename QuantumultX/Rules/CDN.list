@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4735
+# 规则统计: 4737
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -283,7 +283,6 @@ HOST,assets.squarespace.com,CDN
 HOST,assets.squarewebsites.org,CDN
 HOST,assets.st-note.com,CDN
 HOST,assets.stash.com,CDN
-HOST,assets.static-upwork.com,CDN
 HOST,assets.stickpng.com,CDN
 HOST,assets.stigg.io,CDN
 HOST,assets.streamlinehq.com,CDN
@@ -2882,6 +2881,7 @@ HOST,static.hosting.com,CDN
 HOST,static.hotjar.com,CDN
 HOST,static.hubspot.com,CDN
 HOST,static.hugedomains.com,CDN
+HOST,static.idp.sph.com.sg,CDN
 HOST,static.ietf.org,CDN
 HOST,static.ifunny.co,CDN
 HOST,static.incapsula.com,CDN
@@ -4240,6 +4240,7 @@ HOST-SUFFIX,paypalobjects.com,CDN
 HOST-SUFFIX,pcdn.co,CDN
 HOST-SUFFIX,permaweb.eu.org,CDN
 HOST-SUFFIX,permaweb.io,CDN
+HOST-SUFFIX,pgimgs.com,CDN
 HOST-SUFFIX,pgl.yoyo.org,CDN
 HOST-SUFFIX,phncdn.com,CDN
 HOST-SUFFIX,photobucket.com,CDN
@@ -4421,6 +4422,7 @@ HOST-SUFFIX,stackblitz.io,CDN
 HOST-SUFFIX,stapecdn.com,CDN
 HOST-SUFFIX,static-assets.photoshop.adobe.com,CDN
 HOST-SUFFIX,static-prod-web.miniclip.com,CDN
+HOST-SUFFIX,static-upwork.com,CDN
 HOST-SUFFIX,static.amplience.net,CDN
 HOST-SUFFIX,static.chaosgroup.com,CDN
 HOST-SUFFIX,static.dash.cloudflare.com,CDN

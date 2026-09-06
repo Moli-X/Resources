@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7494
+# 规则统计: 7503
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -19,6 +19,8 @@ HOST-SUFFIX,10beasts.net,ProxyGFW
 HOST-SUFFIX,10conditionsoflove.com,ProxyGFW
 HOST-SUFFIX,10musume.com,ProxyGFW
 HOST-SUFFIX,111666.best,ProxyGFW
+HOST-SUFFIX,123av.com,ProxyGFW
+HOST-SUFFIX,123av.me,ProxyGFW
 HOST-SUFFIX,123rf.com,ProxyGFW
 HOST-SUFFIX,12bet.com,ProxyGFW
 HOST-SUFFIX,12vpn.com,ProxyGFW
@@ -2980,6 +2982,7 @@ HOST-SUFFIX,helpster.de,ProxyGFW
 HOST-SUFFIX,helpzhuling.org,ProxyGFW
 HOST-SUFFIX,hembed.com,ProxyGFW
 HOST-SUFFIX,hentai.to,ProxyGFW
+HOST-SUFFIX,hentai.tv,ProxyGFW
 HOST-SUFFIX,hentaitube.tv,ProxyGFW
 HOST-SUFFIX,hentaivideoworld.com,ProxyGFW
 HOST-SUFFIX,heqinglian.net,ProxyGFW
@@ -5253,6 +5256,7 @@ HOST-SUFFIX,roadshow.hk,ProxyGFW
 HOST-SUFFIX,roblox.com,ProxyGFW
 HOST-SUFFIX,roboforex.com,ProxyGFW
 HOST-SUFFIX,robustnessiskey.com,ProxyGFW
+HOST-SUFFIX,roc-taiwan.org,ProxyGFW
 HOST-SUFFIX,rocket-inc.net,ProxyGFW
 HOST-SUFFIX,rocket.chat,ProxyGFW
 HOST-SUFFIX,rocketbbs.com,ProxyGFW
@@ -5268,6 +5272,7 @@ HOST-SUFFIX,rosechina.net,ProxyGFW
 HOST-SUFFIX,rotten.com,ProxyGFW
 HOST-SUFFIX,rou.video,ProxyGFW
 HOST-SUFFIX,roucdn.link,ProxyGFW
+HOST-SUFFIX,roushuwo.com,ProxyGFW
 HOST-SUFFIX,rpglogs.com,ProxyGFW
 HOST-SUFFIX,rsdlmonitor.com,ProxyGFW
 HOST-SUFFIX,rsf-chinese.org,ProxyGFW
@@ -5820,6 +5825,7 @@ HOST-SUFFIX,superfreevpn.com,ProxyGFW
 HOST-SUFFIX,superpages.com,ProxyGFW
 HOST-SUFFIX,supervpn.net,ProxyGFW
 HOST-SUFFIX,superzooi.com,ProxyGFW
+HOST-SUFFIX,supjav.com,ProxyGFW
 HOST-SUFFIX,suppig.net,ProxyGFW
 HOST-SUFFIX,support.futunn.com,ProxyGFW
 HOST-SUFFIX,supremecourt.gov,ProxyGFW
@@ -5870,6 +5876,7 @@ HOST-SUFFIX,tafm.org,ProxyGFW
 HOST-SUFFIX,tagwa.org.au,ProxyGFW
 HOST-SUFFIX,tagwalk.com,ProxyGFW
 HOST-SUFFIX,tahr.org.tw,ProxyGFW
+HOST-SUFFIX,taiav.com,ProxyGFW
 HOST-SUFFIX,tails.net,ProxyGFW
 HOST-SUFFIX,taipeisociety.org,ProxyGFW
 HOST-SUFFIX,taipeitimes.com,ProxyGFW
@@ -5879,6 +5886,7 @@ HOST-SUFFIX,taiwanbible.com,ProxyGFW
 HOST-SUFFIX,taiwancon.com,ProxyGFW
 HOST-SUFFIX,taiwandaily.net,ProxyGFW
 HOST-SUFFIX,taiwandc.org,ProxyGFW
+HOST-SUFFIX,taiwanembassy.org,ProxyGFW
 HOST-SUFFIX,taiwanhot.net,ProxyGFW
 HOST-SUFFIX,taiwanjustice.com,ProxyGFW
 HOST-SUFFIX,taiwanjustice.net,ProxyGFW
@@ -7010,6 +7018,7 @@ HOST-SUFFIX,wsj.com,ProxyGFW
 HOST-SUFFIX,wsj.net,ProxyGFW
 HOST-SUFFIX,wsjhk.com,ProxyGFW
 HOST-SUFFIX,wtbn.org,ProxyGFW
+HOST-SUFFIX,wtfpass.com,ProxyGFW
 HOST-SUFFIX,wtfpeople.com,ProxyGFW
 HOST-SUFFIX,wuerkaixi.com,ProxyGFW
 HOST-SUFFIX,wufafangwen.com,ProxyGFW

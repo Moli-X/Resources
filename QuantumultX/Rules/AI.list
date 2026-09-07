@@ -1,5 +1,5 @@
 # 规则名称: AI
-# 规则统计: 51
+# 规则统计: 52
 
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,AI
 HOST,ai.google.dev,AI
@@ -26,6 +26,7 @@ HOST-SUFFIX,claude.ai,AI
 HOST-SUFFIX,claude.com,AI
 HOST-SUFFIX,clipdrop.co,AI
 HOST-SUFFIX,cloudcode-pa.googleapis.com,AI
+HOST-SUFFIX,cursor.sh,AI
 HOST-SUFFIX,deepmind.com,AI
 HOST-SUFFIX,deepmind.google,AI
 HOST-SUFFIX,dify.ai,AI

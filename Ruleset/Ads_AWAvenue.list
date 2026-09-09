@@ -41,7 +41,6 @@ DOMAIN-SUFFIX,ad.shunchangzhixing.com
 DOMAIN-SUFFIX,ad.tencentmusic.com
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,ad.v3mh.com
-DOMAIN-SUFFIX,ad.weibo.com
 DOMAIN-SUFFIX,ad.winrar.com.cn
 DOMAIN-SUFFIX,ad.ximalaya.com
 DOMAIN-SUFFIX,ad.xunkids.com
@@ -74,9 +73,11 @@ DOMAIN-SUFFIX,adjust.cn
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adks.hpplay.cn
 DOMAIN-SUFFIX,adlink-api.huan.tv
+DOMAIN-SUFFIX,adlog.vivo.com.cn
 DOMAIN-SUFFIX,adm.funshion.com
 DOMAIN-SUFFIX,admarketing.yahoo.net
 DOMAIN-SUFFIX,admobile.top
+DOMAIN-SUFFIX,adreq.vivo.com.cn
 DOMAIN-SUFFIX,ads-api-o.api.leiniao.com
 DOMAIN-SUFFIX,ads-api.tiktok.com
 DOMAIN-SUFFIX,ads-api.twitter.com
@@ -186,7 +187,9 @@ DOMAIN-SUFFIX,adx.appsdk.com.cn
 DOMAIN-SUFFIX,adx.sogaha.cn
 DOMAIN-SUFFIX,adx.tuia.cn
 DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn
+DOMAIN-SUFFIX,adxlog.vivo.com.cn
 DOMAIN-SUFFIX,adxserver.ad.cmvideo.cn
+DOMAIN-SUFFIX,adxstatic.vivo.com.cn
 DOMAIN-SUFFIX,aegis.qq.com
 DOMAIN-SUFFIX,aem.dentsuchina.cn
 DOMAIN-SUFFIX,afs.googlesyndication.com
@@ -287,6 +290,7 @@ DOMAIN-SUFFIX,bj-td-menta-01-callback.advlion.com
 DOMAIN-SUFFIX,bj.ad.track.66mobi.com
 DOMAIN-SUFFIX,books-analytics-events.apple.com
 DOMAIN-SUFFIX,bootpreload.uve.weibo.com
+DOMAIN-SUFFIX,brandadsstatic.vivo.com.cn
 DOMAIN-SUFFIX,browser.events.data.msn.cn
 DOMAIN-SUFFIX,browser.events.data.msn.com
 DOMAIN-SUFFIX,browsercfg-drcn.cloud.dbankcloud.cn
@@ -363,6 +367,7 @@ DOMAIN-SUFFIX,download.changhong.upgrade2.huan.tv
 DOMAIN-SUFFIX,downloadxml.changhong.upgrade2.huan.tv
 DOMAIN-SUFFIX,dsp-x.jd.com
 DOMAIN-SUFFIX,dsp.fcbox.com
+DOMAIN-SUFFIX,dsplog-adnet.vivo.com.cn
 DOMAIN-SUFFIX,dualstack-logs.amap.com
 DOMAIN-SUFFIX,dxp.baidu.com
 DOMAIN-SUFFIX,dyp2p-ali.douyucdn.cn
@@ -453,7 +458,6 @@ DOMAIN-SUFFIX,iadctest.qwapi.com
 DOMAIN-SUFFIX,iadmoo.apple.com
 DOMAIN-SUFFIX,iadmusicmat.music.126.net
 DOMAIN-SUFFIX,iadsdk.apple.com
-DOMAIN-SUFFIX,iadworkbench.apple.com
 DOMAIN-SUFFIX,ifacelog.iqiyi.com
 DOMAIN-SUFFIX,ifs.tanx.com
 DOMAIN-SUFFIX,ii.gdt.qq.com
@@ -700,7 +704,7 @@ DOMAIN-SUFFIX,s1.cdn-sg.advlion.com
 DOMAIN-SUFFIX,s8t.teads.tv
 DOMAIN-SUFFIX,saad.ms.zhangyue.net
 DOMAIN-SUFFIX,saas.hpplay.cn
-DOMAIN-SUFFIX,safebrowsing.urlsec.gg.com
+DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,samsung-com.112.2o7.net
 DOMAIN-SUFFIX,samsungads.com
 DOMAIN-SUFFIX,saxysec.com
@@ -829,6 +833,7 @@ DOMAIN-SUFFIX,track.uc.cn
 DOMAIN-SUFFIX,tracker-prd.aldi.com.cn
 DOMAIN-SUFFIX,tracker.ai.xiaomi.com
 DOMAIN-SUFFIX,tracker.gitee.com
+DOMAIN-SUFFIX,tracking-adnet.vivo.com.cn
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.rus.miui.com
 DOMAIN-SUFFIX,tuiguang.meitu.com

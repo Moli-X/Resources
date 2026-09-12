@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7503
+# 规则统计: 7487
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -396,12 +396,9 @@ HOST-SUFFIX,apartmentratings.com,ProxyGFW
 HOST-SUFFIX,apartments.com,ProxyGFW
 HOST-SUFFIX,apat1989.org,ProxyGFW
 HOST-SUFFIX,apetube.com,ProxyGFW
-HOST-SUFFIX,api-gl.lbkrs.com,ProxyGFW
 HOST-SUFFIX,api-secure.recaptcha.net,ProxyGFW
 HOST-SUFFIX,api-verify.recaptcha.net,ProxyGFW
 HOST-SUFFIX,api.ai,ProxyGFW
-HOST-SUFFIX,api.futunn.com,ProxyGFW
-HOST-SUFFIX,api.lbkrs.com,ProxyGFW
 HOST-SUFFIX,api.moomoobull.com,ProxyGFW
 HOST-SUFFIX,api.palworldgame.com,ProxyGFW
 HOST-SUFFIX,api.proxlet.com,ProxyGFW
@@ -409,7 +406,6 @@ HOST-SUFFIX,api.pureapk.com,ProxyGFW
 HOST-SUFFIX,api.recaptcha.net,ProxyGFW
 HOST-SUFFIX,api.shuaiapi.com,ProxyGFW
 HOST-SUFFIX,api.steampowered.com,ProxyGFW
-HOST-SUFFIX,api5.futunn.com,ProxyGFW
 HOST-SUFFIX,apiary.io,ProxyGFW
 HOST-SUFFIX,apigee.com,ProxyGFW
 HOST-SUFFIX,apk-dl.com,ProxyGFW
@@ -1071,7 +1067,6 @@ HOST-SUFFIX,cdjp.org,ProxyGFW
 HOST-SUFFIX,cdn-images.mailchimp.com,ProxyGFW
 HOST-SUFFIX,cdn-telegram.org,ProxyGFW
 HOST-SUFFIX,cdn.arstechnica.net,ProxyGFW
-HOST-SUFFIX,cdn.futustatic.com,ProxyGFW
 HOST-SUFFIX,cdn.jwplayer.com,ProxyGFW
 HOST-SUFFIX,cdn.printfriendly.com,ProxyGFW
 HOST-SUFFIX,cdn.registerdisney.go.com,ProxyGFW
@@ -1316,7 +1311,6 @@ HOST-SUFFIX,cn.fmnnow.com,ProxyGFW
 HOST-SUFFIX,cn.sandscotaicentral.com,ProxyGFW
 HOST-SUFFIX,cn.shafaqna.com,ProxyGFW
 HOST-SUFFIX,cn.theaustralian.com.au,ProxyGFW
-HOST-SUFFIX,cn.uptodown.com,ProxyGFW
 HOST-SUFFIX,cn6.eu,ProxyGFW
 HOST-SUFFIX,cna.com.tw,ProxyGFW
 HOST-SUFFIX,cnabc.com,ProxyGFW
@@ -1695,7 +1689,6 @@ HOST-SUFFIX,dowei.org,ProxyGFW
 HOST-SUFFIX,dowjones.com,ProxyGFW
 HOST-SUFFIX,dowjones.io,ProxyGFW
 HOST-SUFFIX,download.dappcdn.com,ProxyGFW
-HOST-SUFFIX,download.futunn.com,ProxyGFW
 HOST-SUFFIX,dphk.org,ProxyGFW
 HOST-SUFFIX,dpool.top,ProxyGFW
 HOST-SUFFIX,dpp.org.tw,ProxyGFW
@@ -3913,7 +3906,6 @@ HOST-SUFFIX,lyfhk.net,ProxyGFW
 HOST-SUFFIX,lzjscript.com,ProxyGFW
 HOST-SUFFIX,lzmtnews.org,ProxyGFW
 HOST-SUFFIX,m-sport.co.uk,ProxyGFW
-HOST-SUFFIX,m.hkgalden.com,ProxyGFW
 HOST-SUFFIX,m.me,ProxyGFW
 HOST-SUFFIX,m.moegirl.org,ProxyGFW
 HOST-SUFFIX,m.plixi.com,ProxyGFW
@@ -4659,12 +4651,8 @@ HOST-SUFFIX,open.firstory.me,ProxyGFW
 HOST-SUFFIX,openai.com,ProxyGFW
 HOST-SUFFIX,openallweb.com,ProxyGFW
 HOST-SUFFIX,openapi-quote.longbridge.cn,ProxyGFW
-HOST-SUFFIX,openapi-quote.longbridge.com,ProxyGFW
 HOST-SUFFIX,openapi-trade.longbridge.cn,ProxyGFW
-HOST-SUFFIX,openapi-trade.longbridge.com,ProxyGFW
-HOST-SUFFIX,openapi.futunn.com,ProxyGFW
 HOST-SUFFIX,openapi.longbridge.cn,ProxyGFW
-HOST-SUFFIX,openapi.longbridge.com,ProxyGFW
 HOST-SUFFIX,openart.ai,ProxyGFW
 HOST-SUFFIX,openbase.com,ProxyGFW
 HOST-SUFFIX,opencritic.com,ProxyGFW
@@ -5098,10 +5086,9 @@ HOST-SUFFIX,qoos.com,ProxyGFW
 HOST-SUFFIX,qpoe.com,ProxyGFW
 HOST-SUFFIX,qq.co.za,ProxyGFW
 HOST-SUFFIX,qstatus.com,ProxyGFW
-HOST-SUFFIX,qtcard.futunn.com,ProxyGFW
-HOST-SUFFIX,qtcardfthk.futufin.com,ProxyGFW
 HOST-SUFFIX,qtrac.eu,ProxyGFW
 HOST-SUFFIX,qtweeter.com,ProxyGFW
+HOST-SUFFIX,quakemachinex.com,ProxyGFW
 HOST-SUFFIX,quannengshen.org,ProxyGFW
 HOST-SUFFIX,quantumbooter.net,ProxyGFW
 HOST-SUFFIX,quay.io,ProxyGFW
@@ -5827,7 +5814,6 @@ HOST-SUFFIX,supervpn.net,ProxyGFW
 HOST-SUFFIX,superzooi.com,ProxyGFW
 HOST-SUFFIX,supjav.com,ProxyGFW
 HOST-SUFFIX,suppig.net,ProxyGFW
-HOST-SUFFIX,support.futunn.com,ProxyGFW
 HOST-SUFFIX,supremecourt.gov,ProxyGFW
 HOST-SUFFIX,suprememastertv.com,ProxyGFW
 HOST-SUFFIX,surfeasy.com,ProxyGFW
@@ -6264,8 +6250,6 @@ HOST-SUFFIX,toytractorshow.com,ProxyGFW
 HOST-SUFFIX,tparents.org,ProxyGFW
 HOST-SUFFIX,tpi.org.tw,ProxyGFW
 HOST-SUFFIX,tracfone.com,ProxyGFW
-HOST-SUFFIX,trade.futunn.com,ProxyGFW
-HOST-SUFFIX,trade.longportapp.com,ProxyGFW
 HOST-SUFFIX,tradeup.com,ProxyGFW
 HOST-SUFFIX,tradingview.com,ProxyGFW
 HOST-SUFFIX,traffichaus.com,ProxyGFW

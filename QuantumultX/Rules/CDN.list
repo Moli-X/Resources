@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4737
+# 规则统计: 4738
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2482,6 +2482,7 @@ HOST,resources.allstate.com,CDN
 HOST,resources.chessbase.com,CDN
 HOST,resources.digital-cloud.medallia.com,CDN
 HOST,resources.help.salesforce.com,CDN
+HOST,resources.redbull.tv,CDN
 HOST,resources.whatwg.org,CDN
 HOST,rest.happierleads.com,CDN
 HOST,reviews-badge.capterra.com,CDN

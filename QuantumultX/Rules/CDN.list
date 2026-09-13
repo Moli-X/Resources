@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4738
+# 规则统计: 4739
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3146,6 +3146,7 @@ HOST,texture.laby.net,CDN
 HOST,th.bing.com,CDN
 HOST,themes.fourthwall.com,CDN
 HOST,themes.hibootstrap.com,CDN
+HOST,thumb.wikimedia.org,CDN
 HOST,thumbnail.missav.com,CDN
 HOST,thumbnailer.mixcloud.com,CDN
 HOST,thumbnails.applegamingwiki.com,CDN

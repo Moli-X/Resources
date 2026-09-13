@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4739
+# 规则统计: 4745
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -259,6 +259,7 @@ HOST,assets.polarbyte.com,CDN
 HOST,assets.poool.fr,CDN
 HOST,assets.porndig.com,CDN
 HOST,assets.positional-bucket.com,CDN
+HOST,assets.production.linktr.ee,CDN
 HOST,assets.prowritingaid.com,CDN
 HOST,assets.pscp.tv,CDN
 HOST,assets.queue-it.net,CDN
@@ -1189,6 +1190,7 @@ HOST,code.jquery.com,CDN
 HOST,code.piano.io,CDN
 HOST,code.trygravity.ai,CDN
 HOST,code.upscope.io,CDN
+HOST,coin-images.coingecko.com,CDN
 HOST,comm.res.easebar.com,CDN
 HOST,common-header.nimg.jp,CDN
 HOST,community-cdn.openstreetmap.org,CDN
@@ -2902,6 +2904,7 @@ HOST,static.izanmei.icu,CDN
 HOST,static.j51.net,CDN
 HOST,static.javhd.com,CDN
 HOST,static.jsbin.com,CDN
+HOST,static.jup.ag,CDN
 HOST,static.k2s.cc,CDN
 HOST,static.killedbygoogle.com,CDN
 HOST,static.klaviyo.com,CDN
@@ -3151,6 +3154,7 @@ HOST,thumbnail.missav.com,CDN
 HOST,thumbnailer.mixcloud.com,CDN
 HOST,thumbnails.applegamingwiki.com,CDN
 HOST,thumbnails.cbsig.net,CDN
+HOST,thumbnails.padre.gg,CDN
 HOST,thumbor.4gamers.com.tw,CDN
 HOST,thumbor.forbes.com,CDN
 HOST,thumbs.onlyfans.com,CDN
@@ -3239,6 +3243,7 @@ HOST,ubistatic-a.ubisoft.com,CDN
 HOST,ubistatic2-a.akamaihd.net,CDN
 HOST,ubistatic2-a.ubisoft.com,CDN
 HOST,udata.namespace.so,CDN
+HOST,ugc.production.linktr.ee,CDN
 HOST,uhf.microsoft.com,CDN
 HOST,ui-cdn.digitalocean-ui.com,CDN
 HOST,ui-cdn.digitalocean.com,CDN
@@ -3521,6 +3526,7 @@ HOST-SUFFIX,aweber-static.com,CDN
 HOST-SUFFIX,awsstatic.com,CDN
 HOST-SUFFIX,awxcdn.com,CDN
 HOST-SUFFIX,ax1x.com,CDN
+HOST-SUFFIX,axiom-cdn.io,CDN
 HOST-SUFFIX,axis-cdn.net,CDN
 HOST-SUFFIX,azurestaticapps.net,CDN
 HOST-SUFFIX,b2c-contenthub.com,CDN

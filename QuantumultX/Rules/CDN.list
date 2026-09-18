@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4745
+# 规则统计: 4748
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -685,6 +685,7 @@ HOST,cdn.eu.contentful.com,CDN
 HOST,cdn.european-alternatives.eu,CDN
 HOST,cdn.evbstatic.com,CDN
 HOST,cdn.evgnet.com,CDN
+HOST,cdn.eye-able.com,CDN
 HOST,cdn.f5.com,CDN
 HOST,cdn.faire.com,CDN
 HOST,cdn.fastcomments.com,CDN
@@ -1749,6 +1750,7 @@ HOST,images.prismic.io,CDN
 HOST,images.profile.autodesk.com,CDN
 HOST,images.ptt.cc,CDN
 HOST,images.purevpn-tools.com,CDN
+HOST,images.radio-canada.ca,CDN
 HOST,images.rss.app,CDN
 HOST,images.samsung.com,CDN
 HOST,images.scalero.io,CDN
@@ -2946,6 +2948,7 @@ HOST,static.nrk.no,CDN
 HOST,static.nyse.com,CDN
 HOST,static.observablehq.com,CDN
 HOST,static.oklink.com,CDN
+HOST,static.okou.io,CDN
 HOST,static.okx.cab,CDN
 HOST,static.okx.com,CDN
 HOST,static.olelive.com,CDN
@@ -4373,6 +4376,7 @@ HOST-SUFFIX,scribdassets.com,CDN
 HOST-SUFFIX,scripts.gatorapi.com,CDN
 HOST-SUFFIX,seadn.io,CDN
 HOST-SUFFIX,seecdn.com,CDN
+HOST-SUFFIX,seecdn.net,CDN
 HOST-SUFFIX,seeusercontent.com,CDN
 HOST-SUFFIX,sendspace.com,CDN
 HOST-SUFFIX,senja.io,CDN
@@ -4539,7 +4543,6 @@ HOST-SUFFIX,tpucdn.com,CDN
 HOST-SUFFIX,trackerslist.com,CDN
 HOST-SUFFIX,trafficdeposit.com,CDN
 HOST-SUFFIX,transcend-cdn.com,CDN
-HOST-SUFFIX,tripcdn.com,CDN
 HOST-SUFFIX,trustless-gateway.link,CDN
 HOST-SUFFIX,ttcache.com,CDN
 HOST-SUFFIX,ttl.sh,CDN

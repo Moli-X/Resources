@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 869
+# 规则统计: 870
 
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -667,6 +667,7 @@ HOST-SUFFIX,qzone.com,ChinaDomain
 HOST-SUFFIX,realme.com,ChinaDomain
 HOST-SUFFIX,realmebbs.com,ChinaDomain
 HOST-SUFFIX,realmemobile.com,ChinaDomain
+HOST-SUFFIX,rednotecdn.com,ChinaDomain
 HOST-SUFFIX,roblox.cn,ChinaDomain
 HOST-SUFFIX,robloxdev.cn,ChinaDomain
 HOST-SUFFIX,ronghub.com,ChinaDomain

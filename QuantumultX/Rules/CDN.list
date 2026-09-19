@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4748
+# 规则统计: 4749
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1980,6 +1980,7 @@ HOST,jotai.org,CDN
 HOST,js-1-cdn.airdroid.com,CDN
 HOST,js-eu1.hsforms.net,CDN
 HOST,js-s3.quickcep.com,CDN
+HOST,js.arcgis.com,CDN
 HOST,js.assemblyexchange.com,CDN
 HOST,js.braintreegateway.com,CDN
 HOST,js.chargebee.com,CDN

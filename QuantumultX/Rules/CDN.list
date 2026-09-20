@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4749
+# 规则统计: 4755
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -746,6 +746,7 @@ HOST,cdn.imago-images.com,CDN
 HOST,cdn.img.ly,CDN
 HOST,cdn.imgchest.com,CDN
 HOST,cdn.infoq.com,CDN
+HOST,cdn.infrawire.net,CDN
 HOST,cdn.insightmediagroup.io,CDN
 HOST,cdn.inviter.co,CDN
 HOST,cdn.ionos.de,CDN
@@ -1025,6 +1026,7 @@ HOST,cdn1.hotmoza.tv,CDN
 HOST,cdn1.iconfinder.com,CDN
 HOST,cdn1.identitymind.com,CDN
 HOST,cdn1.plesk.com,CDN
+HOST,cdn1.singteldigital.com,CDN
 HOST,cdn1.stamped.io,CDN
 HOST,cdn1.suno.ai,CDN
 HOST,cdn1.sysgears.com,CDN
@@ -1642,6 +1644,7 @@ HOST,imag.malavida.com,CDN
 HOST,image-cdn.porndig.com,CDN
 HOST,image-forwarder.notaku.so,CDN
 HOST,image-stgus.samsung.com,CDN
+HOST,image-tc.galaxy.tf,CDN
 HOST,image-us.samsung.com,CDN
 HOST,image.acg.lol,CDN
 HOST,image.ap-mail.org,CDN
@@ -2323,6 +2326,7 @@ HOST,ph.northflank.com,CDN
 HOST,ph.tryprofound.com,CDN
 HOST,pha-prx.ops.cloud.nx.app,CDN
 HOST,phishing.army,CDN
+HOST,photos.flightaware.com,CDN
 HOST,photos5.appleinsider.com,CDN
 HOST,pic-bstarstatic.akamaized.net,CDN
 HOST,pic.7mmtv.me,CDN
@@ -3181,6 +3185,7 @@ HOST,tilemaps.icgc.cat,CDN
 HOST,tiles-a.koordinates.com,CDN
 HOST,tiles-eu.stadiamaps.com,CDN
 HOST,tiles.arcgis.com,CDN
+HOST,tiles.flightaware.com,CDN
 HOST,tiles.gsj.jp,CDN
 HOST,tiles.immich.cloud,CDN
 HOST,tiles.locationiq.com,CDN
@@ -3206,6 +3211,7 @@ HOST,tiles1.planet.com,CDN
 HOST,tiles2.mapiful.com,CDN
 HOST,tiles2.planet.com,CDN
 HOST,tiles3.planet.com,CDN
+HOST,tileserver.b10s.net,CDN
 HOST,tileserver.gnome.org,CDN
 HOST,tileserver.memomaps.de,CDN
 HOST,time-a.nist.gov,CDN

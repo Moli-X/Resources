@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 956
+# 规则统计: 958
 
 HOST-SUFFIX,1500020991.vodplayer.wxamedia.com,Ads_AWAvenue
 HOST-SUFFIX,1500022744.vodplayer.wxamedia.com,Ads_AWAvenue
@@ -666,6 +666,8 @@ HOST-SUFFIX,pcm-img.zhls.qq.com,Ads_AWAvenue
 HOST-SUFFIX,pgdt.gtimg.cn,Ads_AWAvenue
 HOST-SUFFIX,pgdt.ugdtimg.com,Ads_AWAvenue
 HOST-SUFFIX,pglstatp-toutiao.com,Ads_AWAvenue
+HOST-SUFFIX,pica-a-display.diwodiwo.xyz,Ads_AWAvenue
+HOST-SUFFIX,pica-ad-api.diwodiwo.xyz,Ads_AWAvenue
 HOST-SUFFIX,pig.pupuapi.com,Ads_AWAvenue
 HOST-SUFFIX,pin.hpplay.cn,Ads_AWAvenue
 HOST-SUFFIX,pixon.ads-pixiv.net,Ads_AWAvenue

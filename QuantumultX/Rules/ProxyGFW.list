@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7487
+# 规则统计: 7489
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -1208,6 +1208,7 @@ HOST-SUFFIX,chinesegay.org,ProxyGFW
 HOST-SUFFIX,chinesen.de,ProxyGFW
 HOST-SUFFIX,chinesenews.net.au,ProxyGFW
 HOST-SUFFIX,chinesepen.org,ProxyGFW
+HOST-SUFFIX,chineseposters.net,ProxyGFW
 HOST-SUFFIX,chineseradioseattle.com,ProxyGFW
 HOST-SUFFIX,chinesetalks.net,ProxyGFW
 HOST-SUFFIX,chineseupress.com,ProxyGFW
@@ -4484,6 +4485,7 @@ HOST-SUFFIX,nordstrommedia.com,ProxyGFW
 HOST-SUFFIX,nordstromrack.com,ProxyGFW
 HOST-SUFFIX,nordvpn.com,ProxyGFW
 HOST-SUFFIX,nos.nl,ProxyGFW
+HOST-SUFFIX,note.com,ProxyGFW
 HOST-SUFFIX,notepad-plus-plus.org,ProxyGFW
 HOST-SUFFIX,notion.so,ProxyGFW
 HOST-SUFFIX,nottinghampost.com,ProxyGFW

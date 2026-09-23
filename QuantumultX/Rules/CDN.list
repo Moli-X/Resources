@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4757
+# 规则统计: 4758
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -146,6 +146,7 @@ HOST,assets.bravenet.com,CDN
 HOST,assets.brevo.com,CDN
 HOST,assets.buttondown.email,CDN
 HOST,assets.bwbx.io,CDN
+HOST,assets.byokey.io,CDN
 HOST,assets.byteplus.com,CDN
 HOST,assets.calendly.com,CDN
 HOST,assets.canny.io,CDN

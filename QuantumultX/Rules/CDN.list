@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4758
+# 规则统计: 4759
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1315,6 +1315,7 @@ HOST,divhunt.b-cdn.net,CDN
 HOST,dl.airdroid.com,CDN
 HOST,dlassets-ssl.xboxlive.com,CDN
 HOST,dlstats.izzyondroid.org,CDN
+HOST,dma.canyon.com,CDN
 HOST,dmm-extension.com,CDN
 HOST,do.featurebase.app,CDN
 HOST,docs.brew.sh,CDN
@@ -2153,6 +2154,7 @@ HOST,media.infosec.exchange,CDN
 HOST,media.inhumanity.com,CDN
 HOST,media.invisioncic.com,CDN
 HOST,media.istockphoto.com,CDN
+HOST,media.karousell.com,CDN
 HOST,media.kit.com,CDN
 HOST,media.lantern.io,CDN
 HOST,media.letsdeel.com,CDN
@@ -4029,7 +4031,6 @@ HOST-SUFFIX,ipfs.busy.org,CDN
 HOST-SUFFIX,ipfs.cyou,CDN
 HOST-SUFFIX,ipfs.decoo.io,CDN
 HOST-SUFFIX,ipfs.denarius.io,CDN
-HOST-SUFFIX,ipfs.ecolatam.com,CDN
 HOST-SUFFIX,ipfs.eternum.io,CDN
 HOST-SUFFIX,ipfs.eth.aragon.network,CDN
 HOST-SUFFIX,ipfs.filebase.io,CDN

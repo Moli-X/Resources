@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7489
+# 规则统计: 7492
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -969,6 +969,7 @@ HOST-SUFFIX,byteoversea.com,ProxyGFW
 HOST-SUFFIX,c-est-simple.com,ProxyGFW
 HOST-SUFFIX,c-span.org,ProxyGFW
 HOST-SUFFIX,c-spanvideo.org,ProxyGFW
+HOST-SUFFIX,c.go-mpulse.net,ProxyGFW
 HOST-SUFFIX,c.mi.com,ProxyGFW
 HOST-SUFFIX,c100tibet.org,ProxyGFW
 HOST-SUFFIX,c2cx.com,ProxyGFW
@@ -5084,6 +5085,7 @@ HOST-SUFFIX,qiwen.lu,ProxyGFW
 HOST-SUFFIX,qixianglu.cn,ProxyGFW
 HOST-SUFFIX,qkshare.com,ProxyGFW
 HOST-SUFFIX,qmp4.com,ProxyGFW
+HOST-SUFFIX,qobuz.com,ProxyGFW
 HOST-SUFFIX,qoos.com,ProxyGFW
 HOST-SUFFIX,qpoe.com,ProxyGFW
 HOST-SUFFIX,qq.co.za,ProxyGFW
@@ -6620,6 +6622,7 @@ HOST-SUFFIX,vanpeople.com,ProxyGFW
 HOST-SUFFIX,vansky.com,ProxyGFW
 HOST-SUFFIX,vaticannews.va,ProxyGFW
 HOST-SUFFIX,vatn.org,ProxyGFW
+HOST-SUFFIX,vava8.com,ProxyGFW
 HOST-SUFFIX,vcf-online.org,ProxyGFW
 HOST-SUFFIX,vcfbuilder.org,ProxyGFW
 HOST-SUFFIX,vds.rightster.com,ProxyGFW

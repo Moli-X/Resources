@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4759
+# 规则统计: 4760
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2873,6 +2873,7 @@ HOST,static.foxnews.com,CDN
 HOST,static.frame.work,CDN
 HOST,static.freedownloadmanager.org,CDN
 HOST,static.fundraiseup.com,CDN
+HOST,static.gamma.app,CDN
 HOST,static.garmin.com,CDN
 HOST,static.generated.photos,CDN
 HOST,static.getbutton.io,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4760
+# 规则统计: 4762
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1845,6 +1845,7 @@ HOST,img.freepik.com,CDN
 HOST,img.fzf404.art,CDN
 HOST,img.gs,CDN
 HOST,img.hellofresh.com,CDN
+HOST,img.helpnetsecurity.com,CDN
 HOST,img.hentaihaven.xxx,CDN
 HOST,img.highporn.net,CDN
 HOST,img.huffingtonpost.com,CDN
@@ -1914,6 +1915,7 @@ HOST,img1.socialshopwave.com,CDN
 HOST,img1.yeggi.com,CDN
 HOST,img1.yna.co.kr,CDN
 HOST,img2.gelbooru.com,CDN
+HOST,img2.helpnetsecurity.com,CDN
 HOST,img2.javmost.com,CDN
 HOST,img2.socialshopwave.com,CDN
 HOST,img2.tnaflix.com,CDN

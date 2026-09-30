@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 871
+# 规则统计: 872
 
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -22,6 +22,7 @@ HOST,media.cdn.queniuqe.com,ChinaDomain
 HOST,ocsp.globalsign.com,ChinaDomain
 HOST,ocsp2.globalsign.com,ChinaDomain
 HOST,res.viayoo.com,ChinaDomain
+HOST,time.xtracloud.net,ChinaDomain
 HOST,url.cn,ChinaDomain
 HOST,viayoo.com,ChinaDomain
 HOST,www.intel.cn,ChinaDomain

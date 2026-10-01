@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4762
+# 规则统计: 4764
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -278,6 +278,7 @@ HOST,assets.science.nasa.gov,CDN
 HOST,assets.sendinblue.com,CDN
 HOST,assets.shazam.com,CDN
 HOST,assets.shots.so,CDN
+HOST,assets.singaporeair.com,CDN
 HOST,assets.slater.app,CDN
 HOST,assets.sololearn.com,CDN
 HOST,assets.speedvitals.com,CDN
@@ -3816,6 +3817,7 @@ HOST-SUFFIX,f.hubspotstarter.net,CDN
 HOST-SUFFIX,faceit-cdn.net,CDN
 HOST-SUFFIX,fakeimg.pl,CDN
 HOST-SUFFIX,fakestoreapi.com,CDN
+HOST-SUFFIX,fal.media,CDN
 HOST-SUFFIX,fast-sfc.com,CDN
 HOST-SUFFIX,fastlycdn.com,CDN
 HOST-SUFFIX,favicone.com,CDN

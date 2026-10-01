@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7492
+# 规则统计: 7494
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -2328,6 +2328,7 @@ HOST-SUFFIX,fututrade.com,ProxyGFW
 HOST-SUFFIX,fututrustee.com,ProxyGFW
 HOST-SUFFIX,fux.com,ProxyGFW
 HOST-SUFFIX,fuyin.net,ProxyGFW
+HOST-SUFFIX,fuyin116.com,ProxyGFW
 HOST-SUFFIX,fuyindiantai.org,ProxyGFW
 HOST-SUFFIX,fuyu.org.tw,ProxyGFW
 HOST-SUFFIX,fw.cm,ProxyGFW
@@ -4227,6 +4228,7 @@ HOST-SUFFIX,multiupload.com,ProxyGFW
 HOST-SUFFIX,mummysgold.com,ProxyGFW
 HOST-SUFFIX,murmur.tw,ProxyGFW
 HOST-SUFFIX,muscdn.com,ProxyGFW
+HOST-SUFFIX,muse.ai,ProxyGFW
 HOST-SUFFIX,music.amazon.com,ProxyGFW
 HOST-SUFFIX,musicade.net,ProxyGFW
 HOST-SUFFIX,musical.ly,ProxyGFW

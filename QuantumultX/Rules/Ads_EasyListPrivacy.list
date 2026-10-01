@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 43176
+# 规则统计: 43190
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -8099,6 +8099,7 @@ HOST-SUFFIX,browser-updater.yandex.net,Ads_EasyListPrivacy
 HOST-SUFFIX,browser.covatic.io,Ads_EasyListPrivacy
 HOST-SUFFIX,browser.pipe.aria.microsoft.com,Ads_EasyListPrivacy
 HOST-SUFFIX,browserguides.net,Ads_EasyListPrivacy
+HOST-SUFFIX,browsertdidticket.m.qq.com,Ads_EasyListPrivacy
 HOST-SUFFIX,brpayless.eccocar.com,Ads_EasyListPrivacy
 HOST-SUFFIX,brqory.notino.sk,Ads_EasyListPrivacy
 HOST-SUFFIX,brquazzar.eccocar.com,Ads_EasyListPrivacy
@@ -9826,6 +9827,7 @@ HOST-SUFFIX,crrm.onjoyri.de,Ads_EasyListPrivacy
 HOST-SUFFIX,crs.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,crta.and.co.uk,Ads_EasyListPrivacy
 HOST-SUFFIX,crta.dailymail.co.uk,Ads_EasyListPrivacy
+HOST-SUFFIX,crta.dailymail.com,Ads_EasyListPrivacy
 HOST-SUFFIX,crta.metro.co.uk,Ads_EasyListPrivacy
 HOST-SUFFIX,cruisetourist.com,Ads_EasyListPrivacy
 HOST-SUFFIX,crumbs.robinhood.com,Ads_EasyListPrivacy
@@ -13307,6 +13309,7 @@ HOST-SUFFIX,events.ricoh.de,Ads_EasyListPrivacy
 HOST-SUFFIX,events.ricoh.ie,Ads_EasyListPrivacy
 HOST-SUFFIX,events.s4long.com,Ads_EasyListPrivacy
 HOST-SUFFIX,events.santander.co.uk,Ads_EasyListPrivacy
+HOST-SUFFIX,events.searchtap.net,Ads_EasyListPrivacy
 HOST-SUFFIX,events.shareably.net,Ads_EasyListPrivacy
 HOST-SUFFIX,events.shoplift.ai,Ads_EasyListPrivacy
 HOST-SUFFIX,events.sk.ht,Ads_EasyListPrivacy
@@ -13533,6 +13536,7 @@ HOST-SUFFIX,faqtjp.redley.com.br,Ads_EasyListPrivacy
 HOST-SUFFIX,farahatco.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,farethief.com,Ads_EasyListPrivacy
 HOST-SUFFIX,farmergoldfish.com,Ads_EasyListPrivacy
+HOST-SUFFIX,faro-collector-*.grafana-ops.net,Ads_EasyListPrivacy
 HOST-SUFFIX,faro-collector-prod-*.grafana.net,Ads_EasyListPrivacy
 HOST-SUFFIX,farshake.com,Ads_EasyListPrivacy
 HOST-SUFFIX,farsnails.com,Ads_EasyListPrivacy
@@ -14230,6 +14234,7 @@ HOST-SUFFIX,gastdn.wolfandbadger.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gatan.actonservice.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gateway.aimia.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gateway.foresee.com,Ads_EasyListPrivacy
+HOST-SUFFIX,gatherer.m.qq.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gaudyairplane.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gawayez.e-postserv.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gay-hotvideo.net,Ads_EasyListPrivacy
@@ -14538,6 +14543,7 @@ HOST-SUFFIX,gkfdkf.jdsports.co.uk,Ads_EasyListPrivacy
 HOST-SUFFIX,gkgygj.verivox.de,Ads_EasyListPrivacy
 HOST-SUFFIX,gkopqp.coccodrillo.eu,Ads_EasyListPrivacy
 HOST-SUFFIX,gksqdt.reitmans.com,Ads_EasyListPrivacy
+HOST-SUFFIX,gkx.gokwik.co,Ads_EasyListPrivacy
 HOST-SUFFIX,gl5g98t0vfjb.panprices.com,Ads_EasyListPrivacy
 HOST-SUFFIX,gladysway.com,Ads_EasyListPrivacy
 HOST-SUFFIX,glamhawk.com,Ads_EasyListPrivacy
@@ -19689,6 +19695,7 @@ HOST-SUFFIX,log.medietall.no,Ads_EasyListPrivacy
 HOST-SUFFIX,log.mgtv.com,Ads_EasyListPrivacy
 HOST-SUFFIX,log.mix.sina.com.cn,Ads_EasyListPrivacy
 HOST-SUFFIX,log.mofa.go.kr,Ads_EasyListPrivacy
+HOST-SUFFIX,log.news.baidu.com,Ads_EasyListPrivacy
 HOST-SUFFIX,log.nordot.jp,Ads_EasyListPrivacy
 HOST-SUFFIX,log.olark.com,Ads_EasyListPrivacy
 HOST-SUFFIX,log.outbrain.com,Ads_EasyListPrivacy
@@ -25428,6 +25435,7 @@ HOST-SUFFIX,p.pagesjaunes.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,p.placed.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.pmu.fr,Ads_EasyListPrivacy
 HOST-SUFFIX,p.ryanhalliday.com,Ads_EasyListPrivacy
+HOST-SUFFIX,p.sa7eer.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.skimresources.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.spotidownloader.com,Ads_EasyListPrivacy
 HOST-SUFFIX,p.tencentmind.com,Ads_EasyListPrivacy
@@ -26507,6 +26515,7 @@ HOST-SUFFIX,pulse.ecmapps.com,Ads_EasyListPrivacy
 HOST-SUFFIX,pulse.genki.world,Ads_EasyListPrivacy
 HOST-SUFFIX,pulse.munsonhealthcare.org,Ads_EasyListPrivacy
 HOST-SUFFIX,pulse.shopflo.com,Ads_EasyListPrivacy
+HOST-SUFFIX,pulsepoint.ideal.house,Ads_EasyListPrivacy
 HOST-SUFFIX,pumlmb.netcologne.de,Ads_EasyListPrivacy
 HOST-SUFFIX,pumpedpancake.com,Ads_EasyListPrivacy
 HOST-SUFFIX,pumpedpurpose.com,Ads_EasyListPrivacy
@@ -26962,6 +26971,7 @@ HOST-SUFFIX,realsolutions.americanexpress.it,Ads_EasyListPrivacy
 HOST-SUFFIX,realsolutions.americanexpress.se,Ads_EasyListPrivacy
 HOST-SUFFIX,realtime-profiling.datarize.ai,Ads_EasyListPrivacy
 HOST-SUFFIX,realtime.bbcl.cl,Ads_EasyListPrivacy
+HOST-SUFFIX,realtimeanalytics.yext.com,Ads_EasyListPrivacy
 HOST-SUFFIX,realtimely.io,Ads_EasyListPrivacy
 HOST-SUFFIX,realtors.eq.delwebb.com,Ads_EasyListPrivacy
 HOST-SUFFIX,reaonq.xn--hdks770u8f0a8dvzft.net,Ads_EasyListPrivacy
@@ -36573,6 +36583,7 @@ HOST-SUFFIX,techpump.com,Ads_EasyListPrivacy
 HOST-SUFFIX,techservices.trapptechnology.com,Ads_EasyListPrivacy
 HOST-SUFFIX,techsupport.balluff.com,Ads_EasyListPrivacy
 HOST-SUFFIX,teczbq.amicashop.com,Ads_EasyListPrivacy
+HOST-SUFFIX,ted.dailymail.co.uk,Ads_EasyListPrivacy
 HOST-SUFFIX,tediousbear.com,Ads_EasyListPrivacy
 HOST-SUFFIX,tedioustooth.com,Ads_EasyListPrivacy
 HOST-SUFFIX,teefiksummin.visma.fi,Ads_EasyListPrivacy
@@ -38435,6 +38446,7 @@ HOST-SUFFIX,track.concur.com.au,Ads_EasyListPrivacy
 HOST-SUFFIX,track.concur.com.sg,Ads_EasyListPrivacy
 HOST-SUFFIX,track.connectwise.com,Ads_EasyListPrivacy
 HOST-SUFFIX,track.contently.com,Ads_EasyListPrivacy
+HOST-SUFFIX,track.convertfox.com,Ads_EasyListPrivacy
 HOST-SUFFIX,track.cordial.io,Ads_EasyListPrivacy
 HOST-SUFFIX,track.cornerstonebuildingbrands.com,Ads_EasyListPrivacy
 HOST-SUFFIX,track.craudia.com,Ads_EasyListPrivacy
@@ -39413,6 +39425,7 @@ HOST-SUFFIX,traffic.taktikal.is,Ads_EasyListPrivacy
 HOST-SUFFIX,traffic.wdc.center,Ads_EasyListPrivacy
 HOST-SUFFIX,trafficfuelpixel.s3-us-west-2.amazonaws.com,Ads_EasyListPrivacy
 HOST-SUFFIX,trafficid.brandwell.ai,Ads_EasyListPrivacy
+HOST-SUFFIX,trafik.koopit.ist,Ads_EasyListPrivacy
 HOST-SUFFIX,trail-001.schleich-s.com,Ads_EasyListPrivacy
 HOST-SUFFIX,trail.53kf.com,Ads_EasyListPrivacy
 HOST-SUFFIX,trail.71baomu.com,Ads_EasyListPrivacy
@@ -41541,6 +41554,7 @@ HOST-SUFFIX,webstat.4music.com,Ads_EasyListPrivacy
 HOST-SUFFIX,webstat.garanti.com.tr,Ads_EasyListPrivacy
 HOST-SUFFIX,webstat.qiumibao.com,Ads_EasyListPrivacy
 HOST-SUFFIX,webstat.vodafone.com,Ads_EasyListPrivacy
+HOST-SUFFIX,webstat.ws.126.net,Ads_EasyListPrivacy
 HOST-SUFFIX,webstats.americanbar.org,Ads_EasyListPrivacy
 HOST-SUFFIX,webstats.bijenpatel.com,Ads_EasyListPrivacy
 HOST-SUFFIX,webstats.cbre.com,Ads_EasyListPrivacy

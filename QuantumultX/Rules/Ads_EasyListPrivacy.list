@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 43190
+# 规则统计: 43192
 
 HOST-SUFFIX,0.0.0.1,Ads_EasyListPrivacy
 HOST-SUFFIX,0.myikas.com,Ads_EasyListPrivacy
@@ -5187,6 +5187,7 @@ HOST-SUFFIX,analytics.andrewsmith.com.au,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.animexx.de,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.api.justeattakeaway.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.apnewsregistry.com,Ads_EasyListPrivacy
+HOST-SUFFIX,analytics.app.funnelish.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.archive.org,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.argeton.com,Ads_EasyListPrivacy
 HOST-SUFFIX,analytics.arunraghavan.net,Ads_EasyListPrivacy
@@ -20300,6 +20301,7 @@ HOST-SUFFIX,mapp.jysk.nl,Ads_EasyListPrivacy
 HOST-SUFFIX,mapp.peacocks.co.uk,Ads_EasyListPrivacy
 HOST-SUFFIX,mapp.yesstyle.com,Ads_EasyListPrivacy
 HOST-SUFFIX,marblediscussion.com,Ads_EasyListPrivacy
+HOST-SUFFIX,marbleseeds.com,Ads_EasyListPrivacy
 HOST-SUFFIX,marceline.wantsext.me,Ads_EasyListPrivacy
 HOST-SUFFIX,march.landing.ni.com,Ads_EasyListPrivacy
 HOST-SUFFIX,marcom.biodex.com,Ads_EasyListPrivacy

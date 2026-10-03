@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7495
+# 规则统计: 7496
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -5511,6 +5511,7 @@ HOST-SUFFIX,simpleswap.io,ProxyGFW
 HOST-SUFFIX,simplex.chat,ProxyGFW
 HOST-SUFFIX,sina.com.hk,ProxyGFW
 HOST-SUFFIX,sinchew.com.my,ProxyGFW
+HOST-SUFFIX,sing-box.sagernet.org,ProxyGFW
 HOST-SUFFIX,singaporepools.com.sg,ProxyGFW
 HOST-SUFFIX,singfortibet.com,ProxyGFW
 HOST-SUFFIX,singlelogin.se,ProxyGFW

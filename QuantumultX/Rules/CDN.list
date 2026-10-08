@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4764
+# 规则统计: 4769
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -307,6 +307,7 @@ HOST,assets.unifi-ai.com,CDN
 HOST,assets.unredacted.org,CDN
 HOST,assets.upload.io,CDN
 HOST,assets.userstyles.org,CDN
+HOST,assets.vanta.com,CDN
 HOST,assets.vantage.sh,CDN
 HOST,assets.vercel.com,CDN
 HOST,assets.video.yahoo.net,CDN
@@ -2238,6 +2239,7 @@ HOST,mui.com,CDN
 HOST,mwcm.nyt.com,CDN
 HOST,mwf-service.akamaized.net,CDN
 HOST,my-json-server.typicode.com,CDN
+HOST,n.approveit.today,CDN
 HOST,na-library.klarnaservices.com,CDN
 HOST,namedotcom-cdn.name.tools,CDN
 HOST,nas2.d.tube,CDN
@@ -2517,6 +2519,7 @@ HOST,rules1.clearurls.xyz,CDN
 HOST,rules2.clearurls.xyz,CDN
 HOST,rum-agent.na-01.cloud.solarwinds.com,CDN
 HOST,rum-cdn.perfops.net,CDN
+HOST,rum-ingest.us1.signalfx.com,CDN
 HOST,runkit-packages-static-executables.com,CDN
 HOST,runkit-packages-static.com,CDN
 HOST,rv-assets.softonic.com,CDN
@@ -2786,6 +2789,7 @@ HOST,static-www.onlyoffice.com,CDN
 HOST,static-www.sendsafely.com,CDN
 HOST,static.3dporndude.com,CDN
 HOST,static.4shared.com,CDN
+HOST,static.acm.account.sony.com,CDN
 HOST,static.ada.support,CDN
 HOST,static.addtoany.com,CDN
 HOST,static.adguardvpn.com,CDN
@@ -4745,6 +4749,7 @@ HOST-WILDCARD,object-storage-*.vexxhost.net,CDN
 HOST-WILDCARD,ocsp.*.amazontrust.com,CDN
 HOST-WILDCARD,proxy-*.dailymotion.com,CDN
 HOST-WILDCARD,rr?---??.ouo.si,CDN
+HOST-WILDCARD,rum-ingest.*.signalfx.com,CDN
 HOST-WILDCARD,s3-*.figma.com,CDN
 HOST-WILDCARD,s3.*.wasabisys.com,CDN
 HOST-WILDCARD,s?.maxstream.org,CDN

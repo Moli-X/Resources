@@ -9,9 +9,12 @@ DOMAIN,api.github.com
 DOMAIN,api.jetbrains.ai
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,gateway.ai.cloudflare.com
+DOMAIN,inference.codeium.com
 DOMAIN,jules.google.com
 DOMAIN,openrouter.ai
 DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,server.codeium.com
+DOMAIN,server.self-serve.windsurf.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,anthropic.com

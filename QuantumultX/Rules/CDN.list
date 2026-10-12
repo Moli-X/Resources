@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4769
+# 规则统计: 4770
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3208,6 +3208,7 @@ HOST,tiles.maps.eox.at,CDN
 HOST,tiles.maps.opensearch.org,CDN
 HOST,tiles.mapterhorn.com,CDN
 HOST,tiles.meteoguard.dtn.com,CDN
+HOST,tiles.onemap.gov.sg,CDN
 HOST,tiles.openfreemap.org,CDN
 HOST,tiles.openrailwaymap.org,CDN
 HOST,tiles.openseamap.org,CDN

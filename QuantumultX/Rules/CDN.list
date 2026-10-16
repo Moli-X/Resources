@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4774
+# 规则统计: 4776
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2241,6 +2241,7 @@ HOST,mstdn-s3.o3o.studio,CDN
 HOST,mta.newfold.com,CDN
 HOST,mui.com,CDN
 HOST,mwcm.nyt.com,CDN
+HOST,mweb-cdn.karousell.com,CDN
 HOST,mwf-service.akamaized.net,CDN
 HOST,my-json-server.typicode.com,CDN
 HOST,n.approveit.today,CDN
@@ -2680,6 +2681,7 @@ HOST,simplicity.trustpilot.com,CDN
 HOST,sites.chase.com,CDN
 HOST,sites.super.so,CDN
 HOST,skills-assets.pstmn.io,CDN
+HOST,sl3-cdn.karousell.com,CDN
 HOST,sm.ign.com,CDN
 HOST,sm.pcmag.com,CDN
 HOST,sn-s3-cdn.angry.im,CDN

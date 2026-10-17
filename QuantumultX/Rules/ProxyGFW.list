@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7528
+# 规则统计: 7531
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -141,6 +141,7 @@ HOST-SUFFIX,6parknews.com,ProxyGFW
 HOST-SUFFIX,7capture.com,ProxyGFW
 HOST-SUFFIX,7cow.com,ProxyGFW
 HOST-SUFFIX,7mmtv.tv,ProxyGFW
+HOST-SUFFIX,7x24hrs.com,ProxyGFW
 HOST-SUFFIX,8-d.com,ProxyGFW
 HOST-SUFFIX,85cc.net,ProxyGFW
 HOST-SUFFIX,85cc.us,ProxyGFW
@@ -4062,7 +4063,9 @@ HOST-SUFFIX,merlinblog.xyz,ProxyGFW
 HOST-SUFFIX,meshrep.com,ProxyGFW
 HOST-SUFFIX,mesotw.com,ProxyGFW
 HOST-SUFFIX,messenger.com,ProxyGFW
+HOST-SUFFIX,meta.ai,ProxyGFW
 HOST-SUFFIX,meta.com,ProxyGFW
+HOST-SUFFIX,metaaivm.com,ProxyGFW
 HOST-SUFFIX,metacafe.com,ProxyGFW
 HOST-SUFFIX,metacubex.one,ProxyGFW
 HOST-SUFFIX,metafilter.com,ProxyGFW

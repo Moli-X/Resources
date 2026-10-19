@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4776
+# 规则统计: 4779
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1509,6 +1509,7 @@ HOST,frontend-apps.workos.com,CDN
 HOST,frontend-assets.supabase.com,CDN
 HOST,frontend-cdn.perplexity.ai,CDN
 HOST,frontend.floatplane.com,CDN
+HOST,frontend2.locally.com,CDN
 HOST,fs.mingpao.com,CDN
 HOST,fscdn.eppo.cloud,CDN
 HOST,fullstackopen.com,CDN
@@ -2200,6 +2201,7 @@ HOST,media.themoviedb.org,CDN
 HOST,media.theporndude.com,CDN
 HOST,media.theresanaiforthat.com,CDN
 HOST,media.trakt.tv,CDN
+HOST,media.trekbikes.com,CDN
 HOST,media.user.com,CDN
 HOST,media.wd40.asia,CDN
 HOST,media.webtoo.ls,CDN
@@ -3329,6 +3331,7 @@ HOST,v2uploads.zopim.io,CDN
 HOST,vanilla-extract.style,CDN
 HOST,variations.brave.com,CDN
 HOST,vbmspic.video.friday.tw,CDN
+HOST,vcc-assets.8x8.com,CDN
 HOST,vcdn.anysex.com,CDN
 HOST,vector.hereapi.com,CDN
 HOST,vectorified.com,CDN

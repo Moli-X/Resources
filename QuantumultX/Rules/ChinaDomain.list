@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 872
+# 规则统计: 873
 
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -140,6 +140,7 @@ HOST-SUFFIX,aliyuncs.com,ChinaDomain
 HOST-SUFFIX,aliyundrive.com,ChinaDomain
 HOST-SUFFIX,aliyundrive.net,ChinaDomain
 HOST-SUFFIX,amap.com,ChinaDomain
+HOST-SUFFIX,amemv.com,ChinaDomain
 HOST-SUFFIX,anjuke.com,ChinaDomain
 HOST-SUFFIX,anticheatexpert.com,ChinaDomain
 HOST-SUFFIX,antpcdn.com,ChinaDomain

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4779
+# 规则统计: 4781
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2220,6 +2220,7 @@ HOST,megapx-assets.dcard.tw,CDN
 HOST,melonbooks.akamaized.net,CDN
 HOST,meteorclient.com,CDN
 HOST,metrics.kapa.ai,CDN
+HOST,metrics.manus.im,CDN
 HOST,mgx-backend-cdn.metadl.com,CDN
 HOST,micro.rubiconproject.com,CDN
 HOST,mintlify.b-cdn.net,CDN
@@ -2781,6 +2782,7 @@ HOST,static-media.fox.com,CDN
 HOST,static-mh.content.disney.io,CDN
 HOST,static-oforms.onlyoffice.com,CDN
 HOST,static-overlay.ubisoft.com,CDN
+HOST,static-page.tp-link.com,CDN
 HOST,static-production.npmjs.com,CDN
 HOST,static-r.kamihimeproject.net,CDN
 HOST,static-r2.gear4music.com,CDN

@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,aaid.umeng.com
 DOMAIN-SUFFIX,abtest-ch.snssdk.com
 DOMAIN-SUFFIX,ad-api.4pyun.com
 DOMAIN-SUFFIX,ad-cdn.qingting.fm
+DOMAIN-SUFFIX,ad-cmp.hismarttv.com
+DOMAIN-SUFFIX,ad-download.hismarttv.com
 DOMAIN-SUFFIX,ad-files.4pyun.com
 DOMAIN-SUFFIX,ad-scope.com
 DOMAIN-SUFFIX,ad-scope.com.cn
@@ -291,6 +293,7 @@ DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN-SUFFIX,bj-td-menta-01-callback.advlion.com
 DOMAIN-SUFFIX,bj.ad.track.66mobi.com
 DOMAIN-SUFFIX,books-analytics-events.apple.com
+DOMAIN-SUFFIX,boost-cmp.hismarttv.com
 DOMAIN-SUFFIX,bootpreload.uve.weibo.com
 DOMAIN-SUFFIX,brandadsstatic.vivo.com.cn
 DOMAIN-SUFFIX,browser.events.data.msn.cn
@@ -397,6 +400,7 @@ DOMAIN-SUFFIX,frontend-perf-service.e.kuaishou.com
 DOMAIN-SUFFIX,fxgate.baidu.com
 DOMAIN-SUFFIX,g-adnet.hiaiabc.com
 DOMAIN-SUFFIX,g-staic.ganjingworld.com
+DOMAIN-SUFFIX,g.cn.miaozhen.com
 DOMAIN-SUFFIX,g.dtv.cn.miaozhen.com
 DOMAIN-SUFFIX,g.fancyapi.com
 DOMAIN-SUFFIX,g2.ganjing.world
@@ -472,6 +476,7 @@ DOMAIN-SUFFIX,img-c.heytapimage.com
 DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com
 DOMAIN-SUFFIX,img2.360buyimg.com
+DOMAIN-SUFFIX,imp-cmp.hismarttv.com
 DOMAIN-SUFFIX,impression-asia.chinaliftoff.io
 DOMAIN-SUFFIX,impression-asia.liftoff.io
 DOMAIN-SUFFIX,impression.appsflyer.com
@@ -518,6 +523,7 @@ DOMAIN-SUFFIX,lives.l.aiseet.atianqi.com
 DOMAIN-SUFFIX,lives.l.ott.video.qq.com
 DOMAIN-SUFFIX,livewebbs2pcdn.msstatic.com
 DOMAIN-SUFFIX,lm10111.jtrincc.cn
+DOMAIN-SUFFIX,loading-cmp.hismarttv.com
 DOMAIN-SUFFIX,log-api-mn.huxiu.com
 DOMAIN-SUFFIX,log-api.huxiu.com
 DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com
@@ -607,6 +613,7 @@ DOMAIN-SUFFIX,ms.applvn.com
 DOMAIN-SUFFIX,ms4.applovin.com
 DOMAIN-SUFFIX,ms4.applvn.com
 DOMAIN-SUFFIX,msdk.voiceads.cn
+DOMAIN-SUFFIX,msg-cmp.hismarttv.com
 DOMAIN-SUFFIX,mssdk.volces.com
 DOMAIN-SUFFIX,mssdk.zijieapi.com
 DOMAIN-SUFFIX,mtj.baidu.com
@@ -656,6 +663,7 @@ DOMAIN-SUFFIX,p66-ad.adkwai.com
 DOMAIN-SUFFIX,pagead2.googleadservices.com
 DOMAIN-SUFFIX,pagead2.googlesyndication.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,paster-cmp.hismarttv.com
 DOMAIN-SUFFIX,pay.sboot.cn
 DOMAIN-SUFFIX,pcdn.xmcdn.com
 DOMAIN-SUFFIX,pcdn.yximgs.com
@@ -685,6 +693,7 @@ DOMAIN-SUFFIX,qmlog.baertt.com
 DOMAIN-SUFFIX,qn-cdnfile1pcdn.msstatic.com
 DOMAIN-SUFFIX,qqdata.ab.qq.com
 DOMAIN-SUFFIX,qzs.gdtimg.com
+DOMAIN-SUFFIX,recmd-cmp.hismarttv.com
 DOMAIN-SUFFIX,recommend-drcn.hms.dbankcloud.cn
 DOMAIN-SUFFIX,report.dxunion.cn
 DOMAIN-SUFFIX,report.tencentmusic.com
@@ -695,6 +704,7 @@ DOMAIN-SUFFIX,res1.hubcloud.com.cn
 DOMAIN-SUFFIX,res2.hubcloud.com.cn
 DOMAIN-SUFFIX,res3.hubcloud.com.cn
 DOMAIN-SUFFIX,resolve.umeng.com
+DOMAIN-SUFFIX,resource-cmp.hismarttv.com
 DOMAIN-SUFFIX,review.gdtimg.com
 DOMAIN-SUFFIX,rlog.popin.cc
 DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn
@@ -890,6 +900,7 @@ DOMAIN-SUFFIX,v1-ad.video.yximgs.com
 DOMAIN-SUFFIX,v2-ad.video.yximgs.com
 DOMAIN-SUFFIX,v2-api-channel-launcher.hismarttv.com
 DOMAIN-SUFFIX,v2.gdt.qq.com
+DOMAIN-SUFFIX,v2.reachmax.cn
 DOMAIN-SUFFIX,v2mi.gdt.qq.com
 DOMAIN-SUFFIX,v3-ad.video.yximgs.com
 DOMAIN-SUFFIX,v3.gdt.qq.com

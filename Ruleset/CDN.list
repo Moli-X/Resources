@@ -119,7 +119,9 @@ DOMAIN,assets-next.matters.news
 DOMAIN,assets-next.mattersprotocol.io
 DOMAIN,assets-proxy.anthropic.com
 DOMAIN,assets-s3-us-east-1.ceros.com
+DOMAIN,assets-static.99.co
 DOMAIN,assets-themes.chess.com
+DOMAIN,assets-v2.99.co
 DOMAIN,assets-v2.i-scmp.com
 DOMAIN,assets-v2.super.so
 DOMAIN,assets-www.readspeaker.com
@@ -201,6 +203,7 @@ DOMAIN,assets.getpostman.com
 DOMAIN,assets.github.dev
 DOMAIN,assets.goat.com
 DOMAIN,assets.gorgias.help
+DOMAIN,assets.grab.com
 DOMAIN,assets.grammarly.com
 DOMAIN,assets.grooveapps.com
 DOMAIN,assets.guim.co.uk
@@ -1136,6 +1139,7 @@ DOMAIN,celebrities-small.porndig.com
 DOMAIN,certificates.godaddy.com
 DOMAIN,cf-assets.www.cloudflare.com
 DOMAIN,cf-images.ap-northeast-1.prod.boltdns.net
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN,cf-images.us-east-1.prod.boltdns.net
 DOMAIN,cf.channel.io
 DOMAIN,cf.eip.telegraph.co.uk
@@ -2350,6 +2354,7 @@ DOMAIN,pic.imge.cc
 DOMAIN,pic.macked.app
 DOMAIN,pic.onlinewebfonts.com
 DOMAIN,pic.skk.moe
+DOMAIN,pic2.99.co
 DOMAIN,piccdn.7mmtv.sx
 DOMAIN,pics.dmm.co.jp
 DOMAIN,pics.hentai.name
@@ -2617,6 +2622,7 @@ DOMAIN,screenshots.codesandbox.io
 DOMAIN,screenshots.debian.net
 DOMAIN,screenshots.downloadtorrentfile.com
 DOMAIN,screenshots.webflow.com
+DOMAIN,scribe-web-sdk.grab.com
 DOMAIN,script.custobar.com
 DOMAIN,scripts.dailymail.co.uk
 DOMAIN,scripts.scriptwrapper.com
@@ -3072,6 +3078,7 @@ DOMAIN,static1.e621.net
 DOMAIN,static1.lottiefiles.com
 DOMAIN,static1.smartbear.co
 DOMAIN,static1.squarespace.com
+DOMAIN,static1.straitstimes.com.sg
 DOMAIN,static10.lottiefiles.com
 DOMAIN,static2.avg.com
 DOMAIN,static2.giroditalia.it
@@ -4748,6 +4755,7 @@ DOMAIN-WILDCARD,cdn?-dl.pornhost.com
 DOMAIN-WILDCARD,cdn?.18girlssex.com
 DOMAIN-WILDCARD,cdn?.mikuclub.fun
 DOMAIN-WILDCARD,cdns.*.gigya.com
+DOMAIN-WILDCARD,cf-images.*.prod.boltdns.net
 DOMAIN-WILDCARD,chunk-*.mux.com
 DOMAIN-WILDCARD,fastly-*.allmovie.com
 DOMAIN-WILDCARD,file?.mikuclub.fun

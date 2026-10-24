@@ -1,5 +1,5 @@
 # 规则名称: Game
-# 规则统计: 597
+# 规则统计: 612
 
 HOST,eaasserts-a.akamaihd.net,Game
 HOST,gog.salesmanago.com,Game
@@ -99,6 +99,7 @@ HOST-SUFFIX,dl.steam.clngaa.com,Game
 HOST-SUFFIX,dl.steam.ksyna.com,Game
 HOST-SUFFIX,dlmobilegarena-a.akamaihd.net,Game
 HOST-SUFFIX,donkeykongcountryreturns.com,Game
+HOST-SUFFIX,dota2.com,Game
 HOST-SUFFIX,dota2.wmsj.cn,Game
 HOST-SUFFIX,dragonage.com,Game
 HOST-SUFFIX,dragonagekeep.com,Game
@@ -441,6 +442,7 @@ HOST-SUFFIX,steamcdn-a.akamaihd.net,Game
 HOST-SUFFIX,steamchina.com,Game
 HOST-SUFFIX,steamcommunity-a.akamaihd.net,Game
 HOST-SUFFIX,steamcommunity.com,Game
+HOST-SUFFIX,steamconnecttest.com,Game
 HOST-SUFFIX,steamcontent.com,Game
 HOST-SUFFIX,steamcontent.tnkjmec.com,Game
 HOST-SUFFIX,steamdeck.com,Game
@@ -503,6 +505,7 @@ HOST-SUFFIX,unrealtournament.com,Game
 HOST-SUFFIX,uo.com,Game
 HOST-SUFFIX,uoherald.com,Game
 HOST-SUFFIX,uplay.com,Game
+HOST-SUFFIX,valve.net,Game
 HOST-SUFFIX,valvesoftware.com,Game
 HOST-SUFFIX,videos-rockstargames-com.akamaized.net,Game
 HOST-SUFFIX,visceralgames.com,Game
@@ -552,14 +555,20 @@ HOST-KEYWORD,epicgames,Game
 HOST-KEYWORD,steambroadcast,Game
 HOST-KEYWORD,steamstore,Game
 HOST-KEYWORD,steamuserimages,Game
+IP-CIDR,103.10.124.0/23,Game
+IP-CIDR,103.28.54.0/24,Game
 IP-CIDR,103.4.114.233/32,Game
 IP-CIDR,103.4.115.248/32,Game
 IP-CIDR,13.210.25.233/32,Game
 IP-CIDR,13.212.170.102/32,Game
 IP-CIDR,13.212.171.212/32,Game
 IP-CIDR,137.221.105.2/32,Game
+IP-CIDR,146.66.152.0/24,Game
+IP-CIDR,146.66.155.0/24,Game
 IP-CIDR,15.161.130.86/32,Game
 IP-CIDR,15.254.1.17/32,Game
+IP-CIDR,155.133.224.0/19,Game
+IP-CIDR,162.254.192.0/21,Game
 IP-CIDR,162.62.33.45/32,Game
 IP-CIDR,162.62.33.70/32,Game
 IP-CIDR,162.62.34.10/32,Game
@@ -569,13 +578,18 @@ IP-CIDR,18.231.148.103/32,Game
 IP-CIDR,182.162.116.1/32,Game
 IP-CIDR,182.162.132.1/32,Game
 IP-CIDR,182.162.135.1/32,Game
+IP-CIDR,185.25.180.0/22,Game
 IP-CIDR,185.60.112.157/32,Game
 IP-CIDR,185.60.112.158/32,Game
 IP-CIDR,185.60.114.159/32,Game
+IP-CIDR,192.69.96.0/22,Game
 IP-CIDR,202.9.67.254/32,Game
 IP-CIDR,202.9.67.59/32,Game
 IP-CIDR,203.66.81.98/32,Game
 IP-CIDR,203.69.111.4/32,Game
+IP-CIDR,205.196.6.0/24,Game
+IP-CIDR,208.64.200.0/22,Game
+IP-CIDR,208.78.164.0/22,Game
 IP-CIDR,210.242.235.6/32,Game
 IP-CIDR,210.71.148.11/32,Game
 IP-CIDR,211.115.104.1/32,Game
@@ -590,6 +604,7 @@ IP-CIDR,34.220.160.16/32,Game
 IP-CIDR,35.154.64.7/32,Game
 IP-CIDR,35.192.0.0/12,Game
 IP-CIDR,35.72.32.125/32,Game
+IP-CIDR,45.121.184.0/24,Game
 IP-CIDR,52.13.150.128/32,Game
 IP-CIDR,52.13.42.120/32,Game
 IP-CIDR,52.50.131.212/32,Game

@@ -1,5 +1,5 @@
 # 规则名称: Steam
-# 规则统计: 54
+# 规则统计: 69
 
 HOST-SUFFIX,cdn-ali.content.steamchina.com,Steam
 HOST-SUFFIX,cdn-qc.content.steamchina.com,Steam
@@ -7,6 +7,7 @@ HOST-SUFFIX,cdn-ws.content.steamchina.com,Steam
 HOST-SUFFIX,csgo.wmsj.cn,Steam
 HOST-SUFFIX,dl.steam.clngaa.com,Steam
 HOST-SUFFIX,dl.steam.ksyna.com,Steam
+HOST-SUFFIX,dota2.com,Steam
 HOST-SUFFIX,dota2.wmsj.cn,Steam
 HOST-SUFFIX,edge.steam-dns.top.comcast.net,Steam
 HOST-SUFFIX,f3b7q2p3.ssl.hwcdn.net,Steam
@@ -32,6 +33,7 @@ HOST-SUFFIX,steambroadcast.akamaized.net,Steam
 HOST-SUFFIX,steamcdn-a.akamaihd.net,Steam
 HOST-SUFFIX,steamcommunity-a.akamaihd.net,Steam
 HOST-SUFFIX,steamcommunity.com,Steam
+HOST-SUFFIX,steamconnecttest.com,Steam
 HOST-SUFFIX,steamcontent.tnkjmec.com,Steam
 HOST-SUFFIX,steamdeck.com,Steam
 HOST-SUFFIX,steamgames.com,Steam
@@ -50,8 +52,21 @@ HOST-SUFFIX,steamusercontent-a.akamaihd.net,Steam
 HOST-SUFFIX,steamuserimages-a.akamaihd.net,Steam
 HOST-SUFFIX,steamvideo-a.akamaihd.net,Steam
 HOST-SUFFIX,underlords.com,Steam
+HOST-SUFFIX,valve.net,Steam
 HOST-SUFFIX,valvesoftware.com,Steam
 HOST-SUFFIX,wmsjsteam.com,Steam
 HOST-KEYWORD,steambroadcast,Steam
 HOST-KEYWORD,steamstore,Steam
 HOST-KEYWORD,steamuserimages,Steam
+IP-CIDR,103.10.124.0/23,Steam
+IP-CIDR,103.28.54.0/24,Steam
+IP-CIDR,146.66.152.0/24,Steam
+IP-CIDR,146.66.155.0/24,Steam
+IP-CIDR,155.133.224.0/19,Steam
+IP-CIDR,162.254.192.0/21,Steam
+IP-CIDR,185.25.180.0/22,Steam
+IP-CIDR,192.69.96.0/22,Steam
+IP-CIDR,205.196.6.0/24,Steam
+IP-CIDR,208.64.200.0/22,Steam
+IP-CIDR,208.78.164.0/22,Steam
+IP-CIDR,45.121.184.0/24,Steam

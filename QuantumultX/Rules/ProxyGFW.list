@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7533
+# 规则统计: 7542
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -21,6 +21,7 @@ HOST-SUFFIX,10musume.com,ProxyGFW
 HOST-SUFFIX,111666.best,ProxyGFW
 HOST-SUFFIX,123av.com,ProxyGFW
 HOST-SUFFIX,123av.me,ProxyGFW
+HOST-SUFFIX,123av.org,ProxyGFW
 HOST-SUFFIX,123rf.com,ProxyGFW
 HOST-SUFFIX,12bet.com,ProxyGFW
 HOST-SUFFIX,12vpn.com,ProxyGFW
@@ -3660,6 +3661,7 @@ HOST-SUFFIX,khmusic.com.tw,ProxyGFW
 HOST-SUFFIX,kichiku-doujinko.com,ProxyGFW
 HOST-SUFFIX,kik.com,ProxyGFW
 HOST-SUFFIX,killwall.com,ProxyGFW
+HOST-SUFFIX,kimootoko.net,ProxyGFW
 HOST-SUFFIX,kindle4rss.com,ProxyGFW
 HOST-SUFFIX,kindleren.com,ProxyGFW
 HOST-SUFFIX,kingdomsalvation.org,ProxyGFW
@@ -4129,6 +4131,7 @@ HOST-SUFFIX,minhhue.net,ProxyGFW
 HOST-SUFFIX,miniforum.org,ProxyGFW
 HOST-SUFFIX,miningpoolhub.com,ProxyGFW
 HOST-SUFFIX,ministrybooks.org,ProxyGFW
+HOST-SUFFIX,minkch.com,ProxyGFW
 HOST-SUFFIX,minzhuhua.net,ProxyGFW
 HOST-SUFFIX,minzhuzhanxian.com,ProxyGFW
 HOST-SUFFIX,minzhuzhongguo.org,ProxyGFW
@@ -4220,6 +4223,7 @@ HOST-SUFFIX,motiyun.com,ProxyGFW
 HOST-SUFFIX,motor4ik.ru,ProxyGFW
 HOST-SUFFIX,mousebreaker.com,ProxyGFW
 HOST-SUFFIX,movements.org,ProxyGFW
+HOST-SUFFIX,movie.eroterest.net,ProxyGFW
 HOST-SUFFIX,moviefap.com,ProxyGFW
 HOST-SUFFIX,mozilla.org,ProxyGFW
 HOST-SUFFIX,moztw.org,ProxyGFW
@@ -4494,6 +4498,9 @@ HOST-SUFFIX,nitter.net,ProxyGFW
 HOST-SUFFIX,niu.moe,ProxyGFW
 HOST-SUFFIX,niusnews.com,ProxyGFW
 HOST-SUFFIX,njactb.org,ProxyGFW
+HOST-SUFFIX,njav.com,ProxyGFW
+HOST-SUFFIX,njav.tv,ProxyGFW
+HOST-SUFFIX,njavtv.com,ProxyGFW
 HOST-SUFFIX,njuice.com,ProxyGFW
 HOST-SUFFIX,nlfreevpn.com,ProxyGFW
 HOST-SUFFIX,nmsl.website,ProxyGFW
@@ -4937,6 +4944,7 @@ HOST-SUFFIX,plus28.com,ProxyGFW
 HOST-SUFFIX,plusbb.com,ProxyGFW
 HOST-SUFFIX,pmatehunter.com,ProxyGFW
 HOST-SUFFIX,pmates.com,ProxyGFW
+HOST-SUFFIX,po-kaki-to.com,ProxyGFW
 HOST-SUFFIX,po2b.com,ProxyGFW
 HOST-SUFFIX,pobieramy.top,ProxyGFW
 HOST-SUFFIX,podbean.com,ProxyGFW
@@ -7412,6 +7420,7 @@ HOST-SUFFIX,zoozle.net,ProxyGFW
 HOST-SUFFIX,zophar.net,ProxyGFW
 HOST-SUFFIX,zorrovpn.com,ProxyGFW
 HOST-SUFFIX,zozotown.com,ProxyGFW
+HOST-SUFFIX,zozovideo.com,ProxyGFW
 HOST-SUFFIX,zpn.im,ProxyGFW
 HOST-SUFFIX,zsdxzk.com,ProxyGFW
 HOST-SUFFIX,zspeeder.me,ProxyGFW

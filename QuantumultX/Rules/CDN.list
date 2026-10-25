@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4793
+# 规则统计: 4781
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -371,7 +371,6 @@ HOST,avatars.hubspot.net,CDN
 HOST,avatars.mds.yandex.net,CDN
 HOST,avatars.micro.blog,CDN
 HOST,avatars.plurk.com,CDN
-HOST,avts.wmlabs.net,CDN
 HOST,awsimgsrc.dmm.co.jp,CDN
 HOST,awsimgsrc.dmm.com,CDN
 HOST,axiecdn.axieinfinity.com,CDN
@@ -445,7 +444,6 @@ HOST,c.start.me,CDN
 HOST,c.tadst.com,CDN
 HOST,c.tenor.com,CDN
 HOST,c1.newegg.com,CDN
-HOST,c1.patreon.com,CDN
 HOST,c10.patreon.com,CDN
 HOST,c11.patreon.com,CDN
 HOST,c13.patreon.com,CDN
@@ -468,7 +466,6 @@ HOST,cache.industry.siemens.com,CDN
 HOST,cache.ip-api.com,CDN
 HOST,cache.mapcomplete.org,CDN
 HOST,cache.omnicalculator.com,CDN
-HOST,cache.sgvafs.com,CDN
 HOST,cached.rebuyengine.com,CDN
 HOST,cafe.github.com,CDN
 HOST,canny-assets.io,CDN
@@ -616,6 +613,7 @@ HOST,cdn.candid.org,CDN
 HOST,cdn.candu.ai,CDN
 HOST,cdn.candy.ai,CDN
 HOST,cdn.candycode.com,CDN
+HOST,cdn.capcom-unity.com,CDN
 HOST,cdn.casestudies.svc.ui.com,CDN
 HOST,cdn.casetify.com,CDN
 HOST,cdn.catch.dmm.co.jp,CDN
@@ -674,7 +672,6 @@ HOST,cdn.document360.io,CDN
 HOST,cdn.donmai.us,CDN
 HOST,cdn.doofinder.com,CDN
 HOST,cdn.dotaoutpost.com,CDN
-HOST,cdn.downdetector.com,CDN
 HOST,cdn.download.it,CDN
 HOST,cdn.drata.com,CDN
 HOST,cdn.dribbble.com,CDN
@@ -870,6 +867,7 @@ HOST,cdn.privacy.com,CDN
 HOST,cdn.privacy.paramount.com,CDN
 HOST,cdn.prod.ext.web.purview.azure.com,CDN
 HOST,cdn.prod.www.spiegel.de,CDN
+HOST,cdn.promo.capcomusa.com,CDN
 HOST,cdn.promotekit.com,CDN
 HOST,cdn.prowritingaid.com,CDN
 HOST,cdn.quadpay.com,CDN
@@ -904,7 +902,6 @@ HOST,cdn.sciencecast.org,CDN
 HOST,cdn.scpwiki.com,CDN
 HOST,cdn.search.brave.com,CDN
 HOST,cdn.sedo.com,CDN
-HOST,cdn.seedance2.ai,CDN
 HOST,cdn.segment.com,CDN
 HOST,cdn.seline.so,CDN
 HOST,cdn.seondf.com,CDN
@@ -1072,6 +1069,7 @@ HOST,cdn2.turboviplay.cc,CDN
 HOST,cdn2.unrealengine.com,CDN
 HOST,cdn3.bigcommerce.com,CDN
 HOST,cdn3.dan.com,CDN
+HOST,cdn3.downdetector.com,CDN
 HOST,cdn3.edgedatg.com,CDN
 HOST,cdn3.hextom.com,CDN
 HOST,cdn3.iconfinder.com,CDN
@@ -1083,6 +1081,7 @@ HOST,cdn3.telesco.pe,CDN
 HOST,cdn3.tubeteen18.com,CDN
 HOST,cdn3.unrealengine.com,CDN
 HOST,cdn4.bigcommerce.com,CDN
+HOST,cdn4.downdetector.com,CDN
 HOST,cdn4.edgedatg.com,CDN
 HOST,cdn4.focus.bg,CDN
 HOST,cdn4.iconfinder.com,CDN
@@ -1269,7 +1268,6 @@ HOST,crt.sectigo.com,CDN
 HOST,crt.usertrust.com,CDN
 HOST,csp.microsoft.com,CDN
 HOST,css-1-cdn.airdroid.com,CDN
-HOST,css.4jpg.top,CDN
 HOST,css.blackmagicdesign.com,CDN
 HOST,css.comicbz.com,CDN
 HOST,css.createsend1.com,CDN
@@ -1674,6 +1672,7 @@ HOST,image.gyutto.com,CDN
 HOST,image.gyutto.jp,CDN
 HOST,image.hkhl.hk,CDN
 HOST,image.ibb.co,CDN
+HOST,image.icon-gen.svc.ui.com,CDN
 HOST,image.jnislniv.xyz,CDN
 HOST,image.mgstage.com,CDN
 HOST,image.mux.com,CDN
@@ -1964,7 +1963,6 @@ HOST,imgopt.infoq.com,CDN
 HOST,imgproxy.flathub.org,CDN
 HOST,imgproxy.fourthwall.com,CDN
 HOST,imgproxy.windy.com,CDN
-HOST,imgrs.apkcombo.com,CDN
 HOST,imgs.plurk.com,CDN
 HOST,imgs.search.brave.com,CDN
 HOST,imgs.socialinsider.io,CDN
@@ -2098,6 +2096,7 @@ HOST,magic.scalar.com,CDN
 HOST,makerworld.bblmw.com,CDN
 HOST,mangaz-books.j-comi.jp,CDN
 HOST,mangaz-static.j-comi.jp,CDN
+HOST,manifest.prod.boltdns.net,CDN
 HOST,mantisloader.mantis-awx.com,CDN
 HOST,map.adsbexchange.com,CDN
 HOST,map.vesselfinder.net,CDN
@@ -2147,7 +2146,6 @@ HOST,media.discordapp.net,CDN
 HOST,media.dlsite.com,CDN
 HOST,media.e4le.me,CDN
 HOST,media.ettoday.net,CDN
-HOST,media.evolv.ai,CDN
 HOST,media.fc2.com,CDN
 HOST,media.fidoalliance.org,CDN
 HOST,media.flaticon.com,CDN
@@ -2328,7 +2326,6 @@ HOST,pacdn.500px.org,CDN
 HOST,packages.jetbrains.team,CDN
 HOST,panda.dmm.com,CDN
 HOST,panel-production-libs.b-cdn.net,CDN
-HOST,participants.evolv.ai,CDN
 HOST,parts.blog.livedoor.jp,CDN
 HOST,patterns.hiive.cloud,CDN
 HOST,pba.apple.com,CDN
@@ -2436,7 +2433,6 @@ HOST,production-cmp.isgprivacy.cbsi.com,CDN
 HOST,profile-images.xing.com,CDN
 HOST,promotions.betfair.com,CDN
 HOST,proxy.beyondwords.io,CDN
-HOST,proxy.cors.sh,CDN
 HOST,proxy.csidetm.com,CDN
 HOST,proxy.joinmastodon.org,CDN
 HOST,proxy.spigotmc.org,CDN
@@ -2840,6 +2836,7 @@ HOST,static.buydomains.com,CDN
 HOST,static.bytepan.com,CDN
 HOST,static.c-spanvideo.org,CDN
 HOST,static.canva.com,CDN
+HOST,static.capcom.com,CDN
 HOST,static.captcha-delivery.com,CDN
 HOST,static.captcha.awswaf.com,CDN
 HOST,static.carfax.com,CDN
@@ -3131,12 +3128,10 @@ HOST,storage.gra.cloud.ovh.net,CDN
 HOST,storage.ko-fi.com,CDN
 HOST,storage.moegirl.tw,CDN
 HOST,storage.sciencecast.org,CDN
-HOST,storage.synctrack.io,CDN
 HOST,storage.tally.so,CDN
 HOST,storage.windiscover.com,CDN
 HOST,storage.withfabric.xyz,CDN
 HOST,storageapi.fleek.co,CDN
-HOST,storageapi.fleek.one,CDN
 HOST,storageapi2.fleek.co,CDN
 HOST,store-images.microsoft.com,CDN
 HOST,store-images.s-microsoft.com,CDN
@@ -3168,7 +3163,6 @@ HOST,t4.picb.cc,CDN
 HOST,tag.trovo-tag.com,CDN
 HOST,tag.tvads.ai,CDN
 HOST,tag.unifyintent.com,CDN
-HOST,tags.nationwide.com,CDN
 HOST,tags.nba.com,CDN
 HOST,tags.news.com.au,CDN
 HOST,talk.hyvor.com,CDN
@@ -3333,9 +3327,6 @@ HOST,usercontent.flodesk.com,CDN
 HOST,userpic.redgifs.com,CDN
 HOST,useruploads.visualwebsiteoptimizer.com,CDN
 HOST,utteranc.es,CDN
-HOST,v-tiles1.downdetector.com,CDN
-HOST,v-tiles2.downdetector.com,CDN
-HOST,v-tiles3.downdetector.com,CDN
 HOST,v.w-x.co,CDN
 HOST,v2.listenloop.com,CDN
 HOST,v2uploads.zopim.io,CDN
@@ -3379,14 +3370,12 @@ HOST,vz-2222604c-50b.b-cdn.net,CDN
 HOST,vz-c0fe498e-5ab.b-cdn.net,CDN
 HOST,w.chatlio.com,CDN
 HOST,w.soundcloud.com,CDN
-HOST,w2.influxdata.com,CDN
 HOST,w3-reporting.reddit.com,CDN
 HOST,wa.arounddeal.com,CDN
 HOST,wa1.aninoapps.com,CDN
 HOST,wac-cdn.atlassian.com,CDN
 HOST,waitlisted.co,CDN
 HOST,wall-ui-cdn.p.aws.economist.com,CDN
-HOST,walter-r2.trakt.tv,CDN
 HOST,wandi-6402.kxcdn.com,CDN
 HOST,wcpstatic.microsoft.com,CDN
 HOST,wctour-images.worldchess.com,CDN
@@ -3464,7 +3453,6 @@ HOST,www-cdn.anthropic.com,CDN
 HOST,www-cdn.uscardforum.com,CDN
 HOST,www-res.cablelabs.com,CDN
 HOST,www-static.ripe.net,CDN
-HOST,www.10086.win,CDN
 HOST,www.acgpix.de,CDN
 HOST,www.bbthat.com,CDN
 HOST,www.envoyproxy.io,CDN

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4781
+# 规则统计: 4783
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -1972,6 +1972,7 @@ HOST,imgs3.hcaptcha.com,CDN
 HOST,imgsrc.dmm.com,CDN
 HOST,imgsrv.crunchyroll.com,CDN
 HOST,imgssl.constantcontact.com,CDN
+HOST,imgur.la,CDN
 HOST,import-cdn.default.com,CDN
 HOST,ims.windy.com,CDN
 HOST,info.cloudflare.com,CDN
@@ -4472,6 +4473,7 @@ HOST-SUFFIX,static.flickr.com,CDN
 HOST-SUFFIX,static.gartner.com,CDN
 HOST-SUFFIX,static.mega.co.nz,CDN
 HOST-SUFFIX,static.microsoft,CDN
+HOST-SUFFIX,static.pub,CDN
 HOST-SUFFIX,static.skymavis.com,CDN
 HOST-SUFFIX,static2cdn.hubspot.com,CDN
 HOST-SUFFIX,statically.io,CDN

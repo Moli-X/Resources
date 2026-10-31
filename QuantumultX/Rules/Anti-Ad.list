@@ -1,5 +1,5 @@
 # 规则名称: Anti-Ad
-# 规则统计: 100686
+# 规则统计: 100682
 
 HOST-SUFFIX,0.myikas.com,Anti-Ad
 HOST-SUFFIX,0.net.easyjet.com,Anti-Ad
@@ -17173,6 +17173,7 @@ HOST-SUFFIX,cdn-net.com,Anti-Ad
 HOST-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com,Anti-Ad
 HOST-SUFFIX,cdn-rum.ngenix.net,Anti-Ad
 HOST-SUFFIX,cdn-server.cc,Anti-Ad
+HOST-SUFFIX,cdn-settings.segment.com,Anti-Ad
 HOST-SUFFIX,cdn-sitegainer.com,Anti-Ad
 HOST-SUFFIX,cdn-vitals.com,Anti-Ad
 HOST-SUFFIX,cdn.007moms.com,Anti-Ad
@@ -23563,7 +23564,6 @@ HOST-SUFFIX,datado.me,Anti-Ad
 HOST-SUFFIX,datadog-service.mvfglobal.com,Anti-Ad
 HOST-SUFFIX,datadoghq-browser-agent.com,Anti-Ad
 HOST-SUFFIX,datadoghq.eu,Anti-Ad
-HOST-SUFFIX,datadome.co,Anti-Ad
 HOST-SUFFIX,datadome.maisonsdumonde.com,Anti-Ad
 HOST-SUFFIX,datadsk.com,Anti-Ad
 HOST-SUFFIX,datafa.st,Anti-Ad
@@ -29781,7 +29781,6 @@ HOST-SUFFIX,ens.nzz.ch,Anti-Ad
 HOST-SUFFIX,ens.tagblatt.ch,Anti-Ad
 HOST-SUFFIX,ensealplaners.com,Anti-Ad
 HOST-SUFFIX,enseq50a.xyz,Anti-Ad
-HOST-SUFFIX,ensighten.com,Anti-Ad
 HOST-SUFFIX,ensmwonhtzpdh.space,Anti-Ad
 HOST-SUFFIX,ensosignal.com,Anti-Ad
 HOST-SUFFIX,enstatenewark.com,Anti-Ad
@@ -34312,7 +34311,6 @@ HOST-SUFFIX,gemanwnnxezww.website,Anti-Ad
 HOST-SUFFIX,gemcandock.com,Anti-Ad
 HOST-SUFFIX,gemini.yahoo.com,Anti-Ad
 HOST-SUFFIX,geminisailingzillion.com,Anti-Ad
-HOST-SUFFIX,gemius.pl,Anti-Ad
 HOST-SUFFIX,gemlithium.com,Anti-Ad
 HOST-SUFFIX,gemorganic.com,Anti-Ad
 HOST-SUFFIX,gemutiwheeped.com,Anti-Ad
@@ -48699,7 +48697,6 @@ HOST-SUFFIX,literacyfigured.com,Anti-Ad
 HOST-SUFFIX,literally-analytics.appspot.com,Anti-Ad
 HOST-SUFFIX,literallycircumscribetome.com,Anti-Ad
 HOST-SUFFIX,literallyflickercomplaints.com,Anti-Ad
-HOST-SUFFIX,litix.io,Anti-Ad
 HOST-SUFFIX,litpzshqdkjvn.online,Anti-Ad
 HOST-SUFFIX,litrujsxxymfn.website,Anti-Ad
 HOST-SUFFIX,litterarenadisembroildisembroil.com,Anti-Ad
@@ -56545,6 +56542,7 @@ HOST-SUFFIX,mobile-event-staging.cvent.me,Anti-Ad
 HOST-SUFFIX,mobile-event.cvent.me,Anti-Ad
 HOST-SUFFIX,mobile-events.eservice.emarsys.net.iberostar.com,Anti-Ad
 HOST-SUFFIX,mobile-pubt.ele.me,Anti-Ad
+HOST-SUFFIX,mobile-service.segment.com,Anti-Ad
 HOST-SUFFIX,mobile.aspensnowmass.com,Anti-Ad
 HOST-SUFFIX,mobile.banzai.it,Anti-Ad
 HOST-SUFFIX,mobile.bespontix.com,Anti-Ad
@@ -58607,6 +58605,7 @@ HOST-SUFFIX,nextpsh.top,Anti-Ad
 HOST-SUFFIX,nextsmarty.com,Anti-Ad
 HOST-SUFFIX,nextstat.com,Anti-Ad
 HOST-SUFFIX,nexttopchef.com,Anti-Ad
+HOST-SUFFIX,nexus.ensighten.com,Anti-Ad
 HOST-SUFFIX,nexus.officeapps.live.com,Anti-Ad
 HOST-SUFFIX,nexusbloom.xyz,Anti-Ad
 HOST-SUFFIX,nexusedgeio.com,Anti-Ad
@@ -61102,7 +61101,6 @@ HOST-SUFFIX,omtrdc.jobstreet.com.my,Anti-Ad
 HOST-SUFFIX,omtrdc.jobstreet.com.ph,Anti-Ad
 HOST-SUFFIX,omtrdc.jobstreet.com.sg,Anti-Ad
 HOST-SUFFIX,omtrdc.jobstreet.vn,Anti-Ad
-HOST-SUFFIX,omtrdc.net,Anti-Ad
 HOST-SUFFIX,omtrns.sstats.q8.dk,Anti-Ad
 HOST-SUFFIX,omvzcq.vidaxl.be,Anti-Ad
 HOST-SUFFIX,omwvapmytccsc.online,Anti-Ad
@@ -64238,7 +64236,6 @@ HOST-SUFFIX,placidactivity.com,Anti-Ad
 HOST-SUFFIX,placidityelite.com,Anti-Ad
 HOST-SUFFIX,placiditylever.com,Anti-Ad
 HOST-SUFFIX,placidperson.com,Anti-Ad
-HOST-SUFFIX,pladform.ru,Anti-Ad
 HOST-SUFFIX,plain-plane.com,Anti-Ad
 HOST-SUFFIX,plaincapsize.com,Anti-Ad
 HOST-SUFFIX,plainplayground.com,Anti-Ad
@@ -72861,7 +72858,6 @@ HOST-SUFFIX,sefkal.openapp.link,Anti-Ad
 HOST-SUFFIX,sefsdvc.com,Anti-Ad
 HOST-SUFFIX,segapi.whop.com,Anti-Ad
 HOST-SUFFIX,segment-api.inrix.com,Anti-Ad
-HOST-SUFFIX,segment.com,Anti-Ad
 HOST-SUFFIX,segment.io,Anti-Ad
 HOST-SUFFIX,segment.lalr.co,Anti-Ad
 HOST-SUFFIX,segmenthub.com,Anti-Ad

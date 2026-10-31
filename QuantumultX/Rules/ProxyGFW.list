@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7542
+# 规则统计: 7547
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -373,6 +373,7 @@ HOST-SUFFIX,anpopo.com,ProxyGFW
 HOST-SUFFIX,answering-islam.org,ProxyGFW
 HOST-SUFFIX,antd.org,ProxyGFW
 HOST-SUFFIX,anthonycalzadilla.com,ProxyGFW
+HOST-SUFFIX,anthropic.auth0.com,ProxyGFW
 HOST-SUFFIX,anthropic.com,ProxyGFW
 HOST-SUFFIX,anti1984.com,ProxyGFW
 HOST-SUFFIX,antichristendom.com,ProxyGFW
@@ -911,6 +912,7 @@ HOST-SUFFIX,brookings.edu,ProxyGFW
 HOST-SUFFIX,brucewang.net,ProxyGFW
 HOST-SUFFIX,brutaltgp.com,ProxyGFW
 HOST-SUFFIX,bsky.app,ProxyGFW
+HOST-SUFFIX,bsky.chat,ProxyGFW
 HOST-SUFFIX,bsky.network,ProxyGFW
 HOST-SUFFIX,bsky.social,ProxyGFW
 HOST-SUFFIX,bt2mag.com,ProxyGFW
@@ -1278,7 +1280,10 @@ HOST-SUFFIX,clarionproject.org,ProxyGFW
 HOST-SUFFIX,clashyun.com,ProxyGFW
 HOST-SUFFIX,classicalguitarblog.net,ProxyGFW
 HOST-SUFFIX,claude.ai,ProxyGFW
+HOST-SUFFIX,claude.app,ProxyGFW
 HOST-SUFFIX,claude.com,ProxyGFW
+HOST-SUFFIX,claudemcpcontent.com,ProxyGFW
+HOST-SUFFIX,claudeusercontent.com,ProxyGFW
 HOST-SUFFIX,clb.org.hk,ProxyGFW
 HOST-SUFFIX,cldr.unicode.org,ProxyGFW
 HOST-SUFFIX,cleansite.biz,ProxyGFW

@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7547
+# 规则统计: 7550
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -410,6 +410,7 @@ HOST-SUFFIX,api.pureapk.com,ProxyGFW
 HOST-SUFFIX,api.recaptcha.net,ProxyGFW
 HOST-SUFFIX,api.shuaiapi.com,ProxyGFW
 HOST-SUFFIX,api.steampowered.com,ProxyGFW
+HOST-SUFFIX,api.themoviedb.org,ProxyGFW
 HOST-SUFFIX,apiary.io,ProxyGFW
 HOST-SUFFIX,apigee.com,ProxyGFW
 HOST-SUFFIX,apk-dl.com,ProxyGFW
@@ -6285,6 +6286,7 @@ HOST-SUFFIX,torlock.com,ProxyGFW
 HOST-SUFFIX,torproject.org,ProxyGFW
 HOST-SUFFIX,torrentgalaxy.to,ProxyGFW
 HOST-SUFFIX,torrentkitty.tv,ProxyGFW
+HOST-SUFFIX,torrentleech.org,ProxyGFW
 HOST-SUFFIX,torrentprivacy.com,ProxyGFW
 HOST-SUFFIX,torrentproject.se,ProxyGFW
 HOST-SUFFIX,torrenty.org,ProxyGFW
@@ -7316,6 +7318,7 @@ HOST-SUFFIX,youtubeeducation.com,ProxyGFW
 HOST-SUFFIX,youtubegaming.com,ProxyGFW
 HOST-SUFFIX,youtubekids.com,ProxyGFW
 HOST-SUFFIX,youversion.com,ProxyGFW
+HOST-SUFFIX,youversionapi.com,ProxyGFW
 HOST-SUFFIX,youwin.com,ProxyGFW
 HOST-SUFFIX,youxu.info,ProxyGFW
 HOST-SUFFIX,ypncdn.com,ProxyGFW

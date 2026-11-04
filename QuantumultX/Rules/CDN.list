@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4783
+# 规则统计: 4784
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -296,6 +296,7 @@ HOST,assets.swiftkey.com,CDN
 HOST,assets.swoogo.com,CDN
 HOST,assets.tangled.network,CDN
 HOST,assets.tatlerasia.com,CDN
+HOST,assets.temporary-phone-number.com,CDN
 HOST,assets.the-independent.com,CDN
 HOST,assets.tigerdata.com,CDN
 HOST,assets.time.com,CDN

@@ -1,5 +1,5 @@
 # 规则名称: ChinaDomain
-# 规则统计: 873
+# 规则统计: 874
 
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
@@ -299,6 +299,7 @@ HOST-SUFFIX,didiglobal.com,ChinaDomain
 HOST-SUFFIX,didistatic.com,ChinaDomain
 HOST-SUFFIX,digicert.cn,ChinaDomain
 HOST-SUFFIX,dingtalk.com,ChinaDomain
+HOST-SUFFIX,dittocdn.com,ChinaDomain
 HOST-SUFFIX,dizzylab.net,ChinaDomain
 HOST-SUFFIX,dl.bscstorage.net,ChinaDomain
 HOST-SUFFIX,dl.delivery.mp.microsoft.com,ChinaDomain

@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4785
+# 规则统计: 4786
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2454,6 +2454,7 @@ HOST,public.hare200.com,CDN
 HOST,public.komiic.com,CDN
 HOST,public.linear.app,CDN
 HOST,public.mocortech.com,CDN
+HOST,public.popclip.app,CDN
 HOST,public.saasexch.com,CDN
 HOST,public.zoorix.com,CDN
 HOST,publicsuffix.org,CDN

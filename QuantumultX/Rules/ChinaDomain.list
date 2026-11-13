@@ -1,14 +1,16 @@
 # 规则名称: ChinaDomain
-# 规则统计: 874
+# 规则统计: 876
 
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,ChinaDomain
 HOST,acg.tv,ChinaDomain
+HOST,app.jianguoyun.com,ChinaDomain
 HOST,app.viayoo.com,ChinaDomain
 HOST,assets1.xboxlive.cn,ChinaDomain
 HOST,assets2.xboxlive.cn,ChinaDomain
 HOST,b23.tv,ChinaDomain
 HOST,cdnstatic.tencentcs.com,ChinaDomain
 HOST,cn.download.nvidia.com,ChinaDomain
+HOST,comet.jianguoyun.com,ChinaDomain
 HOST,config.ubnt.com,ChinaDomain
 HOST,dl.ubnt.com,ChinaDomain
 HOST,dns.pub,ChinaDomain

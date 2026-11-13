@@ -1,5 +1,5 @@
 # 规则名称: Ads_limbopro
-# 规则统计: 526
+# 规则统计: 529
 
 HOST,118.89.204.198,Ads_limbopro
 HOST,25e87c0802f91cf8cgg.6uzxtlv.cn,Ads_limbopro
@@ -246,6 +246,8 @@ HOST-SUFFIX,7tad.cn,Ads_limbopro
 HOST-SUFFIX,9e77b6e6e2.2e3f31faae.com,Ads_limbopro
 HOST-SUFFIX,a.adforcast.com,Ads_limbopro
 HOST-SUFFIX,a.bestcontentfood.top,Ads_limbopro
+HOST-SUFFIX,a.magsrv.com,Ads_limbopro
+HOST-SUFFIX,a.pemsrv.com,Ads_limbopro
 HOST-SUFFIX,a.realsrv.com,Ads_limbopro
 HOST-SUFFIX,a.shukriya90.com,Ads_limbopro
 HOST-SUFFIX,ad-nex.com,Ads_limbopro
@@ -380,6 +382,7 @@ HOST-SUFFIX,iycwl.com,Ads_limbopro
 HOST-SUFFIX,jads.co,Ads_limbopro
 HOST-SUFFIX,jianxinshanghai.com,Ads_limbopro
 HOST-SUFFIX,jidukeji.com,Ads_limbopro
+HOST-SUFFIX,jitrivppyz.in,Ads_limbopro
 HOST-SUFFIX,jknmthwd.xyz,Ads_limbopro
 HOST-SUFFIX,js.51toubu.com,Ads_limbopro
 HOST-SUFFIX,js.capndr.com,Ads_limbopro

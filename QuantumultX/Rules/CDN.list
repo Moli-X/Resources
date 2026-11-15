@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4786
+# 规则统计: 4788
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -2143,6 +2143,7 @@ HOST,media.convertkit.com,CDN
 HOST,media.crazyshit.com,CDN
 HOST,media.currys.biz,CDN
 HOST,media.daily.dev,CDN
+HOST,media.datacamp.com,CDN
 HOST,media.datacenterdynamics.com,CDN
 HOST,media.dev.to,CDN
 HOST,media.discordapp.net,CDN
@@ -2944,6 +2945,7 @@ HOST,static.javhd.com,CDN
 HOST,static.jsbin.com,CDN
 HOST,static.jup.ag,CDN
 HOST,static.k2s.cc,CDN
+HOST,static.karousell.com,CDN
 HOST,static.killedbygoogle.com,CDN
 HOST,static.klaviyo.com,CDN
 HOST,static.kobo.com,CDN

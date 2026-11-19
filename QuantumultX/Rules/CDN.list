@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4788
+# 规则统计: 4791
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -158,6 +158,7 @@ HOST,assets.cgtrader.com,CDN
 HOST,assets.change.org,CDN
 HOST,assets.chaos.social,CDN
 HOST,assets.churnkey.co,CDN
+HOST,assets.claudeusercontent.com,CDN
 HOST,assets.clever-cloud.com,CDN
 HOST,assets.clibo.tw,CDN
 HOST,assets.clickfunnels.com,CDN
@@ -2850,6 +2851,7 @@ HOST,static.chaika.moe,CDN
 HOST,static.change.org,CDN
 HOST,static.chessarena.com,CDN
 HOST,static.chrome-stats.com,CDN
+HOST,static.claudeusercontent.com,CDN
 HOST,static.clips4sale.com,CDN
 HOST,static.cloud.coveo.com,CDN
 HOST,static.cloudcachetci.com,CDN
@@ -3302,6 +3304,7 @@ HOST,unsubscribe-imgs.leavemealone.com,CDN
 HOST,uos-support-files.svc.ui.com,CDN
 HOST,updates.signal.org,CDN
 HOST,updates2.signal.org,CDN
+HOST,upload.claudeusercontent.com,CDN
 HOST,upload.movim.eu,CDN
 HOST,upload.teftera.com,CDN
 HOST,upload.wikimedia.org,CDN
@@ -3696,7 +3699,6 @@ HOST-SUFFIX,chasecdn.com,CDN
 HOST-SUFFIX,chcdn.xyz,CDN
 HOST-SUFFIX,chesscomfiles.com,CDN
 HOST-SUFFIX,cktu01.sbs,CDN
-HOST-SUFFIX,claudeusercontent.com,CDN
 HOST-SUFFIX,cldup.com,CDN
 HOST-SUFFIX,clientmetrics-pa.googleapis.com,CDN
 HOST-SUFFIX,cloud.influxdata.com,CDN
@@ -3875,6 +3877,7 @@ HOST-SUFFIX,fonts.net,CDN
 HOST-SUFFIX,forbesimg.com,CDN
 HOST-SUFFIX,forgecdn.net,CDN
 HOST-SUFFIX,fourhoi.com,CDN
+HOST-SUFFIX,frame.claudeusercontent.com,CDN
 HOST-SUFFIX,framercdn.com,CDN
 HOST-SUFFIX,framerstatic.com,CDN
 HOST-SUFFIX,framerusercontent.com,CDN

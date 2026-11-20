@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4791
+# 规则统计: 4793
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -238,6 +238,7 @@ HOST,assets.mayoclinic.org,CDN
 HOST,assets.mcp.corespeed.io,CDN
 HOST,assets.media-platform.com,CDN
 HOST,assets.monei.com,CDN
+HOST,assets.monetizationos.com,CDN
 HOST,assets.monica.im,CDN
 HOST,assets.mozilla.social,CDN
 HOST,assets.msn.com,CDN
@@ -3610,6 +3611,7 @@ HOST-SUFFIX,buildkiteusercontent.com,CDN
 HOST-SUFFIX,bundle.run,CDN
 HOST-SUFFIX,bundle.thimatic-apps.com,CDN
 HOST-SUFFIX,bunnycdn.com,CDN
+HOST-SUFFIX,butterfly-effect-cdn.dev,CDN
 HOST-SUFFIX,bytebucket.org,CDN
 HOST-SUFFIX,bytedapm.com,CDN
 HOST-SUFFIX,c-dn.net,CDN

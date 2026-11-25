@@ -84,70 +84,64 @@
 
 
 
+
 [URL Rewrite]
-^https?://www\.google\.com/search\?q=st\+([^&]+).*$ 302 https://whatshub.top/shadowrocket
-^https?://www\.google\.com/search\?q=ln\+([^&]+).*$ 302 https://whatshub.top/loon
-^https?://www\.google\.com/search\?q=qx\+([^&]+).*$ 302 https://whatshub.top/quantumultx
-^https?://www\.google\.com/search\?q=sg\+([^&]+).*$ 302 https://whatshub.top/surge
-^https?://www\.google\.com/search\?q=sh\+([^&]+).*$ 302 https://whatshub.top/stash
-
-
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
-^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
-^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
-^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
-^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1 302
-^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1 302
-^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
-^https:\/\/duckduckgo.com\/\?q=tt\+([^&]+).+ https://so.toutiao.com/search?keyword=$1 302
-^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search?query=$1 302
-^https:\/\/duckduckgo.com\/\?q=zh\+([^&]+).+ http://www.zhihu.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+ https://s.weibo.com/weibo/$1 302
-^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
-^https:\/\/duckduckgo.com\/\?q=up\+([^&]+).+ https://unsplash.com/s/photos/$1 302
-^https:\/\/duckduckgo.com\/\?q=sspai\+([^&]+).+ https://sspai.com/search/post/$1 302
-^https:\/\/duckduckgo.com\/\?q=ssp\+([^&]+).+ https://www.google.com/search?as_q=$1 302&as_sitesearch=sspai.com
-^https:\/\/duckduckgo.com\/\?q=tw\+([^&]+).+ https://twitter.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=so\+([^&]+).+ https://stackoverflow.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=se\+([^&]+).+ https://stackexchange.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=wa\+([^&]+).+ https://www.wolframalpha.com/input/?i=$1 302
-^https:\/\/duckduckgo.com\/\?q=rd\+([^&]+).+ https://www.reddit.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://search.m.smzdm.com/?v=b&s=$1 302
-^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
-^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.m.taobao.com/h5?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=yt\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
-^https:\/\/duckduckgo.com\/\?q=bli\+([^&]+).+ https://m.bilibili.com/search?keyword=$1 302
-^https:\/\/duckduckgo.com\/\?q=gd\+([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
-^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+ https://t.me/s/gdurl?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
-^https:\/\/duckduckgo.com\/\?q=af\+([^&]+).+ https://www.acfun.cn/search?keyword=$1 302
-^https:\/\/duckduckgo.com\/\?q=ys\+([^&]+).+ https://cupfox.app/search?key=$1 302
-^https:\/\/duckduckgo.com\/\?q=cn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc=
-^https:\/\/duckduckgo.com\/\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc=
-^https:\/\/duckduckgo.com\/\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc=
-^https:\/\/duckduckgo.com\/\?q=us&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc=
-^https:\/\/duckduckgo.com\/\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc=
-^https:\/\/duckduckgo.com\/\?q=kr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc=
-^https:\/\/duckduckgo.com\/\?q=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
-^https:\/\/duckduckgo.com\/\?q=sg&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=sg&urlDesc=
-^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com
-^https:\/\/duckduckgo.com\/\?q=ml\+([^&]+).+ https://meow.tg/private/QuantX/search/$1 302
-^https:\/\/duckduckgo.com\/\?q=tgm\+([^&]+).+ https://meow.tg/search/$1 302
-^https:\/\/duckduckgo.com\/\?q=td\+([^&]+).+ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1 302
-^https:\/\/duckduckgo.com\/\?q=es\+([^&]+).+ https://www.ecosia.org/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
-^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+ https://www.wuzhuiso.com/s?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=gi\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
-^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=ios\+([^&]+).+ https://www.qimai.cn/search/index/search/$1 302
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
-
-
-
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=st(?:\+|%20)([^&]+)(?:&.*)?$ https://whatshub.top/shadowrocket 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=ln(?:\+|%20)([^&]+)(?:&.*)?$ https://whatshub.top/loon 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=qx(?:\+|%20)([^&]+)(?:&.*)?$ https://whatshub.top/quantumultx 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=sg(?:\+|%20)([^&]+)(?:&.*)?$ https://whatshub.top/surge 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=sh(?:\+|%20)([^&]+)(?:&.*)?$ https://whatshub.top/stash 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=bd(?:\+|%20)([^&]+)(?:&.*)?$ https://www.baidu.com/s?wd=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=db(?:\+|%20)([^&]+)(?:&.*)?$ https://m.douban.com/search/?query=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=gh(?:\+|%20)([^&]+)(?:&.*)?$ https://github.com/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=gm(?:\+|%20)([^&]+)(?:&.*)?$ https://www.google.com/search?tbm=isch&q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=yd(?:\+|%20)([^&]+)(?:&.*)?$ https://dict.youdao.com/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=ddg(?:\+|%20)([^&]+)(?:&.*)?$ https://duckduckgo.com/?ia=about&q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=trc(?:\+|%20)([^&]+)(?:&.*)?$ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tre(?:\+|%20)([^&]+)(?:&.*)?$ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=trj(?:\+|%20)([^&]+)(?:&.*)?$ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tt(?:\+|%20)([^&]+)(?:&.*)?$ https://so.toutiao.com/search?keyword=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=zh(?:\+|%20)([^&]+)(?:&.*)?$ https://www.zhihu.com/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=wb(?:\+|%20)([^&]+)(?:&.*)?$ https://s.weibo.com/weibo/$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=wx(?:\+|%20)([^&]+)(?:&.*)?$ https://weixin.sogou.com/weixinwap?query=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=up(?:\+|%20)([^&]+)(?:&.*)?$ https://unsplash.com/s/photos/$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=sspai(?:\+|%20)([^&]+)(?:&.*)?$ https://sspai.com/search/post/$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=ssp(?:\+|%20)([^&]+)(?:&.*)?$ https://www.google.com/search?as_q=$1&as_sitesearch=sspai.com 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tw(?:\+|%20)([^&]+)(?:&.*)?$ https://twitter.com/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=so(?:\+|%20)([^&]+)(?:&.*)?$ https://stackoverflow.com/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=se(?:\+|%20)([^&]+)(?:&.*)?$ https://stackexchange.com/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=wa(?:\+|%20)([^&]+)(?:&.*)?$ https://www.wolframalpha.com/input/?i=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=rd(?:\+|%20)([^&]+)(?:&.*)?$ https://www.reddit.com/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=zdm(?:\+|%20)([^&]+)(?:&.*)?$ https://search.m.smzdm.com/?v=b&s=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=jd(?:\+|%20)([^&]+)(?:&.*)?$ https://so.m.jd.com/ware/search.action?keyword=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tb(?:\+|%20)([^&]+)(?:&.*)?$ https://s.m.taobao.com/h5?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=yt(?:\+|%20)([^&]+)(?:&.*)?$ https://www.youtube.com/results?search_query=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=bli(?:\+|%20)([^&]+)(?:&.*)?$ https://m.bilibili.com/search?keyword=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=gd(?:\+|%20)([^&]+)(?:&.*)?$ https://www.google.com/search?q=%22Google+Drive%22+$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tgd(?:\+|%20)([^&]+)(?:&.*)?$ https://t.me/s/gdurl?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=af(?:\+|%20)([^&]+)(?:&.*)?$ https://www.acfun.cn/search?keyword=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=ys(?:\+|%20)([^&]+)(?:&.*)?$ https://cupfox.app/search?key=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tf(?:\+|%20)([^&]+)(?:&.*)?$ https://www.google.com/search?as_q=$1&as_sitesearch=testflight.apple.com 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=ml(?:\+|%20)([^&]+)(?:&.*)?$ https://meow.tg/private/QuantX/search/$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=mo(?:\+|%20)([^&]+)(?:&.*)?$ https://meow.tg/private/QuantX/search/$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tgm(?:\+|%20)([^&]+)(?:&.*)?$ https://meow.tg/search/$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=td(?:\+|%20)([^&]+)(?:&.*)?$ https://downloadcenter.delta-china.com.cn/DownloadCenter?v=1&q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=es(?:\+|%20)([^&]+)(?:&.*)?$ https://www.ecosia.org/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=wk(?:\+|%20)([^&]+)(?:&.*)?$ https://zh.wikipedia.org/wiki/$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=wz(?:\+|%20)([^&]+)(?:&.*)?$ https://www.wuzhuiso.com/s?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=yh(?:\+|%20)([^&]+)(?:&.*)?$ https://greasyfork.org/zh-CN/scripts?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=gi(?:\+|%20)([^&]+)(?:&.*)?$ https://www.google.com/search?tbm=isch&q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=bi(?:\+|%20)([^&]+)(?:&.*)?$ https://cn.bing.com/search?q=$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=ios(?:\+|%20)([^&]+)(?:&.*)?$ https://www.qimai.cn/search/index/search/$1 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=cn(?:&.*)?$ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=hk(?:&.*)?$ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tw(?:&.*)?$ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc= 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=us(?:&.*)?$ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=jp(?:&.*)?$ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=kr(?:&.*)?$ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc= 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=tr(?:&.*)?$ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?:[^&]*&)*?q=sg(?:&.*)?$ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=sg&urlDesc= 302
+^https?://(?:www\.)?duckduckgo\.com/\?(?![^#]*\bia=about(?:&|$))(?:[^&]*&)*?q=([^&]+)(?:&.*)?$ https://www.google.com/search?q=$1 302
 
 [MITM]
 hostname =  duckduckgo.com,whatshub.top,www.google.com

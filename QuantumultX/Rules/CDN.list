@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4793
+# 规则统计: 4792
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -3879,7 +3879,6 @@ HOST-SUFFIX,fonts.net,CDN
 HOST-SUFFIX,forbesimg.com,CDN
 HOST-SUFFIX,forgecdn.net,CDN
 HOST-SUFFIX,fourhoi.com,CDN
-HOST-SUFFIX,frame.claudeusercontent.com,CDN
 HOST-SUFFIX,framercdn.com,CDN
 HOST-SUFFIX,framerstatic.com,CDN
 HOST-SUFFIX,framerusercontent.com,CDN

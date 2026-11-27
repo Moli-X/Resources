@@ -232,7 +232,6 @@ DOMAIN,assets.mastercard.com
 DOMAIN,assets.matters.news
 DOMAIN,assets.maxon.net
 DOMAIN,assets.mayoclinic.org
-DOMAIN,assets.mcp.corespeed.io
 DOMAIN,assets.media-platform.com
 DOMAIN,assets.monei.com
 DOMAIN,assets.monetizationos.com
@@ -529,6 +528,7 @@ DOMAIN,cdn-public-apis.moonlock.com
 DOMAIN,cdn-public.sociabble.com
 DOMAIN,cdn-raw.modrinth.com
 DOMAIN,cdn-rdstaticassets.readdle.com
+DOMAIN,cdn-resize-prod-com.500px.cloud
 DOMAIN,cdn-seo.airdroid.com
 DOMAIN,cdn-service.jp.sumologic.com
 DOMAIN,cdn-share-sprites.flaticon.com
@@ -869,6 +869,7 @@ DOMAIN,cdn.prod.ext.web.purview.azure.com
 DOMAIN,cdn.prod.www.spiegel.de
 DOMAIN,cdn.promo.capcomusa.com
 DOMAIN,cdn.promotekit.com
+DOMAIN,cdn.protect.clerk.com
 DOMAIN,cdn.prowritingaid.com
 DOMAIN,cdn.quadpay.com
 DOMAIN,cdn.quickemailverification.com
@@ -1332,7 +1333,6 @@ DOMAIN,doppler-config.cbsivideo.com
 DOMAIN,doujin-assets.dmm.co.jp
 DOMAIN,downloads.coindesk.com
 DOMAIN,drop.ndtv.com
-DOMAIN,drscdn.500px.org
 DOMAIN,dynamic-assets.coinbase.com
 DOMAIN,dynamic-cdn.cms.ayoba.me
 DOMAIN,dz2cdn1.dzone.com
@@ -2163,7 +2163,6 @@ DOMAIN,media.giphy.com
 DOMAIN,media.glassdoor.com
 DOMAIN,media.graphassets.com
 DOMAIN,media.hachyderm.io
-DOMAIN,media.hentaifreak.org
 DOMAIN,media.identity.ui.com
 DOMAIN,media.infosec.exchange
 DOMAIN,media.inhumanity.com
@@ -2325,7 +2324,6 @@ DOMAIN,p16-hera-sg.larksuitecdn.com
 DOMAIN,p16-hera-va.larksuitecdn.com
 DOMAIN,p2.bahamut.com.tw
 DOMAIN,pa1.aninoapps.com
-DOMAIN,pacdn.500px.org
 DOMAIN,packages.jetbrains.team
 DOMAIN,panda.dmm.com
 DOMAIN,panel-production-libs.b-cdn.net
@@ -2470,8 +2468,6 @@ DOMAIN,r2.1hanime.com
 DOMAIN,r2.dejavu.moe
 DOMAIN,r2.gear4music.com
 DOMAIN,r2.leadsy.ai
-DOMAIN,r2cdn.c7d.dev
-DOMAIN,r2cdn.corespeed.io
 DOMAIN,r2cdn.myshopline.com
 DOMAIN,r2cdn.perplexity.ai
 DOMAIN,r34xyz.b-cdn.net
@@ -2617,7 +2613,6 @@ DOMAIN,sbl.onfastspring.com
 DOMAIN,scache.vzw.com
 DOMAIN,scache1.vzw.com
 DOMAIN,scache2.vzw.com
-DOMAIN,scdn.clerk.com
 DOMAIN,scdn.line-apps.com
 DOMAIN,schema-cf.bc0a.com
 DOMAIN,scontent.whatsapp.net
@@ -2657,7 +2652,6 @@ DOMAIN,secure-uploads.ui.com
 DOMAIN,secure.beer7live.com
 DOMAIN,secure.fanboy.co.nz
 DOMAIN,secure.telegraph.co.uk
-DOMAIN,segapi.clerk.com
 DOMAIN,segment.digitalocean.com
 DOMAIN,sellon.shiprocket.in
 DOMAIN,sentry.ainopara.com
@@ -2679,7 +2673,6 @@ DOMAIN,share.chessbase.com
 DOMAIN,shell.cdn.office.net
 DOMAIN,shields.rbtlog.dev
 DOMAIN,shots.codepen.io
-DOMAIN,showcase.abovemarket.com
 DOMAIN,sig.grumpybumpers.com
 DOMAIN,sigma9.scpwikicn.com
 DOMAIN,signal.cdnbye.com
@@ -2716,7 +2709,6 @@ DOMAIN,sp.streamlabs.com
 DOMAIN,spcdn.incartupsell.com
 DOMAIN,speedmedia2.jfrog.com
 DOMAIN,spoprod-a.akamaihd.net
-DOMAIN,spotlightimage.biggo.com
 DOMAIN,sprig.figma.com
 DOMAIN,sr-cdn-1.shiprocket.in
 DOMAIN,ss7.vzw.com
@@ -3073,7 +3065,6 @@ DOMAIN,static.wwto.net
 DOMAIN,static.xgroovy.com
 DOMAIN,static.xns.one
 DOMAIN,static.xxxshake.com
-DOMAIN,static.yfsp.tv
 DOMAIN,static.zanmei.ai
 DOMAIN,static.zaobao.com
 DOMAIN,static.zaobao.com.sg
@@ -3297,7 +3288,6 @@ DOMAIN,ui.trailhead.com
 DOMAIN,uim.9uu22.com
 DOMAIN,unavatar.io
 DOMAIN,unleash.codeium.com
-DOMAIN,unlimited-cdn.waifu2x.net
 DOMAIN,unsubscribe-imgs.leavemealone.com
 DOMAIN,uos-support-files.svc.ui.com
 DOMAIN,updates.signal.org

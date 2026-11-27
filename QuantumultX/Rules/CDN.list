@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 4792
+# 规则统计: 4782
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -235,7 +235,6 @@ HOST,assets.mastercard.com,CDN
 HOST,assets.matters.news,CDN
 HOST,assets.maxon.net,CDN
 HOST,assets.mayoclinic.org,CDN
-HOST,assets.mcp.corespeed.io,CDN
 HOST,assets.media-platform.com,CDN
 HOST,assets.monei.com,CDN
 HOST,assets.monetizationos.com,CDN
@@ -532,6 +531,7 @@ HOST,cdn-public-apis.moonlock.com,CDN
 HOST,cdn-public.sociabble.com,CDN
 HOST,cdn-raw.modrinth.com,CDN
 HOST,cdn-rdstaticassets.readdle.com,CDN
+HOST,cdn-resize-prod-com.500px.cloud,CDN
 HOST,cdn-seo.airdroid.com,CDN
 HOST,cdn-service.jp.sumologic.com,CDN
 HOST,cdn-share-sprites.flaticon.com,CDN
@@ -872,6 +872,7 @@ HOST,cdn.prod.ext.web.purview.azure.com,CDN
 HOST,cdn.prod.www.spiegel.de,CDN
 HOST,cdn.promo.capcomusa.com,CDN
 HOST,cdn.promotekit.com,CDN
+HOST,cdn.protect.clerk.com,CDN
 HOST,cdn.prowritingaid.com,CDN
 HOST,cdn.quadpay.com,CDN
 HOST,cdn.quickemailverification.com,CDN
@@ -1335,7 +1336,6 @@ HOST,doppler-config.cbsivideo.com,CDN
 HOST,doujin-assets.dmm.co.jp,CDN
 HOST,downloads.coindesk.com,CDN
 HOST,drop.ndtv.com,CDN
-HOST,drscdn.500px.org,CDN
 HOST,dynamic-assets.coinbase.com,CDN
 HOST,dynamic-cdn.cms.ayoba.me,CDN
 HOST,dz2cdn1.dzone.com,CDN
@@ -2166,7 +2166,6 @@ HOST,media.giphy.com,CDN
 HOST,media.glassdoor.com,CDN
 HOST,media.graphassets.com,CDN
 HOST,media.hachyderm.io,CDN
-HOST,media.hentaifreak.org,CDN
 HOST,media.identity.ui.com,CDN
 HOST,media.infosec.exchange,CDN
 HOST,media.inhumanity.com,CDN
@@ -2328,7 +2327,6 @@ HOST,p16-hera-sg.larksuitecdn.com,CDN
 HOST,p16-hera-va.larksuitecdn.com,CDN
 HOST,p2.bahamut.com.tw,CDN
 HOST,pa1.aninoapps.com,CDN
-HOST,pacdn.500px.org,CDN
 HOST,packages.jetbrains.team,CDN
 HOST,panda.dmm.com,CDN
 HOST,panel-production-libs.b-cdn.net,CDN
@@ -2473,8 +2471,6 @@ HOST,r2.1hanime.com,CDN
 HOST,r2.dejavu.moe,CDN
 HOST,r2.gear4music.com,CDN
 HOST,r2.leadsy.ai,CDN
-HOST,r2cdn.c7d.dev,CDN
-HOST,r2cdn.corespeed.io,CDN
 HOST,r2cdn.myshopline.com,CDN
 HOST,r2cdn.perplexity.ai,CDN
 HOST,r34xyz.b-cdn.net,CDN
@@ -2620,7 +2616,6 @@ HOST,sbl.onfastspring.com,CDN
 HOST,scache.vzw.com,CDN
 HOST,scache1.vzw.com,CDN
 HOST,scache2.vzw.com,CDN
-HOST,scdn.clerk.com,CDN
 HOST,scdn.line-apps.com,CDN
 HOST,schema-cf.bc0a.com,CDN
 HOST,scontent.whatsapp.net,CDN
@@ -2660,7 +2655,6 @@ HOST,secure-uploads.ui.com,CDN
 HOST,secure.beer7live.com,CDN
 HOST,secure.fanboy.co.nz,CDN
 HOST,secure.telegraph.co.uk,CDN
-HOST,segapi.clerk.com,CDN
 HOST,segment.digitalocean.com,CDN
 HOST,sellon.shiprocket.in,CDN
 HOST,sentry.ainopara.com,CDN
@@ -2682,7 +2676,6 @@ HOST,share.chessbase.com,CDN
 HOST,shell.cdn.office.net,CDN
 HOST,shields.rbtlog.dev,CDN
 HOST,shots.codepen.io,CDN
-HOST,showcase.abovemarket.com,CDN
 HOST,sig.grumpybumpers.com,CDN
 HOST,sigma9.scpwikicn.com,CDN
 HOST,signal.cdnbye.com,CDN
@@ -2719,7 +2712,6 @@ HOST,sp.streamlabs.com,CDN
 HOST,spcdn.incartupsell.com,CDN
 HOST,speedmedia2.jfrog.com,CDN
 HOST,spoprod-a.akamaihd.net,CDN
-HOST,spotlightimage.biggo.com,CDN
 HOST,sprig.figma.com,CDN
 HOST,sr-cdn-1.shiprocket.in,CDN
 HOST,ss7.vzw.com,CDN
@@ -3076,7 +3068,6 @@ HOST,static.wwto.net,CDN
 HOST,static.xgroovy.com,CDN
 HOST,static.xns.one,CDN
 HOST,static.xxxshake.com,CDN
-HOST,static.yfsp.tv,CDN
 HOST,static.zanmei.ai,CDN
 HOST,static.zaobao.com,CDN
 HOST,static.zaobao.com.sg,CDN
@@ -3300,7 +3291,6 @@ HOST,ui.trailhead.com,CDN
 HOST,uim.9uu22.com,CDN
 HOST,unavatar.io,CDN
 HOST,unleash.codeium.com,CDN
-HOST,unlimited-cdn.waifu2x.net,CDN
 HOST,unsubscribe-imgs.leavemealone.com,CDN
 HOST,uos-support-files.svc.ui.com,CDN
 HOST,updates.signal.org,CDN

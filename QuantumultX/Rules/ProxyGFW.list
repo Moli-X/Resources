@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7598
+# 规则统计: 7601
 
 HOST,ai.google.dev,ProxyGFW
 HOST,aistudio.google.com,ProxyGFW
@@ -258,6 +258,7 @@ HOST-SUFFIX,ai-wen.net,ProxyGFW
 HOST-SUFFIX,ai.azure.com,ProxyGFW
 HOST-SUFFIX,ai.dev,ProxyGFW
 HOST-SUFFIX,ai.studio,ProxyGFW
+HOST-SUFFIX,aicu.cc,ProxyGFW
 HOST-SUFFIX,aidc.com.tw,ProxyGFW
 HOST-SUFFIX,aihub.top,ProxyGFW
 HOST-SUFFIX,aiosearch.com,ProxyGFW
@@ -1551,6 +1552,7 @@ HOST-SUFFIX,dalianmeng.org,ProxyGFW
 HOST-SUFFIX,daliulian.org,ProxyGFW
 HOST-SUFFIX,danbooru.donmai.us,ProxyGFW
 HOST-SUFFIX,danke4china.net,ProxyGFW
+HOST-SUFFIX,danmakus.com,ProxyGFW
 HOST-SUFFIX,danwei.org,ProxyGFW
 HOST-SUFFIX,daolan.net,ProxyGFW
 HOST-SUFFIX,daozhongxing.org,ProxyGFW
@@ -5746,6 +5748,7 @@ HOST-SUFFIX,southnews.com.tw,ProxyGFW
 HOST-SUFFIX,southpark.cc.com,ProxyGFW
 HOST-SUFFIX,sowers.org.hk,ProxyGFW
 HOST-SUFFIX,soylent.com,ProxyGFW
+HOST-SUFFIX,spacedesk.net,ProxyGFW
 HOST-SUFFIX,spaceforce.mil,ProxyGFW
 HOST-SUFFIX,spaces.hightail.com,ProxyGFW
 HOST-SUFFIX,spacex.com,ProxyGFW
